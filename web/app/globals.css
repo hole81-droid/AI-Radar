@@ -115,6 +115,30 @@ button.primary {
 }
 button.primary:disabled { opacity: 0.5; cursor: default; }
 
+/* 홈 Hero */
+.hero-wrap { max-width: 780px; margin: 0 auto; }
+.hero { text-align: center; padding: 48px 0 28px; }
+.hero h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: -0.02em; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero-sub { color: var(--muted); font-size: 16px; margin: 0 0 30px; }
+.hero-form input { padding: 15px 18px; font-size: 15.5px; }
+.hero .chat-form { margin-top: 0; }
+.hero .chat { text-align: left; }
+button.suggestion {
+  border: 1px solid var(--line); cursor: pointer;
+  font-size: 13.5px; padding: 7px 14px; background: var(--card);
+}
+button.suggestion:hover { background: var(--accent-soft); }
+
+.newsletter-card {
+  display: block; margin-top: 36px; padding: 20px 24px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  color: var(--fg);
+}
+.newsletter-card:hover { text-decoration: none; border-color: var(--accent); }
+.newsletter-card p { margin: 10px 0 6px; color: var(--muted); font-size: 14.5px; }
+.newsletter-card .more { color: var(--accent); font-size: 14px; font-weight: 600; }
+
 /* 로그인 */
 .login-wrap { display: flex; justify-content: center; padding-top: 10vh; }
 .login-card { width: 360px; text-align: center; }

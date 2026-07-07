@@ -16,8 +16,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             📡 AI Radar
           </Link>
           <nav>
-            <Link href="/">뉴스레터</Link>
-            <Link href="/qa">Q&A</Link>
+            <Link href="/">AI Radar 대화하기</Link>
+            <Link href="/newsletter">뉴스레터</Link>
             <Link href="/wiki">위키</Link>
             <Link href="/agent">Agent 연동</Link>
           </nav>
