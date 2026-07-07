@@ -61,7 +61,7 @@
 
 ## 분석 (wiki/analysis/)
 
-(없음)
+- [[llm-wiki-learning-resources]] — Karpathy LLM Wiki 패턴 학습용 영상·자료 추천 (course)
 
 ## 기타
 
