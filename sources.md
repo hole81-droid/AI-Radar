@@ -44,7 +44,7 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 | 채널 | 핸들/URL | 주제 |
 |---|---|---|
 | AI Edge (AIEdgeHQ) | https://www.youtube.com/@AIEdgeHQ | AI 뉴스·도구 |
-| The MIT Monk | https://www.youtube.com/@theMITmonk | AI 트렌드 |
+| The MIT Monk (현 Sandeep Swadia) | https://www.youtube.com/@SandeepSwadia | AI 트렌드 (구 @theMITmonk — 2026-07 개명 확인) |
 | Ben AI | https://www.youtube.com/@BenAI92 | AI 자동화·에이전트 |
 | Liam Ottley | https://www.youtube.com/@LiamOttley | AI 에이전시·비즈니스 |
 | Dan Martell | https://www.youtube.com/@danmartell | SaaS·AI 경영 활용 |
