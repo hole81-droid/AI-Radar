@@ -1,0 +1,37 @@
+---
+type: update
+date: 2026-07-01
+tools: [claude, claude-code]
+importance: high
+uses: [course, ax]
+source: https://www.anthropic.com/news/redeploying-fable-5
+---
+
+# Claude Fable 5 글로벌 복귀 — 그리고 7/7부터 크레딧 과금 전환
+
+## 무엇이 있었나
+
+미국 정부 수출통제로 19일간 전면 중단됐던 Anthropic 최상위 모델 **Claude Fable 5**(및 Claude Mythos 5)가 규제 해제(6/30 발표)로 **7/1부터 전 세계에 다시 배포**됐다. Claude Platform, claude.ai, Claude Code, Claude Cowork에서 이용 가능하다.
+
+- **경위**: 6/12 미국 정부가 Fable 5·Mythos 5에 즉시 발효 수출통제를 부과 — Amazon 연구진이 Fable 5의 세이프가드를 우회해 소프트웨어 취약점을 대량 발굴하는 방법을 찾아낸 보고서가 계기였다. 실시간 국적 확인 수단이 없던 Anthropic은 전 사용자 접근을 중단했었다.
+- **재배포 조건**: 새 사이버보안 분류기(classifier)를 추가해 복귀. Pro·Max·Team·일부 Enterprise 플랜에서 **7/7까지는 주간 사용 한도의 50%까지 무료 포함**, 이후에는 **별도 사용 크레딧**($10/$50 per 백만 토큰, 입력/출력)으로 전환된다.
+
+> ⚠️ 오늘(7/7)이 무료 포함분 마지막 날 — 내일부터 구독만으로는 Fable 5를 쓸 수 없다.
+
+## 왜 중요한가 (비개발자 관점)
+
+- 사상 처음으로 **정부 수출통제가 상용 AI 모델을 중단시켰다 복귀시킨** 사건의 완결편. AI가 반도체처럼 국가 안보 통제 대상이 됐음을 보여준다.
+- 구독자 입장에선 **최고 성능 AI의 요금 구조가 2주 만에 두 번 바뀐** 셈 — "구독에 포함"에서 "종량 크레딧"으로. 최상위 모델은 프리미엄 종량제로 가는 업계 흐름의 신호탄.
+- 중단 기간 중 사용자가 미국 정부를 상대로 소송을 제기하는 등, AI 접근성이 법적 권리 문제로 비화되기도 했다.
+
+## 활용/시사점
+
+- **AX**: 단일 모델 의존 전략의 리스크(규제·요금 변동)를 보여주는 교과서적 사례 — 모델 포트폴리오와 폴백 체계가 필수. Fable 5 상시 사용 조직은 크레딧 예산 편성 필요.
+- **강의**: "AI와 지정학·규제" 주제의 대표 사례. 모델 티어별 과금 구조(구독 vs 크레딧) 설명 소재.
+
+## 출처
+
+- https://www.anthropic.com/news/redeploying-fable-5 (공식 발표)
+- https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it
+- https://9to5mac.com/2026/07/01/claude-fable-5-cleared-to-return-as-us-lifts-anthropics-export-control-restriction/
+- https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/

@@ -39,7 +39,9 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **2026-06-09** — Claude Code / Claude Cowork에서의 마이그레이션 플로 추가. ([changelog](https://developers.openai.com/codex/changelog))
 - **2026-06-16** — EEA·영국·스위스에 Computer Use, Chrome 확장, Memories 등 지역 롤아웃. ([changelog](https://developers.openai.com/codex/changelog))
 - **2026-06-18** — Record & Replay(macOS): 사용자가 시연한 워크플로를 스킬로 변환. ([changelog](https://developers.openai.com/codex/changelog))
-- **2026-06-25** — Codex Remote GA: ChatGPT 앱에서 QR 페어링으로 Mac/Windows 호스트를 모바일 제어. ([changelog](https://developers.openai.com/codex/changelog))
+- **2026-06-25** — Codex Remote GA: ChatGPT 앱에서 QR 페어링으로 Mac/Windows 호스트를 모바일 제어. ([changelog](https://developers.openai.com/codex/changelog)) → [[2026-06-25-openai-codex-remote-ga]]
+- **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 — API·Codex 경유, 미 정부 요청으로 약 20개 파트너 한정. ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)) → [[2026-06-26-openai-gpt-5-6-preview]]
+- **2026-06-29** — 첫 하드웨어 'Codex Micro' 티저 공개: Work Louder 협업 매크로 패드, 2026-07-15 정식 공개 예정. ([9to5Mac](https://9to5mac.com/2026/06/29/openai-teases-codex-branded-hardware-collaboration-coming-heres-what-to-expect/)) → [[2026-06-29-openai-codex-micro-hardware]]
 
 ## 요금제
 

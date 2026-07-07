@@ -48,8 +48,9 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-06-10** — 모델 피커 단순화: Instant / Medium / High / Extra High ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **2026-06-12** — GPT-5.2 퇴역·GPT-5.5로 이관, 메모리 요약 편집·삭제 기능 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **2026-06-17** — Scheduled 페이지 신설(리마인더·반복 작업 관리), Pro의 Pulse 기능 종료 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- **2026-06-25** — Codex Remote 전 요금제 GA ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 시작 / GPT-4.5 퇴역 / 개인 금융 대시보드 Plus(미국) 확대 / 신규 받아쓰기 STT 모델 전 플랜 배포 ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/), [Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
+- **2026-06-22** — Free/Go 광고가 일본·한국에서 라이브 — 광고 파일럿의 아시아 확대 → [[2026-06-22-openai-chatgpt-ads-japan-korea]]
+- **2026-06-25** — Codex Remote 전 요금제 GA ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)) → [[2026-06-25-openai-codex-remote-ga]]
+- **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 시작(미 정부 요청으로 파트너 한정) / GPT-4.5 퇴역 / 개인 금융 대시보드 Plus(미국) 확대 / 신규 받아쓰기 STT 모델 전 플랜 배포 ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/), [Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)) → [[2026-06-26-openai-gpt-5-6-preview]]
 - **2026-07-06** — 워크스페이스 에이전트 무료 기간 종료, 크레딧 기반 과금 시작 ([Business Release Notes](https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes))
 
 ## 활용 포인트

@@ -43,6 +43,9 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-06 W24 (v2.1.166–176)**: `/cd`(캐시 유지 작업 디렉터리 이동), 서브에이전트의 서브에이전트 생성, `--safe-mode`, `fallbackModel` 체인(최대 3개). ([whats-new](https://code.claude.com/docs/en/whats-new))
 - **2026-06 W25 (v2.1.178–183)**: **Artifacts** 베타(Team/Enterprise) — 세션 출력을 claude.ai의 라이브 공유 페이지로. 도구 파라미터 단위 권한 규칙 `Tool(param:value)`. ([whats-new](https://code.claude.com/docs/en/whats-new))
 - **2026-06 W26 (v2.1.185–193)**: `claude mcp login/logout`, 셸 모드가 명령 출력에 응답, `/rewind`가 `/clear` 이전 대화 복원. ([whats-new](https://code.claude.com/docs/en/whats-new))
+- **2026-06-30**: **Claude Sonnet 5** 출시 — Opus 4.8급 에이전트 성능의 중형 모델, Free·Pro 기본 모델로 Claude Code에서도 사용 가능. → [[2026-06-30-claude-sonnet-5]]
+- **2026-07-01 (v2.1.198)**: **Claude in Chrome GA** + 서브에이전트 백그라운드 실행 기본화(작업 완료 시 자동 커밋·푸시·draft PR). → [[2026-07-01-claude-in-chrome-ga]]
+- **2026-07-01**: 수출통제로 중단됐던 **Claude Fable 5**가 Claude Code 포함 전 표면에 복귀. 7/7 이후 무료 포함분 종료, 사용 크레딧 과금으로 전환. → [[2026-07-01-claude-fable-5-global-return]]
 - **2026-07-03 (v2.1.200–201)**: 기본 권한 모드 명칭이 'Manual'로 변경, `AskUserQuestion` 자동 진행 비활성화 등. ([changelog](https://code.claude.com/docs/en/changelog))
 
 ## 활용 포인트
