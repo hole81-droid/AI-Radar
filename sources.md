@@ -51,6 +51,15 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 | Varun Mayya | https://www.youtube.com/@VarunMayya | AI 스타트업·트렌드 |
 | Jeff Su | https://www.youtube.com/@JeffSu | 생산성·AI 툴 활용 |
 
+## RSS 캐시
+
+스캔 에이전트가 해결한 RSS URL을 여기 기록해 재사용한다 (토큰 절약).
+YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
+
+| 소스 | RSS URL |
+|---|---|
+| (첫 스케줄 실행 시 자동 채움) | |
+
 ## X / Instagram
 
 로그인 장벽으로 자동 스캔이 불안정하다. 웹서치로 간접 포착하는 것을 기본으로 하고,
