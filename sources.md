@@ -2,6 +2,9 @@
 
 Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추가·제거한다.
 
+> **수집 최우선**: 모든 소스에서 "AI Tool(Claude Code, Codex 등)로 업무를 자동화하는
+> AI Agent 구축 사례·활용법 강의" 유형을 가장 높은 비중으로 수집한다 (CLAUDE.md 편집 기준 참조).
+
 ## 공식 (최우선 — 릴리스·발표의 원천)
 
 | 소스 | URL | 대상 |
@@ -19,13 +22,19 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 
 ## 커뮤니티
 
-| 소스 | URL | 비고 |
+**접근 방법 (2026-07-07 검증됨)**: www.reddit.com은 curl 차단. **old.reddit.com RSS + 서술형 User-Agent**
+(`-A "ai-radar-wiki:v1.0 (personal knowledge base)"`)는 정상 동작. HN은 Algolia API 사용.
+뉴스레터의 "커뮤니티 화제" 섹션에 커뮤니티 원글 링크로 항목화한다 (미디어 기사로 대체 금지).
+
+| 소스 | 접근 URL | 비고 |
 |---|---|---|
-| r/ClaudeAI | https://www.reddit.com/r/ClaudeAI/top/?t=day | Claude 커뮤니티 반응 |
-| r/OpenAI | https://www.reddit.com/r/OpenAI/top/?t=day | |
-| r/singularity | https://www.reddit.com/r/singularity/top/?t=day | 업계 뉴스 속보 |
-| r/LocalLLaMA | https://www.reddit.com/r/LocalLLaMA/top/?t=day | 오픈소스 동향 |
-| Hacker News | https://news.ycombinator.com | AI 관련 상위 글 |
+| r/ClaudeAI | https://old.reddit.com/r/ClaudeAI/top/.rss?t=day | Claude·Claude Code 활용, 에이전트 사례 多 |
+| r/ChatGPTCoding | https://old.reddit.com/r/ChatGPTCoding/top/.rss?t=day | Codex·코딩 에이전트 활용 |
+| r/AI_Agents | https://old.reddit.com/r/AI_Agents/top/.rss?t=day | 에이전트 구축 사례 (최우선 주제 직결) |
+| r/OpenAI | https://old.reddit.com/r/OpenAI/top/.rss?t=day | |
+| r/singularity | https://old.reddit.com/r/singularity/top/.rss?t=day | 업계 뉴스 속보 |
+| r/LocalLLaMA | https://old.reddit.com/r/LocalLLaMA/top/.rss?t=day | 오픈소스 동향 |
+| Hacker News | https://hn.algolia.com/api/v1/search?tags=front_page (또는 query=claude+agent 등 키워드 검색) | JSON API, 안정적 |
 
 ## YouTube 채널
 
