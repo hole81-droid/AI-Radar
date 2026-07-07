@@ -1,0 +1,127 @@
+:root {
+  --bg: #fafaf8;
+  --fg: #1e1e1c;
+  --muted: #6f6f68;
+  --line: #e6e4dd;
+  --accent: #c2410c;
+  --accent-soft: #fff1e8;
+  --card: #ffffff;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Noto Sans KR", "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.brand { font-weight: 700; font-size: 17px; color: var(--fg); }
+.topbar nav { display: flex; gap: 20px; font-size: 14.5px; }
+.topbar nav a { color: var(--muted); }
+.topbar nav a:hover { color: var(--accent); text-decoration: none; }
+
+main { max-width: 1060px; margin: 0 auto; padding: 32px 24px 80px; }
+
+.layout-2col { display: grid; grid-template-columns: 230px 1fr; gap: 36px; }
+@media (max-width: 800px) { .layout-2col { grid-template-columns: 1fr; } }
+
+.sidebar h3 {
+  font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); margin: 0 0 10px;
+}
+.sidebar ul { list-style: none; margin: 0; padding: 0; }
+.sidebar li { margin: 4px 0; font-size: 14px; }
+.sidebar li.active a { color: var(--fg); font-weight: 600; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 28px 32px;
+}
+
+.page-title { margin: 0 0 4px; font-size: 24px; }
+.page-meta { color: var(--muted); font-size: 13.5px; margin-bottom: 20px; }
+
+.badge {
+  display: inline-block; padding: 1px 8px; border-radius: 20px;
+  background: var(--accent-soft); color: var(--accent);
+  font-size: 12px; margin-right: 6px;
+}
+
+/* 마크다운 본문 */
+.markdown { font-size: 15.5px; }
+.markdown h1 { font-size: 22px; margin-top: 0; }
+.markdown h2 {
+  font-size: 17.5px; margin-top: 32px;
+  padding-bottom: 6px; border-bottom: 1px solid var(--line);
+}
+.markdown h3 { font-size: 15.5px; }
+.markdown li { margin: 5px 0; }
+.markdown li > ul { margin-top: 4px; }
+.markdown input[type="checkbox"] { margin-right: 6px; accent-color: var(--accent); }
+.markdown blockquote {
+  margin: 14px 0; padding: 8px 16px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft); border-radius: 0 8px 8px 0;
+  color: #7c3a12; font-size: 14px;
+}
+.markdown table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; font-size: 14px; }
+.markdown th, .markdown td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+.markdown code {
+  background: #f0efe9; padding: 1px 6px; border-radius: 5px;
+  font-size: 13.5px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+.markdown pre { background: #f0efe9; padding: 14px; border-radius: 8px; overflow-x: auto; }
+.markdown pre code { background: none; padding: 0; }
+.markdown hr { border: none; border-top: 1px solid var(--line); margin: 24px 0; }
+
+/* Q&A */
+.chat { display: flex; flex-direction: column; gap: 14px; }
+.msg { max-width: 85%; padding: 12px 16px; border-radius: 12px; font-size: 15px; }
+.msg.user { align-self: flex-end; background: var(--accent); color: #fff; border-bottom-right-radius: 4px; }
+.msg.assistant { align-self: flex-start; background: var(--card); border: 1px solid var(--line); border-bottom-left-radius: 4px; }
+.msg .sources { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 13px; }
+.msg .sources a { display: inline-block; margin-right: 12px; }
+.chat-form { display: flex; gap: 10px; margin-top: 22px; }
+.chat-form input {
+  flex: 1; padding: 12px 16px; border: 1px solid var(--line);
+  border-radius: 10px; font-size: 15px; background: var(--card);
+}
+.chat-form input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+button.primary {
+  padding: 12px 22px; border: none; border-radius: 10px;
+  background: var(--accent); color: #fff; font-size: 15px; font-weight: 600;
+  cursor: pointer;
+}
+button.primary:disabled { opacity: 0.5; cursor: default; }
+
+/* 로그인 */
+.login-wrap { display: flex; justify-content: center; padding-top: 10vh; }
+.login-card { width: 360px; text-align: center; }
+.login-card input {
+  width: 100%; padding: 12px 16px; margin: 18px 0 12px;
+  border: 1px solid var(--line); border-radius: 10px; font-size: 15px;
+}
+.error { color: #b91c1c; font-size: 14px; }
+
+.hint { color: var(--muted); font-size: 13.5px; }
