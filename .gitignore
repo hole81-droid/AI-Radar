@@ -6,3 +6,4 @@
 
 # 실수로 생성된 중첩 vault (루트를 vault로 다시 열면 삭제 예정)
 AI radar/
+.claude/settings.local.json
