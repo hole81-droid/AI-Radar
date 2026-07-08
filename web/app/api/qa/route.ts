@@ -17,6 +17,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(result);
   } catch (e) {
     console.error("qa error", e);
+    const msg = e instanceof Error ? e.message : "";
+    if (msg.includes("credit balance")) {
+      return NextResponse.json({
+        answer:
+          "Anthropic API 크레딧이 소진되어 Q&A가 일시 중지됐습니다. 관리자에게 알려주세요. (뉴스레터·위키 열람은 정상 동작합니다)",
+        sources: [],
+      });
+    }
     return NextResponse.json(
       { error: "답변 생성 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요." },
       { status: 500 }
