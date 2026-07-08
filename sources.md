@@ -67,7 +67,10 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 
 | 소스 | RSS URL |
 |---|---|
-| (첫 스케줄 실행 시 자동 채움) | |
+| 조코딩 JoCoding | https://www.youtube.com/feeds/videos.xml?channel_id=UCYaDkwVaOhuoe_LuFr3lWkA |
+| AI Edge (AIEdgeHQ) | https://www.youtube.com/feeds/videos.xml?channel_id=UCIU0ZYZk5zngMreRYIbJ0dQ |
+| Jeff Su | https://www.youtube.com/feeds/videos.xml?channel_id=UCWo4IA01TXzBeGJJKWHOG9g |
+| 장피엠·지피터스·kooky0ai·Ben AI·Liam Ottley·Dan Martell·Varun Mayya | 2026-07-08 스캔에서 채널ID 해석 실패(핸들 페이지에서 channelId 메타 미검출) — 다음 스캔에서 재시도 |
 
 ## X / Instagram
 
