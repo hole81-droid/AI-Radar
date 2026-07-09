@@ -19,8 +19,12 @@ function parseFrontmatter(raw) {
     const m = line.match(/^(\w[\w-]*):\s*(.*)$/);
     if (!m) continue;
     let v = m[2].trim();
-    if (v.startsWith("[") && v.endsWith("]")) {
-      v = v.slice(1, -1).split(",").map((s) => s.trim()).filter(Boolean);
+    // 배열 값 — "] " 뒤에 인라인 YAML 주석이 붙어도 배열 부분만 취한다
+    if (v.startsWith("[")) {
+      const close = v.indexOf("]");
+      if (close !== -1) {
+        v = v.slice(1, close).split(",").map((s) => s.trim()).filter(Boolean);
+      }
     }
     meta[m[1]] = v;
   }

@@ -230,6 +230,37 @@ button.tag.on { background: var(--ink); border-color: var(--ink); color: #fff; }
 .error { color: var(--red); font-size: 13.5px; }
 .hint { color: var(--faint); font-size: 13px; }
 
+/* ---------- mobile (≤640px) ---------- */
+@media (max-width: 640px) {
+  .masthead { padding: 12px 16px 0; }
+  .masthead-row { padding-bottom: 8px; gap: 6px 12px; }
+  .wordmark { font-size: 17px; letter-spacing: 0.12em; }
+  .mast-nav { gap: 8px 14px; }
+  .mast-nav a { font-size: 12.5px; padding: 2px 0; }
+  .masthead .ask-btn { padding: 2px 10px; font-size: 12px; }
+
+  main { padding: 0 16px 56px; }
+  .issue-date { font-size: 11px; }
+  .lead { padding: 16px 0 14px; }
+
+  .item-card { padding: 14px; }
+  /* 필드 표: 라벨을 값 위로 쌓는다 — 좁은 화면에서 라벨 열이 본문 폭을 잡아먹지 않게 */
+  .item-fields td { display: block; }
+  .item-fields td:first-child { width: auto; padding: 8px 0 0; }
+  .item-fields tr:first-child td:first-child { padding-top: 2px; }
+  .item-actions { gap: 10px 14px; }
+  .ask-item { padding: 8px 14px; }
+  button.tag { padding: 5px 12px; }
+
+  .chat-frame { height: calc(100dvh - 150px); }
+  .bubble-user { max-width: 88%; }
+  .bubble-ai { max-width: 100%; }
+
+  .login-wrap { padding: 8vh 16px 0; }
+  .login-card { width: 100%; max-width: 360px; padding: 24px 20px; }
+  .footer-inner { padding: 14px 16px 24px; }
+}
+
 /* ---------- footer ---------- */
 .footer { border-top: 3px solid var(--ink); margin-top: 40px; }
 .footer-inner {

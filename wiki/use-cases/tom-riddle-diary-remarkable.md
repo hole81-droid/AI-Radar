@@ -1,7 +1,7 @@
 ---
 type: use-case
 date: 2026-07-06
-tools: []                      # 커스텀 Rust 앱 (기성 도구 아님 — LLM 백엔드는 model 필드 참고)
+tools: []
 mechanism: [cli-pipeline]
 domain: personal-productivity
 task: 전자잉크 태블릿(reMarkable Paper Pro)의 손글씨를 비전 LLM과의 대화 인터페이스로 전환 — 쓰면 사라지고 AI가 필기체로 답장

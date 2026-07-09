@@ -34,6 +34,14 @@
 `.src-chips` `.chat-inputbar` — 채팅 / `.panel` `.panel-overlay` — 패널 /
 `.tag` `.tag-red` `.btn` `.btn-red` `.meta-strip` `.article` — 공용.
 
+## 반응형 (모바일 ≤640px)
+- 모바일 규칙은 globals.css 말미의 `@media (max-width: 640px)` 블록 **한 곳**에 모은다
+  (그리드 축소 640/700/800px 분기점만 예외).
+- 마스트헤드는 2줄 이내로 압축(작은 워드마크·타이트한 네비 간격). 질문 버튼은 네비와 같은 줄.
+- `.item-fields`는 라벨을 값 위로 적층(테이블 셀 block 전환). 그리드(`.item-grid`
+  `.archive-grid`)는 1열. 패널은 전폭(100vw). 터치 타깃은 버튼 패딩을 키워 확보.
+- 본문 좌우 여백 16px, 리드 헤드라인 24px.
+
 ## Do / Don't
 - Do: 항목 사이는 헤어라인, 단락 사이는 잉크 룰. 여백보다 괘선으로 위계를 만든다.
 - Do: 새 화면도 위 클래스 어휘를 재사용 — 인라인 스타일은 레이아웃 미세조정만.
