@@ -49,11 +49,20 @@
 - [[2026-06-23-swarm-multi-agent-email-task]] — 이메일→작업 전환 멀티 에이전트 관제탑 (medium)
 - [[2026-06-26-agentkits-60-blueprints]] — 에이전트 설계도 60종 무료 공개 (medium)
 
+### 백필 05-09~05-29
+- [[2026-05-09-openai-codex-safe-deployment-governance]] — Codex 사내 안전 배포(샌드박스+승인정책+AI 트리아지) (medium)
+- [[2026-05-12-claude-for-legal]] — 법률 업계 전용 플러그인, 대형 로펌 실사건 투입 (medium)
+- [[2026-05-13-claude-for-small-business]] — 소상공인 전용 워크플로우 패키지 (medium)
+- [[2026-05-16-claude-computer-browser-use-best-practices]] — Computer Use 실전 튜닝 가이드 (medium)
+- [[2026-05-27-robinhood-ai-agent-trading]] — AI 에이전트 자동 주식매매 기능 (medium)
+- [[2026-05-29-h5i-agent-radio-git-collaboration]] — Git 기반 멀티 에이전트 실시간 협업 도구 (low)
+
 ## 개념 (wiki/concepts/)
 
 - [[citizen-development]] — 현업이 AI로 사내 도구를 직접 만드는 흐름 (high)
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
 - [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영 (medium)
+- [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
 
 ## 회사·인물 (wiki/players/)
 
@@ -64,9 +73,11 @@
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
 - [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별) — 케이스 질의는 여기부터
-- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]]
+- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]]
-- 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25)
+- 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]]
+- 보안·운영: [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배)
+- 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]]
 - HR: [[jocoding-ax-series-pwc-samil]]
 
@@ -74,9 +85,10 @@
 
 - [[llm-wiki-learning-resources]] — Karpathy LLM Wiki 패턴 학습용 영상·자료 추천 (course)
 - [[coding-agent-terminal-harness-comparison]] — Claude Code·goose·OpenCode·Pi 실전 비교 (course, ax)
+- [[alphaevolve-gemini-coding-agent-impact-roundup]] — Gemini 기반 알고리즘 발견 에이전트 산업 임팩트 (course, ax)
 
 ## 기타
 
 - [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-03, 19건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-08]] · 06-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-08]] · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

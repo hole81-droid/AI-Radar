@@ -20,6 +20,8 @@ uses: [course, ax]
 
 - [[ai-radar-daily-scan-pipeline]] — ★실측 벤치마크 케이스. Claude Code로 cron+서브에이전트(sonnet/low)를 활용해 매일 AI 뉴스 스캔·뉴스레터 작성을 무인 수행 → 회당 약 $0.15~0.30·5~9분 (실측 토큰 기반, 이 저장소가 원본)
 - [[angstrom-claude-code-gpu-experiments]] — Claude Code로 anycloud CLI(멀티클라우드 스팟 GPU 오케스트레이션)를 활용해 소재과학 10만 GPU 실험을 무인 수행 → 결과 모델 DFT 대비 1만 배 속도, Meta 모델 능가 (자체 보고)
+- [[wiki-builder-claude-code-llm-wiki]] — Claude Code 플러그인(스캐폴딩+SKILL.md)으로 LLM 지식베이스 구축·유지보수 전 루프를 수행 → 벡터DB 없이 순수 마크다운 기반 자가 유지보수 (주장)
+- [[track-hanta-claude-opus-monitoring-tracker]] — Claude Opus 4.7로 다중 소스 수집·요약 파이프라인을 활용해 공공 보건(한타바이러스) 실시간 모니터링을 수행 → 개인 프로젝트 자동 운영 (일화)
 
 ## 개발 자동화 (dev-automation)
 
@@ -31,6 +33,16 @@ uses: [course, ax]
 - [[three-agents-nonstop-beads-worktree]] — Claude·Codex·Opencode+로컬 Qwen으로 Beads+Git worktree를 활용해 코딩 작업 3일 무인 병렬 개발을 수행 → 3일 논스톱 운영 지속 (자기 보고)
 - [[openai-codex-maxxing-25-hour]] — Codex(GPT-5.1-Codex-Max)로 지속 스레드+목표 분할을 활용해 대형 개발 작업 장시간 자율 수행을 수행 → 25시간 연속, 3만 줄 코드 생성 (공식 발표)
 - [[simon-willison-claude-release-qa]] — ★실측 벤치마크 케이스. Claude Code(서브에이전트)+GPT-5.5 교차검증으로 오픈소스 릴리스 전 QA를 수행 → 버그 7건 발견, 실측 비용 $149.25
+- [[onepassword-claude-agents-monolith-refactor]] — 자체 에이전틱 툴체인(코드분석+추출순서+결정론적 실행)으로 수백만 라인 Go 모놀리스 서비스 분해를 수행 → 전체 20~30% 개선, 명세 밖 문제는 표면화만 (실측)
+- [[claude-managed-agents-dreaming-outcomes-orchestration]] — Claude Managed Agents(드리밍+아웃컴즈+오케스트레이션)로 에이전트 팀 자가개선·품질평가·병렬분업 운영을 수행 → 아웃컴즈 문서품질 8~10% 향상 (자체 발표)
+
+## 보안·운영 (ops)
+
+- [[mozilla-claude-mythos-firefox-vulnerability-detection]] — ★실측 벤치마크 케이스. Claude Mythos로 조종·확장·적층 탐지 파이프라인을 활용해 Firefox 코드베이스 보안 취약점 자동 탐지를 수행 → 월간 보안 수정 20~30건→423건, 약 14배 (실측)
+
+## 금융 (finance)
+
+- [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
 
 ## 개인 생산성 (personal-productivity)
 
@@ -44,9 +56,12 @@ uses: [course, ax]
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
 
 ---
-*벤치마크 요약: 18건 중 모델·비용·권한 3필드 전부 확인 2건
+*벤치마크 요약: 24건 중 모델·비용·권한 3필드 전부 확인 2건
 ([[ai-radar-daily-scan-pipeline]] 실측·자기참조, [[gemini-spark-claude-cowork-routing]]).
-모델·비용 2필드까지 확인된 케이스 1건 추가: [[simon-willison-claude-release-qa]] (실측 $149.25,
-권한만 미확인). [[ai-radar-daily-scan-pipeline]]과 [[simon-willison-claude-release-qa]]는
-독자가 직접 검증 가능한 실측 케이스로, 에이전트 비용 산정의 기준점(anchor)이다. 나머지 외부
-케이스의 수치 실측 검증이 다음 과제.*
+모델·비용 2필드까지 확인된 케이스 1건: [[simon-willison-claude-release-qa]] (실측 $149.25,
+권한만 미확인). 모델 필드만 확인된 실측 성과 케이스 2건 추가: [[mozilla-claude-mythos-firefox-vulnerability-detection]](14배),
+[[openai-thrive-tax-ai-self-improving]](97%·50%↑·180h→15h) — 둘 다 비용·권한은 미확인이지만
+성과 수치 자체는 다수 매체·공식 발표로 교차 확인된 실측(measured) 케이스다.
+[[ai-radar-daily-scan-pipeline]]과 [[simon-willison-claude-release-qa]]는 독자가 직접 검증
+가능한 유일한 완전 실측 케이스로, 에이전트 비용 산정의 기준점(anchor)이다. 나머지 외부 케이스의
+수치 실측 검증이 다음 과제.*
