@@ -84,3 +84,34 @@ export function parseIssueBody(body: string): ParsedIssue {
 
   return { headline, sections, ax, fallback: headline.length === 0 && sections.length === 0 };
 }
+
+export type WikiPageLite = { slug: string; title: string; meta: Record<string, unknown> };
+
+function tokens(text: string): string[] {
+  return text
+    .toLowerCase()
+    .split(/[\s.,!?;:()\[\]{}"'`~<>|/\\*#+=—·•-]+/)
+    .filter((t) => t.length >= 2);
+}
+
+export function matchWiki(item: IssueItem, pages: WikiPageLite[]): WikiPageLite | undefined {
+  for (const link of item.links) {
+    const hit = pages.find((p) => {
+      const src = p.meta.source;
+      return typeof src === "string" && src.startsWith("http") &&
+        (link.url.startsWith(src) || src.startsWith(link.url));
+    });
+    if (hit) return hit;
+  }
+  const itemTokens = new Set(tokens(item.title));
+  let best: WikiPageLite | undefined;
+  let bestScore = 0;
+  for (const p of pages) {
+    const pt = tokens(p.title);
+    if (pt.length === 0) continue;
+    const overlap = pt.filter((t) => itemTokens.has(t)).length;
+    const score = overlap / pt.length;
+    if (overlap >= 2 && score > bestScore) { best = p; bestScore = score; }
+  }
+  return bestScore >= 0.5 ? best : undefined;
+}
