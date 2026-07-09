@@ -131,12 +131,16 @@ export async function* streamAnswer(turns: ChatTurn[]): AsyncGenerator<StreamEve
   const hits = searchWiki(question, MAX_PAGES + 2);
   const { text: context, sources } = contextFor(hits);
 
+  // 최근 12턴만 보내되, 창이 assistant로 시작하면 안 된다(Messages API는 첫 메시지가 user여야 함).
+  let window = turns.slice(-12);
+  while (window.length && window[0].role !== "user") window = window.slice(1);
+
   const client = new Anthropic();
   const stream = client.messages.stream({
     model: "claude-sonnet-5",
     max_tokens: 4000,
     system: buildSystem(context),
-    messages: turns.slice(-12),
+    messages: window,
   });
 
   for await (const event of stream) {

@@ -55,22 +55,22 @@ export default function IssueView({ issue }: { issue: Issue }) {
       )}
 
       {issue.sections.map((section, si) => (
-        <section key={section.title}>
+        <section key={`${si}-${section.title}`}>
           <div className={`section-head ${si > 0 ? "rule-1" : ""}`}>
             <span className="section-no num">{String(si + 1).padStart(2, "0")}</span>
             <span className="label">{section.title}</span>
           </div>
 
           {section.kind === "agent" ? (
-            section.items.map((item) => (
-              <div className="item-card" key={item.title}>
+            section.items.map((item, ii) => (
+              <div className="item-card" key={ii}>
                 <p className="item-title">{item.title}</p>
                 {item.summary && <p className="item-summary">{item.summary}</p>}
                 {item.fields.length > 0 && (
                   <table className="item-fields">
                     <tbody>
-                      {item.fields.map((f) => (
-                        <tr key={f.label}>
+                      {item.fields.map((f, fi) => (
+                        <tr key={fi}>
                           <td>{f.label}</td>
                           <td>{f.value}</td>
                         </tr>
@@ -83,8 +83,8 @@ export default function IssueView({ issue }: { issue: Issue }) {
             ))
           ) : (
             <div className="item-grid">
-              {section.items.map((item) => (
-                <div className="grid-item" key={item.title}>
+              {section.items.map((item, ii) => (
+                <div className="grid-item" key={ii}>
                   <p className="item-title" style={{ fontSize: 14 }}>{item.title}</p>
                   {item.summary && <p className="item-summary">{item.summary}</p>}
                   <ItemActions item={item} issue={issue} section={section} />

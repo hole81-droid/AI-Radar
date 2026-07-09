@@ -40,11 +40,13 @@ export default function ChatThread({
     if (list[0]?.messages.length) setCurrent(list[0]);
   }, []);
 
-  const persist = useCallback((conv: Conversation) => {
+  // save=false: 스트리밍 델타마다 화면만 갱신(토큰마다 localStorage 직렬화 방지).
+  // save=true: 사용자 턴 확정·응답 완료 시점에만 디스크에 기록.
+  const persist = useCallback((conv: Conversation, save = true) => {
     setCurrent(conv);
     setConversations((list) => {
       const next = upsertConversation(list, conv);
-      saveConversations(next);
+      if (save) saveConversations(next);
       return next;
     });
   }, []);
@@ -69,11 +71,11 @@ export default function ChatThread({
     };
     persist(conv);
 
-    const patchLast = (patch: Partial<ChatMsg>) => {
+    const patchLast = (patch: Partial<ChatMsg>, save = false) => {
       const msgs = [...conv.messages];
       msgs[msgs.length - 1] = { ...msgs[msgs.length - 1], ...patch };
       conv = { ...conv, messages: msgs, updatedAt: Date.now() };
-      persist(conv);
+      persist(conv, save);
     };
 
     try {
@@ -104,17 +106,19 @@ export default function ChatThread({
           const evt = JSON.parse(data);
           if (evt.type === "text") {
             acc += evt.text;
-            patchLast({ content: acc });
+            patchLast({ content: acc }); // save=false: 화면만 갱신
           } else if (evt.type === "sources") {
-            patchLast({ sources: evt.sources });
+            patchLast({ sources: evt.sources }, true);
           } else if (evt.type === "error") {
-            patchLast({ content: acc ? `${acc}\n\n${evt.message}` : evt.message });
+            patchLast({ content: acc ? `${acc}\n\n${evt.message}` : evt.message }, true);
           }
         }
       }
     } catch {
-      patchLast({ content: "네트워크 오류가 발생했습니다. 다시 시도해 주세요." });
+      patchLast({ content: "네트워크 오류가 발생했습니다. 다시 시도해 주세요." }, true);
     } finally {
+      // 스트림이 sources 없이 끝난 경우에도 최종 상태를 디스크에 남긴다.
+      persist(conv, true);
       setBusy(false);
     }
   }, [busy, persist]);
@@ -127,7 +131,14 @@ export default function ChatThread({
   }, [pendingQuestion, onConsumePending, send]);
 
   function startNew() {
+    if (busy) return;
     setCurrent(newConversation());
+  }
+
+  function switchTo(c: Conversation, details: HTMLDetailsElement | null) {
+    if (busy) return;
+    setCurrent(c);
+    if (details) details.open = false;
   }
 
   return (
@@ -145,14 +156,12 @@ export default function ChatThread({
                 {conversations.map((c) => (
                   <button
                     key={c.id}
-                    onClick={(e) => {
-                      setCurrent(c);
-                      (e.currentTarget.closest("details") as HTMLDetailsElement).open = false;
-                    }}
+                    disabled={busy}
+                    onClick={(e) => switchTo(c, e.currentTarget.closest("details"))}
                     style={{
                       display: "block", width: "100%", textAlign: "left", padding: "8px 12px",
                       background: "none", border: "none", borderBottom: "1px solid var(--hairline)",
-                      fontSize: 12.5, cursor: "pointer", fontFamily: "inherit",
+                      fontSize: 12.5, cursor: busy ? "default" : "pointer", fontFamily: "inherit",
                     }}
                   >
                     {c.title}
