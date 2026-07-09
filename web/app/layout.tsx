@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import ChatPanelHost, { AskOpenButton } from "./components/ChatPanelHost";
 
 export const metadata: Metadata = {
   title: "AI Radar",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/cases">케이스</Link>
               <Link href="/wiki">위키</Link>
               <Link href="/chat">대화</Link>
+              <AskOpenButton />
             </nav>
           </div>
           <div className="rule-3" />
@@ -34,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </nav>
           </div>
         </footer>
+        <ChatPanelHost />
       </body>
     </html>
   );
