@@ -21,6 +21,8 @@
 - **형태**: 라운드·그림자·그라데이션 금지. 컨트롤은 각진 사각형. 링크는 `.ln`(밑줄) 또는
   레드 텍스트.
 - **다크모드 없음** — 종이 컨셉 고정.
+- **본문 텍스트의 " — "는 표시 시점에 ": "로 다듬는다** (`issue-parser.ts`의 `prettify` —
+  뉴스레터 원본은 그대로 두고 렌더만 바꾼다).
 
 ## 타이포
 - Pretendard 계열 산세리프 단일 체계. 본문 16px/1.7 `--body`.
@@ -30,6 +32,7 @@
 ## 컴포넌트 어휘 (globals.css 클래스)
 `.masthead` `.wordmark` `.ask-btn` — 상단 / `.issue-strip` `.lead` `.section-head`
 `.item-card` `.item-fields` `.item-grid` `.ax-box` `.issue-foot` — 이슈 /
+`.yt-thumb`(YouTube 썸네일) `.fields-more`(방법·포인트 접기) — 이슈 상세 /
 `.archive-grid` `.archive-card` — 아카이브 / `.chat-frame` `.bubble-user` `.bubble-ai`
 `.src-chips` `.chat-inputbar` — 채팅 / `.panel` `.panel-overlay` — 패널 /
 `.tag` `.tag-red` `.btn` `.btn-red` `.meta-strip` `.article` — 공용.

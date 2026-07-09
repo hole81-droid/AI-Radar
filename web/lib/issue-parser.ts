@@ -27,6 +27,19 @@ const KIND_RULES: [RegExp, SectionKind][] = [
 
 const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
 
+// 표시용 다듬기 — 문장 사이 em dash를 콜론으로 (2026-07-09 사용자 지정: "—"는 가독성이 떨어짐)
+export function prettify(text: string): string {
+  return text.replace(/\s+—\s+/g, ": ");
+}
+
+// YouTube 링크 → 영상 ID (썸네일용). 못 찾으면 undefined.
+export function youtubeId(url: string): string | undefined {
+  const m = url.match(
+    /(?:youtube\.com\/(?:watch\?(?:[^#]*&)?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{6,})/
+  );
+  return m?.[1];
+}
+
 function parseItems(content: string): IssueItem[] {
   const chunks = content.split(/\n(?=- \[[ x]\] )/).filter((c) => c.startsWith("- ["));
   return chunks.map((chunk) => {
@@ -41,17 +54,19 @@ function parseItems(content: string): IssueItem[] {
       links.push({ label, url });
       return "";
     });
-    const summary = rest
-      .replace(/^\s*[—–-]\s*/, "")
-      .replace(/[\s·]+$/g, "")
-      .trim();
+    const summary = prettify(
+      rest
+        .replace(/^\s*[—–-]\s*/, "")
+        .replace(/[\s·]+$/g, "")
+        .trim()
+    );
 
     const fields: IssueItem["fields"] = [];
     for (const line of lines.slice(1)) {
       const m = line.match(/^\s+-\s+\*\*(.+?)\*\*:\s*(.*)$/);
-      if (m) fields.push({ label: m[1].trim(), value: m[2].trim() });
+      if (m) fields.push({ label: m[1].trim(), value: prettify(m[2].trim()) });
     }
-    return { title, summary, links, fields };
+    return { title: prettify(title), summary, links, fields };
   });
 }
 
@@ -68,12 +83,12 @@ export function parseIssueBody(body: string): ParsedIssue {
     if (/헤드라인/.test(rawTitle)) {
       headline = content
         .split(/\n+/)
-        .map((s) => s.trim())
+        .map((s) => prettify(s.trim()))
         .filter((s) => s && !s.startsWith("("));
       continue;
     }
     if (/AX/.test(rawTitle)) {
-      ax = content.split(/\n---/)[0].trim();
+      ax = prettify(content.split(/\n---/)[0].trim());
       continue;
     }
     const title = rawTitle.replace(/\s*★.*$/, "").trim();

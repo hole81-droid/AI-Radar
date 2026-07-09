@@ -67,3 +67,24 @@ test("템플릿이 아니면 fallback을 세운다", () => {
   const r = parseIssueBody("# 제목\n\n그냥 산문입니다.");
   assert.equal(r.fallback, true);
 });
+
+test("prettify: 문장 사이 em dash를 콜론으로 바꾼다", async () => {
+  const { prettify } = await import("../lib/issue-parser");
+  assert.equal(prettify("매출 역전 — 판도가 뒤집혔다"), "매출 역전: 판도가 뒤집혔다");
+  assert.equal(prettify("범위 $25~33B는 유지"), "범위 $25~33B는 유지");
+});
+
+test("파싱된 제목·요약에도 prettify가 적용된다", () => {
+  const r = parseIssueBody(`# t\n\n## 빅 뉴스\n\n- [ ] **Codex 패널 — 예약 업무** — 트리거 없이 실행 — 자동으로. [A](https://a.com)\n`);
+  const item = r.sections[0].items[0];
+  assert.equal(item.title, "Codex 패널: 예약 업무");
+  assert.equal(item.summary, "트리거 없이 실행: 자동으로.");
+});
+
+test("youtubeId: watch·shorts·youtu.be에서 ID를 뽑는다", async () => {
+  const { youtubeId } = await import("../lib/issue-parser");
+  assert.equal(youtubeId("https://www.youtube.com/watch?v=3lYjaPm5FwA"), "3lYjaPm5FwA");
+  assert.equal(youtubeId("https://www.youtube.com/shorts/XY-Fxq47QIA"), "XY-Fxq47QIA");
+  assert.equal(youtubeId("https://youtu.be/abc123def"), "abc123def");
+  assert.equal(youtubeId("https://example.com/article"), undefined);
+});

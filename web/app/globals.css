@@ -92,10 +92,11 @@ main { max-width: 1020px; margin: 0 auto; padding: 0 24px 72px; }
 @media (max-width: 640px) { .lead h1 { font-size: 24px; } }
 
 .section-head {
-  display: flex; align-items: baseline; gap: 10px;
-  padding: 12px 0 0; margin-top: 8px;
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 14px 0 0; margin-top: 10px;
 }
-.section-no { font-size: 15px; font-weight: 600; color: var(--red); }
+.section-no { font-size: 20px; font-weight: 700; color: var(--red); letter-spacing: 0.02em; }
+.section-head .label { font-size: 12px; }
 
 .item-card { border: 1px solid var(--hairline); padding: 16px 18px; margin-top: 12px; }
 .item-card + .item-card { margin-top: -1px; }
@@ -107,6 +108,22 @@ main { max-width: 1020px; margin: 0 auto; padding: 0 24px 72px; }
   color: var(--faint); width: 92px; letter-spacing: 0.06em; font-size: 12px;
   padding-right: 10px; white-space: nowrap;
 }
+/* 접이식 상세 필드 (방법·포인트) — 카드 기본 밀도를 낮춘다 */
+.fields-more { margin-top: 6px; }
+.fields-more summary {
+  font-size: 12px; color: var(--red); cursor: pointer;
+  letter-spacing: 0.06em; list-style: none; user-select: none;
+}
+.fields-more summary::-webkit-details-marker { display: none; }
+.fields-more summary::before { content: "+ "; }
+.fields-more[open] summary::before { content: "− "; }
+
+/* YouTube 썸네일 — 매거진의 사진 지면 역할 */
+.yt-thumb {
+  width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;
+  border: 1px solid var(--hairline); margin: 2px 0 10px;
+}
+
 .item-actions { display: flex; gap: 16px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
 .item-actions a, .item-actions span.src { font-size: 12.5px; }
 .ask-item {

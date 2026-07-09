@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { pages } from "@/lib/content";
 import CaseExplorer, { type CaseItem } from "./CaseExplorer";
 
@@ -33,7 +34,10 @@ export default function CasesPage() {
 
   return (
     <div>
-      <h1 className="page-title">에이전트·자동화 케이스</h1>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 16, flexWrap: "wrap" }}>
+        <h1 className="page-title">에이전트·자동화 Use Case</h1>
+        <Link href="/wiki" className="ln" style={{ fontSize: 12.5 }}>위키 카탈로그 →</Link>
+      </div>
       <p className="page-meta">
         도구 × 방식 × 업무 × 성과로 구조화된 실전 사례. 카드를 누르면 아키텍처·벤치마크·재현
         가이드가 담긴 상세 페이지로 이동합니다.
