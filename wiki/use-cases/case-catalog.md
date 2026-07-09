@@ -16,6 +16,10 @@ uses: [course, ax]
 - [[suki-nondev-claude-code-automation]] — Claude Code(+크롬 확장)로 스킬 3파일 구성을 활용해 비개발자 콘텐츠·문서 업무를 수행 → "밤샘급" 업무 자동 완료, 강의 상품화 (주장)
 - [[varun-mayya-5-ai-apps-500-person-company]] — AI 사내 앱 5종(vibe-coding)으로 500명 미디어 기업 영상 제작 전 과정을 수행 → 더빙 3배, 월 1,000+ 아바타 영상 (주장)
 
+## 리서치 (research)
+
+- [[ai-radar-daily-scan-pipeline]] — ★실측 벤치마크 케이스. Claude Code로 cron+서브에이전트(sonnet/low)를 활용해 매일 AI 뉴스 스캔·뉴스레터 작성을 무인 수행 → 회당 약 $0.15~0.30·5~9분 (실측 토큰 기반, 이 저장소가 원본)
+
 ## 개발 자동화 (dev-automation)
 
 - [[agent-loops-daily-pr-review]] — Claude Code+Codex로 cron 루프+전담 서브에이전트를 활용해 일일 PR 전수 검토·주간 스킬 생성을 수행 → Firefox 한 달 423건 보안 수정 (주장)
@@ -34,6 +38,7 @@ uses: [course, ax]
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
 
 ---
-*벤치마크 요약: 12건 중 실측(measured) 1건 · 주장(claimed) 다수 — evidence 필드로 구분됨.
-모델·비용·권한 3필드 모두 확인된 케이스는 [[gemini-spark-claude-cowork-routing]] 1건.
-수치의 실측 검증이 이 카탈로그의 다음 개선 과제다.*
+*벤치마크 요약: 13건 중 모델·비용·권한 3필드 전부 확인 2건
+([[ai-radar-daily-scan-pipeline]] 실측·자기참조, [[gemini-spark-claude-cowork-routing]]).
+[[ai-radar-daily-scan-pipeline]]은 독자가 저장소에서 직접 검증 가능한 유일한 실측 케이스로,
+에이전트 비용 산정의 기준점(anchor)이다. 외부 케이스의 수치 실측 검증이 다음 과제.*
