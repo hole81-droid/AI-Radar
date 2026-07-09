@@ -60,7 +60,7 @@ export async function answerQuestion(question: string): Promise<QaResult> {
   const client = new Anthropic();
   const response = await client.messages.create({
     model: "claude-sonnet-5",
-    max_tokens: 1200,
+    max_tokens: 4000,
     system: [
       "당신은 'AI Radar' 위키의 사서다. 팀원의 최신 AI 트렌드 질문에 위키 내용을 근거로 한국어로 답한다.",
       "규칙:",
@@ -75,10 +75,15 @@ export async function answerQuestion(question: string): Promise<QaResult> {
     messages: [{ role: "user", content: question }],
   });
 
-  const answer = response.content
+  let answer = response.content
     .filter((b): b is Anthropic.TextBlock => b.type === "text")
     .map((b) => b.text)
     .join("\n");
+
+  if (response.stop_reason === "max_tokens") {
+    answer +=
+      "\n\n*(답변이 길이 제한에 걸려 여기서 잘렸습니다 — 범위를 좁혀 다시 질문해 주세요.)*";
+  }
 
   return { answer, sources };
 }
