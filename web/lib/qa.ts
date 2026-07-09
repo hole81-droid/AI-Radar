@@ -44,7 +44,7 @@ function contextFor(hits: SearchHit[]): { text: string; sources: QaResult["sourc
   for (const hit of hits.slice(0, MAX_PAGES)) {
     const page = hit.type === "wiki" ? getPage(hit.slug) : getNewsletter(hit.slug);
     if (!page) continue;
-    const href = hit.type === "wiki" ? `/wiki/${hit.slug}` : `/newsletter/${hit.slug}`;
+    const href = hit.type === "wiki" ? `/wiki/${hit.slug}` : `/issues/${hit.slug}`;
     sources.push({ title: hit.title, href });
     parts.push(
       `<page slug="${hit.slug}" title="${hit.title}">\n${page.body.slice(0, MAX_CONTEXT_CHARS)}\n</page>`
@@ -75,21 +75,7 @@ export async function answerQuestion(question: string): Promise<QaResult> {
   const response = await client.messages.create({
     model: "claude-sonnet-5",
     max_tokens: 4000,
-    system: [
-      "당신은 'AI Radar' 위키의 사서다. 팀원의 최신 AI 트렌드 질문에 위키 내용을 근거로 한국어로 답한다.",
-      "규칙:",
-      "- 제공된 위키 페이지 내용만 근거로 답하고, 근거가 된 페이지 제목을 답변에 자연스럽게 언급한다.",
-      "- 위키에 없는 내용은 추측하지 말고 '위키에 아직 수집되지 않았다'고 답한다.",
-      "- 간결하게: 핵심 답 → 필요한 보충 순서. 불릿은 필요할 때만.",
-      "",
-      "아래는 위키의 인덱스(전체 목차), 에이전트·자동화 케이스 카탈로그, 그리고 질문과 관련해 검색된 페이지들이다.",
-      "케이스 카탈로그는 '도구로 방식을 활용해 업무를 수행 → 성과' 공식으로 정리되어 있다.",
-      "강의 소재·자동화 사례·AX 근거 질문에는 카탈로그에서 조건에 맞는 케이스를 고르고,",
-      "벤치마크(모델·비용·권한)를 함께 제시하라. '미확인' 필드는 미확인이라고 정직하게 말하라.",
-      `<index>\n${wikiIndex.slice(0, 3000)}\n</index>`,
-      `<case-catalog>\n${caseCatalog()}\n</case-catalog>`,
-      context ? context : "(검색된 페이지 없음)",
-    ].join("\n"),
+    system: buildSystem(context),
     messages: [{ role: "user", content: question }],
   });
 
@@ -104,4 +90,63 @@ export async function answerQuestion(question: string): Promise<QaResult> {
   }
 
   return { answer, sources };
+}
+
+export type ChatTurn = { role: "user" | "assistant"; content: string };
+export type StreamEvent =
+  | { type: "text"; text: string }
+  | { type: "sources"; sources: QaResult["sources"] }
+  | { type: "error"; message: string };
+
+function buildSystem(context: string): string {
+  return [
+    "당신은 'AI Radar' 위키의 사서다. 팀원의 최신 AI 트렌드 질문에 위키 내용을 근거로 한국어로 답한다.",
+    "규칙:",
+    "- 제공된 위키 페이지 내용만 근거로 답하고, 근거가 된 페이지 제목을 답변에 자연스럽게 언급한다.",
+    "- 위키에 없는 내용은 추측하지 말고 '위키에 아직 수집되지 않았다'고 답한다.",
+    "- 간결하게: 핵심 답 → 필요한 보충 순서. 불릿은 필요할 때만.",
+    "- 답변은 마크다운으로 작성한다 (제목·굵게·목록·표 사용 가능).",
+    "",
+    "아래는 위키의 인덱스(전체 목차), 에이전트·자동화 케이스 카탈로그, 그리고 질문과 관련해 검색된 페이지들이다.",
+    "케이스 카탈로그는 '도구로 방식을 활용해 업무를 수행 → 성과' 공식으로 정리되어 있다.",
+    "강의 소재·자동화 사례·AX 근거 질문에는 카탈로그에서 조건에 맞는 케이스를 고르고,",
+    "벤치마크(모델·비용·권한)를 함께 제시하라. '미확인' 필드는 미확인이라고 정직하게 말하라.",
+    `<index>\n${wikiIndex.slice(0, 3000)}\n</index>`,
+    `<case-catalog>\n${caseCatalog()}\n</case-catalog>`,
+    context ? context : "(검색된 페이지 없음)",
+  ].join("\n");
+}
+
+export async function* streamAnswer(turns: ChatTurn[]): AsyncGenerator<StreamEvent> {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    yield { type: "error", message: "관리자가 아직 Anthropic API 키를 설정하지 않아 Q&A를 사용할 수 없습니다." };
+    return;
+  }
+  if (!underDailyLimit()) {
+    yield { type: "error", message: "오늘의 Q&A 사용 한도에 도달했습니다. 내일 다시 시도해 주세요." };
+    return;
+  }
+
+  const question = [...turns].reverse().find((t) => t.role === "user")?.content ?? "";
+  const hits = searchWiki(question, MAX_PAGES + 2);
+  const { text: context, sources } = contextFor(hits);
+
+  const client = new Anthropic();
+  const stream = client.messages.stream({
+    model: "claude-sonnet-5",
+    max_tokens: 4000,
+    system: buildSystem(context),
+    messages: turns.slice(-12),
+  });
+
+  for await (const event of stream) {
+    if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
+      yield { type: "text", text: event.delta.text };
+    }
+  }
+  const final = await stream.finalMessage();
+  if (final.stop_reason === "max_tokens") {
+    yield { type: "text", text: "\n\n*(답변이 길이 제한에 걸려 잘렸습니다 — 범위를 좁혀 다시 질문해 주세요.)*" };
+  }
+  yield { type: "sources", sources };
 }
