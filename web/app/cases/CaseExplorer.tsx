@@ -51,7 +51,7 @@ function Chip({
   children: React.ReactNode;
 }) {
   return (
-    <button onClick={onClick} className={`chip${active ? " active" : ""}`}>
+    <button onClick={onClick} className={`tag${active ? " on" : ""}`}>
       {children}
     </button>
   );
@@ -118,20 +118,20 @@ export default function CaseExplorer({ cases }: { cases: CaseItem[] }) {
 
       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
         {filtered.map((c) => (
-          <Link key={c.slug} href={`/wiki/${c.slug}`} className="newsletter-card" style={{ margin: 0 }}>
+          <Link key={c.slug} href={`/wiki/${c.slug}`} className="item-card" style={{ display: "block", marginTop: 12 }}>
             <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
-              <span className="badge">{DOMAIN_LABELS[c.domain] ?? c.domain}</span>
+              <span className="tag">{DOMAIN_LABELS[c.domain] ?? c.domain}</span>
               {c.tools.map((t) => (
-                <span className="badge" key={t}>{t}</span>
+                <span className="tag" key={t}>{t}</span>
               ))}
               {c.maturity && (
-                <span className={`badge${c.maturity === "production" ? " gold" : ""}`}>
+                <span className={`tag${c.maturity === "production" ? " tag-red" : ""}`}>
                   {MATURITY_LABELS[c.maturity] ?? c.maturity}
                 </span>
               )}
             </div>
-            <strong>{c.title}</strong>
-            <p style={{ margin: "8px 0" }}>
+            <p className="item-title">{c.title}</p>
+            <p className="item-summary" style={{ margin: "8px 0" }}>
               <b>{c.task || "업무 미분류"}</b>
               {c.outcome && <> → {c.outcome}</>}
             </p>

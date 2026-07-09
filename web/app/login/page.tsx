@@ -40,7 +40,7 @@ export default function LoginPage() {
           autoFocus
         />
         {error && <p className="error">{error}</p>}
-        <button className="primary" style={{ width: "100%" }} disabled={busy}>
+        <button className="btn btn-red" style={{ width: "100%" }} disabled={busy}>
           입장
         </button>
       </form>

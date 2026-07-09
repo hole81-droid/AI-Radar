@@ -23,21 +23,18 @@ export default async function WikiPage({
   ].filter(Boolean) as string[];
 
   return (
-    <article className="card">
-      <div className="page-meta">
+    <article className="article" style={{ margin: "0 auto" }}>
+      <div className="meta-strip">
         {tags.map((t) => (
-          <span className="badge" key={t}>
+          <span className="tag" key={t}>
             {t}
           </span>
         ))}
-        {typeof meta.date === "string" && <span> {meta.date}</span>}
+        {typeof meta.date === "string" && <span className="num">{meta.date}</span>}
         {typeof meta.source === "string" && meta.source.startsWith("http") && (
-          <>
-            {" · "}
-            <a href={meta.source} target="_blank" rel="noreferrer">
-              원문 출처 ↗
-            </a>
-          </>
+          <a href={meta.source} target="_blank" rel="noreferrer" className="ln">
+            원문 출처 ↗
+          </a>
         )}
       </div>
       <Markdown>{page.body}</Markdown>

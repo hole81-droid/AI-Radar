@@ -1,7 +1,7 @@
 // Agent 연동 안내 페이지 — 팀원이 자신의 에이전트에 위키를 연결하는 방법
 export default function AgentGuidePage() {
   return (
-    <article className="card markdown">
+    <article className="article markdown" style={{ margin: "0 auto" }}>
       <h1>외부 Agent에 AI Radar 끌어쓰기</h1>
       <p>
         AI Radar 위키는 MCP와 REST API 두 가지로 노출됩니다. 아래의{" "}
