@@ -38,6 +38,8 @@ outputs/ax-strategy/ AX 전략 산출물
 docs/              설계 문서
 ```
 
+> 웹 앱(web/) 작업 시에는 `web/CLAUDE.md` → `web/PRD.md` → `web/DESIGN.md`를 따른다.
+
 ## 페이지 규칙 (frontmatter)
 
 모든 `wiki/` 페이지는 YAML frontmatter를 갖는다:
