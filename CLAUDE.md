@@ -61,6 +61,48 @@ source: <원문 URL>
 파일명: `YYYY-MM-DD-<tool>-<slug>.md`. 내용: 무엇이 바뀌었나 → 왜 중요한가 →
 활용 포인트 → 출처. 생성 시 반드시 해당 `[[tools/허브]]` 페이지와 `[[timeline]]`에 링크를 추가한다.
 
+### use-cases/ 페이지 (구조화 필수 — 2026-07-09 사용자 지정)
+
+에이전트 구축·업무 자동화·적용 사례는 **벤치마크 가능한 구조**로 기록한다. 학습과정 설계와
+AX 근거로 바로 쓸 수 있어야 하며, 산문으로만 쓰지 않는다.
+
+frontmatter (평탄 구조 유지 — 중첩 금지, 파서 제약):
+
+```yaml
+---
+type: use-case
+date: YYYY-MM-DD
+tools: [claude-code]            # A. 도구
+mechanism: [skills, subagents]  # B. 기능/방식 — 통제 어휘: skills, subagents, mcp,
+                                #    hooks, cron-routines, prd-driven, record-replay,
+                                #    browser-agent, cli-pipeline, second-brain, vibe-coding
+domain: customer-support        # C. 업무 영역 — 통제 어휘: content-creation, customer-support,
+                                #    research, reporting, dev-automation, ops, marketing,
+                                #    sales, hr, finance, personal-productivity, education
+task: 고객 문의 1차 응대 자동화   # C. 구체 업무 (한 문장)
+outcome: 처리속도 3배, 상담원 2명분  # D. 성과 (한 문장, 수치 우선)
+model: claude-sonnet-5          # 벤치마크: 사용 모델 (미확인이면 "미확인")
+cost: 건당 $0.02                 # 벤치마크: 토큰/운영 비용 (미확인이면 "미확인")
+permissions: 읽기전용+발송승인    # 벤치마크: 권한 설계 (미확인이면 "미확인")
+maturity: production            # production | pilot | prototype | demo
+evidence: measured              # measured(실측 수치) | claimed(주장) | anecdotal(일화)
+importance: high
+uses: [course, ax]
+source: <원문 URL>
+---
+```
+
+본문 첫 줄은 반드시 **공식 블록**: `> **공식**: [도구]로 [방식]을 활용해 [업무]를 수행 → [성과]`
+이어서 고정 섹션: ## 무엇을 자동화했나 → ## 어떻게 구성했나 (아키텍처) → ## 벤치마크 데이터
+(모델·비용·권한·성숙도 표, 미확인 항목은 "미확인"으로 명시) → ## 성과와 수치 (실측/주장 구분,
+출처) → ## 재현 가이드 (난이도 상/중/하, 준비물, 핵심 단계 3~5) → ## 강의·AX 활용 포인트 → ## 출처
+
+**정직성 규칙**: 벤치마크 필드는 원문에 있는 것만 채운다. 추정치를 쓰려면 `[추정]`을 붙인다.
+없는 수치를 지어내지 않는다 — "미확인"이 정답인 경우가 많다.
+
+**케이스 카탈로그**: `wiki/use-cases/case-catalog.md`가 전체 케이스의 공식 한 줄 목록
+(업무 영역별 그룹)을 유지한다. use-case 생성·갱신 시 반드시 카탈로그도 갱신한다.
+
 ### tools/ 허브 페이지
 
 각 도구의 "현재 무엇을 할 수 있는지" 최신 종합 + 주요 업데이트 연대기(updates/ 링크 목록).
@@ -79,6 +121,9 @@ source: <원문 URL>
 
 1. 원문을 가져와 `raw/YYYY-MM/`에 저장 (마크다운 변환).
 2. `wiki/updates/` 페이지 생성 (또는 성격에 따라 use-cases/concepts).
+   **★최우선(에이전트·자동화) 항목은 반드시 use-case 구조화 스키마로 생성한다** —
+   뉴스레터의 도구/자동화한 업무/방법/포인트 4필드를 frontmatter의
+   tools/task/mechanism/outcome으로 매핑하고, 원문에서 모델·비용·권한을 추가 확인한다.
 3. 관련 허브·개념·타임라인 페이지 갱신, 모순 표시.
 4. `index.md` 갱신, `log.md`에 `## [YYYY-MM-DD] ingest | 제목` 기록.
 5. 뉴스레터의 해당 체크박스를 `- [x]`로 갱신.

@@ -19,9 +19,9 @@ export default function Home() {
       </section>
 
       {latest && (
-        <Link href={`/newsletter/${latest.slug}`} className="newsletter-card">
+        <Link href={`/newsletter/${latest.slug}`} className="feature-band">
           <div>
-            <span className="badge">📰 오늘의 뉴스레터</span>
+            <span className="badge gold">📰 오늘의 뉴스레터</span>
             <strong> {latest.slug}</strong>
           </div>
           {headline && <p>{headline.split("\n")[0]}</p>}

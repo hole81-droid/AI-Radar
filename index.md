@@ -52,12 +52,13 @@
 - [[openai]] — "모델 회사에서 국가급 인프라 기업으로" (2026-07-07 기준)
 - [[google]] — 제품 확장 vs 플래그십 지연·인재 이탈 (2026-07-07 기준)
 
-## 적용 사례 (wiki/use-cases/)
+## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[varun-mayya-5-ai-apps-500-person-company]] — AI로 만든 앱 5개로 500명 회사 운영 (high, course·ax)
-- [[gemini-spark-claude-cowork-routing]] — Spark vs Cowork 일 종류별 라우팅 (high, course·ax)
-- [[jocoding-ax-series-pwc-samil]] — 삼일PwC의 AX 전략·채용 (medium, ax)
-- [[tom-riddle-diary-remarkable]] — 전자잉크 태블릿 AI 대화 프로젝트 (medium, course)
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별) — 케이스 질의는 여기부터
+- 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]]
+- 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]]
+- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]]
+- HR: [[jocoding-ax-series-pwc-samil]]
 
 ## 분석 (wiki/analysis/)
 
