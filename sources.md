@@ -67,9 +67,9 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 
 | 소스 | RSS URL |
 |---|---|
-| 조코딩 JoCoding | https://www.youtube.com/feeds/videos.xml?channel_id=UCYaDkwVaOhuoe_LuFr3lWkA |
-| AI Edge (AIEdgeHQ) | https://www.youtube.com/feeds/videos.xml?channel_id=UCIU0ZYZk5zngMreRYIbJ0dQ |
-| Jeff Su | https://www.youtube.com/feeds/videos.xml?channel_id=UCWo4IA01TXzBeGJJKWHOG9g |
+| 조코딩 JoCoding | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCYaDkwVaOhuoe_LuFr3lWkA~~ ⚠️ 오매핑(멋쟁이사자처럼 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
+| AI Edge (AIEdgeHQ) | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCIU0ZYZk5zngMreRYIbJ0dQ~~ ⚠️ 오매핑(Miles Deutscher Vlogs 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
+| Jeff Su | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCWo4IA01TXzBeGJJKWHOG9g~~ ⚠️ 오매핑(Harvard Business Review 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
 | 장피엠·지피터스·kooky0ai·Ben AI·Liam Ottley·Dan Martell·Varun Mayya | 2026-07-08 스캔에서 채널ID 해석 실패(핸들 페이지에서 channelId 메타 미검출) — 다음 스캔에서 재시도 |
 
 ## X / Instagram
