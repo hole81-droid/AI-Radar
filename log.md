@@ -30,6 +30,10 @@ append-only 작업 기록. 형식: `## [YYYY-MM-DD] <operation> | <제목>`
 
 최우선 4건(Claude Code+Codex 에이전트 루프 레시피, `/goal`+routines 야간 품질점검, Codex Automations 패널, 클로드코드 유튜브 리서치 에이전트) — 항목당 원문 정독으로 도구/업무/방법/포인트 4필드 채움. 빅 뉴스 5건(Anthropic 매출 OpenAI 추월 $47B, Cowork 모바일·웹 확장, Fable 5 무료 프로모션 종료, Learning Mode 전체 개방, Codex vs Claude 품질·채택률 리포트) + 커뮤니티 2건(r/ClaudeAI Fable 5 종료 반응, Karpathy LLM Wiki 스레드) + YouTube 픽 2건(Jeff Su, 왕초보 에이전트 비서 튜토리얼). r/AI_Agents·r/singularity RSS는 이번 스캔에서 응답 없음(재시도 2회 실패) — 다음 스캔에서 재확인 필요. YouTube 채널ID 3개(조코딩·AI Edge·Jeff Su) 신규 해석해 RSS 캐시에 등록, 나머지 7개는 핸들 페이지에서 channelId 미검출로 보류. newsletter/2026-07-08.md.
 
+## [2026-07-12] scan | 항목 9건
+
+★최우선 2건(Ploy의 Claude Opus 4.8→GPT-5.6 Sol 프로덕션 마이그레이션 실측 벤치마크, r/AI_Agents발 Accord Agents=Claude Code·Codex 상호검토 오픈소스 워크스페이스) — 항목당 원문 정독으로 도구/업무/방법/포인트 채움. 빅 뉴스 4건(Codex 5시간 사용량 제한 임시 해제, Claude Reflect 사용패턴 요약 기능 출시, Terence Tao의 AI 에이전트 수학앱 현대화, Gemini 3.5 Pro 유출 세부사항) + 커뮤니티 2건(r/AI_Agents agent.db 패턴 논의, r/ClaudeAI 고등학교 교사 후기) + YouTube 픽 1건(조코딩 IT뉴스 브리핑). YouTube RSS 캐시 오매핑 2건(조코딩·Jeff Su) 재해결·검증 완료 — 조코딩은 웹서치로 정확한 채널ID(UCQNE2JmbasNYbjGAcuBiRRg) 확보 후 콘텐츠 일치 확인, Jeff Su도 동일 방식(UCwAnu01qlnVg1Ai2AbtTMaA)으로 확인했으나 최신 업로드가 06-30이라 이번 창(07-11~12)엔 픽 없음. AI Edge(AIEdgeHQ)는 후보 2개 모두 오매핑으로 재확인, 여전히 미해결. 커뮤니티 RSS는 old.reddit이 연속 요청 시 빈 응답(0바이트)을 주는 패턴이 이번에도 재현(간격을 두고 재시도하면 성공, r/ChatGPTCoding은 진짜로 오늘 top 글 없음을 빈 피드로 확인) — r/singularity·r/LocalLLaMA는 재시도 실패로 이번 스캔에서 커버 못함. newsletter/2026-07-12.md.
+
 ## [2026-07-09] ingest | use-case 구조화 체계 도입, 케이스 12건 (구 4건 재작성 + 신규 8건)
 
 사용자 요청: 학습과정 설계 질의 품질 개선. A(도구)-B(방식)-C(업무)-D(성과) 공식 + 벤치마크 필드(model/cost/permissions/maturity/evidence)를 CLAUDE.md 스키마에 추가. 뉴스레터 07-07·07-08 ★최우선 항목 8건 케이스화(2건은 케이스 아님 판정 — updates/concepts 성격), 기존 4건 재작성. case-catalog.md 신설, 웹에 /cases 탐색기 + Q&A 케이스 카탈로그 상시 주입. 정직성 규칙: 벤치마크 3필드 전부 확인된 케이스는 1건뿐 — 실측 검증이 다음 과제.

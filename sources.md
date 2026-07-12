@@ -67,9 +67,9 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 
 | 소스 | RSS URL |
 |---|---|
-| 조코딩 JoCoding | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCYaDkwVaOhuoe_LuFr3lWkA~~ ⚠️ 오매핑(멋쟁이사자처럼 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
-| AI Edge (AIEdgeHQ) | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCIU0ZYZk5zngMreRYIbJ0dQ~~ ⚠️ 오매핑(Miles Deutscher Vlogs 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
-| Jeff Su | ~~https://www.youtube.com/feeds/videos.xml?channel_id=UCWo4IA01TXzBeGJJKWHOG9g~~ ⚠️ 오매핑(Harvard Business Review 채널로 연결됨), 2026-07-11 재확인 — 재해결 필요 |
+| 조코딩 JoCoding | https://www.youtube.com/feeds/videos.xml?channel_id=UCQNE2JmbasNYbjGAcuBiRRg — 2026-07-12 재해결·검증 완료(콘텐츠 일치 확인) |
+| Jeff Su | https://www.youtube.com/feeds/videos.xml?channel_id=UCwAnu01qlnVg1Ai2AbtTMaA — 2026-07-12 재해결·검증 완료(Claude Cowork·Gemini Spark 영상 확인), 최신 업로드 06-30 기준이라 매 스캔 최신일 재확인 필요 |
+| AI Edge (AIEdgeHQ) | 2026-07-12 재시도: 후보 2개(UCQzosv0uniyYhaH-HKCAKQw=구 채널 2023년 활동 중단, UCbNV-HyFIYsqWSnKmwKzpnw=완전 무관한 밈 채널) 모두 오매핑 확인, 여전히 미해결 — 다음 스캔에서 재시도 |
 | 장피엠·지피터스·kooky0ai·Ben AI·Liam Ottley·Dan Martell·Varun Mayya | 2026-07-08 스캔에서 채널ID 해석 실패(핸들 페이지에서 channelId 메타 미검출) — 다음 스캔에서 재시도 |
 
 ## X / Instagram
