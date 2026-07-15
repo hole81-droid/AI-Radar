@@ -12,6 +12,10 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-07-15-claude-for-teachers]] — 미국 K-12 교사 전원 Claude 프리미엄 1년 무료 (high)
+- [[2026-07-13-anthropic-hires-top-researchers]] — DeepMind 노벨상 수상자 등 4명 2주 만에 영입 (high)
+- [[2026-07-10-alibaba-bans-claude-code]] — Alibaba 전 직원 Claude Code 금지, 백도어 의혹 (high)
+- [[2026-07-09-anthropic-bernanke-oversight-trust]] — 전 연준의장 Bernanke 감독기구 영입 (medium)
 - [[2026-07-03-claude-enterprise-spend-controls]] — 기업용 지출 통제·모델별 권한 (high)
 - [[2026-07-02-claude-cyber-jailbreak-framework]] — CJS 탈옥 심각도 프레임워크 공개 (medium)
 - [[2026-07-01-claude-fable-5-global-return]] — Fable 5 글로벌 복귀 + 7/7 크레딧 과금 전환 (high)
@@ -21,6 +25,9 @@
 - [[2026-06-23-claude-tag]] — Slack 상주 AI 팀메이트 Claude Tag (high)
 
 ### OpenAI
+- [[2026-07-11-openai-heidecke-departure]] — 안전팀 수장 Heidecke 퇴사, 조직개편 (medium)
+- [[2026-07-10-openai-apple-lawsuit]] — Apple, 영업비밀 도용 혐의로 제소 (high)
+- [[2026-07-09-openai-gpt-5-6-launch]] — GPT-5.6 (Sol·Terra·Luna) 정식 출시(GA) (high)
 - [[2026-07-02-openai-us-government-stake]] — 미 정부 지분 5% 제안 (high)
 - [[2026-06-29-openai-codex-micro-hardware]] — 첫 하드웨어 Codex Micro 예고 (high)
 - [[2026-06-26-openai-gpt-5-6-preview]] — GPT-5.6 제한 프리뷰, 정부 심사 지연 (high)
@@ -36,6 +43,7 @@
 - [[2026-06-18-google-antigravity-cli-transition]] — Gemini CLI→Antigravity 전환 반발 (medium)
 
 ### 기타 업계
+- [[2026-07-14-thomson-reuters-ai-layoffs]] — 엔지니어 500명 감원·AI-네이티브 250명+ 채용 (medium)
 - [[2026-07-03-xai-grok-voice-agent-imagine]] — xAI Voice Agent Builder·STT API (medium)
 - [[2026-07-01-meta-meta-compute]] — Meta 클라우드 사업 진출 (high)
 - [[2026-06-30-meituan-longcat-2]] — 중국산 칩 학습 1.6T 오픈소스 LongCat-2.0 (medium)
@@ -63,22 +71,24 @@
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
 - [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
+- [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량 (medium)
 
 ## 회사·인물 (wiki/players/)
 
-- [[anthropic]] — 제품 확장·규제 격변·수익화 전환 (2026-07-07 기준)
-- [[openai]] — "모델 회사에서 국가급 인프라 기업으로" (2026-07-07 기준)
-- [[google]] — 제품 확장 vs 플래그십 지연·인재 이탈 (2026-07-07 기준)
+- [[anthropic]] — 제품 확장·규제 격변·수익화 전환, +Bernanke 영입·연구자 4명 영입·Claude for Teachers·Alibaba 리스크 (07-07 스냅샷 + 07-09~15 갱신)
+- [[openai]] — "모델 회사에서 국가급 인프라 기업으로", +GPT-5.6 GA·Apple 소송·Heidecke 퇴사 (07-07 스냅샷 + 07-09~11 갱신)
+- [[google]] — 제품 확장 vs 플래그십 지연·인재 이탈, +Adler·Pritzel Anthropic 이적 확인 (07-07 스냅샷 + 07-13 갱신)
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 35건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]]
-- 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]]
-- 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]]
-- 보안·운영: [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배)
+- 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]]
+- 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]]
+- 보안·운영: [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]]
+- 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓)
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
-- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]]
+- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]]
 - HR: [[jocoding-ax-series-pwc-samil]]
 
 ## 분석 (wiki/analysis/)
@@ -89,6 +99,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-03, 19건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-15, 27건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-08]] · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-15]] · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

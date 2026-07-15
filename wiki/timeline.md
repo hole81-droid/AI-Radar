@@ -8,6 +8,14 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-15** — Anthropic, 미국 K-12 교사 전원에 Claude 프리미엄 1년 무료 "Claude for Teachers" 출시(발표일 07-14) → [[2026-07-15-claude-for-teachers]]
+- **07-14** — Thomson Reuters, 엔지니어 500명 감원 + AI-네이티브 250명+ 채용 발표 → [[2026-07-14-thomson-reuters-ai-layoffs]]
+- **07-13** — Anthropic, 2주 만에 DeepMind·Berkeley 최상급 연구자 4명(Jumper·Adler·Pritzel·Nelson) 영입 완료 → [[2026-07-13-anthropic-hires-top-researchers]]
+- **07-11** — OpenAI 안전팀 수장 Johannes Heidecke, 조직개편 속 퇴사 → [[2026-07-11-openai-heidecke-departure]]
+- **07-10** — Alibaba, Claude Code 숨은 중국 사용자 탐지 코드 논란으로 전 직원 사용 금지·Qoder 전환 지시 → [[2026-07-10-alibaba-bans-claude-code]]
+- **07-10** — Apple, OpenAI를 영업비밀 도용 혐의로 제소 → [[2026-07-10-openai-apple-lawsuit]]
+- **07-09** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 풀리고 ChatGPT·API·Codex 전면 정식 출시(GA) → [[2026-07-09-openai-gpt-5-6-launch]]
+- **07-09** — Anthropic, 전 연준의장 Ben Bernanke를 Long-Term Benefit Trust에 영입 → [[2026-07-09-anthropic-bernanke-oversight-trust]]
 - **07-03** — Claude Enterprise 지출 통제 출시 (기업 AI 비용 거버넌스) → [[2026-07-03-claude-enterprise-spend-controls]]
 - **07-03** — xAI, Voice Agent Builder 베타·STT API 연타 → [[2026-07-03-xai-grok-voice-agent-imagine]]
 - **07-02** — OpenAI, 미 정부에 지분 5%($42.6B) 국부펀드식 제안 → [[2026-07-02-openai-us-government-stake]]

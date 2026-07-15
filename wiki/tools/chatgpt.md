@@ -15,7 +15,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 
 - **기본 모델**: GPT-5.5 Instant — 2026-05-05부터 전 요금제(무료 포함) 기본 모델 ([TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/))
 - **플래그십**: GPT-5.5 Thinking(Plus 이상), GPT-5.5 Pro(Pro/Business/Enterprise) — 2026-04-23 출시 ([OpenAI](https://openai.com/index/introducing-gpt-5-5/))
-- **차기 모델**: GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 시작(2026-06-26). 현재는 API·Codex의 일부 파트너 대상, ChatGPT 확대 예정 ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/))
+- **최신 모델**: GPT-5.6 (Sol·Terra·Luna) — 2026-06-26 제한 프리뷰로 시작해 2026-07-09~10 정부 심사 제약이 풀리며 ChatGPT·API·Codex 전면 GA. Plus 이상은 Sol, Free·Go는 Terra 접근 ([Marktechpost](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/))
 - **모델 선택 UI**: 2026-06-10 개편으로 Instant / Medium / High / Extra High(Pro 전용) 단계형으로 단순화 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **모델 정리**: GPT-4o·GPT-4.1·o4-mini·초기 GPT-5는 2026-02-13 퇴역, GPT-5.2는 2026-06-12, GPT-4.5는 2026-06-26 퇴역 — 기존 대화는 GPT-5.5로 이어짐 ([Model Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [Wikipedia](https://en.wikipedia.org/wiki/GPT-5.5))
 
@@ -52,6 +52,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-06-25** — Codex Remote 전 요금제 GA ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)) → [[2026-06-25-openai-codex-remote-ga]]
 - **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 시작(미 정부 요청으로 파트너 한정) / GPT-4.5 퇴역 / 개인 금융 대시보드 Plus(미국) 확대 / 신규 받아쓰기 STT 모델 전 플랜 배포 ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/), [Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)) → [[2026-06-26-openai-gpt-5-6-preview]]
 - **2026-07-06** — 워크스페이스 에이전트 무료 기간 종료, 크레딧 기반 과금 시작 ([Business Release Notes](https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes))
+- **2026-07-09~10** — GPT-5.6(Sol·Terra·Luna) 정식 출시(GA), 프로그래매틱 도구 호출 도입(토큰 38~63.5% 절감), Codex가 새 ChatGPT 데스크톱 앱(macOS·Windows)에 통합 ([Marktechpost](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/)) → [[2026-07-09-openai-gpt-5-6-launch]]
 
 ## 활용 포인트
 

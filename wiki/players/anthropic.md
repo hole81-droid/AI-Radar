@@ -24,8 +24,11 @@ source: https://www.anthropic.com/news
 - **7/1 — Claude in Chrome GA**: 브라우저 에이전트 정식 출시, 서브에이전트 백그라운드 실행 기본화. → [[2026-07-01-claude-in-chrome-ga]]
 - **7/2 — CJS 탈옥 심각도 프레임워크 공개**: 사이버 세이프가드 상세와 탈옥 등급 척도(CJS-0~4)를 업계 표준으로 제안. → [[2026-07-02-claude-cyber-jailbreak-framework]]
 - **7/3 — Claude Enterprise 지출 통제**: 예산 한도·모델별 권한·Admin API 등 기업 비용 거버넌스 기능. → [[2026-07-03-claude-enterprise-spend-controls]]
+- **7/9 — Ben Bernanke가 Long-Term Benefit Trust 합류**: 전 연준의장을 독립 감독기구 4번째 멤버로 영입, AI의 거시경제 영향 추적 역할. → [[2026-07-09-anthropic-bernanke-oversight-trust]]
+- **7/13 — 최상급 연구자 4명 영입**: DeepMind 출신 Nobel 수상자 John Jumper·Jonas Adler·Alexander Pritzel, UC Berkeley EECS 학과장 Jelani Nelson을 2주 만에 흡수. → [[2026-07-13-anthropic-hires-top-researchers]]
+- **7/14 — "Claude for Teachers" 출시**: 미국 K-12 교사 전원에 프리미엄 1년 무료, Claude Code·Cowork·50개 주 교육과정 커넥터 포함. → [[2026-07-15-claude-for-teachers]]
 
-**리스크 요인**: 같은 기간 Alibaba의 모델 무단 접근 의혹 제기(6/24 보도), 저작권 소송($75M 신규 제기), Max 플랜 사용량 표기 관련 집단소송 등 법적 분쟁도 누적 중이다.
+**리스크 요인**: 같은 기간 Alibaba의 모델 무단 접근 의혹 제기(6/24 보도), 저작권 소송($75M 신규 제기), Max 플랜 사용량 표기 관련 집단소송 등 법적 분쟁도 누적 중이다. 7/10에는 Claude Code에 숨은 중국 사용자 탐지 코드가 발견돼 Alibaba가 전 직원에게 사용 금지·Qoder 전환을 지시하는 사태로 번졌다(Anthropic은 계정 남용·증류 방지용 실험이라 해명). → [[2026-07-10-alibaba-bans-claude-code]]
 
 ## 해석
 
