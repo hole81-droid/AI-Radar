@@ -42,6 +42,7 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **2026-06-25** — Codex Remote GA: ChatGPT 앱에서 QR 페어링으로 Mac/Windows 호스트를 모바일 제어. ([changelog](https://developers.openai.com/codex/changelog)) → [[2026-06-25-openai-codex-remote-ga]]
 - **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 — API·Codex 경유, 미 정부 요청으로 약 20개 파트너 한정. ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/)) → [[2026-06-26-openai-gpt-5-6-preview]]
 - **2026-06-29** — 첫 하드웨어 'Codex Micro' 티저 공개: Work Louder 협업 매크로 패드, 2026-07-15 정식 공개 예정. ([9to5Mac](https://9to5mac.com/2026/06/29/openai-teases-codex-branded-hardware-collaboration-coming-heres-what-to-expect/)) → [[2026-06-29-openai-codex-micro-hardware]]
+- **2026-07-15** — 'Codex Micro' 실제 출시: $230, Agent Keys·Command Keys·조이스틱·추론량 조절 다이얼 탑재. Apple의 영업비밀 소송 와중의 발매. ([TechCrunch](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/)) → [[2026-07-15-openai-codex-micro-launch]]
 
 ## 요금제
 

@@ -26,7 +26,7 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 1. **차기 모델이 정부 심사에 묶임** — GPT-5.6(Sol·Terra·Luna)을 공개했으나 미 정부 요청으로 약 20개 파트너 한정 프리뷰로 출발, GA는 7월 중순 관측. → [[2026-06-26-openai-gpt-5-6-preview]]
 2. **지분 5%를 정부에 제안** — 그 압박에 대한 응수로, 주요 AI 기업 전체가 정부에 5%씩 지분을 내는 국부펀드식 프레임워크를 제안(FT 보도). → [[2026-07-02-openai-us-government-stake]]
 3. **첫 자체 칩 공개** — Broadcom과 만든 추론 전용 칩 Jalapeño로 NVIDIA 의존도 축소·원가 내재화에 착수. → [[2026-06-24-openai-jalapeno-chip]]
-4. **첫 하드웨어 예고** — Work Louder와 협업한 Codex 전용 매크로 패드 'Codex Micro'를 7/15 공개 예고. → [[2026-06-29-openai-codex-micro-hardware]]
+4. **첫 하드웨어 실제 출시** — Work Louder와 협업한 Codex 전용 프로그래머블 키보드 'Codex Micro'($230)가 7/15 예고대로 출시. Apple 소송 와중의 발매라 더 주목받음. → [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-15-openai-codex-micro-launch]]
 5. **광고 수익화 글로벌 확대** — ChatGPT 광고가 일본·한국에 상륙(Free/Go 대상). → [[2026-06-22-openai-chatgpt-ads-japan-korea]]
 6. **에이전트 접점 확대** — Codex Remote 전 요금제 GA로 폰에서 데스크톱 에이전트 원격 제어. → [[2026-06-25-openai-codex-remote-ga]]
 
@@ -37,7 +37,7 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]]
 
 ## 출처
 

@@ -8,6 +8,9 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-15** — OpenAI 첫 하드웨어 'Codex Micro' 키보드($230) 실제 출시, Apple 소송 와중 발매 → [[2026-07-15-openai-codex-micro-launch]]
+- **07-15** — Anthropic, 10월 목표 IPO 위해 투자자 미팅 시작(Bloomberg 보도) → [[2026-07-15-anthropic-ipo-investor-meetings]]
+- **07-15** — EU 의회, Anthropic 안전 청문회에 정책 책임자 대신 주니어 기술직원 파견에 반발 → [[2026-07-15-anthropic-eu-parliament-backlash]]
 - **07-15** — Anthropic, 미국 K-12 교사 전원에 Claude 프리미엄 1년 무료 "Claude for Teachers" 출시(발표일 07-14) → [[2026-07-15-claude-for-teachers]]
 - **07-14** — Thomson Reuters, 엔지니어 500명 감원 + AI-네이티브 250명+ 채용 발표 → [[2026-07-14-thomson-reuters-ai-layoffs]]
 - **07-13** — Anthropic, 2주 만에 DeepMind·Berkeley 최상급 연구자 4명(Jumper·Adler·Pritzel·Nelson) 영입 완료 → [[2026-07-13-anthropic-hires-top-researchers]]

@@ -32,6 +32,7 @@ uses: [course, ax]
 - [[ktcloud-fe-team-claude-code-adoption]] — Claude Code로 Agent–Skill–Context–Loop 아키텍처를 활용해 FE팀 개발 프로세스 표준화를 수행 → 팀 단위 재현 가능 프로세스 (수치 미공개)
 - [[fleet-orchestrator-claude-codex-10-agents]] — Claude Code+Codex로 자체 오케스트레이터(중앙 DB+MCP)를 활용해 코딩 에이전트 10~15개 동시 운영을 수행 → 수 주간 지속, 계층형 지식베이스로 전환 (자기 보고)
 - [[three-agents-nonstop-beads-worktree]] — Claude·Codex·Opencode+로컬 Qwen으로 Beads+Git worktree를 활용해 코딩 작업 3일 무인 병렬 개발을 수행 → 3일 논스톱 운영 지속 (자기 보고)
+- [[solidifier-claude-code-skill]] — Claude Code Skill(solidifier)로 SOLID 원칙 적용 판단을 활용해 코드 리팩토링 시 과잉설계 억제를 수행 → 4단계 강도조절+프로젝트별 설정파일, Codex·Copilot·OpenCode도 호환 (일화)
 - [[openai-codex-maxxing-25-hour]] — Codex(GPT-5.1-Codex-Max)로 지속 스레드+목표 분할을 활용해 대형 개발 작업 장시간 자율 수행을 수행 → 25시간 연속, 3만 줄 코드 생성 (공식 발표)
 - [[simon-willison-claude-release-qa]] — ★실측 벤치마크 케이스. Claude Code(서브에이전트)+GPT-5.5 교차검증으로 오픈소스 릴리스 전 QA를 수행 → 버그 7건 발견, 실측 비용 $149.25
 - [[onepassword-claude-agents-monolith-refactor]] — 자체 에이전틱 툴체인(코드분석+추출순서+결정론적 실행)으로 수백만 라인 Go 모놀리스 서비스 분해를 수행 → 전체 20~30% 개선, 명세 밖 문제는 표면화만 (실측)
@@ -70,6 +71,10 @@ uses: [course, ax]
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
 
 ---
+*2026-07-16 추가: [[solidifier-claude-code-skill]](신규, 36건). [[wiki-builder-claude-code-llm-wiki]]는
+Claude Code+Obsidian 독립 재현 사례(natural20.com, Reddit)를 교차 출처로 추가 반영 — 두 팀이
+독립적으로 raw/wiki/index+Ingest/Query 구조에 수렴했다는 점에서 패턴 타당성이 강화됐다.*
+
 *벤치마크 요약(2026-07-15 갱신, 35건): 모델·비용·권한 3필드 전부 확인 2건
 ([[ai-radar-daily-scan-pipeline]] 실측·자기참조, [[gemini-spark-claude-cowork-routing]]).
 모델·비용 2필드까지 확인된 케이스 2건: [[simon-willison-claude-release-qa]] (실측 $149.25,

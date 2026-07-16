@@ -27,16 +27,21 @@ source: https://www.anthropic.com/news
 - **7/9 — Ben Bernanke가 Long-Term Benefit Trust 합류**: 전 연준의장을 독립 감독기구 4번째 멤버로 영입, AI의 거시경제 영향 추적 역할. → [[2026-07-09-anthropic-bernanke-oversight-trust]]
 - **7/13 — 최상급 연구자 4명 영입**: DeepMind 출신 Nobel 수상자 John Jumper·Jonas Adler·Alexander Pritzel, UC Berkeley EECS 학과장 Jelani Nelson을 2주 만에 흡수. → [[2026-07-13-anthropic-hires-top-researchers]]
 - **7/14 — "Claude for Teachers" 출시**: 미국 K-12 교사 전원에 프리미엄 1년 무료, Claude Code·Cowork·50개 주 교육과정 커넥터 포함. → [[2026-07-15-claude-for-teachers]]
+- **7/14 — 캐나다 AI 연구기관 8곳에 $10M Claude 크레딧 지원**: Mila·Vector Institute·Amii 등에 기관당 $1M, 연구 방향에는 관여 안 함. → [Anthropic](https://www.anthropic.com/news/canadian-ai-research)
+- **7/15 — IPO 투자자 미팅 시작**: Goldman Sachs·Morgan Stanley·JPMorgan 주관, 10월 목표 상장 거론. SEC에 비공개 IPO 신청서 제출 상태. → [[2026-07-15-anthropic-ipo-investor-meetings]]
+- **7/15 — EU 의회 청문회 파견 논란**: 정책 책임자 대신 입사 3개월차 기술직원을 안전 청문회에 파견해 "유럽을 신경 안 쓴다"는 반발. → [[2026-07-15-anthropic-eu-parliament-backlash]]
 
-**리스크 요인**: 같은 기간 Alibaba의 모델 무단 접근 의혹 제기(6/24 보도), 저작권 소송($75M 신규 제기), Max 플랜 사용량 표기 관련 집단소송 등 법적 분쟁도 누적 중이다. 7/10에는 Claude Code에 숨은 중국 사용자 탐지 코드가 발견돼 Alibaba가 전 직원에게 사용 금지·Qoder 전환을 지시하는 사태로 번졌다(Anthropic은 계정 남용·증류 방지용 실험이라 해명). → [[2026-07-10-alibaba-bans-claude-code]]
+**리스크 요인**: 같은 기간 Alibaba의 모델 무단 접근 의혹 제기(6/24 보도), 저작권 소송($75M 신규 제기), Max 플랜 사용량 표기 관련 집단소송 등 법적 분쟁도 누적 중이다. 7/10에는 Claude Code에 숨은 중국 사용자 탐지 코드가 발견돼 Alibaba가 전 직원에게 사용 금지·Qoder 전환을 지시하는 사태로 번졌다(Anthropic은 계정 남용·증류 방지용 실험이라 해명). → [[2026-07-10-alibaba-bans-claude-code]]. 7/15에는 EU 의회 청문회 파견 논란까지 겹치며 지역별 신뢰 마찰이 반복되는 패턴이 뚜렷해졌다.
 
 ## 해석
 
-- **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라.
-- **규제 선행 대응**: 수출통제 사태를 겪은 직후 세이프가드·탈옥 프레임워크를 공개한 것은 "안전 투명성 = 규제 리스크 관리"라는 전략의 표본.
+- **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
+- **규제 선행 대응**: 수출통제 사태를 겪은 직후 세이프가드·탈옥 프레임워크를 공개한 것은 "안전 투명성 = 규제 리스크 관리"라는 전략의 표본이었으나, 정작 EU 청문회에서는 그 메시지와 실제 대응 태도 사이의 간극이 노출됐다.
 - **관련 허브**: [[claude-code]]
 
 ## 출처
 
 - https://www.anthropic.com/news (뉴스룸)
+- https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears
+- https://www.scworld.com/brief/european-lawmakers-criticize-anthropic-for-ai-policy-hearing-representation
 - 각 사건 상세 출처는 위 개별 updates 페이지 참조
