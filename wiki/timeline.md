@@ -8,6 +8,8 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-20** — Claude Fable 5, 두 차례 연장 끝에 종량 크레딧제 실제 발효(구독 포함 무료 사용 종료) → [[2026-07-01-claude-fable-5-global-return]]
+- **07-19/20** — Kimi K3 수요 폭증으로 Moonshot 신규구독 중단, OpenAI 임원 "오픈웨이트=AI 공산주의" 경고 → [[2026-07-16-moonshot-kimi-k3-launch]]
 - **07-17** — Apple, OpenAI 전직 직원 약 40명에 증거 보존 서한 발송 — 영업비밀 소송 확전 → [[2026-07-10-openai-apple-lawsuit]]
 - **07-16** — Gemini 3.5 Pro 세 번째 연기, "코딩 성능 내부 목표 미달"이 원인 → [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]
 - **07-16** — Google, NotebookLM을 Gemini Notebook으로 리브랜딩 — 코드실행·크로스플랫폼 동기화 추가 → [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]

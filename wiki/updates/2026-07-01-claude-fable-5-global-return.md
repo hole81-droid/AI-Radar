@@ -16,7 +16,10 @@ source: https://www.anthropic.com/news/redeploying-fable-5
 - **경위**: 6/12 미국 정부가 Fable 5·Mythos 5에 즉시 발효 수출통제를 부과 — Amazon 연구진이 Fable 5의 세이프가드를 우회해 소프트웨어 취약점을 대량 발굴하는 방법을 찾아낸 보고서가 계기였다. 실시간 국적 확인 수단이 없던 Anthropic은 전 사용자 접근을 중단했었다.
 - **재배포 조건**: 새 사이버보안 분류기(classifier)를 추가해 복귀. Pro·Max·Team·일부 Enterprise 플랜에서 **7/7까지는 주간 사용 한도의 50%까지 무료 포함**, 이후에는 **별도 사용 크레딧**($10/$50 per 백만 토큰, 입력/출력)으로 전환된다.
 
-> ⚠️ 오늘(7/7)이 무료 포함분 마지막 날 — 내일부터 구독만으로는 Fable 5를 쓸 수 없다.
+> ⚠️ 상충: 최초 발표는 "7/7까지 무료 포함"이었으나, 실제로는 수요·경쟁 상황에 따라 두 차례 더
+> 연장됐다 — 7/7→7/12(1차 연장)→7/19(2차 연장). **최종적으로 7/19(PT) 자정에 무료 포함 기간이
+> 끝났고, 7/20부터 종량 크레딧제($10/$50 per 백만 토큰, 입력/출력)가 실제 발효됐다.**
+> (2026-07-20 갱신, 출처: [Vantage Point](https://vantagepoint.io/blog/ai/claude-fable-5-included-access-july-19), [Forbes](https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/))
 
 ## 왜 중요한가 (비개발자 관점)
 

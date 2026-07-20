@@ -85,3 +85,21 @@ append-only 작업 기록. 형식: `## [YYYY-MM-DD] <operation> | <제목>`
 ## [2026-07-18] scan | 항목 12건, 반영 12건
 
 07-17자 뉴스레터는 미작성 상태로 건너뜀(스캔 공백 — 다음 lint 시 백필 검토 필요). ★최우선 3건 — Ben AI의 Claude Skills 제작 방법론 튜토리얼(YouTube 설명·타임스탬프로 7베스트프랙티스+메타스킬 "Skill Builder Skill" 확인, 정량 성과 없어 evidence anecdotal), r/AI_Agents의 "1인 AI 회사 6개월 운영" 프레임워크(컨텍스트=코드·CLAUDE.md 부서 플레이북+라우터·승인 큐·러너 루프·비가역성 게이트, 서브에이전트 비용 15배·강제푸시 결제사고 등 구체 실패사례 다수 포함 — reddit HTML 퍼머링크 curl+UA로 원문 전체 정독), r/ClaudeAI의 SearchSteward 구직 자동화 툴 제작기(vibe-coding→"Fable이 계획·서브에이전트가 구현·Fable이 리뷰" 구조로 진화, 9주만에 입사+실제 SaaS 제품화). 3건 모두 use-case 구조화 스키마로 신규 생성(case-catalog 36→39건): [[ben-ai-claude-skills-building-methodology]](dev-automation), [[reddit-one-person-ai-company-framework]](ops), [[searchsteward-claude-job-search-automation]](personal-productivity). 빅 뉴스 5건: Gemini 3.5 Pro 세 번째 연기(코딩성능 내부목표 미달, Alphabet 주가 하락 — 기존 [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]에 ⚠️상충 블록+업데이트 섹션 추가, 신규페이지 생성 안함), NotebookLM→Gemini Notebook 리브랜딩+코드실행 추가([[2026-07-16-google-notebooklm-gemini-notebook-rebrand]] 신규), 중국 Moonshot AI Kimi K3(2.8T, 역대 최대 오픈웨이트, 프론트엔드 코딩서 Fable 5 능가 — [[2026-07-16-moonshot-kimi-k3-launch]] 신규), Apple-OpenAI 소송 확전(전직원 40명에 증거보존서한 — 기존 [[2026-07-10-openai-apple-lawsuit]]에 업데이트 섹션 추가), OpenAI Atlas 브라우저 단종(8/9, ChatGPT 슈퍼앱 전략 — 07-15 소급반영 때는 비중조절로 스킵했으나 8/9 종료일·후속 전략이 확정돼 이번에 [[2026-07-09-openai-atlas-browser-shutdown]] 신규 생성, 이전 스킵 결정 번복). [[gemini]]·[[chatgpt]] 도구 허브, [[google]]·[[openai]] 플레이어 허브, [[timeline]](30건→33건) 전부 교차링크 갱신. 커뮤니티 화제 2건(HN 131점 "Claude Code: Anatomy of a Misfeature" 비판 블로그, HN 80점 Fable 5 "크레딧 필요" 일시 장애 소동 — WebFetch로 실제는 10분 내 복구된 장애임을 확인해 페이지화하지 않고 커뮤니티 항목으로만 기록) + YouTube 픽 2건(kooky0ai AI Native 조직, 조코딩 오픈소스 월드모델 쇼츠). old.reddit RSS는 이번에도 연속요청 시 HTTP 429 발생(8~15초 간격 재시도로 회피). HN Algolia `search_by_date`+`numericFilters=created_at_i>...`로 최근 48시간 필터링해 효율적으로 스캔. newsletter/2026-07-18.md.
+
+## [2026-07-20] scan | 항목 6건, 반영 6건
+
+07-19자 뉴스레터는 미작성 상태로 확인(스캔 공백, 다음 lint 시 백필 검토 필요). ★최우선은 오늘
+검증 가능한 신규 사례가 없어 공란으로 정직하게 기록 — 후보 3건을 확인했으나 전부 탈락: Dan Martell
+채널의 07-19 업로드 2건은 영상 설명이 제목만 반복해 특정 AI Tool을 확인할 수 없었고(RSS
+media:description이 내용 없이 제목만 중복되는 패턴 신규 확인), Ben AI 최신 업로드는 이미
+07-18 스캔에서 [[ben-ai-claude-skills-building-methodology]]로 반영된 것과 동일 영상이라 제외,
+r/AI_Agents의 "30-agent 유튜브 자동화 오케스트레이터" 글은 구조는 흥미로우나 자체 제작 렌더링
+엔진+무명 LLM이라 도구 미확인으로 커뮤니티 화제로 하향. 빅 뉴스 2건 모두 기존 페이지 갱신(신규
+페이지 생성 없음, 중복 방지): [[2026-07-01-claude-fable-5-global-return]]에 ⚠️상충 블록으로
+7/7→7/12→7/19 연장 이력과 7/20 실제 발효 정리, [[2026-07-16-moonshot-kimi-k3-launch]]에
+"후속 반응" 섹션으로 Moonshot 신규구독 중단 + OpenAI 전략담당 Dean Ball의 "AI 공산주의" 발언
+추가. [[timeline]]에 07-20 항목 2건 추가(33건→35건). 커뮤니티 화제 3건(Fable 크레딧 전환
+레딧 반응, 유출 Fable 시스템프롬프트 500토큰 범용화, "AI에게 삶을 얼마나 맡길까" 자동화 논쟁) +
+YouTube 픽 1건(조코딩 주간 IT뉴스 롤업). old.reddit RSS는 이번에도 연속요청 시 429/타임아웃이
+반복돼 12~25초 간격 재시도로 6개 서브레딧 확보(r/ChatGPTCoding은 실제로 당일 top 글 0건).
+sources.md RSS 캐시·index.md·wiki/timeline.md 갱신. newsletter/2026-07-20.md.
