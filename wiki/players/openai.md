@@ -23,6 +23,7 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 이번 2주는 "**모델 회사에서 국가급 인프라 기업으로**"라는 방향 전환이 압축된 기간이다.
 
 0. **GPT-5.6 정식 출시(GA)** — 정부 심사로 묶여있던 프리뷰 제한이 풀리며 7/9~10 ChatGPT·API·Codex 전면 롤아웃, 프로그래매틱 도구 호출 신기능도 함께 도입. → [[2026-07-09-openai-gpt-5-6-launch]]
+0.5. **"ChatGPT Work" 출시 + GPT-5.6 Sol Ultra 서브에이전트 수학 증명 시연** — GA 다음날(7/10) 자율 업무 에이전트 ChatGPT Work를 공개하고, 같은 날 Sol Ultra가 64개 서브에이전트로 50년 미해결 수학 난제를 증명했다고 발표(동료검토 전). → [[openai-chatgpt-work-launch]] · [[gpt-5-6-sol-ultra-math-proof-subagents]]
 1. **차기 모델이 정부 심사에 묶임** — GPT-5.6(Sol·Terra·Luna)을 공개했으나 미 정부 요청으로 약 20개 파트너 한정 프리뷰로 출발, GA는 7월 중순 관측. → [[2026-06-26-openai-gpt-5-6-preview]]
 2. **지분 5%를 정부에 제안** — 그 압박에 대한 응수로, 주요 AI 기업 전체가 정부에 5%씩 지분을 내는 국부펀드식 프레임워크를 제안(FT 보도). → [[2026-07-02-openai-us-government-stake]]
 3. **첫 자체 칩 공개** — Broadcom과 만든 추론 전용 칩 Jalapeño로 NVIDIA 의존도 축소·원가 내재화에 착수. → [[2026-06-24-openai-jalapeno-chip]]

@@ -103,3 +103,19 @@ r/AI_Agents의 "30-agent 유튜브 자동화 오케스트레이터" 글은 구�
 YouTube 픽 1건(조코딩 주간 IT뉴스 롤업). old.reddit RSS는 이번에도 연속요청 시 429/타임아웃이
 반복돼 12~25초 간격 재시도로 6개 서브레딧 확보(r/ChatGPTCoding은 실제로 당일 top 글 0건).
 sources.md RSS 캐시·index.md·wiki/timeline.md 갱신. newsletter/2026-07-20.md.
+
+## [2026-07-20] ingest | 공백 소급 스캔 (07-09, 07-10, 07-17, 07-19), 항목 20건, 반영 6건
+
+주말·실행공백으로 비어있던 4개 날짜를 CLAUDE.md 신규 0단계 규칙(공백 점검·소급 스캔)에 따라
+소급 반영. 새 페이지 3건: [[2026-07-09-xai-grok-4-5-launch]](Grok 4.5, Opus급 성능을 더
+저렴하게), [[2026-07-19-alibaba-qwen-3-8-preview]](Qwen 3.8 프리뷰, Kimi K3 대응),
+[[gpt-5-6-sol-ultra-math-proof-subagents]](GPT-5.6 Sol Ultra 64서브에이전트 수학난제 증명,
+research 도메인 신규 case-catalog 40건). 기존 페이지 갱신 3건: [[2026-07-01-claude-fable-5-global-return]]
+에 ⚠️상충 블록 추가(Anthropic 추정 Reddit 공지가 매체 보도와 배치 — 미확정 상태로 병기),
+[[2026-07-10-openai-apple-lawsuit]]에 07-17 확전(전직원 40명 증거보존서한) 업데이트,
+[[openai-chatgpt-work-launch]]·[[record-replay-mcp-skill-recorder]]는 기존 페이지 확인 후
+신규 생성 없이 교차링크만. ★최우선은 07-10만 3건 확보, 07-09·07-17·07-19는 재현 가능한
+신규 사례를 찾지 못해 정직하게 공란(지어내지 않는 규칙 준수). 커뮤니티·YouTube는 old.reddit·
+채널 RSS가 10일 이상 지난 게시물을 반환하지 않아 다수 "특이사항 없음" 처리 — 소급 스캔의
+구조적 한계로 정상. [[timeline]] 35→40건, [[index]]·[[case-catalog]]·[[openai]]·[[chatgpt]]
+허브 갱신. newsletter/2026-07-09.md, 2026-07-10.md, 2026-07-17.md, 2026-07-19.md 신규 생성.

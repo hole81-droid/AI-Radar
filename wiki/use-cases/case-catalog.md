@@ -23,6 +23,7 @@ uses: [course, ax]
 - [[angstrom-claude-code-gpu-experiments]] — Claude Code로 anycloud CLI(멀티클라우드 스팟 GPU 오케스트레이션)를 활용해 소재과학 10만 GPU 실험을 무인 수행 → 결과 모델 DFT 대비 1만 배 속도, Meta 모델 능가 (자체 보고)
 - [[wiki-builder-claude-code-llm-wiki]] — Claude Code 플러그인(스캐폴딩+SKILL.md)으로 LLM 지식베이스 구축·유지보수 전 루프를 수행 → 벡터DB 없이 순수 마크다운 기반 자가 유지보수 (주장)
 - [[track-hanta-claude-opus-monitoring-tracker]] — Claude Opus 4.7로 다중 소스 수집·요약 파이프라인을 활용해 공공 보건(한타바이러스) 실시간 모니터링을 수행 → 개인 프로젝트 자동 운영 (일화)
+- [[gpt-5-6-sol-ultra-math-proof-subagents]] — ChatGPT(GPT-5.6 Sol Ultra)로 서브에이전트 64개 동시 팬아웃을 활용해 50년 미해결 수학 난제(Cycle Double Cover Conjecture) 증명을 수행 → 1시간 이내 완성, 프롬프트 전문 공개 (자체 발표, 동료검토 전)
 
 ## 개발 자동화 (dev-automation)
 
@@ -95,3 +96,9 @@ Claude Code+Obsidian 독립 재현 사례(natural20.com, Reddit)를 교차 출�
 [[reddit-one-person-ai-company-framework]](1인 AI 회사 운영 프레임워크 — 서브에이전트 비용 15배 등
 구체 실패 사례 다수) · [[searchsteward-claude-job-search-automation]](구직 자동화 툴, 9주 만에 입사).
 셋 다 evidence는 anecdotal/claimed 수준(개인 자기 보고)이라 도입 근거로는 보조 사례로 활용할 것.*
+
+*2026-07-20 공백 소급 스캔(07-09·07-10·07-17·07-19) 추가(40건): [[gpt-5-6-sol-ultra-math-proof-subagents]]
+(OpenAI GPT-5.6 Sol Ultra, 64개 서브에이전트로 50년 미해결 수학 난제 증명 — research 도메인 신규
+추가, 자체 발표·동료검토 전이라 evidence는 claimed). 나머지 3개 날짜(07-09·07-17·07-19)는 재현
+가능한 신규 에이전트 구축 사례를 확인하지 못해 use-case 신규 생성 없음 — 검증 가능한 사실만
+기록한다는 정직성 규칙에 따른 결과이며, 소급 스캔 특성상 정상적인 공백이다.*

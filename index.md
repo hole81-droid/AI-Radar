@@ -48,7 +48,9 @@
 - [[2026-06-18-google-antigravity-cli-transition]] — Gemini CLI→Antigravity 전환 반발 (medium)
 
 ### 기타 업계
+- [[2026-07-19-alibaba-qwen-3-8-preview]] — Alibaba Qwen, 2.4T 파라미터 "Qwen 3.8" 프리뷰, "Fable 5 다음으로 강력" 자평 (medium)
 - [[2026-07-16-moonshot-kimi-k3-launch]] — 중국 Moonshot AI, 역대 최대 오픈웨이트 모델 Kimi K3(2.8T) 공개, 프론트엔드 코딩서 Fable 5 능가 (high)
+- [[2026-07-09-xai-grok-4-5-launch]] — xAI, Grok 4.5 공개, Opus급 성능을 더 저렴하게 (medium)
 - [[2026-07-14-thomson-reuters-ai-layoffs]] — 엔지니어 500명 감원·AI-네이티브 250명+ 채용 (medium)
 - [[2026-07-03-xai-grok-voice-agent-imagine]] — xAI Voice Agent Builder·STT API (medium)
 - [[2026-07-01-meta-meta-compute]] — Meta 클라우드 사업 진출 (high)
@@ -87,8 +89,8 @@
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 39건) — 케이스 질의는 여기부터
-- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]]
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 40건) — 케이스 질의는 여기부터
+- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]]
 - 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]]
 - 보안·운영: [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]]
@@ -105,6 +107,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-20, 35건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-20, 40건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-20]] · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨. 07-17·07-19자는 미작성)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-20]] · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

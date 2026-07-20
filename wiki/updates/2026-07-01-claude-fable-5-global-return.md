@@ -21,6 +21,14 @@ source: https://www.anthropic.com/news/redeploying-fable-5
 > 끝났고, 7/20부터 종량 크레딧제($10/$50 per 백만 토큰, 입력/출력)가 실제 발효됐다.**
 > (2026-07-20 갱신, 출처: [Vantage Point](https://vantagepoint.io/blog/ai/claude-fable-5-included-access-july-19), [Forbes](https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/))
 
+> ⚠️ 상충 (2026-07-20 소급 스캔 중 발견): r/ClaudeAI에 Anthropic 계정으로 추정되는 게시물
+> (`u/tessahannah`, 2026-07-17 게시 "Fable staying on Max")은 위와 다른 내용을 전한다 —
+> **"7/20부터 Claude Fable 5는 모든 Max·Team Premium 요금제에 한도 50%로 계속 포함되며,
+> Pro·Team Standard 사용자만 사용 크레딧(+1회성 $100 크레딧)으로 전환된다"**는 내용이다.
+> 이는 "Pro·Max 등 구독만으로는 못 쓰게 된다"는 위 Vantage Point 요약과 정면으로 배치된다.
+> 두 출처의 신뢰도를 이 세션에서 확정하지 못해 병기한다 — Max·Team Premium 사용자는 실제
+> 크레딧 차감 여부를 계정에서 직접 확인할 것을 권장한다. [Reddit](https://old.reddit.com/r/ClaudeAI/comments/1uzjcop/fable_staying_on_max/)
+
 ## 왜 중요한가 (비개발자 관점)
 
 - 사상 처음으로 **정부 수출통제가 상용 AI 모델을 중단시켰다 복귀시킨** 사건의 완결편. AI가 반도체처럼 국가 안보 통제 대상이 됐음을 보여준다.
