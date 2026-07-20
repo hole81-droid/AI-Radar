@@ -40,6 +40,25 @@ source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-t
 - **시사점**: 오픈웨이트 vs 폐쇄형 모델 논쟁이 성능 비교를 넘어 지정학·규제 이슈로 번지고 있다 —
   프론트엔드 코딩 등 일부 영역의 오픈웨이트 우위가 이어지면 미국 정부의 규제 개입 가능성도 거론된다.
 
+## 후속 반응 2 (2026-07-20/21 갱신 — IPO 추진 + 미 정부 규제 검토)
+
+- **Moonshot AI, 홍콩 IPO 추진**: Kimi K3 흥행에 힘입어 6개월 내 홍콩 상장을 추진하며,
+  목표 밸류에이션은 **$30B**. 2025년 말 약 $4B였던 기업가치가 2026년 5월 $2B 펀딩 라운드로
+  $20B를 넘겼고, 이번 K3 흥행 이후 $30B까지 거론된다. 매출은 2026년 3~6월 사이 ARR 기준
+  $100M→$300M으로 증가. Kimi K3 공개 이후 수요 급증으로 신규 구독을 일시 중단했던 것과 같은
+  맥락의 급성장이다.
+- **미국 정부, 중국산 오픈웨이트 AI 모델 규제 검토 (Axios 단독, 2026-07-20)**: Kimi K3를
+  계기로 트럼프 행정부 내에서 중국산 AI 모델(오픈웨이트 포함)을 견제하는 방안이 다시
+  논의되고 있다. 상무부가 과거 검토했던 "Entity List"(라이선스 없이는 미국 접근 차단) 등재
+  카드가 재부상했고, 직접 금지 대신 조달 규정·블랙리스트 위협·"백도어·보안 취약점" 부각 등
+  간접적 방식으로 미국 기업의 중국 모델 이탈을 유도하는 방안도 거론된다.
+  - **반대 목소리**: 백악관 AI 자문 David Sacks는 "선두 폐쇄형 모델 기업들이 정부 권력을
+    동원해 오픈웨이트 경쟁자를 제거하려 한다"며 이는 혁신을 저해하고 소수 기업의 과점을
+    굳힐 것이라 경고했다. 커뮤니티에서도 이 규제 시도를 "미국 AI가 폐쇄적이라 오히려
+    뒤처지고 있다"는 서사로 받아들이는 반응이 많다(r/singularity·r/OpenAI에서 같은 날 화제).
+  - 미국 기업들이 저렴하고 성능도 비등한 중국 오픈웨이트 모델을 점점 더 채택하고 있다는
+    점이 이 논쟁의 배경이다.
+
 ## 출처
 
 - [VentureBeat — China's Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems)
@@ -47,3 +66,7 @@ source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-t
 - [Simon Willison — Kimi K3, and what we can still learn from the pelican benchmark](https://simonwillison.net/2026/Jul/16/kimi-k3/)
 - [Bloomberg — Moonshot Unveils Kimi K3 AI Model, Narrowing Gap With US Rivals](https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals)
 - [wccftech — An OpenAI Exec Thinks Kimi K3 And Other Open-Weight Models Are Bringing On "AI Communism"](https://wccftech.com/an-openai-exec-thinks-kimi-k3-and-other-open-weight-models-are-bringing-on-ai-communism/)
+- [Axios — The secret Trump administration battle to fight Chinese AI](https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi)
+- [Yahoo Finance — Moonshot AI Plans Hong Kong IPO After Kimi K3 Model Debut](https://finance.yahoo.com/markets/stocks/articles/moonshot-ai-plans-hong-kong-123000193.html)
+- [TheNextWeb — Moonshot plans to list in Hong Kong within six months at a $30 billion valuation](https://thenextweb.com/news/moonshot-ai-ipo-six-months-30-billion-kimi-k3)
+- [r/OpenAI — The Trump administration considers banning Chinese open-source AI models, sparked by Kimi K3 -Axios](https://old.reddit.com/r/OpenAI/comments/1v1qk08/the_trump_administration_considers_banning/)

@@ -8,6 +8,9 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-20** — Anthropic 연구자 Alpöge, Claude Fable로 87년 미해결 야코비안 추측 반증 주장(동료검토 전) → [[2026-07-20-claude-fable-jacobian-conjecture]]
+- **07-20** — Google, Gemini 전용 추론칩 "Frozen v2" 개발 보도 — 전력당 최대 10배 효율, Alphabet 주가 상승 → [[2026-07-20-google-frozen-v2-chip]]
+- **07-20** — 트럼프 행정부, Kimi K3 계기로 중국산 오픈웨이트 AI 모델 규제 검토(Axios) — Moonshot은 홍콩 IPO 추진($30B) → [[2026-07-16-moonshot-kimi-k3-launch]]
 - **07-20** — Claude Fable 5, 두 차례 연장 끝에 종량 크레딧제 실제 발효(구독 포함 무료 사용 종료) → [[2026-07-01-claude-fable-5-global-return]]
 - **07-19/20** — Kimi K3 수요 폭증으로 Moonshot 신규구독 중단, OpenAI 임원 "오픈웨이트=AI 공산주의" 경고 → [[2026-07-16-moonshot-kimi-k3-launch]]
 - **07-19** — Alibaba Qwen, 2.4조 파라미터 "Qwen 3.8" 프리뷰 공개 — "Fable 5 다음으로 강력" 자평 → [[2026-07-19-alibaba-qwen-3-8-preview]]

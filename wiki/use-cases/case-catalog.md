@@ -42,6 +42,8 @@ uses: [course, ax]
 - [[crew-worktree-free-multiagent-orchestration]] — Claude Code로 Crew(subagents, worktree 대신 실시간 컨텍스트 공유)를 활용해 동일 저장소 멀티 에이전트 동시 작업 충돌 방지를 수행 → 검증된 성과 수치 없음, 프로토타입 단계 (일화)
 - [[claude-code-hooks-wordswap]] — Claude Code Hooks로 출력 후처리 정규식 치환을 활용해 AI 응답의 특정 말버릇 실시간 교정을 수행 → HN 407~467점 화제성 (일화, 성능지표 없음)
 - [[ben-ai-claude-skills-building-methodology]] — Claude로 Skills 설계 방법론+메타스킬(Skill Builder Skill)을 활용해 재사용 가능한 Claude Skill 제작 표준화를 수행 → 7가지 베스트프랙티스 체크리스트 (강의 콘텐츠, 정량 미확인)
+- [[cursor-agent-swarms-model-economics]] — Cursor로 플래너-워커 계층형 에이전트 스웜(subagents+cli-pipeline)을 활용해 SQLite Rust 재구현 대형 벤치마크를 수행 → 비용 $10,565→$1,339(8배↓), 머지충돌 70,000+→1,000미만 (실측)
+- [[claude-code-mcp-multimodel-delegation-benchmark]] — Claude Code로 MCP 서버(mcp+subagents)를 활용해 GPT-5.6·DeepSeek·GLM·로컬 Qwen에 작업 위임 후 198회 히든테스트로 벤치마크 → GPT-5.6 Codex 계열 54/54 만점, Luna 런당 $0.013 (실측)
 
 ## 보안·운영 (ops)
 
@@ -102,3 +104,11 @@ Claude Code+Obsidian 독립 재현 사례(natural20.com, Reddit)를 교차 출�
 추가, 자체 발표·동료검토 전이라 evidence는 claimed). 나머지 3개 날짜(07-09·07-17·07-19)는 재현
 가능한 신규 에이전트 구축 사례를 확인하지 못해 use-case 신규 생성 없음 — 검증 가능한 사실만
 기록한다는 정직성 규칙에 따른 결과이며, 소급 스캔 특성상 정상적인 공백이다.*
+
+*2026-07-21 추가(42건): [[cursor-agent-swarms-model-economics]](Cursor 자체 블로그, 플래너-워커
+계층형 스웜으로 SQLite Rust 재구현 벤치마크 — 비용 8배↓·머지충돌 70배↓ 실측) ·
+[[claude-code-mcp-multimodel-delegation-benchmark]](r/ClaudeAI, Claude Code MCP로 GPT-5.6·
+DeepSeek·GLM·로컬 Qwen 위임 후 198회 히든테스트 — GPT-5.6 Codex 계열 만점·최저비용 발견).
+두 건 모두 dev-automation 도메인, evidence는 measured(둘 다 재현 가능한 방법론·수치 공개).
+"5 CLAUDE.md 패턴(18개월 프로덕션)" 등 조건에 맞지 않는 후보는 mechanism 통제 어휘에
+깔끔히 들어맞지 않아 use-case화 대신 뉴스레터 커뮤니티 화제로만 기록 — 스키마 정직성 우선.*

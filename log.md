@@ -119,3 +119,15 @@ research 도메인 신규 case-catalog 40건). 기존 페이지 갱신 3건: [[2
 채널 RSS가 10일 이상 지난 게시물을 반환하지 않아 다수 "특이사항 없음" 처리 — 소급 스캔의
 구조적 한계로 정상. [[timeline]] 35→40건, [[index]]·[[case-catalog]]·[[openai]]·[[chatgpt]]
 허브 갱신. newsletter/2026-07-09.md, 2026-07-10.md, 2026-07-17.md, 2026-07-19.md 신규 생성.
+
+## [2026-07-21] scan | 항목 8건, 반영 8건
+공백 없음(전일 07-20 뉴스레터 확인). ★최우선 2건 모두 use-case 페이지화: Cursor 에이전트
+스웜 비용경제학(플래너-워커 계층 구조, 비용 8배↓·머지충돌 70배↓ 실측 — [[cursor-agent-swarms-model-economics]]),
+Claude Code MCP 멀티모델 위임 벤치마크(198회 히든테스트, GPT-5.6 Codex 계열 54/54 만점
+— [[claude-code-mcp-multimodel-delegation-benchmark]]). "5 CLAUDE.md 패턴" 후보는 mechanism
+통제 어휘에 맞지 않아 use-case화 대신 뉴스레터 커뮤니티 화제로만 기록(스키마 정직성 우선).
+빅뉴스 3건: Anthropic 연구자 Alpöge의 야코비안 추측 반증 주장(동료검토 전, [[2026-07-20-claude-fable-jacobian-conjecture]]
+신규), Moonshot Kimi K3발 홍콩 IPO $30B + 미 정부 중국산 AI 규제 재검토([[2026-07-16-moonshot-kimi-k3-launch]]
+갱신), Google Gemini 전용 추론칩 "Frozen v2"([[2026-07-20-google-frozen-v2-chip]] 신규).
+[[timeline]] 40→44건, [[index]]·[[case-catalog]](40→42건)·[[anthropic]]·[[google]]·[[claude-code]]
+허브 갱신. newsletter/2026-07-21.md 신규 생성.

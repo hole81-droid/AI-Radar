@@ -27,8 +27,16 @@ Alphabet 산하 Google은 자체 연구조직 **Google DeepMind**(CEO Demis Hass
 
 플래그십 **Gemini 3.5 Pro가 세 번째로 연기**됐다 — Bloomberg·Reuters 보도로는 "코딩 성능이 내부 목표 미달"이 원인이며, 새 출시일은 미정. Alphabet 주가도 하락 반응을 보였다. 같은 날 Google은 리서치 도구 **NotebookLM을 "Gemini Notebook"으로 리브랜딩**하며 노트북 내 코드 실행·크로스플랫폼 동기화를 추가해, 플래그십 모델 지연 속에서도 응용 제품으로 존재감을 유지하려는 모습을 보였다. 같은 주 중국 Moonshot AI가 프론트엔드 코딩 벤치마크에서 Claude Fable 5를 앞서는 오픈웨이트 모델 Kimi K3를 공개해, Gemini 3.5 Pro의 지연이 상대적으로 더 부각되는 구도가 됐다.
 
+## 최근 동향 추가 (07-20)
+
+Bloomberg 보도로 Gemini 전용 추론칩 **"Frozen v2"** 개발이 알려졌다 — 모델 아키텍처 일부를
+하드웨어에 직접 새겨 전력당 처리량을 최대 10배까지 높이는 것이 목표(2028년 출시 목표).
+Google Cloud의 내부 컴퓨트 부족을 완화하려는 전략이며, 보도 직후 Alphabet 주가가 상승했다.
+플래그십 모델(Gemini 3.5 Pro) 지연이 이어지는 가운데서도 인프라 경쟁력은 여전하다는 신호. → [[2026-07-20-google-frozen-v2-chip]]
+
 ## 관련 업데이트
 
+- [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2", 전력당 최대 10배 효율 (medium)
 - [[2026-07-01-google-gemini-3-5-pro-rollout-delay]] — Gemini 3.5 Pro 재연기, 07-16 세 번째 연기 확인(코딩 성능 미달) (high)
 - [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]] — NotebookLM → Gemini Notebook 리브랜딩, 코드 실행 추가 (medium)
 - [[2026-06-30-google-gemini-spark-macos-mcp]] — Spark macOS 베타 + 커스텀 MCP·연동 앱 확대 (high)

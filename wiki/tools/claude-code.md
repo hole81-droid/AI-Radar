@@ -52,6 +52,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 
 - 학습과정: CLI 하나로 subagents·skills·hooks·MCP까지 에이전트 설계 개념을 실습할 수 있어 커리큘럼 중심 도구로 적합. Pro 플랜부터 Auto mode 사용 가능해 입문 비용이 낮다.
 - 기업 도입: Team/Enterprise에서 Artifacts·관리형 버전 요구사항·security-guidance 플러그인·Bedrock/Foundry 등 서드파티 프로바이더 지원으로 거버넌스 요건 대응 가능. Routines와 GitHub Actions로 PR 리뷰·정기 점검 자동화가 즉시 적용 가능한 AX 포인트.
+- 커뮤니티 패턴: MCP 서버로 Claude Code가 GPT-5.6·DeepSeek·GLM·로컬 모델 등 타사 모델에 작업을 위임·벤치마크하는 "멀티모델 오케스트레이터" 구성이 등장 — 벤더 종속 완화·비용 최적화 실험 사례. → [[claude-code-mcp-multimodel-delegation-benchmark]]
 
 ## 출처
 
