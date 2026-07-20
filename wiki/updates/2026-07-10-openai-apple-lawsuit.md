@@ -27,9 +27,17 @@ Apple과 OpenAI는 ChatGPT를 Apple Intelligence에 통합하는 파트너십을
 - **AX 관점**: 빅테크 간 파트너십(플랫폼 통합)과 경쟁(차세대 기기)이 동시에 진행되는 구도에서, 공급망·파트너 리스크를 "제품 통합" 차원만이 아니라 "인력 이동·기밀 유출" 차원까지 넓혀 평가할 필요가 있다는 사례.
 - OpenAI의 하드웨어 진출 야심(소비자 기기)이 기존 파트너와의 정면충돌로 번진 첫 사례로, 향후 Apple Intelligence 내 ChatGPT 통합 지속 여부를 지켜볼 변수가 됐다.
 
+## 2026-07-17 업데이트 — Apple, 전직 직원 약 40명에 "증거 보존" 서한 발송하며 확전
+
+Apple이 OpenAI로 이직한 전직 직원 **약 40명**에게 법적 보존 서한(preservation letter)을 보냈다고 FT 등이 보도했다(07-17). 보존 서한은 소송과 관련될 수 있는 문서·기록·커뮤니케이션을 폐기하지 말고 보존하라는 공식 통지문이다. Apple은 애초 소장에 명시한 개인(Chang Liu·Tang Tan) 외에도 영업비밀 유용 정황이 더 넓게 퍼져 있을 수 있다고 보고 조사 범위를 확대한 것으로 해석된다. OpenAI는 "이 소송 내용이 타당하다는 증거를 알지 못한다"고 재차 반박했다.
+
+이는 새로운 소송이 아니라 07-10 최초 소송의 증거 수집·확전 단계로, 기존 사건의 연장선이다.
+
 ## 출처
 
 - [CNBC — Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'](https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html)
 - [CNN Business — Apple accuses OpenAI of using stolen trade secrets](https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit)
 - [TechCrunch — Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
 - [Bloomberg — Apple Sues OpenAI for Trade Secret Theft Over AI Hardware Designs](https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case)
+- [MacRumors — Report: Apple Sends Legal Letters to Dozens of OpenAI Employees](https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/)
+- [9to5Mac — Apple sends legal letters to former employees now at OpenAI](https://9to5mac.com/2026/07/17/apple-sends-legal-letters-to-former-employees-now-at-openai/)

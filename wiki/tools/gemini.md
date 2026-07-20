@@ -14,7 +14,8 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 ## 현재 상태 (2026-07 기준 스냅샷)
 
 - **최신 GA 모델**: `gemini-3.5-flash` (2026-05-19 Google I/O에서 GA). 1M 토큰 컨텍스트, 64K 출력, 텍스트·이미지·오디오·비디오·PDF 입력 지원. API 가격 입력 $1.50/M·출력 $9.00/M 토큰, 캐시 입력 $0.15/M. ([changelog](https://ai.google.dev/gemini-api/docs/changelog), [OpenRouter](https://openrouter.ai/google/gemini-3.5-flash))
-- **Gemini 3.5 Pro**: 2M 토큰 컨텍스트로 예고, I/O 2026에서 제한 프리뷰 공개 후 6월·6/30 목표를 연달아 넘기며 GA가 2026-07 중순으로 재연기된 상태([[2026-07-01-google-gemini-3-5-pro-rollout-delay]]). ([techjournal](https://techjournal.org/gemini-3-5-pro-release-date), [DeepMind 모델 페이지](https://deepmind.google/models/gemini/))
+- **Gemini 3.5 Pro**: 2M 토큰 컨텍스트로 예고, I/O 2026에서 제한 프리뷰 공개 후 6월·6/30·7월 중순 목표를 연달아 넘기며 세 번째 연기된 상태. 07-16 보도 기준 원인은 "코딩 성능이 내부 목표 미달", 새 출시일 미정([[2026-07-01-google-gemini-3-5-pro-rollout-delay]]). ([techjournal](https://techjournal.org/gemini-3-5-pro-release-date), [DeepMind 모델 페이지](https://deepmind.google/models/gemini/))
+- **Gemini Notebook**(구 NotebookLM): 2026-07-16 리브랜딩, 노트북 내 코드 실행("보안 클라우드 컴퓨터")·Gemini 앱/검색 크로스플랫폼 동기화 추가. AI Ultra 우선 롤아웃([[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]).
 - **모델 계보**: Gemini 3 Pro(2025-11-18 출시) → Gemini 3.1 Pro(2026-02-19, 출력 65K 토큰·추론 강도 조절 파라미터) → Gemini 3.5 Flash. ([Gemini 3 발표](https://blog.google/products/gemini/gemini-3/), [DataCamp](https://www.datacamp.com/blog/gemini-3-1))
 - **요금제**: Google AI Plus $4.99 / AI Pro $19.99 / AI Ultra $99.99·$199.99(월). I/O 2026에서 Ultra가 기존 $250에서 인하되고 $100 개발자·지식노동자용 티어가 신설됨. ([Google 공식](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/), [Engadget](https://www.engadget.com/2176060/the-google-ai-ultra-plan-now-starts-at-100-a-month/), [구독 페이지](https://gemini.google/subscriptions/))
 - **Gemini CLI 개편**: 2026-06-18부로 개인·AI Pro·Ultra 티어의 Gemini CLI / Gemini Code Assist 서비스가 중단되고 **Antigravity CLI**(멀티 에이전트 플랫폼 Antigravity로 통합)로 이관됨. ([Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/))
@@ -41,6 +42,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-06-30**: `gemini-omni-flash-preview`(비디오 생성·편집) 공개, `gemini-3.1-flash-lite-image`(Nano Banana Lite) GA, 구형 Veo 모델 종료 — [changelog](https://ai.google.dev/gemini-api/docs/changelog)
 - **2026-06-30**: Gemini Spark 업데이트 — macOS 앱 베타(Ultra 전용), Canva·Dropbox·Instacart·OpenTable·Zillow Rentals 연동, 커스텀 MCP 지원 — [[2026-06-30-google-gemini-spark-macos-mcp]], [blog.google](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/); Gemini 3.5 Live Translate 출시 — [blog.google](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/)
 - **2026-07-01**: Gemini 3.5 Pro, 6/30 GA 목표도 넘기며 두 번째 연기 — 7월 중순 GA 유력, 제한 프리뷰 지속 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]
+- **2026-07-16**: Gemini 3.5 Pro 세 번째 연기 확인 — 코딩 성능 내부 목표 미달, Alphabet 주가 하락 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]; NotebookLM → Gemini Notebook 리브랜딩, 코드 실행·크로스플랫폼 동기화 추가 — [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]
 
 ## 활용 포인트
 

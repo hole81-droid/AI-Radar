@@ -40,9 +40,11 @@ uses: [course, ax]
 - [[accord-agents-cross-review-workspace]] — Claude Code+Codex로 Accord Agents(subagents 반투명 교차검토 워크스페이스)를 활용해 여러 코딩 에이전트의 계획·PR 상호검증을 수행 → 사람이 에이전트 간 "메신저" 역할에서 이탈 (일화, 수치 미확인)
 - [[crew-worktree-free-multiagent-orchestration]] — Claude Code로 Crew(subagents, worktree 대신 실시간 컨텍스트 공유)를 활용해 동일 저장소 멀티 에이전트 동시 작업 충돌 방지를 수행 → 검증된 성과 수치 없음, 프로토타입 단계 (일화)
 - [[claude-code-hooks-wordswap]] — Claude Code Hooks로 출력 후처리 정규식 치환을 활용해 AI 응답의 특정 말버릇 실시간 교정을 수행 → HN 407~467점 화제성 (일화, 성능지표 없음)
+- [[ben-ai-claude-skills-building-methodology]] — Claude로 Skills 설계 방법론+메타스킬(Skill Builder Skill)을 활용해 재사용 가능한 Claude Skill 제작 표준화를 수행 → 7가지 베스트프랙티스 체크리스트 (강의 콘텐츠, 정량 미확인)
 
 ## 보안·운영 (ops)
 
+- [[reddit-one-person-ai-company-framework]] — Claude Code로 CLAUDE.md 부서별 플레이북+라우터·서브에이전트·승인 큐·러너 루프를 활용해 1인 회사의 마케팅·영업·CRM·콘텐츠·아웃리치 운영 전반을 수행 → 6개월 후 첫 유료 고객 확보, SaaS 구독 약 10개 대체 (자기 보고)
 - [[mozilla-claude-mythos-firefox-vulnerability-detection]] — ★실측 벤치마크 케이스. Claude Mythos로 조종·확장·적층 탐지 파이프라인을 활용해 Firefox 코드베이스 보안 취약점 자동 탐지를 수행 → 월간 보안 수정 20~30건→423건, 약 14배 (실측)
 - [[record-replay-mcp-skill-recorder]] — 공개 MCP 서버(record-replay)로 화면 녹화+접근성 이벤트 캡처를 활용해 반복 업무를 재사용 가능한 SKILL.json/SKILL.md로 자동 변환을 수행 → 수치 미확인 (일화)
 - [[codex-record-replay-automations]] — Codex Record & Replay+Automations로 화면 녹화→스킬 변환→예약 실행을 활용해 리포트 추출·CRM 정리 등 반복 사무 업무를 수행 → 코드 없이 완전 자동 실행 (주장, 수치 미공개)
@@ -65,6 +67,7 @@ uses: [course, ax]
 - [[tom-riddle-diary-remarkable]] — 커스텀 앱(비전 LLM)으로 손글씨 캡처→필기체 렌더링 파이프라인을 활용해 전자잉크 태블릿을 AI 대화 상대로 전환 → 첫 응답 0.9~1.1초 (실측)
 - [[codex-personal-assistant-multi-messenger]] — Codex로 gogcli+wacli+브라우저/OS 자동화를 활용해 이메일·멀티메신저·캘린더 개인비서 업무를 수행 → 확인 작업 20분→10초 (주장)
 - [[openai-chatgpt-work-launch]] — ChatGPT Work(GPT-5.6, browser-agent+cron-routines)로 Computer Use+Scheduled Tasks+플러그인 디렉터리를 활용해 문서·슬라이드·예산분석·영업자료 등 사무 업무 자율 처리를 수행 → 단일 프롬프트로 수시간 무인 실행 (주장, 정량 수치 미공개)
+- [[searchsteward-claude-job-search-automation]] — Claude(Fable 5)로 vibe-coding→서브에이전트 파이프라인(계획·구현·리뷰 분업)을 활용해 구직 활동 전체(공고 스크래핑·스코어링·지원 CRM·분석)를 수행 → 9주 만에 신규 입사, 개인 도구가 SaaS 제품으로 성장 (자기 보고)
 
 ## HR (hr)
 
@@ -87,3 +90,8 @@ Claude Code+Obsidian 독립 재현 사례(natural20.com, Reddit)를 교차 출�
 [[ai-radar-daily-scan-pipeline]]·[[simon-willison-claude-release-qa]]·[[ploy-opus-to-gpt-5-6-migration]]은
 독자가 직접 검증 가능한 완전 실측 케이스로, 에이전트 비용 산정의 기준점(anchor)이다. 나머지 외부 케이스의
 수치 실측 검증이 다음 과제.*
+
+*2026-07-18 추가(39건): [[ben-ai-claude-skills-building-methodology]](스킬 제작 방법론 튜토리얼) ·
+[[reddit-one-person-ai-company-framework]](1인 AI 회사 운영 프레임워크 — 서브에이전트 비용 15배 등
+구체 실패 사례 다수) · [[searchsteward-claude-job-search-automation]](구직 자동화 툴, 9주 만에 입사).
+셋 다 evidence는 anecdotal/claimed 수준(개인 자기 보고)이라 도입 근거로는 보조 사례로 활용할 것.*

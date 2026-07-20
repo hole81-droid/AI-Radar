@@ -23,9 +23,14 @@ Alphabet 산하 Google은 자체 연구조직 **Google DeepMind**(CEO Demis Hass
 
 수확과 악재가 교차한 2주였다. 제품 면에서는 **Spark의 macOS 진출과 커스텀 MCP 지원**(6/30)으로 에이전트 경쟁의 선두권을 지켰고, Workspace에서는 **Sheets 수식 오류 원클릭 수정**(6/22~) 같은 체감형 통합을 확대했다. 반면 플래그십 **Gemini 3.5 Pro는 6/30 GA 목표까지 두 차례 연기**되어 7월 중순 출시로 밀렸고, **Shazeer(→OpenAI)·Jumper(→Anthropic) 등 핵심 연구자 연쇄 이탈**로 6/22 주가가 7% 급락하며 시총 약 $270B이 증발했다. 이탈은 이후에도 이어져, 7/13 기준 DeepMind 핵심 연구자 **Jonas Adler**(AI 코딩팀 리드)·**Alexander Pritzel**(사전학습 담당)도 추가로 Anthropic에 합류한 것으로 확인됐다. → [[2026-07-13-anthropic-hires-top-researchers]] 6/18 발효된 **Gemini CLI → Antigravity CLI 강제 전환**의 오픈소스 커뮤니티 반발도 이 기간 내내 이어졌다. 요약하면: 에이전트·Workspace 제품력은 확장 중이나, 플래그십 모델 일정과 연구 인재 유지에서 경쟁 압박이 뚜렷하다.
 
+## 최근 동향 추가 (07-16)
+
+플래그십 **Gemini 3.5 Pro가 세 번째로 연기**됐다 — Bloomberg·Reuters 보도로는 "코딩 성능이 내부 목표 미달"이 원인이며, 새 출시일은 미정. Alphabet 주가도 하락 반응을 보였다. 같은 날 Google은 리서치 도구 **NotebookLM을 "Gemini Notebook"으로 리브랜딩**하며 노트북 내 코드 실행·크로스플랫폼 동기화를 추가해, 플래그십 모델 지연 속에서도 응용 제품으로 존재감을 유지하려는 모습을 보였다. 같은 주 중국 Moonshot AI가 프론트엔드 코딩 벤치마크에서 Claude Fable 5를 앞서는 오픈웨이트 모델 Kimi K3를 공개해, Gemini 3.5 Pro의 지연이 상대적으로 더 부각되는 구도가 됐다.
+
 ## 관련 업데이트
 
-- [[2026-07-01-google-gemini-3-5-pro-rollout-delay]] — Gemini 3.5 Pro 재연기, 7월 중순 GA 유력 (high)
+- [[2026-07-01-google-gemini-3-5-pro-rollout-delay]] — Gemini 3.5 Pro 재연기, 07-16 세 번째 연기 확인(코딩 성능 미달) (high)
+- [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]] — NotebookLM → Gemini Notebook 리브랜딩, 코드 실행 추가 (medium)
 - [[2026-06-30-google-gemini-spark-macos-mcp]] — Spark macOS 베타 + 커스텀 MCP·연동 앱 확대 (high)
 - [[2026-06-22-google-deepmind-talent-exodus]] — DeepMind 인재 이탈, Alphabet 시총 $270B 증발 (high)
 - [[2026-06-22-google-gemini-sheets-formula-fix]] — Sheets 수식 오류 원클릭 수정 (medium)

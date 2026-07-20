@@ -38,6 +38,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **검색·쇼핑**: 2026-03-24 쇼핑 개편 — 앱 내 Instant Checkout을 축소하고 제품 탐색·비교(shopping research) 중심으로 전환, 결제는 Apps 내 연결 서비스에서 처리 ([CNBC](https://www.cnbc.com/2026/03/24/openai-revamps-shopping-experience-in-chatgpt-after-instant-checkout.html), [OpenAI](https://openai.com/index/chatgpt-shopping-research/))
 - **음성**: 신규 speech-to-text 받아쓰기 모델(2026-06-26) — 다국어 혼용·억양 인식 정확도 개선 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **Codex**: ChatGPT 요금제에 포함된 코딩 에이전트. Codex Remote GA(2026-06-25)로 폰에서 원격 Mac/Windows 작업 제어 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
+- **브라우징**: AI 브라우저 ChatGPT Atlas는 2026-08-09 단종 예정. 에이전틱 브라우징 기능은 ChatGPT 데스크톱 앱(멀티탭·로그인·자동입력)과 신규 Chrome 확장으로 흡수 — "슈퍼앱" 전략 ([[2026-07-09-openai-atlas-browser-shutdown]])
 
 ## 최근 주요 업데이트 (날짜순)
 
@@ -53,6 +54,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 시작(미 정부 요청으로 파트너 한정) / GPT-4.5 퇴역 / 개인 금융 대시보드 Plus(미국) 확대 / 신규 받아쓰기 STT 모델 전 플랜 배포 ([OpenAI](https://openai.com/index/previewing-gpt-5-6-sol/), [Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)) → [[2026-06-26-openai-gpt-5-6-preview]]
 - **2026-07-06** — 워크스페이스 에이전트 무료 기간 종료, 크레딧 기반 과금 시작 ([Business Release Notes](https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes))
 - **2026-07-09~10** — GPT-5.6(Sol·Terra·Luna) 정식 출시(GA), 프로그래매틱 도구 호출 도입(토큰 38~63.5% 절감), Codex가 새 ChatGPT 데스크톱 앱(macOS·Windows)에 통합 ([Marktechpost](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/)) → [[2026-07-09-openai-gpt-5-6-launch]]
+- **2026-07-09** — AI 브라우저 Atlas 단종 발표(8/9 종료), 기능은 ChatGPT 데스크톱 앱·Chrome 확장으로 이관 → [[2026-07-09-openai-atlas-browser-shutdown]]
 
 ## 활용 포인트
 

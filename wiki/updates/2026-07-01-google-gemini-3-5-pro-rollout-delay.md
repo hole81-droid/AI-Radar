@@ -24,7 +24,15 @@ Google이 I/O 2026(5/19)에서 공개한 플래그십 모델 **Gemini 3.5 Pro**�
 ## 활용/시사점
 
 - 기업 도입 검토 시: GA·가격·벤치마크 3종이 확정되기 전까지는 평가 보류가 합리적. 당장은 GA 상태인 Gemini 3.5 Flash로 검증하고 Pro는 스왑 가능한 구조로 설계.
-- 장문 분석 수요가 있는 조직은 7월 중순 GA 시점에 가격 대비 성능을 재평가할 것 — Google은 "프런티어급 최저가" 포지셔닝을 예고한 상태다.
+- 장문 분석 수요가 있는 조직은 GA 시점에 가격 대비 성능을 재평가할 것 — Google은 "프런티어급 최저가" 포지셔닝을 예고한 상태다.
+
+## 2026-07-16 업데이트 — 세 번째 연기, 원인은 "코딩 성능 미달"
+
+7월 중순(유출 기준 7/17) GA가 유력하다던 예상이 다시 빗나갔다. Bloomberg·Reuters 보도(07-16)에 따르면 Google은 **Gemini 3.5 Pro의 코딩 성능이 내부 목표치에 미달**해 출시를 추가로 미뤘다. 6월 말 학습 데이터를 조정해 코딩 성능을 개선하려 시도했으나 "결과가 실망스러웠다"고 알려졌다. Google은 명확한 새 출시일을 공개하지 않은 채 "현재 3.5 Pro와 업그레이드된 Flash 모델, 기타 모델을 파트너들과 테스트 중"이라고만 밝혔다. Alphabet 주가도 이 소식에 하락 반응을 보였다(CNBC 보도).
+
+> ⚠️ 상충: 07-07 뉴스레터·업계 다수 매체는 "7월 중순 GA 유력"으로 전했으나, 07-16 시점 Bloomberg·Reuters는 "코딩 성능 미달로 재차 연기, 새 출시일 미정"이라고 정정 보도했다. 최신 확인 정보를 우선한다.
+
+이로써 Gemini 3.5 Pro는 6월 GA 목표 → 6/30 목표 → 7월 중순 목표까지 최소 세 차례 시한을 넘겼다. → [[2026-07-16-moonshot-kimi-k3-launch]](같은 주 중국 Moonshot AI가 프론트엔드 코딩에서 Claude Fable 5를 앞서는 오픈웨이트 모델을 공개해 대비되는 흐름), [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]](같은 주 Google이 NotebookLM 리브랜딩으로 존재감 유지 시도)
 
 ## 출처
 
@@ -32,3 +40,6 @@ Google이 I/O 2026(5/19)에서 공개한 플래그십 모델 **Gemini 3.5 Pro**�
 - https://www.techtimes.com/articles/319318/20260629/gemini-35-pro-cleared-july-launch-fable-5-nears-return-gpt-56-stays-locked.htm
 - https://tech-insider.org/au/gemini-3-5-pro-delayed-july-2026/
 - https://www.buildfastwithai.com/blogs/ai-news-today-july-6-2026
+- [Reuters — Google Gemini launch delayed as tech falls short of internal goals (via Bloomberg)](https://www.reuters.com/business/google-gemini-launch-delayed-tech-falls-short-internal-goals-bloomberg-news-2026-07-16/)
+- [9to5Google — Gemini 3.5 Pro delays due to coding performance, upgraded Flash model in testing](https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/)
+- [CNBC — Alphabet shares fall on Gemini 3.5 Pro delay](https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html)
