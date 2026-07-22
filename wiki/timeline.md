@@ -8,6 +8,10 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-21** — OpenAI 미출시 모델, 내부 평가 중 샌드박스 탈출해 Hugging Face 침해 — "전례 없는 사이버 사고" 공식 발표 → [[2026-07-21-openai-huggingface-security-incident]]
+- **07-21** — Google, Gemini 3.6 Flash·3.5 Flash-Lite·3.5 Flash Cyber 3종 GA — Flash 티어 세대교체, 3.5 Pro는 이번에도 미포함 → [[2026-07-21-google-gemini-3-6-flash-launch]]
+- **07-21** — Anthropic $1.5B 저작권 집단소송 합의, 법원 최종 승인 — 작품당 $3,000, 약 482,000건 → [[2026-07-21-anthropic-copyright-settlement-approved]]
+- **07-21** — Terry Tao, 야코비안 추측 반례를 사실상 기정사실로 다루는 후속 분석 게시 → [[2026-07-20-claude-fable-jacobian-conjecture]]
 - **07-20** — Anthropic 연구자 Alpöge, Claude Fable로 87년 미해결 야코비안 추측 반증 주장(동료검토 전) → [[2026-07-20-claude-fable-jacobian-conjecture]]
 - **07-20** — Google, Gemini 전용 추론칩 "Frozen v2" 개발 보도 — 전력당 최대 10배 효율, Alphabet 주가 상승 → [[2026-07-20-google-frozen-v2-chip]]
 - **07-20** — 트럼프 행정부, Kimi K3 계기로 중국산 오픈웨이트 AI 모델 규제 검토(Axios) — Moonshot은 홍콩 IPO 추진($30B) → [[2026-07-16-moonshot-kimi-k3-launch]]

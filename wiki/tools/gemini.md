@@ -13,7 +13,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 
 ## 현재 상태 (2026-07 기준 스냅샷)
 
-- **최신 GA 모델**: `gemini-3.5-flash` (2026-05-19 Google I/O에서 GA). 1M 토큰 컨텍스트, 64K 출력, 텍스트·이미지·오디오·비디오·PDF 입력 지원. API 가격 입력 $1.50/M·출력 $9.00/M 토큰, 캐시 입력 $0.15/M. ([changelog](https://ai.google.dev/gemini-api/docs/changelog), [OpenRouter](https://openrouter.ai/google/gemini-3.5-flash))
+- **최신 GA 모델**: `gemini-3.6-flash` (2026-07-21 GA) — 코딩·지식노동·멀티모달 성능 향상, 출력 토큰 17% 절감, 가격 입력 $1.50/출력 $7.50(1M 토큰, 기존 3.5 Flash 대비 출력가 인하). 동시에 `gemini-3.5-flash-lite`(초당 350토큰, 입력 $0.30/출력 $2.50)와 보안 특화 `gemini-3.5-flash-cyber`(정부·신뢰 파트너 한정 파일럿)도 함께 출시([[2026-07-21-google-gemini-3-6-flash-launch]]). 이전 GA 모델은 `gemini-3.5-flash`(2026-05-19 Google I/O). ([changelog](https://ai.google.dev/gemini-api/docs/changelog), [출시 공지](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/))
 - **Gemini 3.5 Pro**: 2M 토큰 컨텍스트로 예고, I/O 2026에서 제한 프리뷰 공개 후 6월·6/30·7월 중순 목표를 연달아 넘기며 세 번째 연기된 상태. 07-16 보도 기준 원인은 "코딩 성능이 내부 목표 미달", 새 출시일 미정([[2026-07-01-google-gemini-3-5-pro-rollout-delay]]). ([techjournal](https://techjournal.org/gemini-3-5-pro-release-date), [DeepMind 모델 페이지](https://deepmind.google/models/gemini/))
 - **Gemini Notebook**(구 NotebookLM): 2026-07-16 리브랜딩, 노트북 내 코드 실행("보안 클라우드 컴퓨터")·Gemini 앱/검색 크로스플랫폼 동기화 추가. AI Ultra 우선 롤아웃([[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]).
 - **모델 계보**: Gemini 3 Pro(2025-11-18 출시) → Gemini 3.1 Pro(2026-02-19, 출력 65K 토큰·추론 강도 조절 파라미터) → Gemini 3.5 Flash. ([Gemini 3 발표](https://blog.google/products/gemini/gemini-3/), [DataCamp](https://www.datacamp.com/blog/gemini-3-1))
@@ -43,6 +43,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-06-30**: Gemini Spark 업데이트 — macOS 앱 베타(Ultra 전용), Canva·Dropbox·Instacart·OpenTable·Zillow Rentals 연동, 커스텀 MCP 지원 — [[2026-06-30-google-gemini-spark-macos-mcp]], [blog.google](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/); Gemini 3.5 Live Translate 출시 — [blog.google](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/)
 - **2026-07-01**: Gemini 3.5 Pro, 6/30 GA 목표도 넘기며 두 번째 연기 — 7월 중순 GA 유력, 제한 프리뷰 지속 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]
 - **2026-07-16**: Gemini 3.5 Pro 세 번째 연기 확인 — 코딩 성능 내부 목표 미달, Alphabet 주가 하락 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]; NotebookLM → Gemini Notebook 리브랜딩, 코드 실행·크로스플랫폼 동기화 추가 — [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]
+- **2026-07-21**: `gemini-3.6-flash`·`gemini-3.5-flash-lite`·`gemini-3.5-flash-cyber` 3종 GA — Flash 티어 세대교체, Gemini 3.5 Pro는 이번에도 미포함, Gemini 4 사전학습 시작 언급 — [[2026-07-21-google-gemini-3-6-flash-launch]]
 
 ## 활용 포인트
 

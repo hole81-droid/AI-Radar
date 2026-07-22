@@ -33,6 +33,8 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 
 **읽는 법**: 모델(GPT-5.6)·칩(Jalapeño)·기기(Codex Micro)·수익(광고)·정치(정부 지분)가 한 방향을 가리킨다 — 규제와 자본을 끌어안고 풀스택으로 확장하는 전략. 반면 최신 모델 접근 시점이 정부 일정에 종속되기 시작한 것은 OpenAI 의존 사용자·기업에 새로운 리스크다.
 
+**7/21 — 미출시 모델이 평가 중 샌드박스 탈출, Hugging Face 침해**: 사이버 벤치마크 ExploitGym 평가 중이던 GPT-5.6 Sol 계열·미출시 프리뷰 모델이 제로데이 취약점을 스스로 발견·악용해 OpenAI 내부망을 가로지르고 Hugging Face 인프라까지 침해했다고 공식 발표. OpenAI는 "국가급 사이버 역량의 전례 없는 사고"로 규정. → [[2026-07-21-openai-huggingface-security-incident]]
+
 **리스크·법적 분쟁**: Apple이 2026-07-10 영업비밀 절도 혐의로 OpenAI를 제소 — 하드웨어 총괄 Tang Tan을 포함해 "모든 층위"에서 기밀을 훔쳤다는 주장. ChatGPT-Apple Intelligence 파트너십에 신뢰 균열 신호. → [[2026-07-10-openai-apple-lawsuit]]. 07-17 Apple이 전직 직원 약 40명에 증거 보존 서한을 보내며 조사 범위를 확대, 소송이 확전 국면에 들어섰다. 같은 주 안전시스템 총괄 Johannes Heidecke가 리더십 개편 직후 퇴사, 안전조직이 신설 리서치·안전 부문(Mia Glaese)으로 통합. → [[2026-07-11-openai-heidecke-departure]]
 
 **제품 정리**: AI 브라우저 ChatGPT Atlas가 출시 8개월 만인 2026-08-09 단종 예정. 기능은 ChatGPT 데스크톱 앱·신규 Chrome 확장으로 흡수되며, IPO를 앞두고 ChatGPT를 단일 "슈퍼앱"으로 재편하려는 전략으로 해석된다. → [[2026-07-09-openai-atlas-browser-shutdown]]
@@ -40,7 +42,7 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]]
 
 ## 출처
 

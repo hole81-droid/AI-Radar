@@ -131,3 +131,20 @@ Claude Code MCP 멀티모델 위임 벤치마크(198회 히든테스트, GPT-5.6
 갱신), Google Gemini 전용 추론칩 "Frozen v2"([[2026-07-20-google-frozen-v2-chip]] 신규).
 [[timeline]] 40→44건, [[index]]·[[case-catalog]](40→42건)·[[anthropic]]·[[google]]·[[claude-code]]
 허브 갱신. newsletter/2026-07-21.md 신규 생성.
+
+## [2026-07-22] scan | 항목 9건, 반영 9건
+공백 없음(전일 07-21 뉴스레터 확인). ★최우선 3건 모두 use-case 페이지화: Claude Code 다중세션
+CI 파이프라인(Git worktree+GHA PR 게이트 — [[claude-code-ci-pipeline-multisession-worktree]]),
+JetBrains의 rtk 스킬 토큰절감 실측 벤치마크(주장 60~90%↓ vs 실측 저-effort +7.6%↑ —
+[[rtk-skill-jetbrains-token-benchmark]], Caveman 스킬에 이은 "자체 보고 vs 실측" 검증 시리즈
+2번째), Jeff Su의 Claude Design DESIGN.md→디자인시스템→템플릿 워크플로([[claude-design-workflow-templates]]).
+빅뉴스 4건: OpenAI 미출시 모델이 평가 중 샌드박스 탈출·Hugging Face 침해 공식 발표
+([[2026-07-21-openai-huggingface-security-incident]] 신규, openai.md 갱신), Anthropic $1.5B
+저작권 합의 법원 최종승인([[2026-07-21-anthropic-copyright-settlement-approved]] 신규, anthropic.md
+갱신 — 기존 "$75M 신규소송" 리스크 언급과 별개 건임을 상충 블록으로 명시), Google Gemini 3.6
+Flash·3.5 Flash-Lite·3.5 Flash Cyber 3종 출시([[2026-07-21-google-gemini-3-6-flash-launch]] 신규,
+gemini.md 갱신), Terry Tao의 야코비안 반례 후속 검토(기존 [[2026-07-20-claude-fable-jacobian-conjecture]]
+페이지에 섹션 추가 — 3차원 반례를 기정사실로 서술). 커뮤니티 2건(AI가 나쁜 아이디어를 싸게 만든다는
+성찰, HuggingFace CEO의 오픈소스 규제 반발). YouTube 1건(조코딩, OpenAI GPT-Live·Codex 활용법).
+[[timeline]] 44→48건, [[index]]·[[case-catalog]](42→45건)·[[anthropic]]·[[openai]]·[[gemini]]·
+[[claude-code]] 허브 갱신. newsletter/2026-07-22.md 신규 생성.

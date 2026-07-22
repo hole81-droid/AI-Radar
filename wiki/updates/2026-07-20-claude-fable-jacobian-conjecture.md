@@ -48,6 +48,22 @@ Fable 5로 추정)의 도움을 받았다고 밝혔다.
 > [문제 제기 연도 기준] 87년"이라고 정정하는 등 세부 수치가 보도마다 85~87년으로 엇갈린다.
 > 문제 제기 연도(1939)는 여러 매체가 일치해 이 문서에서는 1939년을 기준으로 삼았다.
 
+## 후속 — Terry Tao의 검토 (2026-07-21)
+
+필즈상 수상자 Terry Tao가 2026-07-21 블로그에 "A digestion of the Jacobian conjecture
+counterexample"를 게시했다. 반례를 기하학적 관점에서 설명하며, 원래 예시가 다항식 차수 대비
+매우 많은 계수가 소거돼야 하는 "거의 기적처럼 보이는" 구조라고 지적했다.
+
+- Tao는 이 반례의 진위를 직접 재검증했다고 명시하지는 않았지만, 글에서 "최근 Fable AI를 이용해
+  3차원에서 이 추측이 거짓임이 밝혀졌다(it was recently shown ... that the conjecture is false
+  in three dimensions)"고 **기정사실처럼 서술**했다 — 동료검토 전 주장을 다루는 수학자 사회의
+  잠정적 신뢰도가 하루 만에 크게 올라갔다는 신호.
+- **해결된 범위**: 3차원 이상. **미해결로 남은 범위**: 2차원(추측 자체는 여전히 open). 1차원은
+  원래도 자명하게 성립.
+- Tao는 글 말미에 "이 문제의 여러 측면을 논의하고 계산 일부를 확인하기 위해 AI 챗봇을 사용했다"고
+  직접 밝혔다 — 원 발견자(Alpöge)뿐 아니라 검증하는 다른 수학자도 AI를 계산 보조로 쓰는 흐름이
+  이어지고 있다.
+
 ## 출처
 
 - [kingy.ai — Jacobian Conjecture Disproved? Claude Fable Evidence](https://kingy.ai/blog/claude-fable-jacobian-conjecture-counterexample/)
@@ -55,3 +71,4 @@ Fable 5로 추정)의 도움을 받았다고 밝혔다.
 - [officechai — An Anthropic Researcher Says Fable Just Helped Him Disprove The 85-year-old Jacobian Conjecture](https://officechai.com/ai/an-anthropic-researcher-says-fable-just-helped-him-disprove-the-85-year-old-jacobian-conjecture/)
 - [r/ClaudeAI — Fable may have disproved a 100 year old conjecture](https://old.reddit.com/r/ClaudeAI/comments/1v1b4i8/fable_may_have_disproved_a_100_year_old_conjecture/)
 - [r/singularity — Apparently the Jacobian conjecture was just proven false by Fable](https://old.reddit.com/r/singularity/comments/1v1aie6/apparently_the_jacobian_conjecture_was_just/)
+- [Terry Tao's blog — A digestion of the Jacobian conjecture counterexample (2026-07-21)](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/)

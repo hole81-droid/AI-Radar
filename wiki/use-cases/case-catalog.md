@@ -16,6 +16,7 @@ uses: [course, ax]
 - [[suki-nondev-claude-code-automation]] — Claude Code(+크롬 확장)로 스킬 3파일 구성을 활용해 비개발자 콘텐츠·문서 업무를 수행 → "밤샘급" 업무 자동 완료, 강의 상품화 (주장)
 - [[varun-mayya-5-ai-apps-500-person-company]] — AI 사내 앱 5종(vibe-coding)으로 500명 미디어 기업 영상 제작 전 과정을 수행 → 더빙 3배, 월 1,000+ 아바타 영상 (주장)
 - [[youtube-subtitle-automation-claude-codex-whisper]] — Cursor 오케스트레이션 하 Whisper+Claude Code/Codex(cli-pipeline+skills)를 활용해 유튜브 자막(SRT) 제작 전 과정을 수행 → 재사용 가능한 "자막자동화 스킬"로 저장 (일화, 정량 수치 미확인)
+- [[claude-design-workflow-templates]] — Claude(Claude Design, prd-driven)로 DESIGN.md+디자인 시스템+재사용 템플릿 3단계를 활용해 슬라이드·소셜카드·뉴스레터 시각 자료 제작을 수행 → 일관된 온브랜드 결과물 (일화, 정량 미확인)
 
 ## 리서치 (research)
 
@@ -44,6 +45,8 @@ uses: [course, ax]
 - [[ben-ai-claude-skills-building-methodology]] — Claude로 Skills 설계 방법론+메타스킬(Skill Builder Skill)을 활용해 재사용 가능한 Claude Skill 제작 표준화를 수행 → 7가지 베스트프랙티스 체크리스트 (강의 콘텐츠, 정량 미확인)
 - [[cursor-agent-swarms-model-economics]] — Cursor로 플래너-워커 계층형 에이전트 스웜(subagents+cli-pipeline)을 활용해 SQLite Rust 재구현 대형 벤치마크를 수행 → 비용 $10,565→$1,339(8배↓), 머지충돌 70,000+→1,000미만 (실측)
 - [[claude-code-mcp-multimodel-delegation-benchmark]] — Claude Code로 MCP 서버(mcp+subagents)를 활용해 GPT-5.6·DeepSeek·GLM·로컬 Qwen에 작업 위임 후 198회 히든테스트로 벤치마크 → GPT-5.6 Codex 계열 54/54 만점, Luna 런당 $0.013 (실측)
+- [[claude-code-ci-pipeline-multisession-worktree]] — Claude Code로 Git worktree+GitHub Actions PR 파이프라인(cli-pipeline)을 활용해 다중 세션 병렬 개발의 코드 품질 게이트를 수행 → 회귀테스트 2,000+건 통과 게이트, 세션 3~5개 동시 운영 (주장)
+- [[rtk-skill-jetbrains-token-benchmark]] — JetBrains가 Claude Code Skill(rtk, skills)의 토큰 절감 주장을 425회 실측 벤치마크로 검증 → 주장 60~90%↓ vs 실측 저-effort 구간 오히려 +7.6% 비용증가 (실측)
 
 ## 보안·운영 (ops)
 
@@ -112,3 +115,13 @@ DeepSeek·GLM·로컬 Qwen 위임 후 198회 히든테스트 — GPT-5.6 Codex �
 두 건 모두 dev-automation 도메인, evidence는 measured(둘 다 재현 가능한 방법론·수치 공개).
 "5 CLAUDE.md 패턴(18개월 프로덕션)" 등 조건에 맞지 않는 후보는 mechanism 통제 어휘에
 깔끔히 들어맞지 않아 use-case화 대신 뉴스레터 커뮤니티 화제로만 기록 — 스키마 정직성 우선.*
+
+*2026-07-22 추가(45건): [[claude-code-ci-pipeline-multisession-worktree]](r/ClaudeAI, Git
+worktree+GitHub Actions PR 파이프라인으로 다중 Claude Code 세션 품질 게이트 — dev-automation,
+anecdotal) · [[rtk-skill-jetbrains-token-benchmark]](JetBrains, 바이럴 토큰절감 Skill "rtk"의
+60~90% 절감 주장을 425회 벤치마크로 검증했더니 저-effort 구간 오히려 비용 +7.6% — dev-automation,
+measured. Caveman 스킬에 이은 JetBrains의 두 번째 "자체 보고 vs 실측" 검증 시리즈) ·
+[[claude-design-workflow-templates]](Jeff Su, Claude Design용 DESIGN.md→디자인시스템→재사용
+템플릿 3단계 워크플로 — content-creation, anecdotal. 이 위키의 web/DESIGN.md 운영 방식과 같은
+원리라 강의 소재로 특히 적합). rtk 케이스는 "AI 도구의 자체 보고 지표를 실제 청구서로 검증하라"는
+방법론 교훈이 핵심이라, 부정적 결과라도 dev-automation 벤치마크 앵커에 추가할 가치가 있다고 판단.*
