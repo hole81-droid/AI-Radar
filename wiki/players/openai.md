@@ -39,10 +39,16 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 
 **제품 정리**: AI 브라우저 ChatGPT Atlas가 출시 8개월 만인 2026-08-09 단종 예정. 기능은 ChatGPT 데스크톱 앱·신규 Chrome 확장으로 흡수되며, IPO를 앞두고 ChatGPT를 단일 "슈퍼앱"으로 재편하려는 전략으로 해석된다. → [[2026-07-09-openai-atlas-browser-shutdown]]
 
+**7/25 — 17일 연속 "완전 정상" 없이 나흘 연속 장애**: 7/9부터 성능 저하·부분 장애가 반복되다
+7/12·7/16 대형 장애를 거쳐, 7/25에는 ChatGPT·API·Codex가 전 세계적으로 약 1시간 51분간
+동시에 멈췄다(나흘 연속 네 번째 사고). 같은 주 Anthropic이 Claude Opus 5를 출시하며 성능
+경쟁을 이어간 것과 대비돼 "안정성"이 벤더 선택의 별도 기준으로 부각됐다.
+→ [[2026-07-25-openai-reliability-crisis]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]]
 
 ## 출처
 

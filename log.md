@@ -148,3 +148,28 @@ gemini.md 갱신), Terry Tao의 야코비안 반례 후속 검토(기존 [[2026-
 성찰, HuggingFace CEO의 오픈소스 규제 반발). YouTube 1건(조코딩, OpenAI GPT-Live·Codex 활용법).
 [[timeline]] 44→48건, [[index]]·[[case-catalog]](42→45건)·[[anthropic]]·[[openai]]·[[gemini]]·
 [[claude-code]] 허브 갱신. newsletter/2026-07-22.md 신규 생성.
+
+## [2026-07-26] scan | 항목 9건, 반영 9건 (공백 소급 07-23~07-26)
+공백 점검: 마지막 뉴스레터 07-22, 오늘(07-27) 기준 07-23~07-26 4일 공백 확인 → 3일 이상이라
+newsletter/2026-07-26.md 하나로 통합 작성(`> 소급 스캔: 07-23 ~ 07-26`). ★최우선 3건 모두
+use-case 페이지화: 손글씨 사진→폰트 자동 제작 Claude Code Skill([[draw-your-font-claude-code-skill]]),
+Claude Code 세션 243개 실측 프로파일링(비용 68%가 "툴 결과"에서 발생 —
+[[ai-agent-profiler-claude-code-cost-benchmark]]), gstack 페르소나 화상회의 봇(Claude Code가
+유일한 두뇌, 봇은 무지능 셸 — [[gstack-meeting-personas-claude-code-brain]]). 빅뉴스 4건: Claude
+Opus 5 출시(Fable 5급 성능 절반가+CLAUDE.md "점진적 공개" 철학 전환 —
+[[2026-07-24-claude-opus-5-launch]] 신규), OpenAI 17일 연속 불안정 끝 나흘 연속 장애
+([[2026-07-25-openai-reliability-crisis]] 신규), Google Gemini 4 예열+Workspace 확장(gemini.md
+갱신), Anthropic IPO 10월 목표 구체화·티커 ANTH 거론([[2026-07-15-anthropic-ipo-investor-meetings]]
+갱신). 커뮤니티 2건(Screenpipe YC S26 HN 런칭, Opus 5발 CLAUDE.md 철학 논쟁). YouTube 2건(조코딩
+주간 IT뉴스, Ben AI 마케팅 스킬). [[timeline]] 48→50건, [[index]]·[[case-catalog]](45→49건)·
+[[anthropic]]·[[openai]]·[[gemini]]·[[claude-code]] 허브 갱신,
+[[2026-07-16-moonshot-kimi-k3-launch]]에 후속반응3 섹션 추가. newsletter/2026-07-26.md 신규 생성.
+
+## [2026-07-27] scan | 항목 5건, 반영 2건
+공백 소급 완료 후 오늘치 스캔. 뉴스량이 적어 항목을 축소. ★최우선은 세부 검증된 후보가 없어 비움.
+빅뉴스 1건 페이지화: Moonshot Kimi K3 오픈웨이트 전면 공개(예고대로 07-27 00:00 UTC, 1.4TB —
+기존 [[2026-07-16-moonshot-kimi-k3-launch]]에 후속반응3으로 갱신, 신규 페이지 없음). 나머지
+2건(Opus5 vs GPT-5.6 Sol 벤치마크 비교, 오픈소스 규제 로비 제보)은 검증 수준이 낮아 뉴스레터
+기록만 하고 페이지화 보류. 커뮤니티 2건(오픈소스 규제 로비 제보, Claude Code/OpenCode/Pi 하네스
+비교 재점화). YouTube 픽 없음(전날 반영분과 중복). [[timeline]] 50→51건. newsletter/2026-07-27.md
+신규 생성.

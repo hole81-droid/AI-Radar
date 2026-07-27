@@ -37,11 +37,27 @@ source: https://www.anthropic.com/news
 
 **7/21 — $1.5B 저작권 집단소송 합의, 법원 최종 승인**: 작가·출판사 그룹이 제기한 기존 저작권 소송(학습용 도서 무단 저장 건)의 합의금 $1.5B에 최종 승인. 작품당 $3,000, 약 482,000건 대상. 미국 저작권 소송 사상 최대 규모 합의로 보도됨 — 위 리스크 요인 문단의 "$75M 신규 소송"과는 별개 건(그쪽이 이후 제기된 다른 소송). → [[2026-07-21-anthropic-copyright-settlement-approved]]
 
+**7/24 — Claude Opus 5 출시**: 전작 Opus 4.8과 동일 가격($5/$25)으로 Fable 5급 성능에 근접,
+컴퓨터 사용 벤치마크 OSWorld 2.0에서는 Fable 5 최고 기록을 3분의 1 비용에 넘어섰다. Effort
+토글(low/medium/high)로 비용·성능 균형 조절 기능 도입. 동시에 Claude Code 시스템 프롬프트를
+약 80% 정리하고 "규칙 나열"에서 "모델 판단 신뢰(progressive disclosure)"로 CLAUDE.md 작성
+철학을 전환 — 멀티모델 사용자 사이에서는 지침 파일 관리 부담 증가 우려도 제기됐다.
+→ [[2026-07-24-claude-opus-5-launch]]
+
+**IPO 후속(7/21~24)**: 투자자 미팅이 이어지며 상장 목표가 10월로 좁혀졌고, 티커 'ANTH'·
+밸류에이션 $1.2조가 거론된다. 계획대로면 AI 안전 중심 랩 중 최초 상장 사례(OpenAI는 2027년
+시사). → [[2026-07-15-anthropic-ipo-investor-meetings]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
 - **규제 선행 대응**: 수출통제 사태를 겪은 직후 세이프가드·탈옥 프레임워크를 공개한 것은 "안전 투명성 = 규제 리스크 관리"라는 전략의 표본이었으나, 정작 EU 청문회에서는 그 메시지와 실제 대응 태도 사이의 간극이 노출됐다.
 - **관련 허브**: [[claude-code]]
+
+## 관련 페이지 (추가)
+
+- [[2026-07-24-claude-opus-5-launch]] · [[ai-agent-profiler-claude-code-cost-benchmark]] ·
+  [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]]
 
 ## 출처
 

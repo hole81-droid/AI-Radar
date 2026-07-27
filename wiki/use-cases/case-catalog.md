@@ -17,6 +17,7 @@ uses: [course, ax]
 - [[varun-mayya-5-ai-apps-500-person-company]] — AI 사내 앱 5종(vibe-coding)으로 500명 미디어 기업 영상 제작 전 과정을 수행 → 더빙 3배, 월 1,000+ 아바타 영상 (주장)
 - [[youtube-subtitle-automation-claude-codex-whisper]] — Cursor 오케스트레이션 하 Whisper+Claude Code/Codex(cli-pipeline+skills)를 활용해 유튜브 자막(SRT) 제작 전 과정을 수행 → 재사용 가능한 "자막자동화 스킬"로 저장 (일화, 정량 수치 미확인)
 - [[claude-design-workflow-templates]] — Claude(Claude Design, prd-driven)로 DESIGN.md+디자인 시스템+재사용 템플릿 3단계를 활용해 슬라이드·소셜카드·뉴스레터 시각 자료 제작을 수행 → 일관된 온브랜드 결과물 (일화, 정량 미확인)
+- [[draw-your-font-claude-code-skill]] — Claude Code Skill(draw-your-font, skills)로 AI 인식+결정론적 npm CLI 하이브리드 구조를 활용해 손글씨 사진→설치 가능한 TTF 폰트 제작을 수행 → 로컬·무료로 완성, 전문 품질 커닝은 별도 과제 (일화)
 
 ## 리서치 (research)
 
@@ -57,6 +58,8 @@ uses: [course, ax]
 - [[claude-cowork-usage-data-2026]] — Claude Cowork 실사용 120만 세션 분석(mcp)으로 자체 사용패턴 데이터를 공개해 잡무 vs 개발 비중 실태를 수행 → 비즈니스 프로세스·운영 33.4%+콘텐츠 16.4% vs 개발 8.7% (실측)
 - [[charlie-clark-claude-code-second-brain-agency]] — Claude Code로 메모리+검색+스킬+하트비트 4계층 세컨드 브레인(second-brain, mcp)을 활용해 SEO 에이전시 운영 전반(응대·보고서·제안서)을 수행 → 클라이언트 회신 30분→30초 (주장)
 - [[tmux-telegram-agent-model-downshift]] — Claude Code로 tmux 키입력 주입+텔레그램 승인(subagents)을 활용해 멀티에이전트 hive의 자율 모델 다운시프트/업시프트 비용관리를 수행 → 업시프트만 사람 승인 필수인 비대칭 권한 설계 (일화, 정량 미확인)
+- [[ai-agent-profiler-claude-code-cost-benchmark]] — ★실측 벤치마크 케이스. 오픈소스 로컬 프록시(ai-agent-profiler, cli-pipeline)로 Claude Code 세션 트래픽을 실측 기록해 토큰/비용/캐시 구조를 리포팅 → 243세션 실측, 비용 68%가 "툴 결과"에서 발생·캐시효율 96.7% (실측)
+- [[gstack-meeting-personas-claude-code-brain]] — Claude Code(skills+subagents)로 gstack 페르소나+AgentCall 회의봇을 결합해 화상회의 중 전문가 관점(CEO·QA·보안 등 19종) 투입을 수행 → 봇은 무지능 셸, Claude Code 세션이 유일한 두뇌 (일화, 프로토타입 단계)
 
 ## 마케팅 (marketing)
 

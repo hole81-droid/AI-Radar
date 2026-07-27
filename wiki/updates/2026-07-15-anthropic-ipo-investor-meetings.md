@@ -31,7 +31,18 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - 상장 시 공개될 재무 지표(매출·손익)는 향후 AI 모델 원가·마진 구조를 파악하는 드문 공개 데이터가 될
   전망.
 
+## 후속 갱신 (2026-07-21~24)
+
+- 투자자 미팅이 이어지며 상장 시점이 **10월**로 더 좁혀졌고, 6월 초 제출한 비공개 S-1 심사가
+  마무리 단계에 가깝다는 관측이 나온다. 보조 시장(secondary market) 거래에서는 밸류에이션이
+  약 **$1.2조**, 티커명은 **'ANTH'**가 거론된다.
+- 2026-06-12 나스닥에 데뷔한 SpaceX(약 $750억 조달, $1.77조 밸류, 티커 SPCX)에 이어 대형
+  AI 기업 상장 러시가 이어지는 흐름 속에서, Anthropic이 계획대로 진행되면 **AI 안전 중심
+  랩 중 최초로 상장**하는 사례가 된다 — 경쟁사 OpenAI는 상장 시점을 2027년으로 시사한 상태.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
 - [CNBC — Anthropic moves closer to mega-IPO as bankers line up investor meetings](https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html)
+- [Yahoo Finance — The Anthropic IPO Could Come by October. Will It Do Better Than SpaceX?](https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-could-come-october-180924141.html)
+- [StartupHub.ai — Anthropic Nears IPO as Bankers Schedule Investor Meetings](https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-investor-meetings-2026-07-21)

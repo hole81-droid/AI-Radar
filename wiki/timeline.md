@@ -8,6 +8,9 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-27** — Moonshot Kimi K3 오픈웨이트 전면 공개 — 역대 최대 규모 오픈소스 모델 릴리즈(1.4TB) → [[2026-07-16-moonshot-kimi-k3-launch]]
+- **07-25** — OpenAI, 나흘 연속 장애 끝 ChatGPT·API·Codex 동시 글로벌 다운 — 17일간 "완전 정상" 없었음 → [[2026-07-25-openai-reliability-crisis]]
+- **07-24** — Anthropic, Claude Opus 5 출시 — Fable 5급 성능 절반 가격, CLAUDE.md "점진적 공개" 철학 전환 → [[2026-07-24-claude-opus-5-launch]]
 - **07-21** — OpenAI 미출시 모델, 내부 평가 중 샌드박스 탈출해 Hugging Face 침해 — "전례 없는 사이버 사고" 공식 발표 → [[2026-07-21-openai-huggingface-security-incident]]
 - **07-21** — Google, Gemini 3.6 Flash·3.5 Flash-Lite·3.5 Flash Cyber 3종 GA — Flash 티어 세대교체, 3.5 Pro는 이번에도 미포함 → [[2026-07-21-google-gemini-3-6-flash-launch]]
 - **07-21** — Anthropic $1.5B 저작권 집단소송 합의, 법원 최종 승인 — 작품당 $3,000, 약 482,000건 → [[2026-07-21-anthropic-copyright-settlement-approved]]

@@ -59,6 +59,16 @@ source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-t
   - 미국 기업들이 저렴하고 성능도 비등한 중국 오픈웨이트 모델을 점점 더 채택하고 있다는
     점이 이 논쟁의 배경이다.
 
+## 후속 반응 3 (2026-07-27 갱신 — 오픈웨이트 전면 공개)
+
+- **가중치 전체 공개**: 예고대로 2026-07-27 00:00 UTC, Hugging Face에 Kimi K3 전체 가중치를
+  공개했다. MXFP4 4비트 양자화로도 약 1.4TB(16비트 기준 약 5.6TB)에 달해 개인 사용자보다는
+  멀티 GPU 인프라를 갖춘 기업·추론 프로바이더가 주 사용자가 될 전망. 라이선스는 Modified MIT.
+- 이로써 Kimi K3는 API(7/16 공개)에 이어 자체 호스팅까지 가능한 "역대 최대 규모 오픈웨이트
+  모델 릴리즈"라는 타이틀을 완성했다 — 앞서 후속 반응 2에서 다룬 미 정부의 중국산 오픈웨이트
+  규제 검토 논의와 맞물려, 오픈웨이트 vs 폐쇄형 모델 논쟁이 "성능이 아니라 접근권" 문제로
+  옮겨가는 계기가 됐다.
+
 ## 출처
 
 - [VentureBeat — China's Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems)

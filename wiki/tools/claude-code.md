@@ -47,6 +47,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-07-01 (v2.1.198)**: **Claude in Chrome GA** + 서브에이전트 백그라운드 실행 기본화(작업 완료 시 자동 커밋·푸시·draft PR). → [[2026-07-01-claude-in-chrome-ga]]
 - **2026-07-01**: 수출통제로 중단됐던 **Claude Fable 5**가 Claude Code 포함 전 표면에 복귀. 7/7 이후 무료 포함분 종료, 사용 크레딧 과금으로 전환. → [[2026-07-01-claude-fable-5-global-return]]
 - **2026-07-03 (v2.1.200–201)**: 기본 권한 모드 명칭이 'Manual'로 변경, `AskUserQuestion` 자동 진행 비활성화 등. ([changelog](https://code.claude.com/docs/en/changelog))
+- **2026-07-24**: **Claude Opus 5**가 새 기본 모델로 추가(Max 기본, Pro 최상위) — 서브에이전트가 최대 depth 3까지 중첩 생성 가능(기존 1). `/code-review`가 백그라운드 서브에이전트로 실행되도록 변경돼 리뷰 작업이 대화창을 채우지 않게 됨. 동시에 시스템 프롬프트를 약 80% 정리하고 "점진적 공개(progressive disclosure)" 철학으로 전환 — 낡은 CLAUDE.md/스킬 규칙을 감지하는 `/doctor` 명령 추가. → [[2026-07-24-claude-opus-5-launch]]
 
 ## 활용 포인트
 
@@ -55,6 +56,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: MCP 서버로 Claude Code가 GPT-5.6·DeepSeek·GLM·로컬 모델 등 타사 모델에 작업을 위임·벤치마크하는 "멀티모델 오케스트레이터" 구성이 등장 — 벤더 종속 완화·비용 최적화 실험 사례. → [[claude-code-mcp-multimodel-delegation-benchmark]]
 - 커뮤니티 패턴: 다중 세션+Git worktree를 PR 기반 GitHub Actions 파이프라인으로 게이트하는 구성 — 세션 간 혼선을 CI/CD 구조로 해결. → [[claude-code-ci-pipeline-multisession-worktree]]
 - 주의: 바이럴 확산된 토큰 절감 Skill(rtk, "60~90% 절감" 주장)이 JetBrains 실측 벤치마크에서는 오히려 비용 증가(+7.6%, 저-effort 구간)로 나타남 — 자체 보고 지표를 실제 청구서로 검증할 필요. → [[rtk-skill-jetbrains-token-benchmark]]
+- 커뮤니티 패턴: 로컬 프록시로 자신의 Claude Code 세션 트래픽을 직접 감청·분석하는 관측 도구 등장 — 243세션 실측 결과 비용의 68%가 프롬프트가 아닌 "툴 결과"에서 발생. → [[ai-agent-profiler-claude-code-cost-benchmark]]
+- 커뮤니티 패턴: Skill 설계에서 "애매한 판단은 AI, 정밀한 실행은 결정론적 코드"로 역할을 분리하는 하이브리드 구조(손글씨 사진→폰트 자동 제작 사례). → [[draw-your-font-claude-code-skill]]
 
 ## 출처
 

@@ -44,6 +44,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-07-01**: Gemini 3.5 Pro, 6/30 GA 목표도 넘기며 두 번째 연기 — 7월 중순 GA 유력, 제한 프리뷰 지속 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]
 - **2026-07-16**: Gemini 3.5 Pro 세 번째 연기 확인 — 코딩 성능 내부 목표 미달, Alphabet 주가 하락 — [[2026-07-01-google-gemini-3-5-pro-rollout-delay]]; NotebookLM → Gemini Notebook 리브랜딩, 코드 실행·크로스플랫폼 동기화 추가 — [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]]
 - **2026-07-21**: `gemini-3.6-flash`·`gemini-3.5-flash-lite`·`gemini-3.5-flash-cyber` 3종 GA — Flash 티어 세대교체, Gemini 3.5 Pro는 이번에도 미포함, Gemini 4 사전학습 시작 언급 — [[2026-07-21-google-gemini-3-6-flash-launch]]
+- **2026-07-16~26**: Workspace 확장 — Google Vids에 Gemini Omni(텍스트 프롬프트 영상 생성·편집, 개인 아바타) 탑재, Google Docs의 Gemini 지원 언어가 중국어·네덜란드어 등 11개 추가(유료 구독자 대상, 순차 롤아웃). 동시에 차기 **Gemini 4** 관련 티저가 이어지며 "더 큰 베이스 모델이 있어야 프론티어 경쟁이 가능하다"는 관측이 나옴 — [9to5Google](https://9to5google.com/2026/07/26/google-gemini-4-teases/), [Chrome Unboxed](https://chromeunboxed.com/google-docs-is-getting-a-big-gemini-upgrade-with-support-for-11-new-languages/)
 
 ## 활용 포인트
 
