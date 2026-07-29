@@ -48,6 +48,18 @@ source: https://www.anthropic.com/news
 밸류에이션 $1.2조가 거론된다. 계획대로면 AI 안전 중심 랩 중 최초 상장 사례(OpenAI는 2027년
 시사). → [[2026-07-15-anthropic-ipo-investor-meetings]]
 
+**7/27 — "오픈웨이트 모델 금지 주장한 적 없다" 공식 입장문**: Dario Amodei 명의로 오픈웨이트
+모델에 대한 공식 입장을 발표 — 위험 능력 없는 오픈웨이트 모델은 공공재이며 일괄 금지 대상이
+아니라고 명시. Nvidia·Microsoft·Meta·Google·OpenAI 등 77개사가 서명한 "오픈웨이트 규제
+자제" 연대서한에는 불참, 대신 반도체 수출통제·증류 규제·의무 안전성 테스트는 계속 지지한다는
+입장. 같은 날 Cognizant와의 파트너십도 확대(Claude 인증 인력 3만 명+, Global Premier
+Partner로 격상). → [[2026-07-27-anthropic-dario-open-weights-position]]
+
+**7/28 — Claude Mythos, 포스트 퀀텀 암호 후보 HAWK의 구조적 결함 발견**: Frontier Red Team이
+NIST 심사 중인 전자서명 후보 HAWK의 결함(키 강도 사실상 절반)을 60시간 만에 발견 — 인간
+전문가들이 2년 넘게 놓친 것. 7라운드 AES 공격도 200~800배 고도화. 실제 서비스 위험은 없다고
+설명. → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

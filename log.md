@@ -173,3 +173,29 @@ Opus 5 출시(Fable 5급 성능 절반가+CLAUDE.md "점진적 공개" 철학 �
 기록만 하고 페이지화 보류. 커뮤니티 2건(오픈소스 규제 로비 제보, Claude Code/OpenCode/Pi 하네스
 비교 재점화). YouTube 픽 없음(전날 반영분과 중복). [[timeline]] 50→51건. newsletter/2026-07-27.md
 신규 생성.
+
+## [2026-07-28] scan | 항목 8건, 반영 8건 (공백 소급 07-28)
+공백 점검: 마지막 뉴스레터 07-27, 오늘(07-29) 기준 07-28 하루 공백 확인 → 1일이라 날짜별 파일
+newsletter/2026-07-28.md로 작성. ★최우선 1건 use-case 페이지화: Claude Code·Codex 겸용 출력
+스타일 스킬 "i-have-adhd"(ADHD 친화적 행동우선 구조, Reddit 320+ 댓글 화제이나 효과는 엇갈림 —
+[[i-have-adhd-claude-codex-skill]]). 빅뉴스 3건 신규 페이지화: Anthropic Dario Amodei
+"오픈웨이트 모델 금지 주장한 적 없다" 공식 입장(77개사 연대서한 불참, 전날 커뮤니티 로비 제보와
+⚠️ 상충 처리 — [[2026-07-27-anthropic-dario-open-weights-position]]), Nvidia SSI에 $5B 투자
++OpenAI 오하이오 데이터센터 최대 $250B 파이낸싱 보증 검토([[2026-07-27-nvidia-ssi-openai-financing]]),
+Claude Mythos 포스트퀀텀 암호 후보 HAWK 구조적 결함 60시간 만에 발견+AES공격 200~800배 고도화
+([[2026-07-28-claude-mythos-post-quantum-crypto-break]]). OpenAI 7/28 이미지생성 소규모 재장애는
+기존 [[2026-07-25-openai-reliability-crisis]]에 후속 섹션으로 추가(신규 페이지 없음). 커뮤니티 2건
+(에이전트 루프→그래프 구조 전환 아키텍처 논의, ADHD스킬발 출력스타일 커스터마이징 패러디).
+YouTube 2건(조코딩 주간 AI뉴스, Varun Mayya Codex 채용 자동화 — 세부 미확인이라 최우선 대신 픽
+으로만). [[timeline]] 51→55건, [[index]]·[[case-catalog]](49→51건)·[[anthropic]]·[[openai]]·
+[[claude-code]]·[[codex]] 허브 갱신.
+
+## [2026-07-29] scan | 항목 3건, 반영 3건
+공백 소급 완료 후 오늘치 스캔. 뉴스량이 적어 항목을 축소. ★최우선 1건 use-case 페이지화:
+Microsoft 사내 수만 명 엔지니어 대상 Claude Code+GitHub Copilot CLI 4개월 확산 추적 학술 연구
+(arXiv, PR 병합량 약 24%↑ 실측, 개인 바이럴 사례가 아닌 대기업 전사 도입의 드문 실측 벤치마크 —
+[[microsoft-claude-code-copilot-cli-adoption-study]]). 빅뉴스 1건 신규 페이지화: OpenAI GPT-Live
+음성 기능이 Codex·ChatGPT 데스크톱 코딩 작업까지 확장, 음성으로 다중 작업 지시·PR 리뷰 가능
+([[2026-07-29-openai-gpt-live-codex-voice]]). 커뮤니티·YouTube는 스캔 시점 기준 신규 화제 없어
+공란(억지로 채우지 않음). [[timeline]] 갱신 포함, [[openai]]·[[codex]] 허브 갱신.
+newsletter/2026-07-28.md·2026-07-29.md 신규 생성.

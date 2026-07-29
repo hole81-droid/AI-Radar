@@ -8,6 +8,10 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-29** — OpenAI, 음성 대화형 GPT-Live를 Codex·ChatGPT 데스크톱까지 확장 — 말로 코딩 작업 지시·PR 리뷰·디버깅 가능 → [[2026-07-29-openai-gpt-live-codex-voice]]
+- **07-28** — Claude Mythos, NIST 포스트 퀀텀 서명 후보 HAWK의 구조적 결함을 60시간 만에 발견 — 인간 전문가 2년 검증도 못 찾은 결함, 7라운드 AES 공격도 200~800배 고도화 → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
+- **07-27** — Nvidia, Ilya Sutskever의 SSI에 $5B 투자 + OpenAI 오하이오 데이터센터 최대 $250B 파이낸싱 보증 검토 → [[2026-07-27-nvidia-ssi-openai-financing]]
+- **07-27** — Anthropic, "오픈웨이트 모델 금지 주장한 적 없다" 공식 입장 발표 — 77개사 연대서한엔 불참 → [[2026-07-27-anthropic-dario-open-weights-position]]
 - **07-27** — Moonshot Kimi K3 오픈웨이트 전면 공개 — 역대 최대 규모 오픈소스 모델 릴리즈(1.4TB) → [[2026-07-16-moonshot-kimi-k3-launch]]
 - **07-25** — OpenAI, 나흘 연속 장애 끝 ChatGPT·API·Codex 동시 글로벌 다운 — 17일간 "완전 정상" 없었음 → [[2026-07-25-openai-reliability-crisis]]
 - **07-24** — Anthropic, Claude Opus 5 출시 — Fable 5급 성능 절반 가격, CLAUDE.md "점진적 공개" 철학 전환 → [[2026-07-24-claude-opus-5-launch]]

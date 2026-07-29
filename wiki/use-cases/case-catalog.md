@@ -48,6 +48,7 @@ uses: [course, ax]
 - [[claude-code-mcp-multimodel-delegation-benchmark]] — Claude Code로 MCP 서버(mcp+subagents)를 활용해 GPT-5.6·DeepSeek·GLM·로컬 Qwen에 작업 위임 후 198회 히든테스트로 벤치마크 → GPT-5.6 Codex 계열 54/54 만점, Luna 런당 $0.013 (실측)
 - [[claude-code-ci-pipeline-multisession-worktree]] — Claude Code로 Git worktree+GitHub Actions PR 파이프라인(cli-pipeline)을 활용해 다중 세션 병렬 개발의 코드 품질 게이트를 수행 → 회귀테스트 2,000+건 통과 게이트, 세션 3~5개 동시 운영 (주장)
 - [[rtk-skill-jetbrains-token-benchmark]] — JetBrains가 Claude Code Skill(rtk, skills)의 토큰 절감 주장을 425회 실측 벤치마크로 검증 → 주장 60~90%↓ vs 실측 저-effort 구간 오히려 +7.6% 비용증가 (실측)
+- [[microsoft-claude-code-copilot-cli-adoption-study]] — ★실측 벤치마크 케이스. Microsoft가 자체 학술 연구로 Claude Code+GitHub Copilot CLI(cli-pipeline) 사내 수만 명 엔지니어 확산을 4개월 추적 → 채택자 PR 병합량 예상 대비 약 24%↑, 동료 사용이 채택의 핵심 동인 (실측)
 
 ## 보안·운영 (ops)
 
@@ -77,6 +78,7 @@ uses: [course, ax]
 - [[codex-personal-assistant-multi-messenger]] — Codex로 gogcli+wacli+브라우저/OS 자동화를 활용해 이메일·멀티메신저·캘린더 개인비서 업무를 수행 → 확인 작업 20분→10초 (주장)
 - [[openai-chatgpt-work-launch]] — ChatGPT Work(GPT-5.6, browser-agent+cron-routines)로 Computer Use+Scheduled Tasks+플러그인 디렉터리를 활용해 문서·슬라이드·예산분석·영업자료 등 사무 업무 자율 처리를 수행 → 단일 프롬프트로 수시간 무인 실행 (주장, 정량 수치 미공개)
 - [[searchsteward-claude-job-search-automation]] — Claude(Fable 5)로 vibe-coding→서브에이전트 파이프라인(계획·구현·리뷰 분업)을 활용해 구직 활동 전체(공고 스크래핑·스코어링·지원 CRM·분석)를 수행 → 9주 만에 신규 입사, 개인 도구가 SaaS 제품으로 성장 (자기 보고)
+- [[i-have-adhd-claude-codex-skill]] — Claude Code·Codex(skills)로 규칙 기반 출력 스타일 플러그인을 활용해 AI 응답을 ADHD 친화적 구조(행동우선·번호매김)로 재구성 → Reddit 320+ 댓글 화제, 효과 체감은 엇갈림 (일화)
 
 ## HR (hr)
 
@@ -128,3 +130,12 @@ measured. Caveman 스킬에 이은 JetBrains의 두 번째 "자체 보고 vs 실
 템플릿 3단계 워크플로 — content-creation, anecdotal. 이 위키의 web/DESIGN.md 운영 방식과 같은
 원리라 강의 소재로 특히 적합). rtk 케이스는 "AI 도구의 자체 보고 지표를 실제 청구서로 검증하라"는
 방법론 교훈이 핵심이라, 부정적 결과라도 dev-automation 벤치마크 앵커에 추가할 가치가 있다고 판단.*
+
+*2026-07-29 추가(51건, 07-28 공백 소급+07-29 정기 스캔): [[i-have-adhd-claude-codex-skill]]
+(Reddit, Claude Code·Codex 겸용 출력 스타일 스킬 — ADHD 친화적 "행동 우선" 구조 강제, 320+
+댓글 화제이나 효과는 커뮤니티 내에서도 엇갈림, personal-productivity·anecdotal) ·
+[[microsoft-claude-code-copilot-cli-adoption-study]](arXiv 학술 논문, Microsoft 사내 수만 명
+엔지니어 대상 Claude Code+Copilot CLI 4개월 확산 추적 — PR 병합량 24%↑ 실측, dev-automation·
+measured. 개인 바이럴 사례가 아니라 대기업 전사 도입의 학술 실측이라는 점에서 벤치마크
+앵커로서 가치가 크다). 두 건 모두 원문 정독 후 도구/업무/방법/성과를 구체적으로 확인한
+사례만 반영했다는 정직성 규칙을 유지했다.*

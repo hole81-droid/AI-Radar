@@ -58,6 +58,9 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 주의: 바이럴 확산된 토큰 절감 Skill(rtk, "60~90% 절감" 주장)이 JetBrains 실측 벤치마크에서는 오히려 비용 증가(+7.6%, 저-effort 구간)로 나타남 — 자체 보고 지표를 실제 청구서로 검증할 필요. → [[rtk-skill-jetbrains-token-benchmark]]
 - 커뮤니티 패턴: 로컬 프록시로 자신의 Claude Code 세션 트래픽을 직접 감청·분석하는 관측 도구 등장 — 243세션 실측 결과 비용의 68%가 프롬프트가 아닌 "툴 결과"에서 발생. → [[ai-agent-profiler-claude-code-cost-benchmark]]
 - 커뮤니티 패턴: Skill 설계에서 "애매한 판단은 AI, 정밀한 실행은 결정론적 코드"로 역할을 분리하는 하이브리드 구조(손글씨 사진→폰트 자동 제작 사례). → [[draw-your-font-claude-code-skill]]
+- 커뮤니티 패턴: 시스템 프롬프트/Skill로 AI 응답의 커뮤니케이션 스타일 자체를 재구성(ADHD 친화적 "행동 우선" 구조 강제) — Codex와도 호환되는 플러그인으로 320+ 댓글 화제, 효과 체감은 사용자마다 엇갈림. → [[i-have-adhd-claude-codex-skill]]
+- 대기업 도입 실측: Microsoft 사내 수만 명 엔지니어 대상 Claude Code+GitHub Copilot CLI 4개월 확산 추적 학술 연구 — 채택자 PR 병합량 약 24%↑, "동료 효과"가 채택을 좌우. → [[microsoft-claude-code-copilot-cli-adoption-study]]
+- **2026-07-28**: Claude Mythos가 NIST 포스트 퀀텀 서명 후보 HAWK의 구조적 결함을 60시간 만에 발견(인간 전문가 2년 검증도 놓친 결함), 7라운드 AES 공격도 200~800배 고도화. → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
 
 ## 출처
 

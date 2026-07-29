@@ -40,6 +40,13 @@ OpenAI 서비스가 2026-07-09부터 07-25까지 17일 동안 단 하루도 "완
 - 지속적인 서비스 안정성 이슈는 OpenAI의 기업 고객 신뢰도에 누적 리스크로 작용할 수 있어,
   향후 SLA·장애 보상 정책 변화 여부를 지켜볼 만하다.
 
+## 후속 (7/28)
+
+7/25 사고 사흘 뒤인 7/28에도 ChatGPT 이미지 생성 기능에서 오류율이 급증하는 소규모 장애가
+발생했다(DownDetector 기준 미 동부시간 오전 10:33 신고 급증, 같은 날 오후 1:21 UTC 기준
+정상화 확인). 전면 다운은 아니고 이미지 생성 기능에 국한된 사고였지만, "17일간 완전 정상 없음"
+패턴이 계속 이어지고 있다는 점에서 구조적 불안정성 우려를 재확인시켰다.
+
 ## 출처
 
 - [BigGo Finance — OpenAI's 17-Day Stability Crisis: A $0 Bill for Downtime That the AI Industry Can No Longer Ignore](https://finance.biggo.com/news/d7df18cc-2d03-4fc5-a0f4-07fcf9ccbc0a)

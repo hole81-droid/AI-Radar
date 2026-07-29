@@ -42,13 +42,26 @@ ChatGPT와 Codex를 만드는 AI 기업. CEO Sam Altman. 2026-03 펀딩 라운�
 **7/25 — 17일 연속 "완전 정상" 없이 나흘 연속 장애**: 7/9부터 성능 저하·부분 장애가 반복되다
 7/12·7/16 대형 장애를 거쳐, 7/25에는 ChatGPT·API·Codex가 전 세계적으로 약 1시간 51분간
 동시에 멈췄다(나흘 연속 네 번째 사고). 같은 주 Anthropic이 Claude Opus 5를 출시하며 성능
-경쟁을 이어간 것과 대비돼 "안정성"이 벤더 선택의 별도 기준으로 부각됐다.
+경쟁을 이어간 것과 대비돼 "안정성"이 벤더 선택의 별도 기준으로 부각됐다. 7/28에도 이미지
+생성 기능에 소규모 오류율 급증이 재발(같은 날 정상화).
 → [[2026-07-25-openai-reliability-crisis]]
+
+**7/27 — Nvidia, OpenAI 오하이오 데이터센터에 최대 $250B 파이낸싱 보증 검토**: SB Energy 주도
+10GW급 데이터센터 프로젝트(전체 $500B+ 소요 전망, 2028년 첫 구간 가동)에 대해 투자등급
+신용등급이 없는 OpenAI가 유리한 차입 조건을 확보하도록 Nvidia가 대규모 파이낸싱을 보증하는
+방안을 협상 중. 같은 날 Nvidia는 Ilya Sutskever의 SSI에도 $5B 별도 투자·장기 파트너십을
+발표해, OpenAI와 SSI 양쪽에 동시에 깊이 얽히는 구도가 됐다.
+→ [[2026-07-27-nvidia-ssi-openai-financing]]
+
+**7/29 — GPT-Live 음성 기능, Codex·ChatGPT 데스크톱까지 확장**: 실시간 양방향 음성 대화
+GPT-Live가 코딩 영역까지 연결돼, 음성 명령만으로 다중 코딩 작업 지시·PR 리뷰·디버깅이
+가능해졌다. Plus~Enterprise 요금제 데스크톱 앱 기준 제공.
+→ [[2026-07-29-openai-gpt-live-codex-voice]]
 
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-29-openai-gpt-live-codex-voice]]
 
 ## 출처
 
