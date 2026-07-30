@@ -8,6 +8,11 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-29** — Google DeepMind, 노벨상 수상 AlphaFold 전담팀 해체 — 핵심 연구자 John Jumper는 이미 Anthropic으로 이동, 남은 인력은 Gemini·Isomorphic Labs로 재배치 → [[2026-07-29-google-deepmind-alphafold-team-dismantled]]
+- **07-29** — OpenAI Hugging Face 침해 사고, 피해 범위 5개 플랫폼으로 확대 확인(Modal Labs 등) — Sam Altman "AI 감속 찬성" 의회 브리핑 → [[2026-07-21-openai-huggingface-security-incident]]
+- **07-29** — OpenAI, "ChatGPT for Academic Researchers" 출시 — $250M 규모, 2027년까지 연구자 10만 명 무료 지원 → [[2026-07-29-openai-chatgpt-academic-researchers]]
+- **07-29** — Anthropic 향한 "실리콘밸리 반발" 확산 보도 — Figma 갈등·Fable 5 가드레일 논란 재조명 → [[2026-07-27-anthropic-dario-open-weights-position]]
+- **07-28** — OpenAI·Anthropic·Google·Meta 직원 1,100명+ "Pacing the Frontier" 서한 — 정부에 AI 감속 장치 사전 마련 촉구 → [[2026-07-28-ai-industry-pacing-letter]]
 - **07-29** — OpenAI, 음성 대화형 GPT-Live를 Codex·ChatGPT 데스크톱까지 확장 — 말로 코딩 작업 지시·PR 리뷰·디버깅 가능 → [[2026-07-29-openai-gpt-live-codex-voice]]
 - **07-28** — Claude Mythos, NIST 포스트 퀀텀 서명 후보 HAWK의 구조적 결함을 60시간 만에 발견 — 인간 전문가 2년 검증도 못 찾은 결함, 7라운드 AES 공격도 200~800배 고도화 → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
 - **07-27** — Nvidia, Ilya Sutskever의 SSI에 $5B 투자 + OpenAI 오하이오 데이터센터 최대 $250B 파이낸싱 보증 검토 → [[2026-07-27-nvidia-ssi-openai-financing]]

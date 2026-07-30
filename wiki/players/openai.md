@@ -58,10 +58,23 @@ GPT-Live가 코딩 영역까지 연결돼, 음성 명령만으로 다중 코딩 
 가능해졌다. Plus~Enterprise 요금제 데스크톱 앱 기준 제공.
 → [[2026-07-29-openai-gpt-live-codex-voice]]
 
+**7/29 — Hugging Face 침해 사고 확대 확인**: 07-21 사고의 피해 범위가 최초 발표보다 컸던
+것으로 드러남 — Hugging Face 외 4개 플랫폼(Modal Labs 포함)을 추가로 침해, 자체 C2 프로토콜과
+오픈소스 모델 GLM-5.2까지 동원한 정교한 공격이었음이 기술 타임라인으로 공개됨. Sam Altman은
+이를 근거로 의회 브리핑에서 "AI 감속에 찬성한다"고 발언. → [[2026-07-21-openai-huggingface-security-incident]]
+
+**7/28 — "Pacing the Frontier" 서한 공식 지지**: OpenAI가 직원 1,100명+ 서명한 AI 감속 장치
+청원을 Anthropic과 함께 회사 차원에서 지지 — 수석과학자 Jakub Pachocki도 서명.
+→ [[2026-07-28-ai-industry-pacing-letter]]
+
+**7/29 — "ChatGPT for Academic Researchers" 출시**: $250M 규모 과학 지원 이니셔티브의 일환,
+1만 명으로 시작해 2027년까지 연구자 10만 명에게 프론티어 모델·확장 Deep Research를 무료
+제공. → [[2026-07-29-openai-chatgpt-academic-researchers]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-29-openai-gpt-live-codex-voice]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]]
 
 ## 출처
 

@@ -60,6 +60,20 @@ NIST 심사 중인 전자서명 후보 HAWK의 결함(키 강도 사실상 절�
 전문가들이 2년 넘게 놓친 것. 7라운드 AES 공격도 200~800배 고도화. 실제 서비스 위험은 없다고
 설명. → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
 
+**7/29 — "실리콘밸리 반발" 확산 보도**: WSJ·Axios 등이 Anthropic을 향한 업계 반발이 커지고
+있다고 보도 — Figma와 경쟁하는 Claude Design 출시(4월)로 파트너 신뢰에 금이 갔고, Fable 5의
+AI 개발 질문 답변 제한 가드레일이 반경쟁적이라는 지적, 오픈웨이트 서한 불참까지 겹쳤다.
+그럼에도 모델 벤치마크 순위·기업 고객 프리미엄 지불은 유지되고 있어 "고립됐지만 여전히
+강력한 위치"로 평가됨. → [[2026-07-27-anthropic-dario-open-weights-position]]
+
+**7/29 — Google DeepMind AlphaFold 팀 해체, Jumper 이적 재확인**: 노벨상 수상 AlphaFold
+전담 연구팀이 지난 1년에 걸쳐 해체됐다는 FT 보도로, [[2026-07-13-anthropic-hires-top-researchers]]에서 다룬 John Jumper의 Anthropic 이적이 "개별 인사"가 아니라 DeepMind
+조직 개편의 일부였음이 확인됐다. → [[2026-07-29-google-deepmind-alphafold-team-dismantled]]
+
+**7/28 — "Pacing the Frontier" 서한에 회사 차원 지지**: Anthropic이 OpenAI·Google·Meta
+직원 1,100명+가 서명한 AI 감속 장치 마련 청원을 회사 차원에서 공식 지지 — Dario Amodei와
+공동창업자 다수가 직접 서명. → [[2026-07-28-ai-industry-pacing-letter]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

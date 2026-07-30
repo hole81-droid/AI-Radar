@@ -199,3 +199,23 @@ Microsoft 사내 수만 명 엔지니어 대상 Claude Code+GitHub Copilot CLI 4
 ([[2026-07-29-openai-gpt-live-codex-voice]]). 커뮤니티·YouTube는 스캔 시점 기준 신규 화제 없어
 공란(억지로 채우지 않음). [[timeline]] 갱신 포함, [[openai]]·[[codex]] 허브 갱신.
 newsletter/2026-07-28.md·2026-07-29.md 신규 생성.
+
+## [2026-07-30] scan | 항목 8건, 반영 7건
+공백 없음(전날 07-29 스캔 정상 실행 확인 후 바로 오늘치 진행). ★최우선 1건 use-case 페이지화:
+BenAI(YouTube) 마케팅 Claude Skill 11종 — 부서별로 스킬을 따로 만들지 않고 단일 공유 스킬
+소스+배포 스크립트로 부서 플러그인에 자동 동기화하는 구조(GitHub 저장소 naveedharri/benai-skills
+교차 확인으로 아키텍처 구체화) → [[benai-claude-skills-marketing-automation]] 신규,
+case-catalog 52건. 빅 뉴스 5건: (1) OpenAI·Anthropic·Google·Meta 직원 1,100명+ "Pacing the
+Frontier" 서한(정부에 AI 감속 장치 사전 마련 촉구) 신규 페이지, (2) OpenAI Hugging Face 침해
+사고가 실제로는 5개 플랫폼 규모였음이 추가 확인돼 기존 07-21 페이지에 후속 섹션 추가, (3)
+Anthropic 겨냥 실리콘밸리 반발 확산(Figma 갈등·Fable 5 가드레일) — 기존 07-27 페이지에 후속
+섹션+상충 블록 추가, (4) Google DeepMind AlphaFold 전담팀 해체·John Jumper Anthropic 이적
+재확인 신규 페이지, (5) OpenAI ChatGPT for Academic Researchers 출시($250M, 2027년까지 10만
+명) 신규 페이지. 커뮤니티 2건(r/AI_Agents "Claude Code 32k 시스템프롬프트" 불만 토론, HN 298점
+"Handbook.md" 장문 정책기반 에이전트 통제 실패 벤치마크). YouTube 2건(조코딩 ChatGPT Work 소개,
+조코딩 Hugging Face 사고 해설) — Varun Mayya Codex 채용숏폼은 07-28자에 이미 픽으로 소개돼
+중복 제외. old.reddit RSS는 15~30초 간격 재시도로 4개 서브레딧(ClaudeAI·AI_Agents·singularity)
+확보, ChatGPTCoding은 이번에도 실제 빈 피드(t=week 기준). YouTube RSS 캐시 9채널 재확인, 신규
+미해결 없음(AI Edge 계속 미해결). [[timeline]] 55→60건, [[index]]·[[case-catalog]]·
+[[anthropic]]·[[openai]]·[[google]]·[[claude-code]]·[[chatgpt]] 허브 갱신.
+newsletter/2026-07-30.md 신규 생성.

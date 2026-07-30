@@ -57,6 +57,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-07-09** — AI 브라우저 Atlas 단종 발표(8/9 종료), 기능은 ChatGPT 데스크톱 앱·Chrome 확장으로 이관 → [[2026-07-09-openai-atlas-browser-shutdown]]
 - **2026-07-10** — "ChatGPT Work" 출시 — GPT-5.6 기반 자율 업무 에이전트(문서·슬라이드·예산분석·영업자료 등 무인 처리), Computer Use·Scheduled Tasks·플러그인 디렉터리 통합 → [[openai-chatgpt-work-launch]]
 - **2026-07-10** — GPT-5.6 Sol Ultra, 64개 서브에이전트로 50년 미해결 수학 난제 증명 발표(동료검토 전) → [[gpt-5-6-sol-ultra-math-proof-subagents]]
+- **2026-07-29** — "ChatGPT for Academic Researchers" 출시 — $250M 규모, 1만 명으로 시작해 2027년까지 연구자 10만 명에게 프론티어 모델·확장 Deep Research 무료 제공 → [[2026-07-29-openai-chatgpt-academic-researchers]]
 
 ## 활용 포인트
 

@@ -38,6 +38,28 @@ Dario Amodei 명의로 Anthropic이 오픈웨이트(가중치 공개) AI 모델�
 - 동시에 Nvidia·Microsoft·Meta·Google·OpenAI가 한목소리로 연대서한에 서명하고 Anthropic만
   빠진 구도는, 업계 내에서 Anthropic이 "안전 규제 강화" 진영에 더 가깝다는 포지셔닝을 재확인시킨다.
 
+## 후속 (2026-07-29 추가) — "실리콘밸리 반발" 확산 보도
+
+WSJ·Axios 등이 07-29 전후로 **Anthropic을 향한 실리콘밸리 내부 반발이 커지고 있다**고
+보도했다. 오픈웨이트 서한 불참은 그 반발의 한 사례일 뿐, 더 넓은 맥락이 있다는 것이 골자다.
+
+- **Claude Design 출시(4월)**가 파트너사 Figma와 정면 경쟁하는 제품이었던 것이 첫 균열이었다
+  — Figma CEO Dylan Field는 이후 한 행사에서 "Anthropic이 소통에서 일관되게 솔직하지
+  않았다"고 언급.
+- **Fable 5 출시(6월)**를 둘러싼 논란도 재점화됐다 — AI 개발 관련 질문에 답변을 은근히
+  제한하는 가드레일이 반경쟁적이라는 지적을 연구자들이 제기했고, 동시에 데이터 정책도
+  "영구 미보유"에서 "30일 보관"으로 바뀐 사실이 재조명됨.
+- VC David Sacks·Bill Gurley 등이 공개적으로 "Anthropic만 오픈소스 AI를 지지하지 않는다"고
+  비판했고, 벤처·창업자들이 실제로 예산을 더 저렴한 오픈웨이트 모델(중국산 포함)로 옮기고
+  있다는 보도.
+- 다만 반발에도 불구하고 Anthropic 모델은 독립 벤치마크 상위권을 유지 중이고, 기업 고객들은
+  비용·제약에 대한 불만 속에서도 프리미엄 요금을 계속 지불하고 있다는 평가도 함께 나왔다 —
+  "고립됐지만 여전히 가장 강력한 위치"라는 것이 종합 평가.
+
+> ⚠️ 상충: 07-27 공식 입장문(본문)은 "전면 금지를 주장한 적 없다"며 온건한 톤을 취했지만,
+> 07-29 보도들은 그와 별개로 **업계 내 실질적 반감(파트너 신뢰·경쟁 전술 문제)이 이미 상당히
+> 누적돼 있다**는 점을 보여준다 — 공식 입장문만으로는 드러나지 않는 온도차다.
+
 ## 활용/시사점
 
 - **AX**: 오픈웨이트 모델(Kimi K3, Qwen 3.8 등) 도입을 검토 중인 기업은 "전면 금지" 리스크보다는
@@ -52,3 +74,6 @@ Dario Amodei 명의로 Anthropic이 오픈웨이트(가중치 공개) AI 모델�
 - [TechCrunch — Anthropic's Dario Amodei responds: doesn't oppose open-weight models, but fears Chinese AI](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/)
 - [CNBC — Anthropic CEO Dario Amodei says AI company isn't advocating for ban of open-weight models](https://www.cnbc.com/2026/07/27/anthropic-ceo-dario-amodei-isnt-advocating-open-weight-model-ban.html)
 - [Tech Startups — Anthropic CEO Dario Amodei breaks silence on open-weight AI](https://techstartups.com/2026/07/27/anthropic-ceo-dario-amodei-breaks-silence-on-open-weight-ai-after-nvidia-microsoft-meta-openai-and-google-back-open-ai-models/)
+- [Shopifreaks — Anthropic faces a Silicon Valley backlash as founders and researchers move to cheaper open-weight models](https://www.shopifreaks.com/anthropic-faces-a-silicon-valley-backlash-as-founders-and-researchers-move-to-cheaper-open-weight-models-from-rival-labs/)
+- [Yahoo Tech — Anthropic gets heat for being the only major AI lab not supporting open models](https://tech.yahoo.com/ai/claude/articles/anthropic-gets-heat-being-only-125433970.html)
+- [Axios — Anthropic is the world's most valuable startup — and its most isolated AI leader](https://www.axios.com/2026/07/29/anthropic-claude-open-models-ban-china)

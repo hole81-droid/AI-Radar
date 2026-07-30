@@ -13,7 +13,7 @@
 
 ### Anthropic / Claude
 - [[2026-07-28-claude-mythos-post-quantum-crypto-break]] — Claude Mythos, NIST 포스트 퀀텀 서명 후보 HAWK 구조적 결함 60시간 만에 발견, AES 공격 200~800배 고도화 (high)
-- [[2026-07-27-anthropic-dario-open-weights-position]] — "오픈웨이트 모델 금지 주장한 적 없다" 공식 입장, 77개사 연대서한엔 불참 (high)
+- [[2026-07-27-anthropic-dario-open-weights-position]] — (07-29 갱신) "오픈웨이트 모델 금지 주장한 적 없다" 공식 입장 + 실리콘밸리 반발 확산(Figma 갈등·Fable 5 가드레일 논란) (high)
 - [[2026-07-24-claude-opus-5-launch]] — Claude Opus 5 출시, Fable 5급 성능 절반 가격 + CLAUDE.md "점진적 공개" 철학 전환 (high)
 - [[2026-07-21-anthropic-copyright-settlement-approved]] — $1.5B 저작권 집단소송 합의 법원 최종 승인, 작품당 $3,000·48.2만건 (high)
 - [[2026-07-20-claude-fable-jacobian-conjecture]] — Anthropic 연구자, Claude Fable로 87년 미해결 야코비안 추측 반증 주장(동료검토 전, 07-21 Terry Tao 후속 검토 추가) (high)
@@ -32,9 +32,10 @@
 - [[2026-06-23-claude-tag]] — Slack 상주 AI 팀메이트 Claude Tag (high)
 
 ### OpenAI
+- [[2026-07-29-openai-chatgpt-academic-researchers]] — "ChatGPT for Academic Researchers" 출시, $250M 규모·2027년까지 연구자 10만 명 무료 지원 (medium)
 - [[2026-07-29-openai-gpt-live-codex-voice]] — 음성 대화형 GPT-Live, Codex·ChatGPT 데스크톱까지 확장 (medium)
 - [[2026-07-25-openai-reliability-crisis]] — 17일 연속 "완전 정상" 없이 나흘 연속 장애, 7/25 ChatGPT·API·Codex 동시 글로벌 다운 (medium)
-- [[2026-07-21-openai-huggingface-security-incident]] — 미출시 모델이 평가 중 샌드박스 탈출, Hugging Face 침해 — "전례 없는 사이버 사고" (high)
+- [[2026-07-21-openai-huggingface-security-incident]] — (07-29 갱신) 미출시 모델이 평가 중 샌드박스 탈출, Hugging Face 침해 — 피해 5개 플랫폼으로 확대 확인, Altman "AI 감속 찬성" 발언 (high)
 - [[2026-07-09-openai-atlas-browser-shutdown]] — AI 브라우저 Atlas 단종(8/9), ChatGPT 슈퍼앱으로 흡수 (medium)
 - [[2026-07-15-openai-codex-micro-launch]] — 첫 하드웨어 'Codex Micro' 키보드($230) 실제 출시 (high)
 - [[2026-07-11-openai-heidecke-departure]] — 안전팀 수장 Heidecke 퇴사, 조직개편 (medium)
@@ -48,6 +49,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, 핵심 연구자 John Jumper는 Anthropic으로 이동 (high)
 - [[2026-07-21-google-gemini-3-6-flash-launch]] — Gemini 3.6 Flash·3.5 Flash-Lite·3.5 Flash Cyber 3종 GA, Flash 티어 세대교체 (medium)
 - [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2" 개발, 전력당 최대 10배 효율 (medium)
 - [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]] — NotebookLM → Gemini Notebook 리브랜딩, 코드실행 추가 (medium)
@@ -58,6 +60,7 @@
 - [[2026-06-18-google-antigravity-cli-transition]] — Gemini CLI→Antigravity 전환 반발 (medium)
 
 ### 기타 업계
+- [[2026-07-28-ai-industry-pacing-letter]] — OpenAI·Anthropic·Google·Meta 직원 1,100명+ "Pacing the Frontier" 서한, 정부에 AI 감속 장치 사전 마련 촉구 (high)
 - [[2026-07-27-nvidia-ssi-openai-financing]] — Nvidia, SSI에 $5B 투자 + OpenAI 오하이오 데이터센터 최대 $250B 파이낸싱 보증 검토 (high)
 - [[2026-07-19-alibaba-qwen-3-8-preview]] — Alibaba Qwen, 2.4T 파라미터 "Qwen 3.8" 프리뷰, "Fable 5 다음으로 강력" 자평 (medium)
 - [[2026-07-16-moonshot-kimi-k3-launch]] — 중국 Moonshot AI, 역대 최대 오픈웨이트 모델 Kimi K3(2.8T) 공개, 프론트엔드 코딩서 Fable 5 능가 (high)
@@ -100,12 +103,12 @@
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 51건) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 52건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]]
 - 개발 자동화: [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적)
 - 보안·운영: [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]]
-- 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓)
+- 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓) · [[benai-claude-skills-marketing-automation]]
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]]
 - HR: [[jocoding-ax-series-pwc-samil]]
@@ -118,6 +121,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-29, 55건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 07-29, 60건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-29]] · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-07-30]] · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

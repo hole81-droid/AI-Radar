@@ -65,6 +65,7 @@ uses: [course, ax]
 ## 마케팅 (marketing)
 
 - [[ploy-opus-to-gpt-5-6-migration]] — ★실측 벤치마크 케이스. 자체 에이전트 하네스(cli-pipeline)로 도구 스키마 재설계+워크스페이스 프롬프트 캐싱을 활용해 Opus 4.8→GPT-5.6 Sol 모델 마이그레이션을 수행 → 완료시간 2.2배 단축·비용 27%↓·출력토큰 48%↓ (실측)
+- [[benai-claude-skills-marketing-automation]] — Claude Code로 Skills+플러그인 마켓플레이스 배포 구조(단일 소스+부서별 자동 동기화)를 활용해 마케팅 업무 11종(SEO 감사·이메일 시퀀스·LinkedIn·뉴스레터 등)을 수행 → 상시 재사용 체계 구축 (주장, 정량 성과 미확인)
 
 ## 금융 (finance)
 
@@ -130,6 +131,11 @@ measured. Caveman 스킬에 이은 JetBrains의 두 번째 "자체 보고 vs 실
 템플릿 3단계 워크플로 — content-creation, anecdotal. 이 위키의 web/DESIGN.md 운영 방식과 같은
 원리라 강의 소재로 특히 적합). rtk 케이스는 "AI 도구의 자체 보고 지표를 실제 청구서로 검증하라"는
 방법론 교훈이 핵심이라, 부정적 결과라도 dev-automation 벤치마크 앵커에 추가할 가치가 있다고 판단.*
+
+*2026-07-30 추가(52건): [[benai-claude-skills-marketing-automation]](Ben AI, Claude Code Skills
++플러그인 마켓플레이스로 단일 스킬 소스에서 부서별 배포 자동화 — 마케팅 11종에 초점, marketing
+도메인 신규, evidence는 anecdotal). 원문(YouTube 영상)만으로는 구조 파악이 부족해 공개
+GitHub 저장소(naveedharri/benai-skills)를 교차 확인해 아키텍처를 구체화했다.*
 
 *2026-07-29 추가(51건, 07-28 공백 소급+07-29 정기 스캔): [[i-have-adhd-claude-codex-skill]]
 (Reddit, Claude Code·Codex 겸용 출력 스타일 스킬 — ADHD 친화적 "행동 우선" 구조 강제, 320+

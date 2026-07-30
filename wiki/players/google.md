@@ -34,8 +34,18 @@ Bloomberg 보도로 Gemini 전용 추론칩 **"Frozen v2"** 개발이 알려졌�
 Google Cloud의 내부 컴퓨트 부족을 완화하려는 전략이며, 보도 직후 Alphabet 주가가 상승했다.
 플래그십 모델(Gemini 3.5 Pro) 지연이 이어지는 가운데서도 인프라 경쟁력은 여전하다는 신호. → [[2026-07-20-google-frozen-v2-chip]]
 
+## 최근 동향 추가 (07-29)
+
+FT 보도로 **Google DeepMind가 AlphaFold(2024 노벨화학상) 전담 연구팀을 해체**한 사실이
+확인됐다 — 지난 1년에 걸쳐 원 논문 저자 대부분이 재배치됐고, 핵심 연구자 John Jumper는
+이미 6월 Anthropic으로 이동한 상태였다. 남은 인력은 Gemini 프로젝트나 자회사 Isomorphic
+Labs로 흩어졌다. DeepMind 리서치 VP는 "9년간의 단일 난제 집중 전략이 진화했다"고 설명 —
+Gemini를 여러 에이전트·특화 모델의 사령탑으로 삼는 조직 철학으로의 전환을 시사한다.
+→ [[2026-07-29-google-deepmind-alphafold-team-dismantled]]
+
 ## 관련 업데이트
 
+- [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, Jumper Anthropic 이적 재확인 (high)
 - [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2", 전력당 최대 10배 효율 (medium)
 - [[2026-07-01-google-gemini-3-5-pro-rollout-delay]] — Gemini 3.5 Pro 재연기, 07-16 세 번째 연기 확인(코딩 성능 미달) (high)
 - [[2026-07-16-google-notebooklm-gemini-notebook-rebrand]] — NotebookLM → Gemini Notebook 리브랜딩, 코드 실행 추가 (medium)
