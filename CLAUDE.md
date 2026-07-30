@@ -154,6 +154,14 @@ source: <원문 URL>
      `wiki/use-cases`·`updates`·`players`·`concepts` 페이지만. 허브·timeline·index·case-catalog
      같은 증분 갱신 파일은 단독으로 읽을 값이 낮아 첨부에서 제외한다.
 
+### 전체 아카이브 내보내기 (요청 시)
+
+"지금까지 수집한 자료 전체를 보내줘" 류 요청에는 `node scripts/send-archive.mjs --send` 를 쓴다.
+`scripts/package-archive.mjs`가 전 기간 뉴스레터·위키를 **오프라인에서 열람 가능한 HTML 사이트**
+(`index.html` 표지 + 문서 간 위키링크 연결 + `source/` 원본 마크다운)로 만들어 zip 하나로 묶는다.
+데일리 발송과 달리 파일이 200개를 넘어 zip이 불가피하므로, 차단 대비로 본문에 웹 링크를 함께 넣는다.
+마크다운→HTML 렌더러는 `scripts/lib/md-html.mjs` 공용 모듈이다 (표·코드블록·위키링크 지원).
+
 사용자는 사후에 "그 항목은 빼줘/틀렸어"처럼 특정 반영을 되돌리거나 수정하도록 언제든 요청할 수 있다.
 
 ### 2. Query (질의) — 사용자 질문에 답할 때
