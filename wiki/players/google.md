@@ -43,8 +43,14 @@ Labs로 흩어졌다. DeepMind 리서치 VP는 "9년간의 단일 난제 집중 
 Gemini를 여러 에이전트·특화 모델의 사령탑으로 삼는 조직 철학으로의 전환을 시사한다.
 → [[2026-07-29-google-deepmind-alphafold-team-dismantled]]
 
+**7/30 — Gemini Robotics 2 공개**: 휴머노이드 로봇 전신(발끝~손끝)을 조율하고 여러 로봇이
+동시 협업하도록 하는 3종 모델 패밀리(VLA·임베디드 추론 VLM·온디바이스 VLA) 발표. 새 로봇
+기종에 몇 시간 만에 적응 가능하다고 주장, 카세트 삽입·전구 교체 등 정교한 조작 시연.
+→ [[2026-07-31-google-gemini-robotics-2-launch]]
+
 ## 관련 업데이트
 
+- [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 3종 모델·다중 로봇 협업 (medium)
 - [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, Jumper Anthropic 이적 재확인 (high)
 - [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2", 전력당 최대 10배 효율 (medium)
 - [[2026-07-01-google-gemini-3-5-pro-rollout-delay]] — Gemini 3.5 Pro 재연기, 07-16 세 번째 연기 확인(코딩 성능 미달) (high)

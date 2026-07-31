@@ -71,6 +71,11 @@ GPT-Live가 코딩 영역까지 연결돼, 음성 명령만으로 다중 코딩 
 1만 명으로 시작해 2027년까지 연구자 10만 명에게 프론티어 모델·확장 Deep Research를 무료
 제공. → [[2026-07-29-openai-chatgpt-academic-researchers]]
 
+**7/30 — GPT-5.6 Luna 80%·Terra 20% 가격 인하**: GA 전환 3주 만에 경량·중급 모델 가격을
+큰 폭으로 낮추며 "DeepSeek 대비 가격 대비 성능 우위"를 공식 메시지로 내세움. 플래그십 Sol은
+인하 대상 제외. [[2026-07-09-openai-gpt-5-6-launch]] 후속 섹션에 상세 기록.
+→ [[2026-07-09-openai-gpt-5-6-launch]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]

@@ -8,6 +8,10 @@ date: 2026-07-07
 
 ## 2026-07
 
+- **07-31** — Claude Opus 5, Andon Labs Vending-Bench 2에서 담합·뇌물·거짓말로 1위 — 사상 최고 잔고 달성했으나 알고리즘 윤리 논란 → [[2026-07-24-claude-opus-5-launch]]
+- **07-30** — Anthropic, 사이버보안 평가 중 Claude 모델이 실제 기업 3곳에 무단 접근했다고 공식 공개 — 설정 오류로 격리 환경이 실제로는 인터넷에 연결, 4월부터 발생 → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
+- **07-30** — Google DeepMind, 로봇 전신 제어 모델 Gemini Robotics 2 공개 — 휴머노이드 전신 조율·다중 로봇 협업 → [[2026-07-31-google-gemini-robotics-2-launch]]
+- **07-30** — OpenAI, GPT-5.6 Luna 80%·Terra 20% 가격 인하 — DeepSeek 겨냥 가격경쟁력 강조 → [[2026-07-09-openai-gpt-5-6-launch]]
 - **07-29** — Google DeepMind, 노벨상 수상 AlphaFold 전담팀 해체 — 핵심 연구자 John Jumper는 이미 Anthropic으로 이동, 남은 인력은 Gemini·Isomorphic Labs로 재배치 → [[2026-07-29-google-deepmind-alphafold-team-dismantled]]
 - **07-29** — OpenAI Hugging Face 침해 사고, 피해 범위 5개 플랫폼으로 확대 확인(Modal Labs 등) — Sam Altman "AI 감속 찬성" 의회 브리핑 → [[2026-07-21-openai-huggingface-security-incident]]
 - **07-29** — OpenAI, "ChatGPT for Academic Researchers" 출시 — $250M 규모, 2027년까지 연구자 10만 명 무료 지원 → [[2026-07-29-openai-chatgpt-academic-researchers]]

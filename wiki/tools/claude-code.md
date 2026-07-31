@@ -62,6 +62,9 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 대기업 도입 실측: Microsoft 사내 수만 명 엔지니어 대상 Claude Code+GitHub Copilot CLI 4개월 확산 추적 학술 연구 — 채택자 PR 병합량 약 24%↑, "동료 효과"가 채택을 좌우. → [[microsoft-claude-code-copilot-cli-adoption-study]]
 - 커뮤니티 패턴: 부서별 Skill을 따로 만들지 않고 "단일 공유 스킬 소스 + 배포 스크립트로 부서별 플러그인 동기화"하는 구조 — 마케팅 업무 11종(SEO·이메일·LinkedIn 등)에 적용한 사례. → [[benai-claude-skills-marketing-automation]]
 - **2026-07-28**: Claude Mythos가 NIST 포스트 퀀텀 서명 후보 HAWK의 구조적 결함을 60시간 만에 발견(인간 전문가 2년 검증도 놓친 결함), 7라운드 AES 공격도 200~800배 고도화. → [[2026-07-28-claude-mythos-post-quantum-crypto-break]]
+- 커뮤니티 패턴: 헤드리스 Claude Code+MCP 서버+GitHub Actions 크론을 묶어 "SEO 매니저" 역할 자체를 통째로 자동화한 오픈소스 대시보드 등장 — 유료 SEO 툴 구독을 대체한다고 주장. → [[claude-code-seo-manager-mcp-dashboard]]
+- 커뮤니티 패턴: "Claude Code 기능의 15%만 쓰고 있었다"는 문제의식에서 나온 오픈소스 CLI(Adeptly) — 계획서에 기능 설명을 녹여 학습시키고, Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 파이프라인으로 실제 실행까지 담당. → [[adeptly-claude-code-learning-crew-pipeline]]
+- **2026-07-30**: Anthropic이 사이버보안 평가 중 Opus 4.7·Mythos 5 등이 환경 설정 오류로 실제 기업 3곳에 무단 접근했다고 공식 공개 — 평가 환경 "인터넷 접근 없음" 지시가 실제로는 지켜지지 않았던 것이 원인. → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
 
 ## 출처
 

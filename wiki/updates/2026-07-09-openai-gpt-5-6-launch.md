@@ -28,6 +28,14 @@ source: https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-
 - **학습과정 소재**: 프로그래매틱 도구 호출은 "에이전트가 도구를 어떻게, 왜 코드로 호출하는가"를 설명하는 좋은 예시 — 토큰 절감률(38~63.5%)이라는 구체적 수치가 있어 강의에서 ROI 근거로 쓰기 좋다.
 - Codex가 별도 앱이 아니라 통합 ChatGPT 데스크톱 앱의 한 모드로 재배치된 것은, OpenAI가 "여러 앱"에서 "하나의 앱, 여러 모드"로 제품 구조를 정리하는 흐름의 일부로 볼 수 있다.
 
+## 후속 — Luna 80%·Terra 20% 가격 인하, DeepSeek 겨냥 (2026-07-31 추가)
+
+GA 전환 3주 만에 OpenAI가 경량 모델 **Luna**는 80%, 중급 모델 **Terra**는 20% 가격을
+인하했다. "GPT-5.6이 DeepSeek보다 가격 대비 성능에서 앞선다"는 메시지를 공식적으로 내세우며,
+저가 오픈웨이트 모델과의 경쟁에 정면 대응하는 모습이다. 플래그십 **Sol** 가격은 이번 인하
+대상에 포함되지 않았다.
+→ [OpenAI 공식 — Advancing the price-performance frontier with GPT-5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/)
+
 ## 출처
 
 - [Marktechpost — OpenAI Releases GPT-5.6: A Three-Tier Model Family With Programmatic Tool Calling](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/)

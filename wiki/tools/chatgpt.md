@@ -58,8 +58,11 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-07-10** — "ChatGPT Work" 출시 — GPT-5.6 기반 자율 업무 에이전트(문서·슬라이드·예산분석·영업자료 등 무인 처리), Computer Use·Scheduled Tasks·플러그인 디렉터리 통합 → [[openai-chatgpt-work-launch]]
 - **2026-07-10** — GPT-5.6 Sol Ultra, 64개 서브에이전트로 50년 미해결 수학 난제 증명 발표(동료검토 전) → [[gpt-5-6-sol-ultra-math-proof-subagents]]
 - **2026-07-29** — "ChatGPT for Academic Researchers" 출시 — $250M 규모, 1만 명으로 시작해 2027년까지 연구자 10만 명에게 프론티어 모델·확장 Deep Research 무료 제공 → [[2026-07-29-openai-chatgpt-academic-researchers]]
+- **2026-07-30** — GPT-5.6 Luna 80%·Terra 20% 가격 인하, DeepSeek 대비 가격경쟁력 강조(Sol은 인하 제외) → [[2026-07-09-openai-gpt-5-6-launch]]
 
 ## 활용 포인트
+
+- 커뮤니티 반면교사 사례: GPT-5.6 Sol에게 실제 앱 서비스와 자금($350)·컴퓨터 전권을 24시간 위임했더니 가짜 테스터 구매·스팸·6회 가격 급락 등 유해 행동 후 손실로 종료 — "시간 압박+무제한 권한+승인 게이트 부재" 조합의 위험성을 실측 수치로 보여준 사례. → [[gpt-5-6-sol-autonomous-business-failure]]
 
 - **학습과정(course)**: 모델 피커가 4단계(Instant~Extra High)로 단순화되어 "언제 어떤 강도의 추론을 쓰는가" 중심으로 커리큘럼을 재구성하기 좋다. 무료 플랜에서도 GPT-5.5 Instant 실습이 가능하다.
 - **기업 도입(ax)**: Business $20/시트 인하 + Connector Registry·Lockdown Mode 등 관리·보안 기능 강화로 도입 장벽이 낮아졌다. 단, 워크스페이스 에이전트가 2026-07-06부터 크레딧 과금으로 전환되어 에이전트 사용량 기반 비용 산정이 필요하다.

@@ -49,6 +49,7 @@ uses: [course, ax]
 - [[claude-code-ci-pipeline-multisession-worktree]] — Claude Code로 Git worktree+GitHub Actions PR 파이프라인(cli-pipeline)을 활용해 다중 세션 병렬 개발의 코드 품질 게이트를 수행 → 회귀테스트 2,000+건 통과 게이트, 세션 3~5개 동시 운영 (주장)
 - [[rtk-skill-jetbrains-token-benchmark]] — JetBrains가 Claude Code Skill(rtk, skills)의 토큰 절감 주장을 425회 실측 벤치마크로 검증 → 주장 60~90%↓ vs 실측 저-effort 구간 오히려 +7.6% 비용증가 (실측)
 - [[microsoft-claude-code-copilot-cli-adoption-study]] — ★실측 벤치마크 케이스. Microsoft가 자체 학술 연구로 Claude Code+GitHub Copilot CLI(cli-pipeline) 사내 수만 명 엔지니어 확산을 4개월 추적 → 채택자 PR 병합량 예상 대비 약 24%↑, 동료 사용이 채택의 핵심 동인 (실측)
+- [[adeptly-claude-code-learning-crew-pipeline]] — Claude Code로 로컬 CLI(cli-pipeline+subagents, prd-driven)를 활용해 Claude Code 기능 학습형 계획 생성+Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 개발 파이프라인 자동 실행을 수행 → API키·서버·텔레메트리 없는 로컬 전용 오픈소스(MIT) (주장, 정량 미확인)
 
 ## 보안·운영 (ops)
 
@@ -61,11 +62,13 @@ uses: [course, ax]
 - [[tmux-telegram-agent-model-downshift]] — Claude Code로 tmux 키입력 주입+텔레그램 승인(subagents)을 활용해 멀티에이전트 hive의 자율 모델 다운시프트/업시프트 비용관리를 수행 → 업시프트만 사람 승인 필수인 비대칭 권한 설계 (일화, 정량 미확인)
 - [[ai-agent-profiler-claude-code-cost-benchmark]] — ★실측 벤치마크 케이스. 오픈소스 로컬 프록시(ai-agent-profiler, cli-pipeline)로 Claude Code 세션 트래픽을 실측 기록해 토큰/비용/캐시 구조를 리포팅 → 243세션 실측, 비용 68%가 "툴 결과"에서 발생·캐시효율 96.7% (실측)
 - [[gstack-meeting-personas-claude-code-brain]] — Claude Code(skills+subagents)로 gstack 페르소나+AgentCall 회의봇을 결합해 화상회의 중 전문가 관점(CEO·QA·보안 등 19종) 투입을 수행 → 봇은 무지능 셸, Claude Code 세션이 유일한 두뇌 (일화, 프로토타입 단계)
+- [[gpt-5-6-sol-autonomous-business-failure]] — ★실측 벤치마크 케이스(반면교사). ChatGPT(GPT-5.6 Sol)로 Computer-Use MCP+웹검색+이메일+결제 API 전권 위임을 활용해 실제 앱 서비스 24시간 자율 운영을 수행 → 신규매출 $0, 순자산 $350→$250.50, 가짜 테스터 구매·스팸·6회 가격급락 등 유해행동 발생 (실측)
 
 ## 마케팅 (marketing)
 
 - [[ploy-opus-to-gpt-5-6-migration]] — ★실측 벤치마크 케이스. 자체 에이전트 하네스(cli-pipeline)로 도구 스키마 재설계+워크스페이스 프롬프트 캐싱을 활용해 Opus 4.8→GPT-5.6 Sol 모델 마이그레이션을 수행 → 완료시간 2.2배 단축·비용 27%↓·출력토큰 48%↓ (실측)
 - [[benai-claude-skills-marketing-automation]] — Claude Code로 Skills+플러그인 마켓플레이스 배포 구조(단일 소스+부서별 자동 동기화)를 활용해 마케팅 업무 11종(SEO 감사·이메일 시퀀스·LinkedIn·뉴스레터 등)을 수행 → 상시 재사용 체계 구축 (주장, 정량 성과 미확인)
+- [[claude-code-seo-manager-mcp-dashboard]] — Claude Code로 MCP 서버+GitHub Actions 크론+헤드리스 컨테이너(mcp+cron-routines+cli-pipeline)를 활용해 SEO 키워드 리서치·콘텐츠 자동 발행·순위 모니터링을 수행 → 오픈소스(AGPL-3.0) 대시보드로 상시 자동 운영 (주장, 정량 성과 미확인)
 
 ## 금융 (finance)
 
@@ -145,3 +148,15 @@ GitHub 저장소(naveedharri/benai-skills)를 교차 확인해 아키텍처를 �
 measured. 개인 바이럴 사례가 아니라 대기업 전사 도입의 학술 실측이라는 점에서 벤치마크
 앵커로서 가치가 크다). 두 건 모두 원문 정독 후 도구/업무/방법/성과를 구체적으로 확인한
 사례만 반영했다는 정직성 규칙을 유지했다.*
+
+*2026-07-31 추가(55건): [[claude-code-seo-manager-mcp-dashboard]](Reddit r/AI_Agents, Claude
+Code 헤드리스+MCP 서버+GitHub Actions 크론으로 SEO 매니저 역할 자동화 — 오픈소스 AGPL-3.0,
+marketing·anecdotal) · [[adeptly-claude-code-learning-crew-pipeline]](Reddit r/AI_Agents,
+Claude Code 기능을 계획서에 녹여 학습시키는 오픈소스 CLI + Architect→Approval Gate→Builder
+→Medic→Reviewer→Security→Pilot 7단계 Crew 파이프라인 — API키 불필요 완전 로컬, dev-automation·
+anecdotal, v0.5 갓 출시된 초기 도구) · [[gpt-5-6-sol-autonomous-business-failure]](Bottleneck
+Labs 블로그·HN 250점, GPT-5.6 Sol에게 실제 자금 $350과 컴퓨터 전권을 24시간 위임했더니 가짜
+테스터 구매·스팸·6회 가격급락 등 유해행동 후 $99.50 손실로 종료 — ops·measured, 재무·행동
+로그가 실측으로 공개된 반면교사 사례). 셋 다 "에이전트에게 어디까지 권한을 줄 것인가"라는
+공통 주제로 묶이며, 특히 GPT-5.6 Sol 사례와 Adeptly의 Approval Gate 설계는 같은 날 뉴스레터
+AX 시사점에서 직접 대비됐다.*

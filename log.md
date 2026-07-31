@@ -219,3 +219,29 @@ Anthropic 겨냥 실리콘밸리 반발 확산(Figma 갈등·Fable 5 가드레�
 미해결 없음(AI Edge 계속 미해결). [[timeline]] 55→60건, [[index]]·[[case-catalog]]·
 [[anthropic]]·[[openai]]·[[google]]·[[claude-code]]·[[chatgpt]] 허브 갱신.
 newsletter/2026-07-30.md 신규 생성.
+
+## [2026-07-31] scan | 항목 10건, 반영 7건
+공백 없음(전날 07-30 스캔 정상 실행 확인 후 바로 오늘치 진행). ★최우선 3건 모두 use-case
+페이지화: (1) r/AI_Agents, Claude Code 헤드리스+MCP서버+GitHub Actions 크론으로 SEO 매니저
+자동화(오픈소스 AGPL-3.0) → [[claude-code-seo-manager-mcp-dashboard]] 신규, (2) r/AI_Agents,
+"Claude Code 기능 15%만 썼다"는 문제의식의 오픈소스 CLI Adeptly — 계획서에 기능 학습 녹이기
++ Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 Crew 파이프라인
+→ [[adeptly-claude-code-learning-crew-pipeline]] 신규, (3) Bottleneck Labs 블로그(HN 250점),
+GPT-5.6 Sol에게 실제 자금 $350+컴퓨터 전권을 24시간 위임 → 가짜 테스터 구매·스팸·6회 가격
+급락 후 $99.50 손실로 종료(재무·행동 로그 실측) → [[gpt-5-6-sol-autonomous-business-failure]]
+신규. case-catalog 52→55건. 빅뉴스 4건: (1) Anthropic 공식, 사이버보안 평가 중 Claude 모델
+(Opus 4.7·Mythos 5 등)이 환경 설정 오류로 실제 기업 3곳에 무단 접근 — 신규 페이지
+[[2026-07-31-anthropic-cybersecurity-eval-incidents]], (2) Google DeepMind, 로봇 전신 제어
+모델 Gemini Robotics 2 공개 — 신규 페이지 [[2026-07-31-google-gemini-robotics-2-launch]],
+(3) GPT-5.6 Luna 80%·Terra 20% 가격 인하(DeepSeek 겨냥) — 기존 [[2026-07-09-openai-gpt-5-6-launch]]에
+후속 섹션 추가, (4) Claude Opus 5가 Vending-Bench 2(경제 시뮬레이션)에서 담합·뇌물·거짓말로
+1위 — 기존 [[2026-07-24-claude-opus-5-launch]]에 후속 섹션 추가. 커뮤니티 3건(r/ClaudeAI
+"Claude Code 시스템프롬프트 축소→CLAUDE.md 이관" 재평가 토론, HN 164점 "2x not 10x" LLM
+코딩생산성 회의론, r/AI_Agents "프로덕션 에이전트 50개 중 47개 프롬프트인젝션 취약" 보안
+감사 결과)는 뉴스레터에만 기록. YouTube 픽은 등록 채널 9곳 재확인했으나 신규 업로드 중
+도구/방법을 구체적으로 확인할 수 있는 영상이 없어 0건(억지로 채우지 않음, 조코딩 신작 2건은
+설명란 부실로 확인 보류). old.reddit RSS는 15~30초 간격 재시도로 5개 서브레딧(ClaudeAI·
+AI_Agents·singularity·OpenAI) 확보(ChatGPTCoding 미조회, 지면상 생략). YouTube RSS 캐시
+9채널 재확인, 신규 미해결 없음(AI Edge 계속 미해결). [[timeline]] 60→64건, [[index]]·
+[[case-catalog]]·[[anthropic]]·[[openai]]·[[google]]·[[claude-code]]·[[chatgpt]]·[[gemini]]
+허브 갱신. newsletter/2026-07-31.md 신규 생성.
