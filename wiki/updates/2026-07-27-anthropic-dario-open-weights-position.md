@@ -60,6 +60,21 @@ WSJ·Axios 등이 07-29 전후로 **Anthropic을 향한 실리콘밸리 내부 �
 > 07-29 보도들은 그와 별개로 **업계 내 실질적 반감(파트너 신뢰·경쟁 전술 문제)이 이미 상당히
 > 누적돼 있다**는 점을 보여준다 — 공식 입장문만으로는 드러나지 않는 온도차다.
 
+## 후속 (2026-08-01 추가) — OpenAI·Google 결국 서한 서명, White House "규제 포획" 비판
+
+- 처음엔 서한에 불참했던 **OpenAI와 Google도 공개 며칠 만에 결국 "Open Weights and
+  American AI Leadership" 서한에 서명**하며 합류했다 — 결과적으로 Anthropic만
+  유일하게 끝까지 불참한 프론티어 랩으로 남았다.
+- 백악관 AI 자문 **David Sacks**가 Anthropic을 겨냥해 "공포 마케팅에 기반한
+  규제 포획 전략(regulatory capture strategy based on fearmongering)"이라고
+  공개 비판. 반면 Greylock의 Reid Hoffman은 "선한 편(one of the good ones)"이라며
+  옹호에 나서는 등 실리콘밸리 내 여론이 갈렸다.
+- Breitbart 등은 "실리콘밸리가 Anthropic에 대한 애정을 잃고 있다(Silicon Valley
+  Is Falling Out of Love with Anthropic AI)"는 제목으로 이 갈등을 08-01 보도.
+- 다만 반발과 별개로 Anthropic은 2026-05 기준 $965B 기업가치를 기록하며
+  OpenAI를 앞섰고, IPO 준비도 계속 진행 중 — "여론에서는 고립, 시장에서는
+  여전히 최상위"라는 구도가 유지되고 있다.
+
 ## 활용/시사점
 
 - **AX**: 오픈웨이트 모델(Kimi K3, Qwen 3.8 등) 도입을 검토 중인 기업은 "전면 금지" 리스크보다는

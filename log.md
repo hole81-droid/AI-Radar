@@ -245,3 +245,23 @@ AI_Agents·singularity·OpenAI) 확보(ChatGPTCoding 미조회, 지면상 생략
 9채널 재확인, 신규 미해결 없음(AI Edge 계속 미해결). [[timeline]] 60→64건, [[index]]·
 [[case-catalog]]·[[anthropic]]·[[openai]]·[[google]]·[[claude-code]]·[[chatgpt]]·[[gemini]]
 허브 갱신. newsletter/2026-07-31.md 신규 생성.
+
+## [2026-08-03] scan | 항목 7건, 반영 4건 (공백 소급 08-01~08-03)
+
+공백 3일(08-01~08-03, 사흘 이상)로 규칙에 따라 newsletter/2026-08-03.md 하나에 통합
+소급 작성. 이번 스캔 환경에서 old.reddit.com에 대한 WebFetch 접근이 전면 차단되어
+(www.reddit.com 포함) r/AI_Agents·r/ClaudeAI 등 커뮤니티 원문을 직접 조회하지 못했다 —
+★최우선(에이전트·자동화) 항목은 0건으로 정직하게 보고(억지로 채우지 않음). 대신 공식
+소스·HN·YouTube RSS로 확보 가능한 빅 뉴스 4건 반영: (1) OpenAI, 차기 모델 "Astra"를
+정식 출시 대신 10개 미해결 수학 난제 증명으로 티저 공개(문제당 $2,000 미만 토큰 주장,
+실패율 비공개) → [[2026-08-01-openai-astra-teaser-math-proofs]] 신규, (2) Anthropic
+오픈웨이트 논쟁 후속 — OpenAI·Google 결국 연대서한 서명, 백악관 Sacks "규제 포획" 비판,
+실리콘밸리 반발 확산 → 기존 [[2026-07-27-anthropic-dario-open-weights-position]]에
+08-01 후속 섹션 추가, (3) Alibaba Qwen3.8-Max(2.4T) 정식 공개, Fable5 벤치마크 도전
+자체 발표(독립검증 없음) → 기존 [[2026-07-19-alibaba-qwen-3-8-preview]]에 08-03 후속
+섹션 추가, (4) AWS-Superblocks 바이브코딩 프라이빗클라우드 제휴 → [[citizen-development]]
+개념 페이지에 사례 추가(신규 페이지 생성 안 함, 단발성 비즈니스 딜로 판단). 커뮤니티
+1건(HN 1,092점 "LLMs reward expertise")은 뉴스레터에만 기록. YouTube 픽 2건(조코딩
+Astra 관련 뉴스요약, Ben AI 세일즈 스킬 영상 — 후자는 자막·설명 미확인으로 참고용
+표기만 하고 위키 미반영). [[timeline]] 64→68건, [[index]]·[[openai]] 허브 갱신.
+raw/2026-08/openai-astra-teaser-math-proofs.md 신규 저장.

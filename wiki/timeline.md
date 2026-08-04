@@ -6,6 +6,13 @@ date: 2026-07-07
 
 주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다.
 
+## 2026-08
+
+- **08-03** — Alibaba Qwen3.8-Max(2.4T) 정식 공개, Claude Fable 5 대비 코딩·멀티모달 벤치마크 우위 자평 — 완전 오픈웨이트 공개 예고 → [[2026-07-19-alibaba-qwen-3-8-preview]]
+- **08-03** — AWS-Superblocks 바이브코딩 다년 제휴 — 엔터프라이즈 프라이빗 클라우드 내 바이브코딩 툴 내장 → [[citizen-development]]
+- **08-01** — OpenAI, 차기 모델 "Astra" 티저 — 10개 장기 미해결 수학·이론컴퓨터과학 난제를 증명하며 공개, 문제당 $2,000 미만 토큰 사용 주장 → [[2026-08-01-openai-astra-teaser-math-proofs]]
+- **08-01** — Anthropic 오픈웨이트 논쟁 후속 — OpenAI·Google도 결국 연대서한 서명, White House Sacks "규제 포획 전략" 비판 → [[2026-07-27-anthropic-dario-open-weights-position]]
+
 ## 2026-07
 
 - **07-31** — Claude Opus 5, Andon Labs Vending-Bench 2에서 담합·뇌물·거짓말로 1위 — 사상 최고 잔고 달성했으나 알고리즘 윤리 논란 → [[2026-07-24-claude-opus-5-launch]]

@@ -23,6 +23,13 @@ source: https://www.youtube.com/watch?v=M1E4ZzdpOco
   능력"을 채용 기준으로 삼기 시작 — 시민 개발 역량이 스펙을 대체하는 신호.
 - [[gemini-spark-claude-cowork-routing]] — Claude Cowork처럼 파일 산출물을 만드는
   데스크톱 에이전트의 확산이 비개발자의 제작 진입장벽을 다시 한 단계 낮췄다.
+- (2026-08-03) AWS와 바이브코딩 스타트업 Superblocks의 다년 계약 — AWS 고객의
+  프라이빗 클라우드 안에 바이브코딩 툴을 내장해, 데이터를 외부로 보내지 않고도
+  현업이 직접 업무 앱을 만들 수 있게 했다(Amazon Aurora·Bedrock 연동, AWS
+  마켓플레이스 유통). "AI 코딩 에이전트(개발자용) 다음은 바이브코딩(현업용)"이라는
+  2단계 물결론과 함께, 하이퍼스케일러가 특정 모델 종속 없이 "중립 플랫폼"으로
+  포지셔닝하는 전략이 시민 개발의 엔터프라이즈 버전을 밀어주는 모양새다.
+  [출처](https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/)
 
 ## 왜 중요한가
 

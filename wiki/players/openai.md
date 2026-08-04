@@ -76,10 +76,17 @@ GPT-Live가 코딩 영역까지 연결돼, 음성 명령만으로 다중 코딩 
 인하 대상 제외. [[2026-07-09-openai-gpt-5-6-launch]] 후속 섹션에 상세 기록.
 → [[2026-07-09-openai-gpt-5-6-launch]]
 
+**8/1 — 차기 모델 "Astra" 티저, 수학 논문으로 예고**: 정식 발표 대신 10개
+장기 미해결 수학·이론컴퓨터과학 난제를 증명한 결과물로 차기 모델 Astra의 존재를
+처음 공개. 문제당 GPT-5.6 Sol API 요금 기준 $2,000 미만의 토큰만 썼다고 주장하며
+Lean 4 형식 검증까지 첨부했으나, 실패 사례 비용·프롬프트는 비공개. GPT-6인지
+GPT-5 계열 연장인지도 미확정인 "결과로 예고하는" 방식이 이례적이라는 평가.
+→ [[2026-08-01-openai-astra-teaser-math-proofs]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]]
 
 ## 출처
 
