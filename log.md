@@ -265,3 +265,16 @@ AI_Agents·singularity·OpenAI) 확보(ChatGPTCoding 미조회, 지면상 생략
 Astra 관련 뉴스요약, Ben AI 세일즈 스킬 영상 — 후자는 자막·설명 미확인으로 참고용
 표기만 하고 위키 미반영). [[timeline]] 64→68건, [[index]]·[[openai]] 허브 갱신.
 raw/2026-08/openai-astra-teaser-math-proofs.md 신규 저장.
+
+## [2026-08-04] scan | 항목 4건, 반영 2건
+
+공백 없음(직전 08-03 소급 스캔 정상 완료 확인 후 바로 오늘치 진행). 페이지화할 신규
+대형 발표 없음 — 진행 중이던 Astra·오픈웨이트 이슈의 반응이 이어진 하루로 판단해 새
+update/player 페이지는 만들지 않음. 대신 [[loop-engineering]] 개념 페이지에 OpenAI
+연구자 Lilian Weng의 "하네스 엔지니어링" 글(HN 118점 화제, 원문은 07-04 게시)을 이론적
+근거로 추가 반영 — 코딩 에이전트가 파일탐색/셸실행/버전관리/서브에이전트 위임이라는
+비슷한 도구집합으로 수렴한 현상을 "하네스 표준화"로 설명하는 관점이 기존 페이지의
+Mozilla 루프엔지니어링 사례와 잘 맞물림. 커뮤니티 2건(위 하네스 엔지니어링 HN 118점,
+"단일 AMD MI300X에서 DeepSeek V4 Flash 구동" HN 123점)은 뉴스레터에만 기록. ★최우선
+0건(오늘도 구체 자동화 사례 미확인, old.reddit 접근 여전히 차단). YouTube 픽 2건(조코딩,
+Astra 반응 영상·새 LLM 벤치마크 소개 영상). newsletter/2026-08-04.md 신규 생성.

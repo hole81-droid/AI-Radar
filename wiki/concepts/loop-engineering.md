@@ -26,6 +26,24 @@ source: https://adtmag.com/articles/2026/07/01/loop-engineering-emerges-as-devel
 
 - [[mozilla-claude-mythos-firefox-vulnerability-detection]] — 목표 루프 + 검증 서브에이전트 + 인간 리뷰로 구성된 보안 탐지 파이프라인. 루프 엔지니어링의 대표 실전 사례.
 
+## 이론적 뒷받침 (2026-08-04 추가) — "하네스 엔지니어링"
+
+OpenAI 연구자 **Lilian Weng**이 2026-07-04 발표한 글("Harness Engineering for
+Self-Improvement")이 2026-08-04 HN 화제(118점)에 오르며 이 개념에 이론적 틀을
+보탰다. 핵심 주장은 "모델이 스스로 가중치를 재작성하는 방식의 자기개선이 아니라,
+**모델을 둘러싼 하네스(오케스트레이션·컨텍스트 관리·도구 연동·평가 방식)를
+계속 진화시키는 것이 단기적으로 실현 가능한 자기개선 경로**"라는 것 — 루프
+엔지니어링이 왜 지금 병목인지를 설명하는 근거로 쓸 수 있다.
+
+세 가지 설계 패턴을 제시: ① 계획-실행-관찰-개선의 목표지향 워크플로 자동화,
+② 컨텍스트 창 대신 파일시스템을 영구 메모리로 쓰는 구조, ③ 명시적 작업 관리를
+갖춘 서브에이전트·백엔드 잡 병렬 실행. Claude Code·Codex·Cursor 등 주류 코딩
+에이전트가 파일 탐색/수정·셸 실행·버전관리·외부 컨텍스트·에이전트 위임이라는
+비슷한 도구 집합으로 수렴한 것도 "하네스가 표준화되고 있다"는 같은 흐름으로
+설명된다.
+
 ## 출처
 
 - [ADTmag — Loop Engineering Emerges as Developers Put AI Coding Agents on Repeat](https://adtmag.com/articles/2026/07/01/loop-engineering-emerges-as-developers-put-ai-coding-agents-on-repeat.aspx)
+- [Lilian Weng — Harness Engineering for Self-Improvement (2026-07-04)](https://lilianweng.github.io/posts/2026-07-04-harness/)
+- [Hacker News — Harness Engineering for Self-Improvement (2026-08-04 화제, 118점)](https://news.ycombinator.com/item?id=49164896)
