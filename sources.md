@@ -44,12 +44,11 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 ### 한국어
 | 채널 | 핸들/URL | 주제 |
 |---|---|---|
-| AI Frontier Korea (노정석) | https://www.youtube.com/channel/UCz-BiVywYdO6iXhjXkw_Kgw | 프론티어 모델·AI 산업 심층 (EP 단위 팟캐스트형) |
+| AI Frontier Korea (노정석) | https://www.youtube.com/channel/UCz-BiVywYdO6iXhjXkw_Kgw (대체 핸들: @chester_roh — 같은 채널, 2026-08-07 확인) | 프론티어 모델·AI 산업 심층 (EP 단위 팟캐스트형) |
 | 조코딩 JoCoding | https://www.youtube.com/@jocoding | AI·코딩 대중화 |
 | 장피엠 Jangpm | https://www.youtube.com/@jangpm | AI 활용·프로덕트 |
 | 지피터스 GPTers | https://www.youtube.com/@gpters | AI 활용 커뮤니티 |
 | kooky0ai | https://www.youtube.com/@kooky0ai | AI 콘텐츠 |
-| AI Frontier Korea (노정석) | https://www.youtube.com/@chester_roh | 실리콘밸리 프론티어랩 현지 리포트·AI 트렌드 |
 
 ### 영어
 | 채널 | 핸들/URL | 주제 |
@@ -69,7 +68,7 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 
 | 소스 | RSS URL |
 |---|---|
-| AI Frontier Korea (노정석) | https://www.youtube.com/feeds/videos.xml?channel_id=UCz-BiVywYdO6iXhjXkw_Kgw — 2026-08-04 해결·검증 완료(채널명 "AI Frontier Korea (노정석)" 일치, EP 107 08-02 업로드 확인). **주의: 영문 채널 "AI Frontier"(UCpSR-Gy6XV4thEndDNvUQYg)는 다른 채널이니 혼동 금지** |
+| AI Frontier Korea (노정석) | https://www.youtube.com/feeds/videos.xml?channel_id=UCz-BiVywYdO6iXhjXkw_Kgw — 2026-08-04 해결·검증 완료(채널명 "AI Frontier Korea (노정석)" 일치, EP 107 08-02 업로드 확인), 2026-08-07 @chester_roh 핸들도 같은 채널로 재확인. **주의: 영문 채널 "AI Frontier"(UCpSR-Gy6XV4thEndDNvUQYg, Chester Roh 진행)는 이름이 비슷한 별개 채널이니 혼동 금지** |
 | 조코딩 JoCoding | https://www.youtube.com/feeds/videos.xml?channel_id=UCQNE2JmbasNYbjGAcuBiRRg — 2026-07-12 재해결·검증 완료(콘텐츠 일치 확인) |
 | Jeff Su | https://www.youtube.com/feeds/videos.xml?channel_id=UCwAnu01qlnVg1Ai2AbtTMaA — 2026-07-12 재해결·검증 완료(Claude Cowork·Gemini Spark 영상 확인), 최신 업로드 06-30 기준이라 매 스캔 최신일 재확인 필요 |
 | 장피엠 Jangpm | https://www.youtube.com/feeds/videos.xml?channel_id=UCSkpTOEl_zW6b4Y7M_Prefg — 2026-07-13 해결(externalId로 검증, "일잘러 장피엠" 채널명 일치) |
@@ -86,16 +85,7 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-07-20) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). 조코딩·Dan Martell이 07-19 당일 업로드로 활발, Varun Mayya 07-18. YouTube 영상 설명(`media:description`)이 제목만 반복하고 실질 내용이 없는 경우가 늘어(특히 쇼츠성 업로드) — 이런 경우 특정 AI Tool 확인이 안 되면 ★최우선 승격을 보류할 것. 커뮤니티는 이번에도 연속요청 시 HTTP 429/000(타임아웃)이 반복 — r/ClaudeAI·r/AI_Agents는 12~25초 간격 재시도로 확보, r/OpenAI는 재시도 끝에 확보했으나 r/singularity 첫 시도만 성공(재시도 불필요). r/ChatGPTCoding은 당일 top 글이 실제로 0건(빈 피드, 정상 응답 확인). |
 | (2026-07-29) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). old.reddit RSS 429가 이번엔 특히 심해 15~30초 간격을 둬야 통과됨(짧은 간격 재시도는 계속 실패) — `t=week`로 받아 `updated` 필드로 최근 날짜만 필터링하는 방식이 `t=day`보다 안정적이었다(day는 활동이 적은 서브에서 공백일 수 있음). 개별 게시물 본문은 HTML 퍼머링크에서 `class="md"` 블록을 정규식으로 추출하는 방식이 여전히 유효(댓글 자동요약 블록도 같은 클래스로 잡힘, 두 번째 매치가 보통 TL;DR). |
 | (2026-07-30) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/ChatGPTCoding은 `t=day`·`t=week` 모두 빈 피드로 확인(서브레딧 자체 활동 저조, 정상 응답). r/AI_Agents·r/singularity는 429 후 15~20초 재시도로 확보. HN Algolia `search?tags=front_page`가 그날 화제 파악에 `search_by_date`보다 빠르고 안정적이었음(포인트 상위 항목이 바로 보임). |
-| AI Frontier Korea (노정석) | https://www.youtube.com/feeds/videos.xml?channel_id=UCz-BiVywYdO6iXhjXkw_Kgw — 2026-08-07 추가·해결(channelMetadataRenderer externalId로 검증, "AI Frontier Korea (노정석)" 채널명 일치, EP 107 08-02 업로드 확인) |
-
-## LinkedIn
-
-로그인 장벽으로 자동 스캔이 불안정하다 (X/Instagram과 동일). 웹서치로 간접 포착하는 것을 기본으로 한다.
-
-| 계정 | 프로필 URL | 비고 |
-|---|---|---|
-| 조코딩 JoCoding | https://www.linkedin.com/in/조코딩-jocoding | 2026-08-07 추가 — 게시물 URL 슬러그로 역추적(WebFetch 직접 조회는 LinkedIn 차단으로 미검증, 첫 스캔에서 재확인 필요) |
-| 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 2026-08-07 추가 |
+| (2026-08-07) | AI Frontier Korea를 `channelMetadataRenderer.externalId`로 재검증, `@chester_roh` 핸들도 동일 채널(UCz-BiVywYdO6iXhjXkw_Kgw)로 확인 — 두 URL 중 아무거나 써도 됨, 표에는 정식 채널 URL만 남김. |
 
 ## LinkedIn
 
@@ -118,8 +108,8 @@ WebSearch(query="<인물 키워드> <주제 키워드>", allowed_domains=["linke
 
 | 계정 | 프로필 URL | 비고 |
 |---|---|---|
-| 조코딩 (조동근) | https://kr.linkedin.com/in/jocoding | AI·코딩 대중화. YouTube 채널과 동일 인물 — 중복 항목이 되지 않게 주의 |
-| 조코딩 JoCoding (페이지) | https://kr.linkedin.com/company/jocoding | 위 개인 계정과 별개로 존재. 검색 시 `조코딩-jocoding_` 경로로 잡힌다 |
+| 조코딩 (조동근, Dong Keun Jo) | https://kr.linkedin.com/in/jocoding | AI·코딩 대중화. 2026-08-07 도메인 검색으로 실명·팔로워 확인. YouTube 채널과 동일 인물 — 중복 항목이 되지 않게 주의 |
+| 조코딩 JoCoding (페이지) | https://kr.linkedin.com/company/조코딩-jocoding | 위 개인 계정과 별개로 존재(팔로워 약 2,758). 검색 결과 URL은 한글 슬러그가 인코딩된 형태로 잡힌다 |
 | 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 기업 AX 실행·컨설팅 관점 — AX 시사점 섹션 소재로 가치 높음. 회사: https://theaxlabs.com |
 
 ## X / Instagram
