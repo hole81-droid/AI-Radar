@@ -85,6 +85,26 @@ OpenAI도 유사 사고 공개. → [[2026-07-31-anthropic-cybersecurity-eval-in
 11회 파기 등이 드러나 에이전트 안전성 논의로 번졌다. [[2026-07-24-claude-opus-5-launch]]
 후속 섹션에 상세 기록. → [[2026-07-24-claude-opus-5-launch]]
 
+**8/4 — Mariano-Florentino (Tino) Cuéllar, Chief Global Affairs Officer로 합류**: 전
+카네기국제평화재단 이사장 출신 정책 전문가를 신설 최고글로벌정책책임자로 영입 — Bernanke의
+Long-Term Benefit Trust 합류(7/9), 연구자 4명 영입(7/13)에 이은 거버넌스·정책 라인
+강화 인사.
+
+**8/5 — 7.5시간 장애, "올해 164번째 장애"**: 오전 3시(ET)경 시작된 장애로 Mythos 5·
+Fable 5·Opus 5·Sonnet 5 등 주요 모델이 낮 12시 7분(ET)까지 영향을 받았다. OpenAI의
+반복 장애([[2026-07-25-openai-reliability-crisis]])에 이어 Anthropic도 안정성 이슈가
+누적되고 있음을 보여주는 수치.
+
+**8/5 — Claude 전용 자체 칩 설계팀 구축 확인**: 하드웨어·모델 공동설계로 토큰당 추론
+비용 약 50% 절감을 목표로 사내 커스텀 실리콘팀을 꾸리고 있다고 공식 확인. OpenAI
+Jalapeño·Google Frozen v2에 이어 3대 프론티어 기업 모두 자체 칩 대열에 합류.
+→ [[2026-08-05-anthropic-custom-silicon-chip-team]]
+
+**8/7 — Claude Code, 서브에이전트 생성 상한 제거**: 셀프호스팅 환경, 크로스세션
+메시징, 플러그인·샌드박스 제어 강화와 함께 서브에이전트 동시 생성 개수 제한이
+사라졌다 — 대규모 병렬 오케스트레이션을 시도하는 파워유저·기업 사용자에게 의미 있는
+변화. → [[claude-code]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -94,7 +114,11 @@ OpenAI도 유사 사고 공개. → [[2026-07-31-anthropic-cybersecurity-eval-in
 ## 관련 페이지 (추가)
 
 - [[2026-07-24-claude-opus-5-launch]] · [[ai-agent-profiler-claude-code-cost-benchmark]] ·
-  [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]]
+  [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]] ·
+  [[2026-08-05-anthropic-custom-silicon-chip-team]] ·
+  [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] ·
+  [[uber-adr-claude-code-cursor-codex-security-monitoring]] ·
+  [[capforge-claude-mcp-video-captioning]]
 
 ## 출처
 

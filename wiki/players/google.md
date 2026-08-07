@@ -48,8 +48,19 @@ Gemini를 여러 에이전트·특화 모델의 사령탑으로 삼는 조직 �
 기종에 몇 시간 만에 적응 가능하다고 주장, 카세트 삽입·전구 교체 등 정교한 조작 시연.
 → [[2026-07-31-google-gemini-robotics-2-launch]]
 
+## 최근 동향 추가 (08-05)
+
+**Demis Hassabis, CEO에서 물러나 회장으로 — Jeff Dean도 퇴사**: DeepMind 설립자 겸
+2024 노벨화학상 수상자 Hassabis가 CEO직을 내려놓고 Google DeepMind 회장 겸 Alphabet
+최고과학자로 이동, 일상 경영과 Gemini 로드맵은 최고 AI 아키텍트 Koray Kavukcuoglu(SVP)가
+승계했다. 최고과학자 Jeff Dean도 함께 퇴사. 소식통에 따르면 Hassabis는 1년 전부터
+서서히 CEO 직무에서 손을 떼왔으며, 자회사 Isomorphic Labs(신약·신소재 발굴)에 더
+집중하고 싶어했다는 설명. 발표 당일 Alphabet 주가 약 4% 하락 — [[2026-06-22-google-deepmind-talent-exodus]]·[[2026-07-29-google-deepmind-alphafold-team-dismantled]]로
+이어져 온 DeepMind 인재 유출 흐름의 정점. → [[2026-08-05-google-deepmind-hassabis-steps-down]]
+
 ## 관련 업데이트
 
+- [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 퇴사, Koray Kavukcuoglu 승계 (high)
 - [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 3종 모델·다중 로봇 협업 (medium)
 - [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, Jumper Anthropic 이적 재확인 (high)
 - [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2", 전력당 최대 10배 효율 (medium)

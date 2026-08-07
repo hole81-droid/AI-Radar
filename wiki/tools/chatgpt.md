@@ -16,6 +16,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **기본 모델**: GPT-5.5 Instant — 2026-05-05부터 전 요금제(무료 포함) 기본 모델 ([TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/))
 - **플래그십**: GPT-5.5 Thinking(Plus 이상), GPT-5.5 Pro(Pro/Business/Enterprise) — 2026-04-23 출시 ([OpenAI](https://openai.com/index/introducing-gpt-5-5/))
 - **최신 모델**: GPT-5.6 (Sol·Terra·Luna) — 2026-06-26 제한 프리뷰로 시작해 2026-07-09~10 정부 심사 제약이 풀리며 ChatGPT·API·Codex 전면 GA. Plus 이상은 Sol, Free·Go는 Terra 접근 ([Marktechpost](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/))
+- **2026-08-06 갱신**: Free·Go 기본 모델이 **GPT-5.6 Luna로 전환, 무제한 텍스트 대화** 제공(+ "Think" 버튼). Plus·Pro의 Sol은 응답을 더 직접적·간결하게 재조정하고 응답별 추론 슬라이더 신설 — 사실오류가 GPT-5.5 Instant 대비 Luna 약 62%·Sol 약 68% 감소. → [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
 - **모델 선택 UI**: 2026-06-10 개편으로 Instant / Medium / High / Extra High(Pro 전용) 단계형으로 단순화 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **모델 정리**: GPT-4o·GPT-4.1·o4-mini·초기 GPT-5는 2026-02-13 퇴역, GPT-5.2는 2026-06-12, GPT-4.5는 2026-06-26 퇴역 — 기존 대화는 GPT-5.5로 이어짐 ([Model Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [Wikipedia](https://en.wikipedia.org/wiki/GPT-5.5))
 

@@ -278,3 +278,29 @@ Mozilla 루프엔지니어링 사례와 잘 맞물림. 커뮤니티 2건(위 하
 "단일 AMD MI300X에서 DeepSeek V4 Flash 구동" HN 123점)은 뉴스레터에만 기록. ★최우선
 0건(오늘도 구체 자동화 사례 미확인, old.reddit 접근 여전히 차단). YouTube 픽 2건(조코딩,
 Astra 반응 영상·새 LLM 벤치마크 소개 영상). newsletter/2026-08-04.md 신규 생성.
+
+## [2026-08-07] scan | 항목 13건, 반영 13건 (공백 소급 08-05~08-07)
+
+공백 3일(08-05~08-06~08-07) 확인 후 규칙에 따라 날짜별로 쪼개지 않고
+newsletter/2026-08-07.md 하나로 통합 작성. ★최우선 3건 모두 원문 정독 후 신규
+use-case 페이지 생성: (1) [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]]
+— 개인 연구자 블로그, Claude Code(Opus 5)의 세션 중 자가개선이 메모리 파일이 아니라
+대화 기록에서 온다는 통제 실험(held-out 34%→48%, research·measured), (2)
+[[uber-adr-claude-code-cursor-codex-security-monitoring]] — Uber, Claude Code·Cursor·
+Codex 위험 명령 실시간 탐지·차단 오픈소스 ADR 프로덕션 배포+MLSys 2026 논문(ops·
+measured), (3) [[capforge-claude-mcp-video-captioning]] — 로컬 자막 앱을 Claude MCP로
+연결한 오픈소스 사례(content-creation·anecdotal). 빅뉴스 중 지속적 사실 4건을
+updates/players 페이지로 신규 반영: [[2026-08-05-google-deepmind-hassabis-steps-down]]
+(Hassabis CEO→회장, Jeff Dean 퇴사, Kavukcuoglu 승계) · [[2026-08-05-anthropic-custom-silicon-chip-team]]
+(Claude 전용 자체 칩팀, 추론비용 50%↓ 목표 — OpenAI Jalapeño·Google Frozen v2와 함께
+3사 완결) · [[2026-08-05-meta-muse-code-launch]](Meta 코딩 에이전트 진입, Claude Code·
+Codex와 3파전) · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]](무료 사용자
+Luna 무제한 텍스트 대화 전환, 사실오류 62~68%↓). Anthropic 7.5시간 장애(164번째)와
+Cuéllar Chief Global Affairs Officer 영입(08-04, 직전 스캔 미포착분)은 별도 페이지
+없이 [[anthropic]] 본문에 반영. 커뮤니티 2건(HN 294점 "40k 게임 실험 — 사람이 AI
+에이전트 명령 위협의 1/3을 놓친다", r/AI_Agents "PC 자동화 과소평가" 글)은 뉴스레터에만
+기록. YouTube 픽 2건(조코딩, Claude Code 제작자 성능팁·로컬 실행 1위 모델 쇼츠 — 둘
+다 shorts 특성상 세부 확인 제한적이라 제목 수준으로만 소개). LinkedIn 3계정(조코딩
+개인·페이지, 이승필 AX LABS) 도메인 한정 검색 확인했으나 08-05~08-07 날짜가 확인되는
+글 없어 미반영(정상적 공백). [[timeline]] 68→75건, [[index]]·[[anthropic]]·[[google]]·
+[[openai]]·[[claude-code]]·[[chatgpt]]·[[case-catalog]] 갱신. 산출물 메일 발송 시도.

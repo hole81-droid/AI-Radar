@@ -8,6 +8,13 @@ date: 2026-07-07
 
 ## 2026-08
 
+- **08-07** — Claude Code, 서브에이전트 동시 생성 상한 제거 + 셀프호스팅 환경·크로스세션 메시징 추가 → [[claude-code]]
+- **08-06** — OpenAI, Free·Go 기본 모델을 GPT-5.6 Luna로 전환·무제한 텍스트 대화 제공, Sol 응답 재조정 → [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
+- **08-05** — Google DeepMind CEO Demis Hassabis, 회장으로 이동·Jeff Dean 퇴사, Koray Kavukcuoglu 승계 → [[2026-08-05-google-deepmind-hassabis-steps-down]]
+- **08-05** — Anthropic, Claude 전용 자체 칩 설계팀 구축 확인(추론비용 약 50%↓ 목표) → [[2026-08-05-anthropic-custom-silicon-chip-team]]
+- **08-05** — Meta, 코딩 에이전트 "Muse Code" 베타 출시 — Claude Code·Codex와 3파전 → [[2026-08-05-meta-muse-code-launch]]
+- **08-05** — Anthropic, 7.5시간 장애("올해 164번째") — Mythos 5·Fable 5·Opus 5·Sonnet 5 영향 → [[anthropic]]
+- **08-04** — Anthropic, Mariano-Florentino Cuéllar를 Chief Global Affairs Officer로 영입 → [[anthropic]]
 - **08-03** — Alibaba Qwen3.8-Max(2.4T) 정식 공개, Claude Fable 5 대비 코딩·멀티모달 벤치마크 우위 자평 — 완전 오픈웨이트 공개 예고 → [[2026-07-19-alibaba-qwen-3-8-preview]]
 - **08-03** — AWS-Superblocks 바이브코딩 다년 제휴 — 엔터프라이즈 프라이빗 클라우드 내 바이브코딩 툴 내장 → [[citizen-development]]
 - **08-01** — OpenAI, 차기 모델 "Astra" 티저 — 10개 장기 미해결 수학·이론컴퓨터과학 난제를 증명하며 공개, 문제당 $2,000 미만 토큰 사용 주장 → [[2026-08-01-openai-astra-teaser-math-proofs]]
