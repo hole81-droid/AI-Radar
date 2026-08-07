@@ -44,6 +44,7 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 ### 한국어
 | 채널 | 핸들/URL | 주제 |
 |---|---|---|
+| AI Frontier Korea (노정석) | https://www.youtube.com/channel/UCz-BiVywYdO6iXhjXkw_Kgw | 프론티어 모델·AI 산업 심층 (EP 단위 팟캐스트형) |
 | 조코딩 JoCoding | https://www.youtube.com/@jocoding | AI·코딩 대중화 |
 | 장피엠 Jangpm | https://www.youtube.com/@jangpm | AI 활용·프로덕트 |
 | 지피터스 GPTers | https://www.youtube.com/@gpters | AI 활용 커뮤니티 |
@@ -68,6 +69,7 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 
 | 소스 | RSS URL |
 |---|---|
+| AI Frontier Korea (노정석) | https://www.youtube.com/feeds/videos.xml?channel_id=UCz-BiVywYdO6iXhjXkw_Kgw — 2026-08-04 해결·검증 완료(채널명 "AI Frontier Korea (노정석)" 일치, EP 107 08-02 업로드 확인). **주의: 영문 채널 "AI Frontier"(UCpSR-Gy6XV4thEndDNvUQYg)는 다른 채널이니 혼동 금지** |
 | 조코딩 JoCoding | https://www.youtube.com/feeds/videos.xml?channel_id=UCQNE2JmbasNYbjGAcuBiRRg — 2026-07-12 재해결·검증 완료(콘텐츠 일치 확인) |
 | Jeff Su | https://www.youtube.com/feeds/videos.xml?channel_id=UCwAnu01qlnVg1Ai2AbtTMaA — 2026-07-12 재해결·검증 완료(Claude Cowork·Gemini Spark 영상 확인), 최신 업로드 06-30 기준이라 매 스캔 최신일 재확인 필요 |
 | 장피엠 Jangpm | https://www.youtube.com/feeds/videos.xml?channel_id=UCSkpTOEl_zW6b4Y7M_Prefg — 2026-07-13 해결(externalId로 검증, "일잘러 장피엠" 채널명 일치) |
@@ -94,6 +96,31 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 |---|---|---|
 | 조코딩 JoCoding | https://www.linkedin.com/in/조코딩-jocoding | 2026-08-07 추가 — 게시물 URL 슬러그로 역추적(WebFetch 직접 조회는 LinkedIn 차단으로 미검증, 첫 스캔에서 재확인 필요) |
 | 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 2026-08-07 추가 |
+
+## LinkedIn
+
+**접근 방법 (2026-08-04 검증됨)**: LinkedIn은 프로필·게시물 URL을 직접 가져올 수 없다 —
+curl(서술형 UA·브라우저 UA 모두)과 WebFetch 전부 **HTTP 999(봇 차단)** 로 막힌다.
+**유일하게 동작하는 경로는 도메인 한정 WebSearch**다:
+
+```
+WebSearch(query="<인물 키워드> <주제 키워드>", allowed_domains=["linkedin.com"])
+```
+
+검색 결과의 제목·스니펫만으로 판단하고, 원문 본문은 열 수 없다는 점을 전제로 다룬다.
+
+- 계정당 1회, 최우선 주제 키워드(에이전트 구축·업무 자동화·AI 활용)를 붙여 검색한다.
+- **결과에 오래된 게시물이 섞인다** (검색 인덱스 특성 — 2022~2023년 글도 상위에 나옴).
+  날짜가 확인되지 않거나 최근 1~3일이 아니면 뉴스레터에 넣지 않는다.
+- 본문을 못 읽으므로 **★최우선(에이전트·자동화) 섹션으로 승격하지 않는다** — 도구·방법
+  4필드를 채울 수 없기 때문이다. 화제성이 있으면 "커뮤니티 화제"에 링크와 함께 한 줄로 싣는다.
+- 소득이 없는 날이 잦은 것이 정상이다. 억지로 채우지 말 것.
+
+| 계정 | 프로필 URL | 비고 |
+|---|---|---|
+| 조코딩 (조동근) | https://kr.linkedin.com/in/jocoding | AI·코딩 대중화. YouTube 채널과 동일 인물 — 중복 항목이 되지 않게 주의 |
+| 조코딩 JoCoding (페이지) | https://kr.linkedin.com/company/jocoding | 위 개인 계정과 별개로 존재. 검색 시 `조코딩-jocoding_` 경로로 잡힌다 |
+| 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 기업 AX 실행·컨설팅 관점 — AX 시사점 섹션 소재로 가치 높음. 회사: https://theaxlabs.com |
 
 ## X / Instagram
 
