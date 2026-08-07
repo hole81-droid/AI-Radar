@@ -48,6 +48,7 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 | 장피엠 Jangpm | https://www.youtube.com/@jangpm | AI 활용·프로덕트 |
 | 지피터스 GPTers | https://www.youtube.com/@gpters | AI 활용 커뮤니티 |
 | kooky0ai | https://www.youtube.com/@kooky0ai | AI 콘텐츠 |
+| AI Frontier Korea (노정석) | https://www.youtube.com/@chester_roh | 실리콘밸리 프론티어랩 현지 리포트·AI 트렌드 |
 
 ### 영어
 | 채널 | 핸들/URL | 주제 |
@@ -83,6 +84,16 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-07-20) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). 조코딩·Dan Martell이 07-19 당일 업로드로 활발, Varun Mayya 07-18. YouTube 영상 설명(`media:description`)이 제목만 반복하고 실질 내용이 없는 경우가 늘어(특히 쇼츠성 업로드) — 이런 경우 특정 AI Tool 확인이 안 되면 ★최우선 승격을 보류할 것. 커뮤니티는 이번에도 연속요청 시 HTTP 429/000(타임아웃)이 반복 — r/ClaudeAI·r/AI_Agents는 12~25초 간격 재시도로 확보, r/OpenAI는 재시도 끝에 확보했으나 r/singularity 첫 시도만 성공(재시도 불필요). r/ChatGPTCoding은 당일 top 글이 실제로 0건(빈 피드, 정상 응답 확인). |
 | (2026-07-29) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). old.reddit RSS 429가 이번엔 특히 심해 15~30초 간격을 둬야 통과됨(짧은 간격 재시도는 계속 실패) — `t=week`로 받아 `updated` 필드로 최근 날짜만 필터링하는 방식이 `t=day`보다 안정적이었다(day는 활동이 적은 서브에서 공백일 수 있음). 개별 게시물 본문은 HTML 퍼머링크에서 `class="md"` 블록을 정규식으로 추출하는 방식이 여전히 유효(댓글 자동요약 블록도 같은 클래스로 잡힘, 두 번째 매치가 보통 TL;DR). |
 | (2026-07-30) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/ChatGPTCoding은 `t=day`·`t=week` 모두 빈 피드로 확인(서브레딧 자체 활동 저조, 정상 응답). r/AI_Agents·r/singularity는 429 후 15~20초 재시도로 확보. HN Algolia `search?tags=front_page`가 그날 화제 파악에 `search_by_date`보다 빠르고 안정적이었음(포인트 상위 항목이 바로 보임). |
+| AI Frontier Korea (노정석) | https://www.youtube.com/feeds/videos.xml?channel_id=UCz-BiVywYdO6iXhjXkw_Kgw — 2026-08-07 추가·해결(channelMetadataRenderer externalId로 검증, "AI Frontier Korea (노정석)" 채널명 일치, EP 107 08-02 업로드 확인) |
+
+## LinkedIn
+
+로그인 장벽으로 자동 스캔이 불안정하다 (X/Instagram과 동일). 웹서치로 간접 포착하는 것을 기본으로 한다.
+
+| 계정 | 프로필 URL | 비고 |
+|---|---|---|
+| 조코딩 JoCoding | https://www.linkedin.com/in/조코딩-jocoding | 2026-08-07 추가 — 게시물 URL 슬러그로 역추적(WebFetch 직접 조회는 LinkedIn 차단으로 미검증, 첫 스캔에서 재확인 필요) |
+| 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 2026-08-07 추가 |
 
 ## X / Instagram
 
