@@ -29,6 +29,7 @@ uses: [course, ax]
 
 ## 개발 자동화 (dev-automation)
 
+- [[databricks-ai-gateway-coding-cost-management]] — Claude Code·Codex·Cursor로 자체 AI Gateway(cli-pipeline, 모델 라우팅+예산추적+하네스/캐싱 튜닝)를 활용해 사내 AI 코딩 에이전트 비용 관리를 수행 → 스마트 라우팅 평균비용 30%+↓, 토큰/캐싱 튜닝 약 50%↓ (실측, 단 HN 제목의 "70%"는 원문 미확인 수치)
 - [[agent-loops-daily-pr-review]] — Claude Code+Codex로 cron 루프+전담 서브에이전트를 활용해 일일 PR 전수 검토·주간 스킬 생성을 수행 → Firefox 한 달 423건 보안 수정 (주장)
 - [[claude-code-goal-routines-nightly-quality]] — Claude Code로 /goal+cron을 활용해 야간 코드 품질 점검·보고서 작성을 수행 → 완전 무인 정기 실행 (수치 미확인)
 - [[codex-automations-scheduled-maintenance]] — Codex Automations로 예약 실행+워크트리 격리를 활용해 정기 유지보수 업무를 수행 → 무인 반복 실행 (수치 미확인)

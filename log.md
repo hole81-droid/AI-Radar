@@ -278,3 +278,81 @@ Mozilla 루프엔지니어링 사례와 잘 맞물림. 커뮤니티 2건(위 하
 "단일 AMD MI300X에서 DeepSeek V4 Flash 구동" HN 123점)은 뉴스레터에만 기록. ★최우선
 0건(오늘도 구체 자동화 사례 미확인, old.reddit 접근 여전히 차단). YouTube 픽 2건(조코딩,
 Astra 반응 영상·새 LLM 벤치마크 소개 영상). newsletter/2026-08-04.md 신규 생성.
+
+## [2026-08-07] scan | 항목 9건, 반영 6건 (공백 소급 08-05~08-07)
+
+공백 점검: 마지막 뉴스레터 08-04, 오늘(08-08) 기준 08-05~08-07 사흘 공백 확인 → 3일 이상이라
+newsletter/2026-08-07.md 하나로 통합 소급 작성(`> 소급 스캔: 08-05 ~ 08-07`). 이번에도
+old.reddit.com은 WebFetch 전면 차단이 이어져 r/ClaudeAI·r/AI_Agents 등 커뮤니티 원문은
+직접 조회하지 못함(HN Algolia·공식 소스·YouTube RSS로 대체 확보). ★최우선 1건 use-case
+페이지화: Databricks가 자사 코딩 에이전트(Claude Code·Codex·Cursor) 비용을 AI Gateway
+(모델 스마트라우팅+예산추적+하네스/캐싱 튜닝)로 자동 관리한 실측 사례 — 스마트 라우팅
+평균비용 30%+↓, 토큰/캐싱 튜닝 약 50%↓ (원문 직접 인용 확인). HN 제목의 "70% 절감"은
+원문에 해당 문장이 없어 반영하지 않고 정직성 규칙에 따라 페이지에 주의사항으로 명시
+→ [[databricks-ai-gateway-coding-cost-management]] 신규, case-catalog 개발자동화 도메인에
+추가. 빅 뉴스 2건 신규 페이지화: (1) Claude Code Auto mode가 08-07부로 Pro·Max·Team
+플랜 기본값으로 전환(승인피로 해소 이중방어 구조, 프로덕션은 격리환경 권장)
+→ [[2026-08-07-claude-code-auto-mode-default]] 신규, (2) 헤지펀드 Millennium과 Anthropic이
+"디지털 리스크 애널리스트" 공동 개발(운용자산 $92B+, 사람 검증 게이트 명시)
+→ [[2026-08-06-anthropic-millennium-digital-risk-analyst]] 신규. 그 외 Anthropic 엔터프라이즈
+기능 2건(08-05 Inference hooks 인라인 DLP 베타, 08-06 Self-hosted environments 퍼블릭 베타)과
+08-05 7.5시간 장애는 별도 페이지 없이 [[anthropic]] 플레이어 페이지·[[claude-code]] 허브에
+직접 반영(비중이 다소 낮은 엔터프라이즈 세부 기능으로 판단). AMD의 AI칩 스타트업 Taalas
+인수(HN 875점)는 페이지화하지 않고 뉴스레터·timeline에만 기록. 커뮤니티 2건(HN 143점
+Cloudflare "Kitesurf" 에이전트 전용 브라우저, HN 369점 DeepSeek V4 Flash ARC 벤치마크)은
+뉴스레터에만 기록. YouTube 픽 3건 — 조코딩 2건(데이터센터 직접 구축기, "클로드 코드 제작자가
+쓰는 AI 성능 비법"은 쇼츠 설명·자막 확인 실패로 ★최우선 승격 보류·참고용 기록만), 이번에
+신규 등록된 AI Frontier Korea 채널 첫 소개(최신 회차 EP107, 08-02 업로드 — 08-05~08-07
+구간 신규 업로드는 없어 최신 회차로 대체). LinkedIn(조코딩·이승필 AX LABS)은 신규 게시물을
+웹서치로 확인하지 못함(로그인 장벽 지속). [[timeline]] 68→74건, [[index]]·[[case-catalog]]·
+[[anthropic]]·[[claude-code]] 허브 갱신. raw/2026-08/에 databricks·claude-code-auto-mode-default·
+anthropic-millennium-digital-risk-analyst 3개 파일 신규 저장.
+
+## [2026-08-08] scan | 항목 6건, 반영 3건
+
+공백 없음(직전 08-07 소급 스캔이 어제 이미 완료). 공식 소스·YouTube RSS 9개 채널(+AI
+Frontier Korea)·HN Algolia 위주로 스캔, old.reddit.com은 오늘도 WebFetch 전면 차단 지속
+확인(HN으로 대체). 신규 위키 반영 3건: (1) Anthropic 첫 Chief Global Affairs Officer로 전
+캘리포니아 대법관 Tino Cuéllar 영입(8/4) → [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+신규, [[anthropic]] 갱신. (2) Claude Fable 5 생물학 안전장치 재조정, 오차단 약 85%↓(8/7)
+→ [[2026-08-07-claude-fable-5-biology-safeguards-update]] 신규, [[anthropic]]·[[claude-code]]
+갱신. (3) ChatGPT GPT-5.6 Luna가 Free·Go 기본모델로 전환 + Think 버튼 확대 예정(8/7) →
+기존 [[2026-07-09-openai-gpt-5-6-launch]] 페이지에 후속 섹션으로 갱신(신규 페이지 생성 안 함).
+AMD-Taalas 인수·Oracle OpenJDK AI코드 금지는 검토 후 각각 (1) 08-07에 이미 기록된 중복,
+(2) 개발자 전용 이슈 판단으로 비수집. ★최우선·커뮤니티 화제·YouTube 픽 후보 다수(Cloudflare
+Kitesurf, 조코딩 Shorts 2건, DeepSeek 벤치마크)가 어제 [[2026-08-07]] 뉴스레터와 중복 확인돼
+오늘자에는 신규 항목이 없음을 명시하고 제외 — 뉴스레터 소재가 특히 빈약한 날. [[timeline]]
+74→77건, [[index]] 갱신. raw/2026-08/에 anthropic-tino-cuellar-global-affairs·
+claude-fable-5-biology-safeguards-update·openai-gpt-5-6-luna-default-free-think-button
+3개 파일 신규 저장. 뉴스레터: newsletter/2026-08-08.md
+
+## [2026-08-11] scan | 항목 6건, 반영 4건 (공백 소급 08-09~08-11)
+
+공백 점검: 마지막 뉴스레터 08-08, 오늘(08-11) 기준 08-09~08-11 사흘 공백 확인 → 3일
+이상이라 newsletter/2026-08-11.md 하나로 통합 소급 작성(`> 소급 스캔: 08-09 ~ 08-11`).
+old.reddit.com은 이번에도 WebFetch 전면 차단 지속(공식 소스·WebSearch·HN Algolia·YouTube
+RSS로 대체 확보). HN Algolia 날짜범위 검색 시 연도를 잘못 계산한 첫 시도(2025년대 epoch)는
+0건으로 실패, 재계산 후 재조회로 08-09~08-11 상위 20건 확보. ★최우선(에이전트·자동화)은
+이번에도 검증 가능한 신규 사례를 찾지 못해 0건으로 정직하게 보고(등록 YouTube 채널 다수
+재확인, 신규 업로드는 뉴스요약·비즈니스 일반론 위주로 도구 특정 불가). 빅 뉴스 3건 반영:
+(1) Google DeepMind CEO 교체 — Demis Hassabis가 CEO에서 물러나 DeepMind 의장 겸 Alphabet
+수석과학자로 이동, CTO Koray Kavukcuoglu가 SVP로 승진해 Gemini 개발 총괄, 27년 재직한
+Jeff Dean이 Sanjay Ghemawat·Oriol Vinyals·Quoc Le와 함께 퇴사해 "Discovery Loop" 창업
+(Alphabet 투자자 참여), Alphabet 주가 4~5%↓ — 기존 [[2026-06-22-google-deepmind-talent-exodus]]·
+[[2026-07-29-google-deepmind-alphafold-team-dismantled]] 흐름의 연장으로 판단해 신규
+페이지 [[2026-08-05-google-deepmind-leadership-shakeup]] 생성, [[google]] 허브 갱신.
+(2) Anthropic, 미공개 연구용 Claude로 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명
+아님) — 2세션·3,100만 출력 토큰·서브에이전트 약 60개·Lean 형식검증, 외부 전문가 Brian
+Conrey·Dan Goldston 검토 — [[2026-07-20-claude-fable-jacobian-conjecture]]와 같은 "AI
+수학연구 발표" 패턴으로 판단해 신규 페이지 [[2026-08-10-claude-riemann-hypothesis-research]]
+생성, [[anthropic]] 허브 갱신. (3) ChatGPT 무료 이용자 무제한 채팅·Think 버튼이 8/10
+주간에 예정대로 실제 적용 완료 확인 — 신규 페이지 대신 기존 [[2026-07-09-openai-gpt-5-6-launch]]에
+후속 확인 한 줄 추가(중복 방지). OpenAI Atlas 브라우저 실제 단종(8/9)은 이미
+[[2026-07-09-openai-atlas-browser-shutdown]]에서 예정된 사실로 다뤄져 추가 반영 없음.
+커뮤니티 2건(HN 116점 "Show HN: Ante" 오프라인 단일바이너리 코딩에이전트, HN 81점
+"Tragedy of the Cognitive Commons")은 뉴스레터에만 기록. YouTube 픽 2건(조코딩 08-09·08-10
+IT뉴스 롤업, AI Frontier Korea 08-10 쇼츠 "회사에 사람이 필요한 이유")은 위 빅뉴스와
+내용이 겹쳐 위키 미반영, 뉴스레터 기록만. [[timeline]] 77→79건, [[index]]·[[anthropic]]·
+[[google]] 허브 갱신. raw/2026-08/에 google-deepmind-leadership-shakeup·
+claude-riemann-hypothesis-research 2개 파일 신규 저장. case-catalog는 이번 소급분에
+★최우선 확보 사례가 없어 갱신 없음.

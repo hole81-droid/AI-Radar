@@ -36,6 +36,19 @@ GA 전환 3주 만에 OpenAI가 경량 모델 **Luna**는 80%, 중급 모델 **T
 대상에 포함되지 않았다.
 → [OpenAI 공식 — Advancing the price-performance frontier with GPT-5.6](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/)
 
+## 후속 — Luna, 무료 이용자 기본 모델로 + Think 버튼 확대 (2026-08-07 추가)
+
+경량 모델 **Luna**가 ChatGPT Free·Go 이용자의 기본 모델로 전환되며 무제한 텍스트 채팅도
+함께 제공된다. 어려운 질문에 더 깊이 사고하는 **Think 버튼**도 다음 주부터 Free·Go에 확대될
+예정(남용 방지 가드레일 적용). Plus·Pro는 사실 정확도·응답 집중도를 개선한 업데이트된
+**Sol**을 쓰며, 추론 강도 조절 슬라이더가 추가됐다. 무료 이용자에게도 고급 추론 기능이
+단계적으로 열리는 흐름으로, [[2026-07-25-openai-reliability-crisis|잦은 장애 이슈]]와 별개로
+제품 경쟁력 강화가 계속되고 있음을 보여준다.
+→ [OpenAI Newsroom](https://openai.com/news/product-releases/)
+
+**후속 확인(2026-08-10)**: 무제한 텍스트 채팅·Think 버튼 확대가 예정대로 8/10 주간에
+Free·Go 이용자에게 실제 적용된 것을 재확인(파일 업로드·이미지 등 다른 기능은 여전히 제한).
+
 ## 출처
 
 - [Marktechpost — OpenAI Releases GPT-5.6: A Three-Tier Model Family With Programmatic Tool Calling](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/)

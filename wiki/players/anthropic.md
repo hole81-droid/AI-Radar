@@ -85,6 +85,38 @@ OpenAI도 유사 사고 공개. → [[2026-07-31-anthropic-cybersecurity-eval-in
 11회 파기 등이 드러나 에이전트 안전성 논의로 번졌다. [[2026-07-24-claude-opus-5-launch]]
 후속 섹션에 상세 기록. → [[2026-07-24-claude-opus-5-launch]]
 
+**8/4 — 첫 Chief Global Affairs Officer 영입**: 전 캘리포니아 대법관·Carnegie Endowment
+전 총재 Tino Cuéllar가 정책·국제관계·정부 대응을 총괄하는 신설 임원으로 합류, Daniela
+Amodei에 직접 보고. IPO 준비·Pentagon 소송 등 정부 관련 리스크가 누적된 시점과 겹친다. →
+[[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+
+**8/5~8/7 — 엔터프라이즈 기능 3종 연속 공개 + 금융 버티컬 확장 + Auto mode 대중화**: 사흘 연속
+발표로 "엔터프라이즈 공략"과 "일반 사용자 자율성 확대"를 동시에 밀어붙였다.
+- **8/5 — Inference hooks 베타**: Claude Enterprise 전 표면의 모든 프롬프트·툴콜을 조직 자체
+  보안 서버가 사전 검사(허용/차단)하는 인라인 DLP. Proofpoint·Zscaler·Check Point 등 보안
+  벤더들이 곧바로 연동 발표. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
+- **8/5 — 7.5시간 장애**: Mythos 5·Fable 5·Opus 5·Sonnet 5가 영향을 받은 장애 발생, 12:07pm ET
+  복구. 언론 보도상 "올해 164번째 장애"로 집계돼 [[2026-07-25-openai-reliability-crisis]]와
+  유사하게 프론티어 랩 인프라 안정성 이슈가 Anthropic에서도 반복되고 있음을 보여줌.
+- **8/6 — Self-hosted environments 퍼블릭 베타**: Claude Code 세션을 사내 인프라에서 실행,
+  내부 서비스·DB 직접 접근 가능(Team/Enterprise).
+  ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))
+- **8/6 — Millennium과 "디지털 리스크 애널리스트" 공동 개발**: 운용자산 $92B+ 헤지펀드의
+  리스크 매니저를 보조하는 AI 팀메이트 — [[claude-for-legal]] 같은 버티컬 특화 전략이 금융
+  리스크 관리로 확장. → [[2026-08-06-anthropic-millennium-digital-risk-analyst]]
+- **8/7 — Claude Code Auto mode, Pro·Max·Team 기본값 전환**: 권한 프롬프트 대신 분류기 기반
+  이중 방어로 승인 피로 해소, 프로덕션은 격리 환경 권장. →
+  [[2026-08-07-claude-code-auto-mode-default]]
+- **8/7 — Fable 5 생물학 안전장치 재조정**: 오차단(false positive) 약 85% 감소 — 건강·교육
+  질문에는 덜 막히고, 바이러스학 등 이중용도 영역은 그대로 Opus 5로 폴백 유지. →
+  [[2026-08-07-claude-fable-5-biology-safeguards-update]]
+
+**8/10 — 미공개 연구용 Claude, 리만 가설 관련 하한 41.6%→67.2%로 개선**: 리만 제타함수
+영점 중 가설을 만족하는 비율의 하한을 끌어올렸다(증명은 아님). 2세션·3,100만 출력 토큰·
+서브에이전트 약 60개 조율, Lean 형식검증까지 거쳤고 외부 전문가 Brian Conrey·Dan Goldston이
+검토. [[2026-07-20-claude-fable-jacobian-conjecture|7/20 야코비안 추측 반증 주장]]에 이은
+"AI 수학 연구" 발표 패턴의 반복. → [[2026-08-10-claude-riemann-hypothesis-research]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

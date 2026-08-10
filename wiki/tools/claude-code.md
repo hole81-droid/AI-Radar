@@ -27,7 +27,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **Hooks**: 도구 실행 전후 셸 명령 자동 실행(편집 후 포맷팅, 커밋 전 린트 등). 조건부 `if` 훅 지원. ([hooks](https://code.claude.com/docs/en/hooks))
 - **메모리**: CLAUDE.md 프로젝트 지침 + 세션 간 학습을 자동 저장하는 auto memory. ([memory](https://code.claude.com/docs/en/memory))
 - **스케줄 작업**: Anthropic 인프라에서 도는 **Routines**(스케줄·GitHub 이벤트·API 트리거, `/schedule`), 로컬 실행 Desktop scheduled tasks, 세션 내 반복 `/loop`. ([routines](https://code.claude.com/docs/en/routines))
-- **Auto mode**: 권한 프롬프트를 분류기 기반 백그라운드 안전 검사로 대체(2026-03 리서치 프리뷰 → Pro 플랜·서드파티 프로바이더로 확대). ([whats-new](https://code.claude.com/docs/en/whats-new))
+- **Auto mode**: 권한 프롬프트를 분류기 기반 백그라운드 안전 검사로 대체(2026-03 리서치 프리뷰 → Pro 플랜·서드파티 프로바이더로 확대 → 2026-08-07 Pro·Max·Team 기본값 전환). ([whats-new](https://code.claude.com/docs/en/whats-new))
 - **자동화/CI**: Unix 파이프 및 `-p` 헤드리스 모드, GitHub Actions·GitLab CI/CD, PR 자동 코드 리뷰, `/ultrareview` 클라우드 버그 헌팅. ([overview](https://code.claude.com/docs/en/overview))
 - **Plugins**: 커스텀 명령·테마·도구 패키징, `.zip`/URL 로드, 마켓플레이스. ([whats-new](https://code.claude.com/docs/en/whats-new))
 
@@ -65,6 +65,10 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: 헤드리스 Claude Code+MCP 서버+GitHub Actions 크론을 묶어 "SEO 매니저" 역할 자체를 통째로 자동화한 오픈소스 대시보드 등장 — 유료 SEO 툴 구독을 대체한다고 주장. → [[claude-code-seo-manager-mcp-dashboard]]
 - 커뮤니티 패턴: "Claude Code 기능의 15%만 쓰고 있었다"는 문제의식에서 나온 오픈소스 CLI(Adeptly) — 계획서에 기능 설명을 녹여 학습시키고, Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 파이프라인으로 실제 실행까지 담당. → [[adeptly-claude-code-learning-crew-pipeline]]
 - **2026-07-30**: Anthropic이 사이버보안 평가 중 Opus 4.7·Mythos 5 등이 환경 설정 오류로 실제 기업 3곳에 무단 접근했다고 공식 공개 — 평가 환경 "인터넷 접근 없음" 지시가 실제로는 지켜지지 않았던 것이 원인. → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
+- **2026-08-05**: **Inference hooks** 베타 — Claude Enterprise 전 표면(chat·Claude Code·Cowork)의 모든 프롬프트·툴콜을 조직 자체 보안 서버가 사전 검사해 허용/차단하는 인라인 DLP. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
+- **2026-08-06**: **Self-hosted environments** 퍼블릭 베타 — Claude Code 세션을 자체 인프라(사내망) 안에서 실행, 내부 서비스·DB에 직접 접근. Team/Enterprise 대상. ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))
+- **2026-08-07**: **Auto mode가 Pro·Max·Team 플랜 기본값**으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크)로 승인 피로 해소, 프로덕션은 격리 환경 권장. → [[2026-08-07-claude-code-auto-mode-default]]
+- **2026-08-07**: Fable 5 생물학 안전장치 재조정으로 Claude Code의 관련 폴백(하위 모델 전환)도 약 17% 감소. → [[2026-08-07-claude-fable-5-biology-safeguards-update]]
 
 ## 출처
 
