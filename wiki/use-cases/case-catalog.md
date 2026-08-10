@@ -18,6 +18,7 @@ uses: [course, ax]
 - [[youtube-subtitle-automation-claude-codex-whisper]] — Cursor 오케스트레이션 하 Whisper+Claude Code/Codex(cli-pipeline+skills)를 활용해 유튜브 자막(SRT) 제작 전 과정을 수행 → 재사용 가능한 "자막자동화 스킬"로 저장 (일화, 정량 수치 미확인)
 - [[claude-design-workflow-templates]] — Claude(Claude Design, prd-driven)로 DESIGN.md+디자인 시스템+재사용 템플릿 3단계를 활용해 슬라이드·소셜카드·뉴스레터 시각 자료 제작을 수행 → 일관된 온브랜드 결과물 (일화, 정량 미확인)
 - [[draw-your-font-claude-code-skill]] — Claude Code Skill(draw-your-font, skills)로 AI 인식+결정론적 npm CLI 하이브리드 구조를 활용해 손글씨 사진→설치 가능한 TTF 폰트 제작을 수행 → 로컬·무료로 완성, 전문 품질 커닝은 별도 과제 (일화)
+- [[capforge-claude-mcp-video-captioning]] — Claude(mcp)로 로컬 자막 앱 CapForge의 자막 편집·스타일링을 자연어 명령으로 자동화 → 오픈소스 무료 공개, 커뮤니티 압도적 호평 (일화, 정량 수치 미확인)
 
 ## 리서치 (research)
 
@@ -26,6 +27,7 @@ uses: [course, ax]
 - [[wiki-builder-claude-code-llm-wiki]] — Claude Code 플러그인(스캐폴딩+SKILL.md)으로 LLM 지식베이스 구축·유지보수 전 루프를 수행 → 벡터DB 없이 순수 마크다운 기반 자가 유지보수 (주장)
 - [[track-hanta-claude-opus-monitoring-tracker]] — Claude Opus 4.7로 다중 소스 수집·요약 파이프라인을 활용해 공공 보건(한타바이러스) 실시간 모니터링을 수행 → 개인 프로젝트 자동 운영 (일화)
 - [[gpt-5-6-sol-ultra-math-proof-subagents]] — ChatGPT(GPT-5.6 Sol Ultra)로 서브에이전트 64개 동시 팬아웃을 활용해 50년 미해결 수학 난제(Cycle Double Cover Conjecture) 증명을 수행 → 1시간 이내 완성, 프롬프트 전문 공개 (자체 발표, 동료검토 전)
+- [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] — Claude Code(Opus 5, second-brain)로 시뮬레이션 비즈니스 업무 처리 능력의 세션 중 자가개선을 통제 실험 → held-out 성공률 34%→48%, 개선의 원천은 메모리 파일이 아니라 대화 기록(+9.9%p vs 메모리 +1.7%p 유의하지 않음) (실측)
 
 ## 개발 자동화 (dev-automation)
 
@@ -54,6 +56,7 @@ uses: [course, ax]
 
 ## 보안·운영 (ops)
 
+- [[uber-adr-claude-code-cursor-codex-security-monitoring]] — Uber가 ADR(mcp+hooks)로 Claude Code·Cursor·Codex의 위험 명령을 실시간 탐지·차단 → 프로덕션 배포, MLSys 2026 논문 게재, 벤치마크 300+ 태스크·133 MCP서버·17종 공격기법 (실측)
 - [[reddit-one-person-ai-company-framework]] — Claude Code로 CLAUDE.md 부서별 플레이북+라우터·서브에이전트·승인 큐·러너 루프를 활용해 1인 회사의 마케팅·영업·CRM·콘텐츠·아웃리치 운영 전반을 수행 → 6개월 후 첫 유료 고객 확보, SaaS 구독 약 10개 대체 (자기 보고)
 - [[mozilla-claude-mythos-firefox-vulnerability-detection]] — ★실측 벤치마크 케이스. Claude Mythos로 조종·확장·적층 탐지 파이프라인을 활용해 Firefox 코드베이스 보안 취약점 자동 탐지를 수행 → 월간 보안 수정 20~30건→423건, 약 14배 (실측)
 - [[record-replay-mcp-skill-recorder]] — 공개 MCP 서버(record-replay)로 화면 녹화+접근성 이벤트 캡처를 활용해 반복 업무를 재사용 가능한 SKILL.json/SKILL.md로 자동 변환을 수행 → 수치 미확인 (일화)
@@ -161,3 +164,15 @@ Labs 블로그·HN 250점, GPT-5.6 Sol에게 실제 자금 $350과 컴퓨터 전
 로그가 실측으로 공개된 반면교사 사례). 셋 다 "에이전트에게 어디까지 권한을 줄 것인가"라는
 공통 주제로 묶이며, 특히 GPT-5.6 Sol 사례와 Adeptly의 Approval Gate 설계는 같은 날 뉴스레터
 AX 시사점에서 직접 대비됐다.*
+
+*2026-08-07 공백 소급 스캔(08-05~08-07) 추가(58건): [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]]
+(개인 연구자 블로그, Claude Code Opus 5의 세션 중 자가개선을 통제 실험으로 실측 — held-out
+성공률 34%→48%, 메모리 파일보다 대화 기록 자체가 개선을 이끈다는 반직관적 결과. research·
+measured) · [[uber-adr-claude-code-cursor-codex-security-monitoring]](Uber, Claude Code·
+Cursor·Codex를 노리는 공격을 실시간 탐지·차단하는 오픈소스 ADR 프로덕션 배포+MLSys 2026
+논문 — ops·measured, 구체 탐지율 등 세부 성능 수치는 미공개) · [[capforge-claude-mcp-video-captioning]]
+(Reddit r/ClaudeAI, 로컬 자막 앱을 Claude MCP로 연결한 오픈소스 사례 — content-creation·
+anecdotal, 정량 성과 미확인). 세 건 모두 원문(블로그·GitHub·Reddit)을 정독해 도구/방법/
+성과를 구체적으로 확인한 사례만 반영했다. 같은 스캔에서 발견한 Meta Muse Code 출시,
+Anthropic 자체 칩팀, Google DeepMind Hassabis CEO 이동은 use-case가 아니라 wiki/updates·
+players 페이지로 반영(단일 도구의 업무 자동화 사례가 아니라 업계/조직 뉴스이기 때문).*

@@ -50,18 +50,20 @@ Gemini를 여러 에이전트·특화 모델의 사령탑으로 삼는 조직 �
 
 ## 최근 동향 추가 (08-05)
 
-**Google DeepMind CEO 교체 — Hassabis 회장·수석과학자로, Jeff Dean 등 핵심 인력 퇴사**:
-Demis Hassabis가 CEO에서 물러나 DeepMind 의장 겸 Alphabet 수석과학자로 이동하고, CTO
-Koray Kavukcuoglu가 SVP로 승진해 일상 운영·Gemini 개발을 총괄한다. 27년 재직한 Jeff Dean은
-Sanjay Ghemawat·Oriol Vinyals·Quoc Le와 함께 퇴사해 별도 스타트업 "Discovery Loop"를
-창업(Alphabet이 창업 투자자로 참여). Alphabet 주가는 발표 직후 약 4~5% 하락 — 6월부터
-이어진 핵심 연구자 연쇄 이탈([[2026-06-22-google-deepmind-talent-exodus]])·
-[[2026-07-29-google-deepmind-alphafold-team-dismantled|AlphaFold 팀 해체]] 흐름이 조직
-최상단까지 번진 사례로 해석된다. → [[2026-08-05-google-deepmind-leadership-shakeup]]
+**Demis Hassabis, CEO에서 물러나 회장으로 — Jeff Dean 등도 퇴사·"Discovery Loop" 창업**:
+DeepMind 설립자 겸 2024 노벨화학상 수상자 Hassabis가 CEO직을 내려놓고 Google DeepMind
+회장 겸 Alphabet 최고과학자로 이동, 일상 경영과 Gemini 로드맵은 최고 AI 아키텍트 Koray
+Kavukcuoglu(SVP)가 승계했다. 소식통에 따르면 Hassabis는 1년 전부터 서서히 CEO 직무에서
+손을 떼왔으며, 자회사 Isomorphic Labs(신약·신소재 발굴)에 더 집중하고 싶어했다는 설명.
+27년 재직한 최고과학자 Jeff Dean도 함께 퇴사했는데, Sanjay Ghemawat·Oriol Vinyals·Quoc Le와
+함께 머신러닝·과학연구 자동화를 목표로 한 별도 공익법인 "Discovery Loop"를 창업했다
+(Alphabet이 창업 투자자로 참여, 클라우드 컴퓨트 제공). 발표 당일 Alphabet 주가 약 4~5%
+하락 — [[2026-06-22-google-deepmind-talent-exodus]]·[[2026-07-29-google-deepmind-alphafold-team-dismantled]]로
+이어져 온 DeepMind 인재 유출 흐름의 정점. → [[2026-08-05-google-deepmind-hassabis-steps-down]]
 
 ## 관련 업데이트
 
-- [[2026-08-05-google-deepmind-leadership-shakeup]] — Hassabis CEO 사임(회장·수석과학자 이동), Jeff Dean 등 퇴사·Discovery Loop 창업 (high)
+- [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 승계 (high)
 - [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 3종 모델·다중 로봇 협업 (medium)
 - [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, Jumper Anthropic 이적 재확인 (high)
 - [[2026-07-20-google-frozen-v2-chip]] — Gemini 전용 추론칩 "Frozen v2", 전력당 최대 10배 효율 (medium)

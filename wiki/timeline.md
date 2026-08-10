@@ -4,21 +4,25 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-11, 79건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-11, 83건)
 
 ## 2026-08
 
 - **08-10** — 미공개 연구용 Claude, 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명은 아님) — 60개 서브에이전트 조율·Lean 형식검증 → [[2026-08-10-claude-riemann-hypothesis-research]]
-- **08-05** — Google DeepMind CEO 교체 — Hassabis 회장·수석과학자로 이동, Jeff Dean 등 핵심 인력 퇴사·"Discovery Loop" 창업 → [[2026-08-05-google-deepmind-leadership-shakeup]]
-- **08-07** — ChatGPT GPT-5.6 Luna, Free·Go 이용자 기본 모델로 전환 + Think 버튼 확대 예정 → [[2026-07-09-openai-gpt-5-6-launch]]
 - **08-07** — Claude Fable 5 생물학 안전장치 재조정, 오차단 약 85% 감소(건강·교육 질문은 완화, 이중용도 영역은 유지) → [[2026-08-07-claude-fable-5-biology-safeguards-update]]
 - **08-07** — Claude Code Auto mode, Pro·Max·Team 플랜 기본값으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크) → [[2026-08-07-claude-code-auto-mode-default]]
-- **08-04** — Anthropic, 첫 Chief Global Affairs Officer로 전 캘리포니아 대법관 Tino Cuéllar 영입 → [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+- **08-07** — Claude Code, 서브에이전트 동시 생성 상한 제거 + 셀프호스팅 환경·크로스세션 메시징 추가 → [[claude-code]]
 - **08-07** — AMD, AI 칩 스타트업 Taalas 인수 — 모델을 실리콘에 직접 새겨 추론 성능 강화(HN 875점) → (페이지 미생성, 뉴스레터 기록)
+- **08-07** — Databricks, AI 코딩 에이전트(Claude Code·Codex·Cursor) 비용 관리 사례 공개 — 스마트 라우팅 30%+·토큰/캐싱 튜닝 50% 절감 실측 → [[databricks-ai-gateway-coding-cost-management]]
+- **08-06** — OpenAI, Free·Go 기본 모델을 GPT-5.6 Luna로 전환·무제한 텍스트 대화 제공, Sol 응답 재조정, 사실오류 62~68%↓ → [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
 - **08-06** — Millennium과 Anthropic, "디지털 리스크 애널리스트" 공동 개발 — 헤지펀드 리스크 매니저 보조 AI 팀메이트 → [[2026-08-06-anthropic-millennium-digital-risk-analyst]]
 - **08-06** — Anthropic, Claude Code Self-hosted environments 퍼블릭 베타 — 사내 인프라에서 세션 실행 → [[claude-code]]
-- **08-07** — Databricks, AI 코딩 에이전트(Claude Code·Codex·Cursor) 비용 관리 사례 공개 — 스마트 라우팅 30%+·토큰/캐싱 튜닝 50% 절감 실측 → [[databricks-ai-gateway-coding-cost-management]]
+- **08-05** — Google DeepMind CEO 교체 — Hassabis 회장·수석과학자로 이동, Jeff Dean 등 핵심 인력 퇴사·"Discovery Loop" 창업, Koray Kavukcuoglu 승계 → [[2026-08-05-google-deepmind-hassabis-steps-down]]
+- **08-05** — Anthropic, Claude 전용 자체 칩 설계팀 구축 확인(추론비용 약 50%↓ 목표) → [[2026-08-05-anthropic-custom-silicon-chip-team]]
+- **08-05** — Meta, 코딩 에이전트 "Muse Code" 베타 출시 — Claude Code·Codex와 3파전 → [[2026-08-05-meta-muse-code-launch]]
+- **08-05** — Anthropic, 7.5시간 장애("올해 164번째") — Mythos 5·Fable 5·Opus 5·Sonnet 5 영향 → [[anthropic]]
 - **08-05** — Anthropic, Claude Enterprise Inference hooks 베타 — 프롬프트·툴콜 인라인 DLP → [[claude-code]]
+- **08-04** — Anthropic, 첫 Chief Global Affairs Officer로 전 캘리포니아 대법관 Tino Cuéllar 영입 → [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
 - **08-03** — Alibaba Qwen3.8-Max(2.4T) 정식 공개, Claude Fable 5 대비 코딩·멀티모달 벤치마크 우위 자평 — 완전 오픈웨이트 공개 예고 → [[2026-07-19-alibaba-qwen-3-8-preview]]
 - **08-03** — AWS-Superblocks 바이브코딩 다년 제휴 — 엔터프라이즈 프라이빗 클라우드 내 바이브코딩 툴 내장 → [[citizen-development]]
 - **08-01** — OpenAI, 차기 모델 "Astra" 티저 — 10개 장기 미해결 수학·이론컴퓨터과학 난제를 증명하며 공개, 문제당 $2,000 미만 토큰 사용 주장 → [[2026-08-01-openai-astra-teaser-math-proofs]]

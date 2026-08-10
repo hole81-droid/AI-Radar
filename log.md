@@ -279,7 +279,13 @@ Mozilla 루프엔지니어링 사례와 잘 맞물림. 커뮤니티 2건(위 하
 0건(오늘도 구체 자동화 사례 미확인, old.reddit 접근 여전히 차단). YouTube 픽 2건(조코딩,
 Astra 반응 영상·새 LLM 벤치마크 소개 영상). newsletter/2026-08-04.md 신규 생성.
 
-## [2026-08-07] scan | 항목 9건, 반영 6건 (공백 소급 08-05~08-07)
+## [2026-08-07] scan | 항목 9건, 반영 6건 (공백 소급 08-05~08-07, cron 세션)
+
+> ⚠️ **병렬 세션 안내**: 이 항목과 바로 다음 항목(iMac 세션)은 같은 08-05~08-07 공백을
+> 서로 다른 두 세션이 독립적으로 소급 스캔한 기록이다. 두 세션이 서로의 존재를 모른 채
+> git 브랜치가 분기된 상태로 실행됐고, 이후 머지 과정에서 중복 사실을 정리했다. 자세한
+> 병합 조치는 맨 아래 `[2026-08-11] ingest | 병합 세션 — 08-05~08-07 중복 스캔 정리`
+> 항목을 참고.
 
 공백 점검: 마지막 뉴스레터 08-04, 오늘(08-08) 기준 08-05~08-07 사흘 공백 확인 → 3일 이상이라
 newsletter/2026-08-07.md 하나로 통합 소급 작성(`> 소급 스캔: 08-05 ~ 08-07`). 이번에도
@@ -340,7 +346,10 @@ RSS로 대체 확보). HN Algolia 날짜범위 검색 시 연도를 잘못 계�
 Jeff Dean이 Sanjay Ghemawat·Oriol Vinyals·Quoc Le와 함께 퇴사해 "Discovery Loop" 창업
 (Alphabet 투자자 참여), Alphabet 주가 4~5%↓ — 기존 [[2026-06-22-google-deepmind-talent-exodus]]·
 [[2026-07-29-google-deepmind-alphafold-team-dismantled]] 흐름의 연장으로 판단해 신규
-페이지 [[2026-08-05-google-deepmind-leadership-shakeup]] 생성, [[google]] 허브 갱신.
+페이지 `2026-08-05-google-deepmind-leadership-shakeup` 생성(★08-11 머지 후정: origin/main의
+동일 사실 페이지 [[2026-08-05-google-deepmind-hassabis-steps-down]]과 중복 확인돼 병합·삭제됨,
+Discovery Loop 세부사항은 해당 페이지로 이전 — 아래 [2026-08-11] ingest 항목 참고),
+[[google]] 허브 갱신.
 (2) Anthropic, 미공개 연구용 Claude로 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명
 아님) — 2세션·3,100만 출력 토큰·서브에이전트 약 60개·Lean 형식검증, 외부 전문가 Brian
 Conrey·Dan Goldston 검토 — [[2026-07-20-claude-fable-jacobian-conjecture]]와 같은 "AI
@@ -356,3 +365,69 @@ IT뉴스 롤업, AI Frontier Korea 08-10 쇼츠 "회사에 사람이 필요한 �
 [[google]] 허브 갱신. raw/2026-08/에 google-deepmind-leadership-shakeup·
 claude-riemann-hypothesis-research 2개 파일 신규 저장. case-catalog는 이번 소급분에
 ★최우선 확보 사례가 없어 갱신 없음.
+
+## [2026-08-07] scan | 항목 13건, 반영 13건 (공백 소급 08-05~08-07, iMac 세션)
+
+> ⚠️ **병렬 세션 안내**: 위의 cron 세션 항목과 같은 날짜 범위(08-05~08-07)를 독립적으로
+> 스캔한 별도 세션 기록. 두 세션의 결과물(use-case·update 페이지, 뉴스레터)은 08-11 머지
+> 세션에서 통합·중복제거됐다 — 상세는 맨 아래 `[2026-08-11] ingest | 병합 세션` 항목 참고.
+
+공백 3일(08-05~08-06~08-07) 확인 후 규칙에 따라 날짜별로 쪼개지 않고
+newsletter/2026-08-07.md 하나로 통합 작성. ★최우선 3건 모두 원문 정독 후 신규
+use-case 페이지 생성: (1) [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]]
+— 개인 연구자 블로그, Claude Code(Opus 5)의 세션 중 자가개선이 메모리 파일이 아니라
+대화 기록에서 온다는 통제 실험(held-out 34%→48%, research·measured), (2)
+[[uber-adr-claude-code-cursor-codex-security-monitoring]] — Uber, Claude Code·Cursor·
+Codex 위험 명령 실시간 탐지·차단 오픈소스 ADR 프로덕션 배포+MLSys 2026 논문(ops·
+measured), (3) [[capforge-claude-mcp-video-captioning]] — 로컬 자막 앱을 Claude MCP로
+연결한 오픈소스 사례(content-creation·anecdotal). 빅뉴스 중 지속적 사실 4건을
+updates/players 페이지로 신규 반영: [[2026-08-05-google-deepmind-hassabis-steps-down]]
+(Hassabis CEO→회장, Jeff Dean 퇴사, Kavukcuoglu 승계) · [[2026-08-05-anthropic-custom-silicon-chip-team]]
+(Claude 전용 자체 칩팀, 추론비용 50%↓ 목표 — OpenAI Jalapeño·Google Frozen v2와 함께
+3사 완결) · [[2026-08-05-meta-muse-code-launch]](Meta 코딩 에이전트 진입, Claude Code·
+Codex와 3파전) · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]](무료 사용자
+Luna 무제한 텍스트 대화 전환, 사실오류 62~68%↓). Anthropic 7.5시간 장애(164번째)와
+Cuéllar Chief Global Affairs Officer 영입(08-04, 직전 스캔 미포착분)은 별도 페이지
+없이 [[anthropic]] 본문에 반영(★cron 세션이 08-08에 별도로 [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+전용 페이지를 만들어 이 부분은 자동으로 갈음됨). 커뮤니티 2건(HN 294점 "40k 게임 실험 — 사람이 AI
+에이전트 명령 위협의 1/3을 놓친다", r/AI_Agents "PC 자동화 과소평가" 글)은 뉴스레터에만
+기록. YouTube 픽 2건(조코딩, Claude Code 제작자 성능팁·로컬 실행 1위 모델 쇼츠 — 둘
+다 shorts 특성상 세부 확인 제한적이라 제목 수준으로만 소개). LinkedIn 3계정(조코딩
+개인·페이지, 이승필 AX LABS) 도메인 한정 검색 확인했으나 08-05~08-07 날짜가 확인되는
+글 없어 미반영(정상적 공백). [[timeline]] 68→75건, [[index]]·[[anthropic]]·[[google]]·
+[[openai]]·[[claude-code]]·[[chatgpt]]·[[case-catalog]] 갱신. 산출물 메일 발송 시도.
+
+## [2026-08-11] ingest | 병합 세션 — 08-05~08-07 중복 스캔 정리
+
+두 독립 세션(로컬 cron 잡, iMac 세션)이 서로의 존재를 모른 채 같은 08-05~08-07 공백을
+각자 소급 스캔해 `git merge origin/main`이 여러 파일에서 충돌했다. 이 항목은 그 머지
+충돌을 해소하며 실제로 취한 중복제거 조치를 기록한다(사후 보정이므로 scan이 아닌
+ingest로 분류).
+
+- **Google DeepMind Hassabis 사임**: cron 세션이 만든 `2026-08-05-google-deepmind-leadership-shakeup`과
+  iMac 세션이 만든 [[2026-08-05-google-deepmind-hassabis-steps-down]]이 동일 사건을
+  다룸 → iMac 세션 페이지를 표준으로 채택(원문 시점이 정확한 08-05 소급 스캔에서 바로
+  작성됐고 서술이 더 촘촘함), cron 세션 페이지의 고유 사실(Jeff Dean·Sanjay Ghemawat·
+  Oriol Vinyals·Quoc Le "Discovery Loop" 공동창업, Alphabet 창업투자자 참여)을 표준
+  페이지에 이전 후 `2026-08-05-google-deepmind-leadership-shakeup.md` 삭제. 두 파일을
+  참조하던 [[index]]·[[timeline]]·[[google]]·이 log.md의 링크를 모두 표준 페이지로 수정.
+- **GPT-5.6 Luna 무료 이용자 확대**: cron 세션은 기존 [[2026-07-09-openai-gpt-5-6-launch]]
+  허브 페이지에 후속 섹션을 추가하는 방식을 택했고, iMac 세션은 별도 신규 페이지
+  [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]를 만들었다 — 후자가 사실오류
+  감소율(Luna 약 62%·Sol 약 68%) 등 더 구체적인 수치를 담고 있어 표준 페이지로 채택.
+  허브 페이지의 후속 섹션은 전체 내용을 반복하지 않고 표준 페이지로 링크하는 요약으로
+  축소(중복 서술 방지). cron 세션이 08-11에 추가했던 "8/10 주간 실사용 재확인" 후속
+  확인 내용은 표준 페이지의 "후속 확인" 섹션으로 이전.
+- **뉴스레터**: `newsletter/2026-08-07.md`의 add/add 충돌을 병합 — ★최우선 4건(Databricks·
+  andrewjesson·Uber ADR·CapForge) 전체 유지, 빅 뉴스는 위 두 항목처럼 중복 사실을
+  하나로 합쳐 재작성, 커뮤니티·YouTube 픽은 합집합, AX 시사점은 새로 종합.
+- **index.md·timeline.md·wiki/players/anthropic.md·wiki/players/google.md·
+  wiki/tools/claude-code.md**: 두 세션이 독립적으로 추가한 항목을 시간순으로 합치고
+  위 두 건의 중복만 제거. use-case 카탈로그는 origin이 새로 만든 3건
+  ([[andrewjesson-claude-code-conversation-vs-memory-self-improvement]]·
+  [[uber-adr-claude-code-cursor-codex-security-monitoring]]·
+  [[capforge-claude-mcp-video-captioning]])을 반영해 55건 → 59건.
+- 이 항목 위의 "[2026-08-07] scan" 두 건(cron 세션·iMac 세션)은 둘 다 실제로 발생한
+  독립 실행 기록이므로 삭제하지 않고 그대로 보존했다 — 각 세션이 실제로 무엇을
+  찾았는지는 journal로서 가치가 있다. 위키 본문(update/player/use-case 페이지, index,
+  timeline)만 이 항목에 따라 중복 없이 정리됐다.

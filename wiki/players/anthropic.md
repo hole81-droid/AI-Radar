@@ -87,26 +87,34 @@ OpenAI도 유사 사고 공개. → [[2026-07-31-anthropic-cybersecurity-eval-in
 
 **8/4 — 첫 Chief Global Affairs Officer 영입**: 전 캘리포니아 대법관·Carnegie Endowment
 전 총재 Tino Cuéllar가 정책·국제관계·정부 대응을 총괄하는 신설 임원으로 합류, Daniela
-Amodei에 직접 보고. IPO 준비·Pentagon 소송 등 정부 관련 리스크가 누적된 시점과 겹친다. →
-[[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구자 4명 영입(7/13)에
+이은 거버넌스·정책 라인 강화 인사이며, IPO 준비·Pentagon 소송 등 정부 관련 리스크가 누적된
+시점과도 겹친다. → [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
 
-**8/5~8/7 — 엔터프라이즈 기능 3종 연속 공개 + 금융 버티컬 확장 + Auto mode 대중화**: 사흘 연속
-발표로 "엔터프라이즈 공략"과 "일반 사용자 자율성 확대"를 동시에 밀어붙였다.
+**8/5~8/7 — 자체 칩팀 확인 + 엔터프라이즈 기능 3종 연속 공개 + 금융 버티컬 확장 + Auto mode 대중화**:
+닷새 사이 "인프라 자립"과 "엔터프라이즈 공략", "일반 사용자 자율성 확대"를 동시에 밀어붙였다.
+- **8/5 — Claude 전용 자체 칩 설계팀 구축 확인**: 하드웨어·모델 공동설계로 토큰당 추론
+  비용 약 50% 절감을 목표로 사내 커스텀 실리콘팀을 꾸리고 있다고 공식 확인. OpenAI
+  Jalapeño·Google Frozen v2에 이어 3대 프론티어 기업 모두 자체 칩 대열에 합류.
+  → [[2026-08-05-anthropic-custom-silicon-chip-team]]
 - **8/5 — Inference hooks 베타**: Claude Enterprise 전 표면의 모든 프롬프트·툴콜을 조직 자체
   보안 서버가 사전 검사(허용/차단)하는 인라인 DLP. Proofpoint·Zscaler·Check Point 등 보안
   벤더들이 곧바로 연동 발표. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
-- **8/5 — 7.5시간 장애**: Mythos 5·Fable 5·Opus 5·Sonnet 5가 영향을 받은 장애 발생, 12:07pm ET
-  복구. 언론 보도상 "올해 164번째 장애"로 집계돼 [[2026-07-25-openai-reliability-crisis]]와
-  유사하게 프론티어 랩 인프라 안정성 이슈가 Anthropic에서도 반복되고 있음을 보여줌.
+- **8/5 — 7.5시간 장애, "올해 164번째 장애"**: 오전 3시(ET)경 시작된 장애로 Mythos 5·Fable 5·
+  Opus 5·Sonnet 5가 낮 12시 7분(ET)까지 영향을 받았다. [[2026-07-25-openai-reliability-crisis|OpenAI의
+  반복 장애]]에 이어 Anthropic도 안정성 이슈가 누적되고 있음을 보여줌.
 - **8/6 — Self-hosted environments 퍼블릭 베타**: Claude Code 세션을 사내 인프라에서 실행,
   내부 서비스·DB 직접 접근 가능(Team/Enterprise).
   ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))
 - **8/6 — Millennium과 "디지털 리스크 애널리스트" 공동 개발**: 운용자산 $92B+ 헤지펀드의
-  리스크 매니저를 보조하는 AI 팀메이트 — [[claude-for-legal]] 같은 버티컬 특화 전략이 금융
+  리스크 매니저를 보조하는 AI 팀메이트 — [[2026-05-12-claude-for-legal]] 같은 버티컬 특화 전략이 금융
   리스크 관리로 확장. → [[2026-08-06-anthropic-millennium-digital-risk-analyst]]
 - **8/7 — Claude Code Auto mode, Pro·Max·Team 기본값 전환**: 권한 프롬프트 대신 분류기 기반
   이중 방어로 승인 피로 해소, 프로덕션은 격리 환경 권장. →
   [[2026-08-07-claude-code-auto-mode-default]]
+- **8/7 — Claude Code, 서브에이전트 동시 생성 상한 제거**: 셀프호스팅 환경, 크로스세션
+  메시징, 플러그인·샌드박스 제어 강화와 함께 상한이 사라졌다 — 대규모 병렬 오케스트레이션을
+  시도하는 파워유저·기업 사용자에게 의미 있는 변화. → [[claude-code]]
 - **8/7 — Fable 5 생물학 안전장치 재조정**: 오차단(false positive) 약 85% 감소 — 건강·교육
   질문에는 덜 막히고, 바이러스학 등 이중용도 영역은 그대로 Opus 5로 폴백 유지. →
   [[2026-08-07-claude-fable-5-biology-safeguards-update]]
@@ -126,7 +134,11 @@ Amodei에 직접 보고. IPO 준비·Pentagon 소송 등 정부 관련 리스크
 ## 관련 페이지 (추가)
 
 - [[2026-07-24-claude-opus-5-launch]] · [[ai-agent-profiler-claude-code-cost-benchmark]] ·
-  [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]]
+  [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]] ·
+  [[2026-08-05-anthropic-custom-silicon-chip-team]] ·
+  [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] ·
+  [[uber-adr-claude-code-cursor-codex-security-monitoring]] ·
+  [[capforge-claude-mcp-video-captioning]]
 
 ## 출처
 

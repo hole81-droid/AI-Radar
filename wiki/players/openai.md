@@ -83,10 +83,22 @@ Lean 4 형식 검증까지 첨부했으나, 실패 사례 비용·프롬프트�
 GPT-5 계열 연장인지도 미확정인 "결과로 예고하는" 방식이 이례적이라는 평가.
 → [[2026-08-01-openai-astra-teaser-math-proofs]]
 
+**8/6 — GPT-5.6 Sol 재조정, 무료 사용자 GPT-5.6 Luna 무제한 텍스트 대화 기본 제공**:
+Plus·Pro는 Sol이 일상 사용에 맞춰 더 직접적·간결한 응답으로 재조정되고 응답별 "추론
+슬라이더"가 신설됐다. Free·Go는 Luna가 기본 모델이 되며 무제한 텍스트 대화 + "Think"
+버튼 제공 — 무료 등급 접근성이 크게 확대됐다. 내부 평가에서 금융·의료·법률 프롬프트
+사실오류가 GPT-5.5 Instant 대비 Luna 약 62%, Sol 약 68% 감소. → [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
+
+**경쟁 구도 — 8/5 Meta, 코딩 에이전트 "Muse Code" 베타 출시**: Muse Spark 1.2 기반
+터미널 코딩 에이전트로 Claude Code·Codex를 직접 겨냥. macOS·Linux 지원, 격리
+워크트리에서 서브에이전트 병렬 작업. Codex 시장에 세 번째 메이저 경쟁자 등장.
+→ [[2026-08-05-meta-muse-code-launch]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
+- 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]]
 
 ## 출처
 

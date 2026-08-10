@@ -48,6 +48,11 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-07-01**: 수출통제로 중단됐던 **Claude Fable 5**가 Claude Code 포함 전 표면에 복귀. 7/7 이후 무료 포함분 종료, 사용 크레딧 과금으로 전환. → [[2026-07-01-claude-fable-5-global-return]]
 - **2026-07-03 (v2.1.200–201)**: 기본 권한 모드 명칭이 'Manual'로 변경, `AskUserQuestion` 자동 진행 비활성화 등. ([changelog](https://code.claude.com/docs/en/changelog))
 - **2026-07-24**: **Claude Opus 5**가 새 기본 모델로 추가(Max 기본, Pro 최상위) — 서브에이전트가 최대 depth 3까지 중첩 생성 가능(기존 1). `/code-review`가 백그라운드 서브에이전트로 실행되도록 변경돼 리뷰 작업이 대화창을 채우지 않게 됨. 동시에 시스템 프롬프트를 약 80% 정리하고 "점진적 공개(progressive disclosure)" 철학으로 전환 — 낡은 CLAUDE.md/스킬 규칙을 감지하는 `/doctor` 명령 추가. → [[2026-07-24-claude-opus-5-launch]]
+- **2026-08-07**: 셀프호스팅 환경, 크로스세션 메시징, 플러그인·샌드박스 제어 강화, Remote Control·붙여넣기·세션 안정성 개선과 함께 **서브에이전트 동시 생성 개수 상한이 제거**됨 — 대규모 병렬 오케스트레이션 제약이 풀림.
+
+## 경쟁 구도
+
+- **2026-08-05**: Meta가 자체 코딩 에이전트 **Muse Code**(Muse Spark 1.2 기반) 베타를 출시, Claude Code·Codex를 직접 겨냥 — 터미널 코딩 에이전트 시장이 사실상 3파전(Anthropic·OpenAI·Meta)으로 재편됐다. → [[2026-08-05-meta-muse-code-launch]]
 
 ## 활용 포인트
 
@@ -69,6 +74,9 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-08-06**: **Self-hosted environments** 퍼블릭 베타 — Claude Code 세션을 자체 인프라(사내망) 안에서 실행, 내부 서비스·DB에 직접 접근. Team/Enterprise 대상. ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))
 - **2026-08-07**: **Auto mode가 Pro·Max·Team 플랜 기본값**으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크)로 승인 피로 해소, 프로덕션은 격리 환경 권장. → [[2026-08-07-claude-code-auto-mode-default]]
 - **2026-08-07**: Fable 5 생물학 안전장치 재조정으로 Claude Code의 관련 폴백(하위 모델 전환)도 약 17% 감소. → [[2026-08-07-claude-fable-5-biology-safeguards-update]]
+- 실측 연구: 시뮬레이션 비즈니스 업무에서 Claude Code(Opus 5)의 세션 중 자가개선을 통제 실험으로 측정 — held-out 성공률 34%→48%, 개선의 원천은 메모리 파일이 아니라 대화 기록 자체였음(메모리 파일 단독 기여는 통계적으로 유의하지 않음). → [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]]
+- 엔터프라이즈 보안: Uber가 Claude Code·Cursor·Codex의 위험 명령을 실시간 탐지·차단하는 오픈소스 관측 플랫폼 ADR을 프로덕션 배포·MLSys 2026 논문으로 공개 — 사람이 매 명령을 검토하는 승인 모델의 한계를 보완. → [[uber-adr-claude-code-cursor-codex-security-monitoring]]
+- 커뮤니티 패턴: 로컬 자막 앱을 Claude에 MCP로 연결해 "말로 자막 편집"을 구현한 오픈소스 사례(CapForge) — 클라우드 업로드 없이 로컬 Whisper+Claude MCP 조합. → [[capforge-claude-mcp-video-captioning]]
 
 ## 출처
 
