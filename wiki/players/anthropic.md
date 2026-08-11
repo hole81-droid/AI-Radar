@@ -125,6 +125,12 @@ Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구
 검토. [[2026-07-20-claude-fable-jacobian-conjecture|7/20 야코비안 추측 반증 주장]]에 이은
 "AI 수학 연구" 발표 패턴의 반복. → [[2026-08-10-claude-riemann-hypothesis-research]]
 
+**8/11 — Claude 생성물에 워터마크 도입**: EU AI Act 투명성 실천규범 서명에 따라 Claude
+텍스트(비가시 워터마크)·이미지 파일(C2PA 서명 메타데이터)에 AI 생성 표시를 추가. 8/2 이후
+출시 모델은 출시 시점부터 지원, 이전 모델은 소급 적용 진행 중. Claude Code·Cowork·Tag
+전 표면 적용. Reddit에서 "낙인 찍기 아니냐"는 반발과 기술적 궁금증이 동시에 화제가 됨. →
+[[2026-08-11-anthropic-ai-content-watermarking]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -138,7 +144,8 @@ Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구
   [[2026-08-05-anthropic-custom-silicon-chip-team]] ·
   [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] ·
   [[uber-adr-claude-code-cursor-codex-security-monitoring]] ·
-  [[capforge-claude-mcp-video-captioning]]
+  [[capforge-claude-mcp-video-captioning]] ·
+  [[jeremytian-claude-code-loop-agent-optimization]]
 
 ## 출처
 

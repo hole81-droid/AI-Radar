@@ -94,6 +94,14 @@ Plus·Pro는 Sol이 일상 사용에 맞춰 더 직접적·간결한 응답으�
 워크트리에서 서브에이전트 병렬 작업. Codex 시장에 세 번째 메이저 경쟁자 등장.
 → [[2026-08-05-meta-muse-code-launch]]
 
+**경쟁 구도 — 8/11 SpaceXAI, "Grok Bot" 출시**: SpaceX·xAI·Cursor 합병 법인이 상시 작동
+에이전트 팀 제품 Grok Bot을 공개, Claude Cowork·(코딩 한정) Codex Automations를 정면
+겨냥. 사무 업무 전반을 여러 Bot에 나눠 맡기는 구조, $120~200/월. → [[2026-08-11-spacexai-grok-bot-launch]]
+
+**8/11 — 유일한 전담 윤리학자 Chloé Bakalar 퇴사**: Meta 수석 윤리학자 출신으로 2025-08
+입사했던 Bakalar가 2026-07 퇴사(재직 1년 미만), 후임 미지정. [[2026-07-11-openai-heidecke-departure|Heidecke 퇴사]]에
+이어 안전·윤리 라인 이탈이 이어지는 패턴. → [[2026-08-11-openai-bakalar-ethics-departure]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]

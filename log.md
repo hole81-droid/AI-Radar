@@ -431,3 +431,39 @@ ingest로 분류).
   독립 실행 기록이므로 삭제하지 않고 그대로 보존했다 — 각 세션이 실제로 무엇을
   찾았는지는 journal로서 가치가 있다. 위키 본문(update/player/use-case 페이지, index,
   timeline)만 이 항목에 따라 중복 없이 정리됐다.
+
+## [2026-08-12] scan | 항목 8건, 반영 4건
+
+공백 없음(직전 08-11 스캔 정상 완료 확인 후 바로 오늘치 진행). 공식 소스(Anthropic
+News·OpenAI News·Google Blog)는 08-10~08-12 신규 게시물 없음(WebFetch 확인, OpenAI
+News는 403). old.reddit r/ClaudeAI RSS는 curl(서술형 UA)로 정상 확보, r/AI_Agents는
+429 반복 후 재시도 타임아웃으로 이번 회차는 미확보. HN Algolia front_page·search_by_date
+로 화제 파악.
+
+★최우선 1건 반영: HN에서 발견한 Jeremy Tian의 "Claude Code를 루프로 돌려 프로덕션
+엔터프라이즈 AI 에이전트를 자동 개선할 수 있는가" 실험 — Claude Code·AutoResearch·
+AutoAgent 3개 자동 최적화 도구를 동일 데이터셋·채점기준으로 실측 비교(정밀도
+0.734→0.818, AutoAgent 0.877이 최고). → [[jeremytian-claude-code-loop-agent-optimization]]
+(case-catalog 59건→60건)
+
+빅 뉴스 3건 전부 페이지화: (1) Anthropic이 EU AI Act 투명성 규범 대응으로 Claude
+생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) →
+[[2026-08-11-anthropic-ai-content-watermarking]], (2) SpaceX·xAI·Cursor 합병 법인이
+상시 작동 에이전트 팀 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 →
+[[2026-08-11-spacexai-grok-bot-launch]], (3) OpenAI 유일한 전담 윤리학자 Chloé Bakalar
+퇴사(후임 미지정), Heidecke·Achiam에 이은 안전·윤리 라인 이탈 패턴 →
+[[2026-08-11-openai-bakalar-ethics-departure]]. 세 건 모두 players/anthropic.md 또는
+players/openai.md 동향 서술에도 교차 반영, claude-code.md 허브에 워터마크·Grok Bot
+경쟁구도 갱신, timeline.md에 08-11 3줄 추가(83건→86건).
+
+커뮤니티 화제 2건은 뉴스레터에만 기록(페이지화 기준 미달): r/ClaudeAI 워터마크 발표
+반발 스레드(위 watermarking 페이지의 출처로 흡수), ClaudeCraft Arena(4개 프론티어
+모델이 오픈소스 MMO에서 자가개선 에이전트로 실시간 대결, Twitch 생중계 — 재현 가능한
+비즈니스 자동화 기법이라기보다 벤치마크성 데모로 판단해 use-case 승격 보류). YouTube
+픽 2건(조코딩 주간 다이제스트·GPT-5.6 Luna 쇼츠) — 다른 채널(Ben AI 08-03, Liam
+Ottley 08-07, 장피엠·지피터스 정체)은 최근성 기준 미달로 제외. LinkedIn(이승필 AX
+LABS)은 스니펫만 확인되고 날짜 미확인이라 소스 규칙에 따라 뉴스레터에 넣지 않음.
+
+newsletter/2026-08-12.md 신규 생성, 8개 항목 체크박스 전부 [x] 반영 완료 표시.
+raw/2026-08/에 4개 원문 저장(anthropic-ai-content-watermarking·spacexai-grok-bot-launch·
+jeremytian-claude-code-loop-agent-optimization·openai-bakalar-ethics-departure).

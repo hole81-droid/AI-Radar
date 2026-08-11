@@ -8,6 +8,9 @@ date: 2026-07-07
 
 ## 2026-08
 
+- **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
+- **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]
+- **08-11** — OpenAI 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정 → [[2026-08-11-openai-bakalar-ethics-departure]]
 - **08-10** — 미공개 연구용 Claude, 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명은 아님) — 60개 서브에이전트 조율·Lean 형식검증 → [[2026-08-10-claude-riemann-hypothesis-research]]
 - **08-07** — Claude Fable 5 생물학 안전장치 재조정, 오차단 약 85% 감소(건강·교육 질문은 완화, 이중용도 영역은 유지) → [[2026-08-07-claude-fable-5-biology-safeguards-update]]
 - **08-07** — Claude Code Auto mode, Pro·Max·Team 플랜 기본값으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크) → [[2026-08-07-claude-code-auto-mode-default]]
