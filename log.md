@@ -467,3 +467,35 @@ LABS)은 스니펫만 확인되고 날짜 미확인이라 소스 규칙에 따�
 newsletter/2026-08-12.md 신규 생성, 8개 항목 체크박스 전부 [x] 반영 완료 표시.
 raw/2026-08/에 4개 원문 저장(anthropic-ai-content-watermarking·spacexai-grok-bot-launch·
 jeremytian-claude-code-loop-agent-optimization·openai-bakalar-ethics-departure).
+
+## [2026-08-13] scan | 항목 8건, 반영 2건
+
+공백 없음(직전 08-12 스캔 정상 완료 확인 후 바로 오늘치 진행). 공식 소스(claude.com/blog·
+news), 커뮤니티(old.reddit r/ClaudeAI·r/AI_Agents curl 우회, HN Algolia front_page), YouTube
+9채널 RSS(조코딩·Dan Martell·Varun Mayya·kooky0ai·Jeff Su·Jangpm·Liam Ottley 최신일 확인) 순
+확인.
+
+★최우선 1건 반영: Anthropic claude.com/blog에서 발견한 자사 BD(영업)팀의 Claude Cowork
+자체 사용 사례(dogfooding) — Skills(인박스·콜코칭·CRM동기화·리드아웃리치)+야간 예약
+태스크+Salesforce/Gmail/Apollo/Gong 등 커넥터로 인바운드 응대·아웃바운드 프로스펙팅을
+자동화, 인바운드 응답 하루 5시간→검토만·담당자 1인당 계정 100개+ 관리(자기 보고).
+"발송 전 사람 검토" 게이트가 핵심 권한 설계. → [[anthropic-bd-team-claude-cowork-sales-automation]]
+(case-catalog 60건→61건, "영업(sales)" 도메인 신설)
+
+빅 뉴스 1건 페이지화: Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork
+세션으로 통합(브라우저 대화가 전 기기로 이어짐, Skills·커넥터 그대로 동작) →
+[[2026-08-12-claude-cowork-chrome-integration]]. claude-code.md 허브·timeline.md(83건→
+84건, 08-12 1줄)·index.md 갱신. 나머지 빅뉴스 2건(xAI Grok 4.6 출시 — GPT-5.6 Sol과
+벤치마크 대등, DeepSeek V4 Pro "0813" 체크포인트 HN 화제 — 4월 출시 모델의 갱신본이라
+신규 출시 아님을 명시)은 Claude/Codex/ChatGPT/Gemini 4대 추적 도구 밖의 경쟁사 뉴스라
+뉴스레터에만 기록하고 페이지화하지 않음.
+
+커뮤니티 화제 2건은 뉴스레터에만 기록(재현 가능한 비즈니스 기법이 아니라 일화·논쟁형이라
+use-case 승격 기준 미달): r/AI_Agents의 자율 크립토 에이전트 "Cairn"이 낯선 고객 요청으로
+현실의 나무에 물을 준 일화(에이전트 자율성 화제), HN 638점 "AI가 소프트웨어 엔지니어링
+중산층을 없앤다" 논쟁. YouTube 픽 2건(Jeff Su의 AI 메모리 3단계 설명 — Claude Cowork
+메모리 파일까지 다룸, Varun Mayya의 Grok Bot 반응 쇼츠) — Jangpm·Liam Ottley 등은 최근성
+또는 프로모션 성격으로 제외.
+
+newsletter/2026-08-13.md 신규 생성, 8개 항목 체크박스 전부 [x] 반영 완료 표시.
+raw/2026-08/에 2개 원문 저장(anthropic-bd-team-claude-cowork·claude-in-chrome-becomes-cowork).

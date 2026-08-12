@@ -75,6 +75,10 @@ uses: [course, ax]
 - [[benai-claude-skills-marketing-automation]] — Claude Code로 Skills+플러그인 마켓플레이스 배포 구조(단일 소스+부서별 자동 동기화)를 활용해 마케팅 업무 11종(SEO 감사·이메일 시퀀스·LinkedIn·뉴스레터 등)을 수행 → 상시 재사용 체계 구축 (주장, 정량 성과 미확인)
 - [[claude-code-seo-manager-mcp-dashboard]] — Claude Code로 MCP 서버+GitHub Actions 크론+헤드리스 컨테이너(mcp+cron-routines+cli-pipeline)를 활용해 SEO 키워드 리서치·콘텐츠 자동 발행·순위 모니터링을 수행 → 오픈소스(AGPL-3.0) 대시보드로 상시 자동 운영 (주장, 정량 성과 미확인)
 
+## 영업 (sales)
+
+- [[anthropic-bd-team-claude-cowork-sales-automation]] — Anthropic BD팀이 Claude Cowork(skills+cron-routines+mcp)로 세일즈 인바운드 응대·아웃바운드 프로스펙팅·디스커버리콜 평가를 수행 → 인바운드 응답 하루 5시간 수작업→검토만 필요한 초안, 담당자 1인당 계정 100개+ 관리 (주장, 자기 보고)
+
 ## 금융 (finance)
 
 - [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
@@ -177,3 +181,8 @@ anecdotal, 정량 성과 미확인). 세 건 모두 원문(블로그·GitHub·Re
 성과를 구체적으로 확인한 사례만 반영했다. 같은 스캔에서 발견한 Meta Muse Code 출시,
 Anthropic 자체 칩팀, Google DeepMind Hassabis CEO 이동은 use-case가 아니라 wiki/updates·
 players 페이지로 반영(단일 도구의 업무 자동화 사례가 아니라 업계/조직 뉴스이기 때문).*
+
+*2026-08-13 추가(61건): [[anthropic-bd-team-claude-cowork-sales-automation]](Anthropic 공식
+블로그, BD팀이 Claude Cowork skills+cron-routines+mcp로 세일즈 인바운드·아웃바운드를
+자동화 — sales·claimed, 인바운드 응답 하루 5시간→검토만·계정 100개+ 관리. "영업(sales)"
+도메인 신설 첫 케이스, 정량 수치는 벤더 자기 보고임을 명시).*

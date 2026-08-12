@@ -4,10 +4,11 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-11, 83건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-12, 84건)
 
 ## 2026-08
 
+- **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]
 - **08-11** — OpenAI 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정 → [[2026-08-11-openai-bakalar-ethics-departure]]

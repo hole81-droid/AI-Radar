@@ -12,6 +12,7 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-08-12-claude-cowork-chrome-integration]] — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합, 브라우저 대화가 전 기기로 이어짐 (medium)
 - [[2026-08-11-anthropic-ai-content-watermarking]] — EU AI Act 대응, Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) (high)
 - [[2026-08-10-claude-riemann-hypothesis-research]] — 미공개 연구용 Claude, 리만 가설 관련 하한 41.6%→67.2%로 개선(증명은 아님, 60개 서브에이전트+Lean 검증) (high)
 - [[2026-08-07-claude-fable-5-biology-safeguards-update]] — Fable 5 생물학 안전장치 재조정, 오차단 85% 감소(건강·교육 질문 완화, 이중용도는 유지) (medium)
@@ -118,7 +119,7 @@
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 60건) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 61건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%)
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]]
 - 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818)
@@ -127,6 +128,7 @@
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]]
 - HR: [[jocoding-ax-series-pwc-samil]]
+- 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]]
 
 ## 분석 (wiki/analysis/)
 
@@ -136,6 +138,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-11, 86건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-12, 87건)
 - [[sources]] — 모니터링 소스 레지스트리
 - newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-12]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

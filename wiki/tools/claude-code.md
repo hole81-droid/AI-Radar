@@ -80,6 +80,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 엔터프라이즈 보안: Uber가 Claude Code·Cursor·Codex의 위험 명령을 실시간 탐지·차단하는 오픈소스 관측 플랫폼 ADR을 프로덕션 배포·MLSys 2026 논문으로 공개 — 사람이 매 명령을 검토하는 승인 모델의 한계를 보완. → [[uber-adr-claude-code-cursor-codex-security-monitoring]]
 - 커뮤니티 패턴: 로컬 자막 앱을 Claude에 MCP로 연결해 "말로 자막 편집"을 구현한 오픈소스 사례(CapForge) — 클라우드 업로드 없이 로컬 Whisper+Claude MCP 조합. → [[capforge-claude-mcp-video-captioning]]
 - 실측 연구: Claude Code를 반복 루프로 돌려 프로덕션 엔터프라이즈 AI 에이전트를 자동 개선 — AutoResearch·AutoAgent와 동일 조건 비교 시 정밀도 0.734→0.818(경쟁 도구보다 낮은 개선폭), 세 도구 모두 초반에 개선이 몰리고 이후 정체되는 패턴 공통 확인. → [[jeremytian-claude-code-loop-agent-optimization]]
+- 자체 사용 사례: Anthropic BD(영업)팀이 Claude Cowork의 Skills+예약 태스크+CRM 커넥터로 인바운드 응대·아웃바운드 프로스펙팅을 자동화 — 인바운드 응답 하루 5시간→검토만, 담당자 1인당 계정 100개+ 관리. 모든 발송은 사람 검토 필수. → [[anthropic-bd-team-claude-cowork-sales-automation]]
+- **2026-08-12**: Claude in Chrome 사이드패널이 별도 선택 없이 곧바로 정식 **Claude Cowork** 세션으로 통합 — 브라우저 대화가 히스토리에 저장되어 데스크톱·웹·모바일에서 이어짐, 기존 Skills·커넥터 그대로 동작. → [[2026-08-12-claude-cowork-chrome-integration]]
 
 ## 출처
 
