@@ -30,6 +30,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **Auto mode**: 권한 프롬프트를 분류기 기반 백그라운드 안전 검사로 대체(2026-03 리서치 프리뷰 → Pro 플랜·서드파티 프로바이더로 확대 → 2026-08-07 Pro·Max·Team 기본값 전환). ([whats-new](https://code.claude.com/docs/en/whats-new))
 - **자동화/CI**: Unix 파이프 및 `-p` 헤드리스 모드, GitHub Actions·GitLab CI/CD, PR 자동 코드 리뷰, `/ultrareview` 클라우드 버그 헌팅. ([overview](https://code.claude.com/docs/en/overview))
 - **Plugins**: 커스텀 명령·테마·도구 패키징, `.zip`/URL 로드, 마켓플레이스. ([whats-new](https://code.claude.com/docs/en/whats-new))
+- **음성 입력 `/voice`**: 공식 딕테이션(v2.1.69+), 홀드/탭 모드, 코딩 어휘 튜닝, 오디오는 서버에서 처리. 한국어 인식 품질에 대한 공식 근거는 아직 확인되지 않았다. ([voice-dictation](https://code.claude.com/docs/en/voice-dictation))
+- **파일 생성**(pptx·xlsx·docx·pdf): 2026-02-11부터 무료 계정 포함 전 사용자에게 개방, 30MB/파일 제한. ([create-files](https://claude.com/blog/create-files))
 
 ## 최근 주요 업데이트 (2026년 4~7월, 날짜순)
 
@@ -55,6 +57,12 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 
 - **2026-08-05**: Meta가 자체 코딩 에이전트 **Muse Code**(Muse Spark 1.2 기반) 베타를 출시, Claude Code·Codex를 직접 겨냥 — 터미널 코딩 에이전트 시장이 사실상 3파전(Anthropic·OpenAI·Meta)으로 재편됐다. → [[2026-08-05-meta-muse-code-launch]]
 - **2026-08-11**: SpaceX·xAI·Cursor 합병 법인이 상시 작동 에이전트 팀 제품 **Grok Bot**을 출시, 코딩을 넘어 사무 업무 전반에서 Claude Cowork와 정면 경쟁 — "AI 에이전트 팀"이 코딩 도구 4파전(Anthropic·OpenAI·Meta·SpaceXAI)을 넘어 사무 자동화로도 번지는 신호. → [[2026-08-11-spacexai-grok-bot-launch]]
+
+## 운영 참고사항
+
+- **시스템 요구사항**: macOS 13+/Windows 10+ x64. Cowork 샌드박스는 Windows Pro/Enterprise(Hyper-V) 필요 — **Windows Home은 지원하지 않는다.** ([system-requirements](https://houtini.com/articles/claude-desktop-system-requirements/))
+- **계정**: Claude Code 자체는 무료 플랜으로 쓸 수 없다 — Pro 이상 구독 또는 API 키가 필요하다.
+- **과금 변동성**: 2026-06 Agent SDK/헤드리스 분리 과금 발표(시행 전 유예), 7/7 Fable 5 크레딧 종량 전환처럼 한 달 새 여러 번 바뀐 전례가 있다 — 교재·안내자료에 요금표를 그대로 박아 넣기보다 조회 시점 기준으로 명시하는 편이 안전하다.
 
 ## 활용 포인트
 

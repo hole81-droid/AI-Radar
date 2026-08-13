@@ -110,6 +110,7 @@
 - [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
 - [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량 (medium)
+- [[demo-dummy-data-design]] — 에이전트 시연용 모의 데이터 설계 — 심은 이야기·미끼·대조군·재발견 검수 (medium)
 
 ## 회사·인물 (wiki/players/)
 
@@ -135,6 +136,10 @@
 - [[llm-wiki-learning-resources]] — Karpathy LLM Wiki 패턴 학습용 영상·자료 추천 (course)
 - [[coding-agent-terminal-harness-comparison]] — Claude Code·goose·OpenCode·Pi 실전 비교 (course, ax)
 - [[alphaevolve-gemini-coding-agent-impact-roundup]] — Gemini 기반 알고리즘 발견 에이전트 산업 임팩트 (course, ax)
+- [[sk-group-ax-agenda-2026]] — SK그룹 "1인 1에이전트" 선언과 그룹 전개, 2026 상반기 (course, ax)
+- [[korea-4-groups-ax-competition-2026]] — 국내 4대 그룹 AX 경쟁 지형(삼성·SK·현대차·LG) 비교 (course, ax)
+- [[claude-enterprise-adoption-path]] — Claude 엔터프라이즈 도입 경로 — 데이터 정책·사내망 제약 옵션 (course, ax)
+- [[vendor-official-case-numbers]] — 벤더 공식 고객 사례 수치 모음(Rakuten·Mozilla 등, 1차 출처) (course, ax)
 
 ## 기타
 
