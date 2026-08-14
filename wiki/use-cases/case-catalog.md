@@ -54,6 +54,7 @@ uses: [course, ax]
 - [[microsoft-claude-code-copilot-cli-adoption-study]] — ★실측 벤치마크 케이스. Microsoft가 자체 학술 연구로 Claude Code+GitHub Copilot CLI(cli-pipeline) 사내 수만 명 엔지니어 확산을 4개월 추적 → 채택자 PR 병합량 예상 대비 약 24%↑, 동료 사용이 채택의 핵심 동인 (실측)
 - [[adeptly-claude-code-learning-crew-pipeline]] — Claude Code로 로컬 CLI(cli-pipeline+subagents, prd-driven)를 활용해 Claude Code 기능 학습형 계획 생성+Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 개발 파이프라인 자동 실행을 수행 → API키·서버·텔레메트리 없는 로컬 전용 오픈소스(MIT) (주장, 정량 미확인)
 - [[jeremytian-claude-code-loop-agent-optimization]] — Claude Code로 반복 루프(cli-pipeline)를 활용해 프로덕션 엔터프라이즈 AI 에이전트 정확도 자동 개선을 수행 → 정밀도 0.734→0.818(경쟁 도구 AutoAgent 0.877보다는 낮음) (실측)
+- [[reddit-lloyd-claude-code-loop-orchestrator]] — Claude Code로 heartbeat 루프 오케스트레이터(cron-routines)를 활용해 고객 이메일 트리아지·문서 점검·로그 모니터링·자체 티켓 관리를 수행 → SQLite DB로 600여 건 자체 관리 (일화, 개인 프로젝트)
 
 ## 보안·운영 (ops)
 
@@ -186,3 +187,8 @@ players 페이지로 반영(단일 도구의 업무 자동화 사례가 아니�
 블로그, BD팀이 Claude Cowork skills+cron-routines+mcp로 세일즈 인바운드·아웃바운드를
 자동화 — sales·claimed, 인바운드 응답 하루 5시간→검토만·계정 100개+ 관리. "영업(sales)"
 도메인 신설 첫 케이스, 정량 수치는 벤더 자기 보고임을 명시).*
+
+*2026-08-14 추가(62건): [[reddit-lloyd-claude-code-loop-orchestrator]](Reddit r/ClaudeAI,
+20년차 엔지니어가 Claude Code heartbeat 루프+SQLite 티켓 DB로 고객 이메일 트리아지·문서
+점검·로그 모니터링을 자동화 — dev-automation·anecdotal, 600여 건 티켓 관리는 자기보고이며
+권한 설계·모델·비용 전부 미확인인 개인 프로토타입 사례).*

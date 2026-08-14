@@ -4,10 +4,12 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-12, 84건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-13, 86건)
 
 ## 2026-08
 
+- **08-13** — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰 공개(MIT 라이선스) — Claude Code 정면 경쟁, V4-Pro API 가격은 인상 → [[2026-08-13-deepseek-harness-launch]]
+- **08-13** — Google, 코딩 특화 Gemini 3.7 Flash 출시 — 플래그십 3.5 Pro는 여전히 지연 → [[2026-08-13-google-gemini-3-7-flash-launch]]
 - **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]

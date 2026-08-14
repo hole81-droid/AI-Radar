@@ -499,3 +499,23 @@ use-case 승격 기준 미달): r/AI_Agents의 자율 크립토 에이전트 "Ca
 
 newsletter/2026-08-13.md 신규 생성, 8개 항목 체크박스 전부 [x] 반영 완료 표시.
 raw/2026-08/에 2개 원문 저장(anthropic-bd-team-claude-cowork·claude-in-chrome-becomes-cowork).
+
+## [2026-08-14] scan | 항목 8건, 반영 3건
+공백 없음(전일 08-13 뉴스레터 확인). ★최우선 1건 use-case 페이지화: Reddit r/ClaudeAI, 20년차
+엔지니어가 Claude Code heartbeat 루프 오케스트레이터 "Lloyd"로 고객 이메일 버그 트리아지·문서
+점검·로그 모니터링·자체 티켓(SQLite) 관리를 자동화 → [[reddit-lloyd-claude-code-loop-orchestrator]]
+신규(dev-automation·anecdotal, 600여 건 티켓 관리는 자기보고). 빅뉴스 3건 중 2건 페이지화:
+DeepSeek 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1"(MIT, Cordis 메타프레임워크, Claude
+Code 정면 경쟁 + V4-Pro API 가격 인상, HN 1위 514점) → [[2026-08-13-deepseek-harness-launch]]
+신규, Google Gemini 3.7 Flash 출시(코딩 특화, 3.5 Pro는 여전히 지연, HN 2위 492점) →
+[[2026-08-13-google-gemini-3-7-flash-launch]] 신규. Cerebras×GPT-5.6 Sol 가속 파트너십은
+페이지화 없이 뉴스레터 기록만(단발 인프라 파트너십 소개). 커뮤니티 2건(Opus 5 "rage-inducing"
+사용성·Sonnet 5 가격 불만 폭주 751점, 워터마크 반발 지속 374점 — 기존
+[[2026-08-11-anthropic-ai-content-watermarking]]에 이미 커뮤니티 반응 섹션 있어 신규 페이지
+없이 교차링크만). YouTube 픽 2건(조코딩 AI 바이러스 생성 이슈, 조코딩 OpenAI 무료티어 확대).
+[[timeline]] 84→86건, [[index]]·[[case-catalog]](61→62건) 갱신. r/AI_Agents RSS는 이번 스캔에서
+빈 응답(0바이트, 재시도 생략)으로 커버 못함. 세션이 두 차례 연결 끊김으로 중단됐다 재개됨 —
+매 섹션·페이지를 즉시 Write하는 방식으로 진행상황 유실 없이 완주. raw/2026-08/tmp/의 스캔 원본
+임시파일(hn.json, r_claudeai.xml, r_chatgptcoding.xml, r_aiagents.xml, loop_orch.html,
+yt_jocoding.xml, yt_kooky0ai.xml, yt_benai.xml)은 Bash 삭제 권한이 세션 중 차단되어 정리하지
+못함 — 다음 세션에서 삭제 필요.
