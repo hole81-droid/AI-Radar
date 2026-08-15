@@ -18,6 +18,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **최신 모델**: GPT-5.6 (Sol·Terra·Luna) — 2026-06-26 제한 프리뷰로 시작해 2026-07-09~10 정부 심사 제약이 풀리며 ChatGPT·API·Codex 전면 GA. Plus 이상은 Sol, Free·Go는 Terra 접근 ([Marktechpost](https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/))
 - **2026-08-06 갱신**: Free·Go 기본 모델이 **GPT-5.6 Luna로 전환, 무제한 텍스트 대화** 제공(+ "Think" 버튼). Plus·Pro의 Sol은 응답을 더 직접적·간결하게 재조정하고 응답별 추론 슬라이더 신설 — 사실오류가 GPT-5.5 Instant 대비 Luna 약 62%·Sol 약 68% 감소. → [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
 - **2026-08-13~14 갱신**: OpenAI 연환산 매출 $40B+ 돌파(전년 대비 약 2배, ChatGPT 구독·광고·Codex·ChatGPT Work 견인) — 같은 주 CRO 전격 교체(Denise Dresser 퇴사 → Dali Rajic 지명) 겹침. → [[2026-08-14-openai-revenue-40b-cro-departure]]
+- **2026-08-11 갱신 (08-16 소급 반영)**: 사이버보안 특화 모델 GPT-5.6-Cyber 출시 + Daybreak Blue/Red 접근 티어 신설 — 신뢰 파트너 한정으로 안전장치를 낮춰 익스플로잇 개발 요청 완료율 1.5%→95.0%. → [[2026-08-11-openai-gpt-5-6-cyber-daybreak]]
 - **모델 선택 UI**: 2026-06-10 개편으로 Instant / Medium / High / Extra High(Pro 전용) 단계형으로 단순화 ([Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
 - **모델 정리**: GPT-4o·GPT-4.1·o4-mini·초기 GPT-5는 2026-02-13 퇴역, GPT-5.2는 2026-06-12, GPT-4.5는 2026-06-26 퇴역 — 기존 대화는 GPT-5.5로 이어짐 ([Model Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [Wikipedia](https://en.wikipedia.org/wiki/GPT-5.5))
 

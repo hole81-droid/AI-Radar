@@ -86,6 +86,7 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-07-29) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). old.reddit RSS 429가 이번엔 특히 심해 15~30초 간격을 둬야 통과됨(짧은 간격 재시도는 계속 실패) — `t=week`로 받아 `updated` 필드로 최근 날짜만 필터링하는 방식이 `t=day`보다 안정적이었다(day는 활동이 적은 서브에서 공백일 수 있음). 개별 게시물 본문은 HTML 퍼머링크에서 `class="md"` 블록을 정규식으로 추출하는 방식이 여전히 유효(댓글 자동요약 블록도 같은 클래스로 잡힘, 두 번째 매치가 보통 TL;DR). |
 | (2026-07-30) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/ChatGPTCoding은 `t=day`·`t=week` 모두 빈 피드로 확인(서브레딧 자체 활동 저조, 정상 응답). r/AI_Agents·r/singularity는 429 후 15~20초 재시도로 확보. HN Algolia `search?tags=front_page`가 그날 화제 파악에 `search_by_date`보다 빠르고 안정적이었음(포인트 상위 항목이 바로 보임). |
 | (2026-08-07) | AI Frontier Korea를 `channelMetadataRenderer.externalId`로 재검증, `@chester_roh` 핸들도 동일 채널(UCz-BiVywYdO6iXhjXkw_Kgw)로 확인 — 두 URL 중 아무거나 써도 됨, 표에는 정식 채널 URL만 남김. |
+| (2026-08-16) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/AI_Agents는 이번에도(08-14에 이어) `.rss?t=day` 요청이 두 차례(15초·20초 간격) 모두 0바이트 빈 응답 — 429 에러 없이 조용히 빈 바디만 오는 패턴이 반복 확인됨, 이제 상습적 미해결 소스로 간주하고 t=week 폴백을 우선 시도할 것. **WebFetch 도구로 old.reddit.com URL을 직접 열면 "Claude Code is unable to fetch from old.reddit.com"로 즉시 거부됨**(도메인 자체가 WebFetch 차단 목록에 있는 듯) — 개별 게시물 본문·댓글이 필요하면 반드시 `curl -A "ai-radar-wiki:v1.0 ..." <permalink>/.rss`로 받아야 하고, WebFetch로 재시도하지 말 것(토큰 낭비). 이 방식으로 특정 게시물의 댓글까지 포함한 전체 스레드(자동 생성 TL;DR 포함)를 확보 가능함을 확인. |
 
 ## LinkedIn
 

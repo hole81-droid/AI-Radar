@@ -4,7 +4,7 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-13, 86건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-16, 87건)
 
 ## 2026-08
 
@@ -16,6 +16,7 @@ date: 2026-07-07
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]
 - **08-11** — OpenAI 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정 → [[2026-08-11-openai-bakalar-ethics-departure]]
+- **08-11** — OpenAI, 사이버보안 특화 모델 GPT-5.6-Cyber 출시 + Daybreak Blue/Red 접근 티어 신설 — 안전장치를 낮춘 신뢰 파트너 한정 티어로 익스플로잇 개발 요청 완료율 1.5%→95.0%(공백 소급, 08-16 반영) → [[2026-08-11-openai-gpt-5-6-cyber-daybreak]]
 - **08-11** — Google Gemini 앱, 월간 활성 사용자(MAU) 10억 명 돌파 — Google 역사상 가장 빠르게 성장한 제품(공백 소급, 08-15 반영) → [[2026-08-11-google-gemini-1-billion-users]]
 - **08-10** — 미공개 연구용 Claude, 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명은 아님) — 60개 서브에이전트 조율·Lean 형식검증 → [[2026-08-10-claude-riemann-hypothesis-research]]
 - **08-07** — Claude Fable 5 생물학 안전장치 재조정, 오차단 약 85% 감소(건강·교육 질문은 완화, 이중용도 영역은 유지) → [[2026-08-07-claude-fable-5-biology-safeguards-update]]

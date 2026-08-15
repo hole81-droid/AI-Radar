@@ -535,3 +535,27 @@ History는 단발성 기능 소개로 판단해 페이지화 없이 뉴스레터
 관련 언급과 교차링크). YouTube 픽 2건(조코딩 크로스세션 메시징, 조코딩 AI 구글번역).
 [[timeline]]·[[index]] 갱신(GLM-5.3·OpenAI CRO·Gemini 1B 3건 추가). raw/2026-08/tmp/ 정리는
 이번에도 Bash 삭제 차단으로 미완료 — 반복 이슈이므로 다음 세션에서 사용자에게 직접 문의 필요.
+
+## [2026-08-16] scan | 항목 5건, 반영 4건
+공백 없음(전일 08-15 뉴스레터 확인). ★최우선 2건 use-case 페이지화: (1) YouTube 일잘러
+장피엠, Claude Code·Codex 겸용 Skill "slide-master"(오픈소스 MIT)로 회사 양식 맞춤 편집
+가능 네이티브 PPTX 자동 생성 → [[jangpm-slide-master-claude-code-codex]] 신규
+(content-creation·claimed, 3개월 자체 사용 후 공개, 정량 성과 미확인) — GitHub README까지
+정독해 아키텍처 구체화. (2) 개인 블로그+HN 361점, Codex(GPT-5.5) `/goal` 장기 실행 루프+
+서브에이전트+빔서치 탐색으로 GPU 커널(배치 QR 분해)을 232배 가속, GPU Mode 공개 리더보드
+183명 중 12위 → [[codex-gpu-kernel-232x-autoresearch]] 신규(dev-automation·measured, 공개
+리더보드 채점이라 제3자 검증 가능하나 개인 경쟁 참가 맥락임을 명시). 빅뉴스 2건 처리:
+OpenAI GPT-5.6-Cyber+Daybreak Blue/Red 접근 티어(08-11 발표, 안전장치 완화로 익스플로잇
+요청 완료율 1.5%→95.0%, CVE-2026-15903 등 발견)가 당시 스캔에서 누락된 것을 오늘 발견해
+5일 늦게 소급 반영 → [[2026-08-11-openai-gpt-5-6-cyber-daybreak]] 신규. Qwen3.8-27B-FP8
+(경량 양자화 배포용 변형, HN 1위 1344점)은 기존 [[2026-07-19-alibaba-qwen-3-8-preview]]에
+"후속" 섹션으로 통합해 중복 페이지 생성을 피함. 커뮤니티 1건: r/ClaudeAI "Opus 5는
+다운그레이드로 느껴진다" 스레드(100+ 댓글, 자동 TL;DR로 "4.6 회귀가 우세" 확인) — 이번 주
+계속된 Opus 5 사용성 논쟁의 3일째 재확인이라 신규 페이지 없이 기존 [[2026-08-14-claude-code-auto-mode-default]]와
+교차링크만. YouTube 픽은 신규 없음(주요 채널 최신 업로드가 어제까지 이미 반영됨, 장피엠
+영상은 ★최우선에 배치) — 특이사항 없음으로 정직하게 기록. [[timeline]] 86→87건,
+[[index]]·[[case-catalog]](62→64건) 갱신. sources.md에 신규 gotcha 기록: WebFetch 도구가
+old.reddit.com을 도메인 자체로 차단함을 확인(향후 반드시 curl+permalink.rss로 우회), r/AI_Agents는
+08-14에 이어 이번에도 재시도 2회 모두 0바이트 빈 응답으로 상습 미해결 소스로 재확인.
+raw/2026-08/tmp/ 정리는 이번 세션에서도 시도하지 않음(반복 확인된 Bash 삭제 차단 이슈,
+사용자 직접 처리 필요).

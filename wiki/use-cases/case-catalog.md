@@ -19,6 +19,7 @@ uses: [course, ax]
 - [[claude-design-workflow-templates]] — Claude(Claude Design, prd-driven)로 DESIGN.md+디자인 시스템+재사용 템플릿 3단계를 활용해 슬라이드·소셜카드·뉴스레터 시각 자료 제작을 수행 → 일관된 온브랜드 결과물 (일화, 정량 미확인)
 - [[draw-your-font-claude-code-skill]] — Claude Code Skill(draw-your-font, skills)로 AI 인식+결정론적 npm CLI 하이브리드 구조를 활용해 손글씨 사진→설치 가능한 TTF 폰트 제작을 수행 → 로컬·무료로 완성, 전문 품질 커닝은 별도 과제 (일화)
 - [[capforge-claude-mcp-video-captioning]] — Claude(mcp)로 로컬 자막 앱 CapForge의 자막 편집·스타일링을 자연어 명령으로 자동화 → 오픈소스 무료 공개, 커뮤니티 압도적 호평 (일화, 정량 수치 미확인)
+- [[jangpm-slide-master-claude-code-codex]] — Claude Code·Codex로 Skill 기반 PPT 제작 에이전트(skills)를 활용해 회사 양식 맞춤 슬라이드 제작을 수행 → 편집 가능한 네이티브 PPTX 오픈소스 무료 공개(MIT) (주장, 정량 성과 미확인)
 
 ## 리서치 (research)
 
@@ -55,6 +56,7 @@ uses: [course, ax]
 - [[adeptly-claude-code-learning-crew-pipeline]] — Claude Code로 로컬 CLI(cli-pipeline+subagents, prd-driven)를 활용해 Claude Code 기능 학습형 계획 생성+Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 개발 파이프라인 자동 실행을 수행 → API키·서버·텔레메트리 없는 로컬 전용 오픈소스(MIT) (주장, 정량 미확인)
 - [[jeremytian-claude-code-loop-agent-optimization]] — Claude Code로 반복 루프(cli-pipeline)를 활용해 프로덕션 엔터프라이즈 AI 에이전트 정확도 자동 개선을 수행 → 정밀도 0.734→0.818(경쟁 도구 AutoAgent 0.877보다는 낮음) (실측)
 - [[reddit-lloyd-claude-code-loop-orchestrator]] — Claude Code로 heartbeat 루프 오케스트레이터(cron-routines)를 활용해 고객 이메일 트리아지·문서 점검·로그 모니터링·자체 티켓 관리를 수행 → SQLite DB로 600여 건 자체 관리 (일화, 개인 프로젝트)
+- [[codex-gpu-kernel-232x-autoresearch]] — Codex(GPT-5.5)로 `/goal` 장기 실행 루프+서브에이전트+빔서치(cli-pipeline)를 활용해 GPU 커널(배치 QR 분해) 최적화를 수행 → 232배 속도 향상, 공개 리더보드 183명 중 12위 (실측, 개인 프로젝트)
 
 ## 보안·운영 (ops)
 
@@ -192,3 +194,12 @@ players 페이지로 반영(단일 도구의 업무 자동화 사례가 아니�
 20년차 엔지니어가 Claude Code heartbeat 루프+SQLite 티켓 DB로 고객 이메일 트리아지·문서
 점검·로그 모니터링을 자동화 — dev-automation·anecdotal, 600여 건 티켓 관리는 자기보고이며
 권한 설계·모델·비용 전부 미확인인 개인 프로토타입 사례).*
+
+*2026-08-16 추가(64건): [[jangpm-slide-master-claude-code-codex]](YouTube 일잘러 장피엠,
+Claude Code·Codex 겸용 Skill "slide-master"로 회사 양식 맞춤 편집 가능 네이티브 PPTX 자동
+생성 — content-creation·claimed, 오픈소스 MIT·3개월 자체 사용 후 공개, 정량 성과 수치
+없음) · [[codex-gpu-kernel-232x-autoresearch]](개인 블로그+HN 361점, Codex `/goal` 장기
+루프+빔서치 탐색으로 GPU 커널 232배 가속 — dev-automation·measured, GPU Mode 공개
+리더보드로 제3자 검증 가능한 실측 수치이나 "개인 경쟁 참가" 맥락임을 명시). 같은 스캔에서
+발견한 OpenAI GPT-5.6-Cyber/Daybreak(08-11 발표분 소급)와 Qwen3.8-27B-FP8 출시는 단일
+도구의 업무 자동화 사례가 아니라 모델/제품 뉴스라 use-case가 아닌 wiki/updates로 반영했다.*

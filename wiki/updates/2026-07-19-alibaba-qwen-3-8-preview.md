@@ -34,6 +34,21 @@ Alibaba가 08-03 Qwen3.8-Max를 프리뷰가 아닌 정식 모델로 공개하�
 - **유보**: 08-03 시점까지 독립 기관의 재현 벤치마크는 없다 — 07-19 프리뷰 때와
   동일하게 "자체 발표 수치"라는 한계가 이어진다.
 
+## 후속 (2026-08-16 추가) — 경량 양자화 변형 "Qwen3.8-27B-FP8" 공개, HN 1위(1344점)
+
+Qwen 팀이 **Qwen3.8-27B-FP8**을 공개했다 — 대형 Qwen3.8 계열의 densely deployable(단일
+서버급) 270억 파라미터 변형을 FP8로 정밀 양자화한 버전. Apache 2.0 라이선스, 공개 첫
+달 다운로드 12만 3,157건. Hugging Face Hub 상위 화제로 2026-08-16 기준 Hacker News
+1위(1,344점)에 올랐다.
+
+- **성격**: 2.4조 파라미터 플래그십과는 별도로, 실무 배포가 가능한 소형 dense 모델
+  라인업 — "누구나 로컬/저비용 인프라에서 돌릴 수 있는 에이전틱 모델"을 노린 제품.
+- **벤치마크(자체 발표)**: 코딩 Terminal Bench 2.1 73.0점, SWE-bench Pro 61.7점, 에이전트
+  업무 CoWorkBench(오피스 자동화) 70.7점·OSWorld(컴퓨터 사용) 84.3점, 비전 문서지능
+  91.1점 등. `reasoning_effort` 파라미터로 추론 깊이를 조절하는 "유연한 사고 제어" 지원.
+- **의의**: 2.4조 파라미터 플래그십(07-19 프리뷰·08-03 정식 공개)이 "최상위 성능 경쟁"
+  이었다면, 이번 27B는 "누구나 쓸 수 있는 배포 친화성 경쟁"으로 전선이 넓어졌다는 신호.
+
 ## 왜 중요한가 (비개발자 관점)
 
 중국 오픈웨이트 모델 경쟁이 Kimi K3 한 건이 아니라 연쇄 반응으로 번지고 있다는 신호다. 다만 이번 발표는 독립 검증 없이 "두 번째로 강하다"는 자체 주장만 있는 상태라, 실제 성능은 벤치마크가 나온 뒤 재평가가 필요하다.
@@ -51,3 +66,4 @@ Alibaba가 08-03 Qwen3.8-Max를 프리뷰가 아닌 정식 모델로 공개하�
 - [Bloomberg — Alibaba's Qwen3.8-Max AI Model Claims Benchmark Scores Rivaling Anthropic (2026-08-03)](https://www.bloomberg.com/news/articles/2026-08-03/alibaba-drops-another-china-ai-model-with-breakthrough-performance)
 - [Forbes — Alibaba Unveils Qwen3.8-Max Model — China's Latest AI Challenger To OpenAI And Anthropic](https://www.forbes.com/sites/tylerroush/2026/08/03/alibaba-unveils-qwen38-max-model-chinas-latest-ai-challenger-to-openai-and-anthropic/)
 - [Tech Startups — Alibaba unveils 2.4-trillion-parameter Qwen3.8-Max as DeepSeek's new AI model undercuts Anthropic by 100X](https://techstartups.com/2026/08/03/alibaba-unveils-2-4-trillion-parameter-qwen3-8-max-as-deepseeks-new-ai-model-undercuts-anthropic-by-100x/)
+- [Hugging Face — Qwen/Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) (HN 1위, 1,344점, 2026-08-16)
