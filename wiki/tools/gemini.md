@@ -38,6 +38,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-06-18**: Gemini CLI → Antigravity CLI 전환(개인/Pro/Ultra 티어 서비스 중단) — [[2026-06-18-google-antigravity-cli-transition]], [Google Developers Blog](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)
 - **2026-06-22**: Workspace Sheets에 Gemini 수식 오류 원클릭 수정 배포 시작 — [[2026-06-22-google-gemini-sheets-formula-fix]]
 - **2026-06-22**: DeepMind 핵심 연구자 연쇄 이탈(Shazeer→OpenAI, Jumper→Anthropic), Alphabet 주가 7% 급락 — [[2026-06-22-google-deepmind-talent-exodus]]
+- **2026-08-11**: Gemini 앱 월간 활성 사용자(MAU) 10억 명 돌파, Google 역사상 가장 빠르게 성장한 제품 — [[2026-08-11-google-gemini-1-billion-users]]
 - **2026-06-24**: `gemini-3.5-flash` Computer Use 퍼블릭 프리뷰 — [changelog](https://ai.google.dev/gemini-api/docs/changelog)
 - **2026-06-30**: `gemini-omni-flash-preview`(비디오 생성·편집) 공개, `gemini-3.1-flash-lite-image`(Nano Banana Lite) GA, 구형 Veo 모델 종료 — [changelog](https://ai.google.dev/gemini-api/docs/changelog)
 - **2026-06-30**: Gemini Spark 업데이트 — macOS 앱 베타(Ultra 전용), Canva·Dropbox·Instacart·OpenTable·Zillow Rentals 연동, 커스텀 MCP 지원 — [[2026-06-30-google-gemini-spark-macos-mcp]], [blog.google](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/); Gemini 3.5 Live Translate 출시 — [blog.google](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/)

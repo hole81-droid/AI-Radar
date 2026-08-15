@@ -8,12 +8,15 @@ date: 2026-07-07
 
 ## 2026-08
 
+- **08-14** — Zhipu AI, GLM-5.3 출시 — 코딩 능력 50%↑ 자평, 포스트트레이닝만으로 "계획하지 않은" 사이버 익스플로잇 능력까지 스스로 성장(취약점 2,436건 발견) → [[2026-08-14-zhipu-glm-5-3-launch]]
+- **08-13~14** — OpenAI 연환산 매출 $40B+ 돌파(전년 대비 약 2배), 같은 주 CRO Denise Dresser 퇴사·Dali Rajic 지명 → [[2026-08-14-openai-revenue-40b-cro-departure]]
 - **08-13** — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰 공개(MIT 라이선스) — Claude Code 정면 경쟁, V4-Pro API 가격은 인상 → [[2026-08-13-deepseek-harness-launch]]
 - **08-13** — Google, 코딩 특화 Gemini 3.7 Flash 출시 — 플래그십 3.5 Pro는 여전히 지연 → [[2026-08-13-google-gemini-3-7-flash-launch]]
 - **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]
 - **08-11** — OpenAI 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정 → [[2026-08-11-openai-bakalar-ethics-departure]]
+- **08-11** — Google Gemini 앱, 월간 활성 사용자(MAU) 10억 명 돌파 — Google 역사상 가장 빠르게 성장한 제품(공백 소급, 08-15 반영) → [[2026-08-11-google-gemini-1-billion-users]]
 - **08-10** — 미공개 연구용 Claude, 리만 가설 관련 하한을 41.6%→67.2%로 개선(증명은 아님) — 60개 서브에이전트 조율·Lean 형식검증 → [[2026-08-10-claude-riemann-hypothesis-research]]
 - **08-07** — Claude Fable 5 생물학 안전장치 재조정, 오차단 약 85% 감소(건강·교육 질문은 완화, 이중용도 영역은 유지) → [[2026-08-07-claude-fable-5-biology-safeguards-update]]
 - **08-07** — Claude Code Auto mode, Pro·Max·Team 플랜 기본값으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크) → [[2026-08-07-claude-code-auto-mode-default]]

@@ -519,3 +519,19 @@ Code 정면 경쟁 + V4-Pro API 가격 인상, HN 1위 514점) → [[2026-08-13-
 임시파일(hn.json, r_claudeai.xml, r_chatgptcoding.xml, r_aiagents.xml, loop_orch.html,
 yt_jocoding.xml, yt_kooky0ai.xml, yt_benai.xml)은 Bash 삭제 권한이 세션 중 차단되어 정리하지
 못함 — 다음 세션에서 삭제 필요.
+
+## [2026-08-15] scan | 항목 6건, 반영 4건
+공백 없음(전일 08-14 뉴스레터 확인). 이 세션이 이전에 실행되었으나 커밋되지 않은 채 남아있어
+08-16 세션에서 뒤늦게 로그·커밋 처리. ★최우선은 후보 없음(Liam Ottley "AI Agent Operating
+System" 영상이 홍보 카피 수준이라 도구·업무·방법 확인 불가로 제외, 특이사항 없음으로 기록).
+빅뉴스 4건 중 3건 페이지화: Zhipu AI GLM-5.3 출시(코딩 50%↑ 자평 + 의도치 않은 사이버
+익스플로잇 능력 자체 인정, 취약점 2,436건 발견, 최초로 가중치 공개 지연, HN 1위 1015점) →
+[[2026-08-14-zhipu-glm-5-3-launch]] 신규, OpenAI 연환산 매출 $40B+ 돌파와 같은 주 CRO
+Denise Dresser 퇴사·Dali Rajic 지명 → [[2026-08-14-openai-revenue-40b-cro-departure]] 신규,
+공백 소급 08-11 Google Gemini 앱 MAU 10억 돌파(ChatGPT와 소비자 AI 앱 빅2 구도) →
+[[2026-08-11-google-gemini-1-billion-users]] 신규. ChatGPT Google Drive 연동·macOS Computer
+History는 단발성 기능 소개로 판단해 페이지화 없이 뉴스레터 기록만. 커뮤니티 1건(Opus 5
+"다루기 나쁘다" 불만 확산, HN 714점 — 기존 [[2026-08-14-claude-code-auto-mode-default]]
+관련 언급과 교차링크). YouTube 픽 2건(조코딩 크로스세션 메시징, 조코딩 AI 구글번역).
+[[timeline]]·[[index]] 갱신(GLM-5.3·OpenAI CRO·Gemini 1B 3건 추가). raw/2026-08/tmp/ 정리는
+이번에도 Bash 삭제 차단으로 미완료 — 반복 이슈이므로 다음 세션에서 사용자에게 직접 문의 필요.

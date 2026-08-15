@@ -102,10 +102,16 @@ Plus·Pro는 Sol이 일상 사용에 맞춰 더 직접적·간결한 응답으�
 입사했던 Bakalar가 2026-07 퇴사(재직 1년 미만), 후임 미지정. [[2026-07-11-openai-heidecke-departure|Heidecke 퇴사]]에
 이어 안전·윤리 라인 이탈이 이어지는 패턴. → [[2026-08-11-openai-bakalar-ethics-departure]]
 
+**8/13~14 — 연환산 매출 $40B 돌파, 같은 주 CRO 전격 교체**: 매출 run rate가 2025년 말
+대비 약 2배인 $40B+로 집계됐다고 보도됨(ChatGPT 구독·광고·Codex·ChatGPT Work가 견인).
+공교롭게 같은 주 CRO Denise Dresser가 입사 8개월 만에 퇴사, 후임 Dali Rajic 지명 —
+직전 주 $7B 규모 세컨더리 지분 매각 이후 임원 이탈이 이어지는 패턴. Bakalar 퇴사에 이은
+연속 임원 이탈로 해석하는 시각도 있다. → [[2026-08-14-openai-revenue-40b-cro-departure]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
-- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]]
+- 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]]
 
 ## 출처

@@ -61,8 +61,18 @@ Kavukcuoglu(SVP)가 승계했다. 소식통에 따르면 Hassabis는 1년 전부
 하락 — [[2026-06-22-google-deepmind-talent-exodus]]·[[2026-07-29-google-deepmind-alphafold-team-dismantled]]로
 이어져 온 DeepMind 인재 유출 흐름의 정점. → [[2026-08-05-google-deepmind-hassabis-steps-down]]
 
+## 최근 동향 추가 (08-11)
+
+**Gemini 앱, 월간 활성 사용자 10억 명 돌파**: Sundar Pichai가 X로 직접 발표 — Google
+역사상 가장 빠르게 성장한 제품(28년 역사 중 14번째 10억 규모 서비스)이라고 자평했다.
+2025-05 4억 → 2026-05 9억 → 2026-08 10억으로, 플래그십 모델(3.5 Pro) 지연에도 배포
+채널(Android·검색·Workspace) 힘으로 사용자 기반을 빠르게 키웠다. ChatGPT는 이미
+2026년 상반기 10억 MAU를 넘겼던 터라, 소비자 AI 앱 "빅2" 구도가 뚜렷해졌다. →
+[[2026-08-11-google-gemini-1-billion-users]]
+
 ## 관련 업데이트
 
+- [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도 (high)
 - [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 승계 (high)
 - [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 3종 모델·다중 로봇 협업 (medium)
 - [[2026-07-29-google-deepmind-alphafold-team-dismantled]] — 노벨상 수상 AlphaFold 전담팀 해체, Jumper Anthropic 이적 재확인 (high)

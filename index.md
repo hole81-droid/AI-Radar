@@ -41,6 +41,7 @@
 - [[2026-06-23-claude-tag]] — Slack 상주 AI 팀메이트 Claude Tag (high)
 
 ### OpenAI
+- [[2026-08-14-openai-revenue-40b-cro-departure]] — 연환산 매출 $40B+ 돌파, 같은 주 CRO 전격 교체(Dresser 퇴사→Rajic 지명) (high)
 - [[2026-08-11-openai-bakalar-ethics-departure]] — 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정(안전·윤리 라인 이탈 패턴 지속) (medium)
 - [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] — Free·Go 기본 모델 GPT-5.6 Luna 전환·무제한 텍스트 대화, Sol 응답 재조정, 사실오류 62~68%↓ (medium)
 - [[2026-08-01-openai-astra-teaser-math-proofs]] — 차기 모델 "Astra" 티저, 10개 미해결 수학 난제를 증명하며 공개 (high)
@@ -61,6 +62,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도(공백 소급) (high)
 - [[2026-08-13-google-gemini-3-7-flash-launch]] — 코딩 특화 Gemini 3.7 Flash 출시, 플래그십 3.5 Pro는 여전히 지연 (medium)
 - [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 일상경영 승계 (high)
 - [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 휴머노이드 전신 조율·다중 로봇 협업 (medium)
@@ -75,6 +77,7 @@
 - [[2026-06-18-google-antigravity-cli-transition]] — Gemini CLI→Antigravity 전환 반발 (medium)
 
 ### 기타 업계
+- [[2026-08-14-zhipu-glm-5-3-launch]] — Zhipu AI GLM-5.3 출시, 코딩 50%↑ 자평 + 의도치 않은 사이버 익스플로잇 능력 자체 인정 (high)
 - [[2026-08-13-deepseek-harness-launch]] — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰(MIT) 공개, Claude Code 정면 경쟁 + V4-Pro API 가격 인상 (high)
 - [[2026-08-11-spacexai-grok-bot-launch]] — SpaceX·xAI·Cursor 합병 법인, 상시 작동 에이전트 팀 제품 "Grok Bot" 출시, Claude Cowork 정면 겨냥 (high)
 - [[2026-08-05-meta-muse-code-launch]] — Meta, 코딩 에이전트 "Muse Code" 베타 출시, Claude Code·Codex와 3파전 (high)
