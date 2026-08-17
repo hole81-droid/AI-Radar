@@ -17,7 +17,7 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.dirname(scriptDir);
 
-const RECIPIENT = "shoon.lee@sk.com";
+const RECIPIENT = "shoon.lee@sk.com, david.j@sk.com";
 
 function parseArgs(argv) {
   const o = { date: null, to: RECIPIENT, from: "", send: false };

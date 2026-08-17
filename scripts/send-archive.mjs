@@ -16,7 +16,7 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.dirname(scriptDir);
 
-const RECIPIENT = "shoon.lee@sk.com";
+const RECIPIENT = "shoon.lee@sk.com, david.j@sk.com";
 const WEB = "https://ai-radar-web-five.vercel.app";
 
 function parseArgs(argv) {

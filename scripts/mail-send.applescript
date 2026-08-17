@@ -1,5 +1,5 @@
 -- Mail.app으로 첨부 메일을 보낸다. send-scan.mjs가 osascript로 호출한다.
--- 인자: 1=제목 2=본문 3=받는사람 4=발신주소("" 이면 기본계정) 5="send"|"draft" 6..n=첨부 POSIX 경로
+-- 인자: 1=제목 2=본문 3=받는사람(콤마로 여러 명 가능) 4=발신주소("" 이면 기본계정) 5="send"|"draft" 6..n=첨부 POSIX 경로
 -- 자격증명은 Mail.app이 이미 갖고 있으므로 이 스크립트는 비밀정보를 다루지 않는다.
 
 on run argv
@@ -15,7 +15,9 @@ on run argv
 	tell application "Mail"
 		set msg to make new outgoing message with properties {subject:theSubject, content:theBody, visible:isDraft}
 		tell msg
-			make new to recipient at end of to recipients with properties {address:theTo}
+			repeat with oneAddr in my splitTrim(theTo, ",")
+				make new to recipient at end of to recipients with properties {address:oneAddr}
+			end repeat
 			if theSender is not "" then set sender to theSender
 			repeat with i from 6 to (count of argv)
 				set p to (item i of argv)
@@ -45,3 +47,22 @@ on run argv
 		end if
 	end tell
 end run
+
+on splitTrim(theText, theDelim)
+	set oldDelims to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to theDelim
+	set rawItems to text items of theText
+	set AppleScript's text item delimiters to oldDelims
+	set trimmed to {}
+	repeat with rawItem in rawItems
+		set s to rawItem as text
+		repeat while s starts with " "
+			set s to text 2 thru -1 of s
+		end repeat
+		repeat while s ends with " "
+			set s to text 1 thru -2 of s
+		end repeat
+		if s is not "" then set end of trimmed to s
+	end repeat
+	return trimmed
+end splitTrim
