@@ -569,3 +569,57 @@ raw/2026-08/tmp/ 정리는 이번 세션에서도 시도하지 않음(반복 확
 ("특이사항 없음") 처리 — r/AI_Agents의 에이전트 감사 사례는 사용 도구를 밝히지 않아
 커뮤니티 화제로만 기록. "모델이 일부러 지식을 덜 외우게 한다"·"토큰 브로커" 두 HN 화제글은
 단발성 트렌드 분석이라 페이지화하지 않고 뉴스레터에만 기록.
+
+## [2026-08-17] ingest | 소스 백필(AI Frontier Korea·LinkedIn 3계정, 07-01~08-17) | 반영 0건
+
+2026-08-07에 sources.md에 추가된 세 소스(YouTube AI Frontier Korea, LinkedIn 조코딩
+개인+페이지, LinkedIn 이승필 AX LABS)가 실제 iMac 자동 스캔에는 오늘(CLAUDE.md LinkedIn
+필수화 커밋)까지 반영되지 않아 07-01~08-17 구간을 별도 소급 확인. 기존 newsletter/*.md는
+건드리지 않음. **AI Frontier Korea**: 공식 에피소드 아카이브(aifrontier.kr)에서 EP102(7/5)~
+EP109(8/16) 전체 목록·날짜를 확보. EP107(8/2)까지는 이미 08-07·08-11 뉴스레터에서 다뤄짐을
+확인. 신규 미반영분 EP108("실리콘 포토닉스와 AI 데이터센터 병목", 8/8)·EP109("추론의 시대:
+Sionic 토큰 팩토리", 8/16) 2건을 원문 정독했으나 둘 다 연구자·스타트업 인터뷰형 심층 분석
+(에이전트 자동화 사례도, 제품출시/인물영입/소송/전략변화급 지속적 사실도 아님)이라 위키
+페이지화 기준 미달로 보류 — EP102~106(7/5~7/26)은 제목상 이미 알려진 모델 출시 종합·산업
+관전평 위주라 정독 생략. **LinkedIn**: 계정당 도메인 한정 WebSearch 3회씩 시도. 조코딩은
+이미 위키에 있는 [[jocoding-ax-series-pwc-samil]] 해커톤의 후속으로 보이는 게시물(멘토
+모집·45명 채용 언급, 8/16 추정)을 발견했으나 본문 열람 불가·날짜 미확정이라 반영 보류,
+그 외 결과는 전부 2023년 이전 구버전 콘텐츠. 이승필은 확인된 게시물(멀티에이전트 실패
+패턴 등)이 전부 2026-03 이전이라 대상 기간 소득 없음 — LinkedIn 특성상 정상적인 결과.
+신규/갱신 위키 페이지 없음.
+단발성 트렌드 분석이라 페이지화하지 않고 뉴스레터에만 기록.
+
+## [2026-08-17] sources | LinkedIn 폐기, AX LABS 블로그 RSS로 대체
+
+사용자 지적("LinkedIn 정보는 최신 아니면 의미 없다")에 따라 실측 재검증: WebSearch의
+`after:` 연산자 기간 필터 시도(무관한 결과만 반환, 실패), LinkedIn 날짜순 최신 피드
+(`/recent-activity/`) 직접 접근 시도(HTTP 999 차단, 실패) — 두 시도 모두 실패해 LinkedIn
+도메인 검색이 "최신순 확인 불가"임을 재확인. 조코딩·이승필 LinkedIn 계정 등록을 철회.
+대안으로 https://theaxlabs.com/rss.xml 발견·검증(curl 직접 접근 가능, pubDate 정확,
+50건 6/29~8/14 소급 확인) — 조코딩은 기존 YouTube 채널로 충분히 커버되고, 이승필은
+이 블로그가 LinkedIn보다 명백히 우월한 대체 소스라 판단. sources.md·CLAUDE.md 갱신.
+백필 검토 중 눈에 띈 후보 3건(PPT 다이어그램 스킬 8/14, PRD 인터뷰 방식 7/23, "회사로
+만드는 스킬 42종" 7/18)은 페이지화하지 않고 사용자에게 별도 보고 — 잠언형 글이 다수라
+전수 페이지화는 지양.
+
+## [2026-08-18] scan | 항목 6건, 반영 4건 (AX LABS 블로그 미포함 — 소스 등록 전 스캔 시작)
+
+공백 없음(전일 08-17 뉴스레터 확인). ★최우선에서 신규 use-case 1건 확보: Reddit r/ClaudeAI,
+연방 조달 공개데이터(USAspending API)+NAICS 코드 교차필터링+Claude in Chrome 브라우저
+자동화+에이전트 자체 메일함을 결합한 건설 하도급 리드 발굴 파이프라인
+([[federal-contract-leadgen-claude-browser-automation]], sales 도메인 2번째 케이스, 필터
+통과 12건 중 계약 3건 성사·자기보고). 빅 뉴스에서 신규 페이지 2건: Anthropic의 Decart $6B
+인수 협상(8/13 Bloomberg 보도, 사상 최대 인수 시도 — 지난 며칠간 놓쳤던 소식을 오늘 Reddit
+반응 스레드로 재발견해 소급 반영, [[2026-08-13-anthropic-decart-acquisition-talks]])과
+Google의 Gemini→Android 기본 음성비서 전면 교체 확정(9/4 시작,
+[[2026-08-06-google-gemini-replaces-assistant-android]]). Claude 사용량 미터 표시 오류로
+인한 "한도 폐지" 오해는 서버 쪽 일시 장애로 확인돼 페이지화하지 않고 뉴스레터에만 기록.
+커뮤니티 화제 2건 — "Claude is Losing Me" 이탈 조짐 글은 이번 주 계속된 Opus 5/Auto mode
+품질 논쟁의 연장으로 기존 [[2026-08-07-claude-code-auto-mode-default]]와 교차링크만(신규
+페이지 없음), "5개월간 클라이언트 슬라이드 작업 90시간 절약" 글은 PowerPoint 내장 AI(Oria)를
+쓴 사례라 Claude Code/Codex 중심 스키마에 맞지 않아 뉴스레터에만 기록. YouTube 픽은 신규
+없음(주요 채널 최신 업로드가 이미 반영됐거나 무관) — 특이사항 없음으로 정직하게 기록.
+[[timeline]] 89→92건, [[index]]·[[case-catalog]](64→65건)·wiki/players/anthropic·
+wiki/players/google 갱신. old.reddit 개별 스레드 fetch가 이번에도 빈 응답(0바이트)을 자주
+반환(15~25초 재시도로 회피) — 신규 gotcha는 아니고 기존 패턴 재확인 수준. raw/2026-08/tmp/
+정리는 이번에도 하지 않음(반복 확인된 이슈, 사용자 직접 처리 필요).

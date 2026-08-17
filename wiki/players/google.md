@@ -70,8 +70,18 @@ Kavukcuoglu(SVP)가 승계했다. 소식통에 따르면 Hassabis는 1년 전부
 2026년 상반기 10억 MAU를 넘겼던 터라, 소비자 AI 앱 "빅2" 구도가 뚜렷해졌다. →
 [[2026-08-11-google-gemini-1-billion-users]]
 
+## 최근 동향 추가 (08-06, 08-18 반영)
+
+**Gemini, 2026-09-04부터 Android·Wear OS 기본 음성비서를 전면 대체**: Google Assistant를
+Gemini로 완전 교체하는 전환 시작일이 9/4로 공식 확정됐다(전환 후 되돌리기 불가). Android
+폰·태블릿·Wear OS·지원 헤드폰·Android Auto가 대상이며, 차량 내장 Google Built-in만
+예외. [[2026-08-11-google-gemini-1-billion-users|MAU 10억 돌파]]에 이어, 검색·Android
+양대 배포 채널에서 Gemini를 기본값으로 만드는 전략이 완성 단계에 들어섰다. →
+[[2026-08-06-google-gemini-replaces-assistant-android]]
+
 ## 관련 업데이트
 
+- [[2026-08-06-google-gemini-replaces-assistant-android]] — 2026-09-04부터 Android·Wear OS 기본 음성비서 Gemini로 전면 교체 확정 (high)
 - [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도 (high)
 - [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 승계 (high)
 - [[2026-07-31-google-gemini-robotics-2-launch]] — 로봇 전신 제어 모델 Gemini Robotics 2 공개, 3종 모델·다중 로봇 협업 (medium)

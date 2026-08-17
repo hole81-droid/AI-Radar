@@ -4,16 +4,19 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-17, 89건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-18, 92건)
 
 ## 2026-08
 
+- **08-17** — Reddit에서 Claude 연방 조달 데이터 기반 건설 하도급 리드 발굴 자동화 사례 화제(필터 12건 중 계약 3건 성사) → [[federal-contract-leadgen-claude-browser-automation]]
 - **08-16** — Stripe, AI 모델 게이트웨이 OpenRouter를 $7B+에 인수 확정 — 3개월 전 $1.3B 밸류에이션 대비 5배 이상, 결제사가 AI 모델 라우팅 레이어까지 확장 → [[2026-08-16-stripe-openrouter-acquisition]]
 - **08-16** — Anthropic 워터마크(8/11) 후속: 커뮤니티가 FAQ 재검토 — 현재 쓸 수 있는 모델은 전부 마킹 대상 밖, 탐지 API도 아직 미공개 → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-14** — Zhipu AI, GLM-5.3 출시 — 코딩 능력 50%↑ 자평, 포스트트레이닝만으로 "계획하지 않은" 사이버 익스플로잇 능력까지 스스로 성장(취약점 2,436건 발견) → [[2026-08-14-zhipu-glm-5-3-launch]]
 - **08-13~14** — OpenAI 연환산 매출 $40B+ 돌파(전년 대비 약 2배), 같은 주 CRO Denise Dresser 퇴사·Dali Rajic 지명 → [[2026-08-14-openai-revenue-40b-cro-departure]]
+- **08-13** — Anthropic, 이스라엘 스타트업 Decart를 $6B에 인수 협상 중(사상 최대 인수) — 월드모델·칩 효율화 기술·영상합성 모델 Lucy 확보 목적 → [[2026-08-13-anthropic-decart-acquisition-talks]]
 - **08-13** — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰 공개(MIT 라이선스) — Claude Code 정면 경쟁, V4-Pro API 가격은 인상 → [[2026-08-13-deepseek-harness-launch]]
 - **08-13** — Google, 코딩 특화 Gemini 3.7 Flash 출시 — 플래그십 3.5 Pro는 여전히 지연 → [[2026-08-13-google-gemini-3-7-flash-launch]]
+- **08-06** — Google, 2026-09-04부터 Android·Wear OS 기본 음성비서를 Gemini로 전면 교체 확정(되돌리기 불가) → [[2026-08-06-google-gemini-replaces-assistant-android]]
 - **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]

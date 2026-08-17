@@ -137,6 +137,14 @@ Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구
 게재, 121점). 원문 세부 조건의 재조명이지 새 발표는 아님. →
 [[2026-08-11-anthropic-ai-content-watermarking]]
 
+**8/13(보도) — Decart를 $6B에 인수 협상 중, 사상 최대 규모**: 이스라엘 스타트업 Decart AI
+(월드모델·칩 활용 효율화 소프트웨어, 영상합성 모델 Lucy·시뮬레이션 모델 Oasis 보유)를
+약 $6B에 인수하는 초기 협상 중이라고 Bloomberg가 보도. 직전 펀딩(2026-05, $4B 밸류)
+대비 약 50% 프리미엄. [[2026-08-05-anthropic-custom-silicon-chip-team|자체 칩팀
+구축]]과 함께 "추론 비용 절감"을 하드웨어·인수 양면에서 동시에 추진하는 모습. IPO
+준비 중인 시점의 사상 최대 인수 시도라는 점도 눈길을 끈다. →
+[[2026-08-13-anthropic-decart-acquisition-talks]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -145,7 +153,8 @@ Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구
 
 ## 관련 페이지 (추가)
 
-- [[2026-07-24-claude-opus-5-launch]] · [[ai-agent-profiler-claude-code-cost-benchmark]] ·
+- [[2026-08-13-anthropic-decart-acquisition-talks]] · [[federal-contract-leadgen-claude-browser-automation]] ·
+  [[2026-07-24-claude-opus-5-launch]] · [[ai-agent-profiler-claude-code-cost-benchmark]] ·
   [[draw-your-font-claude-code-skill]] · [[gstack-meeting-personas-claude-code-brain]] ·
   [[2026-08-05-anthropic-custom-silicon-chip-team]] ·
   [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] ·

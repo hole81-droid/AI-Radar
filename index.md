@@ -12,6 +12,7 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-08-13-anthropic-decart-acquisition-talks]] — 이스라엘 스타트업 Decart를 $6B에 인수 협상 중(사상 최대 인수), 월드모델·칩효율화 기술 확보 목적 (high)
 - [[2026-08-12-claude-cowork-chrome-integration]] — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합, 브라우저 대화가 전 기기로 이어짐 (medium)
 - [[2026-08-11-anthropic-ai-content-watermarking]] — EU AI Act 대응, Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면). 08-16 갱신: 현재 쓸 수 있는 모델은 전부 마킹 대상 밖·탐지 API도 미공개라는 커뮤니티 재조명 추가 (high)
 - [[2026-08-10-claude-riemann-hypothesis-research]] — 미공개 연구용 Claude, 리만 가설 관련 하한 41.6%→67.2%로 개선(증명은 아님, 60개 서브에이전트+Lean 검증) (high)
@@ -63,6 +64,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-08-06-google-gemini-replaces-assistant-android]] — 2026-09-04부터 Android·Wear OS 기본 음성비서 Gemini로 전면 교체 확정, 되돌리기 불가 (high)
 - [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도(공백 소급) (high)
 - [[2026-08-13-google-gemini-3-7-flash-launch]] — 코딩 특화 Gemini 3.7 Flash 출시, 플래그십 3.5 Pro는 여전히 지연 (medium)
 - [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 일상경영 승계 (high)
@@ -136,7 +138,7 @@
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]]
 - HR: [[jocoding-ax-series-pwc-samil]]
-- 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]]
+- 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]]
 
 ## 분석 (wiki/analysis/)
 
@@ -150,6 +152,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-17, 89건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-18, 92건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · [[2026-08-14]] · [[2026-08-13]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · [[2026-08-14]] · [[2026-08-13]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

@@ -81,6 +81,7 @@ uses: [course, ax]
 ## 영업 (sales)
 
 - [[anthropic-bd-team-claude-cowork-sales-automation]] — Anthropic BD팀이 Claude Cowork(skills+cron-routines+mcp)로 세일즈 인바운드 응대·아웃바운드 프로스펙팅·디스커버리콜 평가를 수행 → 인바운드 응답 하루 5시간 수작업→검토만 필요한 초안, 담당자 1인당 계정 100개+ 관리 (주장, 자기 보고)
+- [[federal-contract-leadgen-claude-browser-automation]] — Claude(+Claude in Chrome)로 연방 조달 공개 데이터 API 조회+NAICS 교차필터링+브라우저 담당자 탐색+자체 메일함 아웃리치(browser-agent+cli-pipeline+mcp)를 활용해 건설 하도급 리드 발굴·컨택을 수행 → 필터 통과 12건 중 10건 컨택·8건 회신·3건 계약 성사 (주장, 이메일 벤더 계정이 대신 공유한 고객 사례)
 
 ## 금융 (finance)
 
@@ -203,3 +204,10 @@ Claude Code·Codex 겸용 Skill "slide-master"로 회사 양식 맞춤 편집 �
 리더보드로 제3자 검증 가능한 실측 수치이나 "개인 경쟁 참가" 맥락임을 명시). 같은 스캔에서
 발견한 OpenAI GPT-5.6-Cyber/Daybreak(08-11 발표분 소급)와 Qwen3.8-27B-FP8 출시는 단일
 도구의 업무 자동화 사례가 아니라 모델/제품 뉴스라 use-case가 아닌 wiki/updates로 반영했다.*
+
+*2026-08-18 추가(65건): [[federal-contract-leadgen-claude-browser-automation]](Reddit
+r/ClaudeAI, 이메일 인프라 벤더 Atomic Mail 계정이 고객 사례를 대신 공유 — Claude로
+USAspending API 조회+NAICS 코드 교차필터링, 담당자 탐색 구간만 Claude in Chrome 브라우저
+자동화, 아웃리치는 에이전트 자체 메일함에서 자율 처리 — sales·claimed, 필터 통과 12건 중
+계약 3건 성사. "구조화 데이터는 API로, 없는 구간만 브라우저 에이전트로" 하이브리드 설계가
+핵심 교훈. 이메일 벤더의 고객 사례 홍보 성격이라 제3자 검증 없음을 명시).*
