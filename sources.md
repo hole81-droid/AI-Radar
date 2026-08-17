@@ -20,6 +20,18 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 | Google DeepMind Blog | https://deepmind.google/discover/blog/ | Gemini 모델 |
 | Gemini API Changelog | https://ai.google.dev/gemini-api/docs/changelog | Gemini API |
 
+## 국내 AX 블로그 (2026-08-17 추가)
+
+**AX LABS 블로그** — https://theaxlabs.com/blog | RSS: https://theaxlabs.com/rss.xml
+(2026-08-17 검증: curl 직접 접근 가능, 차단 없음. `pubDate` 정확, 총 50개 항목 최초 게시일
+2026-06-29까지 소급). "에이전트 제품 설계"·"조직·사람" 카테고리로 하네스·MCP·권한 설계 등
+실전 AX 실무 팁을 주 2~10건 페이스로 발행. LinkedIn 인물 소스(이승필 AX LABS 대표)의
+대체재로 채택 — LinkedIn과 달리 날짜순 실측 가능하고 직접 fetch 차단이 없다.
+
+- 발행 빈도가 높고 개별 글이 짧은 잠언형이 많다 — **전부 페이지화하지 말 것**. 구체적인
+  도구·업무·성과가 드러나는 글(예: 특정 Skill 소개, 실측 수치 포함 글)만 ★최우선 후보로
+  검토하고, 나머지는 "빅 뉴스"나 "커뮤니티 화제"에 한 줄로 싣거나 생략한다.
+
 ## 커뮤니티
 
 **접근 방법 (2026-07-07 검증됨)**: www.reddit.com은 curl 차단. **old.reddit.com RSS + 서술형 User-Agent**
@@ -88,30 +100,38 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-08-07) | AI Frontier Korea를 `channelMetadataRenderer.externalId`로 재검증, `@chester_roh` 핸들도 동일 채널(UCz-BiVywYdO6iXhjXkw_Kgw)로 확인 — 두 URL 중 아무거나 써도 됨, 표에는 정식 채널 URL만 남김. |
 | (2026-08-16) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/AI_Agents는 이번에도(08-14에 이어) `.rss?t=day` 요청이 두 차례(15초·20초 간격) 모두 0바이트 빈 응답 — 429 에러 없이 조용히 빈 바디만 오는 패턴이 반복 확인됨, 이제 상습적 미해결 소스로 간주하고 t=week 폴백을 우선 시도할 것. **WebFetch 도구로 old.reddit.com URL을 직접 열면 "Claude Code is unable to fetch from old.reddit.com"로 즉시 거부됨**(도메인 자체가 WebFetch 차단 목록에 있는 듯) — 개별 게시물 본문·댓글이 필요하면 반드시 `curl -A "ai-radar-wiki:v1.0 ..." <permalink>/.rss`로 받아야 하고, WebFetch로 재시도하지 말 것(토큰 낭비). 이 방식으로 특정 게시물의 댓글까지 포함한 전체 스레드(자동 생성 TL;DR 포함)를 확보 가능함을 확인. |
 
-## LinkedIn
+## LinkedIn (2026-08-17 사용자 지정 — 등록 계정 없음, 원칙적으로 스캔 대상에서 제외)
 
-**접근 방법 (2026-08-04 검증됨)**: LinkedIn은 프로필·게시물 URL을 직접 가져올 수 없다 —
-curl(서술형 UA·브라우저 UA 모두)과 WebFetch 전부 **HTTP 999(봇 차단)** 로 막힌다.
-**유일하게 동작하는 경로는 도메인 한정 WebSearch**다:
+**결론: 사람(개인 프로필) 소스로는 LinkedIn을 쓰지 않는다.** 도메인 한정 WebSearch만
+가능한데(직접 fetch·날짜순 최신 피드 조회는 전부 HTTP 999 차단, 2026-08-17 재확인)
+이 검색은 "관련도순"이지 "최신순"이 아니라서 최근 1~3일 내 게시물을 걸러내는 게 구조적으로
+어렵다. 정보 가치가 몇 달만 지나도 급락하는 이 위키 특성상 부적합하다고 판단.
+
+- 조코딩은 YouTube 채널(위 "YouTube 채널" 표)로 이미 충분히 커버된다 — LinkedIn은
+  같은 인물의 열등한 사본이라 제거.
+- 이승필(AX LABS 대표)은 위 "국내 AX 블로그" 섹션의 AX LABS 공식 블로그 RSS로 대체 —
+  날짜순 실측 가능하고 접근 차단도 없어 LinkedIn보다 명백히 우월.
+- 등록된 계정은 현재 없음. 접근 방법 문서는 향후 "LinkedIn에서만 확인 가능한 인물"이
+  실제로 생기면 재사용하기 위해 아래에 남겨둔다.
+
+<details>
+<summary>접근 방법 (2026-08-04 검증, 2026-08-17 한계 재확인 — 참고용, 현재 미사용)</summary>
+
+LinkedIn은 프로필·게시물 URL을 직접 가져올 수 없다 — curl(서술형 UA·브라우저 UA 모두),
+WebFetch, 날짜순 정렬되는 `/recent-activity/` 피드까지 전부 **HTTP 999(봇 차단)**.
+유일하게 동작하는 경로는 도메인 한정 WebSearch뿐이다:
 
 ```
 WebSearch(query="<인물 키워드> <주제 키워드>", allowed_domains=["linkedin.com"])
 ```
 
-검색 결과의 제목·스니펫만으로 판단하고, 원문 본문은 열 수 없다는 점을 전제로 다룬다.
+검색 연산자(`after:YYYY-MM-DD`)로 기간을 좁혀보려 했으나 무관한 결과만 섞여 나와
+효과가 없었다(2026-08-17 확인). 결과의 제목·스니펫만으로 판단해야 하고, 오래된
+게시물(2022~2023년)이 흔히 섞인다. 새로 인물을 추가할 때는 먼저 그 인물이 YouTube·
+블로그·브런치처럼 날짜순 확인 가능한 채널을 갖고 있는지부터 확인하고, 정말 다른
+경로가 없을 때만 이 방식을 최후 수단으로 쓴다.
 
-- 계정당 1회, 최우선 주제 키워드(에이전트 구축·업무 자동화·AI 활용)를 붙여 검색한다.
-- **결과에 오래된 게시물이 섞인다** (검색 인덱스 특성 — 2022~2023년 글도 상위에 나옴).
-  날짜가 확인되지 않거나 최근 1~3일이 아니면 뉴스레터에 넣지 않는다.
-- 본문을 못 읽으므로 **★최우선(에이전트·자동화) 섹션으로 승격하지 않는다** — 도구·방법
-  4필드를 채울 수 없기 때문이다. 화제성이 있으면 "커뮤니티 화제"에 링크와 함께 한 줄로 싣는다.
-- 소득이 없는 날이 잦은 것이 정상이다. 억지로 채우지 말 것.
-
-| 계정 | 프로필 URL | 비고 |
-|---|---|---|
-| 조코딩 (조동근, Dong Keun Jo) | https://kr.linkedin.com/in/jocoding | AI·코딩 대중화. 2026-08-07 도메인 검색으로 실명·팔로워 확인. YouTube 채널과 동일 인물 — 중복 항목이 되지 않게 주의 |
-| 조코딩 JoCoding (페이지) | https://kr.linkedin.com/company/조코딩-jocoding | 위 개인 계정과 별개로 존재(팔로워 약 2,758). 검색 결과 URL은 한글 슬러그가 인코딩된 형태로 잡힌다 |
-| 이승필 (AX LABS 대표) | https://kr.linkedin.com/in/seungpil | 기업 AX 실행·컨설팅 관점 — AX 시사점 섹션 소재로 가치 높음. 회사: https://theaxlabs.com |
+</details>
 
 ## X / Instagram
 
