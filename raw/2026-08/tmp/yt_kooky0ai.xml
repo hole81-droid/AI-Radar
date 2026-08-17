@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UChLHvrqxYRGFdHCVEReD0GQ"/>
+ <id>yt:channel:hLHvrqxYRGFdHCVEReD0GQ</id>
+ <yt:channelId>hLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+ <title>기묘한 자동화</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ"/>
+ <author>
+  <name>기묘한 자동화</name>
+  <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+ </author>
+ <published>2024-01-05T05:37:53+00:00</published>
+ <entry>
+  <id>yt:video:Nt7Byv6Ghao</id>
+  <yt:videoId>Nt7Byv6Ghao</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>진정한 고수는 &quot;이걸&quot; 합니다. | AI Native 조직 이란 | AI 네이티브 되는 방법</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Nt7Byv6Ghao"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2026-07-12T00:00:33+00:00</published>
+  <updated>2026-07-22T11:34:05+00:00</updated>
+  <media:group>
+   <media:title>진정한 고수는 &quot;이걸&quot; 합니다. | AI Native 조직 이란 | AI 네이티브 되는 방법</media:title>
+   <media:content url="https://www.youtube.com/v/Nt7Byv6Ghao?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Nt7Byv6Ghao/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI를 쓰는 것과 AI 네이티브하게 일하는 것은 다릅니다.
+
+회의록을 AI가 써주는 것만으로는 회의가 줄지도, 실행이 빨라지지도 않습니다. 이 영상에서는 AI 도입이 실제 성과로 이어지지 않는 이유, 챗봇처럼 쓰는 방식과 에이전트처럼 일하게 만드는 방식의 차이, 그리고 반복 업무를 AI 에이전트가 처리할 수 있는 구조로 바꾸는 방법을 정리합니다.
+
+핵심은 AI에게 정리시키는 것이 아니라, AI가 일을 움직이게 만드는 것입니다.
+
+📌타임라인
+00:00 인트로
+00:35 AI 도입과 성과의 간극
+01:20 오늘 다룰 핵심
+01:46 AI와 일한 3년의 변화
+02:47 툴 네이티브의 기준
+03:30 AI가 올리는 업무 저점
+04:36 정리와 일처리의 차이
+05:24 AI 활용 3단계
+06:14 콘텐츠 제작 사례
+07:43 1인 사업에서의 AI 활용
+08:34 에이전트 구축의 필요성
+09:11 회의록 에이전트 예시
+10:03 작게 시작하고 확장하기
+10:31 AI 네이티브의 시작
+
+#AI #AINative #AI네이티브 #AI에이전트 #업무자동화 #생산성</media:description>
+   <media:community>
+    <media:starRating count="13" average="5.00" min="1" max="5"/>
+    <media:statistics views="278"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z_a7D7C-0Tg</id>
+  <yt:videoId>z_a7D7C-0Tg</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>자동자막 끝판왕!! 클로드코드/Codex로 완벽한 자막 자동화 | 영상편집 자동화</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z_a7D7C-0Tg"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2026-06-03T23:00:35+00:00</published>
+  <updated>2026-07-08T08:09:46+00:00</updated>
+  <media:group>
+   <media:title>자동자막 끝판왕!! 클로드코드/Codex로 완벽한 자막 자동화 | 영상편집 자동화</media:title>
+   <media:content url="https://www.youtube.com/v/z_a7D7C-0Tg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z_a7D7C-0Tg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Cursor를 통해 클로드 코드 / Codex를 활용한 자막자동화 프로세스
+(Cursor 이외에 Antigravity 등 다른 자동화 툴도 사용 가능합니다)
+
+📌 실습 자료 모음 : https://kooky0ai.notion.site/374de71d348980a69b12f046fe8e0c7e?pvs=73
+
+📌타임라인
+00:00 인트로
+00:55 사용할 툴 - 클로드 코드와 Codex
+01:19 1단계 - Cursor 설치
+02:20 클로드 코드와 Codex 설치하기
+03:12 2단계 - 영상과 MP3 준비
+04:03 3단계 - Whisper로 자막 초안 만들기
+04:19 전체 자막자동화 프로세스
+04:38 Whisper Large-v3로 세밀한 타임스탬프 잡기
+05:34 STT 오타와 고유명사 교정
+06:10 대본 파일로 문맥 수정하기
+06:33 문장 길이와 의미 단위 정리
+07:38 자막 사이 공백 문제
+08:28 편집 툴에서 SRT 확인
+08:59 5단계 - 자막자동화 스킬 저장
+09:52 자막자동화 완료 후 편집 방식
+10:18 Claude Code와 Codex 허용 모드 팁
+10:44 다음 자동화 예고
+11:12 아웃트로</media:description>
+   <media:community>
+    <media:starRating count="118" average="5.00" min="1" max="5"/>
+    <media:statistics views="3004"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Gm54yXVqz8c</id>
+  <yt:videoId>Gm54yXVqz8c</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>서울대학교 AI 대학원 입학 방법 | AI 대학원 입시 이야기</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Gm54yXVqz8c"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2026-05-25T15:15:08+00:00</published>
+  <updated>2026-06-25T17:06:10+00:00</updated>
+  <media:group>
+   <media:title>서울대학교 AI 대학원 입학 방법 | AI 대학원 입시 이야기</media:title>
+   <media:content url="https://www.youtube.com/v/Gm54yXVqz8c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Gm54yXVqz8c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>서울대학교 AI 대학원 홈페이지 : https://gsai.snu.ac.kr/
+서울대학교 일반대학원 홈페이지 : https://admission.snu.ac.kr/graduate/general/notice
+
+문의 : kooky0.ai@gmail.com
+
+📌타임라인
+00:00 인트로
+00:26 서울대 AI 대학원은 어떤 곳인가
+01:04 입시 과정 개요
+01:26 1단계 - 희망 연구 분야 선택
+01:55 2단계 - 교수님 사전 컨택
+02:57 교수님과의 사전 면접
+04:04 3단계 - 지원서 제출 및 입시 면접
+04:36 1차 구술고사 과목 선택
+04:51 면접 당일 대기실과 준비물
+05:12 1차 구술고사 면접 방식
+05:51 실제 면접 문제
+05:59 1차 합격 후 2차 심층 면접
+06:55 최종 합격자 발표와 입학 준비
+07:22 입학 후 배우는 것들
+08:01 AI 대학원에 온 이유
+08:33 아웃트로</media:description>
+   <media:community>
+    <media:starRating count="12" average="5.00" min="1" max="5"/>
+    <media:statistics views="516"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rKSE3jNDkVg</id>
+  <yt:videoId>rKSE3jNDkVg</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>AI가 세상을 바라보는 시점 #AI #machinelearning</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/rKSE3jNDkVg"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-05-22T09:05:44+00:00</published>
+  <updated>2026-05-29T23:11:56+00:00</updated>
+  <media:group>
+   <media:title>AI가 세상을 바라보는 시점 #AI #machinelearning</media:title>
+   <media:content url="https://www.youtube.com/v/rKSE3jNDkVg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rKSE3jNDkVg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>#AI #IT #machinelearning</media:description>
+   <media:community>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="10252"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:dNovkduMMQ0</id>
+  <yt:videoId>dNovkduMMQ0</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>아이들은 우리를 불쌍히 여길거다 #샘알트먼 #AI #IT</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/dNovkduMMQ0"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-05-21T08:45:02+00:00</published>
+  <updated>2026-08-04T23:08:03+00:00</updated>
+  <media:group>
+   <media:title>아이들은 우리를 불쌍히 여길거다 #샘알트먼 #AI #IT</media:title>
+   <media:content url="https://www.youtube.com/v/dNovkduMMQ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/dNovkduMMQ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="62" average="5.00" min="1" max="5"/>
+    <media:statistics views="17232"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zTaQwb2tkzc</id>
+  <yt:videoId>zTaQwb2tkzc</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>타이타닉 로맨스 절망편 #ai애니메이션 #viralvideo #aifilm</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/zTaQwb2tkzc"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-05-20T08:45:04+00:00</published>
+  <updated>2026-04-30T06:36:45+00:00</updated>
+  <media:group>
+   <media:title>타이타닉 로맨스 절망편 #ai애니메이션 #viralvideo #aifilm</media:title>
+   <media:content url="https://www.youtube.com/v/zTaQwb2tkzc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zTaQwb2tkzc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI 애니메이션 발전기 #바람막이</media:description>
+   <media:community>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="7968"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HJAaRqd3ALU</id>
+  <yt:videoId>HJAaRqd3ALU</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>AI 조각상의 지리는 몸놀림 #ai애니메이션 #AI #sora</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/HJAaRqd3ALU"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-05-19T08:45:03+00:00</published>
+  <updated>2026-05-19T20:59:01+00:00</updated>
+  <media:group>
+   <media:title>AI 조각상의 지리는 몸놀림 #ai애니메이션 #AI #sora</media:title>
+   <media:content url="https://www.youtube.com/v/HJAaRqd3ALU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HJAaRqd3ALU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>2년전에는 상상도 못했을 AI 애니메이션 발전기</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="2836"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:MRUPUDsr1YQ</id>
+  <yt:videoId>MRUPUDsr1YQ</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>[크몽 노코드 홈페이지 대행] 디지털 노마드, 병원 홈페이지로 월 400만원 달성 방법 | 기묘한자동화 부트캠프 수강생 인터뷰</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=MRUPUDsr1YQ"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-02-25T11:07:54+00:00</published>
+  <updated>2026-04-14T22:59:27+00:00</updated>
+  <media:group>
+   <media:title>[크몽 노코드 홈페이지 대행] 디지털 노마드, 병원 홈페이지로 월 400만원 달성 방법 | 기묘한자동화 부트캠프 수강생 인터뷰</media:title>
+   <media:content url="https://www.youtube.com/v/MRUPUDsr1YQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/MRUPUDsr1YQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 라이브 강의 공지
+[AI 홈페이지 &amp; 마케팅 노하우] 라이브 강의 / 2월 27일 (목요일) 오후 8시
+꼭 신청하시고 라이브에서 뵙겠습니다 :)
+https://bit.ly/411F4NM
+
+3시간 진행 예정입니다. 오신분들께 전자책도 드릴 예정입니다~
+
+📌심플포레디자인 크몽 페이지 : https://kmong.com/gig/578147
+
+📌타임라인
+00:00 인트로 - 하이라이트
+00:49 소개
+01:27 홈페이지 제작을 시작한 이유
+02:25 원래 전공자이신가요?
+02:35 로고 디자인 하다가 홈페이지 제작을 한 이유
+03:07 강의가 도움이 되었나요?
+03:45 크몽에서 잘 파는 방법
+04:57 내성적인 사람이 영업하는 방법
+07:43 400만원 매출, 이후 목표가 있나요?
+09:43 수강생 입장에서 본 기묘한자동화 부트캠프
+10:25 기묘한자동화 커뮤니티
+10:55 라이브 강의 소개
+11:15 아웃트로
+
+비즈니스 문의 : biz@wintopartners.com</media:description>
+   <media:community>
+    <media:starRating count="28" average="5.00" min="1" max="5"/>
+    <media:statistics views="2757"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2PyjU0UeGt0</id>
+  <yt:videoId>2PyjU0UeGt0</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>[AI 수익화를 한다면 필수] AI로 월 3000만원 만든 방법 | 기묘한자동화 부트캠프 수강생 인터뷰</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2PyjU0UeGt0"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-02-24T04:57:53+00:00</published>
+  <updated>2026-05-19T21:59:45+00:00</updated>
+  <media:group>
+   <media:title>[AI 수익화를 한다면 필수] AI로 월 3000만원 만든 방법 | 기묘한자동화 부트캠프 수강생 인터뷰</media:title>
+   <media:content url="https://www.youtube.com/v/2PyjU0UeGt0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2PyjU0UeGt0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 라이브 강의 공지
+[AI 홈페이지 &amp; 마케팅 노하우] 라이브 강의 / 2월 27일 (목요일) 오후 8시
+꼭 신청하시고 라이브에서 뵙겠습니다 :)
+https://bit.ly/411F4NM
+
+3시간 진행 예정입니다. 오신분들께 전자책도 드릴 예정입니다~
+
+📌타임라인
+00:00 인트로 - 하이라이트
+00:47 소개
+01:25 AI 사업으로 월 3000만원 달성한 비법
+02:05 포트폴리오
+02:25 혼자 할 수 있던 이유
+03:43 비전공자인데도 가능했던 이유
+05:21 부트캠프 후 AI 활용 분야
+06:19 AI 홈페이지 수익화 공유
+07:25 다른 계약 사례
+08:30 수강생 입장에서 본 기묘한자동화 부트캠프
+10:04 라이브 강의 소개
+10:25 아웃트로
+
+비즈니스 문의 : biz@wintopartners.com</media:description>
+   <media:community>
+    <media:starRating count="54" average="5.00" min="1" max="5"/>
+    <media:statistics views="2815"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:M3XKXEp4FJk</id>
+  <yt:videoId>M3XKXEp4FJk</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>AI가 쓰레기인 이유</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/M3XKXEp4FJk"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-02-21T15:13:37+00:00</published>
+  <updated>2026-05-05T06:16:34+00:00</updated>
+  <media:group>
+   <media:title>AI가 쓰레기인 이유</media:title>
+   <media:content url="https://www.youtube.com/v/M3XKXEp4FJk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/M3XKXEp4FJk/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="31" average="5.00" min="1" max="5"/>
+    <media:statistics views="3223"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8ESzX0xcMu8</id>
+  <yt:videoId>8ESzX0xcMu8</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>기묘한자동화 수강생 포트폴리오</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/8ESzX0xcMu8"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-02-21T08:34:29+00:00</published>
+  <updated>2026-05-04T23:10:24+00:00</updated>
+  <media:group>
+   <media:title>기묘한자동화 수강생 포트폴리오</media:title>
+   <media:content url="https://www.youtube.com/v/8ESzX0xcMu8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8ESzX0xcMu8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>기묘한자동화 부트캠프 수강생 작품🍪
+
+AI로 만든 홈페이지 판매 과정!
+
+📌함께하고 싶다면 고정댓글 확인해주세요!
+라이브 강의 링크 공지했습니다 :)</media:description>
+   <media:community>
+    <media:starRating count="8" average="5.00" min="1" max="5"/>
+    <media:statistics views="817"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4_3cgiNJ3Sk</id>
+  <yt:videoId>4_3cgiNJ3Sk</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>수백개 AI툴 중 딱 이것만 알면 됩니다. | AI툴 튜토리얼 | AI 수익화 총 정리</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4_3cgiNJ3Sk"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2025-02-20T08:30:02+00:00</published>
+  <updated>2026-05-28T23:04:54+00:00</updated>
+  <media:group>
+   <media:title>수백개 AI툴 중 딱 이것만 알면 됩니다. | AI툴 튜토리얼 | AI 수익화 총 정리</media:title>
+   <media:content url="https://www.youtube.com/v/4_3cgiNJ3Sk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/4_3cgiNJ3Sk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 라이브 강의 공지
+[AI 홈페이지 &amp; 마케팅 노하우] 라이브 강의 / 2월 27일 (목요일) 오후 8시
+꼭 신청하시고 라이브에서 뵙겠습니다 :)
+https://bit.ly/411F4NM
+
+3시간 진행 예정입니다. 오신분들께 전자책도 드릴 예정입니다~
+
+📌타임라인
+00:00 인트로 - AI툴 선택
+00:58 AI 콘텐츠 제작, 마케팅 대행
+01:17 뤼튼 블로그 글 기능
+02:43 뤼튼 AI 탐지 방어 기능
+03:01 블로그 글 콘텐츠화
+03:17 클로드 카드뉴스 생성
+03:27 캔바, 미리캔버스 카드뉴스
+04:09 인스타그램, 스레드
+04:14 인스타그램 GPTs
+04:34 스레드 GPTs
+04:55 AI 홈페이지, 웹에이전시
+05:25 아임웹
+06:02 클로드 - 웹사이트 카피 작성
+06:51 미드저니 - 생성형 이미지
+07:04 제디터 - AI 상세페이지
+07:44 영상 제작 AI 툴
+07:55 캡컷 - AI 영상 편집
+08:20 Suno - AI 음악
+08:42 타입캐스트, 일레븐랩스 - AI 성우
+09:04 헤이젠 - 영상번역, AI 아바타
+09:41 AI 온라인 대행 비즈니스
+10:27 마무리 - AI 수익화 방법
+10:32 아웃트로
+
+비즈니스 문의 : biz@wintopartners.com</media:description>
+   <media:community>
+    <media:starRating count="490" average="5.00" min="1" max="5"/>
+    <media:statistics views="13300"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qOyZyv2PT8I</id>
+  <yt:videoId>qOyZyv2PT8I</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>어차피 알려줘도 안한다길래 진짜 제대로 해봤습니다. 노코드 홈페이지 대행업 월 2,000만원 1년 후기</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qOyZyv2PT8I"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2024-12-01T22:11:13+00:00</published>
+  <updated>2026-05-24T02:45:48+00:00</updated>
+  <media:group>
+   <media:title>어차피 알려줘도 안한다길래 진짜 제대로 해봤습니다. 노코드 홈페이지 대행업 월 2,000만원 1년 후기</media:title>
+   <media:content url="https://www.youtube.com/v/qOyZyv2PT8I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qOyZyv2PT8I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 라이브 강의 공지
+[AI 홈페이지 &amp; 마케팅 노하우] 라이브 강의 / 2월 27일 (목요일) 오후 8시
+꼭 신청하시고 라이브에서 뵙겠습니다 :)
+https://bit.ly/411F4NM
+
+3시간 진행 예정입니다. 오신분들께 전자책도 드릴 예정입니다~
+
+비즈니스 문의 : biz@wintopartners.com
+
+📌타임라인(시간 수정 해야함)
+00:00 인트로
+00:42 노코드 홈페이지 대행업의 실체
+03:00 레드오션 시장을 선택한 이유
+04:42 아임웹을 선택한 이유
+06:04 개인화 제안서 자동화 시스템
+07:43 영업의 끝. 유입
+09:03 그래서 결론은?
+09:46 자료 제공 및 무료 라이브 공지
+10:08 아웃트로</media:description>
+   <media:community>
+    <media:starRating count="432" average="5.00" min="1" max="5"/>
+    <media:statistics views="17577"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cqCBt0LDZuo</id>
+  <yt:videoId>cqCBt0LDZuo</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>AI 노코드 홈페이지대행업으로 돈벌고 싶은 사람들에게 전하고 싶은말</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cqCBt0LDZuo"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2024-11-26T04:29:07+00:00</published>
+  <updated>2026-05-20T21:44:18+00:00</updated>
+  <media:group>
+   <media:title>AI 노코드 홈페이지대행업으로 돈벌고 싶은 사람들에게 전하고 싶은말</media:title>
+   <media:content url="https://www.youtube.com/v/cqCBt0LDZuo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cqCBt0LDZuo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>📌 무료 특강 라이브 공지
+&quot;비전공자도 월 500버는 노코드 홈페이지 제작 수익화 노하우&quot; 라이브 무료 특강읕 아래의 링크에서 진행합니다!
+꼭 신청하시고 라이브에서 노코드 웹사이트 제작 대행 실전 로드맵 PDF 받아가세요 :)
+https://kooky-academy.short.gy/youtube
+
+무료 특강으로 3시간 진행예정입니다. 기묘한자동화 아카데미의 첫 라이브이고 정말 준비 많이하고 있으니 꼭 오셔서 좋은 정보 받아가세요~
+
+비즈니스 문의 : biz@wintopartners.com
+
+📌타임라인(시간 수정 해야함)
+00:00 인트로
+01:20 웹에이전시에서 살아남는 법
+04:59 여러 노코드툴 중에서 왜 아임웹인가요?
+07:40 아임웹을 어떻게 활용하고 계신가요?
+08:35 아임웹 활용 심화 I | 탭 창 예쁘게 만들기
+10:56 아임웹 활용 심화 II | 갤러리 만들기 TIP
+12:57 아임웹 활용 심화 III | 입력폼 만들기
+13:50 추천 비즈니스 AI 툴 1 - 제디터
+16:25 추천 비즈니스 AI 툴 2- 브이캣</media:description>
+   <media:community>
+    <media:starRating count="78" average="5.00" min="1" max="5"/>
+    <media:statistics views="3573"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eqMToxs9i_A</id>
+  <yt:videoId>eqMToxs9i_A</yt:videoId>
+  <yt:channelId>UChLHvrqxYRGFdHCVEReD0GQ</yt:channelId>
+  <title>쇼핑몰 하다가 포기하는 이유</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/eqMToxs9i_A"/>
+  <author>
+   <name>기묘한 자동화</name>
+   <uri>https://www.youtube.com/channel/UChLHvrqxYRGFdHCVEReD0GQ</uri>
+  </author>
+  <published>2024-10-28T08:00:27+00:00</published>
+  <updated>2026-05-29T23:31:01+00:00</updated>
+  <media:group>
+   <media:title>쇼핑몰 하다가 포기하는 이유</media:title>
+   <media:content url="https://www.youtube.com/v/eqMToxs9i_A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eqMToxs9i_A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>쇼핑몰 하다가 포기하는 이유</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="1048"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

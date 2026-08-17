@@ -4,10 +4,12 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-16, 87건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-17, 89건)
 
 ## 2026-08
 
+- **08-16** — Stripe, AI 모델 게이트웨이 OpenRouter를 $7B+에 인수 확정 — 3개월 전 $1.3B 밸류에이션 대비 5배 이상, 결제사가 AI 모델 라우팅 레이어까지 확장 → [[2026-08-16-stripe-openrouter-acquisition]]
+- **08-16** — Anthropic 워터마크(8/11) 후속: 커뮤니티가 FAQ 재검토 — 현재 쓸 수 있는 모델은 전부 마킹 대상 밖, 탐지 API도 아직 미공개 → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-14** — Zhipu AI, GLM-5.3 출시 — 코딩 능력 50%↑ 자평, 포스트트레이닝만으로 "계획하지 않은" 사이버 익스플로잇 능력까지 스스로 성장(취약점 2,436건 발견) → [[2026-08-14-zhipu-glm-5-3-launch]]
 - **08-13~14** — OpenAI 연환산 매출 $40B+ 돌파(전년 대비 약 2배), 같은 주 CRO Denise Dresser 퇴사·Dali Rajic 지명 → [[2026-08-14-openai-revenue-40b-cro-departure]]
 - **08-13** — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰 공개(MIT 라이선스) — Claude Code 정면 경쟁, V4-Pro API 가격은 인상 → [[2026-08-13-deepseek-harness-launch]]
