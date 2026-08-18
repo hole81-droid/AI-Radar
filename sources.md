@@ -20,6 +20,47 @@ Scan 워크플로우가 훑는 소스 목록. 사용자와 대화로 계속 추�
 | Google DeepMind Blog | https://deepmind.google/discover/blog/ | Gemini 모델 |
 | Gemini API Changelog | https://ai.google.dev/gemini-api/docs/changelog | Gemini API |
 
+## 구루·실무자 1차 채널 (2026-08-17 추가 — X 인용 왜곡 사건의 교훈)
+
+**배경**: X에서 추천받은 계정 6건을 검증했더니 Andrew Ng 발언을 원문과 정반대로 왜곡해
+유통하고 있었다(log.md 2026-08-17 lint 참조). 교훈은 **"구루가 직접 발행하는 곳으로 가라"**.
+아래는 전부 2026-08-17에 RSS 응답·최신 게시일을 실측 검증했다.
+
+| 소스 | RSS | 실측(08-17) | 성격 |
+|---|---|---|---|
+| **Simon Willison** | https://simonwillison.net/atom/everything/ | 08-17, 30건 | 거의 매일. LLM 신기능을 직접 실행해보고 쓰는 최고 신뢰도 실무 기록 |
+| **Latent Space** (swyx) | https://www.latent.space/feed | 08-17, 14건 | 주간. AI 엔지니어링 심층 인터뷰·현장 방법론 |
+| **Lilian Weng** (OpenAI) | https://lilianweng.github.io/index.xml | 07-04, 53건 | 드물지만 매우 깊음. 하네스 엔지니어링 원문 출처 |
+| **Andrej Karpathy 블로그** | https://karpathy.bearblog.dev/feed/ | 04-30, 10건 | 드묾(월 1회 미만). **주의: 피드의 `<updated>`는 빌드 시각이라 최신 글 날짜와 다르다 — 반드시 개별 `<entry>` 날짜를 볼 것** |
+| **Addy Osmani** | https://addyosmani.com/rss.xml | 07-20, 10건 | 월 몇 회. "loop engineering" 용어 대중화 당사자 |
+| **The Batch** (Andrew Ng) | RSS 없음 → https://www.deeplearning.ai/the-batch/tag/letters 페이지 fetch | 주간 | Ng 본인 레터. **X에 도는 Ng 인용문은 반드시 여기서 대조할 것** |
+
+### 구루 활동 추적 — HN Algolia 인물 쿼리 (X 차단 우회)
+
+X는 직접 조회가 막혀 있으므로(HTTP 402), 구루가 X·개인채널에 뭔가 올리면 **HN이 대신
+잡아주는 것**을 이용한다. 이미 등록된 HN Algolia API를 인물명으로 쿼리하되 **점수 임계값으로
+노이즈를 거른다**(임계값 없으면 이름만 스친 1~4점 Show HN이 대량 유입 — 실측 확인):
+
+```
+https://hn.algolia.com/api/v1/search_by_date?query=karpathy&tags=story&numericFilters=points>50
+https://hn.algolia.com/api/v1/search_by_date?query="Andrew Ng"&tags=story&numericFilters=points>50
+```
+
+실측 효과(2026-08-17): 이 필터로 "I've joined Anthropic"(1,431점, 05-19, 원문이 karpathy
+X 계정) · "Karpathy's Pelican"(618점, 08-02) · "LearnVector — Andrew Ng's AI company"(269점,
+07-29)가 바로 잡혔다. 매 스캔 2회 쿼리면 충분하다.
+
+### GitHub 저장소 감시 (Karpathy 전용)
+
+Karpathy는 글보다 **저장소로 말한다** — `autoresearch`(루프 엔지니어링 원류), `nanochat` 등
+저장소 자체가 사건이다. GitHub API는 인증 없이 조회 가능하다(실측 확인):
+
+```
+https://api.github.com/users/karpathy/repos?sort=updated&per_page=5
+```
+
+새 저장소가 뜨거나 스타가 급증하면 ★최우선 후보로 검토한다.
+
 ## 국내 AX 블로그 (2026-08-17 추가)
 
 **AX LABS 블로그** — https://theaxlabs.com/blog | RSS: https://theaxlabs.com/rss.xml

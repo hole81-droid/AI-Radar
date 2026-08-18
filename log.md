@@ -641,3 +641,25 @@ Google의 Gemini→Android 기본 음성비서 전면 교체 확정(9/4 시작,
 wiki/players/google 갱신. old.reddit 개별 스레드 fetch가 이번에도 빈 응답(0바이트)을 자주
 반환(15~25초 재시도로 회피) — 신규 gotcha는 아니고 기존 패턴 재확인 수준. raw/2026-08/tmp/
 정리는 이번에도 하지 않음(반복 확인된 이슈, 사용자 직접 처리 필요).
+
+## [2026-08-17] sources | 구루·실무자 1차 채널 6종 + HN 인물쿼리·GitHub 감시 추가
+
+X 인용 왜곡 사건(같은 날 lint 참조)의 후속 조치. 교훈을 "구루가 직접 발행하는 곳으로 가라"로
+정리하고 후보 7곳의 RSS 응답·최신 게시일을 전부 실측 검증해 등록: Simon Willison(08-17, 거의
+매일)·Latent Space(08-17, 주간)·Lilian Weng(07-04)·Karpathy 블로그(04-30)·Addy Osmani(07-20)·
+The Batch(RSS 없어 페이지 fetch). steipete.me는 최신 글이 2026-02로 정체돼 제외.
+**주의사항 기록**: karpathy.bearblog.dev는 피드의 `<updated>`가 빌드 시각이라 최신 글 날짜와
+다름 — 처음 08-18로 오독했다가 개별 entry 확인으로 04-30임을 정정.
+
+X 차단(402) 우회책으로 **HN Algolia 인물 쿼리 + points>50 임계값**을 검증·채택. 임계값 없이는
+이름만 스친 1~4점 Show HN이 대량 유입되나, 임계값을 붙이자 "I've joined Anthropic"(1,431점,
+05-19, 링크가 karpathy X 계정) · "Karpathy's Pelican"(618점, 08-02) · "LearnVector — Andrew Ng's
+AI company"(269점, 07-29)가 즉시 잡힘. GitHub API로 karpathy 저장소 감시도 추가(autoresearch
+사례처럼 저장소 자체가 사건인 경우 대응).
+
+CLAUDE.md에 **인물 발언 인용 규칙** 신설: 2차 전파를 출처로 쓰지 말고 1차 채널에서 대조,
+대조 실패 시 항목을 버릴 것.
+
+**미해결 공백 발견**: 위 검증 중 **Karpathy의 Anthropic 합류(2026-05-19, HN 1,431점)가 위키에
+전혀 없음**을 확인. CLAUDE.md 기준상 "인물 영입"에 해당하는 지속적 사실이라 페이지화 대상이나,
+X 원문을 읽을 수 없어(402) HN 제목만으로 페이지를 만들지 않고 보류 — 사용자 보고 후 별도 처리.
