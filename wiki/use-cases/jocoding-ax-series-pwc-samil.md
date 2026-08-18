@@ -80,8 +80,27 @@ OpenAI와 함께 여는 국내 최초 'AX 인재전쟁' 채용 해커톤(6/25 �
 - 채용 기준의 이동을 보여준다: 전공·자격증이 아니라 "AI로 실무 문제를 정의하고 푸는 능력"
   중심 — 발표 직후 5천 명이 몰릴 만큼 시장 반응도 컸다.
 
+## 후속 업데이트 (2026-08-18) — 참여 기업 Codex 활용 인터뷰 시리즈
+
+행사 이후 조코딩 채널이 참여 기업 실무자 인터뷰를 짧은 클립으로 이어서 공개하고 있다.
+2026-08-18에 두 편이 올라왔다:
+
+- **카카오페이증권** (AI 서비스 센터 이형주 센터장): "Codex를 비롯한 AI 에이전트가
+  없었다면 그냥 판타지였을 것"이라며 고객 상담·투자 동반자 기능에 Codex를 활용한다고
+  언급. ([영상](https://www.youtube.com/watch?v=hFrTbX7FRu8))
+- **무신사** (전사 테크 리드 김상범): "AI는 저희에게 생존의 문제"라며 개발 현장에서
+  Codex를 자주 쓰는 툴로 꼽고, AI 네이티브 채용 이후 실제 성과를 언급.
+  ([영상](https://www.youtube.com/watch?v=6-bmczPW5n0))
+
+두 영상 모두 1~2분 분량의 OpenAI 후원 홍보성 인터뷰로, 구체적 워크플로·수치는 나오지
+않아 **★최우선 구조화 스키마로 승격하지 않고** 이 페이지에 참고 링크로만 남긴다.
+"AI 네이티브 채용 이후 실제 성과" 같은 구체 수치가 향후 공개되면 별도 페이지 승격을
+검토할 것.
+
 ## 출처
 
 - [영상 — AX 인재전쟁 5화 PwC 삼일회계법인](https://www.youtube.com/watch?v=y0SsTKDt8tQ)
 - [이데일리 — 5천명 몰리는 AI 서바이벌, 'AX 인재전쟁' 해커톤](https://www.edaily.co.kr/News/Read?newsId=04549366645485328&mediaCodeNo=257)
 - [KMJ — OpenAI 손잡은 'AX 인재전쟁'](https://www.kmjournal.net/news/articleView.html?idxno=12435)
+- [YouTube — 카카오페이증권은 Codex를 어떻게 활용할까? (2026-08-18)](https://www.youtube.com/watch?v=hFrTbX7FRu8)
+- [YouTube — 무신사는 Codex를 어떻게 활용할까? (2026-08-18)](https://www.youtube.com/watch?v=6-bmczPW5n0)

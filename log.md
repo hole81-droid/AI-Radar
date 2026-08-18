@@ -663,3 +663,29 @@ CLAUDE.md에 **인물 발언 인용 규칙** 신설: 2차 전파를 출처로 �
 **미해결 공백 발견**: 위 검증 중 **Karpathy의 Anthropic 합류(2026-05-19, HN 1,431점)가 위키에
 전혀 없음**을 확인. CLAUDE.md 기준상 "인물 영입"에 해당하는 지속적 사실이라 페이지화 대상이나,
 X 원문을 읽을 수 없어(402) HN 제목만으로 페이지를 만들지 않고 보류 — 사용자 보고 후 별도 처리.
+
+## [2026-08-19] scan | 항목 9건, 반영 6건
+
+공백 없음(전일 08-18 확인). ★최우선 2건 모두 AX LABS 블로그 신규 글에서 발굴: (1)
+Claude Code용 diagram-design 스킬 — 회사 URL로 브랜드 온보딩 후 다이어그램 27종을
+자연어로 자동 생성([[theaxlabs-claude-code-diagram-design-skill]], content-creation
+도메인, 정량 효과 없어 evidence=claimed로 정직 기록), (2) Harness-R1 논문을 Claude
+Code 주간 루틴으로 번역한 글 — 모델 재학습 없이 실패로그 기반 하네스 자가개선
+([[theaxlabs-harness-r1-failure-driven-editing]], dev-automation 도메인, 논문 수치
+44.3%→53.6%는 참고용이며 Claude Code 적용판 실측은 미확인이라고 명시). 빅 뉴스는
+신규 페이지 1건 — OpenAI "ChatGPT for Teens" 출시(13~17세 안전계정 자동 전환,
+[[2026-08-18-openai-chatgpt-for-teens]]) — 외에 기존 페이지 갱신 2건: Claude Cowork
+전 유료 플랜 모바일 롤아웃 완료(기존 [[2026-08-12-claude-cowork-chrome-integration]]에
+후속 섹션 추가) · Anthropic 다중모델 성능저하 장애(8/5 장애에 이은 반복 패턴,
+wiki/players/anthropic.md에 기록, 별도 페이지는 만들지 않음 — 단발성 판단). Cursor
+"Origin"(GitHub 대안) 출시는 HN에서 포착했으나 페이지화 없이 뉴스레터에만 기록.
+커뮤니티 화제 2건은 모두 뉴스레터 전용(페이지화 안 함) — MCP vs 파일시스템 벤치마크는
+비교 제품(Locality) 개발자의 벤더 자기보고라 신뢰도 유보, Claude 장애 반응 스레드는
+안정성 이슈 기록에 흡수. YouTube 픽은 조코딩 'AX 인재전쟁' 후속 인터뷰(카카오페이증권·
+무신사, Codex 활용 언급) — 기존 [[jocoding-ax-series-pwc-samil]]에 후속 섹션으로
+교차링크(1~2분 홍보 클립이라 구체 수치 없어 ★최우선 승격은 보류). 장피엠 slide-master
+영상(8/15 업로드)은 이미 8/16~17경 반영 완료된 것으로 확인해 중복 생성 방지.
+[[timeline]] 92→95건, [[index]]·[[case-catalog]](65→67건)·wiki/players/anthropic·
+wiki/players/openai 갱신. r/singularity·r/ChatGPTCoding RSS는 이번에도 0바이트 빈
+응답(기존 패턴), r/AI_Agents·r/ClaudeAI는 정상 확보. raw/2026-08/tmp/ 임시 파일 정리는
+이번에도 하지 않음(반복 확인된 이슈, 사용자 직접 처리 필요).

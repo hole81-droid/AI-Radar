@@ -42,6 +42,7 @@
 - [[2026-06-23-claude-tag]] — Slack 상주 AI 팀메이트 Claude Tag (high)
 
 ### OpenAI
+- [[2026-08-18-openai-chatgpt-for-teens]] — 13~17세 안전 강화 계정 "ChatGPT for Teens" 출시, 자해 세이프가드·부모 통제·Study Mode 확대 (high)
 - [[2026-08-14-openai-revenue-40b-cro-departure]] — 연환산 매출 $40B+ 돌파, 같은 주 CRO 전격 교체(Dresser 퇴사→Rajic 지명) (high)
 - [[2026-08-11-openai-gpt-5-6-cyber-daybreak]] — 사이버보안 특화 GPT-5.6-Cyber 출시 + Daybreak Blue/Red 접근 티어, 안전장치 완화로 익스플로잇 완료율 1.5%→95.0%(공백 소급) (high)
 - [[2026-08-11-openai-bakalar-ethics-departure]] — 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정(안전·윤리 라인 이탈 패턴 지속) (medium)
@@ -123,16 +124,16 @@
 
 ## 회사·인물 (wiki/players/)
 
-- [[anthropic]] — 제품 확장·규제 격변·수익화 전환, +Bernanke 영입·연구자 4명 영입·Claude for Teachers·IPO 투자자 미팅·EU 청문회 반발·Alibaba 리스크·워터마크 도입(08-11)+후속(08-16) (07-07 스냅샷 + 07-09~08-16 갱신)
-- [[openai]] — "모델 회사에서 국가급 인프라 기업으로", +GPT-5.6 GA·Apple 소송·Heidecke 퇴사·Codex Micro 실출시 (07-07 스냅샷 + 07-09~15 갱신)
+- [[anthropic]] — 제품 확장·규제 격변·수익화 전환, +Bernanke 영입·연구자 4명 영입·Claude for Teachers·IPO 투자자 미팅·EU 청문회 반발·Alibaba 리스크·워터마크 도입(08-11)+후속(08-16)·Decart 인수 협상(08-13)·Cowork 모바일 전면화+다중모델 장애(08-18) (07-07 스냅샷 + 07-09~08-18 갱신)
+- [[openai]] — "모델 회사에서 국가급 인프라 기업으로", +GPT-5.6 GA·Apple 소송·Heidecke 퇴사·Codex Micro 실출시·매출 $40B 돌파(08-14)·ChatGPT for Teens 출시(08-18) (07-07 스냅샷 + 07-09~08-18 갱신)
 - [[google]] — 제품 확장 vs 플래그십 지연·인재 이탈, +DeepMind CEO 교체·Jeff Dean 퇴사(08-05) (07-07 스냅샷 + 07-13·08-05 갱신)
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 64건) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 66건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%)
-- 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]]
-- 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배)
+- 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]] · [[theaxlabs-claude-code-diagram-design-skill]]
+- 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배) · [[theaxlabs-harness-r1-failure-driven-editing]]
 - 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50)
 - 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓) · [[benai-claude-skills-marketing-automation]] · [[claude-code-seo-manager-mcp-dashboard]]
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
@@ -152,6 +153,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-18, 92건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (06-18 ~ 08-19, 95건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · [[2026-08-14]] · [[2026-08-13]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · [[2026-08-14]] · [[2026-08-13]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

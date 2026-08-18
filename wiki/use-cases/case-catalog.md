@@ -20,6 +20,7 @@ uses: [course, ax]
 - [[draw-your-font-claude-code-skill]] — Claude Code Skill(draw-your-font, skills)로 AI 인식+결정론적 npm CLI 하이브리드 구조를 활용해 손글씨 사진→설치 가능한 TTF 폰트 제작을 수행 → 로컬·무료로 완성, 전문 품질 커닝은 별도 과제 (일화)
 - [[capforge-claude-mcp-video-captioning]] — Claude(mcp)로 로컬 자막 앱 CapForge의 자막 편집·스타일링을 자연어 명령으로 자동화 → 오픈소스 무료 공개, 커뮤니티 압도적 호평 (일화, 정량 수치 미확인)
 - [[jangpm-slide-master-claude-code-codex]] — Claude Code·Codex로 Skill 기반 PPT 제작 에이전트(skills)를 활용해 회사 양식 맞춤 슬라이드 제작을 수행 → 편집 가능한 네이티브 PPTX 오픈소스 무료 공개(MIT) (주장, 정량 성과 미확인)
+- [[theaxlabs-claude-code-diagram-design-skill]] — Claude Code·Codex·Pi로 diagram-design 플러그인(skills)을 활용해 프레젠테이션용 다이어그램 27종 자동 생성을 수행 → 회사 브랜드 색상 자동 적용된 편집 가능 SVG/PNG (주장, 정량 성과 미확인)
 
 ## 리서치 (research)
 
@@ -57,6 +58,7 @@ uses: [course, ax]
 - [[jeremytian-claude-code-loop-agent-optimization]] — Claude Code로 반복 루프(cli-pipeline)를 활용해 프로덕션 엔터프라이즈 AI 에이전트 정확도 자동 개선을 수행 → 정밀도 0.734→0.818(경쟁 도구 AutoAgent 0.877보다는 낮음) (실측)
 - [[reddit-lloyd-claude-code-loop-orchestrator]] — Claude Code로 heartbeat 루프 오케스트레이터(cron-routines)를 활용해 고객 이메일 트리아지·문서 점검·로그 모니터링·자체 티켓 관리를 수행 → SQLite DB로 600여 건 자체 관리 (일화, 개인 프로젝트)
 - [[codex-gpu-kernel-232x-autoresearch]] — Codex(GPT-5.5)로 `/goal` 장기 실행 루프+서브에이전트+빔서치(cli-pipeline)를 활용해 GPU 커널(배치 QR 분해) 최적화를 수행 → 232배 속도 향상, 공개 리더보드 183명 중 12위 (실측, 개인 프로젝트)
+- [[theaxlabs-harness-r1-failure-driven-editing]] — Claude(Claude Code)로 실패 로그 기반 4단계 루틴(cron-routines)을 활용해 에이전트 하네스(프롬프트·체크포인트·에러복구) 주간 자가개선을 수행 → 참고 논문 기준 성공률 +9.3%p(Claude Code 적용판 실측은 미확인) (주장)
 
 ## 보안·운영 (ops)
 

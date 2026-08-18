@@ -145,6 +145,16 @@ Amodei에 직접 보고. Bernanke의 Long-Term Benefit Trust 합류(7/9), 연구
 준비 중인 시점의 사상 최대 인수 시도라는 점도 눈길을 끈다. →
 [[2026-08-13-anthropic-decart-acquisition-talks]]
 
+**8/18 — Claude Cowork, 전 유료 플랜 모바일·웹 롤아웃 완료**: 최초 발표(2026-07) 당시
+최상위 플랜에 한정됐던 Cowork가 약 한 달 만에 Pro를 포함한 모든 유료 플랜으로 확대,
+iPhone·iPad·웹에서 사용 가능해졌다. → [[2026-08-12-claude-cowork-chrome-integration]]
+
+**8/18 — 다중 모델 성능 저하 장애**: Mythos 5·Fable 5·Opus 5·Sonnet 5·Haiku 4.5 등
+주요 모델 전반에서 에러율이 치솟아 Downdetector에 4,000건 이상 신고 접수, 공식
+status.claude.com에 인시던트 등록(q7txxvbsftgq). [[2026-08-05-anthropic-custom-silicon-chip-team|8/5
+7.5시간 장애]]에 이어 반복되는 안정성 이슈 패턴의 연장. 같은 날 Claude Code 주간
+사용량 50% 임시 증량 조치도 8/19까지로 연장됐다.
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

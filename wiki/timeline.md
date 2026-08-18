@@ -4,10 +4,13 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-18, 92건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-19, 95건)
 
 ## 2026-08
 
+- **08-18** — OpenAI, "ChatGPT for Teens" 출시 — 13~17세 안전 강화 계정 자동 전환, 부모 통제·자해 세이프가드·Study Mode 확대 → [[2026-08-18-openai-chatgpt-for-teens]]
+- **08-18** — Anthropic, 다중 모델(Mythos 5·Fable 5·Opus 5·Sonnet 5·Haiku 4.5) 성능 저하 장애 — Downdetector 4,000건+ 신고, [[2026-08-05-anthropic-custom-silicon-chip-team|8/5 7.5시간 장애]]에 이은 반복 패턴 → [[anthropic]]
+- **08-18** — Claude Cowork, 전 유료 플랜(Pro 포함) 모바일·웹 롤아웃 완료 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-17** — Reddit에서 Claude 연방 조달 데이터 기반 건설 하도급 리드 발굴 자동화 사례 화제(필터 12건 중 계약 3건 성사) → [[federal-contract-leadgen-claude-browser-automation]]
 - **08-16** — Stripe, AI 모델 게이트웨이 OpenRouter를 $7B+에 인수 확정 — 3개월 전 $1.3B 밸류에이션 대비 5배 이상, 결제사가 AI 모델 라우팅 레이어까지 확장 → [[2026-08-16-stripe-openrouter-acquisition]]
 - **08-16** — Anthropic 워터마크(8/11) 후속: 커뮤니티가 FAQ 재검토 — 현재 쓸 수 있는 모델은 전부 마킹 대상 밖, 탐지 API도 아직 미공개 → [[2026-08-11-anthropic-ai-content-watermarking]]

@@ -42,7 +42,16 @@ Anthropic이 2026-08-12 브라우저 확장 **Claude in Chrome**의 사이드패
 - **강의**: "브라우저 에이전트 vs API 연동 에이전트"의 트레이드오프(접근성 vs 프롬프트 인젝션
   리스크)를 설명하는 최신 사례로 활용 가능.
 
+## 후속 업데이트 (2026-08-18)
+
+Claude Cowork가 **모든 유료 플랜(Pro 포함)** 대상 모바일(iPhone·iPad)·웹으로 전체
+롤아웃을 완료했다. 최초 발표(2026-07)는 Max 플랜에 한정됐던 롤아웃이 약 한 달 만에
+전 유료 플랜으로 확대된 것 — Chrome 사이드패널 통합에 이어 "어디서 시작해도 하나의
+세션"이라는 방향을 모바일까지 넓힌 조치다. Android 지원 여부는 확인되지 않았다.
+OpenAI의 [[openai-chatgpt-work-launch|ChatGPT Work]]와 정면 경쟁 구도.
+
 ## 출처
 
 - [Claude Blog — 목록 확인 (개별 글 URL은 접근 불가로 확인 실패)](https://claude.com/blog)
 - [9to5Mac — Claude's Chrome side panel is now a full Cowork session](https://9to5mac.com/2026/08/12/claude-cowork-chrome/)
+- [9to5Mac — Anthropic says Claude Cowork is now available on mobile for all paid plans (2026-08-18)](https://9to5mac.com/2026/08/18/anthropic-says-claude-cowork-is-now-available-on-mobile-for-all-paid-plans/)
