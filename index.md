@@ -118,7 +118,7 @@
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
 - [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
-- [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량 (medium)
+- [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기 (medium)
 - [[demo-dummy-data-design]] — 에이전트 시연용 모의 데이터 설계 — 심은 이야기·미끼·대조군·재발견 검수 (medium)
 
 ## 회사·인물 (wiki/players/)

@@ -602,6 +602,24 @@ Sionic 토큰 팩토리", 8/16) 2건을 원문 정독했으나 둘 다 연구자
 만드는 스킬 42종" 7/18)은 페이지화하지 않고 사용자에게 별도 보고 — 잠언형 글이 다수라
 전수 페이지화는 지양.
 
+## [2026-08-17] lint | X 추천 계정 6건 신뢰성 검증 → 전부 기각, loop-engineering 계보 보강
+
+사용자가 X에서 추천받은 6개 계정(@anatolikopadze·@kirillk_web3·@0xwhrrari·@cyrilxbt·
+@beamnxw·@callanxai)의 소스 적합성 검토. X가 직접 조회를 막아(HTTP 402) 미러 사이트·
+검색으로 계정 행태를 프로파일링. **전부 기각.** 근거: 동일한 "Andrew Ng 발언" 인용문이
+계정마다 loops/graphs, 강연 길이 6·15·30·31·40분으로 서로 모순되게 유통되고("Worth more
+than any $500 agentic course" 홍보 문구는 여러 계정에 토씨까지 동일), @0xMovez는 같은
+계정이 loops·graphs 두 버전을 다 게시. 계정 성격도 @cyrilXBT는 95%가 크립토 수익화,
+@kirillk_web3는 "AI Influencer × Web3", @0xwhrrari·@beamnxw·@callanxai는 검색 흔적 전무.
+
+검증 과정에서 1차 출처를 확인해 wiki/concepts/loop-engineering.md에 "계보" 섹션 신설:
+① Karpathy autoresearch(2026-03-06, GitHub API로 94,042 스타 실측) — 이 개념의 실물 원류,
+기존 페이지는 6월 Osmani부터 시작해 3월 원류가 통째로 누락돼 있었음. ② Andrew Ng
+"Three Key Loops"(The Batch 2026-06-26 원문 확인). ③ **The Batch 원문에 "100% of my tasks
+are done by AI agents" 발언이 없음을 확인** — 오히려 human-in-the-loop 필요성을 강조 —
+`> ⚠️ 상충:` 블록으로 명시. "graphs가 다음"은 Karpathy·Ng 둘 다 한 적 없는 해설자 프레이밍
+(DeepLearning.AI 그래프 코스도 Ng이 아니라 Neo4j의 Andreas Kollegger 강의)임도 함께 기록.
+
 ## [2026-08-18] scan | 항목 6건, 반영 4건 (AX LABS 블로그 미포함 — 소스 등록 전 스캔 시작)
 
 공백 없음(전일 08-17 뉴스레터 확인). ★최우선에서 신규 use-case 1건 확보: Reddit r/ClaudeAI,
