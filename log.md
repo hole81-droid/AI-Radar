@@ -726,3 +726,17 @@ wiki/players/openai 갱신. r/singularity·r/ChatGPTCoding RSS는 이번에도 0
 파서 보강: KIND_RULES에 `적용 case|use case` 패턴을 추가해 신규 섹션명도 agent 종류로
 분류되게 하고(구 표기도 계속 인식), 신·구 섹션명 테스트 2건 추가(총 16건 통과).
 검증: 웹 홈·메일 HTML 첨부 모두 ★ 노출 0건, "업무 적용 Case"로 정상 표시 확인.
+
+## [2026-08-20] scan | 항목 7건, 반영 7건
+
+업무 적용 Case 1(AX LABS "AI 네이티브 운영체제" 6단계 — 모델 계층화 라우팅으로 비용
+80%+↓ 주장), 빅 뉴스 3(Anthropic Compliance API Cowork·Claude Code 확장 / Meta AI Mac
+데스크톱 앱 / xAI Grok 4.6), 커뮤니티 화제 2(Anthropic 미공개 기능 "Project Parka"
+리버스엔지니어링 화제 / DeepSeek V4 Flash 스킬 벤치마크 주장에 대한 방법론 회의론),
+YouTube 픽 1(조코딩 'AX 인재전쟁' 채널톡 Codex 인터뷰 — 기존 [[jocoding-ax-series-pwc-samil]]
+후속 업데이트로 반영). 신규 use-case 페이지 1건·updates 페이지 3건 생성, 기존
+jocoding-ax-series-pwc-samil·claude-code 허브·timeline·index·case-catalog 갱신.
+r/AI_Agents·r/singularity·r/ChatGPTCoding·r/OpenAI·r/LocalLLaMA RSS는 이번 스캔 내내
+빈 응답(0바이트)만 반환해 접근 실패, r/ClaudeAI만 두 번째 재시도에서 확보. Karpathy
+개인 블로그 RSS도 403 Forbidden으로 접근 실패(반복 관찰 시 sources.md 갱신 검토 필요).
+HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 신규 히트 없음(기존 항목만 재확인).

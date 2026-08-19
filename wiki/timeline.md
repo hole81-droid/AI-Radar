@@ -8,6 +8,8 @@ date: 2026-07-07
 
 ## 2026-08
 
+- **08-19** — Anthropic, Compliance API를 Cowork·Claude Code 전체(데스크톱·웹·모바일·CLI)로 확장 — 보안팀이 세션 콘텐츠·메타데이터를 통합 조회해 감사·eDiscovery 대응 → [[2026-08-19-anthropic-compliance-api-cowork-claude-code]]
+- **08-19** — Meta, Meta AI 전용 Mac 데스크톱 앱 출시 — 화면 공유 기반 어시스턴트 + Google Workspace 연동, 크리에이터·소상공인 타겟 → [[2026-08-19-meta-ai-mac-desktop-app]]
 - **08-18** — OpenAI, "ChatGPT for Teens" 출시 — 13~17세 안전 강화 계정 자동 전환, 부모 통제·자해 세이프가드·Study Mode 확대 → [[2026-08-18-openai-chatgpt-for-teens]]
 - **08-18** — Anthropic, 다중 모델(Mythos 5·Fable 5·Opus 5·Sonnet 5·Haiku 4.5) 성능 저하 장애 — Downdetector 4,000건+ 신고, [[2026-08-05-anthropic-custom-silicon-chip-team|8/5 7.5시간 장애]]에 이은 반복 패턴 → [[anthropic]]
 - **08-18** — Claude Cowork, 전 유료 플랜(Pro 포함) 모바일·웹 롤아웃 완료 → [[2026-08-12-claude-cowork-chrome-integration]]
@@ -21,6 +23,7 @@ date: 2026-07-07
 - **08-13** — Google, 코딩 특화 Gemini 3.7 Flash 출시 — 플래그십 3.5 Pro는 여전히 지연 → [[2026-08-13-google-gemini-3-7-flash-launch]]
 - **08-06** — Google, 2026-09-04부터 Android·Wear OS 기본 음성비서를 Gemini로 전면 교체 확정(되돌리기 불가) → [[2026-08-06-google-gemini-replaces-assistant-android]]
 - **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
+- **08-12** — xAI, Grok 4.6 출시(Grok 4.5 이후 35일 만) — 가격 동일 유지, Artificial Analysis Intelligence Index 54→61로 GPT-5.6 Sol Max와 동급 → [[2026-08-12-xai-grok-4-6-launch]]
 - **08-11** — Anthropic, EU AI Act 대응으로 Claude 생성 텍스트·이미지에 워터마크 도입(Claude Code·Cowork·Tag 전 표면) → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **08-11** — SpaceXAI(SpaceX·xAI·Cursor 합병), 상시 작동 에이전트 팀 제품 "Grok Bot" 출시 — Claude Cowork 정면 겨냥 → [[2026-08-11-spacexai-grok-bot-launch]]
 - **08-11** — OpenAI 유일한 전담 윤리학자 Chloé Bakalar 퇴사, 후임 미지정 → [[2026-08-11-openai-bakalar-ethics-departure]]
