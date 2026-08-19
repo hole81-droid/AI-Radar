@@ -110,7 +110,9 @@ function selectOutputs(changed, date, includeAll) {
 const esc = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-const prettify = (s) => s.replace(/\s+—\s+/g, ": ");
+// " — " → ": "(2026-07-09), "★최우선" → "업무 적용 Case"(2026-08-19). 원본은 보존, 표시만 치환.
+const prettify = (s) =>
+  s.replace(/★\s*최우선/g, "업무 적용 Case").replace(/\s+—\s+/g, ": ");
 
 function inline(text) {
   let s = esc(prettify(text));

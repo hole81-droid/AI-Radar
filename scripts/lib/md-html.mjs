@@ -10,8 +10,12 @@ export const esc = (s) =>
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
-// 본문 " — "는 ": "로 다듬는다 (2026-07-09 사용자 지정)
-export const prettify = (s) => String(s).replace(/\s+—\s+/g, ": ");
+// 본문 다듬기: " — "는 ": "로(2026-07-09), 구 표기 "★최우선"은 "업무 적용 Case"로(2026-08-19).
+// 원본 마크다운은 기록으로 보존하고 표시 시점에만 치환한다.
+export const prettify = (s) =>
+  String(s)
+    .replace(/★\s*최우선/g, "업무 적용 Case")
+    .replace(/\s+—\s+/g, ": ");
 
 export function parseFrontmatter(raw) {
   if (!raw.startsWith("---")) return { meta: {}, body: raw };

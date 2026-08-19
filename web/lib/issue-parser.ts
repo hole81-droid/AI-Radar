@@ -18,8 +18,9 @@ export type ParsedIssue = {
   fallback: boolean;
 };
 
+// 섹션 제목 → 종류. "업무 적용 Case"(2026-08-19~)와 구 표기 "에이전트 구축…★최우선"을 모두 받는다.
 const KIND_RULES: [RegExp, SectionKind][] = [
-  [/에이전트/, "agent"],
+  [/적용\s*case|use\s*case|에이전트/i, "agent"],
   [/빅 뉴스/, "news"],
   [/커뮤니티/, "community"],
   [/youtube/i, "youtube"],
@@ -27,9 +28,14 @@ const KIND_RULES: [RegExp, SectionKind][] = [
 
 const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
 
-// 표시용 다듬기 — 문장 사이 em dash를 콜론으로 (2026-07-09 사용자 지정: "—"는 가독성이 떨어짐)
+// 표시용 다듬기.
+// ① 문장 사이 em dash를 콜론으로 (2026-07-09 사용자 지정: "—"는 가독성이 떨어짐)
+// ② 구 표기 "★최우선"을 "업무 적용 Case"로 (2026-08-19 사용자 지정). 과거 뉴스레터 원본은
+//    기록으로 보존하고 화면에만 치환한다 — 신규 뉴스레터는 애초에 이 표현을 쓰지 않는다.
 export function prettify(text: string): string {
-  return text.replace(/\s+—\s+/g, ": ");
+  return text
+    .replace(/★\s*최우선/g, "업무 적용 Case")
+    .replace(/\s+—\s+/g, ": ");
 }
 
 // YouTube 링크 → 영상 ID (썸네일용). 못 찾으면 undefined.

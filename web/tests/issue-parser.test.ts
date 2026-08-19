@@ -88,3 +88,26 @@ test("youtubeId: watch·shorts·youtu.be에서 ID를 뽑는다", async () => {
   assert.equal(youtubeId("https://youtu.be/abc123def"), "abc123def");
   assert.equal(youtubeId("https://example.com/article"), undefined);
 });
+
+test("새 섹션명 '업무 적용 Case'도 agent 종류로 분류된다", () => {
+  const r = parseIssueBody(`# t
+
+## 업무 적용 Case
+
+- [ ] **테스트 항목** — 개요. [출처](https://a.com)
+    - **도구**: Claude Code
+`);
+  assert.equal(r.sections[0].kind, "agent");
+  assert.equal(r.sections[0].title, "업무 적용 Case");
+});
+
+test("구 섹션명(★최우선)도 계속 agent로 분류되고 ★ 표기는 제거된다", () => {
+  const r = parseIssueBody(`# t
+
+## 에이전트 구축 · 업무 자동화 ★최우선
+
+- [ ] **구 항목** — 개요. [출처](https://a.com)
+`);
+  assert.equal(r.sections[0].kind, "agent");
+  assert.ok(!r.sections[0].title.includes("★"));
+});

@@ -59,7 +59,7 @@ Karpathy는 글보다 **저장소로 말한다** — `autoresearch`(루프 엔�
 https://api.github.com/users/karpathy/repos?sort=updated&per_page=5
 ```
 
-새 저장소가 뜨거나 스타가 급증하면 ★최우선 후보로 검토한다.
+새 저장소가 뜨거나 스타가 급증하면 "업무 적용 Case" 후보로 검토한다.
 
 ## 국내 AX 블로그 (2026-08-17 추가)
 
@@ -70,7 +70,7 @@ https://api.github.com/users/karpathy/repos?sort=updated&per_page=5
 대체재로 채택 — LinkedIn과 달리 날짜순 실측 가능하고 직접 fetch 차단이 없다.
 
 - 발행 빈도가 높고 개별 글이 짧은 잠언형이 많다 — **전부 페이지화하지 말 것**. 구체적인
-  도구·업무·성과가 드러나는 글(예: 특정 Skill 소개, 실측 수치 포함 글)만 ★최우선 후보로
+  도구·업무·성과가 드러나는 글(예: 특정 Skill 소개, 실측 수치 포함 글)만 "업무 적용 Case" 후보로
   검토하고, 나머지는 "빅 뉴스"나 "커뮤니티 화제"에 한 줄로 싣거나 생략한다.
 
 ## 커뮤니티
@@ -135,7 +135,7 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-07-15) | 8채널(조코딩·Jeff Su·장피엠·지피터스·kooky0ai·Ben AI·Liam Ottley·Dan Martell·Varun Mayya) RSS 정상 조회 확인. Jeff Su·Ben AI·Liam Ottley·장피엠·지피터스는 최신 업로드가 06-30~07-02로 정체 — 매 스캔 최신일 재확인 필요. AI Edge는 계속 미해결. |
 | (2026-07-16) | 9채널 RSS 재확인. Dan Martell·Varun Mayya·조코딩·kooky0ai는 07-12~07-15 업로드로 활발. Jeff Su·Ben AI·Liam Ottley·장피엠·지피터스는 여전히 06-30~07-08 최신 업로드로 정체 지속. **old.reddit.com `.json` 엔드포인트는 이 User-Agent로 HTTP 403 차단 확인**(RSS/HTML 페이지는 정상) — 게시글 본문이 필요하면 `.rss` 또는 HTML 퍼머링크(`curl -A ... <permalink>/`)로 우회하고 `class="md"` 블록을 파싱할 것. 또한 old.reddit RSS는 연속 요청 시 HTTP 429가 잦다 — 요청 간 5~10초 이상 간격 권장. |
 | (2026-07-18) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). Ben AI가 07-18 당일 업로드로 갱신, Dan Martell·Varun Mayya는 07-17~07-19대 업로드로 활발. HN은 `search_by_date` + `numericFilters=created_at_i>유닉스타임` 조합이 최근 N시간 필터링에 효과적(단순 `search_by_date`만 쓰면 관련성 낮은 결과가 섞임). old.reddit RSS 429는 8~15초 간격 재시도로 우회 가능했음(사이트 전반 부하에 따라 변동). |
-| (2026-07-20) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). 조코딩·Dan Martell이 07-19 당일 업로드로 활발, Varun Mayya 07-18. YouTube 영상 설명(`media:description`)이 제목만 반복하고 실질 내용이 없는 경우가 늘어(특히 쇼츠성 업로드) — 이런 경우 특정 AI Tool 확인이 안 되면 ★최우선 승격을 보류할 것. 커뮤니티는 이번에도 연속요청 시 HTTP 429/000(타임아웃)이 반복 — r/ClaudeAI·r/AI_Agents는 12~25초 간격 재시도로 확보, r/OpenAI는 재시도 끝에 확보했으나 r/singularity 첫 시도만 성공(재시도 불필요). r/ChatGPTCoding은 당일 top 글이 실제로 0건(빈 피드, 정상 응답 확인). |
+| (2026-07-20) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). 조코딩·Dan Martell이 07-19 당일 업로드로 활발, Varun Mayya 07-18. YouTube 영상 설명(`media:description`)이 제목만 반복하고 실질 내용이 없는 경우가 늘어(특히 쇼츠성 업로드) — 이런 경우 특정 AI Tool 확인이 안 되면 "업무 적용 Case" 승격을 보류할 것. 커뮤니티는 이번에도 연속요청 시 HTTP 429/000(타임아웃)이 반복 — r/ClaudeAI·r/AI_Agents는 12~25초 간격 재시도로 확보, r/OpenAI는 재시도 끝에 확보했으나 r/singularity 첫 시도만 성공(재시도 불필요). r/ChatGPTCoding은 당일 top 글이 실제로 0건(빈 피드, 정상 응답 확인). |
 | (2026-07-29) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). old.reddit RSS 429가 이번엔 특히 심해 15~30초 간격을 둬야 통과됨(짧은 간격 재시도는 계속 실패) — `t=week`로 받아 `updated` 필드로 최근 날짜만 필터링하는 방식이 `t=day`보다 안정적이었다(day는 활동이 적은 서브에서 공백일 수 있음). 개별 게시물 본문은 HTML 퍼머링크에서 `class="md"` 블록을 정규식으로 추출하는 방식이 여전히 유효(댓글 자동요약 블록도 같은 클래스로 잡힘, 두 번째 매치가 보통 TL;DR). |
 | (2026-07-30) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge 계속 미해결). r/ChatGPTCoding은 `t=day`·`t=week` 모두 빈 피드로 확인(서브레딧 자체 활동 저조, 정상 응답). r/AI_Agents·r/singularity는 429 후 15~20초 재시도로 확보. HN Algolia `search?tags=front_page`가 그날 화제 파악에 `search_by_date`보다 빠르고 안정적이었음(포인트 상위 항목이 바로 보임). |
 | (2026-08-07) | AI Frontier Korea를 `channelMetadataRenderer.externalId`로 재검증, `@chester_roh` 핸들도 동일 채널(UCz-BiVywYdO6iXhjXkw_Kgw)로 확인 — 두 URL 중 아무거나 써도 됨, 표에는 정식 채널 URL만 남김. |
