@@ -664,6 +664,23 @@ CLAUDE.md에 **인물 발언 인용 규칙** 신설: 2차 전파를 출처로 �
 전혀 없음**을 확인. CLAUDE.md 기준상 "인물 영입"에 해당하는 지속적 사실이라 페이지화 대상이나,
 X 원문을 읽을 수 없어(402) HN 제목만으로 페이지를 만들지 않고 보류 — 사용자 보고 후 별도 처리.
 
+## [2026-08-18] ingest | Karpathy Anthropic 합류(05-19) 소급 반영 + 스캔 전 git pull 규칙 신설
+
+전날 구루 소스 검증 중 발견한 공백을 메움. **Karpathy의 Anthropic 합류(2026-05-19)**가 3개월간
+위키에 없었다 — CLAUDE.md 기준 "인물 영입"에 해당하는 지속적 사실인데 누락. 원문이 X라
+직접 조회 불가(402)여서 TechCrunch·CNBC·Axios 3개 매체 + HN 스레드(1,431점)로 교차 검증해
+[[2026-05-19-karpathy-joins-anthropic]] 생성. 확인된 사실: 프리트레이닝 팀 합류, Nick Joseph
+보고, "Claude로 프리트레이닝 연구를 가속하는" 팀 신설이 역할, Eureka Labs는 일단 접어둠
+(본인 발언 "때가 되면 교육 일을 다시 이어갈 계획"). timeline에 2026-05 섹션 신설(92→93건),
+players/anthropic·index·loop-engineering 교차링크 추가 — 3월 autoresearch가 개인 실험이 아니라
+프론티어 랩 연구 방향이 된 맥락으로 연결.
+
+**구조적 수정**: 사용자 질문("iMac에도 반영됐나?")을 계기로 확인한 결과 스케줄 작업 SKILL.md와
+CLAUDE.md 어디에도 **스캔 전 git pull 지시가 없었다.** iMac은 push가 거부될 때만 반응적으로
+merge하므로, 규칙 변경이 실제 스캔에 반영되기까지 최대 하루가 밀린다(08-07 LinkedIn 누락의
+진짜 구조적 원인). CLAUDE.md 워크플로우에 **0-A단계 `git pull --rebase origin main`**을 신설.
+단 이 수정 자체도 iMac이 한 번 pull해야 효력이 생기므로 사용자에게 수동 pull 1회를 요청함.
+
 ## [2026-08-19] scan | 항목 9건, 반영 6건
 
 공백 없음(전일 08-18 확인). ★최우선 2건 모두 AX LABS 블로그 신규 글에서 발굴: (1)

@@ -4,7 +4,7 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (06-18 ~ 08-19, 95건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-19, 102건)
 
 ## 2026-08
 
@@ -115,3 +115,7 @@ date: 2026-07-07
 - **06-22** — DeepMind 핵심 인재 연쇄 이탈, Alphabet 시총 $270B 증발 → [[2026-06-22-google-deepmind-talent-exodus]]
 - **06-22** — ChatGPT 광고, 일본·한국 Free/Go 요금제에 도입 → [[2026-06-22-openai-chatgpt-ads-japan-korea]]
 - **06-18** — Gemini CLI 강제 종료·Antigravity CLI 전환, 오픈소스 커뮤니티 반발 → [[2026-06-18-google-antigravity-cli-transition]]
+
+## 2026-05
+
+- **05-19** — Andrej Karpathy(OpenAI 공동창립자·전 Tesla AI 총괄), Anthropic 프리트레이닝 팀 합류 — "Claude로 프리트레이닝 연구를 가속하는" 팀 신설, Nick Joseph 보고. OpenAI 공동창립자급이 직접 경쟁사로 간 첫 사례(HN 1,431점) → [[2026-05-19-karpathy-joins-anthropic]]

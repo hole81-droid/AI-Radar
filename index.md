@@ -40,6 +40,7 @@
 - [[2026-06-30-claude-sonnet-5]] — Sonnet 5 출시, Opus급 성능 절반 가격 (high)
 - [[2026-06-30-claude-science]] — 과학 연구 워크벤치 Claude Science (high)
 - [[2026-06-23-claude-tag]] — Slack 상주 AI 팀메이트 Claude Tag (high)
+- [[2026-05-19-karpathy-joins-anthropic]] — Andrej Karpathy, 프리트레이닝 팀 합류 — "Claude로 프리트레이닝 연구를 가속하는" 팀 신설. OpenAI 공동창립자급이 경쟁사로 간 첫 사례 (high)
 
 ### OpenAI
 - [[2026-08-18-openai-chatgpt-for-teens]] — 13~17세 안전 강화 계정 "ChatGPT for Teens" 출시, 자해 세이프가드·부모 통제·Study Mode 확대 (high)

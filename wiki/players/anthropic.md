@@ -25,7 +25,7 @@ source: https://www.anthropic.com/news
 - **7/2 — CJS 탈옥 심각도 프레임워크 공개**: 사이버 세이프가드 상세와 탈옥 등급 척도(CJS-0~4)를 업계 표준으로 제안. → [[2026-07-02-claude-cyber-jailbreak-framework]]
 - **7/3 — Claude Enterprise 지출 통제**: 예산 한도·모델별 권한·Admin API 등 기업 비용 거버넌스 기능. → [[2026-07-03-claude-enterprise-spend-controls]]
 - **7/9 — Ben Bernanke가 Long-Term Benefit Trust 합류**: 전 연준의장을 독립 감독기구 4번째 멤버로 영입, AI의 거시경제 영향 추적 역할. → [[2026-07-09-anthropic-bernanke-oversight-trust]]
-- **7/13 — 최상급 연구자 4명 영입**: DeepMind 출신 Nobel 수상자 John Jumper·Jonas Adler·Alexander Pritzel, UC Berkeley EECS 학과장 Jelani Nelson을 2주 만에 흡수. → [[2026-07-13-anthropic-hires-top-researchers]]
+- **7/13 — 최상급 연구자 4명 영입**: DeepMind 출신 Nobel 수상자 John Jumper·Jonas Adler·Alexander Pritzel, UC Berkeley EECS 학과장 Jelani Nelson을 2주 만에 흡수. → [[2026-07-13-anthropic-hires-top-researchers]] (이 인재 영입 흐름의 출발점은 5/19 Karpathy 합류다 → [[2026-05-19-karpathy-joins-anthropic]])
 - **7/14 — "Claude for Teachers" 출시**: 미국 K-12 교사 전원에 프리미엄 1년 무료, Claude Code·Cowork·50개 주 교육과정 커넥터 포함. → [[2026-07-15-claude-for-teachers]]
 - **7/14 — 캐나다 AI 연구기관 8곳에 $10M Claude 크레딧 지원**: Mila·Vector Institute·Amii 등에 기관당 $1M, 연구 방향에는 관여 안 함. → [Anthropic](https://www.anthropic.com/news/canadian-ai-research)
 - **7/15 — IPO 투자자 미팅 시작**: Goldman Sachs·Morgan Stanley·JPMorgan 주관, 10월 목표 상장 거론. SEC에 비공개 IPO 신청서 제출 상태. → [[2026-07-15-anthropic-ipo-investor-meetings]]

@@ -34,6 +34,10 @@ source: https://adtmag.com/articles/2026/07/01/loop-engineering-emerges-as-devel
 군집으로 autoresearch할 수 있다", "모든 프론티어 랩이 이걸 할 것 — 최종 보스전"이라고 덧붙였다.
 Fortune 등 주요 매체가 이를 **"The Karpathy Loop"**로 명명해 보도했다(2026-03-17).
 
+> 참고: Karpathy는 이로부터 두 달 뒤인 2026-05-19에 **Anthropic 프리트레이닝 팀에 합류**해
+> "Claude로 프리트레이닝 연구를 가속하는" 팀을 맡았다 — autoresearch가 개인 실험이 아니라
+> 프론티어 랩의 실제 연구 방향이 된 셈이다. → [[2026-05-19-karpathy-joins-anthropic]]
+
 **② 형식화 — Andrew Ng "Three Key Loops" (The Batch, 2026-06-26)**
 
 Ng은 0→1 제품 개발을 세 겹의 루프로 정리했다: **에이전틱 코딩 루프**(분 단위 — 명세와 eval을
