@@ -740,3 +740,33 @@ r/AI_Agents·r/singularity·r/ChatGPTCoding·r/OpenAI·r/LocalLLaMA RSS는 이�
 빈 응답(0바이트)만 반환해 접근 실패, r/ClaudeAI만 두 번째 재시도에서 확보. Karpathy
 개인 블로그 RSS도 403 Forbidden으로 접근 실패(반복 관찰 시 sources.md 갱신 검토 필요).
 HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 신규 히트 없음(기존 항목만 재확인).
+
+## [2026-08-21] scan | 항목 7건, 반영 7건
+
+업무 적용 Case 3(Asana×Codex 병렬 에이전트로 "5년→2주" 테스트 마이그레이션 — 비용
+$6M→$12,000 벤더 주장, HN 회의론 병기 / Latent Space "/wayfinder" Claude Code 기획
+스킬 — Matt Pocock, 맵·티켓·세션 구조 / AX LABS의 Slack CPO "에이전트를 팀원으로 쓰는
+5원칙"), 빅 뉴스 3(Salesforce Slack Code 출시 — Claude Code·Devin·v0·Copilot·ChatGPT
+공동 지원 / Pew·CNBC 여론조사 AI 우려 37%→52%·Dario Amodei "신뢰의 위기" 인정 /
+Google "Ask Gemini in Chat" 8/26 출시), 커뮤니티 화제 1(Slack Code 발표에 대한 HN
+회의론 — "마케팅 카피만 요란", "생태계 피로"). YouTube 픽은 신규 실질 콘텐츠를 확인하지
+못해 "특이사항 없음"으로 남김(장피엠 slide-master 08-15자 영상은 기존 반영분과 중복,
+조코딩 쇼츠는 설명란에 실질 내용 없어 보류).
+
+신규 use-case 페이지 3건([[asana-openai-codex-enzyme-migration]] ·
+[[latent-space-wayfinder-claude-code-skill]] ·
+[[theaxlabs-slack-cpo-ai-teammate-principles]]), 신규 updates 페이지 2건
+([[2026-08-20-salesforce-slack-code-launch]] ·
+[[2026-08-19-google-gemini-chat-workspace-intelligence]]) 생성. 기존
+wiki/players/anthropic·wiki/tools/claude-code·wiki/tools/gemini·timeline(102→104건)·
+index·case-catalog(68→71건) 갱신. Pew 여론조사 건은 "지속적 사실"이 아닌 단발성
+스냅샷으로 판단해 별도 페이지 대신 anthropic.md 본문에만 기록.
+
+특이사항: **old.reddit.com RSS가 이번엔 429/0바이트가 아니라 로그인 페이지로 302
+리다이렉트** — r/ClaudeAI·r/AI_Agents·r/ChatGPTCoding 전부 동일 증상, 봇 차단이
+강화된 것으로 추정(다음 스캔에서 재확인 필요). 커뮤니티 화제는 대신 HN Algolia
+`search_by_date`(query=codex/claude+agent, points 임계값 포함)로 대체 확보 — Slack
+Code·Asana 스레드 모두 이 경로로 발견. Karpathy 개인 블로그 RSS는 08-20에 이어 이번에도
+403(2회 연속, 접근 불가 소스로 간주 검토). HN 인물쿼리(karpathy·"Andrew Ng", points>50)는
+신규 히트 없음. Bash 샌드박스에서 `python3` 인라인 스크립트 실행이 거부돼 JSON 파싱은
+grep/tr로 우회. sources.md RSS 캐시에 08-21 항목 추가.

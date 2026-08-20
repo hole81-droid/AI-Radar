@@ -59,6 +59,8 @@ uses: [course, ax]
 - [[reddit-lloyd-claude-code-loop-orchestrator]] — Claude Code로 heartbeat 루프 오케스트레이터(cron-routines)를 활용해 고객 이메일 트리아지·문서 점검·로그 모니터링·자체 티켓 관리를 수행 → SQLite DB로 600여 건 자체 관리 (일화, 개인 프로젝트)
 - [[codex-gpu-kernel-232x-autoresearch]] — Codex(GPT-5.5)로 `/goal` 장기 실행 루프+서브에이전트+빔서치(cli-pipeline)를 활용해 GPU 커널(배치 QR 분해) 최적화를 수행 → 232배 속도 향상, 공개 리더보드 183명 중 12위 (실측, 개인 프로젝트)
 - [[theaxlabs-harness-r1-failure-driven-editing]] — Claude(Claude Code)로 실패 로그 기반 4단계 루틴(cron-routines)을 활용해 에이전트 하네스(프롬프트·체크포인트·에러복구) 주간 자가개선을 수행 → 참고 논문 기준 성공률 +9.3%p(Claude Code 적용판 실측은 미확인) (주장)
+- [[asana-openai-codex-enzyme-migration]] — Codex(subagents 4개 병렬)로 Enzyme→React Testing Library 프론트엔드 테스트 마이그레이션을 수행 → 5년 추정→2주(비용 $6M→$12,000, 약 500배), HN은 원 추정치 신뢰성에 회의론 (주장, 벤더 공식 발표)
+- [[latent-space-wayfinder-claude-code-skill]] — Claude Code Skill `/wayfinder`(skills)로 맵·티켓·세션 계층 구조를 활용해 목표 불분명한 프로젝트 기획을 수행 → 20년 치 콘텐츠 개인 웹사이트 재설계에 적용(정량 성과 미확인) (일화)
 
 ## 보안·운영 (ops)
 
@@ -74,6 +76,7 @@ uses: [course, ax]
 - [[gstack-meeting-personas-claude-code-brain]] — Claude Code(skills+subagents)로 gstack 페르소나+AgentCall 회의봇을 결합해 화상회의 중 전문가 관점(CEO·QA·보안 등 19종) 투입을 수행 → 봇은 무지능 셸, Claude Code 세션이 유일한 두뇌 (일화, 프로토타입 단계)
 - [[gpt-5-6-sol-autonomous-business-failure]] — ★실측 벤치마크 케이스(반면교사). ChatGPT(GPT-5.6 Sol)로 Computer-Use MCP+웹검색+이메일+결제 API 전권 위임을 활용해 실제 앱 서비스 24시간 자율 운영을 수행 → 신규매출 $0, 순자산 $350→$250.50, 가짜 테스터 구매·스팸·6회 가격급락 등 유해행동 발생 (실측)
 - [[theaxlabs-ai-native-operating-system-6-steps]] — 모델 계층화 라우팅(소형/중형/프론티어)으로 업무매핑→데이터모델→에이전트배치→백그라운드자동화 6단계를 활용해 중소기업 전 업무 운영체제 재구축을 수행 → 창고·물류사 AI 비용 80%+↓·450개 프로젝트 통합·인당 주당 60시간 절감 (주장)
+- [[theaxlabs-slack-cpo-ai-teammate-principles]] — Claude(second-brain+cron-routines)로 Slack 채널 대화·회의 로그 지식베이스화+일일 브리핑을 활용해 에이전트를 "팀원"으로 운영하는 5원칙을 수행 → 정성적 원칙 중심, 정량 성과 수치 없음 (주장)
 
 ## 마케팅 (marketing)
 
@@ -214,3 +217,16 @@ USAspending API 조회+NAICS 코드 교차필터링, 담당자 탐색 구간만 
 자동화, 아웃리치는 에이전트 자체 메일함에서 자율 처리 — sales·claimed, 필터 통과 12건 중
 계약 3건 성사. "구조화 데이터는 API로, 없는 구간만 브라우저 에이전트로" 하이브리드 설계가
 핵심 교훈. 이메일 벤더의 고객 사례 홍보 성격이라 제3자 검증 없음을 명시).*
+
+*2026-08-21 추가(71건): [[asana-openai-codex-enzyme-migration]](OpenAI 공식 사례, Codex
+에이전트 최대 4개 병렬 실행으로 Enzyme→React Testing Library 마이그레이션 — 5년 추정→
+2주, $6M→$12,000 약 500배 절감. dev-automation·claimed. HN에서는 원 추정치 자체의
+신뢰성과 코드 품질 동등성 검증 불가를 지적하는 회의론이 강해 페이지에 그대로 병기했다) ·
+[[latent-space-wayfinder-claude-code-skill]](Latent Space, Matt Pocock이 만든 Claude
+Code Skill `/wayfinder` — 맵·티켓·세션 계층 구조로 목표 불분명한 프로젝트 기획을 관리.
+dev-automation·anecdotal, 벤치마크 수치 없는 개인 도구) ·
+[[theaxlabs-slack-cpo-ai-teammate-principles]](AX LABS, Slack CPO Jaime DeLanghe의
+Anthropic 인터뷰를 정리한 "에이전트를 팀원으로 쓰는 5원칙" — ops·claimed, 정량 수치
+없는 원칙 중심 콘텐츠. 같은 날 발표된 Salesforce Slack Code 출시와 문제의식이 이어짐).
+세 건 모두 원문(공식 발표·구루 채널·AX 블로그)을 정독해 반영했고, Asana 사례는 벤더
+주장 수치에 커뮤니티 반박까지 함께 실어 균형을 맞췄다.*

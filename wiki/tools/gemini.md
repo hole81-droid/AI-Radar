@@ -48,6 +48,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-07-16~26**: Workspace 확장 — Google Vids에 Gemini Omni(텍스트 프롬프트 영상 생성·편집, 개인 아바타) 탑재, Google Docs의 Gemini 지원 언어가 중국어·네덜란드어 등 11개 추가(유료 구독자 대상, 순차 롤아웃). 동시에 차기 **Gemini 4** 관련 티저가 이어지며 "더 큰 베이스 모델이 있어야 프론티어 경쟁이 가능하다"는 관측이 나옴 — [9to5Google](https://9to5google.com/2026/07/26/google-gemini-4-teases/), [Chrome Unboxed](https://chromeunboxed.com/google-docs-is-getting-a-big-gemini-upgrade-with-support-for-11-new-languages/)
 
 - **2026-07-30** — Gemini Robotics 2 공개 — 휴머노이드 전신(발끝~손끝) 조율+다중 로봇 협업 3종 모델 패밀리, 새 로봇 기종 적응에 수 시간 → [[2026-07-31-google-gemini-robotics-2-launch]]
+- **2026-08-19** — **"Ask Gemini in Chat"** 발표(8/26부터 순차 출시) — Google Chat이 Workspace Intelligence 기반 통합 명령줄로, Gmail·Drive·Calendar 검색부터 문서·슬라이드 생성, 회의 예약까지 채팅 안에서 처리. Asana·Jira·Salesforce 커넥터 확장 → [[2026-08-19-google-gemini-chat-workspace-intelligence]]
 
 ## 활용 포인트
 

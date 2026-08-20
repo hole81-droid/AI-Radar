@@ -4,10 +4,14 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-19, 102건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-20, 104건)
 
 ## 2026-08
 
+- **08-20** — Salesforce(Slack), 팀 채널에서 Claude Code·Devin·v0·Copilot·ChatGPT 등 여러 벤더 에이전트를 함께 쓰는 **Slack Code** 출시 — 코딩 에이전트가 "개인 도구"에서 "팀 협업 플랫폼 상주 주체"로 이동하는 신호, HN 반응은 회의적 → [[2026-08-20-salesforce-slack-code-launch]]
+- **08-20** — Asana, Codex 에이전트 최대 4개 병렬 실행으로 "5년 추정" Enzyme→RTL 테스트 마이그레이션을 2주 만에 완료했다고 발표 — 비용 $6M 추정→$12,000(약 500배), HN에서는 원 추정치 신뢰성 자체에 회의론 → [[asana-openai-codex-enzyme-migration]]
+- **08-19(보도)** — Pew·CNBC·Economist/YouGov 여론조사에서 미국인의 AI 우려가 5년 새 37%→52%로 상승, Anthropic CEO Dario Amodei가 "신뢰의 위기"를 공개 인정 → [[anthropic]]
+- **08-19** — Google, Google Chat에 Workspace 전체를 아우르는 **"Ask Gemini in Chat"** 발표(8/26 출시) — Workspace Intelligence 기반 통합 명령줄 → [[2026-08-19-google-gemini-chat-workspace-intelligence]]
 - **08-19** — Anthropic, Compliance API를 Cowork·Claude Code 전체(데스크톱·웹·모바일·CLI)로 확장 — 보안팀이 세션 콘텐츠·메타데이터를 통합 조회해 감사·eDiscovery 대응 → [[2026-08-19-anthropic-compliance-api-cowork-claude-code]]
 - **08-19** — Meta, Meta AI 전용 Mac 데스크톱 앱 출시 — 화면 공유 기반 어시스턴트 + Google Workspace 연동, 크리에이터·소상공인 타겟 → [[2026-08-19-meta-ai-mac-desktop-app]]
 - **08-18** — OpenAI, "ChatGPT for Teens" 출시 — 13~17세 안전 강화 계정 자동 전환, 부모 통제·자해 세이프가드·Study Mode 확대 → [[2026-08-18-openai-chatgpt-for-teens]]

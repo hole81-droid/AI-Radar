@@ -57,6 +57,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 
 - **2026-08-05**: Meta가 자체 코딩 에이전트 **Muse Code**(Muse Spark 1.2 기반) 베타를 출시, Claude Code·Codex를 직접 겨냥 — 터미널 코딩 에이전트 시장이 사실상 3파전(Anthropic·OpenAI·Meta)으로 재편됐다. → [[2026-08-05-meta-muse-code-launch]]
 - **2026-08-11**: SpaceX·xAI·Cursor 합병 법인이 상시 작동 에이전트 팀 제품 **Grok Bot**을 출시, 코딩을 넘어 사무 업무 전반에서 Claude Cowork와 정면 경쟁 — "AI 에이전트 팀"이 코딩 도구 4파전(Anthropic·OpenAI·Meta·SpaceXAI)을 넘어 사무 자동화로도 번지는 신호. → [[2026-08-11-spacexai-grok-bot-launch]]
+- **2026-08-20**: Salesforce(Slack)가 팀 채널에서 여러 벤더의 코딩 에이전트를 함께 쓰는 **Slack Code**를 출시 — Claude Code·Claude Tag가 Devin·v0·Copilot·ChatGPT와 나란히 지원 대상에 포함됐다. Claude Code가 Slack이라는 제3자 협업 플랫폼의 "인정된 에이전트" 목록에 오른 사례. → [[2026-08-20-salesforce-slack-code-launch]]
 
 ## 운영 참고사항
 
