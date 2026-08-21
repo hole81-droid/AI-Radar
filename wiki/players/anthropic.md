@@ -155,6 +155,13 @@ status.claude.com에 인시던트 등록(q7txxvbsftgq). [[2026-08-05-anthropic-c
 7.5시간 장애]]에 이어 반복되는 안정성 이슈 패턴의 연장. 같은 날 Claude Code 주간
 사용량 50% 임시 증량 조치도 8/19까지로 연장됐다.
 
+**8/18 — Claude Science 연구: 단백질 결합체 설계 자동화, 업계 대비 2배 적중률**: Claude
+Opus 4.8·Mythos Preview가 자율적으로 단백질 설계 소프트웨어를 오케스트레이션해 15개 타깃
+중 14개에서 결합체를 완성, 적중률 22.6~35.1%(업계 통상 10~15%). Adaptyv Bio·Twist
+Bioscience가 습식 실험실에서 독립 검증. [[2026-08-10-claude-riemann-hypothesis-research]]·
+[[2026-07-20-claude-fable-jacobian-conjecture]]에 이은 "AI 과학 연구 가속" 시리즈가
+생물학으로 확장. → [[2026-08-18-claude-science-protein-design-research]]
+
 **8/19(보도) — "신뢰의 위기" 인정**: TechCrunch가 정리한 여론조사 모음에서 미국인의
 AI 우려가 뚜렷이 커지고 있다는 데이터가 나왔다 — Pew Research "AI 확산에 흥분보다
 우려가 크다" 응답 37%(2021)→52%(2026), CNBC 조사에서 18~34세 다수가 AI 업계
@@ -166,6 +173,19 @@ AI 우려가 뚜렷이 커지고 있다는 데이터가 나왔다 — Pew Resear
 Chesky도 "돈이 없어 못 받던 진료를 AI로 대신할 수 있어 AI를 사랑한다"처럼 일반인이
 체감할 제품이 필요하다고 거들었다. → (페이지 미생성, 여론조사 스냅샷 성격이라 뉴스레터·
 이 문단에만 기록)
+
+**8/20 — 무료 학습 허브 "Claude Academy" 오픈**: 사내 직원 트레이닝 방식을 그대로 옮긴
+온라인 코스 약 20종을 신용카드 없이 무료 제공, 수료 인증서 발급. Claude 101부터 API·
+Claude Code 심화까지. [[2026-07-15-claude-for-teachers]](K-12 교사 대상)와 달리 일반
+사용자·개발자 대상 자체 커리큘럼. → [[2026-08-20-claude-academy-launch]]
+
+**8/21 — Claude Mythos 5 사이버보안 방어역량을 오픈소스·정부까지 확장 + $35M 펀드**:
+엔터프라이즈 취약점 스캔(Claude Security)·서드파티 통합·오픈소스 메인테이너 지원
+크레딧(Defender Advantage Fund)·검증 프로그램 확대를 동시 발표. 모델 직접 조종은 막고
+스캔 결과·패치안 등 "특정 산출물"만 제공하는 방식으로 오남용 제한, 사람 검토 필수화.
+[[2026-07-02-claude-cyber-jailbreak-framework]]·
+[[2026-07-28-claude-mythos-post-quantum-crypto-break]]에 이어 "공격보다 방어에 AI를
+먼저"라는 메시지의 연장. → [[2026-08-21-claude-security-defender-advantage-fund]]
 
 ## 해석
 

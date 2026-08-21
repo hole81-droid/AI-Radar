@@ -11,3 +11,8 @@ AI radar/
 
 # 첨부 발송용 산출물 묶음 (로컬 전용)
 _outbox/
+
+# 스캔 중 생성되는 fetch 스크래치 캐시 (위키 콘텐츠 아님, 로컬 전용)
+.scratch/
+tmp_scan/
+raw/*/tmp/

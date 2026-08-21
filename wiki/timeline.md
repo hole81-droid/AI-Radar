@@ -4,10 +4,13 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-20, 104건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-21, 107건)
 
 ## 2026-08
 
+- **08-21** — Anthropic, Claude Mythos 5 사이버보안 방어역량을 오픈소스·정부까지 확장 — 엔터프라이즈 취약점 스캔·서드파티 통합·오픈소스 메인테이너 지원 $35M 크레딧 펀드(Defender Advantage Fund)·검증 프로그램 확대 동시 발표 → [[2026-08-21-claude-security-defender-advantage-fund]]
+- **08-21(HN화제)** — 개인 개발자, 셀프호스팅 샌드박스에서 Codex+Hermes 에이전트로 프롬프트 1회→프로덕션 배포까지 완주 — 승인 게이트 대신 네트워크 격리로 완전 자율 실행 리스크 통제 → [[jakesaunders-self-hosted-agentic-software-factory]]
+- **08-20** — Anthropic, 무료 학습 허브 "Claude Academy" 오픈 — 사내 트레이닝 방식을 그대로 옮긴 코스 20종, 신용카드 없이 무료+수료 인증서 → [[2026-08-20-claude-academy-launch]]
 - **08-20** — Salesforce(Slack), 팀 채널에서 Claude Code·Devin·v0·Copilot·ChatGPT 등 여러 벤더 에이전트를 함께 쓰는 **Slack Code** 출시 — 코딩 에이전트가 "개인 도구"에서 "팀 협업 플랫폼 상주 주체"로 이동하는 신호, HN 반응은 회의적 → [[2026-08-20-salesforce-slack-code-launch]]
 - **08-20** — Asana, Codex 에이전트 최대 4개 병렬 실행으로 "5년 추정" Enzyme→RTL 테스트 마이그레이션을 2주 만에 완료했다고 발표 — 비용 $6M 추정→$12,000(약 500배), HN에서는 원 추정치 신뢰성 자체에 회의론 → [[asana-openai-codex-enzyme-migration]]
 - **08-19(보도)** — Pew·CNBC·Economist/YouGov 여론조사에서 미국인의 AI 우려가 5년 새 37%→52%로 상승, Anthropic CEO Dario Amodei가 "신뢰의 위기"를 공개 인정 → [[anthropic]]
@@ -17,6 +20,7 @@ date: 2026-07-07
 - **08-18** — OpenAI, "ChatGPT for Teens" 출시 — 13~17세 안전 강화 계정 자동 전환, 부모 통제·자해 세이프가드·Study Mode 확대 → [[2026-08-18-openai-chatgpt-for-teens]]
 - **08-18** — Anthropic, 다중 모델(Mythos 5·Fable 5·Opus 5·Sonnet 5·Haiku 4.5) 성능 저하 장애 — Downdetector 4,000건+ 신고, [[2026-08-05-anthropic-custom-silicon-chip-team|8/5 7.5시간 장애]]에 이은 반복 패턴 → [[anthropic]]
 - **08-18** — Claude Cowork, 전 유료 플랜(Pro 포함) 모바일·웹 롤아웃 완료 → [[2026-08-12-claude-cowork-chrome-integration]]
+- **08-18** — Claude(Opus 4.8·Mythos Preview), 단백질 결합체 설계 자동화에서 업계 통상치 대비 약 2배 적중률(22.6~35.1%) 달성 — 15개 타깃 중 14개 성공, Adaptyv Bio·Twist Bioscience 독립 검증 → [[2026-08-18-claude-science-protein-design-research]]
 - **08-17** — Reddit에서 Claude 연방 조달 데이터 기반 건설 하도급 리드 발굴 자동화 사례 화제(필터 12건 중 계약 3건 성사) → [[federal-contract-leadgen-claude-browser-automation]]
 - **08-16** — Stripe, AI 모델 게이트웨이 OpenRouter를 $7B+에 인수 확정 — 3개월 전 $1.3B 밸류에이션 대비 5배 이상, 결제사가 AI 모델 라우팅 레이어까지 확장 → [[2026-08-16-stripe-openrouter-acquisition]]
 - **08-16** — Anthropic 워터마크(8/11) 후속: 커뮤니티가 FAQ 재검토 — 현재 쓸 수 있는 모델은 전부 마킹 대상 밖, 탐지 API도 아직 미공개 → [[2026-08-11-anthropic-ai-content-watermarking]]

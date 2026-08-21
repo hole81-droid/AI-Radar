@@ -770,3 +770,32 @@ Code·Asana 스레드 모두 이 경로로 발견. Karpathy 개인 블로그 RSS
 403(2회 연속, 접근 불가 소스로 간주 검토). HN 인물쿼리(karpathy·"Andrew Ng", points>50)는
 신규 히트 없음. Bash 샌드박스에서 `python3` 인라인 스크립트 실행이 거부돼 JSON 파싱은
 grep/tr로 우회. sources.md RSS 캐시에 08-21 항목 추가.
+
+## [2026-08-22] scan | 항목 8건, 반영 8건
+
+업무 적용 Case 2(개인 블로그, Codex+Hermes 에이전트 프레임워크로 셀프호스팅 샌드박스
+환경에서 프롬프트 1회로 SDLC 전 과정 무인 완주 — 승인 게이트 대신 네트워크 격리로
+리스크 통제 / GitHub, Claude Code Skill NoBuzz가 Gemini CLI로 응답을 재통과시켜
+장황한 톤을 고치는 크로스 모델 파이프라인), 빅 뉴스 3(Anthropic 무료 학습 허브
+"Claude Academy" 오픈 / Claude Opus 4.8·Mythos Preview 단백질 결합체 설계 자동화
+업계 대비 2배 적중률, 독립 검증 / Claude Mythos 5 사이버보안 방어역량 오픈소스·정부
+확장+Defender Advantage Fund $35M), 커뮤니티 화제 3(의사코드 기반 AI 코딩 에디터
+Huzzah HN 358점 / "Codex를 일주일 더 써보니" Claude 비교 후기 HN 59점 / Codex AWS
+Bedrock 연동 버그로 요금 10배 청구 사고 HN 145점). YouTube 픽은 등록 채널 9곳(AI
+Edge 제외) 전수 확인 결과 에이전트 구축·자동화 관련 신규 실질 콘텐츠 없어 "특이사항
+없음"으로 남김.
+
+신규 use-case 페이지 2건([[jakesaunders-self-hosted-agentic-software-factory]] ·
+[[nobuzz-claude-code-gemini-debuzz-skill]]), 신규 updates 페이지 3건
+([[2026-08-20-claude-academy-launch]] · [[2026-08-18-claude-science-protein-design-research]] ·
+[[2026-08-21-claude-security-defender-advantage-fund]]) 생성. 기존 wiki/players/anthropic·
+timeline(104→107건)·index·case-catalog(71→73건) 갱신. 08-18 단백질 설계 연구는 공식
+발표일 기준 소급 반영(WebSearch로 08-22 스캔 중 확인, 이전 스캔에서 누락됐던 항목).
+
+특이사항: **old.reddit.com RSS가 3일 연속(08-20·08-21·08-22) 6개 서브레딧 전부 HTTP
+302 로그인 리다이렉트** — 상시 봇 차단으로 간주, 커뮤니티 수집은 HN Algolia
+front_page(48시간 컷오프) 방식으로 완전 대체. Karpathy 개인 블로그 RSS도 3회 연속
+403(접근 불가 소스로 확정 간주 검토 시점). HN 인물쿼리(karpathy·"Andrew Ng",
+points>50)는 신규 히트 없음. Anthropic 공식 뉴스룸(anthropic.com/news)이
+claude.com/blog 발표(Claude Academy·Claude Security)를 즉시 반영하지 않아 WebSearch로
+보완 확인. sources.md RSS 캐시에 08-22 항목 추가.
