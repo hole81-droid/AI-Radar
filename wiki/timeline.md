@@ -8,6 +8,7 @@ date: 2026-07-07
 
 ## 2026-08
 
+- **08-21(보도)** — Anthropic IPO, "8월 말 신청 가능성" 보도 — S-1에 'AI 반발 여론'을 리스크 요인으로 명시할 예정, 회사 공식 확정 발표는 아직 없음 → [[anthropic]]
 - **08-21** — Anthropic, Claude Mythos 5 사이버보안 방어역량을 오픈소스·정부까지 확장 — 엔터프라이즈 취약점 스캔·서드파티 통합·오픈소스 메인테이너 지원 $35M 크레딧 펀드(Defender Advantage Fund)·검증 프로그램 확대 동시 발표 → [[2026-08-21-claude-security-defender-advantage-fund]]
 - **08-21(HN화제)** — 개인 개발자, 셀프호스팅 샌드박스에서 Codex+Hermes 에이전트로 프롬프트 1회→프로덕션 배포까지 완주 — 승인 게이트 대신 네트워크 격리로 완전 자율 실행 리스크 통제 → [[jakesaunders-self-hosted-agentic-software-factory]]
 - **08-20** — Anthropic, 무료 학습 허브 "Claude Academy" 오픈 — 사내 트레이닝 방식을 그대로 옮긴 코스 20종, 신용카드 없이 무료+수료 인증서 → [[2026-08-20-claude-academy-launch]]

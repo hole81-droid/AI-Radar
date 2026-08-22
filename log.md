@@ -799,3 +799,19 @@ front_page(48시간 컷오프) 방식으로 완전 대체. Karpathy 개인 블�
 points>50)는 신규 히트 없음. Anthropic 공식 뉴스룸(anthropic.com/news)이
 claude.com/blog 발표(Claude Academy·Claude Security)를 즉시 반영하지 않아 WebSearch로
 보완 확인. sources.md RSS 캐시에 08-22 항목 추가.
+
+## [2026-08-23] scan | 항목 3건, 반영 3건
+
+비교적 조용한 날 — 공식 소스(Anthropic·OpenAI·Google) 신규 발표 없음, 구루 1차 채널·
+AX LABS 블로그·YouTube 9채널 전수 확인했으나 "업무 적용 Case" 기준(도구·업무·방법·
+성과 구체 확인)을 충족하는 신규 자동화 사례 없어 해당 섹션은 "특이사항 없음"으로
+남김. 빅 뉴스 2건(Linus Torvalds가 Linux 커널 디버깅에 AI 도움 받았다고 커밋 메시지에
+직접 명시 / Anthropic IPO "8월 말 신청 가능성" 보도, S-1에 AI 반발 여론 리스크 요인
+명시 예정), 커뮤니티 화제 1건(Claude Code effort 표시치 논란, HN 126댓글 + Anthropic
+직원 해명) 반영.
+
+신규 페이지 없음 — 모두 단발성 일화·보도 단계라 CLAUDE.md 기준상 페이지화 대상
+아님. 기존 wiki/players/anthropic.md IPO 서사에 08-21(보도) 항목 추가, timeline.md에
+같은 항목 1줄 링크. index.md·case-catalog.md는 신규 use-case 없어 갱신 불필요.
+sources.md RSS 캐시에 08-23 항목 추가(old.reddit 4일 연속 302 차단·Karpathy 블로그
+4일 연속 403 모두 최종 확정 수준).

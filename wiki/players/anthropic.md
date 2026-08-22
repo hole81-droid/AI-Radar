@@ -187,6 +187,10 @@ Claude Code 심화까지. [[2026-07-15-claude-for-teachers]](K-12 교사 대상)
 [[2026-07-28-claude-mythos-post-quantum-crypto-break]]에 이어 "공격보다 방어에 AI를
 먼저"라는 메시지의 연장. → [[2026-08-21-claude-security-defender-advantage-fund]]
 
+**8/21(보도) — IPO 후속: "8월 말 신청 가능성", S-1에 'AI 반발 여론'을 리스크 요인으로 명시 예정**:
+CNBC가 투자은행 관계자를 인용해 보도. 6월 초 제출한 비공개 S-1 초안([[2026-07-15-anthropic-ipo-investor-meetings]])
+심사가 진행 중인 가운데 나온 후속 취재로, 회사의 공식 확정 발표는 아직 없다.
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
