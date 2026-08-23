@@ -815,3 +815,22 @@ AX LABS 블로그·YouTube 9채널 전수 확인했으나 "업무 적용 Case" �
 같은 항목 1줄 링크. index.md·case-catalog.md는 신규 use-case 없어 갱신 불필요.
 sources.md RSS 캐시에 08-23 항목 추가(old.reddit 4일 연속 302 차단·Karpathy 블로그
 4일 연속 403 모두 최종 확정 수준).
+
+## [2026-08-24] scan | 항목 4건, 반영 4건
+공백 없음(전날 08-23 스캔 정상 실행 확인 후 바로 오늘치 진행). 업무 적용 Case는 구루
+1차 채널·AX LABS·YouTube 9채널·HN 키워드 검색을 전부 훑었으나 도구/업무/방법/성과
+4요소를 구체적으로 확인할 수 있는 신규 자동화 사례가 없어 정직하게 공란 처리. 빅뉴스
+2건: (1) FT 보도(Simon Willison 정리) — Anthropic 연환산 매출 5월 $47B→7월 $65B 급성장,
+그러나 Ramp AI Index 결제데이터 기준 최상위 모델 Fable 5의 실제 지출 비중은 8.0%로
+구형 Opus 4.8(28.0%)보다 낮음 → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
+신규(anthropic.md·timeline 갱신), (2) OpenAI GPT-5.6 Sol API 가격 20%+(출력 최대 33%)
+3개월 한시 인하 — 프로모션성 단발 뉴스로 판단해 페이지화 없이 뉴스레터에만 기록.
+커뮤니티 1건(Show HN "OzBrain" — Claude·ChatGPT·Cursor·Gemini 공유 지식저장소, HN
+85점, v0.1.0 실사용 검증 없어 페이지화 보류). YouTube 1건(조코딩 IT뉴스 총정리 — 다룬
+소식 대부분 이미 위키 반영분이라 신규 정보 아님, 픽으로만 기록). old.reddit.com RSS는
+이번에도(5일 연속) HTTP 302 로그인 리다이렉트로 접근 불가 확인 — 지시에 따라 이번
+스캔에서 재시도 생략, HN Algolia로 커뮤니티 화제 대체 수집. Karpathy 개인 블로그
+(bearblog.dev)도 이번에도 403 — 지시에 따라 재시도 생략. AI Edge(AIEdgeHQ)는 여전히
+미해결이라 스캔 제외. YouTube RSS 캐시 9채널 재확인, 신규 미해결 없음. HN 인물쿼리
+(karpathy·"Andrew Ng", points>50)는 신규 히트 없음. [[timeline]] 107→108건,
+[[index]]·[[anthropic]] 허브 갱신. newsletter/2026-08-24.md 신규 생성.
