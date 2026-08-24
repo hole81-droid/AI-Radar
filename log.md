@@ -834,3 +834,28 @@ sources.md RSS 캐시에 08-23 항목 추가(old.reddit 4일 연속 302 차단·
 미해결이라 스캔 제외. YouTube RSS 캐시 9채널 재확인, 신규 미해결 없음. HN 인물쿼리
 (karpathy·"Andrew Ng", points>50)는 신규 히트 없음. [[timeline]] 107→108건,
 [[index]]·[[anthropic]] 허브 갱신. newsletter/2026-08-24.md 신규 생성.
+
+## [2026-08-25] scan | 항목 5건, 반영 5건
+
+업무 적용 Case 1건: GitHub l3a0/claude-plugins의 Claude Code Skill이 Chrome 제어+
+로컬 Kindle 앱 SQLite 대조+Apple Vision OCR 3단계 파이프라인으로 Kindle 노트북 내보내기
+제한 하이라이트를 복구 — 저자가 책 4권 2,432개 추출 중 차단됐던 815개(잘림 454+숨김 361)
+전량 복구라는 실측 수치를 README에 공개해 evidence를 measured로 표기, use-case 신규
+생성([[l3a0-claude-code-kindle-highlights-recovery]], case-catalog 73→74건). 빅뉴스 2건:
+(1) TechCrunch 보도 — OpenAI ChatGPT Work 실제 채택률 공개(내부 직원 98% vs 외부 조직
+17% vs 개인 1% 미만, 4일 캐주얼 사용 8,000만 토큰·$65 비용 사례) — 신규 페이지 대신
+기존 [[openai-chatgpt-work-launch]]에 08-24 갱신 인용 블록 추가(주장 중심이던 페이지에
+실측 채택 데이터 보강), (2) Anthropic 8/24 다중 모델 서비스 장애(04:50~07:36 UTC, 2시간
+46분) — 8/5·8/18에 이은 이번 달 세 번째 반복 장애로, 기존 패턴대로 신규 페이지 대신
+[[anthropic]] 플레이어 페이지·[[timeline]]에 항목만 추가. 커뮤니티 1건("Agent Is Not the
+Model" — 모델/추론서비스/하네스/에이전트시스템 4계층 문제진단 프레임워크, HN 63점,
+수치 없는 개념글이라 페이지화하지 않고 뉴스레터에만 기록). YouTube 1건(Ben AI —
+Composio로 앱을 Claude에 원클릭 연결하는 튜토리얼, 08-24 업로드, 설명이 얕아 요약
+수준으로만 기록). old.reddit.com RSS·Karpathy 개인 블로그(bearblog.dev)는 지시에 따라
+이번에도 재시도 생략(각각 5일 연속 확정 상태 유지). AI Edge(AIEdgeHQ)도 미해결 상태라
+스캔 제외. YouTube RSS 캐시 9채널 재확인, Ben AI 외 신규 미해결 없음. HN 인물쿼리
+(karpathy·"Andrew Ng", points>50)는 신규 히트 없음. AX LABS 블로그는 08-20에서 5일째
+정체. 이번 스캔에서 Bash 도구가 `date +%s` 산술 치환 포함 curl과 `-o` 파일 출력 옵션
+포함 curl, `for` 루프 문법을 권한 거부로 차단 — 하드코딩 epoch 값과 stdout 직접 파싱,
+개별 curl 호출로 우회. [[timeline]] 108→109건, [[index]]·[[case-catalog]] 갱신.
+newsletter/2026-08-25.md 신규 생성.

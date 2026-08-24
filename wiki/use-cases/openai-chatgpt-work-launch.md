@@ -56,6 +56,14 @@ Slack·Microsoft Teams·Google Drive·SharePoint·이메일·캘린더·CRM·프
   벤더 서술만 있으며, 처리 시간·비용 절감 등 구체 실측 수치는 원문에 없다.
 - 독립 검증 수치나 3자 벤치마크는 확인되지 않았다.
 
+> **08-24 갱신 — 실제 채택률·비용 데이터(measured)**: TechCrunch 보도(2026-08-24)에
+> 따르면 출시 한 달여 시점에 **OpenAI 내부 직원의 98%가 사용** 중이지만, 외부 조직
+> 구독자는 17%, 개인 구독자는 1% 미만에 그친다 — 벤더 자체 서술("무인 실행")과
+> 실제 외부 확산 사이에 큰 간극이 있음을 보여주는 실측 채택 데이터다. 비용 사례로는
+> 한 이용자가 4일간 가벼운("casual") 사용만으로 약 8,000만 토큰·$65를 소비한 사례가
+> 보도됨. OpenAI 내부에서도 "소프트웨어 개발자만 대상으로는 수익을 정당화하기
+> 어렵다"는 우려가 나온다고 전해진다. [출처](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/)
+
 ## 재현 가이드
 
 - **난이도**: 중 (플랫폼 자체 기능이라 별도 구축은 불필요하나, 업무별 플러그인 연동·
@@ -80,3 +88,4 @@ Slack·Microsoft Teams·Google Drive·SharePoint·이메일·캘린더·CRM·프
 ## 출처
 
 - [Gigazine — OpenAI launches "ChatGPT Work"](https://gigazine.net/gsc_news/en/20260710-openai-chatgpt-work/)
+- [TechCrunch — OpenAI is building an AI agent for everything. Will everyone use them? (2026-08-24)](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/)

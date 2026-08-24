@@ -4,10 +4,11 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-23, 108건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-24, 109건)
 
 ## 2026-08
 
+- **08-24** — Anthropic, 또다시 다중 모델(Opus 5·Opus 4.8·Fable 5·Mythos 5 등) 단기 장애 — 04:50~07:36 UTC 2시간 46분, claude.ai·API·Claude Code·Claude Cowork 전반 영향, 8/5·8/18에 이어 이번 달 세 번째 → [[anthropic]]
 - **08-23(보도)** — Anthropic 연환산 매출 5월 $47B→7월 $65B로 급성장, 2·3분기 연속 흑자 전망 — 그러나 Ramp AI Index 결제데이터 기준 최상위 모델 Fable 5의 실제 지출 비중은 8.0%로 구형 Opus 4.8(28.0%)보다 낮음, "최고가 신모델=최다 채택"이 아님을 실측 데이터로 확인 → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
 - **08-21(보도)** — Anthropic IPO, "8월 말 신청 가능성" 보도 — S-1에 'AI 반발 여론'을 리스크 요인으로 명시할 예정, 회사 공식 확정 발표는 아직 없음 → [[anthropic]]
 - **08-21** — Anthropic, Claude Mythos 5 사이버보안 방어역량을 오픈소스·정부까지 확장 — 엔터프라이즈 취약점 스캔·서드파티 통합·오픈소스 메인테이너 지원 $35M 크레딧 펀드(Defender Advantage Fund)·검증 프로그램 확대 동시 발표 → [[2026-08-21-claude-security-defender-advantage-fund]]

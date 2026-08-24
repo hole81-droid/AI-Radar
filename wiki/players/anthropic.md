@@ -197,6 +197,13 @@ FT 보도(Simon Willison 정리)에 따르면 연환산 매출이 5월 $47B → 
 기준 7/24 출시 최상위 모델 Fable 5의 실제 지출 비중은 8.0%로, 구형 Opus 4.8(28.0%)보다
 한참 낮다 — 회사 매출은 느는데 정작 최고가 신모델 채택은 더딘 역설. → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
 
+**8/24 — 또다시 다중 모델 단기 장애(2시간 46분)**: 04:50~07:36 UTC에 Opus 5·Opus 4.8·
+Fable 5·Mythos 5 등 다수 모델과 claude.ai·API·Claude Code·Claude Cowork 전반에서
+"elevated errors" 발생, status.claude.com에 인시던트 등록(vgz5psbjmt1h) 후 단시간 내
+해결. [[2026-08-05-anthropic-custom-silicon-chip-team|8/5 7.5시간 장애]]·8/18 다중 모델
+장애에 이어 이번 달에만 세 번째로, 안정성 이슈가 월 단위 반복 패턴으로 굳어지는
+모습이다.
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

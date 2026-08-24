@@ -104,6 +104,7 @@ uses: [course, ax]
 - [[searchsteward-claude-job-search-automation]] — Claude(Fable 5)로 vibe-coding→서브에이전트 파이프라인(계획·구현·리뷰 분업)을 활용해 구직 활동 전체(공고 스크래핑·스코어링·지원 CRM·분석)를 수행 → 9주 만에 신규 입사, 개인 도구가 SaaS 제품으로 성장 (자기 보고)
 - [[i-have-adhd-claude-codex-skill]] — Claude Code·Codex(skills)로 규칙 기반 출력 스타일 플러그인을 활용해 AI 응답을 ADHD 친화적 구조(행동우선·번호매김)로 재구성 → Reddit 320+ 댓글 화제, 효과 체감은 엇갈림 (일화)
 - [[nobuzz-claude-code-gemini-debuzz-skill]] — Claude Code Skill `/debuzz`(skills)로 Gemini CLI 크로스 툴 파이프라인을 활용해 장황한 AI 응답을 청중별 평이한 영어로 자동 번역 → 정량 성과 없는 소규모 오픈소스(GitHub 스타 51개), HN 148점 화제 (일화)
+- [[l3a0-claude-code-kindle-highlights-recovery]] — Claude Code Skill(skills+browser-agent)로 Chrome 제어+로컬 SQLite 대조+OCR 파이프라인을 활용해 Kindle 노트북 내보내기 제한으로 잘리거나 숨겨진 하이라이트를 복구 → 책 4권 2,432개 추출, 차단됐던 815개 전량 복구 (실측)
 
 ## HR (hr)
 
@@ -241,3 +242,9 @@ HN 65점 — Codex+Hermes 에이전트 프레임워크로 외부 노출 없는 �
 Gemini CLI로 응답을 재통과시켜 장황한 톤을 고치는 크로스 모델 파이프라인. personal-productivity·
 anecdotal, 스타 51개 소규모 유틸리티로 채택 규모 근거 없음). 둘 다 HN 화제성은 높았으나
 성과 수치가 없는 개인/소규모 프로젝트라 evidence는 anecdotal로 표기했다.*
+
+*2026-08-25 추가(74건): [[l3a0-claude-code-kindle-highlights-recovery]](GitHub, HN 40점 —
+Claude Code Skill이 Chrome 제어+로컬 SQLite 대조+Apple Vision OCR 3단계 파이프라인으로
+Kindle 노트북 내보내기 제한 하이라이트를 복구. personal-productivity·measured, 책 4권
+2,432개 추출 중 차단됐던 815개 전량 복구 — 저자가 실측 수치를 README에 공개해 evidence를
+measured로 표기했다).*
