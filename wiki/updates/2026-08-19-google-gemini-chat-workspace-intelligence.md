@@ -33,6 +33,12 @@ Google이 Gemini를 Workspace 앱 하나하나에 개별 적용하는 대신 "Ch
 - 강의: "여러 앱에 흩어진 데이터를 하나의 대화형 인터페이스로 통합"하는 Workspace
   Intelligence 설계는 사내 AI 허브를 기획할 때 참조할 아키텍처 사례.
 
+## 08-26 갱신
+
+예고대로 2026-08-26 "Ask Gemini in Chat"이 순차 출시(최대 15일 걸쳐 노출 확대) 시작됐다.
+10월 1일까지는 Workspace 고객에게 사용량 한도를 높인 프로모션 기간을 제공해 체험을
+유도한다.
+
 ## 출처
 
 - [Google Workspace Updates — Ask Gemini in Chat](https://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html)

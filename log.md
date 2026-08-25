@@ -859,3 +859,31 @@ Composio로 앱을 Claude에 원클릭 연결하는 튜토리얼, 08-24 업로�
 포함 curl, `for` 루프 문법을 권한 거부로 차단 — 하드코딩 epoch 값과 stdout 직접 파싱,
 개별 curl 호출로 우회. [[timeline]] 108→109건, [[index]]·[[case-catalog]] 갱신.
 newsletter/2026-08-25.md 신규 생성.
+
+## [2026-08-26] scan | 항목 7건, 반영 7건
+
+업무 적용 Case 1건: 개인 블로그(Fabien Sanglard, HN 413점)의 `agent.md` 패턴 —
+Claude Code(VS Code 플러그인)·Antigravity에서 세션마다 스타일 가이드 파일을 재주입하는
+CLAUDE.md/AGENTS.md 컨벤션의 개인 워크플로우 재정리, use-case 신규 생성
+([[fabiensanglard-agent-md-persistent-style-guide]], evidence: anecdotal — 정량 수치
+없음, case-catalog 74→75건). 빅뉴스 4건: (1) FT "Anthropic 최상위 모델 채택 부진" 보도가
+HN 805점으로 재화제, Fable 5 가격이 GPT-5.6 Sol 2배인데 기업지출은 11%뿐·OpenAI 8/21
+Sol 20%+ 가격인하·Anthropic 평균단가 7월 중순 대비 25%↓ 등 세부 수치 추가 확인 —
+기존 [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]에 08-26 갱신 블록 추가
+(신규 페이지 대신 기존 페이지 보강, Sonnet 5 가격인상 철회(8/10) 배경도 교차 확인),
+(2) MIT·Laude Institute, 상시 가동형 오픈소스 에이전트 하네스 "Headlong" 공개 — 자기
+서비스 중단·시간당 비용·프라이버시 격리 부재 등 실패 사례를 투명 공개, wiki/updates
+신규 생성([[2026-08-24-headlong-persistent-agent-microharness]], [[loop-engineering]]에
+관련 사례로 교차링크), (3) Google "Ask Gemini in Chat" 8/19 예고대로 오늘 순차 출시 시작 —
+기존 [[2026-08-19-google-gemini-chat-workspace-intelligence]]에 08-26 갱신 한 줄 추가,
+(4) OpenAI ChatGPT Plus의 Codex·Work 5시간 한도 복원 — 정책성 일회 뉴스로 판단해
+페이지화 없이 뉴스레터에만 기록. 커뮤니티 2건: "일주일간 Codex를 Claude보다 많이 써봤다"
+비교 후기(HN 242점, 정량 벤치마크 없는 개인 주관 비교라 페이지화 보류), Codex의 AWS
+Bedrock 캐싱 미지원으로 나흘간 캐시라이트 비용 $1,182(전체 지출 85%) 급증한 사례(HN
+148점, GitHub 이슈 미해결) — 둘 다 뉴스레터에만 기록. YouTube는 등록 9채널 재확인 결과
+관련성 있는 신규 업로드 없어 "특이사항 없음"으로 기록. HN 인물쿼리(karpathy·"Andrew Ng",
+points>50)·Karpathy GitHub 저장소(nanochat 등 커밋 갱신만 확인, 신규 저장소 없음)는
+신규 히트 없음. old.reddit.com RSS·Karpathy 개인 블로그(bearblog.dev)는 지시에 따라
+이번에도 재시도 생략(각각 6일 연속 확정 상태 유지). AX LABS 블로그는 08-25 Headlong
+글로 6일 만에 갱신 확인(08-20 정체 해소). [[timeline]] 109→111건, [[index]]·
+[[case-catalog]] 갱신. newsletter/2026-08-26.md 신규 생성.

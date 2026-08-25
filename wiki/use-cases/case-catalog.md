@@ -61,7 +61,8 @@ uses: [course, ax]
 - [[theaxlabs-harness-r1-failure-driven-editing]] — Claude(Claude Code)로 실패 로그 기반 4단계 루틴(cron-routines)을 활용해 에이전트 하네스(프롬프트·체크포인트·에러복구) 주간 자가개선을 수행 → 참고 논문 기준 성공률 +9.3%p(Claude Code 적용판 실측은 미확인) (주장)
 - [[asana-openai-codex-enzyme-migration]] — Codex(subagents 4개 병렬)로 Enzyme→React Testing Library 프론트엔드 테스트 마이그레이션을 수행 → 5년 추정→2주(비용 $6M→$12,000, 약 500배), HN은 원 추정치 신뢰성에 회의론 (주장, 벤더 공식 발표)
 - [[latent-space-wayfinder-claude-code-skill]] — Claude Code Skill `/wayfinder`(skills)로 맵·티켓·세션 계층 구조를 활용해 목표 불분명한 프로젝트 기획을 수행 → 20년 치 콘텐츠 개인 웹사이트 재설계에 적용(정량 성과 미확인) (일화)
-- [[jakesaunders-self-hosted-agentic-software-factory]] — Codex+Hermes 에이전트 프레임워크(cli-pipeline+vibe-coding)로 셀프호스팅 샌드박스 환경을 활용해 프롬프트 1회로 SDLC 전 과정(저장소 생성→개발→테스트→CI→배포)을 무인 수행 → 승인 게이트 없이 네트워크 격리만으로 완전 자율 배포 완주(정량 성과 미확인) (일화, 개인 프로토타입)
+- [[jakesaunders-self-hosted-agentic-software-factory]]
+- [[fabiensanglard-agent-md-persistent-style-guide]] — Claude Code(prd-driven, agent.md 세션 주입 파일)를 활용해 코딩 스타일·아키텍처 가이드 영속화를 수행 → 저자 주관 "코드 품질 극적 개선"(일화, 정량 수치 없음) — Codex+Hermes 에이전트 프레임워크(cli-pipeline+vibe-coding)로 셀프호스팅 샌드박스 환경을 활용해 프롬프트 1회로 SDLC 전 과정(저장소 생성→개발→테스트→CI→배포)을 무인 수행 → 승인 게이트 없이 네트워크 격리만으로 완전 자율 배포 완주(정량 성과 미확인) (일화, 개인 프로토타입)
 
 ## 보안·운영 (ops)
 
@@ -248,3 +249,11 @@ Claude Code Skill이 Chrome 제어+로컬 SQLite 대조+Apple Vision OCR 3단계
 Kindle 노트북 내보내기 제한 하이라이트를 복구. personal-productivity·measured, 책 4권
 2,432개 추출 중 차단됐던 815개 전량 복구 — 저자가 실측 수치를 README에 공개해 evidence를
 measured로 표기했다).*
+
+*2026-08-26 추가(75건): [[fabiensanglard-agent-md-persistent-style-guide]](개인 블로그,
+HN 413점 — Claude Code(VS Code 플러그인)·Antigravity에서 `agent.md` 파일을 세션마다
+프롬프트에 주입해 코딩 스타일·아키텍처 가이드를 영속화하는 패턴. dev-automation·anecdotal,
+저자 주관 "코드 품질 극적 개선" 서술만 있고 정량 측정치는 없음 — 이미 통용되는
+CLAUDE.md/AGENTS.md 컨벤션을 개인 워크플로우로 재정리한 성격. 같은 스캔에서 확인한
+MIT·Laude Institute의 오픈소스 상시 가동 하네스 "Headlong"은 특정 AI 도구의 업무
+자동화 사례가 아니라 하네스 자체의 신규 출시라 use-case가 아닌 wiki/updates로 반영했다.*

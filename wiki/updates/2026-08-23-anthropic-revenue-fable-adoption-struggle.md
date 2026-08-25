@@ -40,8 +40,26 @@ source: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245
   성능이 맞는 모델을 고른다"는 실제 시장의 다수 선택이 데이터로 확인된 셈이다. 모델
   라우팅(업무 난이도별 모델 자동 선택) 전략을 검토할 근거 자료로 쓸 수 있다.
 
+## 08-26 갱신 — 가격 경쟁 구도 추가 확인
+
+같은 FT 기사에서 다뤄진 가격·경쟁 데이터를 추가로 확인했다(HN 토론 805점으로 재화제):
+
+- Fable 5 가격은 약 **$10/백만 토큰**으로 GPT-5.6 Sol의 약 2배. FT는 별도로 Fable 5가
+  **기업 전체 LLM 지출의 11%**를 차지한다고 보도했다(위 Ramp 수치 "Anthropic 모델 내
+  8.0%"와는 집계 기준이 달라 보이므로 직접 비교는 유의할 것).
+- OpenAI가 8/21 GPT-5.6 Sol 가격을 20% 이상 인하(입력 $5→$4, 출력 $30→$20/백만 토큰)해
+  Claude Opus 5보다 입출력 모두 저렴해졌다. Anthropic 모델 평균 결제 단가도 7월 중순
+  이후 약 25% 하락한 것으로 나타나, 가격 경쟁이 실제 지표로 확인된다.
+- 기업들이 쉬운 작업은 저가 모델, 복잡한 작업만 고가 모델로 보내는 "모델 라우팅" 전략을
+  점점 더 채택하는 추세라고 FT는 전한다.
+- 배경 참고: Anthropic은 2026-08-10 Claude Sonnet 5의 도입가($2/$10, 백만 토큰당
+  입력/출력)를 9/1부터 $3/$15로 올릴 예정이었던 인상 계획을 철회하고 도입가를 영구
+  표준가로 확정했다 — 이번 가격 경쟁 압력과 같은 방향의 결정으로 읽힌다.
+
 ## 출처
 
 - [Simon Willison — Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/) (2026-08-23)
 - [Financial Times (원문, 유료)](https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245)
 - [Ramp AI Index](https://ramp.com/data/ai-index)
+- [Hacker News 토론(805점, 2026-08-25)](https://news.ycombinator.com/item?id=49411102)
+- [Claude Platform Docs — Pricing](https://platform.claude.com/docs/en/about-claude/pricing) (Sonnet 5 도입가 영구화 확인)

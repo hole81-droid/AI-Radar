@@ -4,10 +4,18 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-24, 109건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-26, 111건)
 
 ## 2026-08
 
+- **08-25(보도, 08-26 소급)** — Anthropic 가격 경쟁 압박 추가 확인 — Fable 5는 GPT-5.6 Sol의
+  약 2배 가격($10/백만 토큰)인데 기업 LLM 지출의 11%만 차지, OpenAI는 8/21 Sol 가격을
+  20%+ 인하해 Opus 5보다 저렴해짐, Anthropic 평균 결제단가도 7월 중순 이후 약 25% 하락 —
+  Anthropic은 8/10 Sonnet 5 도입가 인상 계획(9/1, $2/$10→$3/$15)을 철회하고 영구 표준가로
+  확정한 바 있음 → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
+- **08-24** — MIT·Laude Institute, 오픈소스 "지속형 에이전트" 마이크로하네스 Headlong
+  공개 — 요청 없이도 스스로 사고를 이어가는 상시 가동형 구조, 자기 서비스 중단·시간당
+  비용·프라이버시 등 실패 사례를 투명하게 공개 → [[2026-08-24-headlong-persistent-agent-microharness]]
 - **08-24** — Anthropic, 또다시 다중 모델(Opus 5·Opus 4.8·Fable 5·Mythos 5 등) 단기 장애 — 04:50~07:36 UTC 2시간 46분, claude.ai·API·Claude Code·Claude Cowork 전반 영향, 8/5·8/18에 이어 이번 달 세 번째 → [[anthropic]]
 - **08-23(보도)** — Anthropic 연환산 매출 5월 $47B→7월 $65B로 급성장, 2·3분기 연속 흑자 전망 — 그러나 Ramp AI Index 결제데이터 기준 최상위 모델 Fable 5의 실제 지출 비중은 8.0%로 구형 Opus 4.8(28.0%)보다 낮음, "최고가 신모델=최다 채택"이 아님을 실측 데이터로 확인 → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
 - **08-21(보도)** — Anthropic IPO, "8월 말 신청 가능성" 보도 — S-1에 'AI 반발 여론'을 리스크 요인으로 명시할 예정, 회사 공식 확정 발표는 아직 없음 → [[anthropic]]
