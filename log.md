@@ -887,3 +887,30 @@ points>50)·Karpathy GitHub 저장소(nanochat 등 커밋 갱신만 확인, 신�
 이번에도 재시도 생략(각각 6일 연속 확정 상태 유지). AX LABS 블로그는 08-25 Headlong
 글로 6일 만에 갱신 확인(08-20 정체 해소). [[timeline]] 109→111건, [[index]]·
 [[case-catalog]] 갱신. newsletter/2026-08-26.md 신규 생성.
+
+## [2026-08-27] scan | 항목 6건, 반영 6건
+
+업무 적용 Case 1건: Ben AI가 Claude Cowork 공식 기능 "Record a Skill"(2026-07-21 출시,
+화면 녹화→스킬 자동변환) 활용 베스트프랙티스를 공개(08-26 업로드) — 신규 use-case
+[[ben-ai-claude-record-a-skill-best-practices]] 생성, 같은 크리에이터의 07-18 프롬프트
+기반 방법론 [[ben-ai-claude-skills-building-methodology]] 및 커뮤니티發 원류
+[[record-replay-mcp-skill-recorder]]와 교차링크. 빅 뉴스 3건: (1) Anthropic이 IPO
+투자자에게 TAM $30조+ 제시 예정(WSJ, SpaceX $28.5조 상회, 최대 $100B 조달·$2조
+밸류에이션 목표, 2분기 매출 $11.6B) — 신규 페이지 대신 기존
+[[2026-08-23-anthropic-revenue-fable-adoption-struggle]]에 08-27 갱신 블록 추가,
+(2) Claude 메모리가 Chat·Cowork 전체로 통합(Settings Memory 탭 신설, 민감주제 기본
+차단) — 신규 wiki/updates [[2026-08-25-anthropic-claude-memory-unification]] 생성,
+(3) Anthropic이 보안업체 파업 우려로 SF 직원 재택 지시했으나 실제 파업 승인은 없었던
+해프닝 — 정책성 일회 뉴스로 판단해 별도 페이지 없이 [[anthropic]] 본문 문단으로만
+반영. 커뮤니티 1건: "예전 Claude Code가 그립다"는 개발자 블로그 비판글(HN 36점,
+Claude Code의 기능 비대화·`/doctor` 커맨드 확장 비판) — 페이지화 없이 뉴스레터에만
+기록. YouTube는 등록 9채널 재확인 결과 조코딩의 Codex 성능 활용 쇼츠(설명란 정보
+부족으로 참고용 기록)만 추가 확보, 나머지 8채널은 관련성 낮거나 기존 확인분에서
+정체. HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 신규 히트 없음. Latent Space의
+"Lovable CTO" 인터뷰(08-26)는 재현 가능한 기법이 아닌 전략 인터뷰라 페이지화 보류.
+YouTube 자동생성 자막 API가 서명 토큰에 묶여 curl 재사용 불가함을 확인(sources.md
+RSS 캐시에 기록) — 이후 스캔은 `shortDescription` HTML 필드 + 챕터 타임스탬프로
+대체. [[wiki/players/anthropic]]·[[timeline]] 111→113건·[[index]]·[[case-catalog]]
+갱신. raw/2026-08/에 원본 3건 저장(anthropic-claude-memory-unification·
+ben-ai-record-a-skill-best-practices·anthropic-30-trillion-ipo-tam-pitch).
+newsletter/2026-08-27.md 신규 생성.

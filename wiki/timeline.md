@@ -4,10 +4,16 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-26, 111건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-27, 113건)
 
 ## 2026-08
 
+- **08-25(보도)** — Anthropic, IPO 투자자에게 "잠재 매출 $30조 이상" TAM 제시 예정 — SpaceX의
+  $28.5조 추정치를 상회, 최대 $100B 조달·약 $2조 밸류에이션 목표, 2분기 매출 $11.6B(전분기
+  대비 2배+) → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
+- **08-25** — Anthropic, Claude 메모리를 Chat과 Cowork 전체로 통합 — Settings에 Memory 탭
+  신설(Topics 목록 개별 열람·수정·삭제), 민감 주제 기본 차단, Free·Pro·Max 기본값 켜짐 →
+  [[2026-08-25-anthropic-claude-memory-unification]]
 - **08-25(보도, 08-26 소급)** — Anthropic 가격 경쟁 압박 추가 확인 — Fable 5는 GPT-5.6 Sol의
   약 2배 가격($10/백만 토큰)인데 기업 LLM 지출의 11%만 차지, OpenAI는 8/21 Sol 가격을
   20%+ 인하해 Opus 5보다 저렴해짐, Anthropic 평균 결제단가도 7월 중순 이후 약 25% 하락 —

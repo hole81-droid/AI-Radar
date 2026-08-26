@@ -49,6 +49,7 @@ uses: [course, ax]
 - [[crew-worktree-free-multiagent-orchestration]] — Claude Code로 Crew(subagents, worktree 대신 실시간 컨텍스트 공유)를 활용해 동일 저장소 멀티 에이전트 동시 작업 충돌 방지를 수행 → 검증된 성과 수치 없음, 프로토타입 단계 (일화)
 - [[claude-code-hooks-wordswap]] — Claude Code Hooks로 출력 후처리 정규식 치환을 활용해 AI 응답의 특정 말버릇 실시간 교정을 수행 → HN 407~467점 화제성 (일화, 성능지표 없음)
 - [[ben-ai-claude-skills-building-methodology]] — Claude로 Skills 설계 방법론+메타스킬(Skill Builder Skill)을 활용해 재사용 가능한 Claude Skill 제작 표준화를 수행 → 7가지 베스트프랙티스 체크리스트 (강의 콘텐츠, 정량 미확인)
+- [[ben-ai-claude-record-a-skill-best-practices]] — Claude Cowork로 Record a Skill(record-replay, 화면 녹화→스킬 자동변환)을 활용해 프롬프트 없이 시연만으로 스킬 제작을 수행 → 4가지 베스트프랙티스+라이브 데모 (강의 콘텐츠, 정량 미확인)
 - [[cursor-agent-swarms-model-economics]] — Cursor로 플래너-워커 계층형 에이전트 스웜(subagents+cli-pipeline)을 활용해 SQLite Rust 재구현 대형 벤치마크를 수행 → 비용 $10,565→$1,339(8배↓), 머지충돌 70,000+→1,000미만 (실측)
 - [[claude-code-mcp-multimodel-delegation-benchmark]] — Claude Code로 MCP 서버(mcp+subagents)를 활용해 GPT-5.6·DeepSeek·GLM·로컬 Qwen에 작업 위임 후 198회 히든테스트로 벤치마크 → GPT-5.6 Codex 계열 54/54 만점, Luna 런당 $0.013 (실측)
 - [[claude-code-ci-pipeline-multisession-worktree]] — Claude Code로 Git worktree+GitHub Actions PR 파이프라인(cli-pipeline)을 활용해 다중 세션 병렬 개발의 코드 품질 게이트를 수행 → 회귀테스트 2,000+건 통과 게이트, 세션 3~5개 동시 운영 (주장)
