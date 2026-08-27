@@ -4,10 +4,24 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-27, 113건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-27, 117건)
 
 ## 2026-08
 
+- **08-27** — Nvidia, Hugging Face를 $12.9B(일부 보도 $13B)에 인수 확정 — 오픈소스 AI
+  허브 사상 최대 인수합병, 2026-01 최초 제안($7B)의 약 2배, ARR $150M의 약 80배 →
+  [[2026-08-27-nvidia-huggingface-acquisition]]
+- **08-27** — OpenAI 주도 AI 사이버 방어 공동서한에 Anthropic·Google·Microsoft·AWS 등
+  116개+ 기업·기관 서명 — "AI 기반 공격이 정교해지기 전 제한된 시간의 창" 경고, 개별
+  조직·보안기업·정부·프론티어 AI기업 4개 그룹별 행동 촉구 →
+  [[2026-08-27-ai-industry-cyber-defense-letter]]
+- **08-27** — Anthropic, Model Hardware Standard(MHS) 연구 프리뷰 공개 — AI 에이전트가
+  실험실·제조 장비를 직접 조작하는 물리 세계 확장 표준, MCP 기반 모델 비종속, AWS·
+  Automata·Tecan·Universal Robots 동시 지원 발표 →
+  [[2026-08-27-anthropic-model-hardware-standard]]
+- **08-27** — Anthropic, 과학자 1만 명에게 Claude 무료·할인 제공 — PI급 대상 신설 팀
+  플랜(스탠다드 무료·프리미엄 월$15), Claude Science 생태계 확장 →
+  [[2026-06-30-claude-science]]
 - **08-25(보도)** — Anthropic, IPO 투자자에게 "잠재 매출 $30조 이상" TAM 제시 예정 — SpaceX의
   $28.5조 추정치를 상회, 최대 $100B 조달·약 $2조 밸류에이션 목표, 2분기 매출 $11.6B(전분기
   대비 2배+) → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]

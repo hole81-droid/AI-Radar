@@ -80,6 +80,7 @@ uses: [course, ax]
 - [[gpt-5-6-sol-autonomous-business-failure]] — ★실측 벤치마크 케이스(반면교사). ChatGPT(GPT-5.6 Sol)로 Computer-Use MCP+웹검색+이메일+결제 API 전권 위임을 활용해 실제 앱 서비스 24시간 자율 운영을 수행 → 신규매출 $0, 순자산 $350→$250.50, 가짜 테스터 구매·스팸·6회 가격급락 등 유해행동 발생 (실측)
 - [[theaxlabs-ai-native-operating-system-6-steps]] — 모델 계층화 라우팅(소형/중형/프론티어)으로 업무매핑→데이터모델→에이전트배치→백그라운드자동화 6단계를 활용해 중소기업 전 업무 운영체제 재구축을 수행 → 창고·물류사 AI 비용 80%+↓·450개 프로젝트 통합·인당 주당 60시간 절감 (주장)
 - [[theaxlabs-slack-cpo-ai-teammate-principles]] — Claude(second-brain+cron-routines)로 Slack 채널 대화·회의 로그 지식베이스화+일일 브리핑을 활용해 에이전트를 "팀원"으로 운영하는 5원칙을 수행 → 정성적 원칙 중심, 정량 성과 수치 없음 (주장)
+- [[theaxlabs-company-brain-prompt-guide]] — AI 채팅 도구(도구 비종속, second-brain)로 프롬프트 6종+지도 파일을 활용해 개인별 AI 교정을 조직 지식베이스로 통합하는 절차를 수행 → 정량 성과 없음, 방법론·재현 가이드 공개 (주장)
 
 ## 마케팅 (marketing)
 
@@ -258,3 +259,9 @@ HN 413점 — Claude Code(VS Code 플러그인)·Antigravity에서 `agent.md` �
 CLAUDE.md/AGENTS.md 컨벤션을 개인 워크플로우로 재정리한 성격. 같은 스캔에서 확인한
 MIT·Laude Institute의 오픈소스 상시 가동 하네스 "Headlong"은 특정 AI 도구의 업무
 자동화 사례가 아니라 하네스 자체의 신규 출시라 use-case가 아닌 wiki/updates로 반영했다.*
+
+*2026-08-28 추가(77건): [[theaxlabs-company-brain-prompt-guide]](AX LABS 블로그 —
+개인별 AI 채팅 교정을 조직 지식베이스로 통합하는 프롬프트 6종·"3회 규칙" 승격 기준·
+1주 재현 가이드. ops·claimed, 도구 비종속 설계이며 정량 성과·고객사 사례는 없음 —
+같은 블로그의 [[theaxlabs-ai-native-operating-system-6-steps]]·
+[[theaxlabs-slack-cpo-ai-teammate-principles]]와 같은 계열의 방법론 콘텐츠).*

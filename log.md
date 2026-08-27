@@ -914,3 +914,33 @@ RSS 캐시에 기록) — 이후 스캔은 `shortDescription` HTML 필드 + 챕�
 갱신. raw/2026-08/에 원본 3건 저장(anthropic-claude-memory-unification·
 ben-ai-record-a-skill-best-practices·anthropic-30-trillion-ipo-tam-pitch).
 newsletter/2026-08-27.md 신규 생성.
+
+## [2026-08-28] scan | 항목 6건, 반영 6건
+
+빅 뉴스 3건 페이지화: Nvidia의 Hugging Face $12.9B 인수 확정(2026-01 최초 제안의
+약 2배, 오픈소스 AI 허브 사상 최대 M&A) → [[2026-08-27-nvidia-huggingface-acquisition]].
+OpenAI 주도 AI 사이버 방어 공동서한에 Anthropic·Google·Microsoft·AWS 등 116개+
+기업·기관 서명(경쟁 3사 공동 서명은 7/28 "Pacing the Frontier"에 이은 두 번째 패턴)
+→ [[2026-08-27-ai-industry-cyber-defense-letter]]. Anthropic의 Model Hardware
+Standard(MHS) 연구 프리뷰(AI 에이전트가 실험실·제조 장비를 직접 조작하는 첫 물리
+세계 확장 표준, MCP 기반, AWS·Automata·Tecan·Universal Robots 동시 지원 발표)
+→ [[2026-08-27-anthropic-model-hardware-standard]]. 같은 날 과학자 1만 명 무료·
+할인 지원(08-25 웰빙 연구 $5M 그랜트 포함)은 기존 [[2026-06-30-claude-science]]
+페이지에 08-27 후속 절로 갱신(신규 페이지 대신 기존 페이지 갱신 원칙 적용).
+업무 적용 Case 1건: AX LABS "컴퍼니 브레인" 프롬프트 6종(도구 비종속 second-brain
+방법론, 정량 성과 없음·claimed) → [[theaxlabs-company-brain-prompt-guide]] 신규
+use-case, case-catalog 77건으로 갱신. 커뮤니티 1건: "Tell HN: Man, AI is killing
+my brain"(46점, Claude Code 과의존으로 코드 리뷰 생략→15개 병렬 에이전트 운용까지
+치닫은 개인 고백, 08-27 "예전 Claude Code가 그립다"와 같은 결의 피로감 담론 연속)
+— 페이지화 없이 뉴스레터에만 기록. YouTube는 9채널 재확인 결과 조코딩의 "AI 모델
+개선 vs 하네스 엔지니어링" 쇼츠(설명란 정보 부족으로 참고용 기록)만 신규 확보,
+장피엠·kooky0ai는 기존 반영 콘텐츠와 중복이라 제외, 나머지 6채널 정체. Varun Mayya
+08-27 쇼츠("Jumanji With AI")는 설명란이 비어 있어 업무 적용 Case 승격 보류. HN
+인물쿼리(karpathy·"Andrew Ng", points>50)는 신규 히트 없음. Anthropic 공식
+뉴스룸은 curl 직접 파싱이 JS 렌더링으로 불가해 WebFetch로 우회 확인. [[anthropic]]·
+[[timeline]] 113→117건·[[index]]·[[case-catalog]] 갱신. raw/2026-08/에 원본 5건
+저장(nvidia-huggingface-acquisition·anthropic-model-hardware-standard·
+ai-industry-cyber-defense-letter·anthropic-science-scientist-seats-wellbeing-grants·
+theaxlabs-company-brain-prompt-guide). newsletter/2026-08-28.md 신규 생성.
+sources.md RSS 캐시 08-28행 추가(AX LABS 정체 해소 확인, old.reddit·Karpathy 블로그
+8일 연속 재시도 생략 유지).
