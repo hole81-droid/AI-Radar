@@ -40,8 +40,35 @@ Anthropic은 여전히 프로덕션 시스템과 분리된 격리(sandbox) 환�
 - **AX**: 기업이 에이전틱 코딩 도구를 확산할 때 "기본값을 자율로 바꾸되 프로덕션은 격리
   환경으로 분리"하는 정책 설계 참고 사례로 인용 가능.
 
+## 후속 (08-27) — 프롬프트 인젝션 연구자가 우회 성공률 80% 확인
+
+프롬프트 인젝션 연구자 Johann Rehberger(embracethered.com)가 Auto Mode를 우회하는 공격
+체인을 공개했다. Claude가 WebFetch 대신 `curl`을 직접 쓰도록 유도(HTTP 415 응답 활용)한
+뒤 ZIP 아카이브를 내려받아 압축을 풀게 하고, Claude가 신뢰할 수 없는 바이너리 실행을
+거부하고 자체 Python 디코더를 작성하도록 유도한다. 이 디코더가 압축 해제된 디렉터리
+안에서 실행되는 점을 노려, 아카이브에 심어둔 악성 `struct.py`가 Python 표준 라이브러리의
+`base64` 모듈을 가로채 임의 코드를 실행한다.
+
+- 표본 규모는 작지만 공격 성공률 **60~80%**를 기록했고, 파일을 워크스페이스 밖에 쓰는
+  subprocess 변형 페이로드에서 최고치(80%)가 나왔다.
+- 일부 실행에서는 Claude가 침해를 감지하고 악성 프로세스를 정리하려 했으나 **Auto Mode가
+  정리 명령 자체를 차단**하는 역설적 상황도 발생 — 안전장치가 오히려 실패의 일부가 될 수
+  있음을 보여준 사례.
+- Anthropic은 이 신고를 "정보 제공(Informative)"으로 종결하며, Auto Mode는 보안 보장이
+  아닌 최선노력(best-effort) 분류기 기반 편의 기능이고 "진짜 방어선은 OS 격리와 네트워크
+  아웃바운드 통제"라고 답했다 — 08-07 최초 발표 당시 명시했던 "프로덕션과 분리해서 쓰라"는
+  권고와 일관된 입장이다.
+- 연구자는 컨테이너/VM/OS 샌드박스에서 무인 에이전트를 실행하고, 네트워크 아웃바운드를
+  제한하고, 에이전트를 모니터링하고, 홈 디렉터리·SSH 키·클라우드 자격증명을 노출하지
+  말라고 권고했다.
+
+→ Simon Willison, [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/) ·
+[embracethered.com 원문](https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/)
+
 ## 출처
 
 - https://claude.com/blog/auto-mode-default-in-claude-code
 - https://www.anthropic.com/engineering/claude-code-auto-mode (아키텍처 상세)
+- https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/ (08-27 우회 사례)
+- https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
 - raw/2026-08/claude-code-auto-mode-default.md

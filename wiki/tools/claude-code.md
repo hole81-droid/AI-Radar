@@ -93,6 +93,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 자체 사용 사례: Anthropic BD(영업)팀이 Claude Cowork의 Skills+예약 태스크+CRM 커넥터로 인바운드 응대·아웃바운드 프로스펙팅을 자동화 — 인바운드 응답 하루 5시간→검토만, 담당자 1인당 계정 100개+ 관리. 모든 발송은 사람 검토 필수. → [[anthropic-bd-team-claude-cowork-sales-automation]]
 - **2026-08-12**: Claude in Chrome 사이드패널이 별도 선택 없이 곧바로 정식 **Claude Cowork** 세션으로 통합 — 브라우저 대화가 히스토리에 저장되어 데스크톱·웹·모바일에서 이어짐, 기존 Skills·커넥터 그대로 동작. → [[2026-08-12-claude-cowork-chrome-integration]]
 - **2026-08-19**: **Compliance API**가 Cowork(데스크톱·웹·모바일)·Claude Code(CLI·데스크톱)까지 확장(Enterprise 베타) — 보안팀이 세션 콘텐츠·메타데이터를 통합 조회해 감사·eDiscovery 대응. Bedrock·Vertex AI·Foundry 경유 세션은 아직 미포함. → [[2026-08-19-anthropic-compliance-api-cowork-claude-code]]
+- **2026-08-27**: 프롬프트 인젝션 연구자가 **Auto Mode 우회 공격 성공률 60~80%**를 확인 — ZIP 압축해제 후 Python 표준 라이브러리 모듈을 가로채는 체인, 일부 사례는 Auto Mode가 침해 정리 명령까지 차단. Anthropic은 "보안 보장이 아닌 최선노력 분류기"라며 OS 격리·네트워크 통제가 진짜 방어선이라고 답변. → [[2026-08-07-claude-code-auto-mode-default]] (08-27 후속 절)
+- 커뮤니티 패턴: 개인 개발자가 손코딩 없이 Claude Code·Codex·Cursor를 격리 VM+자체 오케스트레이터로 병렬 운영해 6개월간 실제 업무 개발 전체를 위임 — 승인 게이트 대신 VM 격리로 자율성을 확보하는 접근, 위 Auto Mode 우회 사례와 대비되는 설계 철학. → [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]]
 
 ## 출처
 

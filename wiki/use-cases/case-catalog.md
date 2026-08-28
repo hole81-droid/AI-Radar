@@ -57,6 +57,7 @@ uses: [course, ax]
 - [[microsoft-claude-code-copilot-cli-adoption-study]] — ★실측 벤치마크 케이스. Microsoft가 자체 학술 연구로 Claude Code+GitHub Copilot CLI(cli-pipeline) 사내 수만 명 엔지니어 확산을 4개월 추적 → 채택자 PR 병합량 예상 대비 약 24%↑, 동료 사용이 채택의 핵심 동인 (실측)
 - [[adeptly-claude-code-learning-crew-pipeline]] — Claude Code로 로컬 CLI(cli-pipeline+subagents, prd-driven)를 활용해 Claude Code 기능 학습형 계획 생성+Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 개발 파이프라인 자동 실행을 수행 → API키·서버·텔레메트리 없는 로컬 전용 오픈소스(MIT) (주장, 정량 미확인)
 - [[jeremytian-claude-code-loop-agent-optimization]] — Claude Code로 반복 루프(cli-pipeline)를 활용해 프로덕션 엔터프라이즈 AI 에이전트 정확도 자동 개선을 수행 → 정밀도 0.734→0.818(경쟁 도구 AutoAgent 0.877보다는 낮음) (실측)
+- [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] — Claude Code·Codex·Cursor로 격리 VM 기반 병렬 에이전트 오케스트레이션(cli-pipeline+subagents)을 활용해 개인 개발자의 소프트웨어 개발 전체를 수행 → 6개월간 "경력 중 최고 생산성", 피크 시 동시 20개 에이전트 운영 (주장)
 - [[reddit-lloyd-claude-code-loop-orchestrator]] — Claude Code로 heartbeat 루프 오케스트레이터(cron-routines)를 활용해 고객 이메일 트리아지·문서 점검·로그 모니터링·자체 티켓 관리를 수행 → SQLite DB로 600여 건 자체 관리 (일화, 개인 프로젝트)
 - [[codex-gpu-kernel-232x-autoresearch]] — Codex(GPT-5.5)로 `/goal` 장기 실행 루프+서브에이전트+빔서치(cli-pipeline)를 활용해 GPU 커널(배치 QR 분해) 최적화를 수행 → 232배 속도 향상, 공개 리더보드 183명 중 12위 (실측, 개인 프로젝트)
 - [[theaxlabs-harness-r1-failure-driven-editing]] — Claude(Claude Code)로 실패 로그 기반 4단계 루틴(cron-routines)을 활용해 에이전트 하네스(프롬프트·체크포인트·에러복구) 주간 자가개선을 수행 → 참고 논문 기준 성공률 +9.3%p(Claude Code 적용판 실측은 미확인) (주장)
@@ -265,3 +266,10 @@ MIT·Laude Institute의 오픈소스 상시 가동 하네스 "Headlong"은 특�
 1주 재현 가이드. ops·claimed, 도구 비종속 설계이며 정량 성과·고객사 사례는 없음 —
 같은 블로그의 [[theaxlabs-ai-native-operating-system-6-steps]]·
 [[theaxlabs-slack-cpo-ai-teammate-principles]]와 같은 계열의 방법론 콘텐츠).*
+
+*2026-08-29 추가(78건): [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]](exe.dev
+블로그, HN 68점 — 개인 개발자가 "손코딩 안 함" 규칙 아래 Claude Code·Codex·Cursor를
+격리 VM+자체 오케스트레이터(botd)로 병렬 운영, 6개월간 실제 업무에 적용. dev-automation·
+claimed, 정량 생산성 지표는 없고 피크 20 VM·자기평가 "경력 최고 생산성"만 확인. 같은 날
+확인한 Claude Code Auto Mode 우회 취약점(embracethered.com, 공격성공률 60~80%)과 대비하면
+"승인 완화" vs "인프라 격리" 두 자율성 설계 접근의 리스크 차이를 보여주는 좋은 짝).*

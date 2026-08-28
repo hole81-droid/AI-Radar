@@ -944,3 +944,33 @@ ai-industry-cyber-defense-letter·anthropic-science-scientist-seats-wellbeing-gr
 theaxlabs-company-brain-prompt-guide). newsletter/2026-08-28.md 신규 생성.
 sources.md RSS 캐시 08-28행 추가(AX LABS 정체 해소 확인, old.reddit·Karpathy 블로그
 8일 연속 재시도 생략 유지).
+
+## [2026-08-29] scan | 항목 6건, 반영 6건
+
+공백 없음(전날 08-28 스캔 정상 실행 확인 후 바로 오늘치 진행). 업무 적용 Case 1건:
+exe.dev 블로그(HN 68점)에서 개인 개발자가 "손코딩 안 함" 규칙으로 Claude Code·Codex·
+Cursor를 격리 VM+자체 오케스트레이터(botd)로 병렬 운영해 6개월간 실제 업무 개발 전체를
+위임 — 정량 생산성 지표는 없으나 피크 20 VM·자기평가 "경력 최고 생산성"은 확인
+→ [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] 신규, case-catalog 78건.
+빅 뉴스 3건: (1) 미 연방법원, 국방부의 Anthropic "공급망 리스크" 블랙리스트 지정을
+위법 판결(수정헌법 1조·5조 위반) — 자율살상무기·대량감시 사용제한을 둘러싼 $200M 계약
+결렬이 발단, 정부에 전면 철회 명령. 08-04 Tino Cuéllar 영입 당시 "누적된 정부 리스크"로만
+짧게 언급됐던 사건의 첫 전용 페이지 → [[2026-08-27-anthropic-pentagon-blacklist-ruling]]
+신규, (2) Claude Code Auto Mode 우회 공격 성공률 60~80% 확인(Johann Rehberger,
+embracethered.com — ZIP 압축해제 후 Python 표준 라이브러리 모듈 가로채기, 일부는 Auto
+Mode가 침해 정리 명령까지 차단, Anthropic은 "보안 보장 아닌 최선노력 기능"이라 답변) —
+기존 [[2026-08-07-claude-code-auto-mode-default]]에 후속 절 추가(신규 페이지 없음),
+(3) GLM-5.3, 예고했던 "2주 후 오픈웨이트 공개" 시한을 넘겨 지연 확인(Terminal-Bench 3.0
+4.6→28.3 세부 수치 추가 확인) — 기존 [[2026-08-14-zhipu-glm-5-3-launch]]에 후속 절 추가.
+커뮤니티 2건(모두 뉴스레터에만 기록, 페이지화 안 함): "Coding Agents killed my identity.
+How do you feel?"(HN 32점, 08-27·08-28에 이은 사흘째 "AI가 정체성/뇌/실력을 죽였다" 담론
+연속) · "AI Agent Has Root"(HN 38점, 샌드박스 없는 MCP 서버 위험성 경고+mcp-box 오픈소스
+공개, Auto Mode 우회 사례와 같은 맥락). YouTube 1건(Jeff Su "Learn 95% of ChatGPT Work in
+Under 20 Minutes", 08-25 업로드 — 기존 [[openai-chatgpt-work-launch]] 실습 가이드로 연결).
+Latent Space의 08-28 "[AINews] OpenAI to reach AGI bar by end-2026"은 3자 코멘터리(Time
+인용)라 인용 규칙상 원문 그대로 신뢰 인용은 보류, 페이지화 안 함. HN 인물쿼리(karpathy·
+"Andrew Ng", points>50)는 신규 히트 없음. Anthropic 공식 뉴스룸(WebFetch)은 08-27 이후
+신규 없음 확인, OpenAI 공식 뉴스룸은 이번에도 WebFetch 403(패턴 지속)으로 WebSearch 대체.
+[[anthropic]]·[[claude-code]]·[[timeline]] 117→118건·[[index]]·[[case-catalog]] 갱신.
+raw/2026-08/에 원본 2건 저장(anthropic-pentagon-blacklist-ruling·
+exedev-claude-codex-cursor-parallel-agents). sources.md RSS 캐시 08-29행 추가.

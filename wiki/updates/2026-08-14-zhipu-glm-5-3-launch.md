@@ -43,9 +43,21 @@ GLM-5.2와 동일하게 유지하고, 포스트트레이닝(post-training) 스�
 - **강의**: 포스트트레이닝만으로 성능이 크게 개선된 사례로, "사전학습 vs 포스트트레이닝"이
   현재 프론티어 경쟁의 핵심 축이라는 점을 설명하는 최신 교재로 활용 가능.
 
+## 후속 (08-28) — 예고했던 "2주 후 공개" 가중치, 시한 넘겨 지연
+
+발표 당시 약속했던 "2주 후 오픈소스 가중치 공개" 시한(08-28 전후)이 지났지만, Z.ai의
+Hugging Face 페이지에는 아직 아무것도 올라오지 않은 상태다(08-28 확인 기준). 대신 API
+서비스로만 GLM-5.3을 계속 공급 중이다.
+
+- 벤치마크 세부 수치도 추가 확인됐다: Terminal-Bench 3.0 점수가 GLM-5.2의 4.6에서
+  **28.3으로 6.2배 급등**, 오픈소스 모델 중 1위 유지.
+- "안전성 검토"를 이유로 GLM 시리즈 최초로 가중치 공개를 지연한다고 밝혔던 만큼, 이번
+  지연이 검토 강화 때문인지 단순 일정 지연인지는 아직 공식 설명이 없다.
+
 ## 출처
 
 - [the-decoder — Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model](https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/)
 - [TechTimes — GLM-5.3: Post-Training Produced Exploit Chains Z.ai Never Planned](https://www.techtimes.com/articles/324426/20260814/glm-53-post-training-produced-exploit-chains-zai-never-planned-finds-1097-critical-bugs.htm)
 - [alphaXiv — GLM-5.3 기술 리포트](https://www.alphaxiv.org/abs/2608.glm-5)
+- [MLQ News — Zhipu releases GLM-5.3 through its coding service, with weights still two weeks away](https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/)
 - raw: [[raw/2026-08/zhipu-glm-5-3-launch]]
