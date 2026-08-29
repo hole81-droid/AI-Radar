@@ -974,3 +974,33 @@ Latent Space의 08-28 "[AINews] OpenAI to reach AGI bar by end-2026"은 3자 코
 [[anthropic]]·[[claude-code]]·[[timeline]] 117→118건·[[index]]·[[case-catalog]] 갱신.
 raw/2026-08/에 원본 2건 저장(anthropic-pentagon-blacklist-ruling·
 exedev-claude-codex-cursor-parallel-agents). sources.md RSS 캐시 08-29행 추가.
+
+## [2026-08-30] scan | 항목 4건, 반영 4건
+
+업무 적용 Case는 이번 스캔에서 조건을 충족하는 새 사례를 찾지 못함(Ben AI "Second Brain"
+영상은 본인 SaaS Balda 홍보 성격이 강해 YouTube 픽으로 하향, case-catalog 갱신 없음).
+빅 뉴스 2건 페이지화: (1) SpaceX가 $60B에 인수 완료(08-14)한 Cursor에 대해 OpenAI가
+자사 모델 직접 API 접근을 11/12부로 차단(HN 785점) — Anthropic-Windsurf 선례와 같은
+패턴, "모델 접근권이 경쟁 무기가 되는" 코딩 에이전트 4파전 구도 재확인 →
+[[2026-08-29-openai-ends-cursor-partnership]] 신규, (2) Claude Cowork에 계정 격리형
+내장 브라우저 추가(08-26 발표, 기존 Chrome 사이드패널과 병행 — OpenAI Atlas 단종과
+반대 방향) — 08-27~08-29 스캔에서 모두 누락됐던 항목을 이번에 WebSearch로 뒤늦게
+발견, 기존 [[2026-08-12-claude-cowork-chrome-integration]]에 08-26 후속 절로 소급 반영
+(신규 페이지 없음). 빅 뉴스 1건은 페이지화 없이 뉴스레터에만 기록: AI 코딩 에이전트가
+패치 논의 시작 10분 만에 취약점을 스캔할 정도로 빨라지며 오픈소스 보안공시 프로세스가
+못 따라가는 중(Simon Willison 인용, rclone 유지보수자 "월 40건+ 공시, CVE 할당
+2~3일→3~4주로 지연") — 08-27 Auto Mode 우회·08-29 "AI Agent Has Root"에 이은 보안
+리스크 가속 흐름의 연장으로 판단해 단발 트렌드 코멘터리로 처리(페이지화 보류). 커뮤니티
+1건(페이지화 없음): Terminal-Bench-Science 0.1 공개 — Stanford SAIL·HAI·Laude
+Institute·Allen Institute 공동, 과학 연구 워크플로 AI 에이전트 벤치마크 70개 과제,
+Anthropic 연구자 Ludwig Schmidt 참여(HN 115점). YouTube 1건: Ben AI "Stop Using Claude
+Without This Second Brain Setup"(08-29 업로드, 본인 앱 Balda 홍보 성격 — 세컨드 브레인
+설계 체크리스트만 참고용으로 픽 반영). HN 인물쿼리(karpathy·"Andrew Ng", points>50)는
+신규 히트 없음. Karpathy GitHub 저장소는 신규 없음(커밋 갱신만). Anthropic 공식
+뉴스룸(WebFetch)은 08-27 이후 신규 없음, OpenAI 공식 뉴스룸은 이번에도 WebFetch 403
+(패턴 지속)으로 WebSearch 대체. AX LABS·Addy Osmani·Lilian Weng 모두 정체 지속.
+YouTube 9채널 중 JoCoding(08-28 휴머노이드 쇼츠)은 주제 무관으로 제외, 나머지는 기존
+반영분과 중복이거나 정체. [[anthropic]]·[[claude-code]]·[[openai]]·[[timeline]]
+118→120건·[[index]] 갱신(case-catalog는 신규 use-case 없어 갱신 없음). raw/2026-08/에
+원본 2건 저장(openai-ends-cursor-partnership·claude-cowork-built-in-browser).
+sources.md RSS 캐시 08-30행 추가. newsletter/2026-08-30.md 신규 생성.

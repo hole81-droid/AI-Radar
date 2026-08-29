@@ -58,6 +58,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-08-05**: Meta가 자체 코딩 에이전트 **Muse Code**(Muse Spark 1.2 기반) 베타를 출시, Claude Code·Codex를 직접 겨냥 — 터미널 코딩 에이전트 시장이 사실상 3파전(Anthropic·OpenAI·Meta)으로 재편됐다. → [[2026-08-05-meta-muse-code-launch]]
 - **2026-08-11**: SpaceX·xAI·Cursor 합병 법인이 상시 작동 에이전트 팀 제품 **Grok Bot**을 출시, 코딩을 넘어 사무 업무 전반에서 Claude Cowork와 정면 경쟁 — "AI 에이전트 팀"이 코딩 도구 4파전(Anthropic·OpenAI·Meta·SpaceXAI)을 넘어 사무 자동화로도 번지는 신호. → [[2026-08-11-spacexai-grok-bot-launch]]
 - **2026-08-20**: Salesforce(Slack)가 팀 채널에서 여러 벤더의 코딩 에이전트를 함께 쓰는 **Slack Code**를 출시 — Claude Code·Claude Tag가 Devin·v0·Copilot·ChatGPT와 나란히 지원 대상에 포함됐다. Claude Code가 Slack이라는 제3자 협업 플랫폼의 "인정된 에이전트" 목록에 오른 사례. → [[2026-08-20-salesforce-slack-code-launch]]
+- **2026-08-29**: SpaceX에 인수된(08-14 완료, $60B) Cursor에 대해 OpenAI가 자사 모델 접근을 11/12부로 차단 — 코딩 에이전트 시장이 Anthropic·OpenAI·Meta·SpaceXAI 4파전에 이어 "모델 접근권 자체가 경쟁 무기"로 쓰이는 국면에 들어섰음을 보여준다. → [[2026-08-29-openai-ends-cursor-partnership]]
 
 ## 운영 참고사항
 
@@ -95,6 +96,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-08-19**: **Compliance API**가 Cowork(데스크톱·웹·모바일)·Claude Code(CLI·데스크톱)까지 확장(Enterprise 베타) — 보안팀이 세션 콘텐츠·메타데이터를 통합 조회해 감사·eDiscovery 대응. Bedrock·Vertex AI·Foundry 경유 세션은 아직 미포함. → [[2026-08-19-anthropic-compliance-api-cowork-claude-code]]
 - **2026-08-27**: 프롬프트 인젝션 연구자가 **Auto Mode 우회 공격 성공률 60~80%**를 확인 — ZIP 압축해제 후 Python 표준 라이브러리 모듈을 가로채는 체인, 일부 사례는 Auto Mode가 침해 정리 명령까지 차단. Anthropic은 "보안 보장이 아닌 최선노력 분류기"라며 OS 격리·네트워크 통제가 진짜 방어선이라고 답변. → [[2026-08-07-claude-code-auto-mode-default]] (08-27 후속 절)
 - 커뮤니티 패턴: 개인 개발자가 손코딩 없이 Claude Code·Codex·Cursor를 격리 VM+자체 오케스트레이터로 병렬 운영해 6개월간 실제 업무 개발 전체를 위임 — 승인 게이트 대신 VM 격리로 자율성을 확보하는 접근, 위 Auto Mode 우회 사례와 대비되는 설계 철학. → [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]]
+- **2026-08-26**: Cowork 데스크톱 앱에 사용자 계정과 완전 격리된 **내장 브라우저**를 추가 — 기존 08-12 "Claude in Chrome 사이드패널"(내 로그인 세션 공유)과 용도를 나눠 병행하는 구조. OpenAI가 자체 AI 브라우저 Atlas를 단종한 것과 반대 방향. → [[2026-08-12-claude-cowork-chrome-integration]] (08-26 후속 절)
 
 ## 출처
 
