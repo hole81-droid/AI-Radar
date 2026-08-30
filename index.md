@@ -7,7 +7,7 @@
 - [[claude-code]] — Anthropic의 에이전틱 코딩 도구. CLI·IDE·Desktop·웹, 최신 v2.1.201, Opus 4.8/Fable 5 (2026-07-06 스냅샷)
 - [[codex]] — OpenAI의 코딩 에이전트. CLI·IDE·클라우드 등 6개 표면, GPT-5.5 권장 (2026-07-06 스냅샷)
 - [[chatgpt]] — OpenAI의 대화형 AI 서비스. GPT-5.5 주력, GPT-5.6 프리뷰 중 (2026-07-06 스냅샷)
-- [[gemini]] — Google의 AI 모델·서비스. Gemini 3.5 Flash GA, 3.5 Pro GA 지연 중 (2026-07-06 스냅샷)
+- [[gemini]] — Google의 AI 모델·서비스. Gemini 3.5 Flash GA, 3.5 Pro GA 지연 중 (2026-07-06 스냅샷 + 08-27 Gemini Omni 1.1 Flash 갱신)
 
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
@@ -38,7 +38,7 @@
 - [[2026-07-20-claude-fable-jacobian-conjecture]] — Anthropic 연구자, Claude Fable로 87년 미해결 야코비안 추측 반증 주장(동료검토 전, 07-21 Terry Tao 후속 검토 추가) (high)
 - [[2026-07-15-anthropic-ipo-investor-meetings]] — IPO 투자자 미팅 시작, 10월 목표 상장 거론 (high)
 - [[2026-07-15-anthropic-eu-parliament-backlash]] — EU 의회, 청문회 파견자 논란으로 반발 (medium)
-- [[2026-07-15-claude-for-teachers]] — 미국 K-12 교사 전원 Claude 프리미엄 1년 무료 (high)
+- [[2026-07-15-claude-for-teachers]] — 미국 K-12 교사 전원 Claude 프리미엄 1년 무료. 08-28 후속: 학교·교육청 단위 기관형 오퍼링 신설(학생 기록 처리 위임 가능) (high)
 - [[2026-07-13-anthropic-hires-top-researchers]] — DeepMind 노벨상 수상자 등 4명 2주 만에 영입 (high)
 - [[2026-07-10-alibaba-bans-claude-code]] — Alibaba 전 직원 Claude Code 금지, 백도어 의혹 (high)
 - [[2026-07-09-anthropic-bernanke-oversight-trust]] — 전 연준의장 Bernanke 감독기구 영입 (medium)
@@ -76,6 +76,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-08-27-google-gemini-omni-1-1-flash-launch]] — 스튜디오급 AI 영상 생성 모델 개발자용 정식 출시(06-30 프리뷰의 프로덕션 버전), Scene Extension·Keyframe Control·Draft Mode·4K 업스케일링, Adobe Firefly·Figma Weave·Runway 통합 (medium)
 - [[2026-08-19-google-gemini-chat-workspace-intelligence]] — "Ask Gemini in Chat" 발표(8/26 출시), Workspace Intelligence 기반 Google Chat 통합 명령줄 (medium)
 - [[2026-08-06-google-gemini-replaces-assistant-android]] — 2026-09-04부터 Android·Wear OS 기본 음성비서 Gemini로 전면 교체 확정, 되돌리기 불가 (high)
 - [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도(공백 소급) (high)
@@ -100,7 +101,7 @@
 - [[2026-08-19-meta-ai-mac-desktop-app]] — Meta AI 전용 Mac 데스크톱 앱 출시, 화면 공유 어시스턴트 + Google Workspace 연동(크리에이터·소상공인 타겟) (medium)
 - [[2026-08-12-xai-grok-4-6-launch]] — xAI, Grok 4.6 출시(4.5 이후 35일 만), 가격 동일·Intelligence Index 54→61(GPT-5.6 Sol Max 동급) (medium)
 - [[2026-08-16-stripe-openrouter-acquisition]] — Stripe, AI 모델 게이트웨이 OpenRouter를 $7B+에 인수 확정(3개월 전 $1.3B 대비 5배+) (high)
-- [[2026-08-14-zhipu-glm-5-3-launch]] — Zhipu AI GLM-5.3 출시, 코딩 50%↑ 자평 + 의도치 않은 사이버 익스플로잇 능력 자체 인정. 08-28 후속: 예고했던 "2주 후 가중치 공개" 시한 넘겨 지연, Terminal-Bench 3.0 4.6→28.3(6.2배) 확인 (high)
+- [[2026-08-14-zhipu-glm-5-3-launch]] — Zhipu AI GLM-5.3 출시, 코딩 50%↑ 자평 + 의도치 않은 사이버 익스플로잇 능력 자체 인정. 08-28 후속: 예고했던 "2주 후 가중치 공개" 시한 넘겨 지연, Terminal-Bench 3.0 4.6→28.3(6.2배) 확인. 08-31 후속: 가중치 실제 공개 확인 + 네이티브 멀티모달 변형 GLM-5.3-Flash(320B, MIT) 별도 출시, HN 797점 (high)
 - [[2026-08-13-deepseek-harness-launch]] — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰(MIT) 공개, Claude Code 정면 경쟁 + V4-Pro API 가격 인상 (high)
 - [[2026-08-11-spacexai-grok-bot-launch]] — SpaceX·xAI·Cursor 합병 법인, 상시 작동 에이전트 팀 제품 "Grok Bot" 출시, Claude Cowork 정면 겨냥 (high)
 - [[2026-08-05-meta-muse-code-launch]] — Meta, 코딩 에이전트 "Muse Code" 베타 출시, Claude Code·Codex와 3파전 (high)
@@ -135,7 +136,7 @@
 
 - [[citizen-development]] — 현업이 AI로 사내 도구를 직접 만드는 흐름 (high)
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
-- [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영 (medium)
+- [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영. 08-31 추가: Andrew Ng "AI Engineering Skills Map"(The Batch 1차 채널) 소프트웨어 펀더멘털 논지로 보강 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
 - [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기 (medium)
 - [[demo-dummy-data-design]] — 에이전트 시연용 모의 데이터 설계 — 심은 이야기·미끼·대조군·재발견 검수 (medium)
@@ -173,4 +174,4 @@
 
 - [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 08-27, 118건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-30]] · [[2026-08-29]] · [[2026-08-28]] · [[2026-08-27]] · [[2026-08-26]] · [[2026-08-25]] · [[2026-08-24]] · [[2026-08-23]] · [[2026-08-22]] · [[2026-08-21]] · [[2026-08-20]] · [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-31]] · [[2026-08-30]] · [[2026-08-29]] · [[2026-08-28]] · [[2026-08-27]] · [[2026-08-26]] · [[2026-08-25]] · [[2026-08-24]] · [[2026-08-23]] · [[2026-08-22]] · [[2026-08-21]] · [[2026-08-20]] · [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

@@ -54,6 +54,21 @@ Hugging Face 페이지에는 아직 아무것도 올라오지 않은 상태다(0
 - "안전성 검토"를 이유로 GLM 시리즈 최초로 가중치 공개를 지연한다고 밝혔던 만큼, 이번
   지연이 검토 강화 때문인지 단순 일정 지연인지는 아직 공식 설명이 없다.
 
+## 후속 (08-31) — 가중치 실제 공개 + GLM-5.3-Flash 별도 변형 출시
+
+> ⚠️ 상충: 08-28 기록 시점엔 "가중치가 아직 올라오지 않았다"였으나, 이후(08-26~08-28
+사이) 실제로 공개된 것으로 확인됐다. 아래가 최신 상태다.
+
+- **GLM-5.3 본 모델**: Hugging Face `zai-org/GLM-5.3`에 가중치 공개 완료. MoE 구조,
+  총 744B 파라미터·활성 약 40B, 컨텍스트 200K.
+- **GLM-5.3-Flash(신규 변형)**: 2026-08-26 공개 확인. 320B 총 파라미터·18B 활성,
+  MIT 라이선스. GLM-5 시리즈 최초로 텍스트·이미지·영상·시각 문서·인터리브 멀티모달
+  입력을 지원하는 네이티브 멀티모달 모델. 개발 코드네임 "Ox Alpha"였다가 Zhipu가
+  정체를 공식 확인하며 공개했다.
+- 커뮤니티 반응: HN "GLM-5.3 is now open-weight" 게시물이 797점을 받으며 크게 화제.
+- 정보원 다수가 SEO형 AI 요약 블로그라 세부 수치는 교차검증이 더 필요하지만, "가중치가
+  실제로 풀렸다"는 핵심 사실은 TechNode 보도와 HN 고득점 게시물 양쪽에서 일치.
+
 ## 출처
 
 - [the-decoder — Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model](https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/)
@@ -61,3 +76,4 @@ Hugging Face 페이지에는 아직 아무것도 올라오지 않은 상태다(0
 - [alphaXiv — GLM-5.3 기술 리포트](https://www.alphaxiv.org/abs/2608.glm-5)
 - [MLQ News — Zhipu releases GLM-5.3 through its coding service, with weights still two weeks away](https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/)
 - raw: [[raw/2026-08/zhipu-glm-5-3-launch]]
+- raw: [[raw/2026-08/glm-5-3-weights-released-flash-variant]]

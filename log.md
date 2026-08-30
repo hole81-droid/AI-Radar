@@ -1004,3 +1004,36 @@ YouTube 9채널 중 JoCoding(08-28 휴머노이드 쇼츠)은 주제 무관으�
 118→120건·[[index]] 갱신(case-catalog는 신규 use-case 없어 갱신 없음). raw/2026-08/에
 원본 2건 저장(openai-ends-cursor-partnership·claude-cowork-built-in-browser).
 sources.md RSS 캐시 08-30행 추가. newsletter/2026-08-30.md 신규 생성.
+
+## [2026-08-31] scan | 항목 6건, 반영 6건
+
+공백 없음(전날 08-30 스캔 정상 실행 확인 후 바로 오늘치 진행). 업무 적용 Case는 검증
+가능한 신규 자동화 사례가 없어 정직하게 공란(Dan Martell "AI brain" 영상 2건은 설명란이
+제목 반복뿐이라 세부 미확인으로 승격 보류). 빅 뉴스 4건: (1) Google, 스튜디오급 AI 영상
+생성 모델 Gemini Omni 1.1 Flash 개발자용 정식 출시(06-30 프리뷰의 프로덕션 버전 —
+Scene Extension·Keyframe Control·Draft Mode·4K 업스케일링, Adobe Firefly·Figma
+Weave·Runway 통합, HN 361점) → [[2026-08-27-google-gemini-omni-1-1-flash-launch]]
+신규, [[gemini]] 허브 갱신. (2) Anthropic, "Claude for Teachers"를 학교·교육청 단위
+기관형 오퍼링으로 확장(개별 교사 무료 프로그램과 별개 트랙, 학생 기록 처리 위임 가능) →
+기존 [[2026-07-15-claude-for-teachers]]에 08-28 후속 절 추가(신규 페이지 없음). (3)
+GLM-5.3 오픈웨이트 가중치, 지연 논란 끝에 실제 공개 확인 + 네이티브 멀티모달 변형
+GLM-5.3-Flash(320B, MIT) 별도 출시(HN 797점) → 기존 [[2026-08-14-zhipu-glm-5-3-launch]]에
+08-31 후속 절 추가, 08-28 기록이던 "지연" 상태를 `> ⚠️ 상충` 표기 후 최신 상태로 갱신.
+(4) Andrew Ng, The Batch(1차 채널)에 "AI Engineering Skills Map — 소프트웨어 펀더멘털"
+레터 발행(코딩 에이전트가 있어도 근본 트레이드오프 판단은 인간 몫이라는 논지) → 신규
+update 페이지 대신 기존 개념 [[vibe-coding-vs-agentic-engineering]]에 구루 1차 발언
+보강 섹션 추가(인용 규칙에 따라 The Batch 원문 직접 대조 완료). 커뮤니티 1건(페이지화
+없음): "Claude Session URL appended to commit messages by default" — 2026-06 등록된
+closed GitHub 이슈가 08-30 HN에 재부상(170점), 세션 URL 무동의 기본 첨부에 대한 개발자
+신뢰 불만. YouTube 1건: 조코딩 "IT뉴스" 주간 요약(08-30 업로드, Gemini Omni·GLM-5.3과
+함께 미확인 루머 "Fable 5.1"·MiniMax H3도 소개 — Fable 5.1은 WebSearch·HN 모두 1차
+소스·신뢰 가능한 커뮤니티 스레드 확인 실패로 빅뉴스·페이지화 모두 보류, 루머로만 짧게
+언급). HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 신규 히트 없음. Karpathy GitHub
+저장소는 신규 없음(커밋 갱신만). old.reddit.com RSS·Karpathy 개인 블로그(bearblog.dev)는
+11일 연속 확정 상태로 재시도 생략. AX LABS·Addy Osmani·Lilian Weng·Latent Space 모두
+정체 지속. YouTube 9채널 중 JoCoding·Dan Martell만 신규 확인, 나머지 7채널은 기존
+반영분과 중복이거나 주제 무관. [[gemini]]·[[timeline]](120→123건)·[[index]] 갱신
+(case-catalog는 신규 use-case 없어 갱신 없음). raw/2026-08/에 원본 4건 저장
+(google-gemini-omni-1-1-flash-launch·claude-for-teachers-schools-districts·
+glm-5-3-weights-released-flash-variant·andrew-ng-ai-engineering-skills-map-fundamentals).
+sources.md RSS 캐시 08-31행 추가. newsletter/2026-08-31.md 신규 생성.

@@ -49,6 +49,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 
 - **2026-07-30** — Gemini Robotics 2 공개 — 휴머노이드 전신(발끝~손끝) 조율+다중 로봇 협업 3종 모델 패밀리, 새 로봇 기종 적응에 수 시간 → [[2026-07-31-google-gemini-robotics-2-launch]]
 - **2026-08-19** — **"Ask Gemini in Chat"** 발표(8/26부터 순차 출시) — Google Chat이 Workspace Intelligence 기반 통합 명령줄로, Gmail·Drive·Calendar 검색부터 문서·슬라이드 생성, 회의 예약까지 채팅 안에서 처리. Asana·Jira·Salesforce 커넥터 확장 → [[2026-08-19-google-gemini-chat-workspace-intelligence]]
+- **2026-08-27** — **Gemini Omni 1.1 Flash** 개발자용 정식 출시 — 06-30 프리뷰(`gemini-omni-flash-preview`)의 프로덕션 버전. Scene Extension(최대 40초 연장)·Keyframe Control·Draft Mode(1/3 비용)·4K 업스케일링 추가, Adobe Firefly·Figma Weave·Runway 통합 → [[2026-08-27-google-gemini-omni-1-1-flash-launch]]
 
 ## 활용 포인트
 

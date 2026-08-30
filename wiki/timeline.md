@@ -4,7 +4,7 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-29, 120건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-29, 123건)
 
 ## 2026-08
 
@@ -12,6 +12,15 @@ date: 2026-07-07
   11/12부로 차단 — Anthropic-Windsurf 선례와 같은 패턴, "모델 접근권이 경쟁 무기"가 되는
   코딩 에이전트 4파전 구도 재확인(HN 785점) →
   [[2026-08-29-openai-ends-cursor-partnership]]
+- **08-28** — Anthropic, "Claude for Teachers"를 학교·교육청 단위 기관형 오퍼링으로 확장 —
+  개별 교사 무료 프로그램과 별개로, 조직이 학생 기록 처리까지 위임할 수 있는 기관 계약형
+  트랙 신설 → [[2026-07-15-claude-for-teachers]]
+- **08-28** — GLM-5.3 오픈웨이트 가중치 실제 공개 + 네이티브 멀티모달 변형 GLM-5.3-Flash
+  (320B, MIT 라이선스) 별도 출시 — 예고했던 "2주 후 공개" 지연 논란 해소, HN 797점 →
+  [[2026-08-14-zhipu-glm-5-3-launch]]
+- **08-27** — Google, 스튜디오급 AI 영상 생성 모델 Gemini Omni 1.1 Flash 개발자용 정식
+  출시 — Scene Extension·Keyframe Control·Draft Mode·4K 업스케일링, Adobe Firefly·
+  Figma Weave·Runway 통합 → [[2026-08-27-google-gemini-omni-1-1-flash-launch]]
 - **08-27** — 미 법원, 국방부의 Anthropic "공급망 리스크" 지정을 위법 판결(수정헌법 1조·5조
   위반) — 자율살상무기·대량감시 사용제한 요구를 둘러싼 $200M 계약 결렬이 발단, 정부에
   전면 철회 명령. →
