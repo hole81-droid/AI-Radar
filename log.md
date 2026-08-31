@@ -1037,3 +1037,40 @@ closed GitHub 이슈가 08-30 HN에 재부상(170점), 세션 URL 무동의 기�
 (google-gemini-omni-1-1-flash-launch·claude-for-teachers-schools-districts·
 glm-5-3-weights-released-flash-variant·andrew-ng-ai-engineering-skills-map-fundamentals).
 sources.md RSS 캐시 08-31행 추가. newsletter/2026-08-31.md 신규 생성.
+
+## [2026-09-01] scan | 항목 6건, 반영 6건
+
+공백 없음(전날 08-31 스캔 정상 실행 확인 후 바로 오늘치 진행). 업무 적용 Case 1건:
+장피엠(YouTube)이 08-31 오픈소스 웹 크롤링 에이전트 "web-crawler"(Claude Code·Codex·
+ChatGPT Work 겸용, GitHub MIT)를 공개 — URL+한줄설명만으로 사이트 정찰→수집코드
+생성→엑셀 정리를 자동화, 나라장터 입찰공고 140건·금감원 PDF 107개·쿠팡 리뷰 1,000건
+실전 시연 → 신규 use-case [[jangpm-web-crawler-claude-code-codex]](research 도메인,
+79건째), [[case-catalog]]·[[claude-code]] 허브·[[index]] 갱신. 빅 뉴스 2건: (1)
+Anthropic이 Claude Code 표준 주간 사용한도를 09-14부터 25% 영구 인상한다고 발표했으나
+같은 날 종료되는 일시 50% 증량 프로모션 때문에 지금 대비 체감은 17% 감소(Anthropic 스스로
+인정, HN 64점) → 신규 [[2026-08-31-claude-code-weekly-limit-change]], [[claude-code]]
+허브·[[timeline]] 갱신. (2) Salesforce·Anthropic "Claudeforce" 파트너십(08-26 발표,
+Claude 안에서 쓰는 37종 사전구축 세일즈 스킬 "Salesforce in Claude", Bedrock 경유
+Trust Boundary 내 서빙) — WebSearch로 뒤늦게 발견, **08-27~08-31 5회 연속 스캔에서
+누락됐던 항목**이라 09-01 소급 반영 → 신규 [[2026-08-26-anthropic-salesforce-claudeforce]],
+[[anthropic]]·[[timeline]] 갱신. 개념 보강 1건: AX LABS가 08-31 공개한 "하네스 엔지니어링
+6계층 가이드"(AGENTS.md 템플릿·12항목 체크리스트·프롬프트 4종, GAIA 벤치마크 43.64%p
+개선 등 인용)는 특정 도구의 단일 업무 자동화 사례가 아니라 방법론 프레임워크라
+use-case 대신 기존 [[loop-engineering]] 개념 페이지에 "실전 프레임워크" 절로 추가.
+use-case follow-up 1건: Simon Willison(1차 채널, 08-30)이 "ChatGPT Work"가 실은
+Work Cloud/Work Local 두 제품이라고 정리한 것을 기존 [[openai-chatgpt-work-launch]]
+use-case에 구조 정리 후속 절로 반영. 커뮤니티 화제 0건(신규 없음) — "Breaking Claude
+Code Opus 5 Auto Mode"가 HN 325점으로 재부상했으나 08-27~08-29 스캔에서 이미 반영된
+동일 기사의 재게시라 중복 미반영. YouTube 1건: 조코딩 "AI뉴스" 주간요약(08-31 업로드,
+Astra·GLM-5.3·Gemini Omni 1.1 등 다룸, "AGI 올해 달성" 등 논쟁적 주장 포함해 픽 설명에
+주의 표기). 9채널 RSS 재확인, AI Edge는 계속 미해결(재시도 생략). old.reddit.com RSS·
+Karpathy 개인 블로그(bearblog.dev)는 12일 연속 확정 상태로 재시도 생략. AX LABS 외
+Latent Space·Addy Osmani·Lilian Weng·The Batch는 모두 정체 지속. HN 인물쿼리(karpathy·
+"Andrew Ng", points>50)는 신규 히트 없음. Karpathy GitHub 저장소는 신규 없음(커밋
+갱신만). YouTube 9채널 중 장피엠·조코딩만 신규 확인, 나머지 7채널은 기존 반영분과
+중복이거나 주제 무관. [[loop-engineering]]·[[claude-code]]·[[anthropic]]·
+[[openai-chatgpt-work-launch]]·[[case-catalog]]·[[timeline]](123→125건)·[[index]] 갱신.
+raw/2026-09/에 원본 4건 신규 저장(jangpm-web-crawler-claude-code-codex·
+theaxlabs-harness-engineering-6-layer-guide·anthropic-salesforce-claudeforce·
+claude-code-weekly-limit-change). sources.md RSS 캐시 09-01행 추가.
+newsletter/2026-09-01.md 신규 생성.

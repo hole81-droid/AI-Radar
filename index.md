@@ -12,6 +12,8 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-08-31-claude-code-weekly-limit-change]] — Claude Code 표준 주간한도 09-14부터 25% 영구 인상 발표, 단 일시 50% 증량 프로모션 동시 종료로 현재 대비 체감 17% 감소 (medium)
+- [[2026-08-26-anthropic-salesforce-claudeforce]] — (09-01 소급) Salesforce와 "Claudeforce" 파트너십, Claude 안에서 쓰는 37종 사전구축 세일즈 스킬 "Salesforce in Claude" 공개, 9월 오픈베타 (high)
 - [[2026-08-27-anthropic-pentagon-blacklist-ruling]] — 미 법원, 국방부의 Anthropic "공급망 리스크" 지정을 위법 판결(수정헌법 1조·5조 위반), 정부에 철회 명령. 발단은 자율살상무기·대량감시 사용제한 요구를 둘러싼 $200M 계약 결렬 (high)
 - [[2026-08-27-anthropic-model-hardware-standard]] — Model Hardware Standard(MHS) 연구 프리뷰, AI 에이전트가 실험실·제조 장비 직접 조작. 물리 세계로 에이전트 영역 첫 확장, MCP 기반 모델 비종속, AWS·Automata·Tecan·Universal Robots 동시 지원 (high)
 - [[2026-06-30-claude-science]] — (08-27 후속) 과학자 1만 명에게 Claude 무료·할인 제공(PI급 신설 팀 플랜) + 08-25 웰빙 연구 $5M 그랜트 프로그램 추가
@@ -138,19 +140,19 @@
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
 - [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영. 08-31 추가: Andrew Ng "AI Engineering Skills Map"(The Batch 1차 채널) 소프트웨어 펀더멘털 논지로 보강 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
-- [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기 (medium)
+- [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기. 08-31 추가: AX LABS "하네스 엔지니어링 6계층" 실전 프레임워크(AGENTS.md 템플릿·12항목 체크리스트·프롬프트 4종) 보강 (medium)
 - [[demo-dummy-data-design]] — 에이전트 시연용 모의 데이터 설계 — 심은 이야기·미끼·대조군·재발견 검수 (medium)
 
 ## 회사·인물 (wiki/players/)
 
-- [[anthropic]] — 제품 확장·규제 격변·수익화 전환, +Bernanke 영입·연구자 4명 영입·Claude for Teachers·IPO 투자자 미팅·EU 청문회 반발·Alibaba 리스크·워터마크 도입(08-11)+후속(08-16)·Decart 인수 협상(08-13)·Cowork 모바일 전면화+다중모델 장애(08-18)·매출 급성장+Fable5 채택저조(08-23)·메모리 통합+보안업체 파업 해프닝+IPO TAM $30조 피치(08-25)·Pentagon 블랙리스트 위법 판결(08-27) (07-07 스냅샷 + 07-09~08-27 갱신)
+- [[anthropic]] — 제품 확장·규제 격변·수익화 전환, +Bernanke 영입·연구자 4명 영입·Claude for Teachers·IPO 투자자 미팅·EU 청문회 반발·Alibaba 리스크·워터마크 도입(08-11)+후속(08-16)·Decart 인수 협상(08-13)·Cowork 모바일 전면화+다중모델 장애(08-18)·매출 급성장+Fable5 채택저조(08-23)·메모리 통합+보안업체 파업 해프닝+IPO TAM $30조 피치(08-25)·Pentagon 블랙리스트 위법 판결(08-27)·Salesforce Claudeforce 파트너십(08-26, 09-01 소급) (07-07 스냅샷 + 07-09~08-31 갱신)
 - [[openai]] — "모델 회사에서 국가급 인프라 기업으로", +GPT-5.6 GA·Apple 소송·Heidecke 퇴사·Codex Micro 실출시·매출 $40B 돌파(08-14)·ChatGPT for Teens 출시(08-18) (07-07 스냅샷 + 07-09~08-18 갱신)
 - [[google]] — 제품 확장 vs 플래그십 지연·인재 이탈, +DeepMind CEO 교체·Jeff Dean 퇴사(08-05) (07-07 스냅샷 + 07-13·08-05 갱신)
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 78건) — 케이스 질의는 여기부터
-- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%)
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 79건) — 케이스 질의는 여기부터
+- 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%) · [[jangpm-web-crawler-claude-code-codex]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]] · [[theaxlabs-claude-code-diagram-design-skill]]
 - 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[ben-ai-claude-record-a-skill-best-practices]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배) · [[theaxlabs-harness-r1-failure-driven-editing]] · [[asana-openai-codex-enzyme-migration]] (5년→2주·$6M→$12K, HN 회의론 병기) · [[latent-space-wayfinder-claude-code-skill]] · [[jakesaunders-self-hosted-agentic-software-factory]] · [[fabiensanglard-agent-md-persistent-style-guide]]
 - 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]]
@@ -172,6 +174,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 08-27, 118건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 08-31, 125건)
 - [[sources]] — 모니터링 소스 레지스트리
-- newsletter/ — 데일리 뉴스레터 (최신: [[2026-08-31]] · [[2026-08-30]] · [[2026-08-29]] · [[2026-08-28]] · [[2026-08-27]] · [[2026-08-26]] · [[2026-08-25]] · [[2026-08-24]] · [[2026-08-23]] · [[2026-08-22]] · [[2026-08-21]] · [[2026-08-20]] · [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)
+- newsletter/ — 데일리 뉴스레터 (최신: [[2026-09-01]] · [[2026-08-31]] · [[2026-08-30]] · [[2026-08-29]] · [[2026-08-28]] · [[2026-08-27]] · [[2026-08-26]] · [[2026-08-25]] · [[2026-08-24]] · [[2026-08-23]] · [[2026-08-22]] · [[2026-08-21]] · [[2026-08-20]] · [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

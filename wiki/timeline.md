@@ -4,14 +4,22 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-29, 123건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-31, 125건)
 
 ## 2026-08
 
+- **08-31** — Anthropic, Claude Code 표준 주간 사용한도를 09-14부터 25% 영구 인상한다고
+  발표했으나 현재 일시 50% 증량 프로모션이 같은 날 종료돼 지금 쓰는 양 대비로는 17%
+  감소로 체감 — Anthropic도 이를 인정 →
+  [[2026-08-31-claude-code-weekly-limit-change]]
 - **08-29** — OpenAI, SpaceX에 인수된($60B, 08-14 완료) Cursor에 대한 자사 모델 접근을
   11/12부로 차단 — Anthropic-Windsurf 선례와 같은 패턴, "모델 접근권이 경쟁 무기"가 되는
   코딩 에이전트 4파전 구도 재확인(HN 785점) →
   [[2026-08-29-openai-ends-cursor-partnership]]
+- **08-26** — Salesforce와 Anthropic, "Claudeforce" 파트너십 발표(09-01 소급 반영) —
+  Claude 안에서 쓰는 37종 사전 구축 세일즈 스킬 "Salesforce in Claude" 공개, Bedrock
+  경유로 Salesforce Trust Boundary 안에서 서빙 →
+  [[2026-08-26-anthropic-salesforce-claudeforce]]
 - **08-28** — Anthropic, "Claude for Teachers"를 학교·교육청 단위 기관형 오퍼링으로 확장 —
   개별 교사 무료 프로그램과 별개로, 조직이 학생 기록 처리까지 위임할 수 있는 기관 계약형
   트랙 신설 → [[2026-07-15-claude-for-teachers]]

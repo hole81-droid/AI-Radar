@@ -90,6 +90,32 @@ Self-Improvement")이 2026-08-04 HN 화제(118점)에 오르며 이 개념에 �
 비슷한 도구 집합으로 수렴한 것도 "하네스가 표준화되고 있다"는 같은 흐름으로
 설명된다.
 
+## 실전 프레임워크 — 6계층 하네스 엔지니어링 (2026-08-31 추가)
+
+AX LABS 블로그가 2026년 8월 공개된 하네스 엔지니어링 플레이북을 리뷰하며 이론(Lilian
+Weng의 위 절)을 실무 템플릿으로 구체화했다. 핵심 명제는 **"에이전트 = 모델 + 하네스"**
+— 엔터프라이즈 AI 에이전트의 95%가 프로덕션에 도달하지 못하는데, **모델은 그대로 두고
+하네스만 바꿔** GAIA 벤치마크 성적을 43.64%p 끌어올린 사례가 있다는 것이다.
+
+**6계층**: ① Guide(과거 실패에서 얻은 교훈을 담은 사전 지침, AGENTS.md류) ② Sensor(LLM
+심사 이전에 린터·테스트·스키마 검증으로 먼저 거르는 사후 검증) ③ Agentic Loop(재시도
+3회·30분 타임아웃·$5 비용 상한 같은 경계 있는 실행 주기) ④ Memory(파일 기반 체크포인트·
+결정 로그로 상태를 명시적으로 관리) ⑤ Authority & Budget(권한 경계·지출 통제로 스코프
+크립 방지) ⑥ Observability(비용 급증·에러 패턴에 경보를 주는 구조화 로깅).
+
+**제공 도구**: AGENTS.md 템플릿(BUILD·TEST·LINT 명령+날짜 붙은 안티패턴), 7일 구축
+로드맵, 12항목 프로덕션 체크리스트, 재사용 프롬프트 4종(초기 AGENTS.md 생성·회귀 방지
+"래칫 원칙" 대응·권한 정책 생성·월간 가이드 감사).
+
+**인용된 수치**: Claude Sonnet 30.91%→74.55%(같은 모델, 하네스만 개선) · LangChain
+랭킹 30위→5위 · OpenAI Codex 150만 줄 프로덕션 코드 생성 중 사람이 직접 짠 코드는
+0줄. "인간은 조종하고, 에이전트는 만든다(Humans steer. Agents build.)"는 문구로 요약.
+
+이 6계층 모델은 [[theaxlabs-harness-r1-failure-driven-editing]](같은 AX LABS의 "모델은
+그대로, 에이전트만 개선" 주간 루틴 — 개입 4지점 중 실행 전후 개입이 성능에 가장 큰
+영향)과 상호보완적이다 — R1 루틴이 ②Sensor·③Loop 계층을 매주 자가개선하는 구체 절차라면,
+6계층 모델은 그 절차가 들어갈 전체 뼈대를 제공한다.
+
 ## 출처
 
 - [Andrej Karpathy — autoresearch (GitHub, 2026-03)](https://github.com/karpathy/autoresearch) — 원류 저장소, README가 1차 출처
@@ -98,3 +124,4 @@ Self-Improvement")이 2026-08-04 HN 화제(118점)에 오르며 이 개념에 �
 - [ADTmag — Loop Engineering Emerges as Developers Put AI Coding Agents on Repeat](https://adtmag.com/articles/2026/07/01/loop-engineering-emerges-as-developers-put-ai-coding-agents-on-repeat.aspx)
 - [Lilian Weng — Harness Engineering for Self-Improvement (2026-07-04)](https://lilianweng.github.io/posts/2026-07-04-harness/)
 - [Hacker News — Harness Engineering for Self-Improvement (2026-08-04 화제, 118점)](https://news.ycombinator.com/item?id=49164896)
+- [AX LABS — AI 에이전트 하네스 엔지니어링 6계층 가이드 (2026-08-31)](https://theaxlabs.com/blog/harness-engineering-6-layer-guide)

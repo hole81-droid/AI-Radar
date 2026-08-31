@@ -64,6 +64,15 @@ Slack·Microsoft Teams·Google Drive·SharePoint·이메일·캘린더·CRM·프
 > 보도됨. OpenAI 내부에서도 "소프트웨어 개발자만 대상으로는 수익을 정당화하기
 > 어렵다"는 우려가 나온다고 전해진다. [출처](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/)
 
+> **09-01 갱신 — 구조 정리(Simon Willison, 1차 채널)**: Simon Willison이 2026-08-30
+> "Understanding ChatGPT Work"에서 이 제품이 실은 **두 개**라고 정리했다 —
+> ① **Work Cloud**: chatgpt.com·모바일 앱에서 도는 클라우드 버전(더 강력하고 흥미로운
+> 쪽), ② **Work Local**: 데스크톱 앱(구 Codex 데스크톱 앱)에서 파일·프로그램에 직접
+> 접근하는 버전 — 사실상 "비개발자에게 덜 위협적으로 리스킨한 Codex"에 가깝다는 평.
+> 데스크톱 앱에서도 "Where should this chat run?" 드롭다운으로 Work Cloud를 쓸 수
+> 있다는 업데이트도 확인. 벤더 발표문만으로는 구분되지 않던 두 제품의 실체 차이를
+> 구루 1차 채널이 짚어준 사례.
+
 ## 재현 가이드
 
 - **난이도**: 중 (플랫폼 자체 기능이라 별도 구축은 불필요하나, 업무별 플러그인 연동·
@@ -89,3 +98,4 @@ Slack·Microsoft Teams·Google Drive·SharePoint·이메일·캘린더·CRM·프
 
 - [Gigazine — OpenAI launches "ChatGPT Work"](https://gigazine.net/gsc_news/en/20260710-openai-chatgpt-work/)
 - [TechCrunch — OpenAI is building an AI agent for everything. Will everyone use them? (2026-08-24)](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/)
+- [Simon Willison — Understanding ChatGPT Work (2026-08-30)](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/)

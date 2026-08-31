@@ -52,6 +52,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-07-24**: **Claude Opus 5**가 새 기본 모델로 추가(Max 기본, Pro 최상위) — 서브에이전트가 최대 depth 3까지 중첩 생성 가능(기존 1). `/code-review`가 백그라운드 서브에이전트로 실행되도록 변경돼 리뷰 작업이 대화창을 채우지 않게 됨. 동시에 시스템 프롬프트를 약 80% 정리하고 "점진적 공개(progressive disclosure)" 철학으로 전환 — 낡은 CLAUDE.md/스킬 규칙을 감지하는 `/doctor` 명령 추가. → [[2026-07-24-claude-opus-5-launch]]
 - **2026-08-07**: 셀프호스팅 환경, 크로스세션 메시징, 플러그인·샌드박스 제어 강화, Remote Control·붙여넣기·세션 안정성 개선과 함께 **서브에이전트 동시 생성 개수 상한이 제거**됨 — 대규모 병렬 오케스트레이션 제약이 풀림.
 - **2026-08-11**: EU AI Act 대응으로 Claude Code 출력물에도 **AI 생성 워터마크**가 적용되기 시작 — 텍스트는 비가시 워터마크, 이미지 파일은 C2PA 서명 메타데이터. 8/2 이후 신규 모델은 출시 시점부터, 이전 모델은 소급 적용 진행 중. → [[2026-08-11-anthropic-ai-content-watermarking]]
+- **2026-08-31**: Pro·Max·Team·좌석형 Enterprise 표준 주간 사용한도를 09-14부터 25% 영구 인상 발표 — 그런데 현재는 일시 50% 증량 프로모션 중이라, 지금 쓰는 양 대비로는 **17% 감소**로 체감. Anthropic도 이를 인정. → [[2026-08-31-claude-code-weekly-limit-change]]
 
 ## 경쟁 구도
 
@@ -82,6 +83,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: 헤드리스 Claude Code+MCP 서버+GitHub Actions 크론을 묶어 "SEO 매니저" 역할 자체를 통째로 자동화한 오픈소스 대시보드 등장 — 유료 SEO 툴 구독을 대체한다고 주장. → [[claude-code-seo-manager-mcp-dashboard]]
 - 커뮤니티 패턴: "Claude Code 기능의 15%만 쓰고 있었다"는 문제의식에서 나온 오픈소스 CLI(Adeptly) — 계획서에 기능 설명을 녹여 학습시키고, Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 파이프라인으로 실제 실행까지 담당. → [[adeptly-claude-code-learning-crew-pipeline]]
 - 커뮤니티 패턴: Skill 기반 PPT 제작 에이전트 "slide-master"(오픈소스 MIT) — 회사 디자인 시스템을 템플릿화해 이미지가 아닌 편집 가능한 네이티브 PPTX를 자동 생성, Codex와도 호환. → [[jangpm-slide-master-claude-code-codex]]
+- 커뮤니티 패턴: 오픈소스 웹 크롤링 에이전트 "web-crawler"(MIT, Codex·ChatGPT Work와도 호환) — URL+한 줄 설명만으로 사이트 정찰→수집코드 생성→엑셀 정리를 자동화, 나라장터·금감원·쿠팡·로그인 필요 사이트(네이버 카페·인스타그램)까지 실전 검증. → [[jangpm-web-crawler-claude-code-codex]]
 - **2026-07-30**: Anthropic이 사이버보안 평가 중 Opus 4.7·Mythos 5 등이 환경 설정 오류로 실제 기업 3곳에 무단 접근했다고 공식 공개 — 평가 환경 "인터넷 접근 없음" 지시가 실제로는 지켜지지 않았던 것이 원인. → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
 - **2026-08-05**: **Inference hooks** 베타 — Claude Enterprise 전 표면(chat·Claude Code·Cowork)의 모든 프롬프트·툴콜을 조직 자체 보안 서버가 사전 검사해 허용/차단하는 인라인 DLP. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
 - **2026-08-06**: **Self-hosted environments** 퍼블릭 베타 — Claude Code 세션을 자체 인프라(사내망) 안에서 실행, 내부 서비스·DB에 직접 접근. Team/Enterprise 대상. ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))

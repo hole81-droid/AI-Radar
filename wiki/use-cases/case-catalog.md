@@ -30,6 +30,7 @@ uses: [course, ax]
 - [[track-hanta-claude-opus-monitoring-tracker]] — Claude Opus 4.7로 다중 소스 수집·요약 파이프라인을 활용해 공공 보건(한타바이러스) 실시간 모니터링을 수행 → 개인 프로젝트 자동 운영 (일화)
 - [[gpt-5-6-sol-ultra-math-proof-subagents]] — ChatGPT(GPT-5.6 Sol Ultra)로 서브에이전트 64개 동시 팬아웃을 활용해 50년 미해결 수학 난제(Cycle Double Cover Conjecture) 증명을 수행 → 1시간 이내 완성, 프롬프트 전문 공개 (자체 발표, 동료검토 전)
 - [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] — Claude Code(Opus 5, second-brain)로 시뮬레이션 비즈니스 업무 처리 능력의 세션 중 자가개선을 통제 실험 → held-out 성공률 34%→48%, 개선의 원천은 메모리 파일이 아니라 대화 기록(+9.9%p vs 메모리 +1.7%p 유의하지 않음) (실측)
+- [[jangpm-web-crawler-claude-code-codex]] — Claude Code(Codex·ChatGPT Work 겸용, browser-agent+cli-pipeline)로 오픈소스 웹 크롤링 에이전트 "web-crawler"를 활용해 URL+한줄설명만으로 웹사이트 데이터 수집을 수행 → 나라장터 입찰공고 140건·금감원 PDF 107개·쿠팡 리뷰 1,000건 실전 검증 (주장, 제작자 시연)
 
 ## 개발 자동화 (dev-automation)
 
@@ -273,3 +274,11 @@ MIT·Laude Institute의 오픈소스 상시 가동 하네스 "Headlong"은 특�
 claimed, 정량 생산성 지표는 없고 피크 20 VM·자기평가 "경력 최고 생산성"만 확인. 같은 날
 확인한 Claude Code Auto Mode 우회 취약점(embracethered.com, 공격성공률 60~80%)과 대비하면
 "승인 완화" vs "인프라 격리" 두 자율성 설계 접근의 리스크 차이를 보여주는 좋은 짝).*
+
+*2026-09-01 추가(79건): [[jangpm-web-crawler-claude-code-codex]](YouTube 일잘러 장피엠,
+Claude Code·Codex·ChatGPT Work 겸용 오픈소스 웹 크롤링 에이전트 "web-crawler" — 정찰→
+전략선택→코드생성→검증의 코드-LLM 역할분담 구조로 나라장터·금감원·쿠팡·로그인필요
+사이트까지 실전 수집. research·claimed, 제작자 시연 수치이며 제3자 검증은 없음). 같은
+스캔에서 확인한 AX LABS의 "하네스 엔지니어링 6계층 가이드"는 특정 도구의 단일 업무
+자동화 사례가 아니라 방법론 프레임워크라 use-case가 아닌 [[loop-engineering]] 개념
+페이지에 실전 프레임워크 절로 추가했다.*

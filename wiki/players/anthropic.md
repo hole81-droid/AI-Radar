@@ -257,6 +257,12 @@ OpenAI가 자체 AI 브라우저 ChatGPT Atlas를 단종(08-09)한 것과 반대
 [[2026-08-21-claude-security-defender-advantage-fund]](방어역량 확장 + $35M 펀드)에
 이은 "공격보다 방어" 메시지의 연장. → [[2026-08-27-ai-industry-cyber-defense-letter]]
 
+**8/26 — Salesforce와 "Claudeforce" 파트너십 발표(09-01 소급 반영)**: CRM 화면이 아니라
+Claude 안에서 바로 쓰는 37종 사전 구축 세일즈 스킬 "Salesforce in Claude" 공개. Claude는
+Amazon Bedrock 경유로 Salesforce Trust Boundary 안에서 서빙돼 데이터가 제3자 API로
+왕복하지 않는 구조 — 9월 오픈 베타 예정, 발표 당일 Salesforce 주가 시간외 12% 상승. →
+[[2026-08-26-anthropic-salesforce-claudeforce]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -272,7 +278,8 @@ OpenAI가 자체 AI 브라우저 ChatGPT Atlas를 단종(08-09)한 것과 반대
   [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] ·
   [[uber-adr-claude-code-cursor-codex-security-monitoring]] ·
   [[capforge-claude-mcp-video-captioning]] ·
-  [[jeremytian-claude-code-loop-agent-optimization]]
+  [[jeremytian-claude-code-loop-agent-optimization]] ·
+  [[2026-08-26-anthropic-salesforce-claudeforce]]
 
 ## 출처
 
