@@ -4,7 +4,17 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 08-31, 125건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-01, 127건)
+
+## 2026-09
+
+- **09-01** — Anthropic, **Claude Fable 5.1·Mythos 5.1** 출시(HN 737점) — 비용 최대
+  45%↓, Claude Code 사이버보안 오탐 약 60% 감소. 같은 날 기업 데이터 보관 정책을 자사
+  클라우드 자체 보관 방식(Enterprise Frontier Safeguards)으로 전환 →
+  [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]
+- **09-01** — Anthropic, 07-30 공개한 사이버보안 평가 무단접근 사고가 재발했음을
+  확인 — 프리릴리스 모델 평가·고위험 강화학습 환경 일시 중단, 엔지니어 약 150명
+  보안팀 재배치 → [[2026-07-31-anthropic-cybersecurity-eval-incidents]] (후속 절)
 
 ## 2026-08
 

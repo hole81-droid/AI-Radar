@@ -32,6 +32,7 @@ uses: [course, ax]
 - [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] — Claude Code(Opus 5, second-brain)로 시뮬레이션 비즈니스 업무 처리 능력의 세션 중 자가개선을 통제 실험 → held-out 성공률 34%→48%, 개선의 원천은 메모리 파일이 아니라 대화 기록(+9.9%p vs 메모리 +1.7%p 유의하지 않음) (실측)
 - [[jangpm-web-crawler-claude-code-codex]] — Claude Code(Codex·ChatGPT Work 겸용, browser-agent+cli-pipeline)로 오픈소스 웹 크롤링 에이전트 "web-crawler"를 활용해 URL+한줄설명만으로 웹사이트 데이터 수집을 수행 → 나라장터 입찰공고 140건·금감원 PDF 107개·쿠팡 리뷰 1,000건 실전 검증 (주장, 제작자 시연)
 - [[perplexity-comet-vs-search-knowledge-work-scope]] — ★실측 벤치마크 케이스. Perplexity가 Comet(자율 에이전트, browser-agent)로 Search 대비 실사용 로그 10만 건을 비교 분석해 지식노동 범위 확장을 실측 → 세션당 자율작업시간 48배(33초→26분), 비교작업 시간87%·비용94%↓ (실측, HBS 연구진 분석)
+- [[theaxlabs-wikiskill-claude-code-memory-system]] — AX LABS가 Claude Code로 skills+second-brain(3계층 메모리: raw/wiki/skills)을 활용해 Google Research "WikiSkill" 논문 구조를 5단계 승인게이트 프롬프트로 이식 → 원논문 벤치마크 정확도 48.7%→63.7%, 적용 자체 효과는 미실측 (주장, 원논문은 실측)
 
 ## 개발 자동화 (dev-automation)
 
@@ -67,6 +68,7 @@ uses: [course, ax]
 - [[latent-space-wayfinder-claude-code-skill]] — Claude Code Skill `/wayfinder`(skills)로 맵·티켓·세션 계층 구조를 활용해 목표 불분명한 프로젝트 기획을 수행 → 20년 치 콘텐츠 개인 웹사이트 재설계에 적용(정량 성과 미확인) (일화)
 - [[jakesaunders-self-hosted-agentic-software-factory]]
 - [[fabiensanglard-agent-md-persistent-style-guide]] — Claude Code(prd-driven, agent.md 세션 주입 파일)를 활용해 코딩 스타일·아키텍처 가이드 영속화를 수행 → 저자 주관 "코드 품질 극적 개선"(일화, 정량 수치 없음) — Codex+Hermes 에이전트 프레임워크(cli-pipeline+vibe-coding)로 셀프호스팅 샌드박스 환경을 활용해 프롬프트 1회로 SDLC 전 과정(저장소 생성→개발→테스트→CI→배포)을 무인 수행 → 승인 게이트 없이 네트워크 격리만으로 완전 자율 배포 완주(정량 성과 미확인) (일화, 개인 프로토타입)
+- [[vercel-ai-sdk-software-factory]] — ★실측 벤치마크 케이스. Vercel이 Claude(Anthropic 모델) 기반 단일목적 에이전트 다수(subagents+cli-pipeline, 격리 Sandbox)로 오픈소스 AI SDK 저장소의 이슈 트리아지·버그수정·PR리뷰·문서·백포팅·E2E테스트를 자동화 → 4주간 주간 PR 25~35% 작성, 이슈 70~80% 자동종료, 오픈이슈 1,022→844건, 사람 승인 없이는 머지 불가 (실측)
 
 ## 보안·운영 (ops)
 
@@ -301,3 +303,15 @@ View의 "AI adoption J-curve"(NYSE·Borders·GM·JPMorgan 사례)는
 $19,000/주 비교)는 기존 [[loop-engineering]] 개념 페이지에 절 추가로 반영했다 —
 전부 특정 기업의 단일 업무자동화 사례가 아니라 프레임워크/분석형이라 use-case
 스키마보다 concept 스키마가 적합하다고 판단.*
+
+*2026-09-02 추가(85건): [[theaxlabs-wikiskill-claude-code-memory-system]](AX LABS,
+Google Research "WikiSkill" 논문의 raw/wiki/skills 3계층 구조를 Claude Code 메모리
+시스템에 이식하는 5단계 승인게이트 프롬프트 — 원논문 벤치마크는 실측(정확도
+48.7%→63.7%)이나 AX LABS 적용 자체는 claimed). [[vercel-ai-sdk-software-factory]]
+(Vercel, Latent Space "PRs NOT Welcome"이 조명 — 단일목적 에이전트 다수가 오픈소스
+저장소 이슈·PR·백포팅을 운영, 4주 실측 PR 25~35%·이슈 70~80% 자동화, 사람 승인 없이는
+머지 불가라는 권한설계가 핵심). 같은 스캔에서 확인한 Claude Fable 5.1·Mythos 5.1
+출시(HN 737점)는 특정 업무자동화 사례가 아니라 모델 출시 자체라 use-case가 아닌
+[[2026-09-01-claude-fable-5-1-mythos-5-1-launch]] update 페이지로, Wharton의 AI
+인프라지출 vs 생산성 2.7배 분석은 [[ai-capex-productivity-gap]] concept 페이지로
+반영했다.*

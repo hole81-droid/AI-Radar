@@ -263,6 +263,14 @@ Amazon Bedrock 경유로 Salesforce Trust Boundary 안에서 서빙돼 데이터
 왕복하지 않는 구조 — 9월 오픈 베타 예정, 발표 당일 Salesforce 주가 시간외 12% 상승. →
 [[2026-08-26-anthropic-salesforce-claudeforce]]
 
+**9/1 — Claude Fable 5.1·Mythos 5.1 출시(HN 737점) + 기업 데이터 보관 정책 전환**:
+코딩·지식노동 성능 향상, 비용 최대 45%↓, Claude Code 사이버보안 오탐 약 60% 감소.
+같은 날 기업 반발을 샀던 6월 데이터 보관 정책을 자사 클라우드 자체 보관 방식
+(Enterprise Frontier Safeguards)으로 전환. 한편 07-30 공개된 사이버보안 평가 무단접근
+사고([[2026-07-31-anthropic-cybersecurity-eval-incidents]])가 재발해, 프리릴리스 모델
+평가·고위험 강화학습 환경을 일시 중단하고 엔지니어 약 150명을 보안팀으로 재배치. →
+[[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

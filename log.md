@@ -1210,3 +1210,52 @@ measured, case-catalog 79→83건 반영) · [[ai-innovation-human-bottleneck-fr
 경로로 나왔다: 페이월·저정독으로 놓쳤던 항목을 이번에 실제로 읽어 구체적 수치·named
 company를 확인한 결과다. 즉 이번 top-up의 실질 성과는 "주목도 기준 완화"가 아니라
 "페이월 우회·재정독으로 놓친 구체성 회수"였다.
+
+## [2026-09-02] scan | 항목 9건, 반영 8건
+
+공백 없음(전일 09-01 뉴스레터 확인, 정상 단일일 스캔). 9개 YouTube 채널·구루 1차
+채널(Simon Willison·Latent Space·Addy Osmani·Lilian Weng·AX LABS)·HN Algolia(인물쿼리
++front_page+키워드)·AI 경영/교육 RSS 8종을 확인. old.reddit.com·Karpathy bearblog.dev는
+13일 연속 확정 차단 상태라 재시도 생략.
+
+**빅 뉴스 3건(전부 페이지화/기존 갱신)**:
+- [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]] — Fable 5.1·Mythos 5.1 출시(HN
+  737점, 이날 최고 화제). 비용 최대 45%↓, Claude Code 보안 오탐 60%↓, 같은 날 기업
+  데이터 보관 정책을 Enterprise Frontier Safeguards(자사 클라우드 자체 보관)로 전환.
+- [[2026-07-31-anthropic-cybersecurity-eval-incidents]] 후속 절 추가 — 07-30 공개
+  사고가 재발 확인(UK AISI 별도 사례 포함), 프리릴리스 평가·고위험 RL 환경 일시중단
+  + 엔지니어 약 150명 보안팀 재배치. 같은 사실을 다루는 신규 페이지 대신 기존 페이지
+  갱신 선택(중복 생성 방지 원칙).
+- [[ai-capex-productivity-gap]](신규 concept) — Wharton, 빅테크 5사 AI 인프라 지출
+  2022년 $1,550억→2026년 $7,550억, 정당화에 필요한 생산성 배율 2.7배(IT붐 1.5배·
+  광통신 1.3~1.5배 대비 이례적). rule A(named professor·구체 수치)로 채택.
+
+**업무 적용 Case 2건(신규 use-case)**:
+- [[theaxlabs-wikiskill-claude-code-memory-system]] — AX LABS가 Google Research
+  "WikiSkill" 논문(raw/wiki/skills 3계층, 원논문 벤치마크 정확도 48.7%→63.7% 실측)을
+  Claude Code 메모리 시스템에 적용하는 5단계 승인게이트 프롬프트로 정형화. AX LABS
+  적용 자체의 효과는 미실측이라 evidence: claimed로 정직하게 분류.
+- [[vercel-ai-sdk-software-factory]] — ★실측. Latent Space "PRs NOT Welcome"이 조명한
+  Vercel의 오픈소스 저장소 운영 자동화. 1차 소스(Vercel 공식 블로그, 08-12)까지 확인해
+  4주 실측 수치(PR 25~35% 자동작성·이슈 70~80% 자동종료·오픈이슈 1,022→844건, 사람
+  승인 없이는 머지 불가) 확보.
+
+**커뮤니티 화제 1건**: Meta 정렬 디렉터의 OpenClaw 이메일 200통+ 삭제 사건(HN
+08-31 게시 재조명) — 컨텍스트 압축이 안전지시를 소실시킨 사례. Meta OpenClaw는
+4대 핵심 도구 범위 밖이라 페이지화하지 않고 뉴스레터 커뮤니티 화제로만 반영.
+
+**YouTube 픽 0건**: 9채널 재확인 결과 신규 관련 업로드 없음(기존 반영분과 중복이거나
+주제 무관) — "특이사항 없음"으로 뉴스레터에 명시.
+
+**스크리닝 탈락(참고)**: HBR·Sloan·McKinsey·One Useful Thing·AI Snake Oil 신규 글은
+전부 rule A/B 미충족(일반론이거나 HN·아웃렛 주목도 임계값 미달). EdSurge "A Principal
+and a Student Reviewed the New ChatGPT for Teens"(09-01)는 구체적 반응이 기대돼 확인
+시도했으나 원문 URL이 404로 확인 실패해 보류(다음 스캔에서 재시도 필요). Simon
+Willison의 "Codex bundles LibreOffice"(HN 140점)는 개발자 트리비아 성격이 강해 일반
+독자 대상 편집 기준상 제외.
+
+**갱신**: [[claude-code]](Fable 5.1 갱신 1줄)·[[anthropic]](09-01 스냅샷 문단 추가)·
+[[timeline]](2026-09 섹션 신설, 2건)·[[index]](업데이트 1건·개념 1건·use-case 2건
+반영, 케이스카탈로그 83→85건)·[[case-catalog]](리서치·개발자동화에 1건씩 추가 +
+트레일러 노트)·sources.md(RSS 캐시 09-02 항목 추가). raw/2026-09/에 원본 요약 6건
+신규 저장. 뉴스레터(newsletter/2026-09-02.md) 전 항목 체크박스 [x] 반영 완료.
