@@ -1140,3 +1140,73 @@ Transformation Requires Redesigning Work" 등), HBR "Research:" 2건(페이월�
 Wharton "Should AI Companies Be Supervised Like Banks?"(정책 오피니언), Mollick "Agency
 and Agents"(보안 인시던트 회고, 무관), EdSurge "Middle School Reading"(모호), McKinsey
 추가 다수(트러스트·거버넌스 등 서베이 반복 주제, 2건으로 대표성 확보 판단).
+
+## [2026-09-02] ingest | 스크리닝 OR조건(rule B) 도입 후 첫 패스 재점검 — HBR·EdSurge·Wharton·McKinsey·Exponential View·Class Central 재확인
+
+2026-09-01 첫 백필은 rule A(구체성)만 기준으로 삼아 통과율이 낮았다(HBR 41건 중 0건,
+EdSurge 35건 중 1건, Wharton 10건 중 0건, McKinsey 50건 중 2건). sources.md에 09-02
+추가된 rule B(주목도: HN Algolia `points>50`·아웃렛 인기목록·Substack 참여도)를 적용해
+**그때 페이지화하지 않은 항목만** 재점검했다(신규 스캔이 아닌 top-up 패스).
+
+**재확인 방법**: 각 아웃렛 RSS를 다시 받아 AI 제목을 추출하고(HBR 39건·EdSurge 19건 확인
+— RSS가 롤링 윈도우라 원래 41·35건과 정확히 일치하진 않음, 09-01 스크린샷 시점과 롤링
+차이로 판단), 아웃렛 도메인(hbr.org·edsurge.com·mckinsey.com·knowledge.wharton.upenn.edu·
+classcentral.com·exponentialview.co)을 `created_at_i` 07-13~09-01 구간으로 제한해 HN
+Algolia `points>0` 전수 조회 후 최고점을 확인, 각 아웃렛 홈페이지의 "인기/추천" 목록도
+WebFetch로 확인.
+
+**rule B(주목도) 결과 — 전 소스 공통으로 임계값(50점) 미달, 정직하게 0건**:
+- HBR: 윈도우 내 hbr.org 링크 HN 게시물 최고점 **14점**("AI Is Undermining Leaders'
+  Judgment"). HBR 홈페이지 "Popular" 목록에도 AI 제목 없음.
+- EdSurge: 윈도우 내 edsurge.com 링크 HN 게시물 **0건**(전무). 홈페이지 "Most Popular"
+  목록에도 AI 제목 없음.
+- Wharton: 10건 재확인 결과 AI 특화 콘텐츠는 기존에 이미 확인한 정책 오피니언 1건뿐
+  (누락된 도입사례 없음). 그 1건도 HN·도메인 검색 모두 무관/무히트.
+- McKinsey: 21건(Aug 윈도우 재확인분) 중 최고점은 **27점**("The state of AI in
+  2026" — 이미 페이지화됨). 나머지는 1~2점.
+- Class Central: 최고 16점("Coursera Bets $100M...", 이미 페이지화된 건과 동일 주제).
+- 따라서 **rule B 단독으로 새로 페이지화된 항목은 0건**이다 — 억지로 끼워맞추지 않음.
+
+**HBR 페이월 2건은 rule A로 우회 확인 → 신규 페이지화(신규 정보 아니라 09-01에 막혔던
+정보를 이번에 확보)**:
+- "Research: How AI Agents Broaden the Scope of Knowledge Work"(07-29) — HBR 본문은
+  여전히 페이월이지만 Perplexity 자체 리서치 페이지·arXiv 논문(2606.07489)에서 원
+  데이터 확인. Comet(에이전트) vs Search 실사용 로그 10만 건 비교 — 세션당 자율작업시간
+  48배(33초→26분), 비교작업 시간87%·비용94%↓ 등 풍부한 실측 수치 확보 →
+  [[perplexity-comet-vs-search-knowledge-work-scope]](use-case, evidence: measured).
+- "Research: The Innovation Problems AI Can't Solve"(08-14) — arXiv(2608.07504)·SSRN
+  원 논문 확인, 저자 De Freitas·Israeli·Nave·Timoshenko·Toubia(HBS)의 "인간 병목"
+  4단계 프레임 + **named company H&M Group** 필드 실험 확보. 단 정확한 정량 수치는
+  2차 소스로도 확인 안 돼 미확인으로 남김 →
+  [[ai-innovation-human-bottleneck-framework]](concept).
+
+**Exponential View 재정독(20건 중 1건만 읽었던 첫 패스를 보완, rule A로 확인)**:
+- "For AI adopters, success and failure look identical — at first"(07-30, ai-adoption-j-curve)
+  — NYSE/Nasdaq·Borders·GM·JPMorgan named company 사례 확인 →
+  [[ai-adoption-j-curve]](concept).
+- "Seven lessons for managing AI agents"(08-05) — 7개 중 무료 공개된 3개 교훈 확인,
+  $800(AI) vs $19,000(사람) 주간 작업비용 비교·Codex 8시간작업 요청 비율 2%→25% 등
+  구체 수치 확보 → 기존 [[loop-engineering]] 개념 페이지에 절 추가(신규 페이지 아님).
+
+**AI Snake Oil(normaltech.ai) 스팟체크 — 페이지화 보류(스코프 밖 명시)**: 도메인 HN
+재확인 중 "What will be left for us to work on?"(Arvind Narayanan)이 180점으로 확인됐으나
+**게시일이 07-13으로 기존 백필 윈도우(07-15~09-01) 시작보다 이틀 이르다** — "그때 스크린한
+항목 재점검"이라는 이번 패스의 스코프를 벗어나므로 페이지화하지 않고 참고로만 기록.
+필요시 다음 정기 스캔에서 정식 검토할 것.
+
+**신규/변경 페이지 3+1건**: [[perplexity-comet-vs-search-knowledge-work-scope]](use-case,
+measured, case-catalog 79→83건 반영) · [[ai-innovation-human-bottleneck-framework]](concept)
+· [[ai-adoption-j-curve]](concept) · [[loop-engineering]](기존 페이지에 "에이전트 관리
+7가지 교훈" 절 추가). raw/2026-09/에 원본 요약 4건 신규 저장. 사전 grep으로 기존 페이지와
+중복 없음 확인.
+
+**갱신**: [[index]](개념 2건·적용사례 1건 반영, 카탈로그 82→83건, AI 경영/교육 섹션에
+09-02 top-up 요약 각주 추가) · [[case-catalog]](리서치 섹션 신규 1건 + 트레일러 노트).
+
+**정직성 요약**: HBR 41건(재확인 39건)·EdSurge 35건(재확인 19건, RSS 롤링으로 일부만
+재현)·Wharton 10건·McKinsey 50건(재확인 21건, Aug 윈도우) 전부 rule B(HN 주목도·아웃렛
+인기목록) 재점검했으나 임계값을 넘긴 항목은 0건이었다 — 이 결과를 숨기지 않고 그대로
+보고한다. 실제 신규 페이지 3건(+기존 페이지 보강 1건)은 전부 **rule B가 아니라 rule A**
+경로로 나왔다: 페이월·저정독으로 놓쳤던 항목을 이번에 실제로 읽어 구체적 수치·named
+company를 확인한 결과다. 즉 이번 top-up의 실질 성과는 "주목도 기준 완화"가 아니라
+"페이월 우회·재정독으로 놓친 구체성 회수"였다.

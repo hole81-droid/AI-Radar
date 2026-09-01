@@ -116,6 +116,30 @@ Weng의 위 절)을 실무 템플릿으로 구체화했다. 핵심 명제는 **"
 영향)과 상호보완적이다 — R1 루틴이 ②Sensor·③Loop 계층을 매주 자가개선하는 구체 절차라면,
 6계층 모델은 그 절차가 들어갈 전체 뼈대를 제공한다.
 
+## 실전 교훈 — Exponential View "에이전트 관리 7가지 교훈" (2026-09-02 추가)
+
+Exponential View(2026-08-05, "Seven lessons for managing AI agents")가 자체 팀의 에이전트
+운영 경험에서 정리한 실무 교훈. 2026-09-01 첫 백필 때는 20건 중 1건만 정독하며 스크리닝
+대상에서 빠졌으나, 재점검(2026-09-02)에서 정독해 구체적 수치(A등급)를 확인해 반영했다.
+**원문은 유료 구독 페이월로 7개 교훈 중 앞 3개만 무료 열람 가능** — 나머지 4개는 미확인으로
+남긴다.
+
+**공개된 3가지 교훈**:
+1. **결승선을 목표보다 먼저 써라** — "이 정도면 정리된 것"처럼 모호한 지시 대신
+   "큐브를 풀어라, 모든 면이 단색이어야 한다"처럼 명시적·검증 가능한 완료 기준을 준다.
+2. **지능을 결과가 갈리는 지점에 써라** — 의사결정 지점에는 고성능 모델을, 반복 작업에는
+   저비용 모델을 전략적으로 배치. "최대 노력의 소형 모델보다 저노력의 대형 모델을
+   우선하라"는 지침.
+3. **토큰 수가 아니라 레버리지로 측정하라** — 원시 토큰 소비가 아니라 품질보정 산출로
+   에이전트 가치를 측정. 표본 감사에서 62개 작업 1주일치가 AI 인프라 비용 $800 vs 동등한
+   사람 작업 비용 약 $19,000로 나타남.
+
+**인용된 수치**: 2026년 5월 기준 Codex 사용자의 약 25%가 사람 8시간 분량 작업을 요청
+(2025년 12월 2%에서 급증) — OpenAI Codex·Anthropic·DeepSeek 언급.
+
+**참여도**: 이 글은 107 shares·7 comments·6 saved 기록(참고용, 채택 근거는 참여도가
+아니라 위 구체 수치).
+
 ## 출처
 
 - [Andrej Karpathy — autoresearch (GitHub, 2026-03)](https://github.com/karpathy/autoresearch) — 원류 저장소, README가 1차 출처
@@ -125,3 +149,4 @@ Weng의 위 절)을 실무 템플릿으로 구체화했다. 핵심 명제는 **"
 - [Lilian Weng — Harness Engineering for Self-Improvement (2026-07-04)](https://lilianweng.github.io/posts/2026-07-04-harness/)
 - [Hacker News — Harness Engineering for Self-Improvement (2026-08-04 화제, 118점)](https://news.ycombinator.com/item?id=49164896)
 - [AX LABS — AI 에이전트 하네스 엔지니어링 6계층 가이드 (2026-08-31)](https://theaxlabs.com/blog/harness-engineering-6-layer-guide)
+- [Exponential View — Seven lessons for managing AI agents (2026-08-05, 일부 페이월)](https://www.exponentialview.co/p/seven-lessons-for-managing-ai-agents)

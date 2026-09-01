@@ -31,6 +31,7 @@ uses: [course, ax]
 - [[gpt-5-6-sol-ultra-math-proof-subagents]] — ChatGPT(GPT-5.6 Sol Ultra)로 서브에이전트 64개 동시 팬아웃을 활용해 50년 미해결 수학 난제(Cycle Double Cover Conjecture) 증명을 수행 → 1시간 이내 완성, 프롬프트 전문 공개 (자체 발표, 동료검토 전)
 - [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] — Claude Code(Opus 5, second-brain)로 시뮬레이션 비즈니스 업무 처리 능력의 세션 중 자가개선을 통제 실험 → held-out 성공률 34%→48%, 개선의 원천은 메모리 파일이 아니라 대화 기록(+9.9%p vs 메모리 +1.7%p 유의하지 않음) (실측)
 - [[jangpm-web-crawler-claude-code-codex]] — Claude Code(Codex·ChatGPT Work 겸용, browser-agent+cli-pipeline)로 오픈소스 웹 크롤링 에이전트 "web-crawler"를 활용해 URL+한줄설명만으로 웹사이트 데이터 수집을 수행 → 나라장터 입찰공고 140건·금감원 PDF 107개·쿠팡 리뷰 1,000건 실전 검증 (주장, 제작자 시연)
+- [[perplexity-comet-vs-search-knowledge-work-scope]] — ★실측 벤치마크 케이스. Perplexity가 Comet(자율 에이전트, browser-agent)로 Search 대비 실사용 로그 10만 건을 비교 분석해 지식노동 범위 확장을 실측 → 세션당 자율작업시간 48배(33초→26분), 비교작업 시간87%·비용94%↓ (실측, HBS 연구진 분석)
 
 ## 개발 자동화 (dev-automation)
 
@@ -288,3 +289,15 @@ Claude Code·Codex·ChatGPT Work 겸용 오픈소스 웹 크롤링 에이전트 
 스캔에서 확인한 AX LABS의 "하네스 엔지니어링 6계층 가이드"는 특정 도구의 단일 업무
 자동화 사례가 아니라 방법론 프레임워크라 use-case가 아닌 [[loop-engineering]] 개념
 페이지에 실전 프레임워크 절로 추가했다.*
+
+*2026-09-02 추가(83건, 스크리닝 OR조건 rule B 도입에 따른 HBR 재점검): [[perplexity-comet-vs-search-knowledge-work-scope]](research·measured — 2026-09-01 첫 백필 때 HBR
+페이월로 보류됐던 "Research: How AI Agents Broaden the Scope of Knowledge Work"를
+Perplexity 자체 리서치 페이지·arXiv 논문으로 원 데이터 확보해 재구성, 세션당 자율작업
+48배·비교작업 시간87%/비용94%↓). 같은 재점검에서 확인한 HBR "Research: The Innovation
+Problems AI Can't Solve"(H&M Group 필드실험)는 정량 성과가 아니라 정성적 프레임워크라
+use-case가 아닌 [[ai-innovation-human-bottleneck-framework]] 개념 페이지로, Exponential
+View의 "AI adoption J-curve"(NYSE·Borders·GM·JPMorgan 사례)는
+[[ai-adoption-j-curve]] 개념 페이지로, "Seven lessons for managing AI agents"($800 vs
+$19,000/주 비교)는 기존 [[loop-engineering]] 개념 페이지에 절 추가로 반영했다 —
+전부 특정 기업의 단일 업무자동화 사례가 아니라 프레임워크/분석형이라 use-case
+스키마보다 concept 스키마가 적합하다고 판단.*
