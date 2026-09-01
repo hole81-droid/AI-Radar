@@ -1074,3 +1074,15 @@ raw/2026-09/에 원본 4건 신규 저장(jangpm-web-crawler-claude-code-codex·
 theaxlabs-harness-engineering-6-layer-guide·anthropic-salesforce-claudeforce·
 claude-code-weekly-limit-change). sources.md RSS 캐시 09-01행 추가.
 newsletter/2026-09-01.md 신규 생성.
+
+## [2026-09-01] ingest | 소스 추가 — AI 경영·비즈니스 실증 + AI 교육 트렌드 섹션 신설
+
+사용자 요청으로 sources.md에 섹션 2개 신설. (1) **AI 경영·비즈니스 실증**: HBR·MIT Sloan
+Management Review·Knowledge at Wharton·McKinsey Insights·One Useful Thing(Ethan Mollick)·
+Exponential View(Azeem Azhar)·AI Snake Oil(Narayanan·Kapoor) 7종 — AI의 경영 성과·영향·
+사업 적용 실제 case·사례연구·벤치마크 수집용, `uses: ax` 핵심 공급원. (2) **AI 교육 트렌드**:
+EdSurge·Class Central 신규 2종 + One Useful Thing·The Batch 겸용 — 혁신 교육 방식·선진
+사례 수집용, `uses: course` 핵심 공급원. 전 소스 2026-09-01 RSS 실측 검증(HBR은
+`<ns6:entry>` 네임스페이스 Atom 주의사항 기록, 탈락: MIT Open Learning 04-27 정체·
+Stanford HAI RSS 미제공). CLAUDE.md 토큰 효율 규칙에 스캔 지침 추가(제목 스크리닝 →
+수치·벤치마크·재현 가능 교육 방식 있는 글만 정독, measured/claimed 구분 페이지화).

@@ -73,6 +73,45 @@ https://api.github.com/users/karpathy/repos?sort=updated&per_page=5
   도구·업무·성과가 드러나는 글(예: 특정 Skill 소개, 실측 수치 포함 글)만 "업무 적용 Case" 후보로
   검토하고, 나머지는 "빅 뉴스"나 "커뮤니티 화제"에 한 줄로 싣거나 생략한다.
 
+## AI 경영·비즈니스 실증 (2026-09-01 추가 — 사용자 지정)
+
+AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case·사례연구·벤치마크 등
+**실증적·실용적 연구 결과와 아티클**을 수집한다. AX 근거(`uses: ax`)의 핵심 공급원.
+전부 2026-09-01에 RSS 응답·최신 게시일을 실측 검증했다.
+
+| 소스 | RSS | 실측(09-01) | 성격 |
+|---|---|---|---|
+| **Harvard Business Review** | http://feeds.hbr.org/harvardbusiness | 08-31, 100건 | 전 주제 통합 피드 — 제목에서 AI·agent 관련만 골라낼 것. 네임스페이스가 특이한 Atom(`<ns6:entry>`)이니 파싱 주의 |
+| **MIT Sloan Management Review** | https://sloanreview.mit.edu/feed/ | 08-31 | 경영·조직 관점 AI 실증 연구의 최고 밀도. 사례연구·프레임워크 多 |
+| **Knowledge at Wharton** | https://knowledge.wharton.upenn.edu/feed/ | 08-28 | Wharton 교수진 연구 기반. AI 도입 효과 실증 연구 소개 |
+| **McKinsey Insights** | https://www.mckinsey.com/insights/rss | 09-01 | 산업별 AI 도입 리포트·서베이. 수치 인용 시 "서베이 기반 주장"임을 명시할 것 |
+| **One Useful Thing** (Ethan Mollick, Substack) | https://www.oneusefulthing.org/feed | 08-31 | Wharton 교수의 직접 실험 기반 글. 경영·교육 양쪽에 걸침 — **두 섹션 겸용 소스** |
+| **Exponential View** (Azeem Azhar, Substack) | https://www.exponentialview.co/feed | 09-01 | AI의 거시 경제·산업 영향 분석. 주간 |
+| **AI Snake Oil** (Narayanan·Kapoor, Substack) | https://www.aisnakeoil.com/feed | 08-05 (월 1~3회) | 프린스턴 연구자의 과장 검증·실증 비판. "주장 vs 실측" 구분에 유용 |
+
+- **스크리닝 규칙**: 발행량이 많으므로 제목으로 1차 스크리닝 후, **구체적 기업명·수치·벤치마크가
+  드러나는 글만** 1~2회 WebFetch로 정독한다. 일반론·리더십 에세이는 제외.
+- 실측 수치가 있는 도입 사례는 use-case 스키마(`evidence: measured`)로,
+  서베이·컨설팅 리포트는 `evidence: claimed`로 구분해 페이지화한다.
+
+## AI 교육 트렌드 (2026-09-01 추가 — 사용자 지정)
+
+AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 **가장 앞서가는 선진 사례**를
+수집한다. 학습과정 기획(`uses: course`)의 핵심 공급원. 전부 2026-09-01 실측 검증.
+
+| 소스 | RSS | 실측(09-01) | 성격 |
+|---|---|---|---|
+| **EdSurge** | https://www.edsurge.com/articles_rss | 08-28 | 에듀테크 전문지. AI 교수법·대학/기업 교육 현장 사례 |
+| **Class Central** | https://www.classcentral.com/report/feed/ | 09-01 | 온라인 강좌 동향 분석. "지금 어떤 AI 강좌가 뜨는가"의 1차 소스 |
+| **One Useful Thing** (Mollick) | (위 경영 섹션과 겸용) | 08-31 | AI 교수법 실험(과제 설계·프롬프트 교육) 원조 — 교육 글이 뜨면 이 섹션 후보로 |
+| **The Batch** (Andrew Ng) | (구루 섹션과 겸용) | 주간 | Ng의 AI 교육 철학·LearnVector 등 교육 사업 동향 |
+
+- 검증 탈락 소스(참고): MIT Open Learning RSS는 최신 글이 04-27로 정체(스캔 가치 낮음),
+  Stanford HAI는 RSS 미제공 — 필요시 웹서치로 간접 포착.
+- **스크리닝 규칙**: "AI로 무엇을 가르치는가"(교육 주제)와 "AI를 어떻게 가르침에 쓰는가"
+  (교수법) 둘 다 대상. 재현 가능한 교육 방식(과제 설계·커리큘럼 구조)이 구체적으로 드러나는
+  글을 우선하고, 교육 정책·일반 오피니언은 제외한다.
+
 ## 커뮤니티
 
 **접근 방법 (2026-07-07 검증됨)**: www.reddit.com은 curl 차단. **old.reddit.com RSS + 서술형 User-Agent**
