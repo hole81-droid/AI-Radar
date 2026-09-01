@@ -1086,3 +1086,57 @@ EdSurge·Class Central 신규 2종 + One Useful Thing·The Batch 겸용 — 혁�
 `<ns6:entry>` 네임스페이스 Atom 주의사항 기록, 탈락: MIT Open Learning 04-27 정체·
 Stanford HAI RSS 미제공). CLAUDE.md 토큰 효율 규칙에 스캔 지침 추가(제목 스크리닝 →
 수치·벤치마크·재현 가능 교육 방식 있는 글만 정독, measured/claimed 구분 페이지화).
+
+## [2026-09-01] ingest | AI 경영·비즈니스 실증 + AI 교육 트렌드 소급 백필 (07-15~09-01)
+
+신규 소스 2섹션(AI 경영·비즈니스 실증 7종, AI 교육 트렌드 2종+겸용 2종)에 대해 09-01
+지정 이후 첫 반영이라 7주 소급 백필 수행(일반 데일리 스캔이 아닌 1회성 캐치업).
+
+**소스별 스크리닝 결과**(제목·요약 1차 스크리닝 → 구체 기업명·수치·재현가능 방식만 정독):
+- HBR: 100건 중 AI 제목 41건(07-13~08-31) 확인, 대다수 일반 리더십 에세이라 스크리닝
+  기준 미달. "Research:" 접두 학술 다이제스트 2건(07-29 AI 에이전트-지식노동 확장,
+  08-14 혁신 문제)은 유망했으나 **본문이 구독 페이월 뒤라 상세 확인 불가** — 페이지화 보류.
+  "Embrace AI Without Damaging Trust: Lessons from FT"(07-29)도 동일 사유로 보류.
+- MIT Sloan: 20건 중 "Stop Prompting AI. Start Directing It"(08-05) 1건 정독 → 페이지화
+  (Directing 3축 프레임 + 익명화 사례 4건, 실명·정량 수치는 원문에 없음).
+- Knowledge at Wharton: 10건 중 AI 특화 실질 콘텐츠 없음(정책 오피니언 1건뿐) — 페이지화
+  없음.
+- McKinsey: 50건 중 AI 관련 다수, 2건 정독 → 페이지화("State of AI 2026: Road to ROI"
+  서베이 n=1,719, EBIT기여37%·고성과6%·감원예상39%·에이전트스케일링40%; Reckitt RGMx
+  케이스, 누적매출개선$100M+·35개시장). **McKinsey 원문 WebFetch가 전부 60초 타임아웃**
+  (JS 렌더링 과중 추정) — WebSearch로 2차 보도 교차확인해 수치 확보하는 우회로 완료.
+- One Useful Thing(Mollick): 창 안 2건뿐(월 1회 미만 페이스 확인). "Agency and Agents"
+  (08-31)는 Hugging Face 보안 인시던트 회고 위주(교육·경영 사례 아님) — 스크리닝 탈락.
+- Exponential View(Azhar): 20건 중 "$6 AI agent"(08-16) 1건 정독 → 페이지화(저자 본인
+  실측 지출 $494/일→$6/일).
+- AI Snake Oil: 1건뿐("AI agents can't yet do open-ended AI research", 08-05) → 정독·
+  페이지화(shadow evaluation 방법론, 5대 결함). **뉴스레터가 "AI as Normal Technology"로
+  개칭·도메인 이전(aisnakeoil.com→normaltech.ai, 301) 확인, sources.md 갱신.**
+- EdSurge: 35건 중 대부분 정책·오피니언(스크리닝 제외 대상). "AI-Resistant Assignments"
+  (08-03) 1건 정독·페이지화(Cheat Vulnerability Index). "Middle School Reading"(08-28)은
+  명명된 도구·정량 수치 없이 모호해 탈락.
+- Class Central: 10건 중 "Coursera $100M LearnVector 투자" 분석 1건 후보, **원문
+  Cloudflare 차단**(WebFetch·curl 모두 403) — 공식 보도자료(investor.coursera.com)로
+  대체 확인해 페이지화.
+
+**신규 페이지 7건**: [[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]](update)·
+[[mckinsey-reckitt-rgmx-pricing-automation]](use-case)·
+[[directing-ai-agents-vs-prompting]](concept)·
+[[azhar-6-dollar-ai-research-agent]](use-case)·
+[[2026-08-05-ai-snake-oil-agents-open-ended-research-limits]](update)·
+[[edsurge-cheat-vulnerability-index-ai-resistant-assignments]](use-case)·
+[[2026-07-28-coursera-learnvector-andrew-ng-investment]](update). 기존 페이지와 중복
+없음(사전 grep 확인, 겹치는 기존 페이지 없었음). use-case 2건(Reckitt RGMx, EdSurge
+CVI)은 CLAUDE.md의 mechanism 통제어휘가 코딩 에이전트 전제라 정확히 들어맞는 태그가
+없어 최근접 근사치(`cron-routines`, `skills`)를 선택하고 본문에 불일치 안내를 명시.
+
+**갱신**: [[index]](업데이트 신규 섹션·개념·적용사례 3영역 반영, 케이스카탈로그 79→82건)·
+[[case-catalog]](보안·운영·개인생산성에 1건씩 추가, 신규 "교육(education)" 섹션 신설)·
+sources.md(AI Snake Oil 리다이렉트 기록, McKinsey WebFetch 타임아웃·Class Central
+Cloudflare 차단 운영 메모 추가). raw/2026-09/에 원본 요약 7건 신규 저장.
+
+**스크리닝 탈락(참고, 페이지화 안 함)**: HBR 일반 리더십 에세이 다수(08-28 "AI
+Transformation Requires Redesigning Work" 등), HBR "Research:" 2건(페이월로 상세 불가),
+Wharton "Should AI Companies Be Supervised Like Banks?"(정책 오피니언), Mollick "Agency
+and Agents"(보안 인시던트 회고, 무관), EdSurge "Middle School Reading"(모호), McKinsey
+추가 다수(트러스트·거버넌스 등 서베이 반복 주제, 2건으로 대표성 확보 판단).

@@ -87,12 +87,20 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
 | **McKinsey Insights** | https://www.mckinsey.com/insights/rss | 09-01 | 산업별 AI 도입 리포트·서베이. 수치 인용 시 "서베이 기반 주장"임을 명시할 것 |
 | **One Useful Thing** (Ethan Mollick, Substack) | https://www.oneusefulthing.org/feed | 08-31 | Wharton 교수의 직접 실험 기반 글. 경영·교육 양쪽에 걸침 — **두 섹션 겸용 소스** |
 | **Exponential View** (Azeem Azhar, Substack) | https://www.exponentialview.co/feed | 09-01 | AI의 거시 경제·산업 영향 분석. 주간 |
-| **AI Snake Oil** (Narayanan·Kapoor, Substack) | https://www.aisnakeoil.com/feed | 08-05 (월 1~3회) | 프린스턴 연구자의 과장 검증·실증 비판. "주장 vs 실측" 구분에 유용 |
+| **AI Snake Oil** (Narayanan·Kapoor, Substack) | https://www.aisnakeoil.com/feed → **301 리다이렉트** https://www.normaltech.ai/feed | 08-05 (월 1~3회) | **2026-09-01 확인: 뉴스레터 자체가 "AI Snake Oil"에서 "AI as Normal Technology"로 개칭·도메인 이전(normaltech.ai)함. 구 도메인 RSS 요청 시 301로 신 도메인 feed로 리다이렉트됨 — 앞으로는 normaltech.ai/feed를 직접 쓸 것.** 프린스턴 연구자의 과장 검증·실증 비판. "주장 vs 실측" 구분에 유용 |
 
 - **스크리닝 규칙**: 발행량이 많으므로 제목으로 1차 스크리닝 후, **구체적 기업명·수치·벤치마크가
   드러나는 글만** 1~2회 WebFetch로 정독한다. 일반론·리더십 에세이는 제외.
 - 실측 수치가 있는 도입 사례는 use-case 스키마(`evidence: measured`)로,
   서베이·컨설팅 리포트는 `evidence: claimed`로 구분해 페이지화한다.
+- **2026-09-01 소급 백필 실측 메모**: HBR은 07-13~08-31 100건 중 AI 제목 41건 확인,
+  대다수가 일반론 리더십 에세이("Research:" 접두 학술 다이제스트 2건 포함)라 본문이
+  구독 월도 뒤에 있어(paywall) 요약문 이상은 확인 불가 — 페이지화 보류. McKinsey는
+  WebFetch가 **매번 60초 타임아웃**(JS 렌더링 과중 추정, curl도 응답 없음) — 본문 확인이
+  필요하면 WebSearch로 2차 보도(The Register·기사 인용)를 교차확인하는 우회가 필요함을
+  확인, 2건(State of AI 2026, Reckitt RGMx) 이 방식으로 페이지화 성공. Class Central은
+  WebFetch·curl 둘 다 Cloudflare 차단(403/"Attention Required") — 기사 상세는 WebSearch로
+  2차 보도(공식 보도자료 등)를 찾아 우회.
 
 ## AI 교육 트렌드 (2026-09-01 추가 — 사용자 지정)
 
@@ -111,6 +119,15 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 - **스크리닝 규칙**: "AI로 무엇을 가르치는가"(교육 주제)와 "AI를 어떻게 가르침에 쓰는가"
   (교수법) 둘 다 대상. 재현 가능한 교육 방식(과제 설계·커리큘럼 구조)이 구체적으로 드러나는
   글을 우선하고, 교육 정책·일반 오피니언은 제외한다.
+- **2026-09-01 소급 백필 실측 메모**: EdSurge는 07-15~08-28 35건 중 대부분이 정책·일반
+  오피니언(스크리닝 규칙상 제외 대상)이었고, 재현 가능한 구체적 방식이 드러난 건 "AI
+  부정행위 취약도 지수" 1건만 페이지화. "AI가 중학교 문해력을 돕는다"(08-28)는 명명된
+  도구·학군·정량 수치가 전부 모호해 스크리닝 탈락(일반화된 서술뿐). Class Central은
+  09-01 시점 최신 글이 Coursera-LearnVector $100M 투자 분석("Andrew Ng Will Think of
+  Something")이었으나 원문이 Cloudflare 차단 — 공식 보도자료(investor.coursera.com)로
+  대체 확인 후 페이지화. One Useful Thing(Mollick)은 07-15~09-01 창 안에 단 2건만
+  발행(월 1회 미만 페이스 확인) — "Agency and Agents"(08-31)는 Hugging Face 보안 인시던트
+  회고 위주라 교육 관련 내용 없어 스크리닝 탈락.
 
 ## 커뮤니티
 

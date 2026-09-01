@@ -118,6 +118,11 @@
 - [[2026-06-30-meituan-longcat-2]] — 중국산 칩 학습 1.6T 오픈소스 LongCat-2.0 (medium)
 - [[2026-06-23-mistral-ocr-4]] — Mistral OCR 4, 기업 문서 AI (medium)
 
+### AI 경영·비즈니스 실증 / AI 교육 트렌드 (신규 소스 09-01 소급 백필 07-15~09-01)
+- [[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]] — McKinsey 연례 서베이(응답자 1,719명), EBIT 기여 응답 37%·"AI 고성과 기업" 6%뿐·감원 예상 39%(전년 32%)·대기업 에이전트 스케일링 40%(전년 27%) (high)
+- [[2026-08-05-ai-snake-oil-agents-open-ended-research-limits]] — 프린스턴 Narayanan·Kapoor("AI Snake Oil"→"AI as Normal Technology" 개칭), shadow evaluation으로 AI 에이전트의 열린 결말형 연구논문 작성 실측 검증 → 2편 모두 게재 거부, 예산 50% 미만 소진 등 5대 결함 확인 (medium)
+- [[2026-07-28-coursera-learnvector-andrew-ng-investment]] — Coursera, 공동창업자 Andrew Ng의 신설 AI 학습기업 LearnVector에 $100M 전략투자(지분 1/3, 밸류에이션 약 $300M) (medium)
+
 ### 오픈소스 생태계 도구 (백필 06-08~06-26)
 - [[2026-06-08-intuned-browser-automation]] — self-healing 브라우저 자동화 플랫폼 (medium)
 - [[2026-06-12-architect-loop-claude-codex-orchestration]] — Claude(전략가)+Codex(빌더) 오케스트레이션 (medium)
@@ -142,6 +147,7 @@
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
 - [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기. 08-31 추가: AX LABS "하네스 엔지니어링 6계층" 실전 프레임워크(AGENTS.md 템플릿·12항목 체크리스트·프롬프트 4종) 보강 (medium)
 - [[demo-dummy-data-design]] — 에이전트 시연용 모의 데이터 설계 — 심은 이야기·미끼·대조군·재발견 검수 (medium)
+- [[directing-ai-agents-vs-prompting]] — "프롬프팅을 멈추고 지시하라"(MIT Sloan) — Context·Capabilities·Orientation 3축 구성 + 다중렌즈·침묵표면화·계층연결·분류스트레스테스트 4기법 (medium)
 
 ## 회사·인물 (wiki/players/)
 
@@ -151,16 +157,17 @@
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 79건) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 82건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%) · [[jangpm-web-crawler-claude-code-codex]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]] · [[theaxlabs-claude-code-diagram-design-skill]]
 - 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[ben-ai-claude-record-a-skill-best-practices]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배) · [[theaxlabs-harness-r1-failure-driven-editing]] · [[asana-openai-codex-enzyme-migration]] (5년→2주·$6M→$12K, HN 회의론 병기) · [[latent-space-wayfinder-claude-code-skill]] · [[jakesaunders-self-hosted-agentic-software-factory]] · [[fabiensanglard-agent-md-persistent-style-guide]]
-- 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]]
+- 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]] · [[mckinsey-reckitt-rgmx-pricing-automation]] (McKinsey RGMx, 매출개선 $100M+)
 - 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓) · [[benai-claude-skills-marketing-automation]] · [[claude-code-seo-manager-mcp-dashboard]]
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
-- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]]
+- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일)
 - HR: [[jocoding-ax-series-pwc-samil]]
 - 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]]
+- 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]]
 
 ## 분석 (wiki/analysis/)
 

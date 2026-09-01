@@ -83,6 +83,7 @@ uses: [course, ax]
 - [[theaxlabs-ai-native-operating-system-6-steps]] — 모델 계층화 라우팅(소형/중형/프론티어)으로 업무매핑→데이터모델→에이전트배치→백그라운드자동화 6단계를 활용해 중소기업 전 업무 운영체제 재구축을 수행 → 창고·물류사 AI 비용 80%+↓·450개 프로젝트 통합·인당 주당 60시간 절감 (주장)
 - [[theaxlabs-slack-cpo-ai-teammate-principles]] — Claude(second-brain+cron-routines)로 Slack 채널 대화·회의 로그 지식베이스화+일일 브리핑을 활용해 에이전트를 "팀원"으로 운영하는 5원칙을 수행 → 정성적 원칙 중심, 정량 성과 수치 없음 (주장)
 - [[theaxlabs-company-brain-prompt-guide]] — AI 채팅 도구(도구 비종속, second-brain)로 프롬프트 6종+지도 파일을 활용해 개인별 AI 교정을 조직 지식베이스로 통합하는 절차를 수행 → 정량 성과 없음, 방법론·재현 가이드 공개 (주장)
+- [[mckinsey-reckitt-rgmx-pricing-automation]] — McKinsey의 RGMx(예측분석 플랫폼, cron-routines 근사치)로 데이터 기반 시나리오 분석을 활용해 소비재 기업 Reckitt의 가격·프로모션·제품구성·거래투자 의사결정을 수행 → 2021년 이후 누적 매출 개선 $100M+, 35개 시장 전개 (주장, McKinsey 자체 케이스 스터디)
 
 ## 마케팅 (marketing)
 
@@ -110,10 +111,15 @@ uses: [course, ax]
 - [[i-have-adhd-claude-codex-skill]] — Claude Code·Codex(skills)로 규칙 기반 출력 스타일 플러그인을 활용해 AI 응답을 ADHD 친화적 구조(행동우선·번호매김)로 재구성 → Reddit 320+ 댓글 화제, 효과 체감은 엇갈림 (일화)
 - [[nobuzz-claude-code-gemini-debuzz-skill]] — Claude Code Skill `/debuzz`(skills)로 Gemini CLI 크로스 툴 파이프라인을 활용해 장황한 AI 응답을 청중별 평이한 영어로 자동 번역 → 정량 성과 없는 소규모 오픈소스(GitHub 스타 51개), HN 148점 화제 (일화)
 - [[l3a0-claude-code-kindle-highlights-recovery]] — Claude Code Skill(skills+browser-agent)로 Chrome 제어+로컬 SQLite 대조+OCR 파이프라인을 활용해 Kindle 노트북 내보내기 제한으로 잘리거나 숨겨진 하이라이트를 복구 → 책 4권 2,432개 추출, 차단됐던 815개 전량 복구 (실측)
+- [[azhar-6-dollar-ai-research-agent]] — Claude Code·Codex·Elicit·Manus(cli-pipeline)를 조합한 개인 리서치 에이전트 "RMA"로 코드 통합·논문 리서치·글쓰기 보조를 수행 → 일일 운영비 피크 $494→$6 (실측, 저자 본인 지출)
 
 ## HR (hr)
 
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
+
+## 교육 (education)
+
+- [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] — 진단 웹앱 "Cheat Vulnerability Index"(skills 근사치)로 독창성·개인적 연결·목적 3원칙을 활용해 학생 과제를 AI 부정행위에 강하게 재설계 → 활용 교사들의 정성적 호평 (일화, 정량 미확인)
 
 ---
 *2026-07-16 추가: [[solidifier-claude-code-skill]](신규, 36건). [[wiki-builder-claude-code-llm-wiki]]는
