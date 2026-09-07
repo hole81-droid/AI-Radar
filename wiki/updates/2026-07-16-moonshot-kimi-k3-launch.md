@@ -69,6 +69,23 @@ source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-t
   규제 검토 논의와 맞물려, 오픈웨이트 vs 폐쇄형 모델 논쟁이 "성능이 아니라 접근권" 문제로
   옮겨가는 계기가 됐다.
 
+## 후속 반응 4 (2026-07-23 갱신 — Exponential View 경제성 분석)
+
+Azeem Azhar의 Exponential View #593 "Will Kimi K3 change the economics of AI?"(좋아요
+128·댓글 21, 자기평균 85.3 대비 고참여). 전문은 페이월이나, 무료 미리보기 구간에
+구체적 수치가 실려 있었다(2026-09-07 백필 3차 확보).
+
+- Kimi K3는 **Code Arena 벤치마크에서 중국 모델 최초로 선두**를 차지했다 — 전작 K2.6
+  발표로부터 **3개월 만**의 빠른 반복.
+- **격차 축소 추세**: 오픈모델이 사이버 능력에서 프론티어 모델보다 뒤처지는 기간이
+  2025년 기준 6~10개월에서 **4~7개월로 단축**됐다는 분석.
+- **효율성**: 중국 AI 랩이 미국 랩 대비 **4~7배의 효율성**을 달성했다는 추정(출처 내
+  근거 상세는 페이월 안).
+- **가격 탄력성**: 가격 10% 인하 시 토큰 소비량이 **12~18% 증가**(탄력성 -1.11,
+  논문 인용) — 오픈웨이트 모델의 가격 경쟁이 실제 사용량 증가로 이어진다는 근거.
+- **인프라 비용 추정**: Kimi K3 운영에 **연 약 700만 달러**(냉각·네트워킹 제외).
+- 페이월 이후(인프라 제공자 관점의 상세 경제성 분석)는 미확보 — "미확인".
+
 ## 출처
 
 - [VentureBeat — China's Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems](https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems)
@@ -80,3 +97,4 @@ source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-t
 - [Yahoo Finance — Moonshot AI Plans Hong Kong IPO After Kimi K3 Model Debut](https://finance.yahoo.com/markets/stocks/articles/moonshot-ai-plans-hong-kong-123000193.html)
 - [TheNextWeb — Moonshot plans to list in Hong Kong within six months at a $30 billion valuation](https://thenextweb.com/news/moonshot-ai-ipo-six-months-30-billion-kimi-k3)
 - [r/OpenAI — The Trump administration considers banning Chinese open-source AI models, sparked by Kimi K3 -Axios](https://old.reddit.com/r/OpenAI/comments/1v1qk08/the_trump_administration_considers_banning/)
+- [Exponential View — Will Kimi K3 change the economics of AI?](https://www.exponentialview.co/p/will-kimi-k3-change-the-economics-of-ai) (페이월, 무료 미리보기까지 확보)

@@ -1630,3 +1630,134 @@ Midea를 정독 없이 판정했기 때문(검토 20건은 정독 기준 집계)
 [[ai-strategic-decision-making-csaszar]]는 정량 데이터가 아예 없음을,
 [[edsurge-middle-school-reading-comprehension-wall]]은 두 번째 수치가 도구명·학군명·성장폭
 모두 결측임을 각각 별도 절로 명시했다.
+
+## [2026-09-07] ingest | 경영·교육 백필 3차 패스 (마무리) | 반영 3건
+
+2차 패스가 남긴 목록(HBR 유망 후보 5건·HBR 나머지 약 31건 제목 티아지·Exponential View
+고참여 3건)을 소화하는 **세 번째이자 마지막 백필 패스**. 예산: WebFetch 20회 한도 중
+**9회 소비**, 페이지 8건 한도 중 **3건 신규 생성 + 1건 기존 페이지 갱신**.
+
+### 소스별 검토/채택
+
+| 소스 | 검토 | 채택 | 탈락 사유 |
+|---|---|---|---|
+| HBR 유망 후보 5건 (지정 목록) | 5 (WebSearch로 판별, 2건만 WebFetch 진행) | **2** | ③ 3건 — 아래 상세 |
+| HBR 나머지 ~31건 (제목 티아지, 3건 추가 시도) | 3 | **1** | ③ 2건 |
+| Exponential View 고참여 3건 | 3 (전부 WebFetch로 무료구간 확인) | **1**(기존 페이지 갱신, 신규 카운트 제외) | ③ 1건(완전 페이월), ② 1건(위키 중복) |
+| **합계** | **11** | **3건 신규 + 1건 갱신** | — |
+
+### HBR 우회 판별 기준 — 이번 패스 적중률
+
+2026-09-07 2차 패스가 신설한 기준("저자에게 HBR 밖 기관·개인 채널이 있는가")을
+**지정 5건 + 티아지 3건 = 8건에 적용**했다.
+
+**지정 5건 — 사전 판별로 3건을 WebFetch 없이 스킵, 2건만 시도해 2건 성공**
+- 성공: **"Why Agentic AI Could Transform Procurement"**(08-13, Himmelreich·Oshri·Scala·
+  Zaidani) — HBR 저자 4명 전원이 원 BCG 리포트("Scaling Agentic AI in Procurement Is an
+  Organizational Challenge", 2026-07-21, bcg.com)의 저자 목록과 정확히 일치. 전문 무료로
+  핵심 수치(구매력 60%↑, 비용절감 8~15%·최대 60%+, 도입 장벽 신뢰부족71%·보안66%·규제57%)
+  전량 확보 → [[agentic-ai-procurement-organizational-barriers]]
+- 성공: **"AI Transformation Requires Redesigning Work, Not Cutting Roles"**(08-28,
+  Faisal Hoque·Tom Davenport·Paul Scade) — 저자 Hoque의 개인 사이트(faisalhoque.com)에
+  Summary+"Where Companies Go Wrong" 섹션이 발췌돼 있어 확보(55%가 감원 후회, 성공률
+  8.4%, Block·Goldman Sachs 사례) → [[ai-transformation-redesign-work-not-cutting-roles]]
+- **WebFetch 없이 스킵(사전 판별 성공)**: "The Hidden Realities of AI Adoption"(07-30)은
+  저자란이 "HBR Editors"이고 실체는 **HBR 자체 기획 라운드테이블 이벤트**(Niederhoffer·
+  Davenport 출연)라 우회 경로 없음. "Strategy Making Gets an AI Boost"(08-18)는 저자가
+  **HBR managing editor Gretchen Gavett 본인**이 쓴 에디토리얼 — 외부 채널 자체가 없는
+  구조. "Design AI Systems That Actually Strengthen Human Reasoning"(07-20)은 학계
+  공저자 3인(ESSEC·INSEAD·Nova SBE)이지만 WebSearch로 개인/기관 채널을 찾지 못해
+  시도하지 않음(고신뢰 스킵이 아니라 탐색 실패에 가까움 — 4차가 있었다면 재시도 후보).
+
+**티아지 3건 — "Research:" 접두 우선 + 저자 소속기관 채널 탐색, 1건 성공**
+- 성공: **"Research: AI-Generated Ads Perform Worse Than Human-Made Ones"**(09-03,
+  Adam Peruta) — 원 연구가 **HBR 게재보다 4개월 앞선 2026-05-18에 Syracuse 대학 공식
+  보도자료로 이미 전문 공개**돼 있었다(Ipsos 공동연구, 10브랜드 20쌍·3,000명, 인간광고
+  +11 vs AI광고 -5, 식별불가 40%·AI식별 13%) → [[ai-generated-ads-underperform-despite-indistinguishability]].
+  **새 하위 패턴**: "HBR이 몇 달 전에 이미 공개된 연구를 뒤늦게 요약 게재"하는 경우가
+  있다 — 저자 소속기관 뉴스룸의 발행일이 HBR보다 이른지 확인하는 게 새로운 체크포인트.
+- 실패(③): "AI and the Looming Competition for Margin"(07-30, BCG 수석이코노미스트
+  Philipp Carlsson-Szlezak) — 3rd party 재게시(theideafarm.com)에서 개념적 프레임워크
+  (Same with less / More with same / 신사업모델)는 확인했으나 정량 수치가 전무하고
+  일반 거시경제학 논지라 페이지화할 만큼의 특이성이 부족하다고 판단해 보류.
+- 실패(③): "How to Respond to the Coming AI Cost Shock"(08-17, Stacia Garr) — 저자
+  본인 회사 RedThread Research 채널은 확인했으나, HBR 원문과 구별되는 추가 수치·사례를
+  찾지 못함(같은 논지의 paraphrase 수준) — 우회로 볼 만한 실질적 추가 정보 없음.
+
+**적중률 요약**: 지정 5건 중 시도 2건(사전 스킵 3건) → **2/2 성공(100%)**.
+티아지 3건 전부 시도 → **1/3 성공(33%)**. **합산 5회 시도 중 3회 성공(60%)** —
+2차 패스의 40%보다 높다. 사전 판별로 3건을 걸러낸 것이 성공률을 끌어올린 핵심 —
+"저자란이 HBR Editors/자사 에디터"·"이벤트 형식"이면 시도 자체를 하지 않는 것만으로도
+헛품이 크게 줄었다.
+
+### Exponential View 고참여 3건 — only_paid 확인 후 무료구간 판단
+
+Substack archive API로 전부 `only_paid` 확인(좋아요 100~128, 자기평균 85.3 대비 전부
+고참여). **only_paid라도 무료 노출 분량은 글마다 천차만별**임을 실측으로 확인:
+
+- **"Will Kimi K3 change the economics of AI?"(07-23, 128·21)** — 무료 구간에 핵심 수치
+  대부분 노출(Code Arena 선두, 격차 4~7개월로 축소, 효율 4~7배, 가격탄력성 -1.11, 연
+  운영비 700만 달러). [[2026-07-16-moonshot-kimi-k3-launch]]에 "후속 반응 4"로 통합
+  (신규 페이지 대신 기존 페이지 갱신 — 중복 회피, 반영 3건 카운트에는 미포함).
+- **"Copy that: The curious case of AI distillation #594"(07-26, 104·8)** — ③ 완전
+  페이월. 제목 외 본문 텍스트가 한 글자도 노출되지 않음.
+- **"Agents form alliances, DeepMind's reset & how likely is a crash? #596"(08-09,
+  100·0)** — 무료 구간에서 확인한 "AI 모델들의 사전 조율·메시지보드·인증 프로토콜
+  구축" 내용이 **이미 위키에 있는 2026-07 Hugging Face 사건**
+  ([[2026-07-21-openai-huggingface-security-incident]]·
+  [[twilight-factory-agent-human-involvement]] — 자체 설계 C2 프로토콜, 크리덴셜 탈취
+  등 더 상세히 기록됨)과 같은 사건으로 판단 → **② 위키 중복으로 탈락**, 신규 페이지도
+  기존 페이지 갱신도 하지 않음(추가할 만한 새 사실 없음).
+
+### 신규 페이지 3건 (전부 concept, HBR 페이월 우회)
+
+- [[agentic-ai-procurement-organizational-barriers]] — BCG(2026-07-21), 조달 에이전틱
+  AI 도입은 기술이 아니라 조직 장벽(신뢰71%·보안66%·규제57% vs 레거시통합47~50%)이
+  병목. 자동차 제조사 실사례 내부가치 10배.
+- [[ai-transformation-redesign-work-not-cutting-roles]] — HBR·Hoque(2026-08-28), 인력
+  감축 결정 후회 55%·성공률 8.4%뿐, Block·Goldman Sachs 사례.
+- [[ai-generated-ads-underperform-despite-indistinguishability]] — Syracuse·Ipsos
+  (2026-05-18 원 연구, 2026-09-03 HBR 요약), 식별불가 40%인데 성과는 인간광고 +11 vs
+  AI -5(약 16p 격차).
+
+### 기존 페이지 갱신 1건
+
+- [[2026-07-16-moonshot-kimi-k3-launch]] — "후속 반응 4"로 Exponential View 경제성
+  분석(효율 4~7배, 가격탄력성 -1.11, 연 운영비 700만 달러 추정) 통합.
+
+### 갱신
+
+[[index]](개념 3건 추가, 09-07 3차 패스 요약 각주, Kimi K3 줄 갱신) · sources.md
+(HBR 우회 판별 기준에 09-07 3차 재검증 결과 + "뒤늦게 소개된 기존 연구" 하위 패턴 추가,
+Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모). raw/2026-09/에 원본 4건
+신규 저장. case-catalog.md는 이번 신규 3건이 전부 concept 타입이라 갱신 대상 아님
+(use-case 신규 없음).
+
+### 4차 패스가 필요한가 — **불필요, 백필 종료 권고**
+
+다음 근거로 4차 패스를 권고하지 않는다:
+
+1. **남은 HBR 후보의 질이 낮다.** 나머지 ~28건 중 저자란이 없거나("무기명"), HBR 자체
+   에디터(Adi Ignatius·Gretchen Gavett)가 쓴 것이 상당수다 — 이번 패스에서 확인했듯
+   이런 유형은 우회 경로가 구조적으로 없다. "Research:" 접두 + 학계/기관 저자 조합은
+   이번 3개 패스에서 사실상 소진됐다(남은 것은 이미 페이지화됐거나 이번에 시도·탈락).
+2. **Exponential View 고참여 3건은 이제 0건.** 남은 후보 목록이 없다 — 향후 신규
+   고참여 글은 일일 스캔이 자연스럽게 커버한다.
+3. **수확률이 패스를 거듭할수록 구조적으로 낮아지고 있다** — 1차 61%(정독 대비) →
+   2차 50% → 3차는 지정 5건 중 2건, 티아지 3건 중 1건(합산 실질 채택률은 낮지만
+   판별 기준으로 사전 필터링해 시도 대비 성공률은 60%로 오히려 높다). 이는 **좋은
+   후보를 골라내는 능력은 좋아졌지만, 좋은 후보 자체의 절대량이 줄고 있다**는 뜻이다.
+4. **남는 것이 있다면**: HBR "Design AI Systems That Actually Strengthen Human
+   Reasoning"(07-20, 학계 3인)은 채널 탐색에 실패했을 뿐 존재 가능성을 완전히 배제하지
+   못했다 — 확신도가 낮아 4차 전용 패스보다는 **일일 스캔 중 우연히 해당 저자 이름이
+   다시 걸리면 그때 재시도**하는 편이 비용 효율적이다. McKinsey(타임아웃)·Class
+   Central(403)은 여전히 재시도 대상 아님.
+
+**결론**: 경영·교육 백필은 이번 3차 패스로 **종료**한다. 이후 신규 HBR·EV·EdSurge
+콘텐츠는 일일 스캔 워크플로가 sources.md의 개정 규칙(2026-09-03/07)으로 자연스럽게
+커버한다.
+
+### 세 패스 누적 요약
+
+**1차 11건 + 2차 10건 + 3차 3건 = 총 24건**의 경영·교육 페이지를 세 번의 백필 패스로
+확보. 수확률 추이: 61% → 50% → (지정 40%/티아지 33%, 판별 후 시도 기준 60%).

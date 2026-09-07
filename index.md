@@ -111,7 +111,7 @@
 - [[2026-07-28-ai-industry-pacing-letter]] — OpenAI·Anthropic·Google·Meta 직원 1,100명+ "Pacing the Frontier" 서한, 정부에 AI 감속 장치 사전 마련 촉구 (high)
 - [[2026-07-27-nvidia-ssi-openai-financing]] — Nvidia, SSI에 $5B 투자 + OpenAI 오하이오 데이터센터 최대 $250B 파이낸싱 보증 검토 (high)
 - [[2026-07-19-alibaba-qwen-3-8-preview]] — Alibaba Qwen, 2.4T 파라미터 "Qwen 3.8" 프리뷰, "Fable 5 다음으로 강력" 자평 (medium, 08-16 후속: 경량 양자화 변형 Qwen3.8-27B-FP8 공개, HN 1위 1344점)
-- [[2026-07-16-moonshot-kimi-k3-launch]] — 중국 Moonshot AI, 역대 최대 오픈웨이트 모델 Kimi K3(2.8T) 공개, 프론트엔드 코딩서 Fable 5 능가 (high)
+- [[2026-07-16-moonshot-kimi-k3-launch]] — 중국 Moonshot AI, 역대 최대 오픈웨이트 모델 Kimi K3(2.8T) 공개, 프론트엔드 코딩서 Fable 5 능가. 09-07 후속: Exponential View 경제성 분석(효율 4~7배, 가격탄력성 -1.11, 연 운영비 700만 달러 추정) (high)
 - [[2026-07-09-xai-grok-4-5-launch]] — xAI, Grok 4.5 공개, Opus급 성능을 더 저렴하게 (medium)
 - [[2026-07-14-thomson-reuters-ai-layoffs]] — 엔지니어 500명 감원·AI-네이티브 250명+ 채용 (medium)
 - [[2026-07-03-xai-grok-voice-agent-imagine]] — xAI Voice Agent Builder·STT API (medium)
@@ -127,6 +127,7 @@
 - **09-03 백필 (스크리닝 전면 개정 후 재수확, 07-15~09-03)**: 09-01 rule A(구체성 게이트)·09-02 rule B(HN `points>50`)로 버려졌던 항목을 **0단계 느슨한 관문 + 1단계 화제성 우선순위 + 2단계 구체성=기록방식** 새 규칙으로 재평가. 25건 정독 예산 중 18건 소비, **신규 11건 채택**(HBR 0→1, Sloan 1→4, EdSurge 1→4, One Useful Thing 0→1, Exponential View 2→2 추가). 상세는 [[log]] 2026-09-03 항목 참고.
 - [[2026-08-13-americas-youth-ai-festival-students-first-act]] — 학생들이 직접 쓴 K-12 AI 정책안 "STUDENTS First Act"(Day of AI·MIT RAISE·AASA·Kennedy Institute). 9학년 이전 독립 사용 금지·K-5 리터러시 시작·글쓰기/예술 과제 생성 금지·**AI 탐지기 단독 의존 금지 + 사람 검토·이의제기 보장**. AASA 회원 10,000개 학교구에 전달 (medium)
 - **09-07 백필 2차 패스 (1차가 예산으로 자른 목록 소화)**: EdSurge RSS가 `content:encoded`로 **전문을 무료 제공**한다는 것을 발견해 9건을 WebFetch 0회로 정독. HBR 페이월 우회 2건 성공(BCG 공식 페이지·저자 개인 사이트). WebFetch 28회 한도 중 **10회 소비, 신규 10건 채택**. 상세는 [[log]] 2026-09-07 항목 참고.
+- **09-07 백필 3차 패스 (마무리)**: HBR 유망 후보 5건 중 판별기준 적용 후 2건 시도해 2건 성공(BCG 조달·Hoque 개인사이트), HBR 나머지 목록에서 추가 3건 티아지해 1건 성공(Syracuse 보도자료 우회, Adam Peruta AI광고 연구). Exponential View 고참여 3건은 전부 only_paid — Kimi K3 경제성 분석 1건은 무료 미리보기 수치로 기존 페이지 갱신, 나머지 2건은 페이월 전량 차단(1건) 또는 위키 기존 Hugging Face 사건과 중복(1건)으로 탈락. WebFetch 10회 소비, 신규 3건+갱신 1건. 백필 종료 권고. 상세는 [[log]] 2026-09-07 항목 참고.
 - **09-02 top-up (스크리닝 OR조건 rule B 도입 후 첫 패스 재점검)**: HBR 41건·EdSurge 19건·Wharton 10건·McKinsey 21건을 HN Algolia 주목도(`points>50`)·아웃렛 자체 인기목록으로 재확인했으나 임계값을 넘긴 항목 없음(HBR 최고 14점, McKinsey 최고 27점) — rule B 단독으로는 신규 페이지 없음. 대신 HBR 페이월 2건("Research:" 접두 2편)을 arXiv·Perplexity 자체 데이터로 우회 확인해 rule A(구체성)로 페이지화([[perplexity-comet-vs-search-knowledge-work-scope]]·[[ai-innovation-human-bottleneck-framework]]), Exponential View 재정독으로 [[ai-adoption-j-curve]]·[[loop-engineering]] 보강 추가. 상세는 [[log]] 2026-09-02 항목 참고.
 
 ### 오픈소스 생태계 도구 (백필 06-08~06-26)
@@ -169,6 +170,9 @@
 - [[ai-strategic-decision-making-csaszar]] — 전략 수립 3대 인지 과업을 AI가 확장(탐색·표상·집계) + 경영진 플레이북 4, 우위는 모델 접근권이 아니라 독점 데이터·프로세스(HBR 9·10월호, Csaszar). 정량 데이터 없음 (medium)
 - [[open-model-finetuning-economics]] — 파인튜닝 오픈모델 경제성(Exponential View #599) — Bridgewater+Thinking Machines Qwen 오류 30%↓·비용 1/14, Jalapeño 칩 W당 토큰 1.5~1.9배, Vercel 오픈웨이트 점유율 2개월 만에 28%→62% (medium)
 - [[k12-ai-policy-continuum-five-levels]] — AI 정책 5단계 연속체(EdSurge, 38개 주 122개 학교구 문서 실측) — Level 3 "교사 재량" 44.3%·금지권 25%·주 가이던스 참조 15.6%·정책의 65%가 학생 대상. 기업 사내 AI 규정 성숙도 모델로 이식 가능 (high)
+- [[agentic-ai-procurement-organizational-barriers]] — BCG(HBR 페이월 우회), 조달 에이전틱 AI 스케일링은 기술이 아니라 조직 장벽 — 신뢰부족 71%·보안66%·규제57% vs 레거시통합 47~50%, 자동차사 실사례 내부가치 10배 (medium)
+- [[ai-transformation-redesign-work-not-cutting-roles]] — HBR(저자 개인 사이트 우회), 인력 감축 결정 후회 55%·구조조정 성공 8.4%뿐·자동화 도입 기업 80% 감원했으나 ROI 무관, Block·Goldman Sachs 사례 (medium)
+- [[ai-generated-ads-underperform-despite-indistinguishability]] — Syracuse·Ipsos(HBR 페이월 우회), AI 광고 식별불가 40%·AI식별 13%뿐인데도 성과는 인간광고 +11 vs AI -5(약 16p 격차), 10브랜드 20쌍 3,000명 실측 (medium)
 - [[school-ai-total-cost-infrastructure]] — "AI 우선"의 진짜 청구서(EdSurge) — 추론 비용은 규모의 경제가 **역전**된다, 프라이버시 통제권↑=비용↑, 미국 데이터센터 2023년 176TWh(전력의 4.4%) (high)
 - [[edsurge-middle-school-reading-comprehension-wall]] — "이해의 벽" + **AI 학습도구 도입 심사 7문**(NAEP 8학년 읽기 능숙 30%). 7문은 기업 AI 도구 검증 체크리스트로 그대로 번역됨 (medium)
 

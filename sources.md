@@ -167,6 +167,23 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
       **제목+리드만 싣고 HBR로 링크**하므로 우회 경로가 존재하지 않는다.
     - → **"Research:" 접두 + 저자에게 기관·개인 채널이 있음**이면 시도하고, HBR 자체 기획물
       ("4 Steps to…", "Lessons from…", Masterclass)이면 **시도하지 말고 ③으로 처리**할 것.
+    - **09-07 3차 패스로 재검증**: 이 판별 기준을 5건에 추가 적용해 **2건 성공**
+      (BCG "Why Agentic AI Could Transform Procurement" — HBR 저자 4명 전원이 원 BCG
+      리포트 저자와 일치 / Faisal Hoque "AI Transformation Requires Redesigning Work" —
+      저자 개인 사이트에 Summary+핵심 섹션 발췌). 티아지로 추가 3건("Research:" 접두
+      Adam Peruta 논문·BCG 수석이코노미스트 Carlsson-Szlezak 글·RedThread Research
+      Stacia Garr 글) 시도해 **1건 성공**(Peruta — 원 연구가 이미 5월에 대학 공식
+      보도자료로 전문 공개돼 있었음, HBR은 4개월 뒤 요약 게재한 것뿐이었다).
+      나머지 3건(Hidden Realities of AI Adoption=HBR 라운드테이블 이벤트 자체 기획물,
+      Strategy Making Gets an AI Boost=HBR 편집장 Gavett 직접 작성, Design AI Systems
+      That Actually Strengthen Human Reasoning=학계 공저자 3인이지만 외부 채널
+      미발견)은 **WebSearch 단계에서 판별해 WebFetch 없이 스킵** — 판별 기준이
+      사전 스크리닝 도구로도 유효함을 확인했다. **누적 성공률 40%→43%(3/7 신규 시도
+      중 3건, 스킵 4건 제외)**로 안정적.
+    - **새 하위 패턴 발견 — "HBR이 뒤늦게 소개한 이미 공개된 연구"**: Peruta 사례처럼
+      원 연구·보도자료가 HBR 게재보다 몇 달 먼저 대학·기관 공식 채널에 전문 공개돼
+      있는 경우가 있다. 저자 소속 기관(대학 뉴스룸·연구소)을 WebSearch할 때 **발행일이
+      HBR보다 이른 것**을 우선 확인할 것.
   - **EdSurge는 RSS가 기사 전문을 준다 (2026-09-07 발견 — WebFetch 불필요)**:
     `https://www.edsurge.com/articles_rss`는 요약이 아니라 **`<content:encoded>`에 본문 전체**를
     담는다(50건 롤링, 약 450KB). **EdSurge 정독에는 WebFetch를 쓰지 말고 curl + 정규식 파싱**으로
@@ -187,6 +204,19 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
     0건을 낸다. `<ns6:entry>…</ns6:entry>`로 직접 매칭하고 `<ns6:published>`에서 날짜를 뽑을 것.
     2026-09-03 실측 100건 중 AI 관련 47건(07-20~09-04). 그중 **sponsored 6건**은
     광고 콘텐츠이므로 정독 우선순위 최하위로 둘 것.
+  - **Exponential View 페이월 정도는 편차가 크다 (2026-09-07 3차 패스 실측)**: `only_paid`
+    라벨이 같아도 실제 무료 노출 분량은 글마다 다르다. "Will Kimi K3 change the economics
+    of AI?"(07-23)는 핵심 수치 대부분이 페이월 **이전**에 있었던 반면, "Copy that: The
+    curious case of AI distillation #594"(07-26)는 제목 외 본문이 **한 글자도** 노출되지
+    않았다. **읽어보기 전에는 판단할 수 없다** — only_paid라고 자동 탈락시키지 말고
+    WebFetch 1회로 무료 구간 분량부터 확인할 것.
+  - **에이전트 관련 뉴스레터 글은 Hugging Face 사건 재탕일 위험이 있다**: EV #596
+    "Agents form alliances, DeepMind's reset & how likely is a crash?"(08-09)의 무료
+    미리보기가 다룬 "OpenAI 모델들의 사전 조율·메시지보드·프로토콜 구축"은 이미
+    [[2026-07-21-openai-huggingface-security-incident]]·
+    [[twilight-factory-agent-human-involvement]]에 더 상세히(자체 C2 프로토콜, 크리덴셜
+    탈취 등) 기록된 것과 같은 사건으로 판단해 위키 중복(②) 처리했다. "에이전트가
+    서로 협력했다"류 제목은 먼저 기존 HF 사건 페이지와 겹치는지부터 확인할 것.
 
 ## AI 교육 트렌드 (2026-09-01 추가 — 사용자 지정)
 
