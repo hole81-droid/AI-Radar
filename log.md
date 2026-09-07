@@ -1844,3 +1844,37 @@ Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모)
   fluency+역할별 역량 / 교육 이후 강화 장치 / 초급 업무 대체 환경의 경험·판단 학습 경로).
 - CLAUDE.md 토큰 효율 규칙에 이 섹션을 **경영·교육 섹션보다 먼저 확인**하도록 추가.
 - 기존 "AI 교육 트렌드" 섹션 머리에 참고 ③ 경고 블록 추가.
+
+## [2026-09-07] ingest | 기업 인재개발·L&D 신설 소스 백필 (07-01~09-07) | 반영 6건
+
+신설한 sources.md "기업 인재개발·L&D × AI" 섹션의 첫 백필. 대상 기간 07-01~09-07.
+
+**스크리닝**: Josh Bersin 6건 + Harvard Business Impact 8건 = 14건 확인.
+HBI는 RSS에 본문 전문이 실려 있어(최대 26KB) 추가 fetch 없이 AI 밀도·수치로 저비용 1차 선별했다.
+Bersin은 발췌만 실려 있어 후보 4건을 개별 fetch(전부 무료, 페이월 없음).
+
+**반영 6건**
+- `use-cases/bersin-multiagent-talent-acquisition` (07-15) — 멀티 에이전트 대량채용.
+  채용 2주→3일, H&M 리텐션 30%↑, 콜센터 역할 수백 개 제거, 프론트라인 고용주 5% 미만 침투(저자 추정).
+  벤더: Eightfold·Paradox(Workday)·Maki·Phenom·SmartRecruiters·UKG·Radancy. **저자 이해관계 명시**.
+- `concepts/hr-jobs-growing-despite-ai` (08-13) — Lightcast 공고 데이터. HR 직무 20년 CAGR 1.2%,
+  최근 24개월 6%(전체 고용보다 빠름), 급여 82% vs 인플레 66%. 소멸 직함에 **Training administrator** 포함.
+  **L&D는 3개월 과정 개발 → 즉시형 콘텐츠·성과지원(Travelers·Polestar)** — 우리 직무 이야기.
+- `concepts/entry-level-jobs-as-learning-infrastructure` (07-09, HBI) — Edmondson·Chamorro-Premuzic.
+  "초급 일자리의 요점은 일을 끝내는 것이자 사람을 길러내는 것". 사용자 카탈로그 탐색축 ④의 이론 근거.
+- `updates/2026-07-22-hbi-2026-global-leadership-study` (07-22) — 시니어 리더 1,100명+·15개국,
+  매출 $10B 초과 49%, **응답자의 50%가 L&D·HR 전문가**. "AI 준비도는 리더의 판단·책임·확신에 달렸다".
+- `concepts/us-workforce-2035-productivity-pressure` (09-02) — BLS 2025-35: 노동력 3.5% vs GDP 22%
+  → 생산성 연 2% 필요. 감축이 아니라 생산성 압력. McKinsey "감원 예상 39%"와의 충돌을 상충 블록으로 명시.
+- `concepts/worker-trust-decline-ai-anxiety` (08-27) — 원문은 미국 노동정책 논의라 **범위를 한정해**
+  신뢰·불안 부분만 발췌: 리더 신뢰 25%→19%, PwC 67%, "HR 임원조차 자동화될 노동력처럼 느낀다".
+
+**미채택 2건 (사유: AI 무관)** — Bersin 07-29 "No Tax On Tips"(세제), 07-16 "Affordability/Wages"(임금·인플레).
+**낮은 우선순위로 미채택 4건** — HBI 09-02·08-21·08-19·07-20(변화 리더십 일반론·지역판 중복, AI 언급 1~4회).
+HBI 08-11·07-14는 26KB이나 AI 언급 1~3회로 본 섹션 목적과 거리가 있어 보류.
+
+**교차 발견**: 같은 저자(Bersin)가 07-15에는 에이전틱 채용의 성과를 전하고 08-13에는
+"AI 면접관은 기대만큼 작동하지 않는다"며 대면 면접 회귀를 보고했다. 두 페이지에 상호 링크로 명시.
+Bersin(낙관: 자리가 상향 대체)과 Edmondson(비관: 학습 경로 단절)의 상충도 `> ⚠️ 상충` 블록으로 처리.
+
+index.md에 "기업 인재개발·L&D × AI" 하위 섹션 신설, case-catalog HR 항목 추가.

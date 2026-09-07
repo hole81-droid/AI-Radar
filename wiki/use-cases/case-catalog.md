@@ -119,6 +119,7 @@ uses: [course, ax]
 ## HR (hr)
 
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
+- [[bersin-multiagent-talent-acquisition]] — 채용 벤더의 멀티 에이전트(문의응대+AI면접+ATS 연동)로 대량채용 앞단을 자동화 → 채용 2주→3일, H&M 리텐션 30%↑ (애널리스트가 전한 고객사 보고치, 독립 검증 없음)
 
 ## 교육 (education)
 

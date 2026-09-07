@@ -97,6 +97,8 @@
 - [[2026-06-18-google-antigravity-cli-transition]] — Gemini CLI→Antigravity 전환 반발 (medium)
 
 ### 기타 업계
+
+- [[2026-07-22-hbi-2026-global-leadership-study]] — Harvard Business Impact 4회차 연례 연구. 시니어 리더 1,100명+·15개국, 표본의 50%가 L&D·HR. "AI 준비도는 리더의 판단·책임·확신에 달렸다" (course, ax)
 - [[2026-08-27-nvidia-huggingface-acquisition]] — Nvidia, Hugging Face를 $12.9B(일부 보도 $13B)에 인수 확정, 오픈소스 AI 허브 사상 최대 인수합병(최초 제안 $7B의 약 2배) (high)
 - [[2026-08-27-ai-industry-cyber-defense-letter]] — OpenAI 주도 AI 사이버 방어 공동서한에 Anthropic·Google·Microsoft·AWS 등 116개+ 기업·기관 서명 (high)
 - [[2026-08-24-headlong-persistent-agent-microharness]] — MIT·Laude Institute, 오픈소스 "지속형 에이전트" 마이크로하네스 Headlong 공개, 자기중단·시간당비용·프라이버시 실패사례 투명 공개 (medium)
@@ -148,6 +150,13 @@
 
 ## 개념 (wiki/concepts/)
 
+### 기업 인재개발·L&D × AI (2026-09-07 신설 소스 백필)
+
+- [[hr-jobs-growing-despite-ai]] — AI 투자에도 HR 직무 증가(최근 24개월 6%), 사라지는 건 administrator 계열. L&D는 3개월 과정 개발에서 즉시형 성과지원으로 (course, ax)
+- [[entry-level-jobs-as-learning-infrastructure]] — 초급 일자리는 비효율이 아니라 학습 인프라 (Edmondson·Chamorro-Premuzic). 자동화하면 판단력이 자랄 구간이 사라진다 (course, ax)
+- [[us-workforce-2035-productivity-pressure]] — 노동력 3.5% vs GDP 22%(BLS). AI 전환은 감축이 아니라 생산성 압력의 문제 (ax, course)
+- [[worker-trust-decline-ai-anxiety]] — 리더 신뢰 25%→19%, "HR 임원조차 자동화될 노동력처럼 느낀다". 변화관리의 출발점 (ax)
+
 - [[ai-capex-productivity-gap]] — Wharton, 빅테크 AI 인프라 지출 정당화에 필요한 생산성 배율 2.7배(과거 IT붐 1.5배·광통신 1.3~1.5배 대비 이례적) (medium)
 - [[citizen-development]] — 현업이 AI로 사내 도구를 직접 만드는 흐름 (high)
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
@@ -194,6 +203,7 @@
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일)
 - HR: [[jocoding-ax-series-pwc-samil]]
 - 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]]
+- HR(hr): [[bersin-multiagent-talent-acquisition]] — 멀티 에이전트 대량채용, 2주→3일·H&M 리텐션 30%↑ (애널리스트 전달치)
 - 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] · [[edsurge-cognitive-citizenship-ai-instruction]] (Brown대 테이크홈 96%→감독형 49%) · [[edsurge-school-ai-policy-future-ready-team]] (학교 AI 정책 3단계·신호등 체계) · [[edsurge-ai-esl-english-learners]] (ESL, 정량 성과 없음) · [[edsurge-complex-text-scaffolding-vs-leveling]] (레벨링 안티패턴 + 스캐폴딩 5처방) · [[edsurge-problem-of-practice-ai-teacher-pd]] (실무문제 우선 4단계 액션러닝 연수 설계)
 
 ## 분석 (wiki/analysis/)
