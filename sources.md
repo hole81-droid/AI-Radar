@@ -218,7 +218,68 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
     탈취 등) 기록된 것과 같은 사건으로 판단해 위키 중복(②) 처리했다. "에이전트가
     서로 협력했다"류 제목은 먼저 기존 HF 사건 페이지와 겹치는지부터 확인할 것.
 
+## 기업 인재개발·L&D × AI (2026-09-07 신설 — 사용자 제공 카탈로그 검토 결과)
+
+**우리 조직의 본업에 가장 가까운 칸이었는데 비어 있었다.** 기존 "AI 교육 트렌드" 섹션은
+학교·대학(K-12/고등교육) 쪽을 향해 있어, CLAUDE.md의 주제 범위 구분상 **참고 ③**에 해당한다.
+이 섹션은 **핵심 ②(역량육성 방법론)와 ①(기업의 AI 활용)** 을 정면으로 다루는 소스다.
+사용자가 제공한 `AI 교육의 최신 Trend — 추천 콘텐츠 카탈로그`(기준일 2026-08-25)를 검토해
+**접근 가능성을 전수 실측한 뒤** 선별했다.
+
+### 상시 스캔 (RSS 실측 완료)
+
+| 소스 | RSS | 실측(09-07) | 발행 빈도 | 성격 |
+|---|---|---|---|---|
+| **Josh Bersin** | https://joshbersin.com/feed/ | 200 · 최신 09-02 | 주 1~2회 | HR·인재개발 업계 최고 영향력 애널리스트. "AI가 기업학습을 어떻게 바꾸는가"의 1차 관점. 실측 최신글: *US Workforce In 2035*, *Despite Massive AI Investments, HR Jobs Are Booming*, *Multi-Agent AI For Talent Acquisition Arrives* |
+| **Harvard Business Impact** | https://www.harvardbusiness.org/feed/ | 200 · 최신 09-02 | 월 2~3회 | 기업 리더십 개발 전문(HBP의 기업교육 부문). 자체 연구 발간(2026 Global Leadership Study). 실측: *A New Kind of Collective Intelligence: How AI Is Transforming the Living, Learning Organization* |
+| **McKinsey Insights 전체** | https://www.mckinsey.com/insights/rss | 200 · 50건 · 최신 09-07 | 일 2~5회 | **제목 스크리닝 전용.** 기존 McKinsey 항목(경영 섹션)은 State of AI 페이지 WebFetch였고 60초 타임아웃이 잦았다 — 이 RSS(39KB)가 훨씬 싸다. People & Organizational Performance·Talent 계열 제목만 채택 |
+
+### 연간 리포트 워치리스트 (상시 스캔 아님 — 발표 시즌에만 확인)
+
+발행이 연 1회라 매일 스캔에 넣으면 예산만 쓴다. **분기 1회 정도 제목만 확인**하고, 신간이 뜨면
+그때 정독한다.
+
+| 리포트 | 발행 주체 | 다루는 것 |
+|---|---|---|
+| Talent Report: The Talent Velocity Advantage | LinkedIn | 역할·스킬 기반 역량체계 (LinkedIn 본체는 차단 — 리포트 PDF/보도자료로 우회) |
+| Global Learning & Skills Trends Report | Udemy Business | 일의 흐름 속 AI fluency |
+| L&D Report | TalentLMS | 과정에서 성과지원으로의 이동 |
+| Learning and Development Trends | Blanchard | 관리자 역량·변화 리더십 |
+| People Readiness Report | Kyndryl | 인력 준비도 진단 |
+| Redefine AI Upskilling as a Change Imperative | McKinsey | AI 업스킬링을 변화 여정으로 설계 |
+| Building Expertise in the Age of AI | McKinsey | AI가 초급 업무를 대체할 때 다음 세대 전문성을 어떻게 기르나 |
+| AI Transformation Is a Workforce Transformation | BCG | 인력 전환 관점의 AX |
+
+### 검토 후 제외 (실측 근거)
+
+| 후보 | 판정 | 근거 |
+|---|---|---|
+| TalentLMS 블로그 RSS | **제외** | 200이지만 내용이 벤더 SEO 목록글("7 Best LMS for Manufacturing", "Top 10 Onboarding LMS")이 대다수. 연간 L&D Report만 워치리스트로 |
+| BCG 목록 페이지 | **피드 불가** | `/publications`·`/capabilities/*` 모두 curl 403. 단 **개별 기사 URL은 접근 가능**(HBR 페이월 우회에 두 차례 성공) — 피드 소스가 아니라 우회 대상으로 유지 |
+| Kyndryl Institute | **URL 무효** | 404. 리포트 발간 시 웹서치로 포착 |
+| LinkedIn Talent Blog | **제외** | LinkedIn 섹션 규칙 적용(차단·최신순 검색 불가) |
+| Microsoft Learn YouTube | **보류** | 채널 피드 URL 미해결(`user=` 형식 404). 내용도 자사 제품 중심이라 우선순위 낮음 |
+| Ravin Jesuthasan 개인 사이트 | **보류** | 200이나 정기 발행 피드 미확인. Josh Bersin·HBI가 같은 주제를 더 자주 다룸 |
+
+### 스크리닝 규칙
+
+경영·교육 섹션과 동일한 2단계(화제성이 정독 여부, 구체성이 기록 방식)를 쓰되, **채택 각도가 다르다** —
+이 섹션의 글은 "우리가 프로그램을 어떻게 설계·운영할 것인가"(핵심 ②)와 "기업이 AI 역량을 어떻게
+확보하는가"(핵심 ①)로 읽는다. 특히 아래 4개 축이 사용자 카탈로그에서 도출된 관심사이므로 우선한다.
+
+1. 교육 제공량이 아니라 **현업 적용·성과·확산**을 단위로 설계
+2. **전사 공통 fluency와 역할별 실무역량**을 함께 관리
+3. **관리자·커뮤니티·성과지원·업무 재설계**를 교육 이후의 강화 장치로
+4. AI가 초급 업무를 대체하는 환경에서 **경험·판단·검증을 배우는 경로**를 의도적으로 설계
+
+> 원본 카탈로그: `raw/2026-09/mysuni-ai-education-trend-content-catalog.md` (사용자 제공, 기준일 2026-08-25)
+
 ## AI 교육 트렌드 (2026-09-01 추가 — 사용자 지정)
+
+> **주제 범위 주의 (2026-09-07)**: 이 섹션은 주로 **학교·대학**의 교육 변화를 다루며,
+> CLAUDE.md의 Insight 리포트 주제 범위상 **참고 ③**에 해당한다. 수집은 계속하되
+> **리포트 본체(1부·3부)에 넣지 않고**, ③ 페이지에는 `programs:` 필드를 붙이지 않는다.
+> 기업 인재개발 관점의 소스는 위 "기업 인재개발·L&D × AI" 섹션을 쓴다.
 
 AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 **가장 앞서가는 선진 사례**를
 수집한다. 학습과정 기획(`uses: course`)의 핵심 공급원. 전부 2026-09-01 실측 검증.

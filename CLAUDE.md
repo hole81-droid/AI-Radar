@@ -355,6 +355,13 @@ date: YYYY-MM-DD
     저점수 글이 대량 유입되니 반드시 붙일 것. X는 차단(402)되므로 시도하지 말 것.
   - Karpathy는 글보다 저장소로 말한다 — 여력이 있으면
     `https://api.github.com/users/karpathy/repos?sort=updated&per_page=5`도 확인한다.
+- **기업 인재개발·L&D × AI (저비용, 필수 — 2026-09-07 신설)**: sources.md "기업 인재개발·L&D × AI"
+  표의 RSS 3종을 매 스캔 curl로 확인한다 — Josh Bersin(주 1~2회, HR·인재개발 애널리스트),
+  Harvard Business Impact(월 2~3회, 기업 리더십 개발), McKinsey Insights 전체(일 2~5회, **제목
+  스크리닝 전용** — People & Organizational Performance·Talent 계열만 채택). **우리 조직의 본업
+  (핵심 ②)에 가장 가까운 소스군이므로 경영·교육 섹션보다 우선 확인한다.** 연간 리포트
+  워치리스트(LinkedIn·Udemy·TalentLMS·Blanchard·Kyndryl 등)는 매 스캔이 아니라 분기 1회 제목만
+  확인한다 — 연 1회 발행이라 매일 보면 예산만 쓴다.
 - **AI 경영·비즈니스 실증 + AI 교육 트렌드(저비용, 필수 — 2026-09-01 사용자 지정)**:
   sources.md의 두 신설 섹션("AI 경영·비즈니스 실증", "AI 교육 트렌드") 표의 RSS를 매 스캔
   curl로 확인한다(전부 직접 접근 가능 실측 확인, HBR은 `<ns6:entry>` 네임스페이스 Atom 주의).

@@ -1821,3 +1821,26 @@ Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모)
   권한·승인 맵 표준으로 채택할지"로 교체.
 - 신규 인용 페이지 3건 편입: agentic-ai-procurement-organizational-barriers,
   twilight-factory-agent-human-involvement, ai-platforming-unfinished-foundation.
+
+## [2026-09-07] sources | 기업 인재개발·L&D × AI 섹션 신설 (사용자 제공 카탈로그 검토)
+
+- 사용자가 `AI 교육의 최신 Trend — 추천 콘텐츠 카탈로그`(내부 문서, 기준일 2026-08-25) 제공.
+  원본은 `raw/2026-09/mysuni-ai-education-trend-content-catalog.md`에 보존.
+- **진단**: 카탈로그의 주제(Josh Bersin·McKinsey 업스킬링·LinkedIn Talent·Udemy·TalentLMS·
+  Blanchard·HBI·BCG 인력전환)는 전부 **기업 인재개발(L&D) × AI** — 오늘 신설한 주제 범위 구분의
+  **핵심 ②(역량육성 방법론)** 이자 일부 ①이다. 그런데 sources.md에는 이 칸이 비어 있었다.
+  기존 "AI 교육 트렌드" 섹션(EdSurge·Class Central)은 학교·대학 쪽이라 **참고 ③**이다.
+  **우리 조직 본업에 가장 가까운 소스군이 누락돼 있었던 것.**
+- **전수 실측 후 선별** (curl, 2026-09-07):
+  - 채택(상시 스캔) — Josh Bersin RSS(200, 최신 09-02, 주 1~2회), Harvard Business Impact
+    RSS(200, 최신 09-02, 월 2~3회), McKinsey Insights RSS(200, 50건, 제목 스크리닝 전용
+    — 기존 State of AI 페이지 WebFetch의 60초 타임아웃 문제를 39KB RSS로 대체)
+  - 연간 리포트 워치리스트(분기 1회 제목 확인) — LinkedIn Talent Report, Udemy Business,
+    TalentLMS L&D Report, Blanchard, Kyndryl People Readiness, McKinsey 업스킬링 2건, BCG 인력전환
+  - 제외 — TalentLMS 블로그 RSS(200이나 벤더 SEO 목록글 위주), BCG 목록 페이지(403, 개별 기사
+    URL만 접근 가능 → 우회 대상으로만 유지), Kyndryl Institute(404), LinkedIn(기존 규칙),
+    Microsoft Learn YouTube(피드 URL 미해결·자사 제품 중심), Ravin Jesuthasan(정기 피드 미확인)
+- 카탈로그의 "탐색 축" 4가지를 이 섹션 스크리닝 우선순위로 명문화(현업 적용 단위 설계 / 전사
+  fluency+역할별 역량 / 교육 이후 강화 장치 / 초급 업무 대체 환경의 경험·판단 학습 경로).
+- CLAUDE.md 토큰 효율 규칙에 이 섹션을 **경영·교육 섹션보다 먼저 확인**하도록 추가.
+- 기존 "AI 교육 트렌드" 섹션 머리에 참고 ③ 경고 블록 추가.
