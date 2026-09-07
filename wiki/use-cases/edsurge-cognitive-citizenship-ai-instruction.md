@@ -13,7 +13,6 @@ maturity: production
 evidence: anecdotal
 importance: high
 uses: [course]
-programs: [AI Mini Camp, AI Camp, SKADA]
 source: https://edsurge.com/news/protecting-the-student-mind-in-the-age-of-ai
 ---
 

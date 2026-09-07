@@ -1796,3 +1796,28 @@ Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모)
 - 부록 표를 5열(위키 페이지 / 출처 유형 / **실증 데이터** / 원문 / 무료 대체)로 재구성, "출처 유형 읽는 법" 표 추가.
 - **미결**: use-case frontmatter의 `evidence: measured|claimed|anecdotal` 필드는 아직 구 체계다
   (약 90개 페이지 + case-catalog 영향). 사용자 확인 후 일괄 전환 여부 결정.
+
+## [2026-09-07] output | Insight 주제 범위 3단 구분 신설 + 9월호 재작성 (사용자 지정)
+
+- 사용자 지적: 학교·대학의 평가 전환(Brown 96→49, Turnitin, AI 저항형 과제)은 "AI로 인한 전통적
+  교육의 변화"에 해당하며, **우리 조직(AI 활용 스킬·업무 적용·기업 활용 역량 육성)의 주 관심사가
+  아니라 참고 정보 수준**이다.
+- **CLAUDE.md에 "Insight 리포트의 주제 범위" 규칙 신설** (가장 중요한 편집 기준):
+  - 핵심 ① 육성 대상 역량(AI 활용 스킬·업무 자동화/에이전트 구축·기업의 도입/권한·책임/성과) → 1부·3부 본체
+  - 핵심 ② 역량육성 방법론(프로그램 설계·운영 방식) → 3부에 포함하되 "우리가 운영하는 법"임을 명시
+  - 참고 ③ 전통적 교육의 변화(학교 정책·학업 진실성·평가·edtech 시장) → **본체 금지**, 말미 참고 섹션에만
+  - 운영 규칙: ③ 페이지에는 `programs:`를 붙이지 않는다 (3부 후보 필터가 곧 차단막이 된다)
+- `programs:` 제거 2건: edsurge-cognitive-citizenship-ai-instruction,
+  edsurge-cheat-vulnerability-index-ai-resistant-assignments (③ 해당).
+- **9월호 재작성**: 구 T3(평가의 전환)를 참고 섹션으로 내리고, 그 자리에 신규
+  **T3 "에이전트 확산의 병목은 능력이 아니라 권한·책임 설계"** — BCG 조달 조사(장벽 신뢰 71·보안 66·
+  규제 57·책임 53 vs 레거시 47~50, 성공기업은 노력의 70%를 조직 재설계에 투입), BCG·보스턴대 직원
+  프레이밍 18%↓, Mollick twilight factory 4트리거(승인·전문성·다양성·흥미, HF 에이전트 700개 사건),
+  Anthropic 멀티에이전트 17~36%.
+- 3부 재구성: A1 디렉팅 3축+책임귀속 / **A2 4트리거를 권한·승인 맵 표준 양식으로(신규)** / A3 분업·판단
+  이분법 / **A4 봇시팅 시간 + BCG 조직장벽 7항목 자가진단(통합·확장)** / A5 액션러닝(②로 명시) /
+  A6 짧게(비용·고객접점·**벤더 락인 신규**). 구 A4(평가 설계)는 참고 섹션 말미 한 줄로 축소.
+- 2부에 "커리큘럼 무게중심을 WRK에서 AGT로" 항목 신설. 판단 요청 ②를 "4트리거를 Essence for PO
+  권한·승인 맵 표준으로 채택할지"로 교체.
+- 신규 인용 페이지 3건 편입: agentic-ai-procurement-organizational-barriers,
+  twilight-factory-agent-human-involvement, ai-platforming-unfinished-foundation.
