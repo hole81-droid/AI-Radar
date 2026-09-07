@@ -126,6 +126,8 @@ uses: [course, ax]
 - [[edsurge-cognitive-citizenship-ai-instruction]] — 교사 주도 수업 절차 설계(prd-driven 근사치)로 손글씨 주석·무기술 토론·AI 대조·사전 논거 방어·의도적 고전 5단계를 활용해 AI 시대 읽기·사고 수업을 수행 → "인지 시민성" 프레임 정식화, 근거로 Brown대 테이크홈 96%→감독형 49% 인용 (일화, 적용 성과는 미실측)
 - [[edsurge-school-ai-policy-future-ready-team]] — 범부서 "Future Ready Team"(2년 임기)과 TeachAI·UNESCO 공개 프레임워크 각색(prd-driven 근사치)을 활용해 학교 단위 AI 정책·교직원 연수·가정 참여를 수행 → 교사 역할이 단속에서 안내로 전환, 교실별 "신호등" 3단계 사용 표시 (일화, 정량 미확인)
 - [[edsurge-ai-esl-english-learners]] — SchoolAI 등 교실용 AI(skills 근사치)로 이중언어 분해·즉시 어휘 설명·오답 2회 후 지원 강화·가정 야간 질문을 활용해 영어학습자 수업을 수행 → 4개 학교 적용 중, 정량 성과 데이터 전무 (일화)
+- [[edsurge-complex-text-scaffolding-vs-leveling]] — 텍스트 레벨링 AI(Diffit 등)로 원문을 낮추는 대신 같은 AI로 걸림돌 구절 식별·구문 분절·사고구술 대본·어휘 세트 5종 스캐폴딩을 활용해 복잡한 원문 읽기 수업을 수행 → 난독증·ADHD 8학년생이 일반학급 토론에 복귀, 레벨링 시엔 흥미·기억 모두 실패 (일화, 정량 미확인)
+- [[edsurge-problem-of-practice-ai-teacher-pd]] — NAU·ISTE GenerationAI 연수(prd-driven 근사치)로 "실무 문제 정의 → 필요한 AI만 학습 → 교실 투입 → 효과 데이터 수집" 4단계 액션러닝을 활용해 교사 AI 연수 프로그램을 수행 → 농촌 3개 학교구 2.5개월 무료 과정, 교사 제작 챗봇·즉시 피드백 루프 산출 (일화, 효과 측정치 미공개)
 
 ---
 *2026-07-16 추가: [[solidifier-claude-code-skill]](신규, 36건). [[wiki-builder-claude-code-llm-wiki]]는

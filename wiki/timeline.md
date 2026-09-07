@@ -99,6 +99,7 @@ date: 2026-07-07
 - **08-13** — Anthropic, 이스라엘 스타트업 Decart를 $6B에 인수 협상 중(사상 최대 인수) — 월드모델·칩 효율화 기술·영상합성 모델 Lucy 확보 목적 → [[2026-08-13-anthropic-decart-acquisition-talks]]
 - **08-13** — DeepSeek, 오픈소스 에이전트 하니스 "DeepSeek Harness v0.1" 개발자 프리뷰 공개(MIT 라이선스) — Claude Code 정면 경쟁, V4-Pro API 가격은 인상 → [[2026-08-13-deepseek-harness-launch]]
 - **08-13** — Google, 코딩 특화 Gemini 3.7 Flash 출시 — 플래그십 3.5 Pro는 여전히 지연 → [[2026-08-13-google-gemini-3-7-flash-launch]]
+- **08-13** — America's Youth AI Festival(보스턴)에서 학생 대표들이 K-12 AI 정책안 "STUDENTS First Act"를 상원 형식 토론·호명투표로 채택, AASA 회원 10,000개 학교구에 전달 (09-07 소급 반영) → [[2026-08-13-americas-youth-ai-festival-students-first-act]]
 - **08-06** — Google, 2026-09-04부터 Android·Wear OS 기본 음성비서를 Gemini로 전면 교체 확정(되돌리기 불가) → [[2026-08-06-google-gemini-replaces-assistant-android]]
 - **08-12** — Claude in Chrome 사이드패널이 별도 선택 없이 정식 Claude Cowork 세션으로 통합 → [[2026-08-12-claude-cowork-chrome-integration]]
 - **08-12** — xAI, Grok 4.6 출시(Grok 4.5 이후 35일 만) — 가격 동일 유지, Artificial Analysis Intelligence Index 54→61로 GPT-5.6 Sol Max와 동급 → [[2026-08-12-xai-grok-4-6-launch]]

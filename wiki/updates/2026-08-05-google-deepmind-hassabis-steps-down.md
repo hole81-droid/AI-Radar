@@ -44,9 +44,30 @@ source: https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-a
 - **강의**: "프론티어 AI 랩의 창업 과학자 vs 기업 경영자" 갈등 사례로, OpenAI·Anthropic의
   창업자 체제와 대비해 설명할 수 있는 소재.
 
+## 후속 — "인재 위기가 아니라 자본 배분 전환" (Exponential View, 2026-08-15)
+
+Azeem Azhar가 이 사태를 **인재 유출 서사로 읽지 말라**고 반론했다
+([Exponential View, 2026-08-15](https://www.exponentialview.co/p/google-deepmind-exodus-ai-cycle),
+좋아요 131로 해당 창 안 최고 참여도).
+
+- Jeff Dean·Sanjay Ghemawat의 퇴사는 개인의 이탈이 아니라 **자본 배분 구조의 전환**을
+  드러낸 사건이라는 해석이다.
+- 논지: **모든 TPU가 "당장 수익이 나는 모델"에 배정되면서, 개방형·탐색적 연구가
+  내부 투자 허들을 넘지 못하게 됐다.** 연구자가 떠나는 이유는 대우가 아니라
+  **실험에 쓸 컴퓨트를 배정받지 못하기 때문**이라는 것.
+- 시장 반응: Alphabet 주가 **약 4% 하락**.
+
+> **AX 시사점**: 벤더 리스크 평가에서 "핵심 인력 이탈"보다 **"그 조직이 컴퓨트를 어디에
+> 배분하는가"**가 선행 지표일 수 있다는 관점이다. 같은 압력의 거시 버전은
+> [[ai-capex-productivity-gap]]에, 자본 사이클 판정 지표는 [[ai-bubble-five-gauges]]에 있다.
+>
+> (2026-09-03 백필에서 정독까지 마쳤으나 주제 중복으로 페이지 슬롯에서 잘렸던 항목을,
+> 2026-09-07 2차 패스에서 신규 페이지 대신 이 페이지의 후속 절로 통합했다.)
+
 ## 출처
 
 - [Semafor — Demis Hassabis was shifting away from DeepMind CEO duties for a year](https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-away-from-deepmind-ceo-duties-for-a-year)
+- [Exponential View — The market misread Google's AI exodus (2026-08-15)](https://www.exponentialview.co/p/google-deepmind-exodus-ai-cycle)
 - [Fortune — Demis Hassabis steps down from Google DeepMind CEO role amid a major AI leadership shake-up](https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/)
 - [TIME — Inside Google DeepMind's Reshuffle After CEO Demis Hassabis Steps Aside](https://time.com/article/2026/08/06/google-deepmind-ai-demis-hassabis/)
 - [Hacker News 토론](https://news.ycombinator.com/item?id=49184755)

@@ -1454,3 +1454,179 @@ www로 교체하고 접근 방법·간격 조건·RSS 캐시 기록을 갱신했
 수동 심사 대기열로 바뀐 것이 실질 장벽. **단, Reddit 공식 문서가 WebFetch 403·도메인 거부로
 1차 대조 불가**해 2차 매체 다수의 일치 보도에만 근거함 — 실제 신청 전 공식 페이지 직접 확인
 권장. 어차피 RSS로 해결됐으므로 API 신청은 당분간 불필요.
+
+## [2026-09-07] ingest | 경영·교육 백필 2차 패스 (1차 잔여 목록 소화) | 반영 10건
+
+2026-09-03 1차 패스가 **WebFetch 예산(25회)·페이지 한도(12건)로 잘라 남긴 목록**을 이어받아
+소화한 2차 캐치업 패스(신규 스캔 아님). 예산: WebFetch 28회 한도 중 **10회 소비**,
+페이지 12건 한도 중 **10건 생성**.
+
+### 이번 패스의 최대 발견 — EdSurge RSS가 전문(全文)을 무료로 준다
+
+`https://www.edsurge.com/articles_rss`는 요약이 아니라 **`<content:encoded>`에 기사 전문**을
+담아 보낸다(50건 롤링, 450KB). 즉 **EdSurge 정독에는 WebFetch가 한 번도 필요 없다.**
+1차 패스가 EdSurge 5건을 읽는 데 WebFetch를 썼던 것은 불필요한 지출이었다.
+이번 패스는 **EdSurge 12건을 WebFetch 0회로 정독**했고, 아낀 예산을 전부 HBR 우회에 썼다.
+sources.md 교육 섹션에 상설 기록했다. (기사 상세 페이지도 `curl -A "Mozilla/5.0"`로
+직접 열린다 — RSS 창을 벗어난 옛 기사는 이 경로를 쓸 것.)
+
+### 소스별 검토/채택
+
+| 소스 | 검토(정독) | 채택 | 탈락 사유 |
+|---|---|---|---|
+| EdSurge | **12** (WebFetch 0회) | **6** | ① 1건, ② 2건, ③ 4건(팟캐스트 예고편) |
+| HBR | 5 (WebSearch 4 + WebFetch 5) | **2** | ③ 3건(페이월·우회 실패) |
+| Exponential View | 2 | **1** | ③ 1건(페이월) |
+| One Useful Thing | 1 | **1** | — |
+| **합계** | **20** | **10** | 수확률 **50%** (1차 패스 61%) |
+
+### HBR 페이월 우회 — 5건 시도, **2건 성공 (40%)**
+
+이번 패스의 핵심 관전 포인트였다. 결과를 정직하게 기록한다.
+
+**성공 2건**
+- **"Research: Why You Shouldn't Treat AI Agents Like Employees"** — 1차 패스 목록엔 08-29로
+  적혀 있었으나 **실제 게재일은 2026-05-06**(HN에서 날짜를 잘못 읽은 것). BCG Henderson
+  Institute 연구여서 **BCG 공식 뉴스 페이지에 핵심 수치가 전량 공개**돼 있었다 →
+  관리자 1,200명+, 오류 발견 18%↓, 개인 책임 9%p↓, AI 귀속 8%p↑. `bcghendersoninstitute.com`
+  경로는 **301로 HBR 페이월에 되돌려 보내므로** `bcg.com/news/...`를 직접 쳐야 한다.
+- **"AI Is Revolutionizing Strategic Decision-Making"**(HBR 9·10월호, Felipe Csaszar) —
+  **저자 개인 사이트 `csaszar.info`에 판본이 올라와 있었다.** 프레임워크 전문 확보.
+  단 정량 데이터는 원문 자체에 없어 페이지에 명시했다.
+
+**실패 3건**
+- "4 Steps to Transform the Middle Office with AI"(08-20) — 재게시 사이트 2곳(srmarketing.org,
+  160organisation.com)이 전부 **제목+리드만 싣고 HBR로 링크**. 4단계 개요는 HBR 공식 X 게시물
+  스니펫으로 파악됐으나 페이지화할 만큼은 아님 → ③
+- "AI and IT Teams Often Clash"(07-31, Kenny·Oosthuizen·Pogrebna) — 3개사 사례가 있다고
+  알려졌으나 회사명·내용을 공개 경로에서 확인 못 함. 유사 제목 Substack 1건 확인했으나 무관 → ③
+- "Embrace AI Without Damaging Trust: Lessons from the FT"(07-29) — **기사가 아니라
+  HBR Executive Masterclass 영상**(Sandra Sucher)이라 텍스트 우회 경로 자체가 없음 → ③
+
+**우회 성공/실패를 가르는 패턴이 드러났다**: 성공한 2건은 모두 **HBR 밖에 원저자·원기관이
+따로 있는 글**(BCG 연구 / 교수 개인 연구)이었고, 실패한 3건은 **HBR이 직접 기획·소유한
+콘텐츠**(에디토리얼 4단계 가이드, HBR 인터뷰 기사, HBR 영상)였다. 앞으로 HBR 우회는
+**"저자에게 기관·개인 채널이 있는가"를 먼저 보고** 시도 여부를 정하면 헛품을 줄일 수 있다.
+sources.md에 이 판별 기준을 추가했다.
+
+### 신규 페이지 10건
+
+**개념 7건**
+- [[k12-ai-policy-continuum-five-levels]] — EdSurge(07-13). 38개 주 **122개 학교구 공개
+  정책문서 실측**, 5단계 연속체. Level 3 "교사 재량" **44.3%**, 제한·금지 25%,
+  주 가이던스 참조 **15.6%**, 문서의 **65%가 학생 대상**·교직원 중심은 단 1곳.
+  반전 발견 — 실제 사고는 **교직원 오용**(저작권 커리큘럼 PDF 업로드, IEP 비식별화 누락).
+  **기업 사내 AI 규정 성숙도 모델로 그대로 이식된다.**
+- [[school-ai-total-cost-infrastructure]] — EdSurge(06-10). 1차 패스가 팟캐스트 예고편만 보고
+  놓친 원문을 **curl로 직접 열어 확보**. 추론 비용은 **규모의 경제가 역전**된다(라이선스형과
+  반대), 프라이버시 통제권↑ = 비용↑, 미 데이터센터 2023년 **176TWh(전력의 4.4%)**.
+- [[edsurge-middle-school-reading-comprehension-wall]] — EdSurge(08-28). **AI 도구 도입 심사 7문**이
+  핵심 자산. 09-01에 "모호하다"고 탈락시킨 건인데, 그 판단(정량 근거 빈약)은 **여전히 유효함을
+  페이지 본문에 명시**하고 채택했다 — 두 번째 수치는 도구명·학군명·성장폭이 전부 없어
+  `claimed`로만 인용 가능.
+- [[ai-agents-are-not-employees]] — HBR·BCG(05-06). 관리자 1,200명+ 실험. **의인화는 대가만
+  치르고 도입률은 못 올린다.** 이 위키의 기존 다중에이전트 사례들과 충돌하지 않도록
+  **"프롬프트 내 역할 부여 ≠ 거버넌스상 직원 취급"** 구분을 상충 블록으로 명시.
+- [[ai-strategic-decision-making-csaszar]] — HBR 9·10월호. 탐색·표상·집계 3과업 + 경영진
+  플레이북 4. **정량 데이터가 원문에 없음을 별도 절로 명시.** ③집계(생성·비판·방어 역할 분리)가
+  [[multi-agent-hidden-profile-problem]]과 표면상 충돌해 구분선을 페이지에 적었다 —
+  "합의를 만들면 실패, 불일치 자체를 산출물로 쓰면 유효".
+- [[twilight-factory-agent-human-involvement]] — One Useful Thing(08-31). **09-01·09-03에
+  두 번 탈락시킨 글**(1차: "보안 회고", 2차: 자기평균 미달 886<1,137). 재정독 결과 본론이
+  **에이전트 권한 설계 프레임워크**(승인·전문성·다양성·흥미 4트리거)였다. 참여도를 관문이
+  아니라 우선순위로만 쓰기로 한 09-03 개정이 실제로 건진 사례.
+- [[open-model-finetuning-economics]] — Exponential View #599(08-30, 자기평균 미달 60<85.3).
+  Bridgewater+Thinking Machines Qwen 파인튜닝 **오류 30%↓·비용 1/14**,
+  Jalapeño 칩 **W당 토큰 1.5~1.9배**, Vercel 오픈웨이트 점유율 **2개월 만에 28%→62%**.
+
+**적용 사례 2건 (domain: education)**
+- [[edsurge-complex-text-scaffolding-vs-leveling]] — EdSurge(07-22). **AI 오용 안티패턴의
+  교과서적 사례**: 같은 도구(Diffit)가 레벨링에 쓰이면 실패, 스캐폴딩에 쓰이면 성공.
+  대안 5처방(걸림돌 구절 식별·구문 분절·유창성 구절 선별·사고구술 대본·어휘 세트).
+- [[edsurge-problem-of-practice-ai-teacher-pd]] — EdSurge 2건(07-10 + 09-02)을 **한 페이지로
+  통합**(NAU 농촌 3개 학교구 + ISTE GenerationAI가 동일 설계 원리를 씀 — 얇은 페이지 2개보다
+  대조 1개가 낫다는 판단). 4단계 액션러닝 + **5인 고정 구성(의사결정권자 포함)**.
+
+**업데이트 1건**
+- [[2026-08-13-americas-youth-ai-festival-students-first-act]] — 학생이 직접 쓴 K-12 AI 정책안.
+  9학년 이전 독립 사용 금지·K-5 리터러시 시작·글쓰기/예술 과제 생성 금지·
+  **AI 탐지기 단독 의존 금지 + 사람 검토·이의제기 보장**. 같은 축제의 "Me, Myself, and AI"
+  미술전(08-27)을 별도 페이지 대신 **이 페이지의 하위 절로 통합**.
+
+### 기존 페이지 갱신 1건 (신규 대신 통합 — 중복 회피)
+
+- [[2026-08-05-google-deepmind-hassabis-steps-down]] — 1차 패스가 정독까지 마쳤으나 주제
+  중복으로 슬롯 컷했던 **EV "The market misread Google's AI exodus"(08-15, 좋아요 131)**를
+  "후속 — 인재 위기가 아니라 자본 배분 전환" 절로 통합. Jeff Dean·Ghemawat 퇴사를
+  **"모든 TPU가 당장 수익 나는 모델에 배정돼 개방형 연구가 투자 허들을 못 넘는 구조 전환"**으로
+  읽는 해석 + Alphabet 4% 하락.
+
+### 갱신
+
+[[index]](개념 7건·업데이트 1건 추가, 적용사례 줄에 2건 추가, 카탈로그 88→90건,
+경영/교육 섹션에 09-07 요약 각주) · [[case-catalog]](교육 4→6건) ·
+[[timeline]](08-13 STUDENTS First Act) · sources.md(EdSurge RSS 전문 제공 발견,
+EdSurge 기사 curl 직접 접근, HBR 우회 판별 기준 신설).
+raw/2026-09/에 원본 11건 신규 저장.
+
+### 1차 패스 목록 소화 현황
+
+**소화 완료**
+- EdSurge 미정독 9건 → **전부 정독.** 채택 5건(vulnerability=PD통합, K-12 silo 탈락,
+  students policy, level-down, middle school reading, student artists=축제페이지 통합),
+  탈락 4건은 전부 팟캐스트 예고편(what-happens-when-ai-policy / what-should-students /
+  what-does-ai-cost / assignments-invoices)
+- EdSurge "Can Schools Afford an AI-First Future?" → **채택** (curl 직접 접근)
+- HBR "Research: Why You Shouldn't Treat AI Agents Like Employees" → **채택**(우회 성공)
+- HBR "AI Is Revolutionizing Strategic Decision-Making" → **채택**(우회 성공)
+- Exponential View "Unbounded self-improvement #599" → **채택**
+- Exponential View "The market misread Google's AI exodus" → **기존 페이지에 통합**
+- One Useful Thing "Agency and Agents" → **채택**
+
+**탈락 확정 (재시도 불필요)**
+- HBR "4 Steps to Transform the Middle Office with AI"(08-20) — ③ 재게시본도 전부 리드만
+- HBR "AI and IT Teams Often Clash"(07-31) — ③ 3개사 사례 확인 불가
+- HBR "Is the European Market Ready for AC? Inside Midea's Blue Ocean Strategy"(09-02) —
+  **① AI 무관.** 제목·리드 어디에도 AI가 없는 에어컨 시장 진입 전략 사례라 정독 없이 판정
+- Exponential View "The problem with petards"(08-22) — ③ 페이월, 논지(AI 업계의 종말론적
+  메시징이 데이터센터 반대 여론으로 되돌아왔다)만 확인되고 수치 전무
+- EdSurge "The K-12 Silo Won't Survive AI"(08-12) — **① AI가 주제가 아님.** $150,000
+  Delaware Pathways 그랜트로 진로탐색·SEL 프로그램을 설계한 에세이이고 AI는 배경 동기일 뿐
+- EdSurge "Teachers Forge Ahead on Integrating AI"(08-04) — **② 완전 중복.**
+  [[2026-08-04-turnitin-learning-integrity-insights-q2-2026]]이 이미 이 기사를 출처로 삼아
+  48%/17%/16%·현장 인터뷰까지 전부 담고 있음(갱신조차 불필요)
+- EdSurge "Anthropic Introduces Claude for Teachers"(07-14) — **② 중복**,
+  [[2026-07-15-claude-for-teachers]] 기존 페이지
+
+**다음 패스로 넘기는 것**
+- **HBR 미정독 AI 항목 약 36건** — 이번에 5건을 더 소화해 41→36건. 위 "우회 판별 기준"
+  (저자에게 기관·개인 채널이 있는가)을 적용하면 실제 시도 가치가 있는 것은 소수다.
+  다음 후보: "Research: The Innovation Problems AI Can't Solve"(08-14)·"Research: How AI
+  Agents Broaden the Scope of Knowledge Work"(07-29)는 **이미 페이지화됨**. 남은 유망 후보는
+  "AI Transformation Requires Redesigning Work, Not Cutting Roles"(08-28),
+  "The Hidden Realities of AI Adoption"(07-30), "Strategy Making Gets an AI Boost"(08-18),
+  "Why Agentic AI Could Transform Procurement"(08-13),
+  "Design AI Systems That Actually Strengthen Human Reasoning"(07-20).
+  sponsored 6건은 계속 최하위.
+- **Exponential View 미정독 고참여 3건** — "Will Kimi K3 change the economics of AI?"
+  (07-23, 좋아요 128·댓글 21), "Copy that: The curious case of AI distillation #594"
+  (07-26, 104·8), "Agents form alliances, DeepMind's reset & how likely is a crash? #596"
+  (08-09, 100). 전부 only_paid라 페이월 확률 높음.
+- **EdSurge RSS 창 밖 항목** — RSS는 50건 롤링이라 06월 이전 기사는 빠져 있다. 필요하면
+  `curl -A "Mozilla/5.0" <기사 URL>`로 개별 접근할 것(페이월 없음이 재확인됨).
+- **McKinsey** — 이번 패스 대상 아님. WebFetch 60초 타임아웃 문제 그대로.
+- **Class Central** — Cloudflare 403 그대로. 재시도하지 말 것.
+
+### 정직성 요약
+
+**정독 20건 중 10건 채택(50%), 10건 미채택.** 미채택 내역은 ③ 본문 확인 실패 8건
+(HBR 페이월 3, EV 페이월 1, EdSurge 팟캐스트 예고편 4), ① AI 무관 2건
+(EdSurge K-12 Silo, HBR Midea — 후자는 정독 없이 제목 판정),
+② 위키 중복 2건(Teachers Forge Ahead, Claude for Teachers). ※①②③ 합이 검토 수를 넘는 것은
+Midea를 정독 없이 판정했기 때문(검토 20건은 정독 기준 집계).
+
+**억지로 채우지 않았다.** 페이지 한도 12건 중 10건만 썼고, 남은 후보를 억지로 올리지 않았다.
+확보 못 한 수치는 전부 "미확인"으로 남겼다 — 특히
+[[ai-strategic-decision-making-csaszar]]는 정량 데이터가 아예 없음을,
+[[edsurge-middle-school-reading-comprehension-wall]]은 두 번째 수치가 도구명·학군명·성장폭
+모두 결측임을 각각 별도 절로 명시했다.
