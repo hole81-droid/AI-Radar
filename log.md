@@ -1769,3 +1769,12 @@ Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모)
 - **outputs/insight-report/2026-09.md** 창간호: 1쪽 요약(헤드라인 3 + 판단 요청 2) / 1부 트렌드 3(디렉팅, AI직원 프레이밍·봇시팅·멀티에이전트, 평가 전환) / 2부 시사점 4 / 3부 적용 포인트 A1~A6(카탈로그 프로그램명·모듈 ID 명시) / 추적 / 부록(근거 17페이지·등급·미확인 목록). 아티팩트로도 발행.
 - **`programs:` 태그 1차 부여** 10페이지: directing-ai-agents-vs-prompting, ai-agents-are-not-employees, botsitting-hidden-ai-labor, multi-agent-hidden-profile-problem, ai-transformation-redesign-work-not-cutting-roles, edsurge-cognitive-citizenship-ai-instruction, edsurge-cheat-vulnerability-index-ai-resistant-assignments, edsurge-problem-of-practice-ai-teacher-pd, azhar-6-dollar-ai-research-agent, customer-resistance-to-ai.
 - 정직성: 리포트의 모든 수치에 실측/주장/일화 등급 표기. 위키가 미확인으로 남긴 것(HBR 본문 3건, Anthropic 실험 세부, EdSurge 정량 효과)은 리포트 부록에 미확인으로 명시.
+
+## [2026-09-07] output | Insight 2026-09 출처 링크 보강 (사용자 요청)
+
+- 사용자 요청: "상세 내용이 궁금한 경우 원문 또는 요약문(가능하면 한글) 링크를 제공".
+- 리포트(md·아티팩트) 전체에 3종 링크 체계 도입: **원문**(영문 1차 출처) / **무료**(페이월 우회 가능한 원 리포트·저자 발췌본·기관 요약) / **한글 요약**(`https://ai-radar-web-five.vercel.app/wiki/<경로>` — 웹앱은 공유 암호 필요).
+- 한글 1차 출처가 있는 항목은 별도 표기: AX LABS 하네스 가이드(loop-engineering), ZDNet·이투데이(SK·4대 그룹).
+- 부록 표를 5열(위키 페이지=한글 요약 / 유형 / 원문 / 무료 대체 / 등급)로 재구성, 17행 전부 클릭 가능.
+- 1부 T2에 McKinsey State of AI 2026 항목 추가(아티팩트에 누락돼 있던 것을 md와 일치시킴).
+- **웹앱 반영 확인**: `web/lib/content.generated.json`은 gitignore + prebuild 생성이므로, 이번 푸시 후 Vercel 재배포 시 `wiki/programs/`를 포함한 신규 페이지가 자동 반영된다.
