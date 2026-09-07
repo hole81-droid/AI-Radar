@@ -1285,3 +1285,144 @@ HBR은 **홈(`hbr.org/`)의 "Popular" 섹션에만** 존재하고 AI 토픽 페�
 (수치 있으면 use-case measured/claimed, 프레임만 있으면 anecdotal 또는 뉴스레터 한 줄).
 탈락 사유를 셋으로 명문화: AI 무관 / 위키 중복 / 본문 확인 실패. "수치 없음"·"화제성
 미확인"은 더 이상 탈락 사유가 아니다.
+
+## [2026-09-03] ingest | 경영·교육 새 기준 백필 (07-15~09-03) | 반영 11건
+
+2026-09-03 스크리닝 전면 개정(구체성 게이트 폐기 → 화제성 우선순위 + 구체성=기록방식)의
+첫 적용. **09-01 rule A·09-02 rule B로 버려졌던 항목을 새 기준으로 재평가**하는 1회성
+캐치업 패스(신규 스캔 아님). 예산: WebFetch 25회 한도 중 **18회 소비**, 페이지 12건
+한도 중 **11건 생성**.
+
+### 화제성 측정 (1단계) — 방법과 실측
+
+- **Substack 참여도를 curl로 무료 측정하는 경로를 새로 확보**:
+  `/api/v1/archive?sort=new&limit=40` JSON에서 `reactions["❤"]`·`comment_count`를 직접 읽음.
+  최근 23편 자기 평균 — Exponential View 85.3 / One Useful Thing 1,136.9 / normaltech.ai 205.7.
+  이 방법을 sources.md에 상설 등록했다(이후 매 스캔 재사용).
+- **HN Algolia 도메인 전수(07-15~09-04)**: hbr.org 최고 14점, classcentral.com 16점,
+  oneusefulthing.org 3점, **sloanreview.mit.edu·edsurge.com·exponentialview.co 0건**.
+  개정 규칙대로 HN 무신호를 탈락 근거로 쓰지 않았다. (부수 발견: `numericFilters`를
+  URL 인코딩하지 않으면 필터가 조용히 무시되고 **2025년 결과**가 반환된다 — 한 번 속았고
+  sources.md에 경고 기록.)
+
+### 소스별 검토/채택 (숫자는 창 07-15~09-03 기준)
+
+| 소스 | RSS 창 내 AI 항목 | 정독(WebFetch) | 채택 | 탈락 사유 |
+|---|---|---|---|---|
+| HBR | 47건 (sponsored 6 포함) | 3 | **1** | ③ 페이월 2건 |
+| MIT Sloan | 5건 | 4 | **3** | ① AI 무관 1건 |
+| EdSurge | 19건 | 5 | **4** (+기존 1건 갱신) | ② 중복 1건(→기존 페이지 갱신) |
+| Knowledge at Wharton | 1건 | 0 | 0 | ② 이미 페이지화됨 |
+| One Useful Thing | 2건 | 1 | **1** | — |
+| Exponential View | 12건(로드맵/데이터 정기물 제외) | 3 | **2** | 예산 컷 1건 |
+| AI as Normal Technology | 1건 | 0 | 0 | ② 이미 페이지화됨 |
+| McKinsey | (이번 패스 대상 아님) | 0 | 0 | — |
+| Class Central | 3건 | 1 | 0 | ③ Cloudflare 403 |
+
+### 새 기준 vs 옛 기준 (핵심 비교)
+
+| 소스 | 09-01 rule A | 09-02 rule B | **09-03 새 기준** |
+|---|---|---|---|
+| HBR | 41건 중 **0건** | 0건(우회로 2건 별도) | 47건 중 **1건** (botsitting) |
+| MIT Sloan | 20건 중 1건 | 0건 | **3건 추가** |
+| EdSurge | 35건 중 1건 | 0건 | **3건 추가 + 1건 기존 페이지 갱신** |
+| Wharton | 10건 중 0건 | 0건(09-02 스캔에서 별도 1건) | 0건 (더 없음이 실측 확인됨) |
+| One Useful Thing | 2건 중 0건 | — | **1건** |
+| Exponential View | 20건 중 1건 | 2건(재정독) | **2건 추가** |
+
+**옛 기준이 놓친 것의 정체 두 가지가 드러났다.**
+① **접근성 오판** — 09-01·09-02가 Sloan·EdSurge를 저정독한 것은 접근 문제가 아니라
+스크리닝 기준 문제였다. 두 아웃렛 모두 **페이월이 없고**, 이번에 읽은 9건 중 7건이
+곧바로 페이지가 됐다(수확률 78%). "정책·오피니언"으로 제목만 보고 일괄 탈락시킨 EdSurge
+항목 안에 재현 가능한 학교 정책 수립 절차와 수업 설계가 실제로 들어 있었다.
+② **페이월 조기 포기** — HBR botsitting은 본문이 막혔지만 WebSearch로 원 리포트
+(Glean "Work AI Index 2026")를 찾아 **핵심 수치를 전량 확보**했다. 09-02의 arXiv 우회와
+같은 패턴이므로, HBR은 "페이월 → 즉시 탈락"이 아니라 **원 연구를 한 번 찾아본 뒤** 판정하도록
+sources.md에 규칙화했다.
+
+반대로 **새 기준으로도 늘지 않은 곳**도 정직하게 기록한다 — Wharton은 창 안 AI 기사가
+실제로 1건뿐(이미 페이지화됨)이고, Class Central은 Cloudflare 403이 그대로다.
+기준 완화가 만능이 아니라 **소스별 병목이 서로 달랐다**는 것이 이번 패스의 결론이다.
+
+### 신규 페이지 11건
+
+**개념 7건**
+- [[which-ai-to-use-mollick-guide]] — Mollick "어떤 AI를 언제 쓰는가" 2026 여름판.
+  위험도·자율성 2축 판단 트리 + 클라우드형/데스크톱형 구분 + 안전 지침 3개.
+  (채택 근거: 좋아요 1,246 > 자기평균 1,137)
+- [[multi-agent-hidden-profile-problem]] — 에이전트 넷보다 하나. Anthropic hidden-profile
+  실험 다중 17~36% vs 단일 거의 100%, 30개 중 18개가 같은 브랜치명. 이 위키의 다중
+  에이전트 사례들과 상충하지 않도록 **"분업이면 다중, 판단이면 단일"** 구분을 명시.
+- [[customer-resistance-to-ai]] — MIT Sloan. 챗봇 제시 시 채택 10~20%p↓,
+  나쁜 소식 AI 78.6% vs 사람 60.4% / 좋은 소식 사람 89% vs AI 76%, 163개 연구·82,000명 메타분석.
+- [[ai-platforming-unfinished-foundation]] — MIT Sloan(Boudreau). Cursor $2B·Agentforce
+  $1.2B ARR·24억 MAU에도 기술·산업·제도 3층 아키텍처 미완, "약속보다 학습을 빨리".
+- [[exploration-algorithms-for-breakthrough-ideas]] — MIT Sloan. 표준 검색을 쓰면
+  전문가·초보자 차이가 사라짐(유의성 없음), 탐색형이면 창의성 +14%/+11%·군집 5개 vs 1~2개.
+- [[botsitting-hidden-ai-labor]] — HBR·Glean Work AI Index 2026. 주당 절감 11시간 중
+  **6.4시간을 AI 관리에 되돌려 씀**, 개인 체감 75% vs 조직 성과 체감 13%.
+  (벤더 리포트임을 본문에 명시, `claimed` 수준으로 인용 지시)
+- [[ai-bubble-five-gauges]] — Exponential View, **부분 공개**. 빨강 0·주황 2,
+  AI 매출 TTM $126B, 자금조달 질 2027년 빨강 전환 예상. 5개 중 2개 지표는 미확인으로 명시.
+
+**적용 사례 3건 (전부 domain: education)**
+- [[edsurge-cognitive-citizenship-ai-instruction]] — "인지 시민성" 5단계 수업 절차.
+  근거로 NAEP 8학년 읽기 30%, MS Research·CMU 연구, **Brown대 테이크홈 96%→감독형 49%** 인용.
+- [[edsurge-school-ai-policy-future-ready-team]] — 학교 AI 정책 3단계(담당자 선학습 →
+  2년 임기 범부서팀 + 공개 프레임워크 각색 → 교직원 연수 후 학생 개방), 교실별 "신호등" 표시.
+- [[edsurge-ai-esl-english-learners]] — SchoolAI 등으로 ESL 수업 지원. **정량 성과 전무**를
+  본문에 명시(오답 2회 후 지원 강화 스캐폴딩만 설계 자산으로 기록).
+
+**업데이트 1건**
+- [[2026-08-04-turnitin-learning-integrity-insights-q2-2026]] — 제출물 실측 기준
+  미국 고등교육 19%가 AI 생성 80% 초과(영·호주 10%, K-12 5~6%), 학교 AI 도입 주도 48%가
+  현업 교사, 초안 피드백 요청 43% 중 **72%가 루브릭 정합성**을 원함. 벤더 리포트 한계 명시.
+
+**기존 페이지 갱신 1건 (신규 페이지 아님 — 중복 회피)**
+- [[2026-08-18-openai-chatgpt-for-teens]] — EdSurge의 교장·학생 직접 리뷰(09-01)를
+  "후속 — 교육 현장 리뷰" 절로 추가. Study Hours 등 구체 기능 + 컨텍스트 유지 실패 한계.
+
+### 갱신
+
+[[index]](개념 7건·적용사례 3건·업데이트 1건 반영, 카탈로그 85→88건, 경영/교육 섹션에
+09-03 백필 요약 각주 추가) · [[case-catalog]](교육 섹션 1→4건) · [[timeline]](08-04 Turnitin) ·
+sources.md(경영 섹션에 09-03 실측 메모 신설 — Substack API 참여도 측정법·HN 인코딩 함정·
+HBR 페이월 우회 규칙·Sloan/EdSurge 정독 1순위 승격·HBR ns6 파싱법).
+raw/2026-09/에 원본 요약 12건 신규 저장(신규 페이지 11건 + ChatGPT for Teens 현장 리뷰 1건).
+
+### 예산 때문에 자른 후보 (다음 패스에서 이어서)
+
+- **Exponential View "The market misread Google's AI exodus"(08-15)** — 좋아요 131로
+  창 안 최고. 정독까지 마쳤으나 [[ai-capex-productivity-gap]]·
+  [[2026-08-05-google-deepmind-hassabis-steps-down]]과 주제가 겹쳐 페이지 슬롯에서 컷.
+  내용: Jeff Dean·Ghemawat 퇴사를 "인재 위기"가 아니라 **"모든 TPU가 당장 수익 나는
+  모델에 배정돼 개방형 연구가 허들을 못 넘는 자본 배분 전환"**으로 읽는 해석. Alphabet 4% 하락.
+- **Exponential View "Unbounded self-improvement and its limits #599"(08-30, 좋아요 60)** — 미정독
+- **Exponential View "The problem with petards"(08-22, 좋아요 108·댓글 13)** — 미정독, 금융 성격
+- **One Useful Thing "Agency and Agents"(08-31, 좋아요 886 < 평균 1,137)** — 09-01에
+  "보안 인시던트 회고"로 탈락시킨 건. 새 기준으로는 재검토 대상이나 자기평균 미달이라 후순위.
+- **EdSurge 미정독 AI 항목 9건** — "How AI Taught Me to Embrace Vulnerability in the
+  Classroom"(09-02), "What Happens When AI Policy Meets a Real Classroom?"(08-05),
+  "The K-12 Silo Won't Survive AI"(08-12), "On AI Policy, Students Have Plenty to Say"(08-13),
+  "We Must Stop Using AI to 'Level-Down' Our Students"(07-22), "What Does AI Cost When We
+  Skip the Work?"(07-22), "Student Artists Wrestle with AI's Promise and Peril"(08-27),
+  "What Should Students Still Have to Do for Themselves?"(07-29),
+  "AI Can Help Middle School Reading"(08-28, 09-01에 모호하다고 탈락시킨 건)
+- **HBR 미정독 AI 항목 41건** — 페이월 확률이 높으나, 원 연구 우회가 통하는 "Research:"
+  접두 기사와 실명 기업 사례(예: "AI and IT Teams Often Clash"(07-31, 3개사),
+  "Is the European Market Ready for AC? Inside Midea's Blue Ocean Strategy"(09-02),
+  "4 Steps to Transform the Middle Office with AI"(08-20))는 시도해 볼 값이 있다.
+  HN에서 확인됐으나 RSS 롤링 창에 없던 2건도 미확인: "Research: Why You Shouldn't Treat
+  AI Agents Like Employees"(08-29), "AI Is Revolutionizing Strategic Decision-Making"(08-20).
+- **EdSurge "Assignments, Invoices, and the AI Fix"(08-19)** — 정독했으나 팟캐스트 예고편이라
+  실질 수치·사례가 전무(원문이 링크한 "Can Schools Afford an AI-First Future?"에 실제 데이터가
+  있음). 다음 패스에서 그 원문을 직접 볼 것.
+
+### 정직성 요약
+
+**정독 18건 중 11건 채택(61%), 7건 미채택.** 미채택 내역은 페이월 2건(HBR 08-19·09-01),
+Cloudflare 403 1건(Class Central), AI 무관 1건(Sloan "Spot New Tech Skills" — 가구 제조
+현장의 일반 기술 숙련 이야기), 위키 중복 1건(ChatGPT for Teens → 신규 대신 기존 페이지 갱신),
+실질 내용 없음 1건(EdSurge 팟캐스트 예고편), 주제 중복으로 슬롯 컷 1건(EV Google exodus).
+**억지로 채우지 않았고, 확보 못 한 수치는 전부 "미확인"으로 남겼다** — 특히
+[[ai-bubble-five-gauges]]는 5개 지표 중 2개를 확인 못 했음을 페이지 본문에 명시했다.

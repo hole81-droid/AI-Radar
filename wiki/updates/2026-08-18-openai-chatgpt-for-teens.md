@@ -40,6 +40,36 @@ ChatGPT의 연령 추정 시스템이 사용자를 미성년자로 판단하면 
 - **강의**: AI 리터러시 교육에서 "AI와 인간 관계의 경계"를 어떻게 제품 차원에서 설계하는지
   보여주는 최신 사례로 활용 가능.
 
+## 후속 — 교육 현장 리뷰 (2026-09-01, EdSurge / 2026-09-03 백필 반영)
+
+출시 2주 뒤 EdSurge가 **교장 1명과 학생 1명에게 직접 써보게 하고 평가를 받았다.**
+제품 발표가 아니라 현장 반응이라는 점에서 위 "왜 중요한가"의 실측 보완에 해당한다.
+
+확인된 기능(발표 시점 대비 구체화):
+- **Study Mode** — 유도 질문으로 단계별 안내
+- **숙제 리마인더** — 지름길을 타려는 시도를 감지해 Study Mode로 되돌림
+- **퀴즈·개념 시각화** — 연습 기회와 개념 명료화
+- **Study Hours** — 10대 본인 또는 보호자가 Study Mode가 기본 작동할 시간대를 지정
+
+**Laura Yeager**(오클라호마 Frederick School District 교장)
+- 유해 콘텐츠 회피와 비판적 사고 유도는 긍정 평가
+- 그러나 *"Nothing replaces the mental modeling of a skilled classroom teacher
+  delivering explicit instruction"* — 자기 교실에서는 쓰지 않겠다고 밝힘
+
+**Annie**(앨라배마 Auburn High School 11학년)
+- 격려하는 어조와 체계적 설명 방식, 특히 기초 학습에 유용하다고 평가
+- **한계**: 대화가 길어지면 **자신이 지정한 설명 형식을 잊어버린다** (컨텍스트 유지 실패)
+
+**두 리뷰어의 공통 결론**: 자원이 부족한 학생에게는 실질적 공백을 메워주지만
+교사 수업을 대체하지 못하며, **효과는 안전 기능보다 교사·학생이 어떻게 쓰느냐에
+훨씬 크게 좌우된다.**
+
+이 결론은 [[edsurge-cognitive-citizenship-ai-instruction]]의 "AI는 학생 사고 뒤에
+와야 한다"는 설계 원칙, [[edsurge-school-ai-policy-future-ready-team]]의
+"학생 접근 전 교직원 연수 선행"과 정확히 맞물린다.
+
+출처: [EdSurge — A Principal and a Student Reviewed the New ChatGPT for Teens](https://edsurge.com/news/a-principal-and-a-student-reviewed-the-new-chatgpt-for-teens-they-had-plenty-to-say) (2026-09-01)
+
 ## 출처
 
 - [OpenAI — Introducing ChatGPT for Teens](https://openai.com/index/chatgpt-for-teens/)

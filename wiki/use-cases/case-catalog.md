@@ -123,6 +123,9 @@ uses: [course, ax]
 ## 교육 (education)
 
 - [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] — 진단 웹앱 "Cheat Vulnerability Index"(skills 근사치)로 독창성·개인적 연결·목적 3원칙을 활용해 학생 과제를 AI 부정행위에 강하게 재설계 → 활용 교사들의 정성적 호평 (일화, 정량 미확인)
+- [[edsurge-cognitive-citizenship-ai-instruction]] — 교사 주도 수업 절차 설계(prd-driven 근사치)로 손글씨 주석·무기술 토론·AI 대조·사전 논거 방어·의도적 고전 5단계를 활용해 AI 시대 읽기·사고 수업을 수행 → "인지 시민성" 프레임 정식화, 근거로 Brown대 테이크홈 96%→감독형 49% 인용 (일화, 적용 성과는 미실측)
+- [[edsurge-school-ai-policy-future-ready-team]] — 범부서 "Future Ready Team"(2년 임기)과 TeachAI·UNESCO 공개 프레임워크 각색(prd-driven 근사치)을 활용해 학교 단위 AI 정책·교직원 연수·가정 참여를 수행 → 교사 역할이 단속에서 안내로 전환, 교실별 "신호등" 3단계 사용 표시 (일화, 정량 미확인)
+- [[edsurge-ai-esl-english-learners]] — SchoolAI 등 교실용 AI(skills 근사치)로 이중언어 분해·즉시 어휘 설명·오답 2회 후 지원 강화·가정 야간 질문을 활용해 영어학습자 수업을 수행 → 4개 학교 적용 중, 정량 성과 데이터 전무 (일화)
 
 ---
 *2026-07-16 추가: [[solidifier-claude-code-skill]](신규, 36건). [[wiki-builder-claude-code-llm-wiki]]는

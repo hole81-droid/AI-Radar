@@ -123,6 +123,8 @@
 - [[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]] — McKinsey 연례 서베이(응답자 1,719명), EBIT 기여 응답 37%·"AI 고성과 기업" 6%뿐·감원 예상 39%(전년 32%)·대기업 에이전트 스케일링 40%(전년 27%) (high)
 - [[2026-08-05-ai-snake-oil-agents-open-ended-research-limits]] — 프린스턴 Narayanan·Kapoor("AI Snake Oil"→"AI as Normal Technology" 개칭), shadow evaluation으로 AI 에이전트의 열린 결말형 연구논문 작성 실측 검증 → 2편 모두 게재 거부, 예산 50% 미만 소진 등 5대 결함 확인 (medium)
 - [[2026-07-28-coursera-learnvector-andrew-ng-investment]] — Coursera, 공동창업자 Andrew Ng의 신설 AI 학습기업 LearnVector에 $100M 전략투자(지분 1/3, 밸류에이션 약 $300M) (medium)
+- [[2026-08-04-turnitin-learning-integrity-insights-q2-2026]] — Turnitin 학습진실성 리포트 Q2 2026(제출물 실측), 미국 고등교육 제출물 19%가 AI 생성 80% 초과(영·호주 10%, K-12 5~6%)·학교 AI 도입 주도 48%가 현업 교사·초안 단계 피드백 요청 43% 중 72%가 루브릭 정합성 요구 (high)
+- **09-03 백필 (스크리닝 전면 개정 후 재수확, 07-15~09-03)**: 09-01 rule A(구체성 게이트)·09-02 rule B(HN `points>50`)로 버려졌던 항목을 **0단계 느슨한 관문 + 1단계 화제성 우선순위 + 2단계 구체성=기록방식** 새 규칙으로 재평가. 25건 정독 예산 중 18건 소비, **신규 11건 채택**(HBR 0→1, Sloan 1→4, EdSurge 1→4, One Useful Thing 0→1, Exponential View 2→2 추가). 상세는 [[log]] 2026-09-03 항목 참고.
 - **09-02 top-up (스크리닝 OR조건 rule B 도입 후 첫 패스 재점검)**: HBR 41건·EdSurge 19건·Wharton 10건·McKinsey 21건을 HN Algolia 주목도(`points>50`)·아웃렛 자체 인기목록으로 재확인했으나 임계값을 넘긴 항목 없음(HBR 최고 14점, McKinsey 최고 27점) — rule B 단독으로는 신규 페이지 없음. 대신 HBR 페이월 2건("Research:" 접두 2편)을 arXiv·Perplexity 자체 데이터로 우회 확인해 rule A(구체성)로 페이지화([[perplexity-comet-vs-search-knowledge-work-scope]]·[[ai-innovation-human-bottleneck-framework]]), Exponential View 재정독으로 [[ai-adoption-j-curve]]·[[loop-engineering]] 보강 추가. 상세는 [[log]] 2026-09-02 항목 참고.
 
 ### 오픈소스 생태계 도구 (백필 06-08~06-26)
@@ -153,6 +155,13 @@
 - [[directing-ai-agents-vs-prompting]] — "프롬프팅을 멈추고 지시하라"(MIT Sloan) — Context·Capabilities·Orientation 3축 구성 + 다중렌즈·침묵표면화·계층연결·분류스트레스테스트 4기법 (medium)
 - [[ai-innovation-human-bottleneck-framework]] — HBR·HBS 연구, AI가 혁신 병목을 자동으로 안 풀어준다 — 아이디어생성·심사·소비자인사이트·확산 4단계 병목 + H&M Group 필드실험 (medium)
 - [[ai-adoption-j-curve]] — "성공과 실패는 처음엔 똑같아 보인다"(Exponential View) — NYSE·Borders·GM·JPMorgan 사례로 본 AI 도입 초기 J커브 함정 (medium)
+- [[which-ai-to-use-mollick-guide]] — Ethan Mollick "어떤 AI를 언제 쓰는가" 2026 여름판 — 위험도·자율성 2축 판단 트리 + 클라우드형(Cowork·ChatGPT Work) vs 데스크톱형(Claude Code·Codex) + 안전 지침 3개 (high)
+- [[multi-agent-hidden-profile-problem]] — 에이전트 넷보다 하나가 낫다(Exponential View #598) — Anthropic hidden-profile 실험 다중 17~36% vs 단일 거의 100%, 30개 중 18개가 같은 브랜치명. **분업이면 다중, 판단이면 단일** (high)
+- [[customer-resistance-to-ai]] — 고객의 AI 거부 3가지(MIT Sloan) — 챗봇 제시 시 채택 10~20%p↓, 나쁜 소식은 AI가 유리(78.6% vs 60.4%)·좋은 소식은 사람이 유리(89% vs 76%), 163개 연구·82,000명 메타분석 2변수 모델 (high)
+- [[ai-platforming-unfinished-foundation]] — AI는 아직 플랫폼화되지 않았다(MIT Sloan, Boudreau) — Cursor $2B·Agentforce $1.2B ARR·전세계 24억 MAU에도 기술·산업·제도 3층 아키텍처 미완, "약속보다 학습을 빨리" (high)
+- [[exploration-algorithms-for-breakthrough-ideas]] — 탐색형 알고리즘(MIT Sloan) — 표준 검색을 쓰면 전문가·초보자 차이가 사라지고, 탐색형이면 창의성 +14%/+11%·아이디어 군집 5개 vs 1~2개 (medium)
+- [[botsitting-hidden-ai-labor]] — 봇시팅(HBR·Glean Work AI Index 2026) — 주당 절감 11시간 중 **6.4시간을 AI 관리에 되돌려 씀**, 개인 체감 75% vs 조직 성과 체감 13% (high)
+- [[ai-bubble-five-gauges]] — AI 버블 판정 5게이지(Exponential View, 부분 공개) — 빨강 0·주황 2, AI 매출 TTM $126B, 자금조달 질 2027년 빨강 전환 예상 (medium)
 
 ## 회사·인물 (wiki/players/)
 
@@ -162,7 +171,7 @@
 
 ## 적용 사례 (wiki/use-cases/) — 구조화 스키마 (A도구·B방식·C업무·D성과 + 벤치마크)
 
-- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 85건) — 케이스 질의는 여기부터
+- [[case-catalog]] — ★전체 케이스 공식 한 줄 카탈로그 (업무 영역별, 88건) — 케이스 질의는 여기부터
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%) · [[jangpm-web-crawler-claude-code-codex]] · [[perplexity-comet-vs-search-knowledge-work-scope]] (★실측 자율작업 48배·시간87%/비용94%↓) · [[theaxlabs-wikiskill-claude-code-memory-system]]
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]] · [[theaxlabs-claude-code-diagram-design-skill]]
 - 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[ben-ai-claude-record-a-skill-best-practices]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배) · [[theaxlabs-harness-r1-failure-driven-editing]] · [[asana-openai-codex-enzyme-migration]] (5년→2주·$6M→$12K, HN 회의론 병기) · [[latent-space-wayfinder-claude-code-skill]] · [[jakesaunders-self-hosted-agentic-software-factory]] · [[fabiensanglard-agent-md-persistent-style-guide]] · [[vercel-ai-sdk-software-factory]] (★실측 PR 25~35%·이슈 70~80% 자동화)
@@ -172,7 +181,7 @@
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일)
 - HR: [[jocoding-ax-series-pwc-samil]]
 - 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]]
-- 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]]
+- 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] · [[edsurge-cognitive-citizenship-ai-instruction]] (Brown대 테이크홈 96%→감독형 49%) · [[edsurge-school-ai-policy-future-ready-team]] (학교 AI 정책 3단계·신호등 체계) · [[edsurge-ai-esl-english-learners]] (ESL, 정량 성과 없음)
 
 ## 분석 (wiki/analysis/)
 

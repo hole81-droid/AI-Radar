@@ -134,6 +134,40 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
   확인, 2건(State of AI 2026, Reckitt RGMx) 이 방식으로 페이지화 성공. Class Central은
   WebFetch·curl 둘 다 Cloudflare 차단(403/"Attention Required") — 기사 상세는 WebSearch로
   2차 보도(공식 보도자료 등)를 찾아 우회.
+- **2026-09-03 백필 실측 메모 (개정 규칙 첫 적용 — 접근성·화제성 측정법)**:
+  - **Substack 참여도는 curl로 무료 측정 가능**(신규 발견, 이후 매 스캔 재사용할 것):
+    `https://www.<도메인>/api/v1/archive?sort=new&limit=40` → JSON 배열, 각 항목의
+    `reactions["❤"]`(좋아요)·`comment_count`·`post_date`를 그대로 읽을 수 있다.
+    **자기 평균과 비교**하는 1단계 화제성 신호로 이것이 가장 정확하다. 실측 평균(최근 23편):
+    Exponential View **85.3**, One Useful Thing **1,136.9**, AI as Normal Technology **205.7**.
+    절대값을 뉴스레터 간에 비교하면 안 되는 이유가 이 수치로 확인된다(13배 차이).
+  - **HN Algolia 도메인 쿼리는 반드시 URL 인코딩할 것** — `numericFilters=created_at_i>…`를
+    날것으로 쿼리스트링에 넣으면 필터가 무시되고 **엉뚱한 연도의 결과**가 조용히 반환된다
+    (2026-09-03에 실제로 2025년 결과를 받고 한 번 속았다). `curl -G --data-urlencode` 사용.
+    2026-07-15~09-04 창 실측 최고점: hbr.org **14점**, classcentral.com **16점**,
+    oneusefulthing.org **3점**, sloanreview.mit.edu·edsurge.com·exponentialview.co **0건**.
+    → **HN은 이 아웃렛들에서 사실상 무의미한 신호**임이 재확인됨.
+  - **HBR은 페이월이 구조적이다** — 09-03에 추가로 3건(AI Is Undermining Leaders' Judgment
+    08-19 / Middle Managers Will Make or Break AI Adoption 09-01 / How Much Time Do Your
+    Employees Spend Botsitting 08-05) 시도, **전부 도입부만 노출**. 다만 botsitting 건은
+    **WebSearch로 원 리포트(Glean "Work AI Index 2026")를 찾아 핵심 수치 전량 확보**에
+    성공했다. HBR 항목은 "페이월 → 즉시 탈락"이 아니라 **원 연구·원 리포트를 WebSearch로
+    한 번 찾아본 뒤** 탈락 판정할 것(09-02의 arXiv 우회와 같은 패턴).
+  - **MIT Sloan은 페이월이 없다**(09-03 실측 4건 전부 전문 확인). 09-01·09-02에 Sloan을
+    저정독한 것은 접근 문제가 아니라 스크리닝 기준 문제였다 — Sloan을 **정독 대상 1순위**로
+    올릴 것. 4건 중 3건이 곧바로 페이지가 됐다(수확률 75%).
+  - **EdSurge도 페이월이 없다**(09-03 실측 5건 전부 전문 확인, 수확률 4/5).
+    09-01에 "정책·일반 오피니언"으로 일괄 탈락시킨 항목들 안에 **재현 가능한 학교 정책
+    수립 절차·수업 설계**가 실제로 들어 있었다. 제목만으로 오피니언 판정하지 말 것.
+  - **Class Central은 여전히 Cloudflare 403**(WebFetch 재확인). 리스트형 기사
+    ("N Best … Courses for 2026")는 페이지화 가치가 낮으므로 우회 비용을 쓰지 말고,
+    분석형 기사(Coursera·Duolingo 실적 분석 등)일 때만 WebSearch 우회를 시도할 것.
+  - **Knowledge at Wharton은 RSS가 10건 롤링이고 AI 항목 밀도가 낮다** — 09-03 시점
+    창 안 AI 기사는 이미 페이지화된 1건뿐. 매 스캔 확인은 하되 **수확 기대치는 낮게** 잡을 것.
+  - **HBR RSS 파싱 참고**: `<ns6:entry>` 네임스페이스 Atom이라 일반 `<item>|<entry>` 정규식이
+    0건을 낸다. `<ns6:entry>…</ns6:entry>`로 직접 매칭하고 `<ns6:published>`에서 날짜를 뽑을 것.
+    2026-09-03 실측 100건 중 AI 관련 47건(07-20~09-04). 그중 **sponsored 6건**은
+    광고 콘텐츠이므로 정독 우선순위 최하위로 둘 것.
 
 ## AI 교육 트렌드 (2026-09-01 추가 — 사용자 지정)
 

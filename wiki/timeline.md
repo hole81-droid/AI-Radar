@@ -122,6 +122,7 @@ date: 2026-07-07
 - **08-05** — Anthropic, 7.5시간 장애("올해 164번째") — Mythos 5·Fable 5·Opus 5·Sonnet 5 영향 → [[anthropic]]
 - **08-05** — Anthropic, Claude Enterprise Inference hooks 베타 — 프롬프트·툴콜 인라인 DLP → [[claude-code]]
 - **08-04** — Anthropic, 첫 Chief Global Affairs Officer로 전 캘리포니아 대법관 Tino Cuéllar 영입 → [[2026-08-04-anthropic-tino-cuellar-global-affairs]]
+- **08-04** — Turnitin 학습진실성 리포트 Q2 2026 — 제출물 실측 기준 미국 고등교육의 19%가 AI 생성 80% 초과(영·호주 10%, K-12 5~6%), 학교 AI 도입 주도 48%가 현업 교사 → [[2026-08-04-turnitin-learning-integrity-insights-q2-2026]]
 - **08-03** — Alibaba Qwen3.8-Max(2.4T) 정식 공개, Claude Fable 5 대비 코딩·멀티모달 벤치마크 우위 자평 — 완전 오픈웨이트 공개 예고 → [[2026-07-19-alibaba-qwen-3-8-preview]]
 - **08-03** — AWS-Superblocks 바이브코딩 다년 제휴 — 엔터프라이즈 프라이빗 클라우드 내 바이브코딩 툴 내장 → [[citizen-development]]
 - **08-01** — OpenAI, 차기 모델 "Astra" 티저 — 10개 장기 미해결 수학·이론컴퓨터과학 난제를 증명하며 공개, 문제당 $2,000 미만 토큰 사용 주장 → [[2026-08-01-openai-astra-teaser-math-proofs]]
