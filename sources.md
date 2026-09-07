@@ -204,19 +204,33 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 
 ## 커뮤니티
 
-**접근 방법 (2026-07-07 검증됨)**: www.reddit.com은 curl 차단. **old.reddit.com RSS + 서술형 User-Agent**
-(`-A "ai-radar-wiki:v1.0 (personal knowledge base)"`)는 정상 동작. HN은 Algolia API 사용.
-뉴스레터의 "커뮤니티 화제" 섹션에 커뮤니티 원글 링크로 항목화한다 (미디어 기사로 대체 금지).
+> ⚠️ **2026-09-07 정정 — 도메인이 뒤바뀌었다.** 2026-07-07에는 "www는 차단, old가 정상"이었으나
+> **지금은 정반대다.** 08-20부터 13일간 "Reddit 전면 차단"으로 기록됐던 것은 실제로는
+> `old.reddit.com`만 막힌 것이었고, 스캔 에이전트가 계속 old만 재시도하다 "차단 확정"으로
+> 잘못 결론지은 것이다. **`www.reddit.com`으로 바꾸자 6개 서브 전부 정상 수신됐다.**
+> 앞으로 Reddit이 막힌 것처럼 보이면 **포기하기 전에 반대 도메인을 먼저 시험할 것.**
 
-| 소스 | 접근 URL | 비고 |
-|---|---|---|
-| r/ClaudeAI | https://old.reddit.com/r/ClaudeAI/top/.rss?t=day | Claude·Claude Code 활용, 에이전트 사례 多 |
-| r/ChatGPTCoding | https://old.reddit.com/r/ChatGPTCoding/top/.rss?t=day | Codex·코딩 에이전트 활용 |
-| r/AI_Agents | https://old.reddit.com/r/AI_Agents/top/.rss?t=day | 에이전트 구축 사례 (최우선 주제 직결) |
-| r/OpenAI | https://old.reddit.com/r/OpenAI/top/.rss?t=day | |
-| r/singularity | https://old.reddit.com/r/singularity/top/.rss?t=day | 업계 뉴스 속보 |
-| r/LocalLLaMA | https://old.reddit.com/r/LocalLLaMA/top/.rss?t=day | 오픈소스 동향 |
-| Hacker News | https://hn.algolia.com/api/v1/search?tags=front_page (또는 query=claude+agent 등 키워드 검색) | JSON API, 안정적 |
+**접근 방법 (2026-09-07 실측 검증)**: **`www.reddit.com` RSS + 서술형 User-Agent**
+(`-A "ai-radar-wiki:v1.0 (personal knowledge base)"`)를 쓴다. `old.reddit.com`은 HTTP 302
+로그인 리다이렉트(0바이트)로 막혔다. JSON 엔드포인트(`.json`)는 www·old 모두 403이니
+쓰지 말 것 — **RSS만 동작한다.**
+
+- **요청 간격 25초 이상 필수.** 연속 호출하면 HTTP 429가 난다. 실측: 3초 간격에서는 6개 중
+  5개가 429, 18초에서도 r/ClaudeAI가 429, **25초에서 전부 통과**. 429가 나면 40초 이상
+  두고 한 번 더 재시도하면 대체로 통과한다(r/singularity가 이 패턴).
+- 뉴스레터의 "커뮤니티 화제" 섹션에 커뮤니티 원글 링크로 항목화한다 (미디어 기사로 대체 금지).
+- 개별 게시물 본문·댓글이 필요하면 퍼머링크에 `.rss`를 붙여 curl로 받는다. WebFetch는
+  reddit 도메인을 거부하므로 시도하지 말 것(토큰 낭비).
+
+| 소스 | 접근 URL | 2026-09-07 실측 | 비고 |
+|---|---|---|---|
+| r/ClaudeAI | https://www.reddit.com/r/ClaudeAI/top/.rss?t=day | 200, 25건 | Claude·Claude Code 활용, 에이전트 사례 多 |
+| r/AI_Agents | https://www.reddit.com/r/AI_Agents/top/.rss?t=day | 200, 25건 | 에이전트 구축 사례 (업무 적용 Case 직결) |
+| r/LocalLLaMA | https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day | 200, 25건 | 오픈소스 동향 |
+| r/OpenAI | https://www.reddit.com/r/OpenAI/top/.rss?t=day | 200, 25건 | |
+| r/ChatGPTCoding | https://www.reddit.com/r/ChatGPTCoding/top/.rss?t=day | 200, 5건 | Codex·코딩 에이전트 — 원래 활동이 적은 서브 |
+| r/singularity | https://www.reddit.com/r/singularity/top/.rss?t=day | 429 → 재시도 필요 | 업계 뉴스 속보 |
+| Hacker News | https://hn.algolia.com/api/v1/search?tags=front_page (또는 query=claude+agent 등 키워드 검색) | 정상 | JSON API, 안정적. **`numericFilters`는 반드시 URL 인코딩할 것** — 인코딩 없이 넣으면 필터가 조용히 무시된다 |
 
 ## YouTube 채널
 
@@ -285,6 +299,8 @@ YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
 | (2026-09-01) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge는 재시도 생략, 계속 미해결로 간주). old.reddit.com RSS·Karpathy 개인 블로그(bearblog.dev)는 지시에 따라 이번에도 재시도 생략(12일 연속 확정 상태 유지). **장피엠 채널이 08-31 오픈소스 웹 크롤링 에이전트 영상("web-crawler", Claude Code·Codex·ChatGPT Work 겸용, GitHub MIT)을 올려 업무 적용 Case로 반영** — 영상 shortDescription을 curl+grep으로 직접 추출(WebFetch로는 YouTube 푸터만 반환돼 실패, 반드시 `grep -o '"shortDescription":"[^"]*"'` 방식 사용할 것). AX LABS 블로그는 08-31 "하네스 엔지니어링 6계층 가이드" 신규 게시(4일 정체 해소, 08-27→08-31) — 특정 도구 업무자동화가 아닌 방법론 프레임워크라 use-case 대신 [[loop-engineering]] 개념 페이지에 실전 프레임워크 절로 반영. Simon Willison RSS는 08-30 "Understanding ChatGPT Work"(Work Cloud/Work Local 구분 정리) 확인 — 기존 [[openai-chatgpt-work-launch]] use-case에 구조 정리 후속 절 추가. Latent Space·Addy Osmani·Lilian Weng은 각각 08-29·08-21·07-04에서 정체 지속. The Batch는 08-28에서 정체(신규 없음, 08-31 스캔과 동일 확인). HN Algolia 인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규 히트 없음. Karpathy GitHub 저장소(nn-zero-to-hero 등)는 커밋 갱신만 확인, 신규 저장소 없음. HN front_page(points>40)·키워드 검색(claude code·codex·AI agent·gemini, points>30, 48h)으로 스크리닝 — "Claude Code reduces it's weekly limit by 17%"(64점)를 WebSearch로 교차검증해 공식 X 공지·Bleeping Computer 등 확인 후 신규 페이지화. "Breaking Claude Code Opus 5 Auto Mode"(embracethered.com)가 325점으로 재부상했으나 08-27~08-29 스캔에서 이미 반영된 동일 기사의 재게시라 중복 미반영. WebSearch로 **Salesforce·Anthropic "Claudeforce" 파트너십(08-26 발표)이 08-27~08-31 5회 연속 스캔에서 누락**됐음을 뒤늦게 발견 — 신규 페이지화 후 [[anthropic]]·[[timeline]]에 소급 반영(2026-08-30 Cowork 브라우저 소급 사례와 같은 패턴, 공식 발표라도 RSS·1차 채널에 걸리지 않으면 누락될 수 있음을 재확인 — 향후 스캔에서 Anthropic/OpenAI/Google 공식 발표는 WebSearch로 한 번 더 교차확인 권장). YouTube 9채널 중 장피엠(위 Case)·조코딩(08-31 IT뉴스 주간요약, YouTube 픽 반영)만 신규 확인, 나머지 7채널은 기존 반영분과 중복이거나 주제 무관. 이번 스캔에서도 Bash `for` 루프가 권한 거부로 실패(패턴 지속) — 개별 curl 호출로 전량 대체. |
 
 | (2026-09-02) | 9채널 RSS 재확인, 신규 미해결 없음(AI Edge는 재시도 생략, 계속 미해결로 간주). old.reddit.com RSS·Karpathy 개인 블로그(bearblog.dev)는 지시에 따라 이번에도 재시도 생략(13일 연속 확정 상태 유지). **AX LABS 블로그가 08-31 정체를 깨고 09-01 신규 글 2건 게시**(WikiSkill 논문 리뷰 + Claude Code 메모리 시스템 적용 프롬프트) — 5단계 승인게이트 파이프라인으로 구체적이라 use-case 반영. Simon Willison RSS는 09-01 "Codex bundles LibreOffice"(HN 140점, Codex 데스크톱 앱이 1.7GB 풀 Python+Node+LibreOffice를 내장한다는 발견) 확인 — 개발자 트리비아 성격이 강해 페이지화·뉴스레터 모두 보류. Latent Space는 09-01 "PRs NOT Welcome"(Vercel AI SDK 등 오픈소스 프로젝트의 "소프트웨어 팩토리" 트렌드 조명) 확인, 1차 소스인 Vercel 공식 블로그(08-12)를 찾아 실측 수치(PR 25~35%·이슈 70~80% 자동화)까지 확보해 use-case 반영. Addy Osmani·Lilian Weng은 각각 08-21·07-04에서 정체 지속(장기 정체). HN Algolia 인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규 히트 없음(전부 기존 확인분 또는 2025년 이전 글). **HN front_page(points>40, 48h)에서 "Claude Fable 5.1 and Claude Mythos 5.1"이 737점으로 최상위 확인** — Anthropic 공식 발표 정독 후 신규 페이지화, 같은 날 WebSearch로 "Enterprise Frontier Safeguards"(데이터 보관 정책 변경) 및 "Anthropic 훈련·평가 일시중단"(07-30 사고 재발) 소식도 확인해 각각 관련 페이지에 통합. AI 경영·비즈니스 실증 섹션(HBR·Sloan·Wharton·McKinsey·One Useful Thing·Exponential View·AI Snake Oil)과 AI 교육 트렌드 섹션(EdSurge·Class Central)을 rule A/B 기준으로 스크리닝, Wharton "Can AI Productivity Grow Fast Enough to Justify Big Tech's Spending?"(09-01, 2.7배 생산성 기준선 — named professor·구체 수치로 rule A 충족)만 신규 페이지화, 나머지는 일반론이거나 이미 반영된 주제의 반복이라 제외(EdSurge "Principal reviewed ChatGPT for Teens"는 원문 URL 404로 확인 실패해 보류). 이번 스캔에서도 Bash `for` 루프가 매 시도 권한 거부로 실패(패턴 지속 재확인) — 개별 curl 호출로 전량 대체. |
+
+| (2026-09-07) | **Reddit 접근 복구 — 13일간의 "차단 확정"은 오진이었다.** 08-20부터 old.reddit.com이 302 로그인 리다이렉트를 반환하자 13일 연속 재시도 끝에 "봇 차단 확정, 커뮤니티는 HN 단독 운영"으로 결론냈으나, 2026-09-07 실측 결과 **`www.reddit.com`은 정상 동작**(6개 서브 전부 200, 각 25건). 2026-07-07 기록이 "www 차단·old 정상"이었기 때문에 그 전제를 의심하지 않고 old만 반복 재시도한 것이 원인. **교훈: 소스가 막혔다고 판단하기 전에 반대 도메인·대체 경로를 반드시 한 번 시험할 것.** 운영 조건은 요청 간격 25초 이상(3초→5/6 429, 18초→r/ClaudeAI 429, 25초→전부 통과), 429 시 40초 후 재시도. JSON 엔드포인트는 www·old 모두 403이라 RSS만 사용 가능. |
 
 ## LinkedIn (2026-08-17 사용자 지정 — 등록 계정 없음, 원칙적으로 스캔 대상에서 제외)
 
