@@ -1761,3 +1761,11 @@ Exponential View 페이월 편차 실측 메모, HF 사건 재탕 위험 메모)
 
 **1차 11건 + 2차 10건 + 3차 3건 = 총 24건**의 경영·교육 페이지를 세 번의 백필 패스로
 확보. 수확률 추이: 61% → 50% → (지정 40%/티아지 33%, 판별 후 시도 기준 60%).
+
+## [2026-09-07] output | 프로그램 카탈로그 반입 + 'AI 역량육성 Insight' 2026-09 창간호
+
+- **wiki/programs/ 신설** (`type: program`): mySUNI 내부 문서 2건 반입 — `2026-program-catalog`(기준일 07-16, 20개 프로그램)·`program-module-map`(v0.3, 08-31). 원본은 그대로 두고 frontmatter + "반입 메모"만 추가. 외부 참조(`course-modules.json` 모듈 ID 정의, `module-design-framework.md`, `program-page-template.md`, 기획서·교안)는 미반입 — 모듈 ID 인용 시 모듈 맵의 활동·산출물 설명을 병기하는 규칙으로 보완. `program-list.md`는 포인터 파일이라 반입 안 함.
+- **CLAUDE.md**: 디렉토리 구조에 `wiki/programs/`·`outputs/insight-report/` 추가, frontmatter `type: program` + 선택 필드 `programs:` 신설, programs/ 페이지 규칙·Insight 리포트 구조 규칙 추가. index.md에 "프로그램" 섹션.
+- **outputs/insight-report/2026-09.md** 창간호: 1쪽 요약(헤드라인 3 + 판단 요청 2) / 1부 트렌드 3(디렉팅, AI직원 프레이밍·봇시팅·멀티에이전트, 평가 전환) / 2부 시사점 4 / 3부 적용 포인트 A1~A6(카탈로그 프로그램명·모듈 ID 명시) / 추적 / 부록(근거 17페이지·등급·미확인 목록). 아티팩트로도 발행.
+- **`programs:` 태그 1차 부여** 10페이지: directing-ai-agents-vs-prompting, ai-agents-are-not-employees, botsitting-hidden-ai-labor, multi-agent-hidden-profile-problem, ai-transformation-redesign-work-not-cutting-roles, edsurge-cognitive-citizenship-ai-instruction, edsurge-cheat-vulnerability-index-ai-resistant-assignments, edsurge-problem-of-practice-ai-teacher-pd, azhar-6-dollar-ai-research-agent, customer-resistance-to-ai.
+- 정직성: 리포트의 모든 수치에 실측/주장/일화 등급 표기. 위키가 미확인으로 남긴 것(HBR 본문 3건, Anthropic 실험 세부, EdSurge 정량 효과)은 리포트 부록에 미확인으로 명시.

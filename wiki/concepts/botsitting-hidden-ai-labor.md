@@ -4,6 +4,7 @@ date: 2026-08-05
 tools: []
 importance: high
 uses: [ax, course]
+programs: [AI Camp, AI Project 실전코칭(PBL), AI일지]
 source: https://hbr.org/2026/08/how-much-time-do-your-employees-spend-botsitting
 ---
 

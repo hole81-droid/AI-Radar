@@ -13,6 +13,7 @@ maturity: production
 evidence: anecdotal
 importance: high
 uses: [course, ax]
+programs: [AI Leader Program (팀장), AI Camp]
 source: https://edsurge.com/news/in-rural-districts-ai-resources-for-educators-are-scarce
 ---
 

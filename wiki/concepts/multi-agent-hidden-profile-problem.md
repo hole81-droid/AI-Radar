@@ -4,6 +4,7 @@ date: 2026-08-23
 tools: []
 importance: high
 uses: [course, ax]
+programs: [AI Agent Service — Mastery Course, AI Camp, AI Agent Service — Essence for PO]
 source: https://www.exponentialview.co/p/why-one-ai-is-better-than-four-598
 ---
 

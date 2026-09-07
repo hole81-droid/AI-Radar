@@ -4,6 +4,7 @@ date: 2026-08-31
 tools: []
 importance: high
 uses: [ax, course]
+programs: [AI Agent Service — Essence for PO]
 source: https://sloanreview.mit.edu/article/three-things-to-know-about-customer-resistance-to-ai/
 ---
 

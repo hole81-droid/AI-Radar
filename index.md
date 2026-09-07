@@ -206,6 +206,12 @@
 - [[claude-enterprise-adoption-path]] — Claude 엔터프라이즈 도입 경로 — 데이터 정책·사내망 제약 옵션 (course, ax)
 - [[vendor-official-case-numbers]] — 벤더 공식 고객 사례 수치 모음(Rakuten·Mozilla 등, 1차 출처) (course, ax)
 
+## 프로그램 (wiki/programs/) — mySUNI AI 역량육성 내부 문서 반입, 사례→프로그램 매핑 기준
+
+- [[2026-program-catalog]] — 2026 AI역량육성 프로그램 카탈로그 (기준일 07-16, 20개 프로그램·대상·도구·권장 모듈)
+- [[program-module-map]] — 프로그램별 권장 학습 모듈 맵 v0.3 (기준일 08-31, 교안에서 확인한 핵심 활동·산출물)
+- outputs/insight-report/ — 'AI 역량육성 Insight' 월간 리포트 (최신: 2026-09)
+
 ## 기타
 
 - [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 08-31, 125건)

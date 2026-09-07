@@ -4,6 +4,7 @@ date: 2026-05-06
 tools: []
 importance: high
 uses: [ax, course]
+programs: [CEO/C-Level 과정, AI Leader Program (임원), AI Agent Service — Essence for PO]
 source: https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees
 ---
 

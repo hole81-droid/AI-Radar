@@ -13,6 +13,7 @@ maturity: production
 evidence: measured
 importance: medium
 uses: [ax, course]
+programs: [CEO/C-Level 과정, AI Leader Program (임원)]
 source: https://www.exponentialview.co/p/ev-597
 ---
 

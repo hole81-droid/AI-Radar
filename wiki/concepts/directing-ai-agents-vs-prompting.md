@@ -3,6 +3,7 @@ type: concept
 date: 2026-08-05
 importance: medium
 uses: [course, ax]
+programs: [AI Leader Program (임원), AI Leader Program (팀장), CEO/C-Level 과정]
 source: https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/
 ---
 

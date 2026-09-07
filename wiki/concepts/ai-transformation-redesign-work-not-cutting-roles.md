@@ -4,6 +4,7 @@ date: 2026-08-28
 tools: []
 importance: medium
 uses: [ax]
+programs: [CEO/C-Level 과정, AI Leader Program (임원)]
 source: https://hbr.org/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles
 ---
 

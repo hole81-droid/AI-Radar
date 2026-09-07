@@ -31,10 +31,12 @@ wiki/concepts/     개념 페이지 (mcp, agentic-coding …)
 wiki/players/      회사·인물 페이지
 wiki/use-cases/    AI 적용 사례
 wiki/analysis/     질의 결과 축적 (비교·분석)
+wiki/programs/     mySUNI AI 역량육성 프로그램 카탈로그·모듈 맵 (사례→프로그램 매핑 기준, 내부 문서 반입)
 wiki/timeline.md   업계 주요 이벤트 연대기
 newsletter/        데일리 뉴스레터: YYYY-MM-DD.md
 outputs/course/    학습과정 기획 산출물
 outputs/ax-strategy/ AX 전략 산출물
+outputs/insight-report/ 'AI 역량육성 Insight' 월간 리포트: YYYY-MM.md (담당 임원 대상)
 docs/              설계 문서
 ```
 
@@ -46,17 +48,38 @@ docs/              설계 문서
 
 ```yaml
 ---
-type: update | tool | concept | player | use-case | analysis
+type: update | tool | concept | player | use-case | analysis | program
 date: YYYY-MM-DD          # 생성일 아닌 사건·발표일
 tools: [claude-code]       # 관련 도구 (해당 시)
 importance: high | medium | low
 uses: [course, ax]         # 활용처 태그, 복수 가능, 해당 없으면 생략
+programs: [AI Camp]        # (선택) 적용 가능한 mySUNI 프로그램 — wiki/programs/ 카탈로그의 프로그램명 그대로
 source: <원문 URL>
 ---
 ```
 
 - `uses: course` — AI 학습과정 기획 소재로 가치 있음 (가르칠 만한 기능·활용법·개념)
 - `uses: ax` — 기업 AX 전략 근거로 가치 있음 (도입 사례, 시장 동향, 벤더 전략)
+- `programs:` — (2026-09-07 신설, 선택) 이 페이지의 내용을 적용할 만한 mySUNI 프로그램.
+  `wiki/programs/2026-program-catalog.md`의 프로그램명을 그대로 쓴다(예: `AI Leader Program (팀장)`,
+  `AI Agent Service — Mastery Course`). 월간 Insight 리포트 3부(프로그램 적용 포인트)의 후보를
+  이 필드로 필터링한다. 억지로 붙이지 않는다 — 적용 각도가 분명한 페이지에만.
+
+### programs/ 페이지 (내부 문서 반입)
+
+`type: program`. mySUNI AI 역량육성 컬리지의 프로그램 카탈로그·모듈 맵을 위키 공식 문서로
+반입한 것. **내용은 원본 그대로 두고 frontmatter와 "반입 메모" 인용 블록만 덧붙인다** — 위키가
+고쳐 쓰지 않는다(정본은 사용자 측 원본). 원본이 참조하는 외부 파일(`course-modules.json` 등
+모듈 ID 정의)은 미반입이므로, 위키에서 모듈 ID를 인용할 때는 ID와 모듈 맵의 활동·산출물 설명을
+병기한다. 갱신은 사용자가 새 버전을 제공할 때만 한다.
+
+### Insight 리포트 (outputs/insight-report/YYYY-MM.md)
+
+월 1회, AI 역량육성 컬리지 담당 임원 대상. 구조: **1쪽 요약**(헤드라인 3 + 판단 요청) →
+**1부 거시 트렌드**(3건) → **2부 우리 조직 시사점** → **3부 프로그램 적용 포인트**(3~5건,
+각 항목에 카탈로그의 프로그램명과 모듈 ID를 명시) → 부록(근거 페이지·근거 등급). 모든 수치에
+근거 등급(measured/claimed/anecdotal)을 붙이고, 위키 페이지가 "미확인"으로 남긴 것은 리포트에서도
+미확인으로 둔다. 인물 인용 규칙·용어 규칙(★최우선 금지)은 뉴스레터와 동일하게 적용.
 
 ### updates/ 페이지 (이 위키의 심장)
 
