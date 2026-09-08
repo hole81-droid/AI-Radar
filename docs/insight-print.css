@@ -1,0 +1,47 @@
+/* ═══ 인쇄판 (롱블랙 비율 유지, A4 축소) ═══ */
+@page{size:A4;margin:16mm 18mm 18mm 18mm}
+html{scroll-behavior:auto}
+body{font-size:10.5pt;line-height:1.85;letter-spacing:-.1px}
+.page{max-width:none;padding:0;margin:0}
+a{text-decoration:none;color:inherit}.src a{color:#5f5f5f}.src a.free{color:var(--red)}
+:root{--gap:16pt}
+h1{font-size:25pt;line-height:1.35}
+.mast{margin-bottom:14pt}
+.header-intro{margin-bottom:16pt}
+.header-intro p{font-size:9.5pt}
+.summary{margin:0;padding:12pt 18pt 8pt;break-after:page}
+.lead{font-size:16pt;line-height:1.55;margin-bottom:13pt}
+.hl{padding:8pt 0}
+.hl .fig{font-size:19pt;margin-bottom:4pt}
+.hl .figcap{font-size:7.5pt;margin-bottom:10pt}
+.fig-pair{margin-bottom:10pt}
+.fig-pair .fig{margin-bottom:4pt}
+.fig-pair .figcap{margin-bottom:0}
+.oneline{margin-top:12pt;padding-top:12pt}
+.ask-key{font-size:14pt;line-height:1.55}
+.ask{margin-top:14pt;padding-left:14pt;break-inside:avoid}
+.ask li{padding-left:30px;margin-bottom:12pt}
+.ask li::before{width:20px;height:20px;line-height:18px;font-size:10px;top:2px}
+.unfold{margin:6pt 0}
+.unfold-lab{font-family:var(--mono);font-size:8pt;letter-spacing:.12em;color:var(--faint);text-transform:uppercase;margin-bottom:5pt}
+.gloss .unfold-lab{display:none}
+section{margin-top:0;break-before:page}
+section#watch{break-before:auto;margin-top:20pt}
+.sec-head{padding-top:10pt;margin-bottom:8pt}.sec-head h2{font-size:18pt}
+.sec-lede{margin-bottom:14pt;font-size:9.6pt}
+h3{font-size:14pt;margin:20pt 0 12pt;break-after:avoid}
+.bluf{margin-bottom:14pt;padding-left:14pt;break-inside:avoid}
+.fold-body{padding:6pt 0 0 14pt}
+ul.ev>li{padding:11pt 0;font-size:9.6pt;line-height:1.75;break-inside:avoid}
+.src{font-size:8.3pt;line-height:1.6;margin-top:5pt}
+.pt{padding:14pt 0;break-inside:avoid}
+.apply{padding:16pt 0 0;break-inside:auto}.apply h3{break-after:avoid}
+.row{font-size:9.6pt;line-height:1.75;grid-template-columns:58px 1fr;margin-bottom:8pt;break-inside:avoid}
+.row.q .val{font-size:9.2pt}
+.aside-sec{break-before:page;margin:0;padding:16pt 18pt 14pt}
+.aside-sec .sec-head h2{font-size:16pt}
+table{font-size:8.4pt}td,th{padding:7pt 8pt 7pt 0}tr{break-inside:avoid}
+h4{margin:18pt 0 8pt}
+.howto{font-size:9pt;padding:12pt 14pt}
+ul.plain{font-size:9.6pt}ul.plain li{margin-bottom:7pt}
+.foot{margin-top:22pt;font-size:8.5pt}
