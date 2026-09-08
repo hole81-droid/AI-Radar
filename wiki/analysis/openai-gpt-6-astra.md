@@ -12,6 +12,9 @@ source: https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt
 > 2026-09-08 작성. 09-03 ~ 09-08 소급 스캔에서 나온 Astra 관련 항목을 한데 모으고,
 > 사양·가격·벤치마크는 별도 확인을 거쳐 보완했다. 8월 티저 단계는
 > [[2026-08-01-openai-astra-teaser-math-proofs]]에 따로 있다.
+>
+> 화면판(HTML): `outputs/openai-gpt-6-astra.html` ·
+> [아티팩트](https://claude.ai/code/artifact/edf08555-0ecd-4c2e-80d4-e99b3505af24)
 
 ## 한눈에
 
