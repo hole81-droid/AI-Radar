@@ -2106,3 +2106,7 @@ Executive Summary 박스, 숫자-라벨 2열 그리드, 인쇄 파이프라인�
 ## [2026-09-08] query | GPT-6 Astra 종합 정리
 
 사용자 요청으로 백필 3개 구간에 흩어진 Astra 항목을 wiki/analysis/openai-gpt-6-astra.md로 취합. 백필에 없던 사양·가격·벤치마크는 WebSearch + Codex 지식베이스·9to5Mac WebFetch로 보완(OpenAI 공식 페이지는 403으로 직접 확인 실패, 2차 매체 전달값임을 문서에 명시). **상충 발견**: 08-01 티저 때 "Astra는 GPT-6가 아니다"라던 입장이 09-03 출시에서 제품명 "GPT-6 Astra"·모델ID `gpt-6-astra`로 바뀜 → 문서에 ⚠️ 상충 블록으로 명시. 안전 등급(Critical)·Trusted Access·사고과정 관찰가능성 저하가 같은 주 Pachocki 에세이와 맞물리는 점을 연결. index.md 분석 섹션 등재.
+
+## [2026-09-08] query | GPT-6 Astra 문서를 사용자 실사용 평가 중심으로 전면 개정
+
+사용자 요청("실제 평가 중심, 개발자 커뮤니티 리뷰 수집·분석"). 병렬 서브에이전트 3개(sonnet)로 수집: HN(Algolia 날짜검색으로 스토리 223건 스캔, 상위 12스레드 댓글 트리 정독 → 평가 24건 + 독립 벤치마크 ARC Prize·Artificial Analysis·Epoch AI), 블로그·뉴스레터(실측 리뷰 CodeRabbit·Kilo·Simon Willison TIL·Decrypt + 인상 평가 Claire Vo·Matt Shumer·Creators AI), Reddit(**0건** — 검색 RSS 로그인 302, .json 403, pullpush 미색인 → sources.md에 제약 기록). wiki/analysis/openai-gpt-6-astra.md와 outputs/…html을 재작성: 결론 세 갈래(컴퓨터 사용·밤샘 자율 작업 일관된 호평 / 코딩은 "백지에서 강하고 남의 코드 앞에서 약하다"로 양분 / 비용·한도 소진 일관된 불만) + 평가 지형표 + 주제별 근거(원문 링크) + 벤치마크 하네스 의존(ARC-AGI-3 62.7% vs 98.6%) + "쓰는 법" + 수집 한계·편향 명시. 사양·타임라인은 부록으로 이동. 아티팩트 동일 URL로 재발행.
