@@ -62,8 +62,11 @@ h3 .k{display:block;font-family:var(--mono);font-size:12px;color:var(--red);lett
   color:var(--soft);font-weight:700;margin-bottom:20px}
 .n{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;color:var(--red);margin-bottom:12px}
 
-/* 1쪽 요약 */
-.summary{margin-top:calc(var(--gap)*1.4)}
+/* 1쪽 요약 — 본문 앞 프리뷰임을 알리는 박스 */
+.summary{margin-top:calc(var(--gap)*1.4);background:var(--wash);
+  padding:44px 32px 44px;border-top:3px solid var(--ink);border-bottom:1px solid #dcdcdc;
+  margin-left:-32px;margin-right:-32px}
+@media(max-width:640px){.summary{padding:32px 20px 32px;margin-left:-20px;margin-right:-20px}}
 .lead{font-family:var(--serif);font-size:27px;line-height:1.6;color:var(--ink);font-weight:600;
   margin:0 0 calc(var(--gap)*1.6);text-wrap:balance}
 .lead em{font-style:normal;color:var(--red)}
@@ -185,7 +188,7 @@ h1{font-size:25pt;line-height:1.35}
 .mast{margin-bottom:14pt}
 .header-intro{margin-bottom:16pt}
 .header-intro p{font-size:9.5pt}
-.summary{margin-top:12pt;break-after:page}
+.summary{margin:0;padding:16pt 18pt 14pt;break-after:page}
 .lead{font-size:16pt;line-height:1.55;margin-bottom:16pt}
 .hl{padding:12pt 0}
 .hl .fig{font-size:19pt;margin-bottom:4pt}
