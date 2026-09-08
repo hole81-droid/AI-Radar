@@ -130,30 +130,33 @@ tr:last-child td{border-bottom:1px solid var(--ink)}
 }
 
 /* ═══ 인쇄판 ═══ */
-@page{size:A4;margin:14mm 15mm 16mm 15mm}
+@page{size:A4;margin:11mm 14mm 14mm 14mm}
 html{scroll-behavior:auto}
 body{font-size:11pt;line-height:1.7;color:#111}
 .page{max-width:none;padding:0;margin:0}
 a{text-decoration:none;color:inherit}
 .src a{color:#555}.src a.free{color:var(--red)}
-h1{font-size:24pt;margin:8pt 0 6pt}
-.intro{font-size:10.5pt;line-height:1.6;margin-bottom:3pt}
-.intro-note{font-size:8.5pt;margin-bottom:4pt}
-.summary{break-after:page;break-inside:auto;padding:9pt 12pt 8pt;margin-top:7pt}
+h1{font-size:22pt;margin:6pt 0 4pt}
+.intro{font-size:9.6pt;line-height:1.5;margin-bottom:2pt;max-width:none}
+.intro-note{font-size:8pt;margin-bottom:2pt}
+.summary{break-after:page;break-inside:auto;padding:7pt 11pt 6pt;margin-top:5pt}
 .summary h2{margin-bottom:6pt}
-.summary .lead{font-size:11.5pt;line-height:1.55;margin-bottom:8pt}
-.hl{padding:7pt 0 2pt}
-.hl h3{font-size:10.8pt;margin:1pt 0 4pt}
-.hl p{font-size:9.4pt;line-height:1.55;margin-bottom:4pt}
-.oneline{font-size:10pt;line-height:1.55;padding:7pt 10pt;margin-top:8pt;break-inside:avoid}
-.oneline .gloss{font-size:8.6pt;line-height:1.5;margin-top:6pt;padding-top:6pt}
-.ask{padding:7pt 10pt 3pt;margin-top:8pt;break-inside:avoid}
-.ask li{font-size:9.3pt;line-height:1.5;margin-bottom:5pt;padding-left:30px}
+.summary .lead{font-size:10.8pt;line-height:1.5;margin-bottom:5pt}
+.hl{padding:5pt 0 1pt;max-width:none}
+.hl h3{font-size:10.2pt;margin:0 0 2pt}
+.hl p{font-size:8.9pt;line-height:1.5;margin-bottom:3pt;max-width:none}
+.oneline{font-size:9.4pt;line-height:1.5;padding:6pt 9pt;margin-top:6pt;break-inside:avoid}
+.oneline .gloss{font-size:8.2pt;line-height:1.45;margin-top:5pt;padding-top:5pt}
+.ask{padding:6pt 9pt 2pt;margin-top:6pt;break-inside:avoid}
+.ask li{font-size:8.9pt;line-height:1.45;margin-bottom:4pt;padding-left:28px}
 .ask li::before{width:20px;height:20px;line-height:18px;font-size:10px;top:1px}
 section{margin-top:0;break-before:page;break-inside:auto}
 section#watch{break-before:auto;margin-top:22pt}
 .sec-head{padding-top:8pt;margin-bottom:6pt}.sec-head h2{font-size:19pt}
 h3{font-size:13.5pt;margin:18pt 0 8pt;break-after:avoid}
+h4{break-after:avoid}
+ul.ev{break-before:avoid}
+ul.ev>li:first-child{break-before:avoid}
 .bluf{font-size:11.5pt;line-height:1.6;margin-bottom:10pt;break-inside:avoid}
 ul.ev>li{padding:8pt 0;font-size:10pt;line-height:1.6;break-inside:avoid}
 .src{font-size:8.6pt;line-height:1.5}
