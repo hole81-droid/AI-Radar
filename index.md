@@ -213,6 +213,7 @@
 - [[alphaevolve-gemini-coding-agent-impact-roundup]] — Gemini 기반 알고리즘 발견 에이전트 산업 임팩트 (course, ax)
 - [[sk-group-ax-agenda-2026]] — SK그룹 "1인 1에이전트" 선언과 그룹 전개, 2026 상반기 (course, ax)
 - [[korea-4-groups-ax-competition-2026]] — 국내 4대 그룹 AX 경쟁 지형(삼성·SK·현대차·LG) 비교 (course, ax)
+- [[openai-gpt-6-astra]] — GPT-6 Astra 티저(08-01)→출시(09-03)→첫 반응 종합, 사양·가격·안전등급·상충 정리 (course, ax)
 - [[claude-enterprise-adoption-path]] — Claude 엔터프라이즈 도입 경로 — 데이터 정책·사내망 제약 옵션 (course, ax)
 - [[vendor-official-case-numbers]] — 벤더 공식 고객 사례 수치 모음(Rakuten·Mozilla 등, 1차 출처) (course, ax)
 

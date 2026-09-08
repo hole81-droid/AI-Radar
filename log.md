@@ -2098,3 +2098,11 @@ Executive Summary 박스, 숫자-라벨 2열 그리드, 인쇄 파이프라인�
 규칙(관심사 밖 자료에 `programs:` 안 붙이기)만 남겨 규칙이 두 곳에서 갈라지지 않게 함.
 
 검증: style-lint 통과, check-html 통과, build-print 재생성 후 PDF 15쪽·마지막 쪽 정상.
+
+## [2026-09-08] scan | 소급 스캔 09-03~09-08, 항목 17건
+
+09-02 이후 6일 공백을 병렬 서브에이전트 3개(각 2일 분담, model:sonnet)로 일괄 수집해 newsletter/2026-09-08.md 한 파일로 병합(공백 3일 이상 규칙). 업무 적용 Case 4건(Spotify 모델 라우팅 토큰 90%↓, OpenAI 사내 연구조직 에이전트 실측, Harness-of-Harness 3역할 프롬프트, Dan Luu 테스트기법 26종 실측) + 빅 뉴스 6건(GPT-6 Astra 출시, 페르마 정리 Lean 형식화, Reuters OpenAI 에이전트 위키 장악, 모델 피로, Pachocki "An Alien Mind", Mistral 30억 유로) + 커뮤니티 4건 + YouTube 3건. 제약: Reddit은 당일 top RSS만 제공해 과거 날짜 조회 불가 → 커뮤니티는 HN Algolia 날짜검색으로 대체(09-07~08만 Reddit 직접 확보, 2회차 호출에서 429). YouTube는 구간별 업로드가 적어 3건. **위키 반영은 Astra 1건만 완료** — 나머지 항목의 use-case/updates 페이지화는 대기 중.
+
+## [2026-09-08] query | GPT-6 Astra 종합 정리
+
+사용자 요청으로 백필 3개 구간에 흩어진 Astra 항목을 wiki/analysis/openai-gpt-6-astra.md로 취합. 백필에 없던 사양·가격·벤치마크는 WebSearch + Codex 지식베이스·9to5Mac WebFetch로 보완(OpenAI 공식 페이지는 403으로 직접 확인 실패, 2차 매체 전달값임을 문서에 명시). **상충 발견**: 08-01 티저 때 "Astra는 GPT-6가 아니다"라던 입장이 09-03 출시에서 제품명 "GPT-6 Astra"·모델ID `gpt-6-astra`로 바뀜 → 문서에 ⚠️ 상충 블록으로 명시. 안전 등급(Critical)·Trusted Access·사고과정 관찰가능성 저하가 같은 주 Pachocki 에세이와 맞물리는 점을 연결. index.md 분석 섹션 등재.
