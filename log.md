@@ -2114,3 +2114,7 @@ Executive Summary 박스, 숫자-라벨 2열 그리드, 인쇄 파이프라인�
 ## [2026-09-09] output | 브리프 표준 서식 제정 + GPT-6 Astra PDF
 
 사용자가 Astra 분석 화면판을 표준 서식으로 지정("우측 문서 너무 마음에 든다, 재사용 가능하게 저장"). 제정: docs/brief-template.html(CSS 정본 + 주석 뼈대, 화면판에서 <style> 그대로 추출) · docs/brief-style.md(토큰·활자·구성요소·절차) · .claude/skills/brief-doc(SKILL.md) · scripts/build-brief-pdf.mjs(화면 그대로 A4 인쇄 — @media print 제거, 배경 강제, 페이지 나눔 힌트만) · CLAUDE.md 포인터 절 신설. outputs/openai-gpt-6-astra.pdf 생성(13쪽, 화면판 시각 보존 — 첫 빌드 15쪽은 section 단위 break-inside:avoid가 빈 쪽을 만들어 소단위로 한정해 재빌드). 형제 서식 insight-report와 토큰·활자 동일, 구조만 참조형.
+
+## [2026-09-09] query | AI 활용 교육의 교수법 혁신 트렌드 조사
+
+사용자 질의("AI 교육 자체의 혁신 기법·트렌드 문헌, 스캔+외부"). 위키 9건(9월호 트렌드1·적용5, NAU 액션러닝, Bersin L&D 전환, HBI 2026, Claude Academy, Mollick, Adeptly, 초급일자리) + 병렬 서브에이전트 2개(sonnet: 프레임워크·연구 / 기법·사례)로 외부 약 35건. wiki/analysis/ai-upskilling-pedagogy-trends.md 작성 — 5갈래 정리, 새로움·근거 수준 지형표, 가장 새로운 발견은 학습 효과 역설 실측(Anthropic Fluency Index 9,830건 "산출물 생성 시 검증 3~5%p↓", Wang&Zhang 912명 "부분 사용은 미사용보다 나쁨"). 국내 삼성·LG·신한·KB 사례는 2차 보도·사후 측정 없음 명시. 접근 실패: Study/Learning Mode 1차 페이지, Udemy 리포트, arXiv 본문. index 등재.
