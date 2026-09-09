@@ -15,7 +15,8 @@ source: https://news.ycombinator.com/item?id=49582582
 > [[2026-08-01-openai-astra-teaser-math-proofs]]에 따로 있다.
 >
 > 화면판(HTML): `outputs/openai-gpt-6-astra.html` ·
-> [아티팩트](https://claude.ai/code/artifact/edf08555-0ecd-4c2e-80d4-e99b3505af24)
+> [아티팩트](https://claude.ai/code/artifact/edf08555-0ecd-4c2e-80d4-e99b3505af24) ·
+> PDF(화면 그대로): `outputs/openai-gpt-6-astra.pdf` — 이 화면판이 브리프 표준 서식의 원형이다 (`docs/brief-style.md`)
 
 ## 한눈에
 

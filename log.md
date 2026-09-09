@@ -2110,3 +2110,7 @@ Executive Summary 박스, 숫자-라벨 2열 그리드, 인쇄 파이프라인�
 ## [2026-09-08] query | GPT-6 Astra 문서를 사용자 실사용 평가 중심으로 전면 개정
 
 사용자 요청("실제 평가 중심, 개발자 커뮤니티 리뷰 수집·분석"). 병렬 서브에이전트 3개(sonnet)로 수집: HN(Algolia 날짜검색으로 스토리 223건 스캔, 상위 12스레드 댓글 트리 정독 → 평가 24건 + 독립 벤치마크 ARC Prize·Artificial Analysis·Epoch AI), 블로그·뉴스레터(실측 리뷰 CodeRabbit·Kilo·Simon Willison TIL·Decrypt + 인상 평가 Claire Vo·Matt Shumer·Creators AI), Reddit(**0건** — 검색 RSS 로그인 302, .json 403, pullpush 미색인 → sources.md에 제약 기록). wiki/analysis/openai-gpt-6-astra.md와 outputs/…html을 재작성: 결론 세 갈래(컴퓨터 사용·밤샘 자율 작업 일관된 호평 / 코딩은 "백지에서 강하고 남의 코드 앞에서 약하다"로 양분 / 비용·한도 소진 일관된 불만) + 평가 지형표 + 주제별 근거(원문 링크) + 벤치마크 하네스 의존(ARC-AGI-3 62.7% vs 98.6%) + "쓰는 법" + 수집 한계·편향 명시. 사양·타임라인은 부록으로 이동. 아티팩트 동일 URL로 재발행.
+
+## [2026-09-09] output | 브리프 표준 서식 제정 + GPT-6 Astra PDF
+
+사용자가 Astra 분석 화면판을 표준 서식으로 지정("우측 문서 너무 마음에 든다, 재사용 가능하게 저장"). 제정: docs/brief-template.html(CSS 정본 + 주석 뼈대, 화면판에서 <style> 그대로 추출) · docs/brief-style.md(토큰·활자·구성요소·절차) · .claude/skills/brief-doc(SKILL.md) · scripts/build-brief-pdf.mjs(화면 그대로 A4 인쇄 — @media print 제거, 배경 강제, 페이지 나눔 힌트만) · CLAUDE.md 포인터 절 신설. outputs/openai-gpt-6-astra.pdf 생성(13쪽, 화면판 시각 보존 — 첫 빌드 15쪽은 section 단위 break-inside:avoid가 빈 쪽을 만들어 소단위로 한정해 재빌드). 형제 서식 insight-report와 토큰·활자 동일, 구조만 참조형.

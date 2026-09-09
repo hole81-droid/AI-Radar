@@ -89,6 +89,12 @@ source: <원문 URL>
 이 한 가지만 지키면 관심사 밖 자료가 리포트 본체로 새어 들어오지 않는다. 위키에는 그대로
 남기고 리포트에서만 "참고"로 다룬다. (전체 3단 분류표는 스킬의 `references/editorial-rules.md`.)
 
+### 브리프 문서 (outputs/<slug>.html + .pdf)
+
+`wiki/analysis/` 같은 참조형 문서를 팀 공유용으로 낼 때는 **`brief-doc` 스킬**을 따른다
+(`.claude/skills/brief-doc/`). 서식 정본은 `docs/brief-template.html`, 규칙은 `docs/brief-style.md`,
+PDF는 `scripts/build-brief-pdf.mjs`(화면 그대로, 재조판 없음). 2026-09-09 사용자 지정 표준.
+
 ### updates/ 페이지 (이 위키의 심장)
 
 파일명: `YYYY-MM-DD-<tool>-<slug>.md`. 내용: 무엇이 바뀌었나 → 왜 중요한가 →
