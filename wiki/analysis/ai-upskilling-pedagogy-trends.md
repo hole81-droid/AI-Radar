@@ -14,6 +14,10 @@ source: https://joshbersin.com/2026/03/the-world-of-corporate-training-lurches-t
 > 있는가"에 답한다. 위키 보유분(스캔 결과) 9건과 외부 조사 약 35건(병렬 리서치 2갈래)을 대조했다.
 > 대상은 성인·직장인·기업 AI 역량 교육이고, 학교 정책·부정행위·시험 방식 변화는 제외했다
 > (CLAUDE.md 관심사 규칙).
+>
+> 화면판(HTML): `outputs/ai-upskilling-pedagogy-trends.html` ·
+> [아티팩트](https://claude.ai/code/artifact/3723758e-3aca-4b08-9521-6ef572fa22a2) ·
+> PDF(화면 그대로): `outputs/ai-upskilling-pedagogy-trends.pdf`
 
 ## 한눈에
 

@@ -2118,3 +2118,7 @@ Executive Summary 박스, 숫자-라벨 2열 그리드, 인쇄 파이프라인�
 ## [2026-09-09] query | AI 활용 교육의 교수법 혁신 트렌드 조사
 
 사용자 질의("AI 교육 자체의 혁신 기법·트렌드 문헌, 스캔+외부"). 위키 9건(9월호 트렌드1·적용5, NAU 액션러닝, Bersin L&D 전환, HBI 2026, Claude Academy, Mollick, Adeptly, 초급일자리) + 병렬 서브에이전트 2개(sonnet: 프레임워크·연구 / 기법·사례)로 외부 약 35건. wiki/analysis/ai-upskilling-pedagogy-trends.md 작성 — 5갈래 정리, 새로움·근거 수준 지형표, 가장 새로운 발견은 학습 효과 역설 실측(Anthropic Fluency Index 9,830건 "산출물 생성 시 검증 3~5%p↓", Wang&Zhang 912명 "부분 사용은 미사용보다 나쁨"). 국내 삼성·LG·신한·KB 사례는 2차 보도·사후 측정 없음 명시. 접근 실패: Study/Learning Mode 1차 페이지, Udemy 리포트, arXiv 본문. index 등재.
+
+## [2026-09-09] output | 교수법 트렌드 분석 브리프 발행 + 교육 방법론 소스 6종 등록
+
+brief-doc 스킬 두 번째 적용: outputs/ai-upskilling-pedagogy-trends.html(아티팩트)·.pdf. 서식 추출 사고 1건 — 템플릿 주석의 "<style>" 문구가 sed 범위 정규식에 재매칭돼 템플릿 뼈대가 딸려 들어감 → 주석 문구 수정(docs/brief-template.html)으로 재발 방지, 화면판 재조립·재발행. sources.md "AI 교육 트렌드" 표에 Hardman Substack(RSS 200, 최신 09-03)·Anthropic Academy tutorials·OpenAI Academy·Wharton GAIL·Enterprise DNA·Coursera Enterprise 추가(전부 09-09 접근 실측), BCG는 403으로 미등록, 국내 기업 AI 교육 사례는 월 1회 WebSearch 레시피로. CLAUDE.md 토큰 효율 규칙에 확인 주기 명시.

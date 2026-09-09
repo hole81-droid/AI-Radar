@@ -289,6 +289,18 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 | **EdSurge** | https://www.edsurge.com/articles_rss | 08-28 | 에듀테크 전문지. AI 교수법·대학/기업 교육 현장 사례 |
 | **Class Central** | https://www.classcentral.com/report/feed/ | 09-01 | 온라인 강좌 동향 분석. "지금 어떤 AI 강좌가 뜨는가"의 1차 소스 |
 | **One Useful Thing** (Mollick) | (위 경영 섹션과 겸용) | 08-31 | AI 교수법 실험(과제 설계·프롬프트 교육) 원조 — 교육 글이 뜨면 이 섹션 후보로 |
+| **Dr. Philippa Hardman** (Substack) | https://drphilippahardman.substack.com/feed | 200 · 최신 09-03 (09-09 실측) | 학습과학 × AI 교수설계 1차 논객. Cognitive Offloading Paradox(Wang&Zhang 912명) 해설로 "AI 없이→전면 협업→무보조 재평가" 3단 실습 처방의 출처. **교육 방법론 소스 중 최우선** |
+| **Anthropic Academy · tutorials** | (RSS 없음) https://academy.claude.com/tutorials — 목록 페이지 WebFetch | 200 (09-09) | AI Fluency Index(대화 9,830건 실측 "산출물 생성 시 검증 3~5%p↓")·4D 프레임워크 코스의 발행처. 월 1~2회 제목만 확인, 실측 리포트가 뜨면 정독 |
+| **OpenAI Academy** | (RSS 없음) https://academy.openai.com/ — 목록 페이지 WebFetch | 200 (09-09) | 3단계 학습경로(Foundations→Applied→Agents & Workflows)의 발행처. 커리큘럼 개편·신규 코스 공지만 채택 |
+| **Wharton Generative AI Labs** | https://gail.wharton.upenn.edu/feed/ (200이나 항목 거의 없음) → https://gail.wharton.upenn.edu/ 페이지 확인 | 200 (09-09) | Mollick 부부의 교육용 프롬프트 라이브러리·연구. 분기 1회 확인이면 충분 |
+| **Enterprise DNA · data-skills stats** | (RSS 없음) https://enterprisedna.co/resources/stats/data-skills/ | 200 (09-09) | AI 역량교육 완주율(표방 79% vs 실제 30%) 등 업계 집계. 2차 집계라 원 표본 확인 필수. 분기 1회 |
+| **Coursera Enterprise · case studies** | (RSS 없음) https://www.coursera.org/enterprise/resources | 200 (09-09) | Moderna AI Academy(커스텀 GPT 300개·완주율 240%) 같은 기업 교육 수치 사례. 파트너사 집계임을 명시하고 인용. 분기 1회 |
+
+> **국내 기업 AI 교육 사례 (RSS 불가 — WebSearch 레시피)**: 삼성·LG·신한·KB·KOTRA 사례는 전부 언론 보도로만 확인됐다.
+> 매 스캔이 아니라 **월 1회**, WebSearch로 `임원 AI 교육 합숙`, `임직원 AI 에이전트 해커톤`, `AX 캠프 임원`,
+> `전 직원 AI 교육 명` 4개 질의를 돌려 최근 30일 보도만 채택한다. 완주율·정착률 같은 사후 수치가 있는 보도는
+> 즉시 use-case 후보. (2026-09-09 조사에서 사후 수치는 0건 — 이 공백 자체가 추적 대상)
+> **BCG**(bcg.com/rss 403, feeds.bcg.com 불통)는 등록하지 않는다.
 | **The Batch** (Andrew Ng) | (구루 섹션과 겸용) | 주간 | Ng의 AI 교육 철학·LearnVector 등 교육 사업 동향 |
 
 - 검증 탈락 소스(참고): MIT Open Learning RSS는 최신 글이 04-27로 정체(스캔 가치 낮음),
