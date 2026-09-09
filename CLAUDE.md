@@ -355,12 +355,12 @@ date: YYYY-MM-DD
     있으면 `evidence: anecdotal`로 페이지화하거나 뉴스레터 한 줄. 화제성으로 채택한 경우
     **어느 신호였는지 본문에 명시**한다.
   - 경영 실증 글은 `uses: ax`, 교육 트렌드 글은 `uses: course` 후보로 우선 검토한다.
+    **탈락 사유는 셋뿐** — AI 무관 / 위키 중복 / 본문 확인 실패(페이월·차단).
+    "수치 없음"·"화제성 미확인"은 탈락 사유가 아니다.
   - **교육 방법론 소스(2026-09-09 추가)**: "AI 교육 트렌드" 표에 Hardman Substack(RSS)·Anthropic
     Academy·OpenAI Academy·Wharton GAIL·Enterprise DNA·Coursera Enterprise가 있다. Hardman만 매 스캔
     RSS 확인, 나머지는 표에 적힌 주기(월 1~2회·분기 1회)로 제목만 본다. 국내 기업 AI 교육 사례는
     RSS가 없어 표 아래 WebSearch 레시피를 월 1회 돌린다. 근거 페이지: [[ai-upskilling-pedagogy-trends]].
-    **탈락 사유는 셋뿐** — AI 무관 / 위키 중복 / 본문 확인 실패(페이월·차단).
-    "수치 없음"·"화제성 미확인"은 탈락 사유가 아니다.
 - **Query는 선택적으로 읽기**: index.md → 관련 페이지만. 위키 전체 훑기 금지.
 - **병렬 에이전트는 대규모 작업에만**: 백필·린트처럼 명시적 요청이 있을 때만 다중 에이전트 사용.
   데일리 운영은 에이전트 1개로 충분하다.
