@@ -4,7 +4,7 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-10, 135건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-10, 136건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음)
 
 ## 2026-09
 
@@ -213,6 +213,8 @@ date: 2026-07-07
 - **06-30** — Meituan, 중국산 칩 학습 1.6T 오픈소스 모델 LongCat-2.0 공개 → [[2026-06-30-meituan-longcat-2]]
 - **06-29** — OpenAI 첫 하드웨어 'Codex Micro' 예고 (7/15 공개) → [[2026-06-29-openai-codex-micro-hardware]]
 - **06-26** — GPT-5.6 (Sol·Terra·Luna) 제한 프리뷰 — 정부 심사로 출시 지연 → [[2026-06-26-openai-gpt-5-6-preview]]
+- **06-25** — Kyndryl 2026 People Readiness Report — AI 배포 57%인데 워크포스 준비도는 23%로
+  전년 대비 6%p 하락(리더 1,100명 서베이) → [[2026-06-25-kyndryl-people-readiness-report]]
 - **06-24** — OpenAI 첫 자체 추론 칩 'Jalapeño' 공개 (Broadcom 협력) → [[2026-06-24-openai-jalapeno-chip]]
 - **06-23** — Claude Tag 출시 — Slack 상주 AI 팀메이트 → [[2026-06-23-claude-tag]]
 - **06-23** — Mistral OCR 4 출시 (기업 문서 AI) → [[2026-06-23-mistral-ocr-4]]

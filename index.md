@@ -126,6 +126,7 @@
 - [[2026-07-01-meta-meta-compute]] — Meta 클라우드 사업 진출 (high)
 - [[2026-06-30-meituan-longcat-2]] — 중국산 칩 학습 1.6T 오픈소스 LongCat-2.0 (medium)
 - [[2026-06-23-mistral-ocr-4]] — Mistral OCR 4, 기업 문서 AI (medium)
+- [[2026-06-25-kyndryl-people-readiness-report]] — (09-10 소급) Kyndryl 2026 People Readiness Report, 리더 1,100명 서베이. AI 배포 57%인데 목표 동시 달성 11%·워크포스 준비도 23%(전년比 6%p↓) (high)
 
 ### AI 경영·비즈니스 실증 / AI 교육 트렌드 (신규 소스 09-01 소급 백필 07-15~09-01, 09-02 rule B 재점검으로 top-up)
 - [[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]] — McKinsey 연례 서베이(응답자 1,719명), EBIT 기여 응답 37%·"AI 고성과 기업" 6%뿐·감원 예상 39%(전년 32%)·대기업 에이전트 스케일링 40%(전년 27%) (high)
@@ -155,6 +156,40 @@
 - [[2026-05-29-h5i-agent-radio-git-collaboration]] — Git 기반 멀티 에이전트 실시간 협업 도구 (low)
 
 ## 개념 (wiki/concepts/)
+
+### 경영·교육·L&D 소급 백필 (05-01~07-14, 2026-09-10) — Insight 7·8월호 재료
+
+**경영 실증 (MIT Sloan·HBR·McKinsey)**
+- [[calibrate-ai-narrow-vs-wide-decisions]] — "88%가 AI를 쓰지만 40%만 효과" — 좁은 결정·넓은 결정 유형별 AI 매칭 프레임(MIT Sloan 05-06) (high)
+- [[psychological-debt-ai-adoption-resistance]] — AI 도입 저항의 정체는 훈련 부족이 아니라 "심리적 부채" 6요소(HBR 05-01, 1,200명 서베이) (high)
+- [[mckinsey-entry-level-redesign-answer-key-model]] — 초급 직급 침식이 관리자 파이프라인을 끊는다 + "정답지 모델" 처방, BofA 인턴 4,000명(McKinsey 05-18·07-14) (high)
+- [[mit-sloan-adaptive-ai-governance-seven-companies]] — 정적 규정집 대신 위험 유형별 차등 통제, Microsoft·Barclays 등 7개사(MIT Sloan 06-02) (high)
+- [[mit-sloan-ai-spine-scaling-framework]] — 스케일업에 성공한 기업의 공통 구조 "AI 스파인", 스위스 23개사 3년 연구(MIT Sloan 06-02) (medium)
+- [[mit-sloan-three-approaches-ai-roi]] — CEO 30명+ 인터뷰, 새 공장처럼 재무 잣대로 AI ROI를 따지지 않는 기업들(MIT Sloan 06-23) (medium)
+- [[companies-dont-have-to-slash-entry-level-jobs-winston]] — "AI 때문에 감원"은 선택이지 필연이 아니라는 반론(MIT Sloan 05-19, 오피니언) (medium)
+- [[ai-shopping-agents-resist-persuasion-tactics]] — AI 쇼핑 에이전트엔 카운트다운 타이머가 안 통한다, 4모델×4상품군 시뮬레이션(HBR 05-12) (medium)
+
+**뉴스레터 (Mollick·Exponential View·AI as Normal Technology)**
+- [[twilight-of-chatbots-agent-management-shift]] — 일이 챗봇 대화에서 에이전트 관리로, OpenAI 직원 1/4이 주간 에이전트 4개+ 운영(Mollick 06-30) (high)
+- [[why-ai-hasnt-replaced-software-engineers]] — "결정·실행·전달" 프레임으로 개발자 대체 서사 반박, Block 해고 재검증(normaltech 06-11) (high)
+- [[ai-roi-three-stage-ladder-congestion]] — AI가 실적에 안 보이는 이유, 전동화 3단계와 "정체(congestion)" 개념(Exponential View 05-27) (high)
+- [[ai-labs-up-the-stack-enterprise-lock-in]] — 추론 커머디티 함정과 AI 랩의 애플리케이션 진출, 벤더 종속 위험(normaltech 07-09) (medium)
+- [[google-antigravity-agent-claim-scrutiny]] — "$916에 OS 완성" 주장을 6항목으로 검증하는 벤더 클레임 체크리스트(normaltech 05-22) (medium)
+
+**AI 역량육성 방법론 (Hardman·L&D·학습과학)**
+- [[ld-delegate-collaborate-own-framework]] — L&D 업무 300개를 3문항으로 위임·협업·직접 분류하는 진단법(Hardman 05-28) (high)
+- [[ld-apprenticeship-problem-ai-era]] — AI가 지운 도제식 학습(모델링→시도→피드백→도전→페이딩)을 4원칙으로 재설계(Hardman 06-25) (high)
+- [[ld-assessment-reinvention-ai-era]] — 구술평가·AI 페르소나·과정평가·상시평가, 평가의 4가지 전환(Hardman 06-18) (high)
+- [[ld-ai-steering-tax]] — L&D 실무자 100명+ 관찰, AI 결과를 원하는 방향으로 끌고 가는 숨은 비용 "스티어링 택스"와 5단계 처방(Hardman 07-09) (high)
+- [[ai-tutoring-guardrails-bastani-rct]] — 가드레일 없는 AI 튜터는 학습을 해친다(튀르키예 RCT), "AI 스터디메이트" 대안(Mollick·Hardman 05-21) (high)
+- [[ai-tutoring-cognitive-surrender-vs-scaffolding]] — AI가 학습을 돕는 때와 인지를 떠맡는 때를 가르는 근거 셋(EdSurge 06-12, 원 연구 일부 미대조) (medium)
+- [[josh-bersin-institute-hr2030-ghre-certification]] — 12주 코호트+비즈니스 시뮬레이션 인증 설계 패턴(Bersin 06-08, 자사 홍보) (medium)
+- [[handshake-uplimit-ai-skilling-portfolio]] — 자격증 대신 포트폴리오로 AI 스킬을 증명하는 채용 시장 흐름(Bersin 06-30) (medium)
+- [[enterprise-ai-agent-governance-platforms]] — ServiceNow·SAP의 에이전트 관리 계층 경쟁, 실행·규칙설정·모니터링 3유형(Bersin 05-06·05-17) (medium)
+
+**참고 ③ 학교·대학**
+- [[cosn-2026-state-of-edtech-ai-adoption-guidance-gap]] — 학교구 AI 가이드라인 보유 79% vs 교사 체감 가이던스 18%(CoSN, EdSurge 06-02) (medium)
+- [[school-ai-policy-conversation-first-framework]] — 학교 AI 정책보다 대화가 먼저, 구조화 질문 세트(EdSurge 06-03) (low)
 
 ### 기업 인재개발·L&D × AI (2026-09-07 신설 소스 백필)
 
@@ -205,14 +240,14 @@
 - 리서치: [[ai-radar-daily-scan-pipeline]] (★실측 벤치마크 — 이 위키의 자동 스캔 파이프라인) · [[angstrom-claude-code-gpu-experiments]] · [[wiki-builder-claude-code-llm-wiki]] · [[track-hanta-claude-opus-monitoring-tracker]] · [[gpt-5-6-sol-ultra-math-proof-subagents]] · [[andrewjesson-claude-code-conversation-vs-memory-self-improvement]] (★실측 34%→48%) · [[jangpm-web-crawler-claude-code-codex]] · [[perplexity-comet-vs-search-knowledge-work-scope]] (★실측 자율작업 48배·시간87%/비용94%↓) · [[theaxlabs-wikiskill-claude-code-memory-system]] · [[cognition-devin-rsa-260-factoring]] (★실측 RSA-260 인수분해·비용10배↓) · [[openai-internal-research-agents-acceleration]] (★실측 에이전트 가동량 사람의 3.1배·1인당 비용 중앙값 $600+)
 - 콘텐츠 제작: [[claude-code-youtube-shorts-automation]] · [[claude-code-youtube-research-agent]] · [[suki-nondev-claude-code-automation]] · [[varun-mayya-5-ai-apps-500-person-company]] · [[youtube-subtitle-automation-claude-codex-whisper]] · [[claude-design-workflow-templates]] · [[draw-your-font-claude-code-skill]] · [[capforge-claude-mcp-video-captioning]] · [[jangpm-slide-master-claude-code-codex]] · [[theaxlabs-claude-code-diagram-design-skill]] · [[benai-claude-design-skill-workflow]]
 - 개발 자동화: [[databricks-ai-gateway-coding-cost-management]] (★실측 라우팅30%+·토큰50%↓) · [[agent-loops-daily-pr-review]] · [[claude-code-goal-routines-nightly-quality]] · [[codex-automations-scheduled-maintenance]] · [[ktcloud-fe-team-claude-code-adoption]] · [[fleet-orchestrator-claude-codex-10-agents]] · [[three-agents-nonstop-beads-worktree]] · [[openai-codex-maxxing-25-hour]] · [[simon-willison-claude-release-qa]] (★실측 $149.25) · [[onepassword-claude-agents-monolith-refactor]] · [[claude-managed-agents-dreaming-outcomes-orchestration]] · [[accord-agents-cross-review-workspace]] · [[crew-worktree-free-multiagent-orchestration]] · [[claude-code-hooks-wordswap]] · [[solidifier-claude-code-skill]] · [[ben-ai-claude-skills-building-methodology]] · [[ben-ai-claude-record-a-skill-best-practices]] · [[cursor-agent-swarms-model-economics]] (★실측 비용8배↓) · [[claude-code-mcp-multimodel-delegation-benchmark]] (★실측 198회 히든테스트) · [[claude-code-ci-pipeline-multisession-worktree]] · [[rtk-skill-jetbrains-token-benchmark]] (★실측 비용검증 — 주장 60~90%↓ 실측은 오히려 증가) · [[microsoft-claude-code-copilot-cli-adoption-study]] (★실측 PR 24%↑, 4개월 추적) · [[adeptly-claude-code-learning-crew-pipeline]] · [[jeremytian-claude-code-loop-agent-optimization]] (★실측 정밀도 0.734→0.818) · [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]] · [[reddit-lloyd-claude-code-loop-orchestrator]] · [[codex-gpu-kernel-232x-autoresearch]] (★실측 232배) · [[theaxlabs-harness-r1-failure-driven-editing]] · [[asana-openai-codex-enzyme-migration]] (5년→2주·$6M→$12K, HN 회의론 병기) · [[latent-space-wayfinder-claude-code-skill]] · [[jakesaunders-self-hosted-agentic-software-factory]] · [[fabiensanglard-agent-md-persistent-style-guide]] · [[vercel-ai-sdk-software-factory]] (★실측 PR 25~35%·이슈 70~80% 자동화) · [[spotify-shunt-model-routing-token-reduction]] (★실측 토큰 약 90%↓) · [[harness-of-harness-planner-developer-qa]] (원논문 실측 상대개선 평균 52.25%, 실무이식은 주장) · [[danluu-agentic-testing-technique-benchmark]] (★실측·부정결과 — 유명 테스트기법·스킬 대부분 저조)
-- 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]] · [[mckinsey-reckitt-rgmx-pricing-automation]] (McKinsey RGMx, 매출개선 $100M+) · [[otodock-claude-code-codex-self-hosted-company-os]] (부서형 자체 호스팅 에이전트 플랫폼, 권한설계 공개)
+- 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]] · [[mckinsey-reckitt-rgmx-pricing-automation]] (McKinsey RGMx, 매출개선 $100M+) · [[otodock-claude-code-codex-self-hosted-company-os]] (부서형 자체 호스팅 에이전트 플랫폼, 권한설계 공개) · [[caterpillar-helios-ceo-led-data-platform]] (CEO 주도 데이터 플랫폼, 서비스 매출 $14B→$24B)
 - 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓) · [[benai-claude-skills-marketing-automation]] · [[claude-code-seo-manager-mcp-dashboard]]
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑)
 - 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일)
 - HR: [[jocoding-ax-series-pwc-samil]]
 - 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]]
-- HR(hr): [[bersin-multiagent-talent-acquisition]] — 멀티 에이전트 대량채용, 2주→3일·H&M 리텐션 30%↑ (애널리스트 전달치)
-- 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] · [[edsurge-cognitive-citizenship-ai-instruction]] (Brown대 테이크홈 96%→감독형 49%) · [[edsurge-school-ai-policy-future-ready-team]] (학교 AI 정책 3단계·신호등 체계) · [[edsurge-ai-esl-english-learners]] (ESL, 정량 성과 없음) · [[edsurge-complex-text-scaffolding-vs-leveling]] (레벨링 안티패턴 + 스캐폴딩 5처방) · [[edsurge-problem-of-practice-ai-teacher-pd]] (실무문제 우선 4단계 액션러닝 연수 설계)
+- HR(hr): [[bersin-multiagent-talent-acquisition]] — 멀티 에이전트 대량채용, 2주→3일·H&M 리텐션 30%↑ (애널리스트 전달치) · [[bank-of-america-academy-ai-upskilling-200k]] (20만 명 3단계 AI 역량육성, 자사 발표) · [[cornerstone-workforce-ai-platform]] (L&D 플랫폼 전환, 벤더 보고치)
+- 교육(education): [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] · [[edsurge-cognitive-citizenship-ai-instruction]] (Brown대 테이크홈 96%→감독형 49%) · [[edsurge-school-ai-policy-future-ready-team]] (학교 AI 정책 3단계·신호등 체계) · [[edsurge-ai-esl-english-learners]] (ESL, 정량 성과 없음) · [[edsurge-complex-text-scaffolding-vs-leveling]] (레벨링 안티패턴 + 스캐폴딩 5처방) · [[edsurge-problem-of-practice-ai-teacher-pd]] (실무문제 우선 4단계 액션러닝 연수 설계) · [[gemini-guided-learning-sierra-leone-rct]] (★실측 RCT N=1,763, +0.258 SD) · [[edsurge-teacher-ai-grading-review-dashboard]] (자동발송 제거·전건 인간검토)
 
 ## 분석 (wiki/analysis/)
 

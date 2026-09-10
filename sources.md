@@ -218,6 +218,31 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
     탈취 등) 기록된 것과 같은 사건으로 판단해 위키 중복(②) 처리했다. "에이전트가
     서로 협력했다"류 제목은 먼저 기존 HF 사건 페이지와 겹치는지부터 확인할 것.
 
+- **2026-09-10 소급 백필(05-01~07-14) 실측 메모 — 과거 구간을 거슬러 읽는 법**:
+  RSS는 전부 롤링 창이라 두 달 이상 거슬러 가려면 아래 경로를 쓴다.
+  - **MIT Sloan**: 토픽 목록 `https://sloanreview.mit.edu/topic/ai-machine-learning/` + `/page/2/` …가
+    WebFetch로 제목·URL·날짜를 반환한다(04-30까지 확인). **주의: 이번에는 curl이 `/feed/`까지
+    Cloudflare 403**이었고 WebFetch만 통과했다(09-01의 "curl 직접 접근 가능" 기록과 달라짐).
+    구간 내 AI 기사 7건 정독, 7건 전부 채택 — 정독 1순위 원칙 재확인.
+  - **HBR 우회 경로 추가**: 저자 개인·기관 채널이 없어도 **HBR 공개 요약문 + 그것을 인용한
+    2차 매체 교차확인**으로 핵심 수치를 확보한 사례 2건(심리적 부채, 쇼핑 에이전트). 과거 기사
+    목록은 WebSearch `site:hbr.org/2026/05` 식으로 월별 확보.
+  - **Knowledge at Wharton**: 05-01~07-14 구간 AI 기사 **0건**(후보 전부 04-28 이전). 세 번째 확인.
+  - **Substack archive API**: `offset`을 이전 배치 길이만큼 누적하면 과거로 간다(첫 배치가 23건만
+    올 수 있음, `id`로 중복 제거). 커스텀 도메인은 `www.` 접두(`www.oneusefulthing.org`),
+    `*.substack.com`은 **`www.` 없이** 그 주소가 API 베이스(`drphilippahardman.substack.com`).
+    `/api/v1/posts/<slug>`의 `body_html`은 only_paid 글도 도입부~긴 무료 구간을 준다 — 29건을
+    WebFetch 0회로 처리. 자기 평균 좋아요(최근 약 73편 기준): One Useful Thing 712 · Exponential
+    View 96 · AI as Normal Technology 206 · Hardman 87.
+  - **EdSurge 과거 RSS는 Wayback CDX로**: `web.archive.org/cdx/search/cdx?url=edsurge.com/articles_rss&output=json`
+    → `web.archive.org/web/<timestamp>/<원본URL>`로 과거 시점 RSS 전문을 받는다(05-06·06-21
+    스냅샷이 04~06월 커버). 07월 중순 스냅샷은 없음(302만 존재). 기사 슬러그는 6월 초 이후
+    날짜 접두가 사라져 사이트맵 패턴 검색이 안 먹힌다 — WebSearch 병행. **EdSurge 칼럼의 각주
+    원문(연구 PDF)을 따라가면 더 강한 1차 자료가 나온다**(시에라리온 RCT가 이 경로).
+  - **Class Central 정정**: RSS(`/report/feed/`)는 **200 + `content:encoded` 전문**이다. 403은 개별
+    기사 페이지 직접 접근에만 해당. 다만 05~07월 RSS 항목은 전부 리스트형이라 채택 0건.
+  - **McKinsey**: WebFetch 60초 타임아웃 재현(이번 3회). 재게시본(BrianHeger.com)·2차 보도 우회 유효.
+
 ## 기업 인재개발·L&D × AI (2026-09-07 신설 — 사용자 제공 카탈로그 검토 결과)
 
 **우리 조직의 본업에 가장 가까운 칸이었는데 비어 있었다.** 기존 "AI 교육 트렌드" 섹션은
@@ -249,6 +274,13 @@ AI가 경영에 활용됨에 따른 성과·영향·사업 적용의 실제 case
 | Redefine AI Upskilling as a Change Imperative | McKinsey | AI 업스킬링을 변화 여정으로 설계 |
 | Building Expertise in the Age of AI | McKinsey | AI가 초급 업무를 대체할 때 다음 세대 전문성을 어떻게 기르나 |
 | AI Transformation Is a Workforce Transformation | BCG | 인력 전환 관점의 AX |
+
+> **발표 시기 실측 (2026-09-10 소급 백필)**: LinkedIn Talent(2026년 초) · Udemy(2025-09, "2026년판") ·
+> TalentLMS(2025-12-02) · Blanchard(2025-12) · BCG(2026-03-25) · **Kyndryl People Readiness(2026-06-25)**.
+> 연말~연초에 몰려 있고 5~6월엔 Kyndryl뿐이다. 분기 1회 확인이면 충분하다.
+> **Josh Bersin RSS**는 페이징 없이 4월 하순까지 닿았다(09-10 기준, 창은 줄어들 수 있음).
+> **Harvard Business Impact**의 06월 말 기사 4건은 전부 2026 Global Leadership Study 캠페인의
+> 다른 배포본이었다 — 같은 연구 재포장이 잦으니 기존 페이지와 먼저 대조할 것.
 
 ### 검토 후 제외 (실측 근거)
 

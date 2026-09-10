@@ -94,6 +94,7 @@ uses: [course, ax]
 - [[theaxlabs-slack-cpo-ai-teammate-principles]] — Claude(second-brain+cron-routines)로 Slack 채널 대화·회의 로그 지식베이스화+일일 브리핑을 활용해 에이전트를 "팀원"으로 운영하는 5원칙을 수행 → 정성적 원칙 중심, 정량 성과 수치 없음 (주장)
 - [[theaxlabs-company-brain-prompt-guide]] — AI 채팅 도구(도구 비종속, second-brain)로 프롬프트 6종+지도 파일을 활용해 개인별 AI 교정을 조직 지식베이스로 통합하는 절차를 수행 → 정량 성과 없음, 방법론·재현 가이드 공개 (주장)
 - [[mckinsey-reckitt-rgmx-pricing-automation]] — McKinsey의 RGMx(예측분석 플랫폼, cron-routines 근사치)로 데이터 기반 시나리오 분석을 활용해 소비재 기업 Reckitt의 가격·프로모션·제품구성·거래투자 의사결정을 수행 → 2021년 이후 누적 매출 개선 $100M+, 35개 시장 전개 (주장, McKinsey 자체 케이스 스터디)
+- [[caterpillar-helios-ceo-led-data-platform]] — Caterpillar가 CEO 직속으로 엔터프라이즈 데이터 플랫폼 Helios를 구축해 예측정비 등 데이터 기반 서비스의 토대를 마련 → 서비스 매출 $14B(2016)→$24B(2024) (주장, MIT Sloan 사례 연구가 전달)
 
 ## 마케팅 (marketing)
 
@@ -127,6 +128,8 @@ uses: [course, ax]
 
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
 - [[bersin-multiagent-talent-acquisition]] — 채용 벤더의 멀티 에이전트(문의응대+AI면접+ATS 연동)로 대량채용 앞단을 자동화 → 채용 2주→3일, H&M 리텐션 30%↑ (애널리스트가 전한 고객사 보고치, 독립 검증 없음)
+- [[bank-of-america-academy-ai-upskilling-200k]] — Bank of America가 사내 러닝 조직 The Academy로 AI 대화 시뮬레이터 기반 3단계 역량육성을 20만 명에 운영 → 사내 AI 어시스턴트 분기 1.69억 회 사용, 신규 채용의 45%를 내부 이동으로 충원 (주장, 자사 발표를 MIT Sloan이 전달)
+- [[cornerstone-workforce-ai-platform]] — Cornerstone Workforce AI(skills+subagents)로 인재 식별·이탈위험 관리·프로젝트 기반 배치·맞춤 개발계획을 자동화 → 의료기관 사례 3,000만~4,000만 달러 절감 기대 (주장, 벤더 보고치)
 
 ## 교육 (education)
 
@@ -136,6 +139,8 @@ uses: [course, ax]
 - [[edsurge-ai-esl-english-learners]] — SchoolAI 등 교실용 AI(skills 근사치)로 이중언어 분해·즉시 어휘 설명·오답 2회 후 지원 강화·가정 야간 질문을 활용해 영어학습자 수업을 수행 → 4개 학교 적용 중, 정량 성과 데이터 전무 (일화)
 - [[edsurge-complex-text-scaffolding-vs-leveling]] — 텍스트 레벨링 AI(Diffit 등)로 원문을 낮추는 대신 같은 AI로 걸림돌 구절 식별·구문 분절·사고구술 대본·어휘 세트 5종 스캐폴딩을 활용해 복잡한 원문 읽기 수업을 수행 → 난독증·ADHD 8학년생이 일반학급 토론에 복귀, 레벨링 시엔 흥미·기억 모두 실패 (일화, 정량 미확인)
 - [[edsurge-problem-of-practice-ai-teacher-pd]] — NAU·ISTE GenerationAI 연수(prd-driven 근사치)로 "실무 문제 정의 → 필요한 AI만 학습 → 교실 투입 → 효과 데이터 수집" 4단계 액션러닝을 활용해 교사 AI 연수 프로그램을 수행 → 농촌 3개 학교구 2.5개월 무료 과정, 교사 제작 챗봇·즉시 피드백 루프 산출 (일화, 효과 측정치 미공개)
+- [[gemini-guided-learning-sierra-leone-rct]] — Google DeepMind·Fab AI가 Gemini Guided Learning으로 구조화 페어러닝을 활용해 시에라리온 중학교 수학 수업을 수행 → 8주 무작위 대조실험(N=1,763)에서 +0.258 SD (실측, 연구진 보고)
+- [[edsurge-teacher-ai-grading-review-dashboard]] — 교사가 자체 AI 도구로 공학 수업 일상 과제 채점 초안을 생성 → 자동발송 사고 후 기능 제거, 전건 인간 검토 대시보드로 재설계해 신뢰 회복 (일화, 정량 미확인)
 
 ---
 *2026-07-16 추가: [[solidifier-claude-code-skill]](신규, 36건). [[wiki-builder-claude-code-llm-wiki]]는
