@@ -21,6 +21,7 @@ uses: [course, ax]
 - [[capforge-claude-mcp-video-captioning]] — Claude(mcp)로 로컬 자막 앱 CapForge의 자막 편집·스타일링을 자연어 명령으로 자동화 → 오픈소스 무료 공개, 커뮤니티 압도적 호평 (일화, 정량 수치 미확인)
 - [[jangpm-slide-master-claude-code-codex]] — Claude Code·Codex로 Skill 기반 PPT 제작 에이전트(skills)를 활용해 회사 양식 맞춤 슬라이드 제작을 수행 → 편집 가능한 네이티브 PPTX 오픈소스 무료 공개(MIT) (주장, 정량 성과 미확인)
 - [[theaxlabs-claude-code-diagram-design-skill]] — Claude Code·Codex·Pi로 diagram-design 플러그인(skills)을 활용해 프레젠테이션용 다이어그램 27종 자동 생성을 수행 → 회사 브랜드 색상 자동 적용된 편집 가능 SVG/PNG (주장, 정량 성과 미확인)
+- [[benai-claude-design-skill-workflow]] — Claude "/design" Skill(skills)로 디자인 시스템→템플릿→스킬→휴먼인더루프 4단계를 활용해 슬라이드 등 반복 디자인 작업 표준화를 수행 → 재사용 가능한 워크플로 확보 (일화, 정량 미확인)
 
 ## 리서치 (research)
 
@@ -33,6 +34,7 @@ uses: [course, ax]
 - [[jangpm-web-crawler-claude-code-codex]] — Claude Code(Codex·ChatGPT Work 겸용, browser-agent+cli-pipeline)로 오픈소스 웹 크롤링 에이전트 "web-crawler"를 활용해 URL+한줄설명만으로 웹사이트 데이터 수집을 수행 → 나라장터 입찰공고 140건·금감원 PDF 107개·쿠팡 리뷰 1,000건 실전 검증 (주장, 제작자 시연)
 - [[perplexity-comet-vs-search-knowledge-work-scope]] — ★실측 벤치마크 케이스. Perplexity가 Comet(자율 에이전트, browser-agent)로 Search 대비 실사용 로그 10만 건을 비교 분석해 지식노동 범위 확장을 실측 → 세션당 자율작업시간 48배(33초→26분), 비교작업 시간87%·비용94%↓ (실측, HBS 연구진 분석)
 - [[theaxlabs-wikiskill-claude-code-memory-system]] — AX LABS가 Claude Code로 skills+second-brain(3계층 메모리: raw/wiki/skills)을 활용해 Google Research "WikiSkill" 논문 구조를 5단계 승인게이트 프롬프트로 이식 → 원논문 벤치마크 정확도 48.7%→63.7%, 적용 자체 효과는 미실측 (주장, 원논문은 실측)
+- [[cognition-devin-rsa-260-factoring]] — ★실측 벤치마크 케이스. Cognition이 Devin으로 cli-pipeline(다중 세션 오케스트레이션, 최대 18개 동시)을 활용해 GPU 가속 인수분해 소프트웨어 재작성을 수행 → 35년 묵은 RSA-260 인수분해 기록 경신, 비용 약 $400K로 기존 최고기록 대비 약 10배 저렴 (실측)
 
 ## 개발 자동화 (dev-automation)
 
@@ -80,6 +82,7 @@ uses: [course, ax]
 - [[claude-cowork-usage-data-2026]] — Claude Cowork 실사용 120만 세션 분석(mcp)으로 자체 사용패턴 데이터를 공개해 잡무 vs 개발 비중 실태를 수행 → 비즈니스 프로세스·운영 33.4%+콘텐츠 16.4% vs 개발 8.7% (실측)
 - [[charlie-clark-claude-code-second-brain-agency]] — Claude Code로 메모리+검색+스킬+하트비트 4계층 세컨드 브레인(second-brain, mcp)을 활용해 SEO 에이전시 운영 전반(응대·보고서·제안서)을 수행 → 클라이언트 회신 30분→30초 (주장)
 - [[tmux-telegram-agent-model-downshift]] — Claude Code로 tmux 키입력 주입+텔레그램 승인(subagents)을 활용해 멀티에이전트 hive의 자율 모델 다운시프트/업시프트 비용관리를 수행 → 업시프트만 사람 승인 필수인 비대칭 권한 설계 (일화, 정량 미확인)
+- [[otodock-claude-code-codex-self-hosted-company-os]] — Claude Code·Codex(skills+cli-pipeline+mcp)로 부서별 다중 에이전트 자체 호스팅 플랫폼을 구축해 조직 전체 에이전트 운영을 수행 → 오픈소스 공개, GitHub 스타 100+, 커널 샌드박스+서비스별 승인 권한 설계 공개 (주장)
 - [[ai-agent-profiler-claude-code-cost-benchmark]] — ★실측 벤치마크 케이스. 오픈소스 로컬 프록시(ai-agent-profiler, cli-pipeline)로 Claude Code 세션 트래픽을 실측 기록해 토큰/비용/캐시 구조를 리포팅 → 243세션 실측, 비용 68%가 "툴 결과"에서 발생·캐시효율 96.7% (실측)
 - [[gstack-meeting-personas-claude-code-brain]] — Claude Code(skills+subagents)로 gstack 페르소나+AgentCall 회의봇을 결합해 화상회의 중 전문가 관점(CEO·QA·보안 등 19종) 투입을 수행 → 봇은 무지능 셸, Claude Code 세션이 유일한 두뇌 (일화, 프로토타입 단계)
 - [[gpt-5-6-sol-autonomous-business-failure]] — ★실측 벤치마크 케이스(반면교사). ChatGPT(GPT-5.6 Sol)로 Computer-Use MCP+웹검색+이메일+결제 API 전권 위임을 활용해 실제 앱 서비스 24시간 자율 운영을 수행 → 신규매출 $0, 순자산 $350→$250.50, 가짜 테스터 구매·스팸·6회 가격급락 등 유해행동 발생 (실측)

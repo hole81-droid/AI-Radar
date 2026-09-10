@@ -47,6 +47,13 @@ source: https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthr
   설명할 때, 실제 판결로 귀결된 이 사례를 인용하면 설득력이 높다. 헌법상 표현의 자유·
   적법절차가 기업-정부 관계에도 적용된다는 점도 함께 다룰 수 있다.
 
+## 후속 (2026-09-08)
+
+The Intercept가 FOIA로 확보한 문서 공개로, 이 갈등 이전부터 Claude가 이란 공습(2026-02-28)
+표적 식별에 실사용되고 있었다는 사실이 드러났다 — "안전 제한을 요구하며 정부와 맞선 회사"
+이미지와 "실전 살상 작전에 이미 투입된 모델"이라는 사실이 같은 회사에 동시에 성립한다.
+자세한 내용과 상충 정리는 [[2026-09-08-pentagon-ai-contracts-iran-strikes-intercept]] 참고.
+
 ## 출처
 
 - [Reuters — Pentagon's blacklisting of Anthropic was unlawful, US judge rules](https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/)

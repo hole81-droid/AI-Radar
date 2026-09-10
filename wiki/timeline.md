@@ -4,10 +4,21 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-01, 127건)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-09, 131건 — 09-02~09-07 구간은 소급 스캔([[2026-09-08]] 뉴스레터)에서 위키 반영이 밀려 있어 아직 미등재)
 
 ## 2026-09
 
+- **09-09** — Anthropic 연구원 Jacob Coxon, "AI 업계는 목숨 걸고 도박 중"이라며 공개
+  사퇴(X 게시물 조회 7,600만+, HN 681점) — WSJ 인터뷰 등으로 교차검증 →
+  [[2026-09-09-anthropic-jacob-coxon-resignation]]
+- **09-08** — The Intercept, FOIA로 확보한 OpenAI·Anthropic·Google·xAI 국방부 계약
+  400여 쪽 공개 — Claude가 2026-02 이란 공습 표적 식별에 실사용된 사실 확인 →
+  [[2026-09-08-pentagon-ai-contracts-iran-strikes-intercept]]
+- **09-08** — OpenAI, 자체 차세대 모델+에이전트 최대 1만 개로 밀레니엄 난제
+  나비어-스톡스 문제를 88시간 만에 풀었다고 발표(동료검토 전, 우선권 분쟁 논란) →
+  [[2026-09-08-openai-navier-stokes-solved]]
+- **09-08** — Anthropic, 실사 완료 후 $6B Decart 인수 최종 철회(협상은 08-13 보도) →
+  [[2026-08-13-anthropic-decart-acquisition-talks]] (후속 절)
 - **09-01** — Anthropic, **Claude Fable 5.1·Mythos 5.1** 출시(HN 737점) — 비용 최대
   45%↓, Claude Code 사이버보안 오탐 약 60% 감소. 같은 날 기업 데이터 보관 정책을 자사
   클라우드 자체 보관 방식(Enterprise Frontier Safeguards)으로 전환 →

@@ -49,8 +49,17 @@ Bloomberg가 2026-08-13 보도했다. 성사되면 Anthropic 역사상 최대 �
   이번 인수 시도를 함께 묶어 "토큰 원가 절감이 왜 프론티어 랩의 최우선 과제인가"의
   사례로 쓸 수 있다.
 
+## 후속 (2026-09-08) — 인수 무산
+
+Anthropic이 실사(due diligence)를 마친 뒤 $6B 규모 Decart 인수를 최종적으로 접었다고
+Bloomberg가 보도했다. 사유는 공식적으로 밝혀지지 않았으나, 실사 과정에서 Decart의
+기술을 상세히 파악한 뒤 자체 개발이 가능하다고 판단했을 것이라는 관측이 나온다.
+성사됐다면 Anthropic 사상 최대 인수이자 2026년 다섯 번째 인수였을 거래다. IPO 준비
+(마케팅 일정이 10월 중순으로 밀린 상태)와 맞물린 컴퓨팅 투자 확대 시점에 나온 결정.
+
 ## 출처
 
 - [Bloomberg — Anthropic Said in Talks to Buy Startup Decart for $6 Billion](https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion)
 - [Fortune — Anthropic said in talks to buy startup Decart for $6 billion](https://fortune.com/2026/08/13/anthropic-said-in-talks-to-buy-startup-decart-for-6-billion/)
 - [Reddit r/ClaudeAI 반응 스레드](https://old.reddit.com/r/ClaudeAI/comments/1vqhazp/will_claude_be_cheaper_anthropic_is_in_talks_to/)
+- [Bloomberg — Anthropic Said to Walk Away From $6 Billion Decart Acquisition (09-08 후속)](https://www.bloomberg.com/news/articles/2026-09-08/anthropic-said-to-walk-away-from-6-billion-decart-acquisition)
