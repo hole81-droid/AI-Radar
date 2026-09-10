@@ -190,13 +190,16 @@ source: <원문 URL>
    "이미 위키에 반영됨" 표시).
 5. `log.md`에 `## [YYYY-MM-DD] scan | 항목 N건, 반영 M건` 기록 (ingest 별도 기록 불필요 —
    scan 항목에 통합).
-6. **산출물 메일 발송 (2026-07-30 사용자 지정)**: `node scripts/send-scan.mjs --send` 를 실행해
-   뉴스레터(HTML+MD)와 그날 새로 만들어진 위키 페이지를 `shoon.lee@sk.com`에 첨부로 보낸다.
-   macOS Mail.app을 경유하므로 자격증명을 다루지 않는다. 발송이 실패해도 스캔은 성공으로 보고,
-   실패 사실만 알린다. 소급 스캔분은 날짜를 명시해 따로 한 번 더 보낸다.
-   - 첨부 대상 선정 규칙은 `scripts/package-scan.mjs`에 있다 — 뉴스레터 + 그날 **신규 생성된**
-     `wiki/use-cases`·`updates`·`players`·`concepts` 페이지만. 허브·timeline·index·case-catalog
-     같은 증분 갱신 파일은 단독으로 읽을 값이 낮아 첨부에서 제외한다.
+6. **산출물 메일 발송은 중단됐다 (2026-09-10 사용자 지정)**. 스캔 마무리 단계에서
+   `node scripts/send-scan.mjs --send` 를 **자동으로 실행하지 않는다.** 2026-07-30부터
+   09-10까지는 매 스캔 후 `shoon.lee@sk.com`·`david.j@sk.com`으로 첨부 발송했으나 중단한다.
+   스캔은 5번(log.md 기록)까지 마치고, 결과 공유는 팀 공유 웹(push → Vercel 자동 재배포)과
+   완료 알림으로 갈음한다.
+   - **스크립트는 지운 게 아니라 남겨 둔다** — `scripts/send-scan.mjs`,
+     `scripts/package-scan.mjs`는 그대로 있고, 사용자가 "그날 것 메일로 보내줘"처럼
+     **명시적으로 요청할 때만** 수동 실행한다. 자동 루틴에서만 빠진 것이다.
+   - 첨부 대상 선정 규칙(수동 실행 시 적용)은 `scripts/package-scan.mjs`에 있다 — 뉴스레터 +
+     그날 **신규 생성된** `wiki/use-cases`·`updates`·`players`·`concepts` 페이지만.
 
 ### 전체 아카이브 내보내기 (요청 시)
 

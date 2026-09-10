@@ -2171,3 +2171,14 @@ brief-doc 스킬 두 번째 적용: outputs/ai-upskilling-pedagogy-trends.html(�
 
 index.md·case-catalog.md·timeline.md·wiki/tools/{claude-code,codex,chatgpt}.md·players 요약줄을
 관련분만 갱신, 09-08 뉴스레터 체크박스 17/17 [x] + 반영 페이지 상호링크 완료.
+
+## [2026-09-10] output | 데일리 스캔 산출물 메일 자동 발송 중단
+
+사용자 지정으로 스캔 마무리 단계의 자동 메일 발송을 껐다. 2026-07-30부터 09-10까지
+`shoon.lee@sk.com`·`david.j@sk.com`으로 매 스캔 후 첨부 발송하던 것을 중단한다.
+- CLAUDE.md 워크플로 6번을 "중단됨"으로 개정 (스크립트는 존치, 요청 시 수동 실행).
+- 스케줄 작업 `daily-ai-radar-scan`의 SKILL.md 마무리 2번에서 발송 단계 제거,
+  완료 알림 본문의 "메일 발송 결과" 문구도 삭제.
+- 메모리 `daily-scan-mail-dispatch` 갱신 — 중단 사실과 수동 발송 시 유효한 주의사항 보존.
+`scripts/send-scan.mjs`·`package-scan.mjs`는 삭제하지 않았다. 전체 아카이브 발송
+(`send-archive.mjs`)은 원래 요청 시에만 도는 기능이라 이번 중단 대상이 아니다.
