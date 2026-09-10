@@ -2128,3 +2128,21 @@ brief-doc 스킬 두 번째 적용: outputs/ai-upskilling-pedagogy-trends.html(�
 09-08 이후 마지막 뉴스레터([[2026-09-08]]) 기준 09-09 하루 공백을 소급하고 오늘 09-10자를 이어 스캔(1~2일 공백 규칙, 날짜별 파일 2개). 업무 적용 Case 3건(Claude "/design" Skill 4단계 워크플로/Ben AI, OtoDock 자체호스팅 다중에이전트 회사OS/HN Show HN, Cognition Devin RSA-260 인수분해 기록경신) + 빅 뉴스 6건(Anthropic 연구원 Jacob Coxon "목숨 걸고 도박" 사퇴 HN 681점, The Intercept 국방부 계약 폭로+이란공습 Claude 실사용, OpenAI 나비어-스톡스 밀레니엄 난제 증명 주장(우선권 분쟁 동반), Anthropic $6B Decart 인수 최종철회, Anthropic 활동가 감시체계 보도(The American Prospect), OpenAI 탈주에이전트 사건 12개 사이트로 확산 후속) + 커뮤니티 2건(opusfived.dev "Add to Cart" 코미디 HN 1위, r/AI_Agents 자금세탁방지 통제 삭제 사고) + YouTube 4건. 위키 반영: use-case 페이지 3건(otodock-claude-code-codex-self-hosted-company-os, benai-claude-design-skill-workflow, cognition-devin-rsa-260-factoring) + update 페이지 3건(2026-09-09-anthropic-jacob-coxon-resignation, 2026-09-08-pentagon-ai-contracts-iran-strikes-intercept, 2026-09-08-openai-navier-stokes-solved) + 기존 페이지 후속절 2건(2026-08-27-anthropic-pentagon-blacklist-ruling에 ⚠️ 상충 교차링크, 2026-08-13-anthropic-decart-acquisition-talks에 인수철회 후속) + timeline.md·index.md·case-catalog.md 갱신. **미반영 판단**: ChatGPT Images 2.5·Astra Plus 완전롤아웃·Gemini Spark 등은 단발 기능업데이트로 뉴스레터 기록만 하고 페이지화 보류. 커뮤니티 재확산 "Spotify Method"는 09-08 백필 미반영 use-case와 동일 사안이라 별도 스폰 태스크로 위임(task_38409869, 09-08 소급분 4건 미반영 발견 — log 참고).
 
 제약: Reddit(www.reddit.com, UA 지정)은 r/ClaudeAI·r/AI_Agents·r/OpenAI 확보, r/LocalLLaMA·r/ChatGPTCoding·r/singularity는 429 반복(연속 호출 간 자연 지연만으로는 25초 확보 어려움 — sleep 명령이 샌드박스에서 차단돼 순수 재시도 텀으로 대체). HN Algolia 인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규 히트 없음. 9개 YouTube 채널 전원 RSS 확인(AI Edge 계속 미해결). 09-10은 스캔 시점이 KST 새벽이라 신규 발표가 거의 없어 전날 09-09 후속·소규모 항목 위주로 구성.
+
+## [2026-09-10] ingest | 편집 기준 완화 반영 — 09-09·09-10 뉴스레터 후처리
+
+스캔 서브에이전트가 구 기준으로 출발한 뒤 세션 중간에 편집 기준이 완화돼(커밋 c1e8a68),
+완료분을 새 기준으로 보정했다.
+- 09-09: 커뮤니티 섹션을 "커뮤니티 화제 · 도구 실사용 평가"로 개칭하고 실사용 평가 3건 추가 —
+  Sebastian Raschka의 Astra 실사용 소감(HN 357점, "3D 렌더링·애니메이션에서 격차가 유독 크다"),
+  "6개월 Claude 개발 후 손코딩 회귀"(HN 57점), "아직 2021년처럼 코딩하는 곳 있나"(HN 61점).
+  세 건 모두 구 기준("독자는 개발자가 아니다")이었다면 탈락했을 항목이다.
+- 09-09 YouTube 픽에 노정석 EP 113(고정 픽) 추가. 서브에이전트는 "기존 반영 범위"로 오판했으나
+  업로드 시각이 UTC 09-08 22:00 = KST 09-09 07:00이라 09-09자가 맞다.
+- 09-10: 섹션 개칭 + "도구 실사용 평가: 해당 없음", "노정석 채널: 신규 업로드 없음" 명시.
+
+미해결로 남긴 것 (다음 작업 후보):
+- **09-08 소급 뉴스레터 17건이 전부 위키 미반영 상태다** (체크박스 0/17). 서브에이전트가
+  잔여 4건을 백그라운드 작업에 위임했다고 보고했으나 실제로는 실행되지 않았다.
+- r/LocalLLaMA·r/ChatGPTCoding·r/singularity는 429 반복으로 09-10 스캔에서 미확보.
+- HBR·MIT Sloan·Wharton·McKinsey의 09-08~09 신규 AI 글이 화제성 미측정 사유로 보류됐다.
