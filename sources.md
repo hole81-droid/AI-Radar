@@ -368,7 +368,7 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 ### 한국어
 | 채널 | 핸들/URL | 주제 |
 |---|---|---|
-| AI Frontier Korea (노정석) | https://www.youtube.com/channel/UCz-BiVywYdO6iXhjXkw_Kgw (대체 핸들: @chester_roh — 같은 채널, 2026-08-07 확인) | 프론티어 모델·AI 산업 심층 (EP 단위 팟캐스트형) |
+| **AI Frontier Korea (노정석)** ★고정 픽 | https://www.youtube.com/channel/UCz-BiVywYdO6iXhjXkw_Kgw (대체 핸들: @chester_roh — 같은 채널, 2026-08-07 확인) | 프론티어 모델·AI 산업 심층 (EP 단위 팟캐스트형). **2026-09-10 사용자 지정: 눈높이 필터 예외 — 최근 3일 내 새 영상이 있으면 주제 난이도와 무관하게 반드시 YouTube 픽에 넣는다.** 과거 스캔이 "GPU·반도체 심층이라 일반 독자에게 무겁다"는 이유로 반복 보류한 전례가 있다(09-02). 어려운 대목은 빼지 말고 풀어 쓴다 |
 | 조코딩 JoCoding | https://www.youtube.com/@jocoding | AI·코딩 대중화 |
 | 장피엠 Jangpm | https://www.youtube.com/@jangpm | AI 활용·프로덕트 |
 | 지피터스 GPTers | https://www.youtube.com/@gpters | AI 활용 커뮤니티 |
@@ -389,6 +389,12 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 
 스캔 에이전트가 해결한 RSS URL을 여기 기록해 재사용한다 (토큰 절약).
 YouTube 형식: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`
+
+> **User-Agent 필수 (2026-09-10 실측)**: UA 없이 curl로 YouTube RSS를 치면 `HTTP 500 Server Error`가
+> 떨어진다. 브라우저 UA를 붙이면 정상(200). 즉 UA를 빠뜨린 스캔은 등록 채널 전체가 **조용히 0건**으로
+> 끝난다. 반드시 `-A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"`를 붙이고, 응답이 500이면
+> 실패로 기록하지 말고 UA를 붙여 재시도하라. (Reddit RSS의 UA와는 별개다 — 그쪽은
+> `ai-radar-wiki:v1.0 (personal knowledge base)`.)
 
 | 소스 | RSS URL |
 |---|---|
