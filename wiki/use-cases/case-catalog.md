@@ -35,11 +35,15 @@ uses: [course, ax]
 - [[perplexity-comet-vs-search-knowledge-work-scope]] — ★실측 벤치마크 케이스. Perplexity가 Comet(자율 에이전트, browser-agent)로 Search 대비 실사용 로그 10만 건을 비교 분석해 지식노동 범위 확장을 실측 → 세션당 자율작업시간 48배(33초→26분), 비교작업 시간87%·비용94%↓ (실측, HBS 연구진 분석)
 - [[theaxlabs-wikiskill-claude-code-memory-system]] — AX LABS가 Claude Code로 skills+second-brain(3계층 메모리: raw/wiki/skills)을 활용해 Google Research "WikiSkill" 논문 구조를 5단계 승인게이트 프롬프트로 이식 → 원논문 벤치마크 정확도 48.7%→63.7%, 적용 자체 효과는 미실측 (주장, 원논문은 실측)
 - [[cognition-devin-rsa-260-factoring]] — ★실측 벤치마크 케이스. Cognition이 Devin으로 cli-pipeline(다중 세션 오케스트레이션, 최대 18개 동시)을 활용해 GPU 가속 인수분해 소프트웨어 재작성을 수행 → 35년 묵은 RSA-260 인수분해 기록 경신, 비용 약 $400K로 기존 최고기록 대비 약 10배 저렴 (실측)
+- [[openai-internal-research-agents-acceleration]] — OpenAI가 Codex 등 코딩 에이전트(cli-pipeline)를 자사 연구조직 전체에 투입해 연구 코드 작성·실험 인프라·실패조사·모니터링을 가속 → 8월 중순 기준 에이전트 가동량이 사람 노동일의 3.1배, 연구원 1인당 하루 비용 중앙값 $600+·90th percentile $7,000+ (실측, 자사 공개)
 
 ## 개발 자동화 (dev-automation)
 
 - [[databricks-ai-gateway-coding-cost-management]] — Claude Code·Codex·Cursor로 자체 AI Gateway(cli-pipeline, 모델 라우팅+예산추적+하네스/캐싱 튜닝)를 활용해 사내 AI 코딩 에이전트 비용 관리를 수행 → 스마트 라우팅 평균비용 30%+↓, 토큰/캐싱 튜닝 약 50%↓ (실측, 단 HN 제목의 "70%"는 원문 미확인 수치)
 - [[agent-loops-daily-pr-review]] — Claude Code+Codex로 cron 루프+전담 서브에이전트를 활용해 일일 PR 전수 검토·주간 스킬 생성을 수행 → Firefox 한 달 423건 보안 수정 (주장)
+- [[spotify-shunt-model-routing-token-reduction]] — Claude Code(+Portal by Spotify "Shunt")로 hooks+skills+cli-pipeline 3계층 모델 라우팅을 활용해 대용량 파일 읽기·테스트/설정 코드 생성을 Gemini 2.5 Flash로 위임 → Java 모노레포 기준 토큰 평균 약 90% 절감 (실측, 자사 사례)
+- [[harness-of-harness-planner-developer-qa]] — Claude Code 서브에이전트·Codex 역할별 지시(subagents+cli-pipeline)로 Planner→Developer→QA 3역할 반복 루프를 구성해 장시간 자율 코딩의 회귀 재발·완료 오판을 방지 → 벤치마크 3종 평균 상대개선 52.25%(최대 82.86%) (원 논문 measured, 실무 이식 효과는 미실측)
+- [[danluu-agentic-testing-technique-benchmark]] — Codex(GPT-5.6 Sol)로 cli-pipeline+skills 26개 테스트기법·유명 스킬 4종을 조건별 80회씩 실행해 Zstd/IMAP 구현 정답률·비용을 실측 비교 → 무지시 기본값이 평균 이상, TDD·유명 스킬 대부분 저조, 이름만 던지는 지시로는 품질 개선 안 됨 (실측, 부정 결과)
 - [[claude-code-goal-routines-nightly-quality]] — Claude Code로 /goal+cron을 활용해 야간 코드 품질 점검·보고서 작성을 수행 → 완전 무인 정기 실행 (수치 미확인)
 - [[codex-automations-scheduled-maintenance]] — Codex Automations로 예약 실행+워크트리 격리를 활용해 정기 유지보수 업무를 수행 → 무인 반복 실행 (수치 미확인)
 - [[ktcloud-fe-team-claude-code-adoption]] — Claude Code로 Agent–Skill–Context–Loop 아키텍처를 활용해 FE팀 개발 프로세스 표준화를 수행 → 팀 단위 재현 가능 프로세스 (수치 미공개)

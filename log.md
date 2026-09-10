@@ -2146,3 +2146,28 @@ brief-doc 스킬 두 번째 적용: outputs/ai-upskilling-pedagogy-trends.html(�
   잔여 4건을 백그라운드 작업에 위임했다고 보고했으나 실제로는 실행되지 않았다.
 - r/LocalLLaMA·r/ChatGPTCoding·r/singularity는 429 반복으로 09-10 스캔에서 미확보.
 - HBR·MIT Sloan·Wharton·McKinsey의 09-08~09 신규 AI 글이 화제성 미측정 사유로 보류됐다.
+
+## [2026-09-10] ingest | 09-08 소급 뉴스레터 잔여 반영 (17건 전부 처리)
+
+09-08 소급 뉴스레터(09-03~09-08, 17건)가 뉴스레터 작성 단계에서 멈춰 체크박스 0/17 상태로
+남아 있던 것을 정식 위키 반영까지 완료했다.
+
+**신규 페이지 9개**:
+- use-case 4건: [[spotify-shunt-model-routing-token-reduction]](★실측 토큰90%↓) ·
+  [[openai-internal-research-agents-acceleration]](★실측 에이전트가동량 3.1배) ·
+  [[harness-of-harness-planner-developer-qa]](원논문 실측 상대개선52.25%, 이식은 주장) ·
+  [[danluu-agentic-testing-technique-benchmark]](★실측·부정결과 — 유명 테스트기법 대부분 저조)
+- update 3건: [[2026-09-04-openai-gpt-6-astra-launch]] · [[2026-09-04-anthropic-claude-fermat-last-theorem-proof]] ·
+  [[2026-09-04-openai-agents-hijacked-german-wiki]](⚠️ 상충 정리 — Reuters 보도 vs 커뮤니티 반박)
+- player 1건: [[mistral]] (신규 등록, 시리즈 D 30억 유로)
+- concept 1건: [[skill-file-management]] (HN 스킬 파일 관리법 토론, 커뮤니티 의견 명시)
+
+**페이지화 보류 1건**: OpenAI 수석과학자 Pachocki "An Alien Mind" 경고 — 1차 원문(openai.com)이
+반복 HTTP 403으로 대조 실패, 인물 발언 인용 규칙(2026-08-17)에 따라 페이지 미생성, 뉴스레터에
+보류 사유 명시.
+
+**페이지화하지 않은 4건**(원칙대로 뉴스레터에만 기록): "모델 피로" 보도(단발성, 이미
+[[openai-gpt-6-astra]]에 언급) · Astra 갈아타기 후기 · 9,400줄 PR 되돌리기 사연 · YouTube 픽 3건.
+
+index.md·case-catalog.md·timeline.md·wiki/tools/{claude-code,codex,chatgpt}.md·players 요약줄을
+관련분만 갱신, 09-08 뉴스레터 체크박스 17/17 [x] + 반영 페이지 상호링크 완료.

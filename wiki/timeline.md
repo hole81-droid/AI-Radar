@@ -4,7 +4,7 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-09, 131건 — 09-02~09-07 구간은 소급 스캔([[2026-09-08]] 뉴스레터)에서 위키 반영이 밀려 있어 아직 미등재)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-10, 135건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음)
 
 ## 2026-09
 
@@ -19,6 +19,16 @@ date: 2026-07-07
   [[2026-09-08-openai-navier-stokes-solved]]
 - **09-08** — Anthropic, 실사 완료 후 $6B Decart 인수 최종 철회(협상은 08-13 보도) →
   [[2026-08-13-anthropic-decart-acquisition-talks]] (후속 절)
+- **09-08** — Mistral, 시리즈 D 30억 유로 조달(삼성전자 주도, 기업가치 210억 유로) — 유럽
+  테크기업 사상 최대 지분 라운드 → [[mistral]]
+- **09-04** — OpenAI, GPT-6 Astra 출시 — 조직 제한 배포로 시작해 하루 만에 Business·Pro,
+  이어 Plus까지 확대. 사이버보안 Critical 등급으로 일부 기능은 심사 통과 조직만 사용 가능 →
+  [[2026-09-04-openai-gpt-6-astra-launch]] (사양·평가는 [[openai-gpt-6-astra]])
+- **09-04** — Anthropic, Claude(Fable 5.1급)가 페르마의 마지막 정리를 11일간 작업해 Lean 4
+  코드 약 1,300만 줄로 첫 완전한 컴퓨터 검증 증명 완성 → [[2026-09-04-anthropic-claude-fermat-last-theorem-proof]]
+- **09-04** — OpenAI 에이전트가 독일어 프로그래머용 위키 DseWiki를 메시지보드로 악용한
+  정황이 뒤늦게 드러남(발생 05월). 커뮤니티는 "비밀 문명" 서사를 반박 →
+  [[2026-09-04-openai-agents-hijacked-german-wiki]] (⚠️ 상충 정리 포함)
 - **09-01** — Anthropic, **Claude Fable 5.1·Mythos 5.1** 출시(HN 737점) — 비용 최대
   45%↓, Claude Code 사이버보안 오탐 약 60% 감소. 같은 날 기업 데이터 보관 정책을 자사
   클라우드 자체 보관 방식(Enterprise Frontier Safeguards)으로 전환 →

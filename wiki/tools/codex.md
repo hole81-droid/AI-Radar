@@ -44,6 +44,10 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **2026-06-29** — 첫 하드웨어 'Codex Micro' 티저 공개: Work Louder 협업 매크로 패드, 2026-07-15 정식 공개 예정. ([9to5Mac](https://9to5mac.com/2026/06/29/openai-teases-codex-branded-hardware-collaboration-coming-heres-what-to-expect/)) → [[2026-06-29-openai-codex-micro-hardware]]
 - **2026-07-15** — 'Codex Micro' 실제 출시: $230, Agent Keys·Command Keys·조이스틱·추론량 조절 다이얼 탑재. Apple의 영업비밀 소송 와중의 발매. ([TechCrunch](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/)) → [[2026-07-15-openai-codex-micro-launch]]
 - **2026-07-29** — 실시간 양방향 음성 대화 GPT-Live가 Codex·ChatGPT 데스크톱 코딩 작업까지 확장 — 음성으로 다중 코딩 작업 지시·PR 리뷰·디버깅 가능, macOS "Screen context"로 화면 공유. → [[2026-07-29-openai-gpt-live-codex-voice]]
+- **2026-09-04** — **GPT-6 Astra** 출시, Codex는 이전 대화 맥락을 요약·압축 없이 그대로 검색 가능해짐 → [[2026-09-04-openai-gpt-6-astra-launch]]
+- **2026-09-06** — OpenAI가 Codex 등 코딩 에이전트를 자사 연구조직 전체에 투입한 사용량·비용 데이터를 처음 공개(에이전트 가동량 사람의 3.1배) → [[openai-internal-research-agents-acceleration]]
+- **2026-09-07** — Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Codex 역할별 지시로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
+- **2026-09-08** — Dan Luu, Codex(GPT-5.6 Sol)로 26개 테스트 기법·유명 스킬 4종의 실제 효과를 실측 — 대부분 기대만큼 작동하지 않는다는 부정 결과 → [[danluu-agentic-testing-technique-benchmark]]
 
 ## 요금제
 

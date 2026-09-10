@@ -62,6 +62,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-07-10** — GPT-5.6 Sol Ultra, 64개 서브에이전트로 50년 미해결 수학 난제 증명 발표(동료검토 전) → [[gpt-5-6-sol-ultra-math-proof-subagents]]
 - **2026-07-29** — "ChatGPT for Academic Researchers" 출시 — $250M 규모, 1만 명으로 시작해 2027년까지 연구자 10만 명에게 프론티어 모델·확장 Deep Research 무료 제공 → [[2026-07-29-openai-chatgpt-academic-researchers]]
 - **2026-07-30** — GPT-5.6 Luna 80%·Terra 20% 가격 인하, DeepSeek 대비 가격경쟁력 강조(Sol은 인하 제외) → [[2026-07-09-openai-gpt-5-6-launch]]
+- **2026-09-04** — **GPT-6 Astra** 출시, 조직 제한→Business/Pro→Plus 순 단계 확대. 사이버보안 Critical 등급으로 일부 기능은 심사 통과 조직만 사용 가능 → [[2026-09-04-openai-gpt-6-astra-launch]] (사양·개발자 실사용 평가는 [[openai-gpt-6-astra]])
 
 ## 활용 포인트
 

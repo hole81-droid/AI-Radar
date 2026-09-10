@@ -54,6 +54,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-08-11**: EU AI Act 대응으로 Claude Code 출력물에도 **AI 생성 워터마크**가 적용되기 시작 — 텍스트는 비가시 워터마크, 이미지 파일은 C2PA 서명 메타데이터. 8/2 이후 신규 모델은 출시 시점부터, 이전 모델은 소급 적용 진행 중. → [[2026-08-11-anthropic-ai-content-watermarking]]
 - **2026-08-31**: Pro·Max·Team·좌석형 Enterprise 표준 주간 사용한도를 09-14부터 25% 영구 인상 발표 — 그런데 현재는 일시 50% 증량 프로모션 중이라, 지금 쓰는 양 대비로는 **17% 감소**로 체감. Anthropic도 이를 인정. → [[2026-08-31-claude-code-weekly-limit-change]]
 - **2026-09-01**: **Claude Fable 5.1·Mythos 5.1** 출시(HN 737점) — 코딩·지식노동 성능 향상, 비용 최대 45%↓, Claude Code 사이버보안 오탐 약 60% 감소. 같은 날 기업용 데이터 보관 정책을 자사 클라우드 자체 보관 방식(Enterprise Frontier Safeguards)으로 전환. → [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]
+- **2026-09-03**: Spotify가 사내 플러그인 "Shunt"로 대용량 작업을 저비용 모델(Gemini 2.5 Flash)에 라우팅해 Java 모노레포 기준 Claude Code 토큰 사용량을 약 90% 절감했다고 공개 → [[spotify-shunt-model-routing-token-reduction]]
+- **2026-09-07**: Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Claude Code 서브에이전트 정의로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
 
 ## 경쟁 구도
 
