@@ -2182,3 +2182,33 @@ index.md·case-catalog.md·timeline.md·wiki/tools/{claude-code,codex,chatgpt}.m
 - 메모리 `daily-scan-mail-dispatch` 갱신 — 중단 사실과 수동 발송 시 유효한 주의사항 보존.
 `scripts/send-scan.mjs`·`package-scan.mjs`는 삭제하지 않았다. 전체 아카이브 발송
 (`send-archive.mjs`)은 원래 요청 시에만 도는 기능이라 이번 중단 대상이 아니다.
+
+## [2026-09-10] ingest | 경영·교육·L&D 소급 백필 (05-01~07-14) | 반영 40건
+
+Insight 7월호(05~06월)·8월호(07월) 작성 중, 5~6월 재료가 도구 뉴스 위주이고 경영·교육·L&D가
+비어 있다는 것을 확인했다(해당 소스들이 07-15·07-01 이후만 백필돼 있었음). 사용자 지시로 이
+구간을 채웠다. 소스가 겹치지 않게 4갈래 병렬 + 잔여 후보 2차 패스.
+
+| 갈래 | 소스 | 기간 | 신규 |
+|---|---|---|---|
+| L&D | Josh Bersin · Harvard Business Impact · 연간 L&D 리포트 · 국내 기업 AI 교육 보도 | 05-01~06-30 | 5 |
+| 경영 매체 | MIT Sloan 7 · HBR 2 · McKinsey 1 · Wharton 0 | 05-01~07-14 | 10 |
+| 뉴스레터 | Hardman 5 · AI as Normal Technology 3 · Mollick 2 · Exponential View 1 (일부 합본) | 05-01~07-14 | 10 |
+| 교육 매체 | EdSurge 5 · Class Central 0 | 05-01~07-14 | 5 |
+| 2차 패스 | HBR 5 · Mollick 2 · Hardman 전달 NBER 연구 1 · normaltech 1 · Exponential View 1 | 05-01~07-14 | 10 |
+
+- 유형: use-case 6 · update 1 · concept 33. 주제 분류: ① 대부분, ② Hardman L&D 계열·AI 튜터 학습효과 계열, ③ 2건(학교 정책).
+- 핵심 수확: [[bank-of-america-academy-ai-upskilling-200k]], [[mckinsey-entry-level-redesign-answer-key-model]],
+  [[ld-delegate-collaborate-own-framework]], [[ld-apprenticeship-problem-ai-era]],
+  [[ai-coding-bottleneck-shifts-review-not-writing]](NBER 원 논문 대조), [[gemini-guided-learning-sierra-leone-rct]](RCT N=1,763),
+  [[2026-06-25-kyndryl-people-readiness-report]], [[psychological-debt-ai-adoption-resistance]].
+- 중복 판정으로 미생성: HBI 06월 말 4건(2026 Global Leadership Study 재포장), HBR 2건(기존 페이지 존재),
+  HBR "Should You Treat AI Like a Teammate?"(편집장 기획물 + `ai-agents-are-not-employees`와 같은 계열), EdSurge 4건.
+- 에이전트 간 교차 링크 누락 4묶음(AI 튜터 학습효과 / 초급 직무·도제식 학습 / AI ROI 측정 / 에이전트 거버넌스)을
+  통합 단계에서 연결했다.
+- 과거 구간 접근법(MIT Sloan 토픽 목록 페이징, Substack archive offset, EdSurge Wayback CDX,
+  Class Central RSS 정정, L&D 연간 리포트 발표 시기)은 sources.md에 기록.
+- **처리하지 않은 후보**(우선순위 낮아 여기서 종료): Hardman "From Asking to Orchestrating"(07-02)·"Build Your Own
+  AI Tech Stack"(05-14), Exponential View #578·#574·#573·Data roundup(07-13), McKinsey "Scaling and Value Capture"(05-07),
+  McKinsey "Redefine AI Upskilling as a Change Imperative"(발행일 미확인), HBR "Leading the Human-AI Organization"(자체 기획물, ③).
+- raw/ 저장은 이전 경영·교육 백필과 같이 생략.

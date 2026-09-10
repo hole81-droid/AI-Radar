@@ -36,6 +36,7 @@ uses: [course, ax]
 - [[theaxlabs-wikiskill-claude-code-memory-system]] — AX LABS가 Claude Code로 skills+second-brain(3계층 메모리: raw/wiki/skills)을 활용해 Google Research "WikiSkill" 논문 구조를 5단계 승인게이트 프롬프트로 이식 → 원논문 벤치마크 정확도 48.7%→63.7%, 적용 자체 효과는 미실측 (주장, 원논문은 실측)
 - [[cognition-devin-rsa-260-factoring]] — ★실측 벤치마크 케이스. Cognition이 Devin으로 cli-pipeline(다중 세션 오케스트레이션, 최대 18개 동시)을 활용해 GPU 가속 인수분해 소프트웨어 재작성을 수행 → 35년 묵은 RSA-260 인수분해 기록 경신, 비용 약 $400K로 기존 최고기록 대비 약 10배 저렴 (실측)
 - [[openai-internal-research-agents-acceleration]] — OpenAI가 Codex 등 코딩 에이전트(cli-pipeline)를 자사 연구조직 전체에 투입해 연구 코드 작성·실험 인프라·실패조사·모니터링을 가속 → 8월 중순 기준 에이전트 가동량이 사람 노동일의 3.1배, 연구원 1인당 하루 비용 중앙값 $600+·90th percentile $7,000+ (실측, 자사 공개)
+- [[mollick-mythos-fable-isochrone-map-research]] — Ethan Mollick이 Claude Code(Fable, Mythos급)로 vibe-coding과 서브에이전트 위임을 활용해 연구 집약적 소프트웨어(등시선 지도·통계 보정 도구)를 제작 → 수 시간 자율 실행으로 완성, 통제 방식이 "조종"에서 "위탁"으로 이동 (일화, 저자 본인 체험)
 
 ## 개발 자동화 (dev-automation)
 
@@ -333,3 +334,5 @@ Google Research "WikiSkill" 논문의 raw/wiki/skills 3계층 구조를 Claude C
 [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]] update 페이지로, Wharton의 AI
 인프라지출 vs 생산성 2.7배 분석은 [[ai-capex-productivity-gap]] concept 페이지로
 반영했다.*
+
+*2026-09-10 추가(104건, 경영·교육·L&D 소급 백필 05-01~07-14): [[bank-of-america-academy-ai-upskilling-200k]](hr) · [[cornerstone-workforce-ai-platform]](hr) · [[caterpillar-helios-ceo-led-data-platform]](ops) · [[gemini-guided-learning-sierra-leone-rct]](education, 실측 RCT) · [[edsurge-teacher-ai-grading-review-dashboard]](education) · [[mollick-mythos-fable-isochrone-map-research]](research). 같은 백필의 나머지 34건은 수치 없는 프레임·연구 해설이라 use-case가 아닌 concept 페이지로 반영했다.*
