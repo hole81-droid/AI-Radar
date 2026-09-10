@@ -46,5 +46,5 @@ h4{margin:18pt 0 8pt}
 ul.plain{font-size:9.6pt}ul.plain li{margin-bottom:7pt}
 .foot{margin-top:22pt;font-size:8.5pt}
 
-/* 선택형(2026-09-10): 참고 섹션을 새 쪽으로 강제하지 않고 이어 붙인다. 앞 쪽에 판단 요청 박스만 덩그러니 남는 호에서만 화면판 section에 flow-in 클래스를 붙여 켠다. 클래스가 없는 호(9월호)는 영향 없음 */
-.aside-sec.flow-in{break-before:auto;margin-top:22pt}
+/* 선택형(2026-09-10): 섹션(2부·참고 등)을 새 쪽으로 강제하지 않고 앞 내용에 이어 붙인다. 앞 쪽에 근거 몇 건이나 판단 요청 박스만 덩그러니 남는 호에서만 화면판 section에 flow-in 클래스를 붙여 켠다. 클래스가 없는 호(9월호)는 영향 없음 */
+section.flow-in{break-before:auto;margin-top:22pt}
