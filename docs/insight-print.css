@@ -45,3 +45,6 @@ h4{margin:18pt 0 8pt}
 .howto{font-size:9pt;padding:12pt 14pt}
 ul.plain{font-size:9.6pt}ul.plain li{margin-bottom:7pt}
 .foot{margin-top:22pt;font-size:8.5pt}
+
+/* 선택형(2026-09-10): 참고 섹션을 새 쪽으로 강제하지 않고 이어 붙인다. 앞 쪽에 판단 요청 박스만 덩그러니 남는 호에서만 화면판 section에 flow-in 클래스를 붙여 켠다. 클래스가 없는 호(9월호)는 영향 없음 */
+.aside-sec.flow-in{break-before:auto;margin-top:22pt}
