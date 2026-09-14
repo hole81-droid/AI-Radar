@@ -65,6 +65,19 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
   제기했다 — OpenAI와 수학계 사이에 학습 데이터 출처를 둘러싼 신뢰 공백이 있다는
   지적이다.
 
+## 09-12 후속: 필즈메달 25명 공개서한 — "발표 관행이 수학 연구 문화를 훼손한다"
+
+- OpenAI가 Buckmaster에게 "공동 논문에서 OpenAI 모델이 문제를 풀었다고 인정하면
+  합병 발표를 진행하자"고 제안했다는 사실이 추가로 확인됐다. 다만 이 제안에는
+  **Alpöge(Anthropic 소속)를 공저자에서 제외**하는 조건이 붙어 있었다 — Buckmaster는
+  이 조건에 격분해 제안을 공개 거부하고 반박에 나섰다.
+- **필즈메달 수상자 25명이 공개서한에 서명**, AI 랩들의 최근 발표 관행(독립검증이
+  끝나기 전 발표, 결과가 나온 바로 그 주말에 발표하는 관행 등)이 수학 연구 문화 자체를
+  훼손하고 있다고 비판했다. "결과가 발표된 주말 안에는 독립검증이 불가능하다"는 점이
+  핵심 우려로 지목됐다.
+- 학계 최고 권위자 집단의 공개서한이라는 점에서, 이번 사건은 단순한 우선권 분쟁을
+  넘어 "AI 기업의 연구 성과 발표 방식 자체"에 대한 제도적 반발로 확대됐다.
+
 ## 출처
 
 - [OpenAI — On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)
@@ -74,3 +87,5 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
 - [Quanta Magazine — AI Has Solved One of Math's $1 Million Millennium Prize Problems](https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/)
 - [Axios — OpenAI's historic math solution overshadowed by credit controversy](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)
 - [Science (AAAS) — How an AI math breakthrough ignited a controversy](https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy)
+- [The Economist — Top mathematicians are outraged by OpenAI's methods](https://news.ycombinator.com/item?id=49662698) (원문 페이월, HN 94점 스레드로 교차확인)
+- [Understanding AI — OpenAI spent millions to solve this famous math problem — mathematicians are furious](https://www.understandingai.org/p/openai-spent-millions-to-solve-this)

@@ -40,6 +40,7 @@ uses: [course, ax]
 
 ## 개발 자동화 (dev-automation)
 
+- [[firecrawl-ai-software-factory-pipeline]] — Claude Code·Codex로 5단계 파이프라인(Intake-Isolation-Tools-Verification-Merge Gate)을 활용해 코딩 에이전트의 PR 생성·검증·병합 전 과정을 수행 → Stripe 주당 1,300+PR, Shopify 30일 3,536PR, MS 878PR(에이전트 PR 병합률 67.9% vs 인간 87.1%, 실측·다중 기업 종합)
 - [[databricks-ai-gateway-coding-cost-management]] — Claude Code·Codex·Cursor로 자체 AI Gateway(cli-pipeline, 모델 라우팅+예산추적+하네스/캐싱 튜닝)를 활용해 사내 AI 코딩 에이전트 비용 관리를 수행 → 스마트 라우팅 평균비용 30%+↓, 토큰/캐싱 튜닝 약 50%↓ (실측, 단 HN 제목의 "70%"는 원문 미확인 수치)
 - [[agent-loops-daily-pr-review]] — Claude Code+Codex로 cron 루프+전담 서브에이전트를 활용해 일일 PR 전수 검토·주간 스킬 생성을 수행 → Firefox 한 달 423건 보안 수정 (주장)
 - [[spotify-shunt-model-routing-token-reduction]] — Claude Code(+Portal by Spotify "Shunt")로 hooks+skills+cli-pipeline 3계층 모델 라우팅을 활용해 대용량 파일 읽기·테스트/설정 코드 생성을 Gemini 2.5 Flash로 위임 → Java 모노레포 기준 토큰 평균 약 90% 절감 (실측, 자사 사례)

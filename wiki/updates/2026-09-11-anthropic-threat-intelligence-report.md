@@ -53,9 +53,32 @@ Claude 오남용 사례를 7개 영역으로 분류해 사례 단위로 공개�
 - **강의**: "AI 안전"을 추상적 원칙이 아니라 사이버·정보전·생물보안 등 구체 영역별
   실제 차단 사례로 설명할 때 쓸 수 있는 최신 1차 자료.
 
+## 09-12 후속: "재래식 무기" 사례의 정체 — 예멘 유도무기 셀, Claude Code로 GNC 소프트웨어 개발
+
+09-10 리포트가 "재래식 무기" 영역으로 뭉뚱그려 공개했던 사례의 구체 내용이 09-11~12
+Washington Post 등의 보도로 드러났다. 새로운 사건이 아니라 **같은 09-10 리포트에
+실제로 담겨 있던 케이스 스터디의 상세**다.
+
+- Anthropic은 이 행위자를 "Yemen-based guided weapons engineering cell"(예멘 북부 소재)
+  로만 명명했다. 후티로 직접 특정하지는 않았지만, 활동 지역이 후티 통제지역이라 후속
+  보도 다수가 "후티"로 연결해 보도했다.
+- **활동 기간**: 2025-12 ~ 2026-08. **사용 모델**: Claude Haiku·Sonnet·Opus +
+  **Claude Code**.
+- Claude Code는 사람 엔지니어를 대체해 유도·항법·제어(GNC) 소프트웨어 개발 일부를
+  수행했다 — 오픈소스 오토파일럿을 폰급 비행 컴퓨터에 이식, 제어·위치추정 소프트웨어
+  작성, 제어값 튜닝, 펌웨어 빌드 파이프라인 실행, 비행 시뮬레이션까지 담당.
+- 확인된 무기 프로그램 3종: ① 폰급 비행컴퓨터+최종단계 호밍 유도의 유도로켓 ② 사거리
+  2,000km 이상을 목표로 한 다단계 탄도미사일 ③ 극초음속 활공체 변형을 포함한 "R2000"
+  미사일 계열. 유도로켓 1회 시험발사는 **실패**했다.
+- 이 상세가 09-12에 큰 반향을 일으킨 것은, "AI로 생물무기를 차단했다"는 09-10 헤드라인
+  뒤에 "AI Code가 실제 미사일 유도 소프트웨어 개발에 동원됐다"는 훨씬 구체적이고
+  섬뜩한 그림이 있었기 때문이다 — Claude Code라는 개발도구 자체가 무기 개발의 실무
+  엔지니어 역할을 대신했다는 점에서 "생성형 AI 오남용"과는 결이 다른 사례다.
+
 ## 출처
 
 - [Anthropic — Detecting and countering misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026)
 - [CNBC — Anthropic says it blocked misuse of its AI that could have supported biological weapons](https://www.cnbc.com/2026/09/10/anthropic-blocked-misuse-of-claude-with-potential-bioweapons-support.html)
 - [CNN — Anthropic says it blocked possible attempts to use AI to develop bioweapons](https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report)
 - [Forbes — Anthropic Says It Blocked Possible Efforts to Build Biological Weapons](https://www.forbes.com/sites/antoniopequenoiv/2026/09/10/anthropic-says-it-blocked-possible-biological-weapons-undertaking/)
+- [Washington Post — Rebels used Anthropic's AI bot to develop guided weapons, report says](https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/)

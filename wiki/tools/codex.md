@@ -60,6 +60,8 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 
 ## 활용 포인트
 
+- 산업 수렴 패턴(09-12): Stripe·Shopify·Spotify·Microsoft·Airbnb 등이 Claude Code·Codex를 "Intake→Isolation→Tools→Verification→Merge Gate" 5단계 파이프라인으로 공통 수렴 — Stripe 주당 1,300+PR, Shopify 30일 3,536PR 실측. MS 데이터는 에이전트 PR 병합률(67.9%)이 사람(87.1%)보다 낮다는 반대 근거도 함께 제시. → [[firecrawl-ai-software-factory-pipeline]]
+
 - **학습과정**: CLI→IDE→앱→클라우드로 이어지는 표면별 실습 설계가 가능하며, Free 요금제에도 포함되어 수강생 진입 장벽이 낮다. Claude Code 마이그레이션 플로가 있어 타 도구 사용자 대상 비교 실습에도 적합.
 - **기업 도입(AX)**: Amazon Bedrock 통합·access token·크레딧 기반 과금으로 거버넌스와 비용 통제가 가능해졌고, Computer Use·자동화·Record & Replay로 코딩 외 업무 자동화까지 도입 범위가 확장되고 있다.
 - **2026-08-15 사례**: `/goal` 장기 실행 루프+비차단 개입 명령(`/btw`/`/side`)+빔서치 탐색 전략으로 GPU 커널을 232배 가속한 개인 프로젝트 — 장시간 무인 루프 설계의 실측 벤치마크 사례. → [[codex-gpu-kernel-232x-autoresearch]]

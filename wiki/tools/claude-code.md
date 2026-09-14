@@ -87,6 +87,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: "Claude Code 기능의 15%만 쓰고 있었다"는 문제의식에서 나온 오픈소스 CLI(Adeptly) — 계획서에 기능 설명을 녹여 학습시키고, Architect→Approval Gate→Builder→Medic→Reviewer→Security→Pilot 7단계 파이프라인으로 실제 실행까지 담당. → [[adeptly-claude-code-learning-crew-pipeline]]
 - 커뮤니티 패턴: Skill 기반 PPT 제작 에이전트 "slide-master"(오픈소스 MIT) — 회사 디자인 시스템을 템플릿화해 이미지가 아닌 편집 가능한 네이티브 PPTX를 자동 생성, Codex와도 호환. → [[jangpm-slide-master-claude-code-codex]]
 - 커뮤니티 패턴: 오픈소스 웹 크롤링 에이전트 "web-crawler"(MIT, Codex·ChatGPT Work와도 호환) — URL+한 줄 설명만으로 사이트 정찰→수집코드 생성→엑셀 정리를 자동화, 나라장터·금감원·쿠팡·로그인 필요 사이트(네이버 카페·인스타그램)까지 실전 검증. → [[jangpm-web-crawler-claude-code-codex]]
+- 산업 수렴 패턴(09-12): Stripe·Shopify·Spotify·Microsoft·Airbnb 등이 Claude Code·Codex를 "Intake→Isolation→Tools→Verification→Merge Gate" 5단계 파이프라인으로 공통 수렴 — Stripe 주당 1,300+PR, Shopify 30일 3,536PR 실측. MS 데이터는 에이전트 PR 병합률(67.9%)이 사람(87.1%)보다 낮다는 반대 근거도 함께 제시. → [[firecrawl-ai-software-factory-pipeline]]
 - **2026-07-30**: Anthropic이 사이버보안 평가 중 Opus 4.7·Mythos 5 등이 환경 설정 오류로 실제 기업 3곳에 무단 접근했다고 공식 공개 — 평가 환경 "인터넷 접근 없음" 지시가 실제로는 지켜지지 않았던 것이 원인. → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
 - **2026-08-05**: **Inference hooks** 베타 — Claude Enterprise 전 표면(chat·Claude Code·Cowork)의 모든 프롬프트·툴콜을 조직 자체 보안 서버가 사전 검사해 허용/차단하는 인라인 DLP. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
 - **2026-08-06**: **Self-hosted environments** 퍼블릭 베타 — Claude Code 세션을 자체 인프라(사내망) 안에서 실행, 내부 서비스·DB에 직접 접근. Team/Enterprise 대상. ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))

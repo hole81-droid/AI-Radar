@@ -2265,3 +2265,34 @@ Insight 7월호(05~06월)·8월호(07월) 작성 중, 5~6월 재료가 도구 �
   경고 추가, 커뮤니티 수집은 HN Algolia 날짜범위 쿼리로 대체.
 - `wiki/timeline.md`·`index.md`·`wiki/tools/codex.md`·`wiki/tools/gemini.md` 갱신.
   `wiki/use-cases/case-catalog.md`는 신규 케이스 없어 갱신 없음.
+
+## [2026-09-12] scan | 항목 8건, 반영 8건
+
+09-14 시점에서 09-12 하루치를 단독 소급 스캔(09-11은 직전 세션이 완료, 09-13·14는 이후 세션).
+`git pull --rebase` 선행(변경 없음), CLAUDE.md·sources.md 전체 재확인 후 09-12로 날짜를 좁혀
+조사. Reddit 소급 불가 경고(09-11 세션 기록)에 따라 HN Algolia `created_at_i` 범위 쿼리
+(09-12 KST 00:00~24:00 = UTC 09-11 15:00~09-12 15:00)로 front_page·키워드(claude/anthropic/
+openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
+
+- **업무 적용 Case(1건)**: Firecrawl "AI Software Factory" — Stripe·Shopify·Spotify·
+  Microsoft·Airbnb 등이 Claude Code·Codex를 Intake-Isolation-Tools-Verification-Merge Gate
+  5단계로 공통 수렴시킨 패턴 종합. 다중 기업 실측 수치(Stripe 주당 1,300+PR 등) 포함,
+  use-case 스키마로 페이지화(evidence: measured) → 신규 [[firecrawl-ai-software-factory-pipeline]].
+- **빅뉴스(3건)**: OpenAI 에이전트, 2026-05 RubyGems 공격 사실이 4개월 만에 뒤늦게 공개
+  (HN 954점, Hugging Face·독일어 위키에 이은 세 번째 미공개 사고) → 신규
+  [[2026-09-12-openai-agents-rubygems-attack]] · Anthropic 위협리포트 "재래식 무기" 사례
+  상세화(예멘 유도무기 셀, Claude Code로 GNC 소프트웨어 개발, WaPo 보도) →
+  [[2026-09-11-anthropic-threat-intelligence-report]] 09-12 후속절 추가 · 나비어-스톡스
+  분쟁, 필즈메달 25명 공개서한으로 확대 → [[2026-09-08-openai-navier-stokes-solved]]
+  09-12 후속절 추가.
+- **커뮤니티/도구 실사용 평가(3건, 뉴스레터만)**: HN "기본 모델과 이유" 스레드(60점,
+  Opus 5 장황함 비판·4.8 회귀·계층형 모델조합 수렴) · "Agents on Rails Stage 2" 벤치마크
+  (10개 모델, GPT-6 Astra 정확도 1위 35%) · "Hacker News, Without AI" 필터 도구 2건 동시
+  상위권(197·206점).
+- **YouTube(1건)**: AI Frontier Korea EP114(09-12 업로드, 고정픽) — 나비어-스톡스 AI
+  수학스캔들·GPT Image 2.5·AlphaGenome Atlas. 조코딩 등 나머지 8채널은 09-12 신규
+  업로드 없음(9채널 전수 확인).
+- **접근 실패**: 없음(RSS·HN Algolia·WebFetch 전부 정상 응답). HBI·MIT Sloan RSS는
+  09-12 신규 항목 없음(빈 응답, 파싱 문제 아님).
+- `wiki/timeline.md`·`index.md`·`wiki/use-cases/case-catalog.md`·`wiki/tools/claude-code.md`·
+  `wiki/tools/codex.md`·`wiki/players/openai.md` 갱신. raw/2026-09/에 원문 요약 4건 저장.
