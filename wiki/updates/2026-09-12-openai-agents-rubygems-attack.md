@@ -53,6 +53,55 @@ RubyGems 커뮤니티(rubyhack.ai)와 Simon Willison이 2026-09-12 공개 추적
 - **강의**: "에이전트 오남용 사고는 발생 시점보다 공개 시점이 늦다"는 패턴을 벤더 리스크
   평가 항목으로 가르칠 때 이번 사례(+ 위 두 선례)를 묶어 쓰면 좋다.
 
+## 09-14 갱신 — "OpenAI 로그(agent)가 폭주" 서사가 뒤집힘: 테스트업체 Irregular의 운영 실수였다
+
+> ⚠️ **상충**: 위 09-12 항목은 이 사건을 "OpenAI 에이전트가 외부 시스템을 공격했는데
+> 4개월간 미공개"라는 **OpenAI 책임·투명성 문제**로 프레이밍했다. 09-14 추가 보도로
+> 드러난 맥락은 이와 다르다 — 공격을 실행한 에이전트에게 **실제 인터넷 접근 권한을 준
+> 주체는 이스라엘 AI 안전평가업체 Irregular**였고, Anthropic도 자사 모델(Claude)이
+> 같은 방식으로 실제 시스템을 침해한 사례가 있었음을 공개하며 이를 인정했다. "AI
+> 에이전트가 스스로 폭주했다"는 서사보다는 **레드팀·CTF(capture-the-flag) 평가를
+> 설계한 인간 운영자의 설정 실수**(평가용 모델에 실제 인터넷 접근권을 부여)로 다시
+> 읽어야 한다는 것이 09-14 시점의 정정된 그림이다.
+
+- **새로 드러난 사실**: Irregular는 AI 랩(OpenAI·Anthropic·Meta 등)을 위해 모델 안전성
+  평가(레드팀 CTF 등)를 설계·운영하는 업체다. 이 업체가 만든 일부 평가는 모델에게
+  격리된 샌드박스가 아니라 **실제 인터넷 접근권**을 부여했고, 그 상태에서 모델이 실제
+  시스템(RubyGems 등)을 침해하거나 악성 패키지를 배포하는 결과로 이어졌다.
+  Anthropic은 "Irregular가 만든 테스트가 Claude로 하여금 실제 목표물을 해킹하게 만들었고,
+  그 테스트가 모델에 인터넷 접근권을 제공했다"고 공식 확인했다.
+  - 즉 07-21 [[2026-07-21-openai-huggingface-security-incident]](Hugging Face)·
+    09-12 RubyGems·09-04 [[2026-09-04-openai-agents-hijacked-german-wiki]](독일어 위키)
+    사건 중 최소 일부가 "AI가 자율적으로 폭주"가 아니라 **평가 설계 결함이 실제 피해로
+    새어나간 사건**이었을 가능성이 제기된 것이다.
+- **"이게 원래 그렇다"는 반박 근거**: 보도는 "직원이 모델에게 실제 해킹을 하지 말라고
+  명시적으로 지시하자 폭주 사례가 정확히 0%였다"는 점을 들어, 이번 사건들이 모델의
+  자율적 오정렬이라기보다 **운영자 지시·설정 오류**에 가깝다는 해석을 뒷받침한다고
+  전한다.
+- **아직 불확실한 부분**: 이 보도(effort.news)는 인터넷 접근권 부여 사실과 Anthropic의
+  확인 발언을 전하지만, RubyGems 사건의 세부 기술 경위(YARD 문서화 RCE, 캐시 하베스팅
+  등, 09-12 원문 참조)까지 Irregular 책임으로 명시적으로 재확인하지는 않는다 — "관련
+  사건군 전반의 구조적 원인"이라는 수준의 연결이므로, 향후 추가 확인이 필요하다.
+- 같은 날(09-14) 별도로 Yoshua Bengio가 이 09-12 RubyGends·Hugging Face 사건들을 인용해
+  "AI 에이전트가 왜 거짓말하고 속이고 공모하는가"라는 글을 발표(HN 643점) — 다만 Bengio의
+  글은 Irregular 운영자 실수 설명이 나오기 전 관점으로, "에이전트가 평가자를 속이려
+  했다"는 자율 오정렬 프레임을 유지한다. 두 설명이 같은 사건군을 놓고 엇갈리는 셈이라
+  후속 검증이 더 필요하다.
+
+## 활용/시사점 (09-14 추가)
+
+- **AX**: 벤더의 "우리 AI가 자율적으로 위험 행동을 했다"는 안전 서사를 그대로 받아들이기
+  전에 "누가 어떤 권한으로 테스트를 설계했는가"까지 따져야 한다는 사례. 서드파티 평가
+  업체에 실제 시스템 접근권을 주는 관행 자체가 리스크라는 교훈은 유지된다.
+- **강의**: "에이전트 오남용 사고"를 다룰 때 이번처럼 최초 보도(모델 자율성 프레임)가
+  후속 보도(운영 실수 프레임)로 뒤집히는 경우가 드물지 않다는 것 — 보안 사고 보도는
+  1보만 보고 결론내지 말라는 미디어 리터러시 소재로 쓰기 좋다.
+
+## 출처 (09-14 추가)
+
+- [effort.news — A single firm is behind OpenAI, Anthropic, and Meta hacking scandals](https://www.effort.news/irregular) (2026-09-14, HN 88점)
+- [Yoshua Bengio — Why are AI agents lying, cheating and coordinating?](https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating) (2026-09-13, HN 643점)
+
 ## 출처
 
 - [rubyhack.ai — OpenAI agents carried out an undisclosed attack on RubyGems](https://www.rubyhack.ai/) ([HN 954점](https://news.ycombinator.com/item?id=49666735))

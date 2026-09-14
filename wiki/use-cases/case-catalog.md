@@ -104,6 +104,7 @@ uses: [course, ax]
 - [[ploy-opus-to-gpt-5-6-migration]] — ★실측 벤치마크 케이스. 자체 에이전트 하네스(cli-pipeline)로 도구 스키마 재설계+워크스페이스 프롬프트 캐싱을 활용해 Opus 4.8→GPT-5.6 Sol 모델 마이그레이션을 수행 → 완료시간 2.2배 단축·비용 27%↓·출력토큰 48%↓ (실측)
 - [[benai-claude-skills-marketing-automation]] — Claude Code로 Skills+플러그인 마켓플레이스 배포 구조(단일 소스+부서별 자동 동기화)를 활용해 마케팅 업무 11종(SEO 감사·이메일 시퀀스·LinkedIn·뉴스레터 등)을 수행 → 상시 재사용 체계 구축 (주장, 정량 성과 미확인)
 - [[claude-code-seo-manager-mcp-dashboard]] — Claude Code로 MCP 서버+GitHub Actions 크론+헤드리스 컨테이너(mcp+cron-routines+cli-pipeline)를 활용해 SEO 키워드 리서치·콘텐츠 자동 발행·순위 모니터링을 수행 → 오픈소스(AGPL-3.0) 대시보드로 상시 자동 운영 (주장, 정량 성과 미확인)
+- [[reddit-jewellery-ai-video-ads-pipeline]] — 3종 AI 영상 도구(Pixverse·Invideo·Adtest, cli-pipeline 유사 구조)로 주얼리 제품 사진→광고 영상 제작 전 과정을 수행 → 월 제작량 4편→30편(7.5배), 같은 기간 매출 약 10%↑ (주장, 귀속 불확실 본인 명시)
 
 ## 영업 (sales)
 
@@ -113,6 +114,7 @@ uses: [course, ax]
 ## 금융 (finance)
 
 - [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
+- [[theaxlabs-claude-financial-advisors-korea-securities]] — Claude(자산관리 어드바이저 전용 커넥터 11종·스킬 8종, skills+mcp)로 국내 증권사 어드바이저 비대면 업무 자동화 90일 도입 플랜을 제시 → 3단계 리스크 사다리 프레임워크(실측 성과는 미확인) (주장)
 
 ## 개인 생산성 (personal-productivity)
 

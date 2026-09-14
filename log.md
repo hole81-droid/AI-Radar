@@ -2315,3 +2315,40 @@ openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
 - **YouTube**: 9채널 전수 확인, 09-14 신규 업로드 없음(해당 없음으로 명시). AI Frontier Korea도 신규 없음(직전 EP114는 09-12자로 이미 반영).
 - **접근 실패**: 없음(OpenAI 공식 뉴스룸 WebFetch 403은 기존 패턴 재확인, WebSearch로 대체 확인 완료). PaperCut/Codex+DeepSeek 악용 공격 캠페인(HackerNews 등, Blackpoint Cyber·GreyNoise 분석)은 09-10 공개된 사건으로 확인돼 "오늘" 범위 밖이라 페이지화 보류(다음 소급 필요시 참고).
 - `wiki/timeline.md`·`index.md`·`wiki/players/anthropic.md`·`wiki/tools/claude-code.md`·`wiki/use-cases/case-catalog.md` 갱신. raw/2026-09/에 원문 저장 2건(GPUmesh, Trump/Sacks).
+
+## [2026-09-15] scan | 항목 14건, 반영 10건
+
+수동 실행(iMac 07:00 cron이 13일째 OAuth 세션 만료로 실패, 인증 교체는 별도 진행 — 이번 스캔은
+그 자격 문제와 무관하게 수동 수행). `git pull --rebase origin main` 먼저 실행, 이미 최신 상태 확인.
+공백 점검: 마지막 뉴스레터 09-14, 오늘 09-15까지 공백 없음(소급 불필요).
+
+- **업무 적용 Case(2건)**: [[theaxlabs-claude-financial-advisors-korea-securities]] — AX LABS
+  블로그(당일 신규 글), Anthropic Financial Advisors 커넥터 11종·스킬 8종을 국내 증권사
+  90일 도입 플랜으로 번역(claimed, 실측 성과 미확인). [[reddit-jewellery-ai-video-ads-pipeline]]
+  — Reddit r/AI_Agents 당일 상위 게시물, Pixverse+Invideo+Adtest 노코드 체인으로 광고
+  제작량 4→30편/월(7.5배), 매출 10%↑ 자기보고(귀속 불확실 본인 명시).
+- **빅뉴스(4건, 그중 3건은 기존 페이지 후속 절)**: [[2026-09-12-openai-agents-rubygems-attack]]에
+  09-14 후속 — 이스라엘 평가업체 Irregular가 레드팀 테스트에 실제 인터넷 접근권을 부여한 게
+  09-12 "AI 에이전트 폭주" 서사의 실제 원인이라는 정황(HN 88점), Anthropic도 자사 사례 인정
+  → ⚠️ 상충 표기. [[2026-09-11-anthropic-threat-intelligence-report]]에 09-14 후속 — 러시아
+  완전자율 드론스웜·중국의 대만 표적 시뮬레이션 세부 확인. [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]에
+  09-13 후속 — 2분기 연속 흑자 예상, 2분기 매출 $11.5B+ 확정(FT/Reuters, HN 49점). 신규 페이지
+  [[2026-09-14-apple-siri-model-delegation-third-party-ai]] — iOS 27 비공개 코드에서 Siri를
+  Claude·ChatGPT로 교체 가능한 Model Delegation API 발견(HN 215점, 현재는 ChatGPT만 동작).
+- **커뮤니티/도구 실사용 평가(3건, 뉴스레터 기록 — 별도 페이지화는 보류)**: GPT-5.6 Luna vs
+  GPT-6 Astra 코드리뷰 실측(HN 76점, Luna가 버그 75%를 4% 비용으로 검출). Opus·OpenAI
+  대형 프롬프트를 셀프호스팅 Ollama로 이전 시 겪은 "쓰래싱" 실패 패턴 실측 후기(HN 105점).
+  Yoshua Bengio "AI 에이전트는 왜 거짓말하고 속이고 공모하는가"(HN 643점) — Irregular 정정
+  보도 이전 관점이라 위 RubyGems 항목과 설명이 엇갈림을 병기.
+- **YouTube**: 10채널 재확인. 조코딩 09-14 업로드(주간 AI뉴스 요약)만 픽 반영, 나머지는
+  기존 반영분과 중복이거나 상세 확인 불가(Ben AI 09-14 "Fable 5.1 토큰 절약 팁"은 영상
+  설명란이 프로모션 링크뿐이라 Case 승격 보류). AI Frontier Korea는 신규 업로드 없음(직전
+  EP114 09-12자로 이미 반영).
+- **스크리닝만 하고 미채택**: Real-SWE 벤치마크 HN 재부상(09-12 이미 페이지화, 중복). David
+  Sacks 감속 반박 발언 재확산(09-14 뉴스레터에서 이미 상세 반영, 중복). 경영·교육 RSS(HBR·
+  Sloan·Wharton·McKinsey·EdSurge·Class Central·Josh Bersin·HBI·Hardman) 제목 스크리닝 완료,
+  09-14 신규 글 각 1~3건씩 확인했으나 오늘 지면 분량·시간 제약상 정독은 다음 스캔으로 이월
+  (Sloan "How AI Creates a Capability Mirage"가 우선 후보).
+- **접근 실패**: 없음. Reddit r/AI_Agents는 두 차례 429 후 재시도로 확보(25초+ 간격 필요
+  재확인).
+- `wiki/timeline.md`(2건 추가, 150건)·`index.md`·`wiki/use-cases/case-catalog.md`(107건) 갱신.

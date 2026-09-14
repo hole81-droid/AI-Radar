@@ -76,6 +76,27 @@ TAM $30조라는 숫자 자체는 "이론상 최대치"이지 실제 매출 전�
 연환산매출 급성장($47B→$65B, 7월 기준)과 함께 놓고 보면 IPO를 앞두고 회사가 성장 서사를
 공격적으로 밀어붙이고 있다는 맥락이 뚜렷해진다.
 
+## 09-13 갱신 — 2분기 연속 흑자 예상, 2분기 매출 $11.5B 확정치 공개
+
+FT가 09-13 추가 보도(Reuters 재인용, HN 49점)한 내용에 따르면 Anthropic이 투자자들에게
+**2분기(4~6월) 연속 조정영업이익 흑자**를 예상한다고 밝혔다 — 첫 흑자 분기는 4~6월,
+이번이 두 번째다.
+
+- **분기별 매출 추이**(수정치): 1년 전(2025 2분기) $787M → 2026 1분기 $4.73B → 2026 2분기
+  **$11.5B+**. 위 08-27 갱신에서 인용한 "2분기 $11.6B"와 대체로 부합하는 수치.
+- 매출총이익률(gross margin)은 Amazon 등 유통 파트너 배분분과 모델 학습 비용을 빼기 전
+  기준 **80% 이상**.
+- "조정영업이익"은 주식보상비용(stock-based compensation) 등을 제외한 지표라는 점에
+  유의 — GAAP 기준 순이익과는 다르다. Reuters는 이 수치를 독립적으로 검증하지 못했다고
+  명시.
+- 나스닥(Nasdaq) 상장을 선택했다는 보도도 함께 나왔다(IPO 목표 시점은 기존
+  [[2026-07-15-anthropic-ipo-investor-meetings]]의 "10월 목표"와 같은 흐름).
+
+이번 갱신은 매출 성장세(연환산 $47B→$65B, 08-23 원 항목)가 **실제 수익성으로도 이어지고
+있음**을 보여주는 후속 확인이다. 다만 "조정" 지표라는 단서가 반복되는 만큼, IPO를 앞두고
+투자자용 서사가 공격적으로 다듬어지고 있다는 맥락은 08-27 갱신의 TAM $30조 사례와 같은
+결을 유지한다.
+
 ## 출처
 
 - [Simon Willison — Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/) (2026-08-23)
@@ -85,3 +106,4 @@ TAM $30조라는 숫자 자체는 "이론상 최대치"이지 실제 매출 전�
 - [Claude Platform Docs — Pricing](https://platform.claude.com/docs/en/about-claude/pricing) (Sonnet 5 도입가 영구화 확인)
 - [WSJ — Anthropic expected to tell investors it sees over $30 trillion in potential revenue](https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea) (Hacker News 토론 40점, 2026-08-25)
 - [Yahoo Finance — Anthropic pitches IPO investors on $30 trillion market opportunity](https://finance.yahoo.com/technology/ai/articles/anthropic-pitches-ipo-investors-30-172107288.html)
+- [Reuters — Anthropic tells investors it will be profitable for second straight quarter, FT reports](https://www.investing.com/news/stock-market-news/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter-ft-reports-4898761) (2026-09-13, HN 49점)

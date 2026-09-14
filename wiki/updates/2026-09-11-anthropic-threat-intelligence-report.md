@@ -75,6 +75,30 @@ Washington Post 등의 보도로 드러났다. 새로운 사건이 아니라 **�
   섬뜩한 그림이 있었기 때문이다 — Claude Code라는 개발도구 자체가 무기 개발의 실무
   엔지니어 역할을 대신했다는 점에서 "생성형 AI 오남용"과는 결이 다른 사례다.
 
+## 09-14 후속: "재래식 무기" 나머지 사례 상세 — 러시아 완전자율 드론스웜, 중국 대만 타격 시뮬레이션
+
+09-12 항목이 예멘 유도미사일 셀을 다뤘다면, 09-13~14 후속 보도(Reuters Factbox·Tom's
+Hardware·Sandboxx 등)로 같은 09-10 리포트에 담긴 **나머지 재래식 무기 사례**의 세부가
+추가로 알려졌다. 역시 새 사건이 아니라 09-10 원 리포트 안에 있던 케이스의 후속 상세 보도다.
+
+- **러시아 드론스웜 (지역 대학 연계 소규모 그룹)**: Claude로 드론 군집의 공유 메모리·
+  장애허용 조정 로직, 공격·정찰·복귀 행동, 터미널 유도 시스템, 드론 조작자 대상 공격용
+  코드까지 개발. 핵심은 **온보드 모델이 사람 개입 없이 표적을 선정하고 공격(격발) 명령을
+  내릴 수 있도록 설계됐다**는 점 — 완전자율 교전을 목표로 한 설계였다.
+- **중국계 행위자 2건**: ① 중국 해군에 제출할 대잠어뢰(anti-torpedo) 무기체계 제안서
+  작성 지원. ② 전자전·방공제압(SEAD) 소프트웨어 스위트 개발 — 표적 순위화·레이더 재밍
+  모델링 기능 포함. 이 프로젝트 진행 중 시뮬레이션을 **대만의 조기경보 레이더, Patriot·
+  천궁(Tien Kung) 미사일 포대, 공군기지, 지휘벙커 12곳**을 표적으로 포함하도록 변경한
+  정황이 확인됐다.
+- **이란계 행위자**: 미 해군 함정 관련 표적 정보 수집에 Claude를 활용.
+- Anthropic은 이 활동들을 자체 조사로 탐지해 계정을 차단하고 안전장치를 강화했다고
+  재확인했다.
+
+**시사점(강의·AX 공통)**: 09-10 리포트 공개 직후 헤드라인은 "생물무기 차단"에 집중됐지만,
+1주일에 걸쳐 미디어가 파고들며 드러난 "재래식 무기" 영역이 실제로는 완전자율 살상 판단
+(러시아 드론)·특정 국가 표적 시뮬레이션(중국·대만) 등 훨씬 구체적이고 무거운 내용이었다는
+점은 09-12 갱신의 교훈("첫 헤드라인만으로 리포트의 무게를 판단하지 말 것")을 재확인시킨다.
+
 ## 출처
 
 - [Anthropic — Detecting and countering misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026)
@@ -82,3 +106,6 @@ Washington Post 등의 보도로 드러났다. 새로운 사건이 아니라 **�
 - [CNN — Anthropic says it blocked possible attempts to use AI to develop bioweapons](https://www.cnn.com/2026/09/10/health/anthropic-bioweapons-report)
 - [Forbes — Anthropic Says It Blocked Possible Efforts to Build Biological Weapons](https://www.forbes.com/sites/antoniopequenoiv/2026/09/10/anthropic-says-it-blocked-possible-biological-weapons-undertaking/)
 - [Washington Post — Rebels used Anthropic's AI bot to develop guided weapons, report says](https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/)
+- [Tom's Hardware — Russian freelancers use Claude to program autonomous combat drone swarm](https://www.tomshardware.com/tech-industry/artificial-intelligence/russian-freelancers-use-claude-to-program-autonomous-combat-drone-swarm-ai-enabled-target-selection-and-detonation-without-a-human-in-the-loop) (2026-09-13)
+- [US News / Reuters Factbox — How Anthropic says Claude was used for weapons, spying and cyber operations](https://www.usnews.com/news/world/articles/2026-09-11/factbox-how-anthropic-says-claude-was-used-for-weapons-spying-and-cyber-operations)
+- [Sandboxx — Anthropic says Russian and Chinese actors used Claude as weapons engineering assistant](https://www.sandboxx.us/news/anthropic-says-russian-and-chinese-actors-used-claude-as-a-weapons-engineering-assistant-for-drone-swarming-and-more/)
