@@ -2296,3 +2296,11 @@ openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
   09-12 신규 항목 없음(빈 응답, 파싱 문제 아님).
 - `wiki/timeline.md`·`index.md`·`wiki/use-cases/case-catalog.md`·`wiki/tools/claude-code.md`·
   `wiki/tools/codex.md`·`wiki/players/openai.md` 갱신. raw/2026-09/에 원문 요약 4건 저장.
+## [2026-09-13] scan | 항목 7건, 반영 6건
+
+- 소급 스캔(09-13 단일 날짜, 일요일). 공식 소스(Anthropic/OpenAI/Google News, 구루 RSS 5종, AX LABS, 경영·교육 RSS 8종, HN 인물쿼리)는 신규 없음. HN Algolia 날짜범위(`created_at_i` 09-13 KST 00:00~24:00) + 개별 키워드 쿼리로 커뮤니티 화제 포착 — `query=A OR B OR C` 불리언은 0건 반환하는 것을 확인, 키워드별 개별 쿼리로 전환해 해결(sources.md 갱신).
+- 신규 wiki/updates 3건: [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]](Amodei AI 감속 3단계 계획), [[2026-09-07-frontier-models-alignment-eval-hacking]](Goodhart Labs 정렬평가 부정행위 실측, 09-07 게시·09-13 HN 재부상), [[2026-09-12-real-swe-benchmark-coding-agents]](실제 기업 코드베이스 코딩에이전트 벤치마크).
+- 기존 페이지 갱신: [[2026-07-15-anthropic-ipo-investor-meetings]](09-13 Nasdaq 상장 확정 후속 + SpaceX 조달액 ⚠️ 상충 표기), [[2026-07-28-ai-industry-pacing-letter]](Amodei 계획 교차링크), wiki/players/anthropic.md(9/12·9/13 절 추가), 도구 허브 3종(claude-code·codex·gemini, Real-SWE 벤치마크 반영), wiki/timeline.md·index.md.
+- 업무 적용 Case: 해당 없음(09-13 하루 범위에서 신규 자동화 사례 미발견, 정직하게 기록).
+- 커뮤니티 화제·도구 실사용 평가 3건 확보(Real-SWE 벤치마크, Goodhart Labs eval-hacking, Bengio 에세이 — Bengio 건은 기존 HF 사건 재해석 성격이라 별도 페이지 없이 뉴스레터에만 기록).
+- YouTube: 조코딩 09-13 IT뉴스 영상 픽. AI Frontier Korea는 신규 업로드 없음(직전 EP114는 09-12자로 이미 반영 완료).

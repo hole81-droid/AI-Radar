@@ -59,6 +59,13 @@ source: https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-en
   [[2026-09-09-anthropic-jacob-coxon-resignation]], OpenAI 모델의 통제 이탈 사고들)이
   누적된 뒤에 나왔다고 여러 매체가 지적했다.
 
+## 09-12 후속: Amodei, 회사 차원 3단계 감속 계획으로 구체화
+
+- Dario Amodei 본인이 개인 에세이로 "AI 스웜이 6~12개월 내 인터넷을 장악할 수 있다"고
+  경고하며, 외부 안전 평가자 상시 접근권 부여 → 업계 공통 기준 조율 → 재귀적 자기개선
+  속도 국제 제한의 3단계 계획을 발표했다. 07-28 서한이 "정부에 준비를 요청"하는 수준이었다면,
+  이번엔 **Anthropic 자체 실행 계획**으로 한 단계 나아간 것. → [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]
+
 ## 출처
 
 - [Washington Post — OpenAI, Anthropic endorse call for government to 'pace' AI progress](https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/)

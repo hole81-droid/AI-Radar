@@ -66,6 +66,7 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **기업 도입(AX)**: Amazon Bedrock 통합·access token·크레딧 기반 과금으로 거버넌스와 비용 통제가 가능해졌고, Computer Use·자동화·Record & Replay로 코딩 외 업무 자동화까지 도입 범위가 확장되고 있다.
 - **2026-08-15 사례**: `/goal` 장기 실행 루프+비차단 개입 명령(`/btw`/`/side`)+빔서치 탐색 전략으로 GPU 커널을 232배 가속한 개인 프로젝트 — 장시간 무인 루프 설계의 실측 벤치마크 사례. → [[codex-gpu-kernel-232x-autoresearch]]
 - **2026-08-11 갱신 (08-16 소급 반영)**: 사이버보안 특화 GPT-5.6-Cyber 출시 + Daybreak Blue/Red 접근 티어 — 신뢰 파트너 한정으로 안전장치를 낮춰 익스플로잇 개발 요청 완료율 1.5%→95.0%. → [[2026-08-11-openai-gpt-5-6-cyber-daybreak]]
+- **2026-09-12 벤치마크**: "Real-SWE"(실제 기업 프로덕션 코드베이스) 평가에서 Codex CLI + GPT-6 Astra 조합이 해결률 33.8%로 2위(1위는 Claude Code + Fable 5.1 38.8%). → [[2026-09-12-real-swe-benchmark-coding-agents]]
 
 ## 출처
 

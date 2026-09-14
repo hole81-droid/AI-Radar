@@ -57,6 +57,8 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **학습과정**: 무료 티어 + AI Plus($4.99)로 진입 장벽이 낮고, study notebooks·Deep Research 등 학습 특화 기능이 있어 교육 커리큘럼 실습 도구로 적합. 단, CLI 실습은 Antigravity CLI 기준으로 갱신 필요.
 - **기업 도입(AX)**: Workspace Intelligence 통합(Docs/Gmail 컨텍스트 활용)과 Spark의 스케줄·조건 기반 업무 자동화가 기업 워크플로 자동화의 대표 사례. API 측 Managed Agents·Computer Use·MCP 지원으로 에이전트 구축 스택이 빠르게 표준화되는 중.
 
+- **2026-09-12 벤치마크**: "Real-SWE"(실제 기업 프로덕션 코드베이스) 평가에서 Gemini CLI + Gemini 3.8 Flash 조합이 해결률 31.2%로 8개 조합 중 3위(1위 Claude Code + Fable 5.1 38.8%, 2위 Codex CLI + GPT-6 Astra 33.8%). → [[2026-09-12-real-swe-benchmark-coding-agents]]
+
 ## 출처
 
 - https://blog.google/products/gemini/gemini-3/

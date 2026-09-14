@@ -396,7 +396,7 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
 | r/OpenAI | https://www.reddit.com/r/OpenAI/top/.rss?t=day | 200, 25건 | |
 | r/ChatGPTCoding | https://www.reddit.com/r/ChatGPTCoding/top/.rss?t=day | 200, 5건 | Codex·코딩 에이전트 — 원래 활동이 적은 서브 |
 | r/singularity | https://www.reddit.com/r/singularity/top/.rss?t=day | 429 → 재시도 필요 | 업계 뉴스 속보 |
-| Hacker News | https://hn.algolia.com/api/v1/search?tags=front_page (또는 query=claude+agent 등 키워드 검색) | 정상 | JSON API, 안정적. **`numericFilters`는 반드시 URL 인코딩할 것** — 인코딩 없이 넣으면 필터가 조용히 무시된다 |
+| Hacker News | https://hn.algolia.com/api/v1/search?tags=front_page (또는 query=claude+agent 등 키워드 검색) | 정상 | JSON API, 안정적. **`numericFilters`는 반드시 URL 인코딩할 것** — 인코딩 없이 넣으면 필터가 조용히 무시된다. **`query`에 `A OR B OR C` 식 불리언을 넣지 말 것(2026-09-13 실측)** — Algolia는 이를 리터럴 문자열로 취급해 0건을 반환한다. 여러 키워드를 걸려면 키워드별로 개별 쿼리를 반복 실행할 것(예: query=Claude, query=Anthropic, query=OpenAI 각각 별도 호출). 소급 스캔에서는 날짜범위(`created_at_i>…,created_at_i<…`) + `tags=story`만으로 키워드 없이 돌리는 것도 유효 — 09-13 백필에서 이 방식으로 Amodei 감속 발언·Real-SWE 벤치마크 등을 키워드 없이 포착 |
 
 ## YouTube 채널
 

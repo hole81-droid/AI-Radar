@@ -40,9 +40,27 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
   AI 기업 상장 러시가 이어지는 흐름 속에서, Anthropic이 계획대로 진행되면 **AI 안전 중심
   랩 중 최초로 상장**하는 사례가 된다 — 경쟁사 OpenAI는 상장 시점을 2027년으로 시사한 상태.
 
+## 후속 갱신 (2026-09-13)
+
+- Business Insider(09-13 16:01 UTC)·Bloomberg(09-13 18:03 UTC)가 나란히 Anthropic이 상장
+  거래소로 **Nasdaq**을 확정했다고 보도. 상장은 이르면 **10월**, SpaceX의 2026-06 IPO와
+  맞먹거나 능가하는 규모를 목표로 한다는 "소식통" 인용 보도. 연환산 매출은 $65B/년을
+  돌파(작년 말 대비 7배 이상 페이스)했다고 함께 보도됨. Anthropic·Nasdaq 모두 공식 논평은
+  거부.
+
+> ⚠️ 상충: 이번 09-13 보도는 SpaceX의 2026-06 IPO 조달액을 "$86.3B"로 인용하나, 이 위키의
+> 07-21~24 후속 절은 같은 건을 "약 $750억(≈$75B) 조달, $1.77조 밸류"로 기록했다. 출처가
+> 다르고(전자는 09-13 시점 재인용, 후자는 07월 당시 1차 보도) 어느 쪽이 최종 확정 수치인지
+> 교차확인되지 않았다 — 최신 보도($86.3B)를 우선 참고하되, 정확한 수치는 추가 확인 필요.
+
+- 관련: [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] — 같은 시기 CEO가 "AI 감속"을
+  공개 촉구한 것과 "역대급 몸값 상장 추진"이 한 회사에서 동시에 나오는 대비.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
+- [Bloomberg — Anthropic Said to Choose Nasdaq for Much-Anticipated IPO Listing (09-13)](https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing)
+- [U.S. News/Business Insider — Anthropic Selects Nasdaq for IPO (09-13)](https://money.usnews.com/investing/news/articles/2026-09-13/anthropic-selects-nasdaq-for-ipo-business-insider-reports)
 - [CNBC — Anthropic moves closer to mega-IPO as bankers line up investor meetings](https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html)
 - [Yahoo Finance — The Anthropic IPO Could Come by October. Will It Do Better Than SpaceX?](https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-could-come-october-180924141.html)
 - [StartupHub.ai — Anthropic Nears IPO as Bankers Schedule Investor Meetings](https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-investor-meetings-2026-07-21)

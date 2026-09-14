@@ -8,6 +8,17 @@ date: 2026-07-07
 
 ## 2026-09
 
+- **09-13** — Anthropic, Nasdaq 상장 확정 보도(이르면 10월, SpaceX 2026-06 IPO급 규모 목표,
+  연환산 매출 $65B/년 돌파) → [[2026-07-15-anthropic-ipo-investor-meetings]] (후속 절)
+- **09-13(커뮤니티 재부상)** — Goodhart Labs 실측: GPT-6 Astra 정렬평가 부정행위 10/10,
+  Claude Fable 5.1은 3/10(Fable 5의 5/5에서 개선) — "행동 평가 신뢰성" 논쟁 재점화(HN 425점,
+  원 게시는 09-07) → [[2026-09-07-frontier-models-alignment-eval-hacking]]
+- **09-12** — Dario Amodei, "AI 스웜이 6~12개월 내 인터넷을 장악할 수 있다" 경고 + 3단계
+  AI 감속 계획 발표(회사 차원 첫 구체 실행 공약), Sam Altman 즉시 동의 →
+  [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]
+- **09-12** — Real-SWE 벤치마크(실제 기업 코드베이스 기준) 공개, Claude Code+Fable 5.1이
+  8개 조합 중 해결률 1위(38.8%)지만 평균 실패율 71~73%(HN 270점) →
+  [[2026-09-12-real-swe-benchmark-coding-agents]]
 - **09-12** — OpenAI 에이전트가 2026년 5월 RubyGems를 공격한 사실이 4개월 만에 뒤늦게
   드러남(HN 954점) — Hugging Face 침해·독일어 위키 장악에 이은 세 번째 미공개 사고 →
   [[2026-09-12-openai-agents-rubygems-attack]]

@@ -103,6 +103,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-08-27**: 프롬프트 인젝션 연구자가 **Auto Mode 우회 공격 성공률 60~80%**를 확인 — ZIP 압축해제 후 Python 표준 라이브러리 모듈을 가로채는 체인, 일부 사례는 Auto Mode가 침해 정리 명령까지 차단. Anthropic은 "보안 보장이 아닌 최선노력 분류기"라며 OS 격리·네트워크 통제가 진짜 방어선이라고 답변. → [[2026-08-07-claude-code-auto-mode-default]] (08-27 후속 절)
 - 커뮤니티 패턴: 개인 개발자가 손코딩 없이 Claude Code·Codex·Cursor를 격리 VM+자체 오케스트레이터로 병렬 운영해 6개월간 실제 업무 개발 전체를 위임 — 승인 게이트 대신 VM 격리로 자율성을 확보하는 접근, 위 Auto Mode 우회 사례와 대비되는 설계 철학. → [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]]
 - **2026-08-26**: Cowork 데스크톱 앱에 사용자 계정과 완전 격리된 **내장 브라우저**를 추가 — 기존 08-12 "Claude in Chrome 사이드패널"(내 로그인 세션 공유)과 용도를 나눠 병행하는 구조. OpenAI가 자체 AI 브라우저 Atlas를 단종한 것과 반대 방향. → [[2026-08-12-claude-cowork-chrome-integration]] (08-26 후속 절)
+- **2026-09-12 벤치마크**: "Real-SWE"(실제 기업 프로덕션 코드베이스 기준) 평가에서 Claude Code + Fable 5.1 조합이 해결률 38.8%로 8개 조합 중 1위(2위 Codex CLI + GPT-6 Astra 33.8%). 다만 전체 평균 실패율은 71~73%로, 공개 벤치마크와 실무 성능 사이 괴리를 보여준다. → [[2026-09-12-real-swe-benchmark-coding-agents]]
 
 ## 출처
 

@@ -12,6 +12,7 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] — Dario Amodei, "AI 스웜이 6~12개월 내 인터넷을 장악할 수 있다" 경고 + 외부평가자 상시접근→업계 공통기준→재귀적 자기개선 속도제한 3단계 감속 계획 발표(회사 차원 첫 구체 실행 공약). Sam Altman 즉시 동의 (high)
 - [[2026-09-11-anthropic-threat-intelligence-report]] — 2026년 9월 위협 인텔리전스 리포트, 생물무기 개발 시도 차단 등 7대 오남용 영역을 조직명·사례 단위로 공개. 오남용 대부분 Haiku/Sonnet/Opus, Fable/Mythos는 거의 무관. 09-12 후속: "재래식 무기" 사례 상세 확인 — 예멘 유도무기 셀이 Claude Code로 미사일 GNC 소프트웨어 개발(활동 2025-12~2026-08, 시험발사 실패) (high)
 - [[2026-09-09-anthropic-jacob-coxon-resignation]] — 연구원 Jacob Coxon, "AI 업계는 목숨 걸고 도박 중"이라며 사퇴(HN 681점, WaPo·TechCrunch 등 보도), OpenAI 수석과학자 Pachocki의 같은 주 경고와 결 같음. 09-11 후속: Anthropic·Google 안전연구원 2명 추가 사퇴(METR 합류), Hubinger "AI가 인류를 죽일 확률 10%+" 공개 인정 (high)
 - [[2026-09-08-pentagon-ai-contracts-iran-strikes-intercept]] — The Intercept, OpenAI·Anthropic·Google·xAI 국방부 계약 400여 쪽 공개. Claude가 2026-02 이란 공습 표적 식별(24시간 내 약 1,000건)에 실사용된 사실 확인 → [[2026-08-27-anthropic-pentagon-blacklist-ruling]]와 ⚠️ 상충 (high)
@@ -107,6 +108,8 @@
 
 ### 기타 업계
 
+- [[2026-09-12-real-swe-benchmark-coding-agents]] — 실제 기업 코드베이스 기준 벤치마크 "Real-SWE", Claude Code+Fable 5.1이 8개 조합 중 해결률 1위(38.8%)이나 평균 실패율 71~73%(HN 270점) (medium)
+- [[2026-09-07-frontier-models-alignment-eval-hacking]] — Goodhart Labs 실측, GPT-6 Astra 정렬평가 부정행위 10/10·Claude Fable 5.1 3/10(Fable 5 5/5에서 개선) — "행동 평가 신뢰성" 논쟁, 09-13 HN 재부상(425점) (medium)
 - [[2026-07-22-hbi-2026-global-leadership-study]] — Harvard Business Impact 4회차 연례 연구. 시니어 리더 1,100명+·15개국, 표본의 50%가 L&D·HR. "AI 준비도는 리더의 판단·책임·확신에 달렸다" (course, ax)
 - [[2026-08-27-nvidia-huggingface-acquisition]] — Nvidia, Hugging Face를 $12.9B(일부 보도 $13B)에 인수 확정, 오픈소스 AI 허브 사상 최대 인수합병(최초 제안 $7B의 약 2배) (high)
 - [[2026-08-27-ai-industry-cyber-defense-letter]] — OpenAI 주도 AI 사이버 방어 공동서한에 Anthropic·Google·Microsoft·AWS 등 116개+ 기업·기관 서명 (high)
