@@ -40,6 +40,14 @@ Windows)의 코딩 영역까지 확장했다.
 - **AX**: 이동이 잦은 엔지니어링 리더·PM이 코드 리뷰·작업 현황 파악을 음성으로 처리하는
   워크플로우를 시범 도입해볼 만하다. 다만 실제 생산성 수치는 아직 공개되지 않아 미확인.
 
+## 09-11 후속: GPT-Live-1, API로 정식 출시
+
+- 후속 세대 음성 모델 **GPT-Live-1**이 API를 통해 정식 출시(GA)됐다 — 개발자가 직접
+  실시간 양방향 음성 대화(동시 듣기·말하기, 끼어들기 처리, 전화망 연동)를 자신의
+  앱에 내장할 수 있게 됐다. 같은 날 발표된
+  [[2026-09-11-openai-agents-api-launch]](Agents API 공개 베타)와 묶어 발표됐다 —
+  전화로 응대하는 음성 에이전트까지 관리형 인프라 범위에 들어왔다는 의미다.
+
 ## 출처
 
 - [VentureBeat — Agentic coding goes hands-free as OpenAI brings GPT-Live's full duplex voice control to Codex and ChatGPT on the desktop](https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop)

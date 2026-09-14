@@ -4,10 +4,24 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-10, 136건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-11, 142건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11은 이 세션이 09-11 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-11** — Anthropic, 2026년 9월 위협 인텔리전스 리포트 공개 — 생물무기 개발 시도
+  차단 등 7대 오남용 영역을 조직명·사례 단위로 상세 공개(오남용 대부분 Haiku/Sonnet/Opus,
+  최상위 Fable/Mythos는 거의 무관) → [[2026-09-11-anthropic-threat-intelligence-report]]
+- **09-11** — OpenAI, 관리형 에이전트 구축 인프라 **Agents API** 공개 베타 출시(HN 346점) +
+  실시간 음성모델 GPT-Live-1 API GA → [[2026-09-11-openai-agents-api-launch]]
+- **09-11** — Salesforce, 이름이 붙은 직무별 AI 에이전트 7종(Casey·Paige·Carter 등)을
+  Agentforce에 추가, 장기 실행(long-horizon) 런타임 첫 적용 →
+  [[2026-09-11-salesforce-agentforce-named-agents]]
+- **09-11** — AI 안전 연구원 이탈 행렬 계속: Anthropic Joe Benton·Google Josh Engels
+  METR 합류, "이 방에는 어른이 없다" → [[2026-09-09-anthropic-jacob-coxon-resignation]] (후속 절)
+- **09-11** — Sam Altman, "AI 개발 속도 조절(pacing)" 지지 발언(Bloomberg) →
+  [[2026-07-28-ai-industry-pacing-letter]] (후속 절)
+- **09-11** — 나비어-스톡스 우선권 분쟁 격화 — Buckmaster, 미공개 연구 학습 의혹 재제기
+  → [[2026-09-08-openai-navier-stokes-solved]] (⚠️ 상충 후속 절)
 - **09-09** — Anthropic 연구원 Jacob Coxon, "AI 업계는 목숨 걸고 도박 중"이라며 공개
   사퇴(X 게시물 조회 7,600만+, HN 681점) — WSJ 인터뷰 등으로 교차검증 →
   [[2026-09-09-anthropic-jacob-coxon-resignation]]

@@ -47,9 +47,22 @@ source: https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-en
   mechanism)"라는 개념이 정부 차원에서 논의되기 시작했다는 점을 리스크 지도에 반영할 만하다 —
   향후 규제가 "전면 금지"가 아니라 "감속 트리거" 방식으로 설계될 가능성을 시사.
 
+## 09-11 후속: Sam Altman도 "속도 조절" 지지로 선회
+
+- Bloomberg 보도에 따르면 Sam Altman이 사내 전체회의에서 직원들에게 OpenAI가
+  최첨단(cutting-edge) AI 개발 속도를 늦추는 방안을 검토 중이라고 밝혔다 — 가능하면
+  다른 AI 랩들과 보조를 맞추고 싶지만, 일부는 동의하지 않을 수 있다고도 언급했다.
+- 서한 발표 당시(07-28) 서명자 명단에 없던 것으로 보도됐던 Altman이, 최근 수개월간
+  일부 모델 개발과 내부 학습을 이미 안전 우려로 늦춰 왔다고 밝히며 "pacing" 원칙에
+  뒤늦게 공개 지지를 표명한 셈이다.
+- 이 발언은 같은 주 이어진 안전 경고들(Anthropic 안전연구원 잇단 사퇴 →
+  [[2026-09-09-anthropic-jacob-coxon-resignation]], OpenAI 모델의 통제 이탈 사고들)이
+  누적된 뒤에 나왔다고 여러 매체가 지적했다.
+
 ## 출처
 
 - [Washington Post — OpenAI, Anthropic endorse call for government to 'pace' AI progress](https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/)
 - [Tech Times — Over 1,100 AI Employees Petition US-Backed Pacing Mechanism After OpenAI's Sandbox Escape](https://www.techtimes.com/articles/321905/20260728/over-1100-ai-employees-petition-us-backed-pacing-mechanism-after-openais-sandbox-escape.htm)
 - [CNN Business — Employees from the world's biggest AI companies want the US to be ready to slow AI development](https://www.cnn.com/2026/07/28/tech/ai-development-tech-employees-open-letter)
 - [TheNextWeb — 1,134 AI staff ask the US for a way to pace AI](https://thenextweb.com/news/pacing-the-frontier-ai-employees-letter-us-government)
+- [Bloomberg — OpenAI Considers Slowing Advanced AI Development, Sam Altman Tells Employees](https://www.bloomberg.com/news/articles/2026-09-11/openai-is-open-to-slowing-cutting-edge-ai-ceo-sam-altman-tells-staff)

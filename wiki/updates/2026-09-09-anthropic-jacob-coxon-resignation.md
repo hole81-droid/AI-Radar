@@ -50,6 +50,25 @@ Washington Post·TechCrunch·Fortune·Deadline 등 주요 매체가 일제히 �
 - **강의**: AI 안전·정렬 논의에서 "왜 프론티어 랩 내부에서조차 우려가 나오는가"를
   설명할 때, Pachocki 에세이와 묶어 같은 주에 나온 두 개의 내부자 경고로 소개할 수 있다.
 
+## 09-11 후속: 안전 연구원 이탈이 이어지다 — "이 방에는 어른이 없다"
+
+- Anthropic 정렬(alignment) 연구팀을 이끌었던 **Joe Benton**과 Google에서 AI 안전
+  연구를 하던 **Josh Engels**가 나란히 퇴사했다고 NBC News와의 첫 인터뷰에서 밝혔다.
+  둘 다 AI 시스템이 사람의 지시·의도에서 벗어나는 사건을 조사하는 독립 연구기관
+  **METR**에 합류한다.
+- Engels는 "이 방에는 어른이 없다(There are no adults in the room). 다들 최선을
+  다하고 있지만, 우리를 구해줄 사람은 아무도 오지 않는다"고 말했다.
+- 두 사람은 Coxon의 게시물(조회수 1억 5,500만+ 회로 재차 확산)이 촉발한 흐름 속에서
+  나온 인터뷰라고 밝혔으며, Benton은 재귀적 자기개선 진전 상황·안전 사고·아차사고에
+  대한 **더 강한 공시 의무**와, 기업이 최소 안전 기준을 지키는지 확인할 **독립 평가
+  체계**를 요구했다.
+- 같은 흐름 속에서 Anthropic 정렬과학팀장 **Evan Hubinger**가 X에서 "Jacob(Coxon)의
+  말이 맞다 — 우리도 AI가 인류를 죽일 수 있다고 진심으로 믿는다. 개인적으로는 향후
+  10년 내 확률을 10% 이상으로 본다. Anthropic이 최선을 다하고 있다고 생각하지만,
+  초지능 정렬 문제를 풀 계획은 아직 없고 그 방향으로 뚜렷이 나아가고 있지도 않다"고
+  공개 인정했다 — Cal Newport 등 외부 논평가들이 이 발언을 "Anthropic 스스로 수십억
+  명을 위협하는 리스크를 인정한 셈"이라고 비판적으로 조명했다.
+
 ## 출처
 
 - [Washington Post — Anthropic researcher resigns, warning of reckless race toward superintelligence](https://www.washingtonpost.com/technology/2026/09/09/anthropic-researcher-resigns-warning-reckless-race-toward-superintelligence/)
@@ -59,3 +78,5 @@ Washington Post·TechCrunch·Fortune·Deadline 등 주요 매체가 일제히 �
 - 관련: OpenAI Jakub Pachocki "An Alien Mind" 에세이(09-06, 아직 별도 위키 페이지
   미생성 — [[2026-09-08]] 뉴스레터의 "OpenAI 수석과학자, '어느 연구소도 안전 정렬
   문제를 풀지 못했다'" 항목 참고)
+- [NBC News — Two AI researchers leave Anthropic and Google over safety: 'There are no adults in the room'](https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086)
+- [Cal Newport — Anthropic Just Threatened to Kill Billions of People. This Is Not Okay.](https://calnewport.com/anthropic-just-threatened-to-kill-billions-of-people-this-is-not-okay/)

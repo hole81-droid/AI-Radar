@@ -48,6 +48,7 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **2026-09-06** — OpenAI가 Codex 등 코딩 에이전트를 자사 연구조직 전체에 투입한 사용량·비용 데이터를 처음 공개(에이전트 가동량 사람의 3.1배) → [[openai-internal-research-agents-acceleration]]
 - **2026-09-07** — Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Codex 역할별 지시로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
 - **2026-09-08** — Dan Luu, Codex(GPT-5.6 Sol)로 26개 테스트 기법·유명 스킬 4종의 실제 효과를 실측 — 대부분 기대만큼 작동하지 않는다는 부정 결과 → [[danluu-agentic-testing-technique-benchmark]]
+- **2026-09-11** — OpenAI, 관리형 에이전트 구축 인프라 **Agents API** 공개 베타 출시(HN 346점) — 세션·오케스트레이션을 OpenAI가 대신 관리, 서브에이전트 동시 최대 4개, 기본 모델 GPT-6 Astra. 같은 날 실시간 음성 모델 **GPT-Live-1**도 API로 GA → [[2026-09-11-openai-agents-api-launch]]
 
 ## 요금제
 

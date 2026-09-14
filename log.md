@@ -2234,3 +2234,34 @@ Insight 7월호(05~06월)·8월호(07월) 작성 중, 5~6월 재료가 도구 �
   9월호 확정본이 다시 흘러가므로, 인쇄 CSS에 선택형 규칙 `section.flow-in{break-before:auto}`를 추가하고 두 호의 화면판에만
   클래스를 붙였다(7월호 2부·참고, 8월호 참고). 8월호 17→16쪽, 7월호 18→17쪽. 9월호는 클래스가 없어 영향 없음(재빌드 안 함).
 - 문체 린트(--strict)·HTML 점검 두 호 모두 통과. 스킬 문서에 선택형 쪽 나눔(layout-and-print 4절)과 소급 호 규칙(editorial-rules 7절) 추가.
+
+## [2026-09-11] scan | 소급 스캔(09-11 단일 날짜), 항목 11건, 반영 7건
+
+09-14 시점에서 09-11 하루치를 단독 소급 스캔(다른 공백 날짜는 별도 세션이 순차 처리).
+`git pull --rebase` 선행, CLAUDE.md·sources.md 전체 재확인 후 09-11로 날짜를 좁혀 조사.
+
+- **공식/빅뉴스(6건)**: OpenAI Agents API 공개 베타(+ GPT-Live-1 API GA) → 신규
+  [[2026-09-11-openai-agents-api-launch]] · Anthropic 위협 인텔리전스 리포트(생물무기
+  차단 등 7대 오남용) → 신규 [[2026-09-11-anthropic-threat-intelligence-report]] ·
+  Salesforce Agentforce 네임드 에이전트 7종 → 신규
+  [[2026-09-11-salesforce-agentforce-named-agents]] · AI 안전연구원 2명 추가 사퇴(Benton·
+  Engels, METR) → [[2026-09-09-anthropic-jacob-coxon-resignation]] 후속 절 · Altman
+  "속도조절" 지지 발언 → [[2026-07-28-ai-industry-pacing-letter]] 후속 절 · 나비어-스톡스
+  우선권 분쟁 격화 → [[2026-09-08-openai-navier-stokes-solved]] ⚠️상충 후속 절.
+- **커뮤니티/도구 실사용 평가(4건, 뉴스레터만)**: HN "allow training" 재활성화 논란
+  (482점) · Claude Web "Antspace" 마이크로VM 역공학(76점) · Simon Willison
+  OpenRouter 라우팅 함정 + Boris Cherny "AI 코드는 더 높은 기준" 인용(1차 채널) ·
+  GPT-6 Astra vs Claude Code 코딩 벤치마크 비교.
+- **YouTube(1건)**: 조코딩 "땅을 치고 후회할 앤트로픽의 선택"(09-11 업로드). AI Frontier
+  Korea는 신규 업로드 없음(EP113이 09-10 스캔에서 이미 반영, EP114는 09-12분이라 대상 밖).
+- **업무 적용 Case: 0건.** 09-11 하루로 좁혀 정독했으나 구체적 도구·업무·성과가 확인되는
+  신규 에이전트 구축·자동화 사례를 찾지 못했다 — 정직성 규칙에 따라 "해당 없음"으로 명시.
+- **접근 실패**: kooky0ai·Liam Ottley·Dan Martell·Varun Mayya·Jeff Su YouTube RSS가
+  연속 요청으로 추정되는 일시 404(다음 스캔 재확인 필요). McKinsey 개별 기사 WebFetch
+  60초 타임아웃 재현(RSS 자체는 정상). HBR "AI 버블 질문" 기사(BCG Carlsson-Szlezak·
+  Swartz, 09-11)는 요약만 확인, 전문은 페이월.
+- **중요 발견**: Reddit `top/.rss?t=day`는 조회 시점 기준 최근 24시간만 반환해 **소급
+  스캔에는 쓸 수 없음**을 실측 확인(09-14에 조회하니 09-13·14 글만 반환) — sources.md에
+  경고 추가, 커뮤니티 수집은 HN Algolia 날짜범위 쿼리로 대체.
+- `wiki/timeline.md`·`index.md`·`wiki/tools/codex.md`·`wiki/tools/gemini.md` 갱신.
+  `wiki/use-cases/case-catalog.md`는 신규 케이스 없어 갱신 없음.

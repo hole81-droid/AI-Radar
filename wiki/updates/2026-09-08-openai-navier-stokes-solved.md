@@ -47,6 +47,24 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
   적합하다. AI 기업의 연구 성과 발표를 어떻게 비판적으로 읽을지 설명할 때, 이번
   우선권 분쟁을 함께 소개하면 좋다.
 
+## 09-11 후속: 우선권 분쟁 격화 — "미공개 연구를 학습에 썼는가"
+
+> ⚠️ 상충: OpenAI는 09-08 발표 당시 "Buckmaster·Alpöge의 연구를 안 것은 자체 증명을
+> 마친 뒤였고, 그마저도 나비어-스톡스가 아니라 다른 문제(강제 오일러 방정식)였다"고
+> 설명했다. 그러나 Buckmaster는 이 설명을 재차 공개 반박하며, 자신의 **미공개**
+> 저소산(hypodissipative) 결과와 관련해 훈련 데이터 사용 의혹을 다시 제기했다.
+
+- NYU 수학자 Tristan Buckmaster와 Anthropic 소속 연구자 Levent Alpöge가 실제로는
+  OpenAI·Anthropic이 만든 AI 도구를 활용해 지난 한 달간 이 문제에서 상당한 진전을
+  이루고 있었다는 사실이 추가로 확인됐다 — 이들이 결과를 공개하기 전에 OpenAI가
+  막대한 컴퓨팅 자원을 투입해 독자적으로 결론에 도달해 발표를 앞질렀다는 것이다.
+- OpenAI는 "특정 사용자 데이터에 접근한 적은 없다"면서도 **비식별화된 간접적 영향
+  가능성까지는 배제할 수 없다**고 인정했다.
+- 수학자 Andreas Thom은 이번 사건을 "AI 모델이 미공개 상태의 인간 연구 성과를
+  대량으로 흡수해 AI가 만든 것처럼 제시하고 있다"는 더 넓은 투명성 문제로 확장해
+  제기했다 — OpenAI와 수학계 사이에 학습 데이터 출처를 둘러싼 신뢰 공백이 있다는
+  지적이다.
+
 ## 출처
 
 - [OpenAI — On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)
@@ -54,3 +72,5 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
 - [CNBC — OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours](https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html)
 - [Washington Post — OpenAI claims it solved elusive math problem with a $1 million prize](https://www.washingtonpost.com/technology/2026/09/09/openai-claims-it-solved-elusive-math-problem-with-1-million-prize/)
 - [Quanta Magazine — AI Has Solved One of Math's $1 Million Millennium Prize Problems](https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/)
+- [Axios — OpenAI's historic math solution overshadowed by credit controversy](https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit)
+- [Science (AAAS) — How an AI math breakthrough ignited a controversy](https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy)
