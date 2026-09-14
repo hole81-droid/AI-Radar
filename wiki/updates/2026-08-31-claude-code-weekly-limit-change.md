@@ -41,8 +41,17 @@ Anthropic 공식 계정(ClaudeDevs)이 2026-08-31 X에서 Claude Code 주간 사
   "인상"으로도 "인하"로도 읽힐 수 있다는 점을 요금 공지 해석 시 체크리스트로 활용할 수
   있다.
 
+## 09-14 후속 — 실제 시행, 커뮤니티 반응
+
+예고대로 2026-09-14부터 변경이 실제 적용됐다. r/ClaudeAI에는 같은 날 "Back to normal
+limit"(정상 한도로 복귀), "Last day of temporary usage boost?"(프로모션 마지막 날이냐는
+질문) 등 체감 축소를 확인하는 게시물이 다수 올라왔다 — 예고 시점(08-31)의 우려가
+실제 사용 경험으로 이어졌음을 보여준다. 새로운 사실 발견은 없으나, 요금·한도 공지의
+프레이밍과 실제 체감이 갈리는 패턴이 실사용 단계에서도 재확인됐다.
+
 ## 출처
 
 - [ClaudeDevs(X) — 공식 공지](https://x.com/ClaudeDevs/status/2093742322525810912)
 - [BleepingComputer — Anthropic is cutting Claude Code's current weekly limits by 17%](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)
 - [Hacker News — Claude Code reduces it's weekly limit by 17% – compared to today](https://news.ycombinator.com/item?id=49506519) (64점)
+- 09-14 후속: r/ClaudeAI "Back to normal limit"·"Last day of temporary usage boost?" (커뮤니티 반응, 링크는 로그인 필요로 본문 미인용)

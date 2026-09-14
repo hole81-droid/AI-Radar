@@ -77,6 +77,7 @@ uses: [course, ax]
 - [[jakesaunders-self-hosted-agentic-software-factory]]
 - [[fabiensanglard-agent-md-persistent-style-guide]] — Claude Code(prd-driven, agent.md 세션 주입 파일)를 활용해 코딩 스타일·아키텍처 가이드 영속화를 수행 → 저자 주관 "코드 품질 극적 개선"(일화, 정량 수치 없음) — Codex+Hermes 에이전트 프레임워크(cli-pipeline+vibe-coding)로 셀프호스팅 샌드박스 환경을 활용해 프롬프트 1회로 SDLC 전 과정(저장소 생성→개발→테스트→CI→배포)을 무인 수행 → 승인 게이트 없이 네트워크 격리만으로 완전 자율 배포 완주(정량 성과 미확인) (일화, 개인 프로토타입)
 - [[vercel-ai-sdk-software-factory]] — ★실측 벤치마크 케이스. Vercel이 Claude(Anthropic 모델) 기반 단일목적 에이전트 다수(subagents+cli-pipeline, 격리 Sandbox)로 오픈소스 AI SDK 저장소의 이슈 트리아지·버그수정·PR리뷰·문서·백포팅·E2E테스트를 자동화 → 4주간 주간 PR 25~35% 작성, 이슈 70~80% 자동종료, 오픈이슈 1,022→844건, 사람 승인 없이는 머지 불가 (실측)
+- [[gpumesh-claude-code-p2p-gpu-sharing]] — Claude Code로 vibe-coding(고수준 요구사항→반복 구체화)을 활용해 P2P GPU 공유 오픈소스 CLI 도구를 개발 → 오픈소스 무료 공개, RTX 5060 실기 검증 (일화, 정량 성과 미확인)
 
 ## 보안·운영 (ops)
 
@@ -337,3 +338,5 @@ Google Research "WikiSkill" 논문의 raw/wiki/skills 3계층 구조를 Claude C
 반영했다.*
 
 *2026-09-10 추가(104건, 경영·교육·L&D 소급 백필 05-01~07-14): [[bank-of-america-academy-ai-upskilling-200k]](hr) · [[cornerstone-workforce-ai-platform]](hr) · [[caterpillar-helios-ceo-led-data-platform]](ops) · [[gemini-guided-learning-sierra-leone-rct]](education, 실측 RCT) · [[edsurge-teacher-ai-grading-review-dashboard]](education) · [[mollick-mythos-fable-isochrone-map-research]](research). 같은 백필의 나머지 34건은 수치 없는 프레임·연구 해설이라 use-case가 아닌 concept 페이지로 반영했다.*
+
+*2026-09-14 추가(105건): [[gpumesh-claude-code-p2p-gpu-sharing]](dev-automation, Reddit r/ClaudeAI 당일 상위 게시물 — Claude Code vibe-coding으로 P2P GPU 공유 CLI 오픈소스 개발, 정량 성과 없는 개인 프로토타입). 같은 스캔에서 확인한 Trump·David Sacks의 Anthropic/OpenAI AI 감속 계획 거부(09-13~14)와 Fable 5.1의 370년 암호 해독 주장(검증 논쟁 중, HN 790점+)은 특정 업무 자동화 사례가 아니라 업계 정책·모델 능력 뉴스라 use-case가 아닌 기존 wiki/updates 페이지([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]·[[2026-09-01-claude-fable-5-1-mythos-5-1-launch]])의 후속 절로 반영했다.*

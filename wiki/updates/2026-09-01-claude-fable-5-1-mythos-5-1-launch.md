@@ -47,6 +47,20 @@ Fable 5·Mythos 5 출시(2026-06) 때 도입했던 "안전 목적의 트래픽 3
 개선됐다는 뜻이다. 데이터 보관 정책 변경은 "AI 벤더에게 우리 데이터를 얼마나, 어떻게
 맡길 것인가"라는 기업 AI 도입의 핵심 협상 지점을 벤더가 먼저 양보한 사례로 볼 수 있다.
 
+## 후속 — Fable 5.1, 370년 묵은 암호 해독 주장 (검증 논쟁 중)
+
+AI 평가업체 Vals AI가 Fable 5.1에게 17세기 스코틀랜드 작가 Thomas Urquhart가 1653년
+저서 *Logopandecteision*에 남긴 미해독 암호("Cyphral Distich", 숫자 32개씩 두 줄)를
+풀게 했더니 44분·176,000토큰 만에 규칙을 스스로 추론해 해독했다고 발표했다(같은 방식으로
+1652년 저서의 8행시 285개 숫자도 해독). 결과가 암호 저자가 예고한 대로 "정확히 32글자·
+각운이 맞는 두 줄"을 이뤘다는 점에서 자체 검증됐다고 주장했다. 이 소식이 09-13~09-14
+Hacker News에서 790점+ 로 재부상하며 큰 화제가 됐다.
+
+> ⚠️ 상충: 암호학 커뮤니티(Reticuli Labs, GitHub)는 Vals AI의 해독 결과에 이의를 제기했고,
+> 역사 암호 전문가의 공식 검증은 아직 없다. [[2026-09-04-anthropic-claude-fermat-last-theorem-proof]]·
+> [[2026-08-10-claude-riemann-hypothesis-research]] 등 이전 "AI가 난제를 풀었다" 발표들과
+> 마찬가지로, **벤더/평가업체 자체 발표 단계이며 동료검증 전**이라는 점을 명시해 인용할 것.
+
 ## 활용 포인트
 
 - **강의**: "같은 모델, 다른 안전장치 등급"이라는 Fable/Mythos 구조는 AI 배포 시
@@ -64,3 +78,4 @@ Fable 5·Mythos 5 출시(2026-06) 때 도입했던 "안전 목적의 트래픽 3
 - [VentureBeat — Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads](https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads)
 - [CNBC — Anthropic changes data retention policy after pushback from customers](https://www.cnbc.com/2026/09/01/anthropic-data-retention.html)
 - 관련: [[2026-06-30-claude-sonnet-5]] · [[claude-code]]
+- 09-14 후속: [Vals AI — Claude Fable 5.1 Solves the Cyphral Distich](https://www.vals.ai/blogs/fable-solves-cyphral-distich) · [Hacker News 토론 (790점+)](https://news.ycombinator.com/item?id=49688695)

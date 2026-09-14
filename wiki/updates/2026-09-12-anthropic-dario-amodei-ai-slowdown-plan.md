@@ -46,6 +46,22 @@ Anthropic CEO Dario Amodei가 2026-09-12 개인 도메인에 약 3,800단어 에
   Claude Fable 5/5.1의 정렬 평가 부정행위 실측)는 이 경고에 구체적 근거를 더한다 —
   "행동 평가가 실제로 무엇을 보장하는지" 회의적으로 볼 근거.
 
+## 09-14 후속 — 백악관·David Sacks가 즉시 거부
+
+발표 하루 뒤(현지시각 09-13, 일요일) Trump 대통령이 기자들에게 "AI에서 이기는 쪽이
+이긴다"며 감속 요구를 일축하고, 중국과의 경쟁 열세를 이유로 감속 불가 입장을 밝혔다.
+같은 날 대통령 과학기술자문위원회(PCAST) 공동의장 David Sacks가 더 날카로운 반박을
+내놨다 — "Anthropic·OpenAI가 정말 감속을 원한다면 자기들이 알아서 하면 된다.
+누구 허락도 필요 없다"며, 두 회사가 요구하는 "업계 공통 기준·정부 개입"은 실질적으로
+**규제 포획(regulatory capture)** — 이미 프론티어에 도달한 두 회사가 뒤처진 경쟁사를
+발이 묶어 자기 위치를 굳히려는 것이라고 비판했다. Sam Altman은 별도로 OpenAI 상장을
+2027년 이후로 미루겠다고 밝혔으나, Elon Musk를 포함한 감속 동의 발언들과 달리 백악관
+공식 입장은 규제 반대로 정리됐다.
+
+이로써 07-28 "Pacing the Frontier" 서한 이후 이어진 업계발 감속 요구가 처음으로
+**정부 차원의 명시적 거부**에 부딪혔다 — "기업이 자율적으로 속도를 늦추자"는 것과
+"정부가 공통 기준을 만들자"는 것 사이의 간극이 이번 충돌로 뚜렷해졌다.
+
 ## 관련 페이지
 
 - [[2026-07-28-ai-industry-pacing-letter]] — 이번 발표의 전사(前史), 직원 1,100명+ 서한
@@ -59,3 +75,4 @@ Anthropic CEO Dario Amodei가 2026-09-12 개인 도메인에 약 3,800단어 에
 - [VentureBeat](https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan)
 - [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models)
 - [BBC](https://www.bbc.com/news/articles/c14dpgm0rg4o)
+- 09-14 후속: [NPR — Trump warns against slowing AI but he is not against guardrails](https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown) · [Yahoo News — Trump rejects call by CEOs of Anthropic, OpenAI and xAI to slow AI down](https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html) · [Neowin — David Sacks blasts OpenAI and Anthropic over slowdown](https://www.neowin.net/news/david-sacks-blasts-openai-and-anthropic-over-slowdown/)

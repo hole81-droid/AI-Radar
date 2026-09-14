@@ -68,7 +68,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 
 - **시스템 요구사항**: macOS 13+/Windows 10+ x64. Cowork 샌드박스는 Windows Pro/Enterprise(Hyper-V) 필요 — **Windows Home은 지원하지 않는다.** ([system-requirements](https://houtini.com/articles/claude-desktop-system-requirements/))
 - **계정**: Claude Code 자체는 무료 플랜으로 쓸 수 없다 — Pro 이상 구독 또는 API 키가 필요하다.
-- **과금 변동성**: 2026-06 Agent SDK/헤드리스 분리 과금 발표(시행 전 유예), 7/7 Fable 5 크레딧 종량 전환처럼 한 달 새 여러 번 바뀐 전례가 있다 — 교재·안내자료에 요금표를 그대로 박아 넣기보다 조회 시점 기준으로 명시하는 편이 안전하다.
+- **과금 변동성**: 2026-06 Agent SDK/헤드리스 분리 과금 발표(시행 전 유예), 7/7 Fable 5 크레딧 종량 전환처럼 한 달 새 여러 번 바뀐 전례가 있다 — 교재·안내자료에 요금표를 그대로 박아 넣기보다 조회 시점 기준으로 명시하는 편이 안전하다. **2026-09-14**: 주간 사용한도 변경(25% 영구 인상, 프로모션 종료로 체감 17% 감소)이 예고대로 실제 시행 — r/ClaudeAI에 체감 축소 반응 다수. → [[2026-08-31-claude-code-weekly-limit-change]]
+- **서드파티 도구 보안 주의(2026-09-14)**: 커뮤니티 메모리 확장 도구 "claude-mem"이 Claude Code 로그인 토큰을 PowerShell로 30초마다 폴링하는 동작이 Kaspersky에 트로이목마로 탐지됨(휴리스틱 오탐 가능성 있으나 커뮤니티는 "관행 자체가 위험"이라고 평가) — 서드파티 확장 도구 설치 전 자격증명 접근 방식을 확인할 근거 사례.
 
 ## 활용 포인트
 

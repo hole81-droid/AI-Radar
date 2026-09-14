@@ -2304,3 +2304,14 @@ openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
 - 업무 적용 Case: 해당 없음(09-13 하루 범위에서 신규 자동화 사례 미발견, 정직하게 기록).
 - 커뮤니티 화제·도구 실사용 평가 3건 확보(Real-SWE 벤치마크, Goodhart Labs eval-hacking, Bengio 에세이 — Bengio 건은 기존 HF 사건 재해석 성격이라 별도 페이지 없이 뉴스레터에만 기록).
 - YouTube: 조코딩 09-13 IT뉴스 영상 픽. AI Frontier Korea는 신규 업로드 없음(직전 EP114는 09-12자로 이미 반영 완료).
+
+## [2026-09-14] scan | 항목 5건, 반영 5건
+
+실시간 데일리 스캔(공백 소급 마지막 날, 09-11~09-13은 직전 세션들이 완료). `git pull --rebase` 선행(변경 없음). 공식 소스(Anthropic/OpenAI/Google News, 구루 RSS 6종, AX LABS, 경영·교육 RSS 8종)는 09-14 신규 없음(AX LABS 최신글 09-07에서 정체). 9개 YouTube 채널 전수 재확인, 09-14 신규 업로드 없음(스캔 시점 한국시간 오후). HN Algolia 날짜범위(09-13 15:00~09-14 15:00 UTC) + 키워드 쿼리(claude/anthropic/openai/codex/gemini/agent)로 커뮤니티 화제 스크리닝, Reddit은 라이브 스캔이라 `www.reddit.com top/.rss?t=day` 정상 사용(r/ClaudeAI·r/AI_Agents 확보, 25초+ 간격 준수).
+
+- **업무 적용 Case(1건)**: [[gpumesh-claude-code-p2p-gpu-sharing]] — Reddit r/ClaudeAI 당일 상위 게시물, Claude Code vibe-coding으로 P2P GPU 공유 오픈소스 CLI 개발(dev-automation, anecdotal). `wiki/use-cases/case-catalog.md`·index.md 갱신.
+- **빅뉴스(2건, 기존 페이지 후속 절로 반영)**: Trump 대통령·David Sacks가 Amodei의 09-12 AI 감속 계획을 "규제 포획"이라며 정면 거부 → [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 09-14 후속 절 + wiki/players/anthropic.md·timeline.md 반영. Claude Code 주간 사용한도 변경이 예고대로 실제 시행 → [[2026-08-31-claude-code-weekly-limit-change]] 09-14 후속 절.
+- **커뮤니티/도구 실사용 평가(2건)**: Claude Fable 5.1의 370년 암호("Cyphral Distich") 해독 주장이 HN에서 790점+로 재부상했으나 암호학 커뮤니티(Reticuli Labs)가 검증에 이의 제기 — [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]에 ⚠️ 상충 표기 후속 절 추가. 서드파티 메모리 도구 "claude-mem"이 Claude Code 로그인 토큰을 PowerShell로 폴링하다 Kaspersky 트로이목마 탐지 — wiki/tools/claude-code.md에 서드파티 보안 주의 항목 추가.
+- **YouTube**: 9채널 전수 확인, 09-14 신규 업로드 없음(해당 없음으로 명시). AI Frontier Korea도 신규 없음(직전 EP114는 09-12자로 이미 반영).
+- **접근 실패**: 없음(OpenAI 공식 뉴스룸 WebFetch 403은 기존 패턴 재확인, WebSearch로 대체 확인 완료). PaperCut/Codex+DeepSeek 악용 공격 캠페인(HackerNews 등, Blackpoint Cyber·GreyNoise 분석)은 09-10 공개된 사건으로 확인돼 "오늘" 범위 밖이라 페이지화 보류(다음 소급 필요시 참고).
+- `wiki/timeline.md`·`index.md`·`wiki/players/anthropic.md`·`wiki/tools/claude-code.md`·`wiki/use-cases/case-catalog.md` 갱신. raw/2026-09/에 원문 저장 2건(GPUmesh, Trump/Sacks).
