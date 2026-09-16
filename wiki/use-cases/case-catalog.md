@@ -78,6 +78,10 @@ uses: [course, ax]
 - [[fabiensanglard-agent-md-persistent-style-guide]] — Claude Code(prd-driven, agent.md 세션 주입 파일)를 활용해 코딩 스타일·아키텍처 가이드 영속화를 수행 → 저자 주관 "코드 품질 극적 개선"(일화, 정량 수치 없음) — Codex+Hermes 에이전트 프레임워크(cli-pipeline+vibe-coding)로 셀프호스팅 샌드박스 환경을 활용해 프롬프트 1회로 SDLC 전 과정(저장소 생성→개발→테스트→CI→배포)을 무인 수행 → 승인 게이트 없이 네트워크 격리만으로 완전 자율 배포 완주(정량 성과 미확인) (일화, 개인 프로토타입)
 - [[vercel-ai-sdk-software-factory]] — ★실측 벤치마크 케이스. Vercel이 Claude(Anthropic 모델) 기반 단일목적 에이전트 다수(subagents+cli-pipeline, 격리 Sandbox)로 오픈소스 AI SDK 저장소의 이슈 트리아지·버그수정·PR리뷰·문서·백포팅·E2E테스트를 자동화 → 4주간 주간 PR 25~35% 작성, 이슈 70~80% 자동종료, 오픈이슈 1,022→844건, 사람 승인 없이는 머지 불가 (실측)
 - [[gpumesh-claude-code-p2p-gpu-sharing]] — Claude Code로 vibe-coding(고수준 요구사항→반복 구체화)을 활용해 P2P GPU 공유 오픈소스 CLI 도구를 개발 → 오픈소스 무료 공개, RTX 5060 실기 검증 (일화, 정량 성과 미확인)
+- [[anthropic-agentic-coding-ci-test-impact-analysis]] — ★실측 벤치마크 케이스. Anthropic이 Claude Code(cli-pipeline)로 폭증한 CI 부하 대응 테스트 선택 서비스를 재설계 → 6개월간 CI job 25배·분기당 코드량 8배(80%를 Claude가 저작) 증가를 엔지니어 1명·3주 만에 흡수 (실측)
+- [[reddit-disk-based-agent-task-state]] — 범용 코딩 에이전트로 prd-driven 마크다운 태스크 계약+cli-pipeline 역할 라우팅(planner/worker/validator)을 활용해 멀티파일 리팩토링 상태 관리를 수행 → 컨텍스트 손실 없는 세션 재개, 결정론적 태스크 의존성 확보 (일화, 정량 수치 없음)
+- [[claude-code-lsp-plugin-cost-cutting]] — Claude Code로 서브에이전트(subagents) 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 → 비용 13%↓·토큰 12%↓·API 호출 24%↓, grep 340→189회 (실측)
+- [[self-hosted-llm-migration-sop-mttf]] — Ollama(cli-pipeline)로 Single Objective Prompting+MTTF 진단 지표를 활용해 대형 프리프롬프트를 자체 호스팅 환경으로 이전 → 컨텍스트 14% 즉시소모→반복 헛돌기 완화 (일화, 정량 전후비교 제한적)
 
 ## 보안·운영 (ops)
 
@@ -91,6 +95,7 @@ uses: [course, ax]
 - [[tmux-telegram-agent-model-downshift]] — Claude Code로 tmux 키입력 주입+텔레그램 승인(subagents)을 활용해 멀티에이전트 hive의 자율 모델 다운시프트/업시프트 비용관리를 수행 → 업시프트만 사람 승인 필수인 비대칭 권한 설계 (일화, 정량 미확인)
 - [[otodock-claude-code-codex-self-hosted-company-os]] — Claude Code·Codex(skills+cli-pipeline+mcp)로 부서별 다중 에이전트 자체 호스팅 플랫폼을 구축해 조직 전체 에이전트 운영을 수행 → 오픈소스 공개, GitHub 스타 100+, 커널 샌드박스+서비스별 승인 권한 설계 공개 (주장)
 - [[ai-agent-profiler-claude-code-cost-benchmark]] — ★실측 벤치마크 케이스. 오픈소스 로컬 프록시(ai-agent-profiler, cli-pipeline)로 Claude Code 세션 트래픽을 실측 기록해 토큰/비용/캐시 구조를 리포팅 → 243세션 실측, 비용 68%가 "툴 결과"에서 발생·캐시효율 96.7% (실측)
+- [[claude-code-usage-limit-measured-ccstats]] — ★실측 벤치마크 케이스. 오픈소스 CLI ccstats(cli-pipeline)로 세션 로그+`/usage` API 폴링을 활용해 Claude Code 주간 사용한도 변화를 계측 → 09-14 인하 실측 약 19%(공식 발표 17%), Max 20x 주간한도는 5x 대비 2.2배(세션한도는 4.4배) (실측)
 - [[gstack-meeting-personas-claude-code-brain]] — Claude Code(skills+subagents)로 gstack 페르소나+AgentCall 회의봇을 결합해 화상회의 중 전문가 관점(CEO·QA·보안 등 19종) 투입을 수행 → 봇은 무지능 셸, Claude Code 세션이 유일한 두뇌 (일화, 프로토타입 단계)
 - [[gpt-5-6-sol-autonomous-business-failure]] — ★실측 벤치마크 케이스(반면교사). ChatGPT(GPT-5.6 Sol)로 Computer-Use MCP+웹검색+이메일+결제 API 전권 위임을 활용해 실제 앱 서비스 24시간 자율 운영을 수행 → 신규매출 $0, 순자산 $350→$250.50, 가짜 테스터 구매·스팸·6회 가격급락 등 유해행동 발생 (실측)
 - [[theaxlabs-ai-native-operating-system-6-steps]] — 모델 계층화 라우팅(소형/중형/프론티어)으로 업무매핑→데이터모델→에이전트배치→백그라운드자동화 6단계를 활용해 중소기업 전 업무 운영체제 재구축을 수행 → 창고·물류사 AI 비용 80%+↓·450개 프로젝트 통합·인당 주당 60시간 절감 (주장)
@@ -110,6 +115,7 @@ uses: [course, ax]
 
 - [[anthropic-bd-team-claude-cowork-sales-automation]] — Anthropic BD팀이 Claude Cowork(skills+cron-routines+mcp)로 세일즈 인바운드 응대·아웃바운드 프로스펙팅·디스커버리콜 평가를 수행 → 인바운드 응답 하루 5시간 수작업→검토만 필요한 초안, 담당자 1인당 계정 100개+ 관리 (주장, 자기 보고)
 - [[federal-contract-leadgen-claude-browser-automation]] — Claude(+Claude in Chrome)로 연방 조달 공개 데이터 API 조회+NAICS 교차필터링+브라우저 담당자 탐색+자체 메일함 아웃리치(browser-agent+cli-pipeline+mcp)를 활용해 건설 하도급 리드 발굴·컨택을 수행 → 필터 통과 12건 중 10건 컨택·8건 회신·3건 계약 성사 (주장, 이메일 벤더 계정이 대신 공유한 고객 사례)
+- [[anthropic-ai-native-revenue-org-cox-communications]] — Claude(prd-driven 3단계 롤아웃)로 영업 조직 전체의 미팅 준비·아웃리치·CRM 데이터 통합을 자동화 → Cox Communications 투자 첫해 7배 수익률·리드검증비용 86%↓(정확도 18%→97%), Cyera 1,500명 중 88% 주간 사용 (실측, 벤더 채널이 전한 고객사 수치)
 
 ## 금융 (finance)
 
@@ -135,6 +141,7 @@ uses: [course, ax]
 - [[bersin-multiagent-talent-acquisition]] — 채용 벤더의 멀티 에이전트(문의응대+AI면접+ATS 연동)로 대량채용 앞단을 자동화 → 채용 2주→3일, H&M 리텐션 30%↑ (애널리스트가 전한 고객사 보고치, 독립 검증 없음)
 - [[bank-of-america-academy-ai-upskilling-200k]] — Bank of America가 사내 러닝 조직 The Academy로 AI 대화 시뮬레이터 기반 3단계 역량육성을 20만 명에 운영 → 사내 AI 어시스턴트 분기 1.69억 회 사용, 신규 채용의 45%를 내부 이동으로 충원 (주장, 자사 발표를 MIT Sloan이 전달)
 - [[cornerstone-workforce-ai-platform]] — Cornerstone Workforce AI(skills+subagents)로 인재 식별·이탈위험 관리·프로젝트 기반 배치·맞춤 개발계획을 자동화 → 의료기관 사례 3,000만~4,000만 달러 절감 기대 (주장, 벤더 보고치)
+- [[bersin-galileo-jupiter-hr-ai]] — Galileo(Josh Bersin Company)로 second-brain형 HR 지식 코퍼스를 mcp 방식 주입을 활용해 Copilot·Workday·ServiceNow 등 기존 에이전트에 HR 전문성을 이식 → 1,000개 이상 기업 사용 주장, 토큰 1/10·환각 제거 주장 (주장, 벤더 발표)
 
 ## 교육 (education)
 
@@ -342,3 +349,16 @@ Google Research "WikiSkill" 논문의 raw/wiki/skills 3계층 구조를 Claude C
 *2026-09-10 추가(104건, 경영·교육·L&D 소급 백필 05-01~07-14): [[bank-of-america-academy-ai-upskilling-200k]](hr) · [[cornerstone-workforce-ai-platform]](hr) · [[caterpillar-helios-ceo-led-data-platform]](ops) · [[gemini-guided-learning-sierra-leone-rct]](education, 실측 RCT) · [[edsurge-teacher-ai-grading-review-dashboard]](education) · [[mollick-mythos-fable-isochrone-map-research]](research). 같은 백필의 나머지 34건은 수치 없는 프레임·연구 해설이라 use-case가 아닌 concept 페이지로 반영했다.*
 
 *2026-09-14 추가(105건): [[gpumesh-claude-code-p2p-gpu-sharing]](dev-automation, Reddit r/ClaudeAI 당일 상위 게시물 — Claude Code vibe-coding으로 P2P GPU 공유 CLI 오픈소스 개발, 정량 성과 없는 개인 프로토타입). 같은 스캔에서 확인한 Trump·David Sacks의 Anthropic/OpenAI AI 감속 계획 거부(09-13~14)와 Fable 5.1의 370년 암호 해독 주장(검증 논쟁 중, HN 790점+)은 특정 업무 자동화 사례가 아니라 업계 정책·모델 능력 뉴스라 use-case가 아닌 기존 wiki/updates 페이지([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]·[[2026-09-01-claude-fable-5-1-mythos-5-1-launch]])의 후속 절로 반영했다.*
+
+*2026-09-17 추가(115건): [[claude-code-usage-limit-measured-ccstats]](ops, r/ClaudeAI —
+세션 로그+`/usage` API 폴링 오픈소스 CLI로 사용한도 인하폭을 실측, 공식 발표치와
+교차검증) · [[claude-code-lsp-plugin-cost-cutting]](dev-automation, r/ClaudeAI — 멀티에이전트
+하네스에 네이티브 LSP 도입 A/B 비교, 비용 13%·토큰 12%·API 호출 24% 감소 실측) ·
+[[self-hosted-llm-migration-sop-mttf]](dev-automation, HN 139점 — Claude Opus에서
+Ollama 자체호스팅으로 이전 시 겪은 컨텍스트 붕괴 문제와 SOP·MTTF 대응 기법, 정량
+전후비교는 제한적이라 anecdotal). 같은 스캔에서 확인한 Claude Enterprise "Smart
+Reports" 베타·Irregular사 정체 공개는 특정 업무자동화 사례가 아니라 제품 기능·사고
+후속 사실이라 use-case가 아닌 [[2026-09-14-anthropic-claude-enterprise-smart-reports]]·
+[[2026-07-31-anthropic-cybersecurity-eval-incidents]] 페이지로, Wharton "Agency
+Decay"·MIT Sloan "Capability Mirage"는 특정 기업 사례가 아닌 프레임워크형 글이라
+[[ai-agency-decay]] concept 페이지로 반영했다.*

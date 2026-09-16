@@ -4,10 +4,34 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-14, 150건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-17, 157건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-17(커뮤니티)** — Claude Code 사용한도 논쟁에 실측 데이터 등장 — 세션 로그+`/usage`
+  API 폴링으로 인하폭 약 19% 실측(공식 발표 17%), Max 20x 주간한도는 5x 대비 2.2배(세션
+  한도는 4.4배)로 확인. 별도로 `/usage` Stats 탭이 토큰을 2배 부풀려 표시하는 버그(GitHub
+  미수정)도 확인 → [[2026-08-31-claude-code-weekly-limit-change]] (09-17 후속 절)
+- **09-14** — Anthropic, Claude Enterprise "Smart Reports" 베타 공개 — Claude가 팀 세션을
+  직접 읽어 업무·비용·마찰을 자동 요약 → [[2026-09-14-anthropic-claude-enterprise-smart-reports]]
+- **09-16** — OpenAI, ChatGPT에 "Sponsored Agents" 광고 도입(미국 일부 광고주 테스트) —
+  광고 클릭 시 브랜드 후원 에이전트와 별도 대화 세션 시작, "클릭해서 사이트로"에서
+  "클릭해서 대화로" 전환 → [[2026-09-16-openai-chatgpt-sponsored-agents-ads]]
+- **09-16(커뮤니티)** — Claude Code 09-14 주간한도 변경 후속, r/ClaudeAI에 사용한도·쿼터
+  불만 게시물 7건+ 동시 상위권("구독·팀 플랜이 실무에 못 쓸 수준") →
+  [[2026-08-31-claude-code-weekly-limit-change]] (09-16 후속 절)
+- **09-15** — Google, **Gemini 3.8 Live·3.8 Live Extended Thinking** 출시 — 대화 흐름을
+  끊지 않는 실시간 음성 AI, Speech to Speech Quality Index 1위(HN 460점) →
+  [[2026-09-15-google-gemini-3-8-live-launch]]
+- **09-15** — Anthropic, "AI-native revenue organization" 세일즈 롤아웃 가이드 공개 —
+  Cox Communications 투자 첫해 7배 수익률·리드검증비용 86%↓(정확도 18%→97%) 사례 인용 →
+  [[anthropic-ai-native-revenue-org-cox-communications]]
+- **09-14(재확산)** — Anthropic 컴퓨트 임대 계약 총액이 최근 11개월간 **$517B**로 집계
+  (기존 전망 $180B 대비 급증), 최소 14.8GW 용량 확보 — IPO 앞두고 인프라 베팅 공격적 확대 →
+  [[2026-08-23-anthropic-revenue-fable-adoption-struggle]] (09-14 갱신 절)
+- **09-14** — Anthropic 엔지니어링, 에이전틱 코딩(Claude가 신규코드 80% 저작)으로 분기당
+  코드량 8배·CI job 6개월간 25배 폭증 — 테스트 선택 서비스를 상태없는 수평확장 구조로
+  재설계(엔지니어 1명·3주) → [[anthropic-agentic-coding-ci-test-impact-analysis]]
 - **09-14** — 이스라엘 평가업체 Irregular가 레드팀 테스트에 실제 인터넷 접근권을 부여한 게
   09-12 RubyGems 공격 등 "AI 에이전트 자율 폭주" 서사의 실제 원인이라는 정황 등장(HN 88점),
   Anthropic도 자사 사례 인정 → [[2026-09-12-openai-agents-rubygems-attack]] (09-14 후속

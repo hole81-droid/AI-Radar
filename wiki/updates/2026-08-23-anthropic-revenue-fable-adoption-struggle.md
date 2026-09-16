@@ -97,6 +97,23 @@ FT가 09-13 추가 보도(Reuters 재인용, HN 49점)한 내용에 따르면 An
 투자자용 서사가 공격적으로 다듬어지고 있다는 맥락은 08-27 갱신의 TAM $30조 사례와 같은
 결을 유지한다.
 
+## 09-14 갱신 — 컴퓨트 계약 총액 $517B 확인, IPO 앞두고 인프라 베팅도 공격적 확대
+
+The Information 09-06 보도가 09-13~09-16 사이 Exponential View("Anthropic's
+$517 billion shopping list")·DataCenterDynamics 등으로 재확산되며 규모가
+재확인됐다. Anthropic이 최근 **11개월간 체결·보고한 컴퓨트(연산 자원) 임대
+계약 총합이 $517B**에 달한다 — 2026년 초 투자자에게 밝혔던 "2029년까지 서버
+임대 약 $180B" 전망 대비 큰 폭 상향이다. 이 기간 최소 **14.8GW** 용량을
+확보했고, 파트너는 Amazon·Google·Microsoft 및 전문 인프라 업체, 자체 관할
+데이터센터 계획까지 포함한다(최대 공급자는 Google·AWS, 합산 11GW).
+
+이 수치는 개별 계약 하나가 아니라 **보고·체결된 딜의 집계치**이며, 실제
+지출은 용량이 얼마나 실제로 인도·가동되는지에 달려 있다는 단서가 붙는다.
+그럼에도 09-13 갱신의 2분기 연속 흑자·매출 $11.5B+와 08-27 갱신의 IPO TAM
+$30조 피치를 함께 놓고 보면, **매출 성장에 맞춰 인프라 베팅도 같은 속도로
+공격적으로 확대**하고 있다는 일관된 그림이 완성된다. Anthropic은 2026년
+6월 미 SEC에 비공개 IPO 서류를 제출한 상태다.
+
 ## 출처
 
 - [Simon Willison — Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/) (2026-08-23)
@@ -107,3 +124,6 @@ FT가 09-13 추가 보도(Reuters 재인용, HN 49점)한 내용에 따르면 An
 - [WSJ — Anthropic expected to tell investors it sees over $30 trillion in potential revenue](https://www.wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea) (Hacker News 토론 40점, 2026-08-25)
 - [Yahoo Finance — Anthropic pitches IPO investors on $30 trillion market opportunity](https://finance.yahoo.com/technology/ai/articles/anthropic-pitches-ipo-investors-30-172107288.html)
 - [Reuters — Anthropic tells investors it will be profitable for second straight quarter, FT reports](https://www.investing.com/news/stock-market-news/anthropic-tells-investors-it-will-be-profitable-for-second-straight-quarter-ft-reports-4898761) (2026-09-13, HN 49점)
+- [DataCenterDynamics — Anthropic signed $517bn in compute agreements in past 11 months](https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/) (원 출처 The Information, 2026-09-06)
+- [Exponential View — Anthropic's $517 billion shopping list](https://www.exponentialview.co/p/monday-data-14-09-2026) (2026-09-14 재확산)
+- raw: [[raw/2026-09/anthropic-517-billion-compute-deals]]

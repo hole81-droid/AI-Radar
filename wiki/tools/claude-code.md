@@ -68,7 +68,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 
 - **시스템 요구사항**: macOS 13+/Windows 10+ x64. Cowork 샌드박스는 Windows Pro/Enterprise(Hyper-V) 필요 — **Windows Home은 지원하지 않는다.** ([system-requirements](https://houtini.com/articles/claude-desktop-system-requirements/))
 - **계정**: Claude Code 자체는 무료 플랜으로 쓸 수 없다 — Pro 이상 구독 또는 API 키가 필요하다.
-- **과금 변동성**: 2026-06 Agent SDK/헤드리스 분리 과금 발표(시행 전 유예), 7/7 Fable 5 크레딧 종량 전환처럼 한 달 새 여러 번 바뀐 전례가 있다 — 교재·안내자료에 요금표를 그대로 박아 넣기보다 조회 시점 기준으로 명시하는 편이 안전하다. **2026-09-14**: 주간 사용한도 변경(25% 영구 인상, 프로모션 종료로 체감 17% 감소)이 예고대로 실제 시행 — r/ClaudeAI에 체감 축소 반응 다수. → [[2026-08-31-claude-code-weekly-limit-change]]
+- **과금 변동성**: 2026-06 Agent SDK/헤드리스 분리 과금 발표(시행 전 유예), 7/7 Fable 5 크레딧 종량 전환처럼 한 달 새 여러 번 바뀐 전례가 있다 — 교재·안내자료에 요금표를 그대로 박아 넣기보다 조회 시점 기준으로 명시하는 편이 안전하다. **2026-09-14**: 주간 사용한도 변경(25% 영구 인상, 프로모션 종료로 체감 17% 감소)이 예고대로 실제 시행 — r/ClaudeAI에 체감 축소 반응 다수. **2026-09-17 후속**: 커뮤니티 실측으로 인하폭이 공식치보다 다소 큰 약 19%로 확인됐고, 별도로 `/usage` Stats 탭이 토큰을 2배 부풀려 표시하는 버그(GitHub 미수정)도 확인됨. → [[2026-08-31-claude-code-weekly-limit-change]]
+- **Enterprise 분석 기능 확장(2026-09-14)**: 관리자가 팀의 Claude 세션을 Claude 스스로 읽고 업무·비용·마찰을 산문+차트로 요약하는 "Smart Reports" 베타 공개. → [[2026-09-14-anthropic-claude-enterprise-smart-reports]]
 - **서드파티 도구 보안 주의(2026-09-14)**: 커뮤니티 메모리 확장 도구 "claude-mem"이 Claude Code 로그인 토큰을 PowerShell로 30초마다 폴링하는 동작이 Kaspersky에 트로이목마로 탐지됨(휴리스틱 오탐 가능성 있으나 커뮤니티는 "관행 자체가 위험"이라고 평가) — 서드파티 확장 도구 설치 전 자격증명 접근 방식을 확인할 근거 사례.
 
 ## 활용 포인트
@@ -105,6 +106,10 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: 개인 개발자가 손코딩 없이 Claude Code·Codex·Cursor를 격리 VM+자체 오케스트레이터로 병렬 운영해 6개월간 실제 업무 개발 전체를 위임 — 승인 게이트 대신 VM 격리로 자율성을 확보하는 접근, 위 Auto Mode 우회 사례와 대비되는 설계 철학. → [[2026-08-29-exedev-claude-codex-cursor-parallel-agents]]
 - **2026-08-26**: Cowork 데스크톱 앱에 사용자 계정과 완전 격리된 **내장 브라우저**를 추가 — 기존 08-12 "Claude in Chrome 사이드패널"(내 로그인 세션 공유)과 용도를 나눠 병행하는 구조. OpenAI가 자체 AI 브라우저 Atlas를 단종한 것과 반대 방향. → [[2026-08-12-claude-cowork-chrome-integration]] (08-26 후속 절)
 - **2026-09-12 벤치마크**: "Real-SWE"(실제 기업 프로덕션 코드베이스 기준) 평가에서 Claude Code + Fable 5.1 조합이 해결률 38.8%로 8개 조합 중 1위(2위 Codex CLI + GPT-6 Astra 33.8%). 다만 전체 평균 실패율은 71~73%로, 공개 벤치마크와 실무 성능 사이 괴리를 보여준다. → [[2026-09-12-real-swe-benchmark-coding-agents]]
+- **자체 사용 사례(2026-09-14)**: Anthropic 엔지니어의 분기당 코드 생산량이 8배로 늘고 그중 80%를 Claude가 저작하며 CI job 수가 6개월간 25배 폭증 — 테스트 선택 서비스를 상태 없는 수평 확장 구조로 재설계(엔지니어 1명·3주)해 흡수. → [[anthropic-agentic-coding-ci-test-impact-analysis]]
+- **2026-09-16 커뮤니티**: 09-14 시행된 주간 사용한도 변경 이후 체감 반발이 09-16까지 이어짐 — "구독·팀 플랜이 실무에 못 쓸 수준"이라는 게시물 등 관련 글 7건+ 동시 상위권. → [[2026-08-31-claude-code-weekly-limit-change]] (09-16 후속 절)
+- **2026-09-16 실측 사례**: 세션 로그+`/usage` API 폴링으로 사용한도 변화를 직접 계측한 커뮤니티 사례 — Max 20x가 세션한도(4.4배)와 달리 주간한도는 5x 대비 2.2배에 불과함을 확인. → [[claude-code-usage-limit-measured-ccstats]]
+- **2026-09-16 비용 최적화**: 멀티에이전트 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 — 비용 13%·토큰 12%·API 호출 24% 감소 실측. → [[claude-code-lsp-plugin-cost-cutting]]
 
 ## 출처
 

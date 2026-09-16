@@ -81,6 +81,27 @@ Anthropic이 2026-07-30, 자사 사이버보안 평가(cybersecurity evaluations
 - [Axios — Anthropic paused some AI training after Claude took unauthorized actions](https://www.axios.com/2026/09/01/anthropic-paused-some-ai-training-after-claude-took-unauthorized-actions)
 - [IBTimes — Anthropic Spotted Unauthorized Actions By Agents. It Is Pausing Some Training And Evaluations.](https://www.ibtimes.com/anthropic-spotted-unauthorized-actions-agents-it-pausing-some-training-evaluations-3807021)
 
+## 후속 (2026-09-14) — 평가 파트너 "Irregular"의 정체, EA 네트워크 연관 (교차링크)
+
+evaluation 파트너 **Irregular**(이스라엘 소재 AI 안전평가 업체)가 OpenAI·Meta에서
+발생한 유사 사고에도 관여했다는 사실은 이미 [[2026-09-12-openai-agents-rubygems-attack]]
+09-14 갱신 절에 effort.news(HN 88점 당시 기준) 출처로 상세 기록돼 있다 — **중복
+페이지화하지 않고 이 페이지에서는 교차링크로 대체**. 2026-09-17 재확인 시점에
+같은 기사가 HN 650점까지 올라 화제성이 커졌고, 앞선 ingest에는 없던 세부 하나가
+추가로 확인됐다 — Irregular 리더십이 Dustin Moskovitz가 자금을 대는 이펙티브
+알트루이즘(EA) 네트워크와 조직적으로 연결돼 있다는 보도 내용. 사고 경위 자체(4월~7월
+발생, 07-30 보고, 설정 오해로 "인터넷 차단"이 실제로는 풀려 있었던 것)는 이 페이지
+상단 기록과 일치하며 달라지지 않았다.
+
+> ⚠️ **사실과 해석 구분**: Irregular가 CTF 테스트를 설계하고 의도치 않게 인터넷
+> 접근을 제공했다는 것은 Anthropic·OpenAI·Meta 공식 공시로 확인된 사실이지만, 이를
+> "폭주한 에이전트"가 아니라 "조직적 과실(negligence)"로 규정하는 프레이밍은
+> effort.news 저자의 비판적 해석이며 3사가 공동으로 확인한 결론은 아니다.
+
+### 후속 출처
+- [effort.news — A single firm is behind OpenAI, Anthropic, and Meta hacking scandals (2026-09-14, 2026-09-17 재확인 시 HN 650점)](https://www.effort.news/irregular)
+- 관련: [[2026-09-12-openai-agents-rubygems-attack]] (같은 출처의 상세 최초 반영분)
+
 ## 출처
 
 - [Anthropic 공식 — Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)

@@ -2352,3 +2352,88 @@ openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
 - **접근 실패**: 없음. Reddit r/AI_Agents는 두 차례 429 후 재시도로 확보(25초+ 간격 필요
   재확인).
 - `wiki/timeline.md`(2건 추가, 150건)·`index.md`·`wiki/use-cases/case-catalog.md`(107건) 갱신.
+
+## [2026-09-16] scan | 항목 12건, 반영 8건
+
+공백 점검: 마지막 뉴스레터 09-15, 오늘 09-16까지 1일 공백 → 09-16 소급 스캔 단독 실행
+(CLAUDE.md 공백 1~2일 규칙, 날짜별 파일). git pull/동기화는 상위 세션에서 이미 완료.
+
+- **업무 적용 Case(4건, 전부 신규 페이지)**: [[anthropic-agentic-coding-ci-test-impact-analysis]]
+  — Anthropic 엔지니어링 블로그(09-14), Claude Code 도입 후 분기당 코드량 8배(80%를 Claude가
+  저작)로 CI job이 6개월간 25배 폭증한 것을 엔지니어 1명·3주 재설계로 흡수(실측).
+  [[anthropic-ai-native-revenue-org-cox-communications]] — Anthropic 세일즈 롤아웃 가이드
+  (09-15), Cox Communications 투자 첫해 7배 ROI·리드검증비용 86%↓(정확도 18%→97%), Cyera
+  1,500명 중 88% 주간사용(실측, 벤더 채널이 전한 고객사 수치). [[bersin-galileo-jupiter-hr-ai]]
+  — Josh Bersin 자사 HR AI 플랫폼 "Galileo Jupiter"(09-15), Copilot·Workday 등에 HR 지식
+  코퍼스 주입, 1,000+ 기업 사용·토큰 1/10 주장(claimed, 벤더 발표). [[reddit-disk-based-agent-task-state]]
+  — r/AI_Agents(09-15), 대화창 대신 저장소 마크다운 태스크 계약+역할별 모델 라우팅으로
+  멀티파일 리팩토링 상태관리(일화, 정량 수치 없음).
+- **빅뉴스(4건)**: 신규 페이지 [[2026-09-15-google-gemini-3-8-live-launch]] — 대화 흐름을
+  끊지 않는 실시간 음성 AI 2종, Speech to Speech Quality Index 1위(HN 460점). 신규 페이지
+  [[2026-09-16-openai-chatgpt-sponsored-agents-ads]] — ChatGPT 광고 클릭 시 브랜드 에이전트와
+  대화 시작하는 "Sponsored Agents"(HN 92점). [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]에
+  09-14 갱신 — 컴퓨트 계약 총액 11개월간 $517B로 집계(기존 전망 $180B 대비 급증, The
+  Information 원보도 09-06). [[2026-08-31-claude-code-weekly-limit-change]]에 09-16 후속 —
+  09-14 시행 후에도 r/ClaudeAI 사용한도 불만 게시물 7건+ 동시 상위권 집중.
+- **커뮤니티/도구 실사용 평가(3건, 뉴스레터 기록 — 별도 페이지화는 보류)**: 404 Media "AI
+  에이전트가 이미 인터넷을 망치고 있다"(HN 225점, 계정탈취·스팸·예약밴 등 성가심 사례
+  모음). blog.ploeh.dk "LLM 시대의 프로그래밍 학습"(HN 151점, "검증 가능한 질문에만 LLM
+  신뢰" 원칙). r/AI_Agents "Claude에게 웹디자인이 왜 약한지 물어봤다"(학습데이터 템플릿
+  편향에 대한 Claude 자체 설명).
+- **YouTube**: 5채널 우선 재확인(AI Frontier Korea·조코딩·장피엠·Ben AI·GPTers). 조코딩
+  09-16 쇼츠(오픈AI 이미지모델 1위)만 픽 반영, 장피엠·GPTers는 정체, Ben AI 09-16 업로드는
+  설명란이 프로모션 링크뿐이라 Case 승격 보류. AI Frontier Korea는 신규 업로드 없음(직전
+  EP114 09-12자로 이미 반영).
+- **경영·교육·L&D RSS**: Simon Willison·Latent Space·Addy Osmani·AX LABS·Josh Bersin·HBI·
+  McKinsey Insights·EdSurge 제목 스크리닝 완료. Josh Bersin(Galileo Jupiter)·HBI(AI
+  Integrator 3역량, 원문 404로 확인 실패)·McKinsey("agentic transformation office", WebFetch
+  60초 타임아웃 재현+WebSearch로도 세부 미확보)는 확인 시도했으나 HBI·McKinsey 2건은 본문
+  확인 실패로 미채택. AX LABS 최신글(09-14)은 09-15 뉴스레터에서 이미 반영된 것과 동일 글이라 중복.
+- **접근 실패**: Reddit RSS 429 반복(r/ClaudeAI·r/AI_Agents 각 1~2회) — 25~40초 간격 재시도로
+  전부 확보. HBI 개별 기사 URL 404, McKinsey 개별 기사 WebFetch 60초 타임아웃(기존 기록과
+  동일 패턴 재확인) — 두 건은 탈락 처리.
+- `wiki/timeline.md`(6건 추가, 155건)·`wiki/players/anthropic.md`·`wiki/tools/claude-code.md`·
+  `wiki/tools/gemini.md`·`wiki/tools/chatgpt.md`·`index.md`·`wiki/use-cases/case-catalog.md`(111건) 갱신.
+
+## [2026-09-17] scan | 항목 10건, 반영 8건
+
+- **업무 적용 Case(3건, 전부 use-case 페이지화)**: [[claude-code-usage-limit-measured-ccstats]] —
+  r/ClaudeAI, 오픈소스 CLI `ccstats`로 세션 로그+`/usage` API 폴링해 Claude Code 09-14
+  사용한도 인하를 실측(약 19%, 공식 발표 17%), Max 20x 주간한도가 5x의 2.2배(세션한도는
+  4.4배)에 불과함도 확인(measured). [[claude-code-lsp-plugin-cost-cutting]] — r/ClaudeAI,
+  멀티에이전트 Claude Code 하네스에 네이티브 LSP 도입 A/B 비교 → 비용13%·토큰12%·API호출
+  24%↓, grep 340→189회(measured). [[self-hosted-llm-migration-sop-mttf]] — HN 139점,
+  Claude Opus→Ollama 자체호스팅 이전 시 컨텍스트 붕괴 문제를 Single Objective
+  Prompting+MTTF 지표로 대응(anecdotal, 정량 전후비교 제한적).
+- **빅뉴스(4건)**: 신규 페이지 [[2026-09-14-anthropic-claude-enterprise-smart-reports]] —
+  Claude Enterprise "Smart Reports" 베타, Claude가 팀 세션을 직접 읽어 업무·비용·마찰
+  자동 요약(1차 출처가 뉴스룸이 아닌 Help Center 문서, 게시일 09-10/09-14 출처 간 엇갈림
+  명시). [[2026-08-31-claude-code-weekly-limit-change]] 09-17 후속 — 위 ccstats 실측치와
+  `/usage` Stats 탭 토큰 2배 과다표시 버그(GitHub 2025-08부터 5회 제보 미수정)를 함께 반영.
+  GPT-5.5가 10/14 ChatGPT·Codex 전 플랜에서 퇴역한다는 OpenAI 공지(페이지화 없이 뉴스레터
+  기록만). [[2026-07-31-anthropic-cybersecurity-eval-incidents]]에 짧은 교차링크 절 추가 —
+  09-14 이미 [[2026-09-12-openai-agents-rubygems-attack]]로 반영된 Irregular 관련 기사가
+  HN 88→650점으로 재확산, 새 세부는 Dustin Moskovitz EA 네트워크 연관성 하나뿐이라
+  **중복 페이지화하지 않고** 짧게만 추가(effort.news, 09-14 최초 ingest와 동일 출처임을
+  raw 메모에 명시).
+- **커뮤니티/도구 실사용 평가(2건)**: `/usage` Stats 탭 2배 과다표시 버그(r/ClaudeAI,
+  원본 트랜스크립트 재계산+GitHub 이슈 5건 추적, 과금에는 영향 없음) — 별도 페이지 없이
+  raw 기록+[[2026-08-31-claude-code-weekly-limit-change]] 교차링크로 반영. Irregular 기사
+  재확산 건은 빅뉴스 항목과 동일 사실이라 뉴스레터에서만 화제성 재확인으로 기록(반영
+  중복 카운트 제외 — 이래서 항목 10건 중 반영 8건).
+- **개념 페이지 신설**: [[ai-agency-decay]] — Wharton(09-15) "에이전시 디케이" 4단계+
+  A-Frame 프레임워크(BetterUp Labs 워크슬롭 40%·$186/월, MS Research 319명 확신↑비판적
+  사고↓ 등 실측 인용), 자매 개념 MIT Sloan(09-14) "역량 신기루"를 교차 인용해 같은
+  페이지에서 다룸(둘 다 특정 기업 사례가 아닌 프레임워크형 글이라 use-case 아닌 concept로
+  분류). [[middle-manager-ai-overload-workslop]]·[[loop-engineering]]과 상호링크.
+- **YouTube**: 조코딩 09-16 영상("대기업들의 AI 규제 찬성 전략") 픽 반영. AI Frontier
+  Korea는 신규 업로드 없음(EP114 09-12 기준 유지, ★고정 픽 규칙에 따라 계속 확인).
+- **확인했으나 미채택**: HN Algolia karpathy·"Andrew Ng" 쿼리 신규 활동 없음. Latent
+  Space "The Rise of the Forward Deployed Engineer"(Palantir Project Frontline 출신이
+  OpenAI·Anthropic·xAI·Anduril FDE팀 이끈다는 인재 파이프라인 사실 포함)는 특정 AI
+  툴 자동화 사례가 아니라 조직·채용 방법론 글이라 케이스화 보류, 다음 기회에 재검토.
+  Reddit r/AI_Agents는 반복 429로 이번 스캔에서 확보 실패(다음 스캔에서 재시도 필요).
+  "Claude is a Contrarian"(Medium, HN 131점)은 WebFetch 403(페이월/봇차단)으로 본문
+  확인 실패해 탈락.
+- `wiki/timeline.md`(2건 추가, 157건)·`wiki/players/anthropic.md`·`wiki/tools/claude-code.md`·
+  `index.md`·`wiki/use-cases/case-catalog.md`(115건) 갱신.

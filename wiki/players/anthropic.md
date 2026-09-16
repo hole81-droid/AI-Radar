@@ -292,7 +292,38 @@ IPO와 맞먹거나 능가하는 규모 목표, 연환산 매출 $65B/년 돌파
 [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] (09-14 후속 절). 같은 날 Claude
 Code 주간 사용한도 변경이 실제 시행됐고([[2026-08-31-claude-code-weekly-limit-change]]),
 Fable 5.1의 370년 암호 해독 주장이 HN에서 재부상하며 검증 논쟁 중
-([[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]).
+([[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]). 같은 날 컴퓨트 임대 계약
+총액이 최근 11개월 $517B로 집계 확인 — 기존 전망($180B) 대비 급증
+([[2026-08-23-anthropic-revenue-fable-adoption-struggle]] 09-14 갱신).
+
+**9/14~15 — 엔지니어링 블로그로 "자사도 겪는 성장통" 실측 공개**: Claude Code
+도입 후 분기당 코드량 8배(80%를 Claude가 저작)로 CI job이 25배 폭증한
+사례를 엔지니어 1명·3주 재설계로 흡수했다고 공개
+([[anthropic-agentic-coding-ci-test-impact-analysis]]). 다음 날에는 세일즈
+조직에 Claude를 3단계로 롤아웃하는 공식 가이드를 내며 Cox Communications의
+투자 첫해 7배 수익률·리드검증비용 86%↓ 사례를 인용
+([[anthropic-ai-native-revenue-org-cox-communications]]).
+
+**9/16 — Claude Code 사용한도 반발 지속**: 09-14 시행된 주간 사용한도 변경
+이후 r/ClaudeAI에 관련 불만 게시물이 하루에 7건 이상 동시 집중 —
+"구독·팀 플랜이 실무에 못 쓸 수준"이라는 주장도 등장
+([[2026-08-31-claude-code-weekly-limit-change]] 09-16 후속 절).
+
+**9/17 — 사용한도 논쟁에 실측 데이터 등장, Enterprise "Smart Reports" 확인,
+사이버보안 사고 배후 업체 정체 공개**: 커뮤니티가 세션 로그+`/usage` API
+폴링으로 09-14 한도 인하폭을 직접 계측해 공식 발표(17%)보다 다소 큰 약
+19%를 확인했고, "Max 20x=5x의 4배"가 주간 한도 기준으로는 2.2배에 불과함도
+밝혀졌다. 동시에 `/usage` Stats 탭이 토큰을 2배 부풀려 표시하는 버그(GitHub
+미수정)도 확인돼 반발 일부는 UI 버그에 근거했을 가능성이 제기됐다
+([[2026-08-31-claude-code-weekly-limit-change]] 09-17 후속 절). 한편
+09-14 전후 공개된 것으로 확인된 Claude Enterprise "Smart Reports" 베타는
+관리자가 팀의 Claude 세션을 Claude 스스로 읽어 업무·비용·마찰을 자동
+요약하게 한다 ([[2026-09-14-anthropic-claude-enterprise-smart-reports]]).
+09-14 RubyGems 사고 후속 취재(effort.news)로 이미 알려진 평가 파트너 "Irregular"
+관련 기사가 재확산해 HN 650점까지 올랐고(09-14 최초 반영 시점엔 88점), Irregular
+리더십이 Dustin Moskovitz가 자금을 대는 EA 네트워크와 연관됐다는 세부가 추가로
+확인돼 [[2026-07-31-anthropic-cybersecurity-eval-incidents]]에 교차링크로
+반영됐다.
 
 ## 해석
 
