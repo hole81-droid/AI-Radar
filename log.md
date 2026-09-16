@@ -2437,3 +2437,23 @@ openai/gemini/agent 등)·구루 인물 쿼리·show_hn을 대체 수집했다.
   확인 실패해 탈락.
 - `wiki/timeline.md`(2건 추가, 157건)·`wiki/players/anthropic.md`·`wiki/tools/claude-code.md`·
   `index.md`·`wiki/use-cases/case-catalog.md`(115건) 갱신.
+
+## [2026-09-17] ingest | 데일리 스캔 13일 무인 중단(09-03~09-15) 근본 원인·수정 기록
+
+**증상**: iMac launchd 07:00 스캔이 09-03부터 09-15까지 매일 "OAuth session expired and could
+not be refreshed"로 실패. 데스크톱 앱 세션(별도 바이너리·별도 인증)으로 하던 수동 소급
+(09-11~09-15 커밋)이 정상 동작해 장애가 가려졌고, 알림이 없어 13일간 미인지.
+
+**근본 원인**: cron이 빌려 쓰던 대화형 `claude auth login` 세션의 갱신 토큰에 만료 시각이
+박혀 있었음(`refreshTokenExpiresAt` = 2026-09-01T23:15Z, 08-04 로그인 기준 약 4주).
+헤드리스 실행은 갱신 토큰을 재발급할 수 없고, 09-02 07:00 실행은 만료 1시간 전에 통과,
+09-03 07:00 실행이 만료를 만나자 CLI가 키체인 자격증명을 비워 이후 전부 실패.
+
+**수정**: (1) `claude setup-token`으로 1년 유효 헤드리스 토큰 발급 → 로그인 키체인
+(service `ai-radar-claude-oauth-token`)에 저장, `~/bin/ai-radar-daily-scan.sh`가 실행 시
+읽어 `CLAUDE_CODE_OAUTH_TOKEN`으로 주입(사람 세션과 분리). (2) 인증 실패는 재시도 없이 즉시
+종료 + macOS 알림, 성공/기타 실패도 알림(메일 대체). (3) 토큰 저장은 `~/bin/ai-radar-issue-token.sh`
+로 자동화 — 좁은 터미널에서 토큰이 줄바꿈돼 36자만 복사되는 문제 3회 실측 후 도입.
+**검증**: launchd `kickstart`로 실제 잡 실행 → 인증 통과·09-16 소급+09-17 스캔·커밋 `7cb64c4`·
+push까지 완료(00:02~00:41). 주의: 이 npm CLI로 `claude auth login`을 하면 저장 세션이 토큰보다
+우선돼 4주 만료가 재발함. 토큰 만료 예정 2027-09.

@@ -35,6 +35,10 @@ source: /Users/sh/Desktop/AI Radar/.claude/scheduled-tasks (본 저장소 자체
 - **오케스트레이션**: 메인 작업이 직접 스캔하지 않고 **서브에이전트 1개(model sonnet, effort low)**
   에 위임 → 토큰 절약. 메인은 완료 확인·알림만 담당.
 - **cron-routines**: Claude Code 스케줄 작업(`0 7 * * *`). 앱이 꺼져 있으면 다음 실행 시 밀려 실행.
+- **헤드리스 인증 (2026-09-17 교훈)**: 무인 실행은 대화형 `claude auth login` 세션을 빌려 쓰면 안 된다 —
+  그 세션의 갱신 토큰은 약 4주 만료라 cron이 스스로 재발급할 수 없고, 실제로 09-03~09-15 13일간
+  조용히 멈췄다(log.md 2026-09-17 ingest). `claude setup-token`이 발급하는 1년짜리 토큰을 키체인에
+  두고 `CLAUDE_CODE_OAUTH_TOKEN`으로 주입하며, 인증 실패는 재시도 없이 즉시 종료 + OS 알림으로 드러낸다.
 - **토큰 효율 설계**: RSS/API 우선(curl 1회), 기사 원문은 ★최우선 항목만 정독, WebSearch 5~8회·
   WebFetch 15회 상한. RSS URL은 sources.md에 캐시해 재사용 → 회를 거듭할수록 저렴.
 - **무인 완주**: settings.local.json 화이트리스트로 승인 프롬프트 없이 완주. bypass 모드가 아니라
@@ -68,6 +72,8 @@ source: /Users/sh/Desktop/AI Radar/.claude/scheduled-tasks (본 저장소 자체
 
 1. 스캔 규칙·편집 기준을 CLAUDE.md에 문서화 (모든 세션 공통 적용)
 2. 스케줄 작업 등록 — 프롬프트에 "서브에이전트(sonnet, low)에 위임" 명시
+   - 무인 실행 인증은 `claude setup-token`(1년 토큰)으로 — 대화형 로그인 세션은 4주 뒤 조용히 만료된다.
+     실패를 드러낼 알림(OS 알림 등)을 반드시 붙일 것
 3. settings.local.json에 필요 도구만 화이트리스트 (curl·git·WebSearch·WebFetch·Write) — bypass 금지
 4. RSS URL 캐시 섹션 운영으로 회당 검색 횟수 축소
 5. 완료 시 PushNotification + git push(웹 배포 트리거)
