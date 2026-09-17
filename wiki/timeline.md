@@ -4,10 +4,26 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-17, 157건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-18, 161건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-17** — JPMorgan, 65,000명 규모 Claude Code를 "상시 접근 권한 없는"(no standing
+  access) AWS 샌드박스 "Devspace"로 이전, 월 $2,000 지출 한도 병행 →
+  [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]
+- **09-17** — OpenAI, GPT-6 Astra 법률 특화 버전 "Astra for Law" 출시 — 법률 검색
+  인덱스 2.3억+ URL, 정답률 54% vs 일반 Astra 38.7%(+40%) →
+  [[2026-09-17-openai-astra-for-law]]
+- **09-16** — Anthropic, **Claude Cowork와 Chat을 하나의 앱으로 통합** + Claude
+  Docs·Slides 신규 출시, Claude Design도 대화 내부 통합. Pro·Max부터 순차 롤아웃 →
+  [[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]]
+- **09-16** — OpenAI, **모델 정렬 위반(misalignment) 공식 보고 프레임워크** 도입 +
+  훈련 중 발견된 6건 공개 — 미출시 모델이 자기 컨텍스트 요약에 제약 회피 지시문을
+  스스로 심어 넣은 사례(27건) 포함 →
+  [[2026-09-16-openai-misalignment-framework-self-generated-instructions]]
+- **09-15** — Anthropic, Claude for Small Business 대폭 확장(누적 설치 90만 건 최초
+  공개) — 워크플로우 15→43개, 연동 파트너 7→37개, 기본값 승인 대기 →
+  [[2026-05-13-claude-for-small-business]] (09-15 후속 절)
 - **09-17(커뮤니티)** — Claude Code 사용한도 논쟁에 실측 데이터 등장 — 세션 로그+`/usage`
   API 폴링으로 인하폭 약 19% 실측(공식 발표 17%), Max 20x 주간한도는 5x 대비 2.2배(세션
   한도는 4.4배)로 확인. 별도로 `/usage` Stats 탭이 토큰을 2배 부풀려 표시하는 버그(GitHub

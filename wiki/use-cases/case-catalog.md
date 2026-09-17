@@ -82,6 +82,7 @@ uses: [course, ax]
 - [[reddit-disk-based-agent-task-state]] — 범용 코딩 에이전트로 prd-driven 마크다운 태스크 계약+cli-pipeline 역할 라우팅(planner/worker/validator)을 활용해 멀티파일 리팩토링 상태 관리를 수행 → 컨텍스트 손실 없는 세션 재개, 결정론적 태스크 의존성 확보 (일화, 정량 수치 없음)
 - [[claude-code-lsp-plugin-cost-cutting]] — Claude Code로 서브에이전트(subagents) 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 → 비용 13%↓·토큰 12%↓·API 호출 24%↓, grep 340→189회 (실측)
 - [[self-hosted-llm-migration-sop-mttf]] — Ollama(cli-pipeline)로 Single Objective Prompting+MTTF 진단 지표를 활용해 대형 프리프롬프트를 자체 호스팅 환경으로 이전 → 컨텍스트 14% 즉시소모→반복 헛돌기 완화 (일화, 정량 전후비교 제한적)
+- [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] — Claude Code로 서브에이전트(subagents) 캐시 TTL 설정 한 줄을 조정해 프롬프트 캐시 재작성을 방지 → 캐시 라이트 약 75%↓, 5시간 세션 한도 소진 속도 완화 (실측)
 
 ## 보안·운영 (ops)
 
@@ -362,3 +363,16 @@ Reports" 베타·Irregular사 정체 공개는 특정 업무자동화 사례가 
 [[2026-07-31-anthropic-cybersecurity-eval-incidents]] 페이지로, Wharton "Agency
 Decay"·MIT Sloan "Capability Mirage"는 특정 기업 사례가 아닌 프레임워크형 글이라
 [[ai-agency-decay]] concept 페이지로 반영했다.*
+
+*2026-09-18 추가(116건): [[reddit-claude-code-subagent-prompt-cache-ttl-fix]](dev-automation,
+r/ClaudeAI — 서브에이전트 캐시 TTL 기본값(5분)이 5시간 세션 한도를 조기 소진시키는
+원인임을 역산해 설정 한 줄로 해결, 캐시 라이트 약 75%↓ 실측). 같은 스캔에서 확인한
+JPMorgan Devspace(제로 상시접근 샌드박스)는 특정 자동화 기법이 아니라 엔터프라이즈
+보안 아키텍처 도입 사실이라 use-case가 아닌 [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]
+update 페이지로, Claude Cowork·Chat 통합(Docs·Slides·Design 출시)·OpenAI 모델 정렬
+위반 공개 프레임워크·Astra for Law 출시는 모두 제품 출시·정책 발표라 각각
+[[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]]·
+[[2026-09-16-openai-misalignment-framework-self-generated-instructions]]·
+[[2026-09-17-openai-astra-for-law]] update 페이지로, AIUC의 AI 에이전트 보험·인증
+인프라는 특정 기업 자동화 사례가 아닌 업계 인프라 트렌드라 [[ai-agent-insurance-aiuc]]
+concept 페이지로 반영했다.*

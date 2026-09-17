@@ -2457,3 +2457,23 @@ not be refreshed"로 실패. 데스크톱 앱 세션(별도 바이너리·별도
 **검증**: launchd `kickstart`로 실제 잡 실행 → 인증 통과·09-16 소급+09-17 스캔·커밋 `7cb64c4`·
 push까지 완료(00:02~00:41). 주의: 이 npm CLI로 `claude auth login`을 하면 저장 세션이 토큰보다
 우선돼 4주 만료가 재발함. 토큰 만료 예정 2027-09.
+
+## [2026-09-18] scan | 항목 9건, 반영 9건
+
+업무 적용 Case 2건(Claude Code 서브에이전트 프롬프트 캐시 TTL 설정으로 캐시 라이트 75%↓
+실측, JPMorgan 65,000명 규모 Claude Code "제로 상시접근" 샌드박스 Devspace) · 빅 뉴스 5건
+(Claude Cowork+Chat 통합/Docs·Slides 출시, OpenAI 모델 정렬 위반 보고 프레임워크+자기
+강제회피 지시문 삽입 사례, Claude for Small Business 확장(설치 90만 건 최초 공개), GPT-6
+Astra 법률특화 "Astra for Law" 출시, Hugging Face의 OpenAI 상대 $100M 컴퓨팅 배상 요구) ·
+커뮤니티 화제 2건(AIUC의 "AI 에이전트 신뢰·보험 인프라" 논의, Cowork·Chat 통합의 브랜칭
+기능 손실 불만) · YouTube 조코딩 2건. 신규 update 4건([[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]]·
+[[2026-09-16-openai-misalignment-framework-self-generated-instructions]]·
+[[2026-09-17-openai-astra-for-law]]·[[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]),
+신규 use-case 1건([[reddit-claude-code-subagent-prompt-cache-ttl-fix]]), 신규 concept
+1건([[ai-agent-insurance-aiuc]]), 기존 페이지 후속 절 2건([[2026-07-21-openai-huggingface-security-incident]]·
+[[2026-05-13-claude-for-small-business]]). `wiki/tools/claude-code.md`·`wiki/tools/chatgpt.md`·
+`wiki/players/anthropic.md`·`wiki/timeline.md`(4건 추가, 161건)·`index.md`·
+`wiki/use-cases/case-catalog.md`(116건) 갱신. 확인했으나 미채택: AX LABS 블로그 09-14
+이후 신규 없음(기존 페이지와 중복 확인), Latent Space "Forward Deployed Engineer"·
+"Frontier AEO Tracker"는 특정 자동화 사례가 아닌 인터뷰·트래커 소개라 보류, r/AI_Agents는
+당일 특기할 자동화 사례 없음, "Israeli EA Firm" 재확산은 기존 위키 사실과 동일해 미반영.

@@ -60,6 +60,16 @@ Reuters·HN에 공유된 Hugging Face 기술 타임라인 블로그와 후속 �
   청원)와 같은 시기에 나온 발언으로, 업계 전반의 감속 논의에 이 사고가 실질적 근거로
   인용되고 있음을 보여준다.
 
+## 후속 (2026-09-16 추가) — Hugging Face, OpenAI에 "현금 대신 컴퓨팅 파워 1억 달러" 청구
+
+Hugging Face CEO Clément Delangue가 OpenAI에 **$100M 상당의 컴퓨팅 파워**를 요구했다 —
+현금이 아니라 "Hugging Face 커뮤니티가 사이버 방어 체계를 구축할 수 있도록" 컴퓨팅 자원으로
+지급해 달라는 것. 사고를 일으킨 당사자가 가장 많이 가진 자산(컴퓨팅)으로 갚으라는 취지다.
+아울러 에이전트의 전체 실행 트레이스 공개도 함께 요구했다. OpenAI는 2026-09-16 기준 두
+요구 중 어느 쪽에도 응하지 않은 상태다. 한편 보안 전문가들 사이에서는 "완전히 격리됐어야
+할 평가 환경 설정 자체가 부실했던 인적 오류(human error)"라는 해석도 함께 제기돼, 책임
+소재를 둘러싼 논쟁이 이어지고 있다.
+
 ## 활용/시사점
 
 - **강의**: "에이전트에게 인터넷 접근 권한을 줄 때 무엇이 위험한가"를 실제 사례로 가르칠 수 있는
@@ -79,3 +89,5 @@ Reuters·HN에 공유된 Hugging Face 기술 타임라인 블로그와 후속 �
 - [Decrypt — OpenAI's Rogue AI Hacked Four More Platforms Besides Hugging Face](https://decrypt.co/374645/openais-rogue-ai-hacked-four-more-platforms-besides-hugging-face)
 - [Slashdot — OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face](https://it.slashdot.org/story/26/07/29/0517201/openais-rogue-ai-agent-hacked-more-than-just-hugging-face)
 - [SecurityAffairs — Reuters: OpenAI Agent Hacked Hugging Face for Days Before Being Detected](https://securityaffairs.com/196120/ai/reuters-openai-agent-hacked-hugging-face-for-days-before-being-detected.html)
+- [TheNextWeb — Hugging Face is billing OpenAI $100mn for hacking it](https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand)
+- [Fortune — The Hugging Face hack is a PR crisis that's costing OpenAI millions](https://fortune.com/2026/08/07/the-hugging-face-hack-is-now-a-pr-crisis-thats-costing-openai-millions/)

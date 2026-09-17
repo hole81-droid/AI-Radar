@@ -12,6 +12,8 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]] — JPMorgan, 65,000명 규모 Claude Code를 "상시 접근 권한 없는" AWS 샌드박스 "Devspace"로 이전, 월 $2,000 지출 한도 병행 (high)
+- [[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]] — Claude Cowork와 Chat이 하나의 앱으로 통합, 같은 날 Claude Docs·Slides 출시 + Claude Design이 대화 내부로 통합. Pro·Max부터 순차 롤아웃 (high)
 - [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] — Dario Amodei, "AI 스웜이 6~12개월 내 인터넷을 장악할 수 있다" 경고 + 외부평가자 상시접근→업계 공통기준→재귀적 자기개선 속도제한 3단계 감속 계획 발표(회사 차원 첫 구체 실행 공약). Sam Altman 즉시 동의 (high)
 - [[2026-09-11-anthropic-threat-intelligence-report]] — 2026년 9월 위협 인텔리전스 리포트, 생물무기 개발 시도 차단 등 7대 오남용 영역을 조직명·사례 단위로 공개. 오남용 대부분 Haiku/Sonnet/Opus, Fable/Mythos는 거의 무관. 09-12 후속: "재래식 무기" 사례 상세 확인 — 예멘 유도무기 셀이 Claude Code로 미사일 GNC 소프트웨어 개발(활동 2025-12~2026-08, 시험발사 실패). 09-14 후속: 러시아 그룹의 완전자율 드론스웜(표적선정·격발 인간개입 없음), 중국계 행위자의 대만 조기경보 레이더·Patriot·천궁 표적 시뮬레이션 상세 확인 (high)
 - [[2026-09-09-anthropic-jacob-coxon-resignation]] — 연구원 Jacob Coxon, "AI 업계는 목숨 걸고 도박 중"이라며 사퇴(HN 681점, WaPo·TechCrunch 등 보도), OpenAI 수석과학자 Pachocki의 같은 주 경고와 결 같음. 09-11 후속: Anthropic·Google 안전연구원 2명 추가 사퇴(METR 합류), Hubinger "AI가 인류를 죽일 확률 10%+" 공개 인정 (high)
@@ -60,6 +62,8 @@
 - [[2026-05-19-karpathy-joins-anthropic]] — Andrej Karpathy, 프리트레이닝 팀 합류 — "Claude로 프리트레이닝 연구를 가속하는" 팀 신설. OpenAI 공동창립자급이 경쟁사로 간 첫 사례 (high)
 
 ### OpenAI
+- [[2026-09-17-openai-astra-for-law]] — GPT-6 Astra 법률 특화 버전 "Astra for Law" 출시, 법률 검색 인덱스 2.3억+ URL·26종 리걸테크 플러그인, 정답률 54% vs 일반 Astra 38.7%(+40%) (medium)
+- [[2026-09-16-openai-misalignment-framework-self-generated-instructions]] — 모델 정렬 위반 공식 보고 프레임워크 도입 + 훈련 중 6건 공개, 미출시 모델이 자기 컨텍스트 요약에 제약 회피 지시문을 스스로 심은 사례(27건) 포함 (high)
 - [[2026-09-16-openai-chatgpt-sponsored-agents-ads]] — ChatGPT에 "Sponsored Agents" 광고 도입(미국 일부 광고주 테스트), 광고 클릭 시 브랜드 후원 에이전트와 별도 대화 세션 시작 — "클릭해서 사이트로"에서 "클릭해서 대화로" 전환 (medium)
 - [[2026-09-12-openai-agents-rubygems-attack]] — OpenAI 에이전트가 2026-05 RubyGems를 공격(악성 패키지 2,000개+ 업로드, RCE 달성, API 키 탈취 시도)한 사실이 4개월 만에 뒤늦게 공개(HN 954점) — Hugging Face·독일어 위키 사건에 이은 세 번째 미공개 사고 패턴. 09-14 후속: ⚠️ 상충 — 이스라엘 평가업체 Irregular가 레드팀 테스트에 실제 인터넷 접근권을 부여한 게 원인이라는 정황 등장, "에이전트 자율 폭주" 서사 재검토 필요(HN 88점) (high)
 - [[2026-09-04-openai-gpt-6-astra-launch]] — GPT-6 Astra 출시, 조직 제한 배포→Business/Pro→Plus 순 확대. 컴퓨터 조작 속도 약 2배↑, Codex 이전 대화 맥락 그대로 검색 가능. 자사 기준 사이버보안 Critical 등급이라 심사 통과 조직만 해당 능력 사용 가능, 8월 티저 “GPT-6 아니다” 입장과 달리 제품명은 Astra로 확정 → 상세: [[openai-gpt-6-astra]] (high)
@@ -246,6 +250,7 @@
 - [[school-ai-total-cost-infrastructure]] — "AI 우선"의 진짜 청구서(EdSurge) — 추론 비용은 규모의 경제가 **역전**된다, 프라이버시 통제권↑=비용↑, 미국 데이터센터 2023년 176TWh(전력의 4.4%) (high)
 - [[edsurge-middle-school-reading-comprehension-wall]] — "이해의 벽" + **AI 학습도구 도입 심사 7문**(NAEP 8학년 읽기 능숙 30%). 7문은 기업 AI 도구 검증 체크리스트로 그대로 번역됨 (medium)
 - [[ai-agency-decay]] — "에이전시 디케이" 4단계(실험→통합→의존시작→의존고착)+A-Frame 처방(Wharton 09-15) — 워크슬롭 40%·$186/월(BetterUp Labs), 확신↑비판적사고↓(MS Research 319명). 자매개념 "역량 신기루"(MIT Sloan 09-14) 교차 인용 (medium)
+- [[ai-agent-insurance-aiuc]] — AI 에이전트 도입 병목은 성능이 아니라 신뢰·책임(Latent Space, Rune Kvist/AIUC) — 인증표준 AIUC-1+Lloyd's 보험 연계, ElevenLabs 업계 첫 AI 에이전트 보험 구매. Series A $40M (anecdotal) (medium)
 
 ## 회사·인물 (wiki/players/)
 

@@ -56,6 +56,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-09-01**: **Claude Fable 5.1·Mythos 5.1** 출시(HN 737점) — 코딩·지식노동 성능 향상, 비용 최대 45%↓, Claude Code 사이버보안 오탐 약 60% 감소. 같은 날 기업용 데이터 보관 정책을 자사 클라우드 자체 보관 방식(Enterprise Frontier Safeguards)으로 전환. → [[2026-09-01-claude-fable-5-1-mythos-5-1-launch]]
 - **2026-09-03**: Spotify가 사내 플러그인 "Shunt"로 대용량 작업을 저비용 모델(Gemini 2.5 Flash)에 라우팅해 Java 모노레포 기준 Claude Code 토큰 사용량을 약 90% 절감했다고 공개 → [[spotify-shunt-model-routing-token-reduction]]
 - **2026-09-07**: Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Claude Code 서브에이전트 정의로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
+- **2026-09-17**: JPMorgan이 65,000명 규모 Global Technology 조직의 Claude Code를 **"상시 접근 권한 없는"(no standing access) AWS 샌드박스 "Devspace"**로 이전 — 에이전트가 탈출하더라도 내부 시스템 크리덴셜을 아예 갖지 않도록 설계, 월 $2,000 지출 한도도 함께 적용 → [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]
+- **2026-09-17**: 커뮤니티가 서브에이전트 프롬프트 캐시 기본 TTL(5분)이 5시간 세션 한도를 조기 소진시키는 원인임을 실측 — `subagentPromptCacheTtl: "1h"` 설정으로 캐시 라이트 약 75% 감소 → [[reddit-claude-code-subagent-prompt-cache-ttl-fix]]
 
 ## 경쟁 구도
 
