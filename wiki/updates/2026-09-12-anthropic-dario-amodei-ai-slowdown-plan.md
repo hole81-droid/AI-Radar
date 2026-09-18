@@ -62,8 +62,15 @@ Anthropic CEO Dario Amodei가 2026-09-12 개인 도메인에 약 3,800단어 에
 **정부 차원의 명시적 거부**에 부딪혔다 — "기업이 자율적으로 속도를 늦추자"는 것과
 "정부가 공통 기준을 만들자"는 것 사이의 간극이 이번 충돌로 뚜렷해졌다.
 
+## 09-17 후속 — Claude 자기개선 진행률 첫 수치 공개
+
+이번 감속 계획이 요구한 "자기개선 진행률 투명 공개"를 회사 스스로 닷새 만에 실행했다.
+[[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] 참조 — Claude가 자사 R&D의
+26%를 주도(6개월 전 1% 미만)한다는 수치, 에이전트 약 30,000개 동시 가동.
+
 ## 관련 페이지
 
+- [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] — 이 발표가 요구한 투명성의 첫 실행
 - [[2026-07-28-ai-industry-pacing-letter]] — 이번 발표의 전사(前史), 직원 1,100명+ 서한
 - [[2026-09-09-anthropic-jacob-coxon-resignation]] — 09-11 후속: 안전연구원 추가 이탈
 - [[2026-07-21-openai-huggingface-security-incident]] — 이번 경고의 핵심 근거 사건

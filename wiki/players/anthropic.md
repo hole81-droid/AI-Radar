@@ -325,6 +325,19 @@ Fable 5.1의 370년 암호 해독 주장이 HN에서 재부상하며 검증 논�
 확인돼 [[2026-07-31-anthropic-cybersecurity-eval-incidents]]에 교차링크로
 반영됐다.
 
+**9/17~18 — Claude 자기개선 수치 첫 공개, IPO 밸류 $2조 확정, Claude Code
+AGENTS.md 지원**: Anthropic이 Claude가 자사 R&D의 26%를 "주도"(end-to-end)한다는
+수치를 처음 공개했다 — 2026-03 1% 미만에서 6개월 만에 급등(Epoch AI 척도),
+에이전트 약 30,000개 동시 가동. 09-12 Amodei의 감속 계획이 요구한 투명성 공개를
+닷새 만에 스스로 실행한 셈이다 ([[2026-09-17-anthropic-claude-self-directed-rd-26-percent]]).
+같은 주 IPO 목표 밸류에이션이 **$2조**·조달 목표 **$100B+**로 재확인됐고, 연말
+연환산 매출이 $100B에 도달할 수 있다는 전망도 나왔다(7월 말 $65B에서 급증) —
+"감속 촉구"·"자기개선 가속 공개"·"역대급 몸값 상장"이 같은 주에 겹쳤다
+([[2026-07-15-anthropic-ipo-investor-meetings]] 09-17~18 후속 절). 도구
+측면에서는 Claude Code가 `CLAUDE.md`가 없을 때 업계 표준 `AGENTS.md`를 대신
+읽는 기능을 추가해 Codex 등과 프로젝트 설정 파일을 공유할 수 있게 됐다
+([[2026-09-18-claude-code-agents-md-support]]).
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

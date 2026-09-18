@@ -2477,3 +2477,28 @@ Astra 법률특화 "Astra for Law" 출시, Hugging Face의 OpenAI 상대 $100M �
 이후 신규 없음(기존 페이지와 중복 확인), Latent Space "Forward Deployed Engineer"·
 "Frontier AEO Tracker"는 특정 자동화 사례가 아닌 인터뷰·트래커 소개라 보류, r/AI_Agents는
 당일 특기할 자동화 사례 없음, "Israeli EA Firm" 재확산은 기존 위키 사실과 동일해 미반영.
+
+## [2026-09-19] scan | 항목 9건, 반영 6건
+
+업무 적용 Case 1건(GPT-6 Astra vs GPT-5.6 Luna 코드리뷰 자동화 벤치마크 — PR 50건 실측,
+정밀도 96% vs 74%·비용 28배 차이) · 빅 뉴스 5건(Anthropic "Claude가 자사 R&D 26% 주도"
+첫 수치 공개, Anthropic IPO 밸류 $2조·조달 $100B+ 확정 보도, Claude Code AGENTS.md 지원
+시작, ZCode(Z.ai GLM) git 히스토리 무단 업로드 발견, McKinsey "coordination tax" 에이전틱
+워크플로 재설계 프레임 — 본문 WebFetch 타임아웃으로 2차 확인만) · 커뮤니티 화제·도구
+실사용평가 2건(HarnessTax — 21개 모델-하네스 조합 통계검정, 품질差 유의미 0건·비용差
+최대 71%, Claude Code "overreach" 스코프 이탈 불만 재점화) · YouTube 1건(Ben AI, Claude
+for Small Business 영상) + 노정석 채널 신규 업로드 없음(최신 EP114 09-12, 3일 창 밖).
+신규 update 3건([[2026-09-17-anthropic-claude-self-directed-rd-26-percent]]·
+[[2026-09-18-claude-code-agents-md-support]]·[[2026-09-18-zcode-glm-agent-git-history-upload]]),
+신규 use-case 1건([[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]]), 신규
+concept 1건([[harnesstax-coding-agent-harness-cost-benchmark]]), 기존 페이지 후속 절 2건
+([[2026-07-15-anthropic-ipo-investor-meetings]] 09-17~18 후속·[[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]
+09-17 후속). `wiki/tools/claude-code.md`·`wiki/players/anthropic.md`·`wiki/timeline.md`(2건
+추가, 163건)·`index.md`·`wiki/use-cases/case-catalog.md`(117건) 갱신. MIT Sloan "Capability
+Mirage" 중복 페이지를 실수로 새로 만들었다가 기존 [[ai-agency-decay]] 페이지에 이미 있는
+내용임을 발견해 안내용 리다이렉트 스텁으로 정정([[ai-capability-mirage]]). 확인했으나
+미채택: OpenAI 모델 정렬 위반 프레임워크(09-16에 이미 전량 반영, 오늘은 신규 사실 없음),
+"Towards Self-Driving Codebases"(HN 117점)는 수치 없는 비전 에세이라 페이지화 보류, Wharton
+"Agency Decay"·EdSurge 최신 기사들은 학교·정책 소재라 관심사 범위 밖, Reddit r/AI_Agents·
+r/ClaudeAI 다건은 429 레이트리밋 반복으로 본문 확인 실패해 제목 확인 가능한 것만 최소
+반영(overreach 1건).

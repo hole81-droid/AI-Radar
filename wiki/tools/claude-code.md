@@ -58,6 +58,9 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-09-07**: Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Claude Code 서브에이전트 정의로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
 - **2026-09-17**: JPMorgan이 65,000명 규모 Global Technology 조직의 Claude Code를 **"상시 접근 권한 없는"(no standing access) AWS 샌드박스 "Devspace"**로 이전 — 에이전트가 탈출하더라도 내부 시스템 크리덴셜을 아예 갖지 않도록 설계, 월 $2,000 지출 한도도 함께 적용 → [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]
 - **2026-09-17**: 커뮤니티가 서브에이전트 프롬프트 캐시 기본 TTL(5분)이 5시간 세션 한도를 조기 소진시키는 원인임을 실측 — `subagentPromptCacheTtl: "1h"` 설정으로 캐시 라이트 약 75% 감소 → [[reddit-claude-code-subagent-prompt-cache-ttl-fix]]
+- **2026-09-18 (v2.1.277)**: `CLAUDE.md`가 없는 폴더에서 **`AGENTS.md`를 대신 읽는 기능** 추가(Codex 등 타 도구와 프로젝트 지시문 파일 공유 가능, `/config`로 토글). "Claude Code mods" 체계의 첫 내장 기능. → [[2026-09-18-claude-code-agents-md-support]]
+- **2026-09-16 벤치마크**: "HarnessTax" 연구 — 21개 모델-하네스 조합·과제당 3회 시도를 통계 검정한 결과, 하네스 간 품질 차이는 유의미하지 않은 반면(42개 비교쌍 중 보정 후 유의 0건) 비용은 하네스에 따라 최대 71% 차이. → [[harnesstax-coding-agent-harness-cost-benchmark]]
+- **2026-09-18 보안 참고**: 경쟁 하네스 ZCode(Z.ai GLM 기반)가 설정을 꺼도 `.git` 전체 히스토리를 클라우드로 몰래 업로드하는 사실이 리버스엔지니어링으로 드러남 — 하네스 선택 시 성능·비용 외에 데이터 흐름 투명성도 검증해야 한다는 반례. → [[2026-09-18-zcode-glm-agent-git-history-upload]]
 
 ## 경쟁 구도
 

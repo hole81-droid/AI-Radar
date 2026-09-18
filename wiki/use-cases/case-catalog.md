@@ -83,6 +83,7 @@ uses: [course, ax]
 - [[claude-code-lsp-plugin-cost-cutting]] — Claude Code로 서브에이전트(subagents) 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 → 비용 13%↓·토큰 12%↓·API 호출 24%↓, grep 340→189회 (실측)
 - [[self-hosted-llm-migration-sop-mttf]] — Ollama(cli-pipeline)로 Single Objective Prompting+MTTF 진단 지표를 활용해 대형 프리프롬프트를 자체 호스팅 환경으로 이전 → 컨텍스트 14% 즉시소모→반복 헛돌기 완화 (일화, 정량 전후비교 제한적)
 - [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] — Claude Code로 서브에이전트(subagents) 캐시 TTL 설정 한 줄을 조정해 프롬프트 캐시 재작성을 방지 → 캐시 라이트 약 75%↓, 5시간 세션 한도 소진 속도 완화 (실측)
+- [[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]] — GPT-6 Astra·GPT-5.6 Luna(cli-pipeline)로 공개 저장소 PR 50건 자동 코드리뷰를 수행해 모델 티어링 기준을 실측 → Astra 버그 92건·정밀도96%·보안버그19건 vs Luna 69건·정밀도74%·보안버그9건, 비용은 Luna가 28배 저렴($0.20 vs $5.66) (실측)
 
 ## 보안·운영 (ops)
 
@@ -376,3 +377,15 @@ update 페이지로, Claude Cowork·Chat 통합(Docs·Slides·Design 출시)·Op
 [[2026-09-17-openai-astra-for-law]] update 페이지로, AIUC의 AI 에이전트 보험·인증
 인프라는 특정 기업 자동화 사례가 아닌 업계 인프라 트렌드라 [[ai-agent-insurance-aiuc]]
 concept 페이지로 반영했다.*
+
+*2026-09-19 추가(117건): [[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]]
+(dev-automation, HN 165점 — GPT-6 Astra vs GPT-5.6 Luna로 공개 PR 50건 자동 코드리뷰
+실측 비교, Astra 버그33%더 발견·정밀도96% vs Luna 비용28배 저렴). 같은 스캔에서 확인한
+Anthropic "Claude가 자사 R&D 26% 주도" 수치 공개·Claude Code AGENTS.md 지원·Anthropic
+IPO $2조 밸류 갱신은 특정 업무 자동화 사례가 아니라 제품·정책·사업 사실이라 각각
+[[2026-09-17-anthropic-claude-self-directed-rd-26-percent]]·
+[[2026-09-18-claude-code-agents-md-support]]·[[2026-07-15-anthropic-ipo-investor-meetings]]
+update 페이지로, HarnessTax(하네스 간 비용 최대 71%차·품질差 유의미하지 않음)·ZCode
+git 히스토리 무단 업로드는 특정 기업의 자동화 사례가 아니라 업계 벤치마크·보안 사건이라
+각각 [[harnesstax-coding-agent-harness-cost-benchmark]] concept·
+[[2026-09-18-zcode-glm-agent-git-history-upload]] update 페이지로 반영했다.*

@@ -56,6 +56,17 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - 관련: [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] — 같은 시기 CEO가 "AI 감속"을
   공개 촉구한 것과 "역대급 몸값 상장 추진"이 한 회사에서 동시에 나오는 대비.
 
+## 후속 갱신 (2026-09-17~18)
+
+- 목표 밸류에이션이 **$2조**로 상향 확인, 조달 목표는 **$100B+**(사상 최대 IPO, SpaceX
+  2026-06 $86.3B 상회 목표)로 보도됨. 2분기 매출 $11.6B(전년 동기 대비 10배 이상 성장)
+  페이스가 이어지면 연환산 매출이 **연말 $100B**에 도달할 수 있다는 전망도 함께 나옴 —
+  7월 말 기준 $65B에서 추가 급증. Nvidia가 $10B 규모 투자를 검토 중이라는 보도도 있었다
+  (CTech, 09-17).
+- 같은 주(09-17) Anthropic은 [[2026-09-17-anthropic-claude-self-directed-rd-26-percent|
+  Claude가 자사 R&D의 26%를 주도한다는 수치]]도 공개했다 — "속도를 늦추자"는 09-12
+  감속 메시지, "역대급 몸값 상장", "자기개선 가속 수치 공개"가 같은 주에 겹쳐 나온 셈이다.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
@@ -64,3 +75,5 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - [CNBC — Anthropic moves closer to mega-IPO as bankers line up investor meetings](https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html)
 - [Yahoo Finance — The Anthropic IPO Could Come by October. Will It Do Better Than SpaceX?](https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-could-come-october-180924141.html)
 - [StartupHub.ai — Anthropic Nears IPO as Bankers Schedule Investor Meetings](https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-investor-meetings-2026-07-21)
+- [The Motley Fool — Anthropic Is Targeting a Valuation of Over $2 Trillion in Its IPO (09-17)](https://www.fool.com/investing/2026/09/17/anthropic-target-valuation-2-trillion-smart-buy/)
+- [CTech — Anthropic's $2 trillion IPO is taking shape as Nvidia considers a $10 billion investment (09-17)](https://www.calcalistech.com/ctechnews/article/a7jlnbf3u)
