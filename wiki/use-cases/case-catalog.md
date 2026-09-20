@@ -86,6 +86,7 @@ uses: [course, ax]
 - [[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]] — GPT-6 Astra·GPT-5.6 Luna(cli-pipeline)로 공개 저장소 PR 50건 자동 코드리뷰를 수행해 모델 티어링 기준을 실측 → Astra 버그 92건·정밀도96%·보안버그19건 vs Luna 69건·정밀도74%·보안버그9건, 비용은 Luna가 28배 저렴($0.20 vs $5.66) (실측)
 - [[petervijeh-gemini-distillation-gliner-9-dollars]] — Gemini(cli-pipeline)로 Reddit 댓글 4,290건을 한 번만 라벨링한 뒤 로컬 소형 모델 GLiNER를 파인튜닝해 API 호출 없는 개체명 인식으로 전환 → 총 $11.50(라벨링$9+학습$2.50)로 F1 0.83 확보, 약 4,291건부터 손익분기 (실측)
 - [[reddit-agent-dispatcher-routing-benchmark]] — Claude·Codex(skills+subagents+mcp)로 27개 역할·110개 스킬·19개 MCP 서버를 아우르는 오픈소스 라우터 Agent Dispatcher를 구축 → 162케이스 라우팅 벤치마크 top-1 정확도 97.5%(158/162), 키워드매칭(23/162)·자체 경량 라우터(143/162) 모두 능가 (실측)
+- [[microsoft-copilot-runtime-rust-port]] — GPT-5.6 Sol·Claude Opus 4.8(cli-pipeline)로 GitHub Copilot 런타임 43만 줄 TypeScript를 Rust로 모듈 단위 에이전틱 포팅 → 속도 15.9배·메모리 91%↓, 비용 $120,000(14.5주, 135회 릴리스) (실측)
 
 ## 보안·운영 (ops)
 
@@ -408,3 +409,16 @@ xAI Grok Bot 5일 실사용, 관리형 vs OpenClaw 통제형 트레이드오프 
 Hardman의 Frontline 코스생성 도구 비판은 프레임·방법론 성격이라 각각
 [[mollick-capability-overhang]]·[[hardman-ai-course-generator-critique-frontline]]
 concept 페이지로 반영했다.*
+
+*2026-09-21 추가(121건): [[microsoft-copilot-runtime-rust-port]] (dev-automation,
+The Register — GitHub Copilot 런타임 43만 줄을 GPT-5.6 Sol+Claude Opus 4.8로 에이전틱
+Rust 포팅, 14.5주·$120K로 속도 15.9배·메모리 91%↓ 실측, production 반영). 같은 스캔에서
+확인한 Anthropic-Accenture "임베디드 평가자" 파트너십(각 $10억×5년, Amodei 감속계획
+1단계 실행)은 특정 기업의 업무 자동화 사례가 아니라 회사 전략·파트너십 발표라
+[[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 기존 페이지에 09-18 후속 절로
+반영했다. Reddit r/ClaudeAI의 "reasoning budget silently nerfed"(43,000+ 콜 65일 분석,
+Fable 5 콜 39%가 thinking 토큰 0)는 사용자 1인의 미검증 자체 분석이라 페이지화하지 않고
+뉴스레터 한 줄로, HarnessTax(코딩 에이전트 하네스 비용 벤치마크)는 확인해보니
+2026-09-19 스캔에서 이미 [[harnesstax-coding-agent-harness-cost-benchmark]]로 페이지화된
+것과 같은 연구라 중복 생성 없이 스킵했다(2026-09-21 중 실수로 별도 파일을 만들었다가
+발견해 리다이렉트 스텁으로 정정).*

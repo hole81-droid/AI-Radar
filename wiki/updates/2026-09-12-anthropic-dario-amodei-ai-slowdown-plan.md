@@ -68,6 +68,28 @@ Anthropic CEO Dario Amodei가 2026-09-12 개인 도메인에 약 3,800단어 에
 [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] 참조 — Claude가 자사 R&D의
 26%를 주도(6개월 전 1% 미만)한다는 수치, 에이전트 약 30,000개 동시 가동.
 
+## 09-18 후속 — 1단계("즉시 시행") 실제 착수, 첫 임베디드 평가자로 Accenture 선정
+
+09-12 발표의 3단계 계획 중 "즉시 시행" 항목(외부 안전 평가자에게 직원 수준
+상시 접근권 부여)이 엿새 만에 구체적 파트너로 이어졌다. Anthropic이 Accenture의
+AI 전문 조직 Faculty와 파트너십을 맺고, Faculty가 Anthropic 내부에 상주하며
+모델 평가·레드티밍·정렬(alignment) 평가·안전장치 테스트를 수행하는 "임베디드
+평가자" 팀을 꾸린다고 발표했다. 기존 외부 감사와 달리 임베디드 평가자는 직원
+수준 접근권으로 "모델이 학습 중 형성되는 과정을 지켜보고, 그 모델을 어떻게
+만들고 배포할지 결정하는 논의를 따라가며, 직원과 직접 대화"할 수 있다.
+
+Anthropic·Accenture 양사는 앞으로 5년간 각각 최소 10억 달러를 이 영역에
+투자하겠다고 밝혔다. 현재는 Anthropic이 Accenture 작업 비용을 직접 부담하지만,
+장기적으로는 여러 회사가 공동 출자하거나 정부 재원으로 평가 비용을 대는 구조를
+지향한다고 설명했다(기존 Advanced AI Framework에서 밝힌 방향과 일치). 비독점
+파트너십이라 Anthropic은 향후 몇 주 안에 추가 평가자(비영리 단체 METR 등과도
+파일럿 논의 중)를 발표할 예정이고, Accenture도 다른 AI 개발사들과 유사한
+파트너십을 맺을 수 있다.
+
+09-12 발표 당시엔 "즉시 시행하겠다"는 선언에 그쳤던 1단계가, 실제 조직·자금
+규모(양사 합산 20억 달러+)를 갖춘 첫 실행으로 확인된 것이어서, 이번 감속
+계획이 성명에서 그치지 않고 있다는 근거로 볼 수 있다.
+
 ## 관련 페이지
 
 - [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] — 이 발표가 요구한 투명성의 첫 실행
@@ -83,3 +105,4 @@ Anthropic CEO Dario Amodei가 2026-09-12 개인 도메인에 약 3,800단어 에
 - [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models)
 - [BBC](https://www.bbc.com/news/articles/c14dpgm0rg4o)
 - 09-14 후속: [NPR — Trump warns against slowing AI but he is not against guardrails](https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown) · [Yahoo News — Trump rejects call by CEOs of Anthropic, OpenAI and xAI to slow AI down](https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html) · [Neowin — David Sacks blasts OpenAI and Anthropic over slowdown](https://www.neowin.net/news/david-sacks-blasts-openai-and-anthropic-over-slowdown/)
+- 09-18 후속: [Anthropic — Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation) · [CNBC](https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html) · [TechCrunch](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/) · [Accenture Newsroom](https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic)

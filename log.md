@@ -2528,3 +2528,34 @@ OpenAI Astra for Law·Cowork/chat 병합·misalignment 프레임워크 후속(�
 전량 반영, 신규 사실 없음), Exponential View 09-19 발행분 3건(참여도가 자기 평균 근처이거나
 낮고 페이월로 본문 확인 제한), AX LABS·Josh Bersin(최신 글이 각각 09-14·09-02로 창 밖,
 신규 업로드 없음), r/AI_Agents(당일 신규 게시물 확인 안 됨, 429 아닌 빈 피드).
+
+## [2026-09-21] scan | 항목 3건, 반영 3건
+
+업무 적용 Case 1건(Microsoft, GitHub Copilot 런타임 43만 줄을 GPT-5.6 Sol+Claude Opus 4.8
+에이전트로 14.5주 만에 Rust로 전면 포팅 — 속도15.9배·메모리91%↓·비용$120K 실측) · 빅 뉴스
+1건(Anthropic-Accenture 임베디드 평가자 파트너십 — 09-12 감속 계획 1단계 실행, 양사 각
+$10억+×5년) · 커뮤니티 화제·도구 실사용평가 1건(Reddit 사용자의 65일·43,000+ 콜 분석
+기반 "reasoning 예산 은근슬쩍 삭감" 주장, 1인 미검증 자체 분석으로 명시해 반영). YouTube:
+노정석 채널 신규 업로드 없음(최신 EP114 09-12 그대로), 다른 채널은 날짜 확인된 신규
+업로드를 찾지 못해 생략.
+
+신규 wiki 페이지 1건: use-case [[microsoft-copilot-runtime-rust-port]]. 기존 페이지
+후속 절 1건([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]], 09-18 Accenture
+파트너십 반영). `wiki/timeline.md`(1건 추가, 165건)·`index.md`·
+`wiki/use-cases/case-catalog.md`(121건) 갱신.
+
+**중복 생성 정정**: HarnessTax(코딩 에이전트 하네스 비용 벤치마크) 스캔 중 이미
+2026-09-19에 [[harnesstax-coding-agent-harness-cost-benchmark]]로 페이지화된 사실을
+뒤늦게 발견 못 하고 `wiki/concepts/harnesstax-coding-agent-benchmark.md`를 새로
+만들었다가, 카탈로그 비교 중 중복을 확인해 리다이렉트 스텁으로 정정(삭제 권한 없어
+스텁 처리 — [[ai-capability-mirage]] 선례와 동일 패턴). `raw/2026-09/`에도 같은 이름의
+중복 원본 파일이 남아있음(raw는 불변 원칙상 삭제 대신 방치, 실질적 문제 없음).
+
+확인했으나 미채택: HBR·MIT Sloan·Knowledge at Wharton·McKinsey RSS 최신 항목 전부
+09-14~09-18 사이로 이미 지난 스캔들에서 페이지화됨(coordination tax·Capability
+Mirage·Agency Decay 등 기존 페이지와 중복 확인) · One Useful Thing 최신글(09-18 "The
+Overhang")도 09-20 스캔에서 이미 반영 · AX LABS·Josh Bersin 신규 업로드 없음(각각
+최신 09-14·09-15로 정체) · HN Algolia karpathy/Andrew Ng 쿼리 신규 고득점 결과 없음
+(karpathy 최신 08-02, Ng 최신 07-29) · Reddit r/AI_Agents·r/OpenAI 훑었으나 재현 가능한
+구체적 업무 자동화 사례 없음(밈·메타 질문 위주) · Terence Tao의 "AI 감속" 발언(Reddit
+r/OpenAI에서 화제)은 본인 1차 채널 대조 없이는 인용 규칙상 채택 보류.
