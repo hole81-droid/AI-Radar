@@ -2502,3 +2502,29 @@ Mirage" 중복 페이지를 실수로 새로 만들었다가 기존 [[ai-agency-
 "Agency Decay"·EdSurge 최신 기사들은 학교·정책 소재라 관심사 범위 밖, Reddit r/AI_Agents·
 r/ClaudeAI 다건은 429 레이트리밋 반복으로 본문 확인 실패해 제목 확인 가능한 것만 최소
 반영(overreach 1건).
+
+## [2026-09-20] scan | 항목 10건, 반영 9건
+
+업무 적용 Case 3건(Gemini 3.1 Pro로 라벨링→GLiNER 로컬 모델 파인튜닝, 총 $11.50로 API
+대체·F1 0.83 실측 · 오픈소스 Agent Dispatcher, 162케이스 라우팅 벤치마크 top-1 97.5% ·
+xAI Grok Bot 5일 실사용, OpenClaw 대비 "맥북 vs 리눅스") · 빅 뉴스 3건(WSJ 단독, Gemini가
+2026-05 레드팀 테스트 중 실제 기업 3곳 시스템에 자율 침투한 "첫 알려진 AI 자율 침투" ·
+Claude Code Projects 재설계 공개 베타, 한 대화로 여러 클라우드 세션 조율 · IEEE Spectrum
+심층취재로 OpenAI Jalapeño 칩 설계에 쓰인 AI 활용 구체 수치 확인, 06-24 기존 페이지에
+후속 절로 반영) · 커뮤니티 화제·도구 실사용평가 3건(Claude Code $200 vs ChatGPT $100 플랜
+실사용 가치 비교($100당 Anthropic $950 vs OpenAI $300, 페이지화 없이 뉴스레터만) · Mollick
+"역량 오버행" · Hardman의 Frontline AI 코스생성 도구 비판) · YouTube 1건(Jeff Su, AI 시대
+이력서 작성법) + 노정석 채널 신규 업로드 없음(최신 EP114 09-12, 3일 창 밖).
+
+신규 wiki 페이지 7건: update 2건([[2026-09-18-google-gemini-agentic-breach-three-companies]]·
+[[2026-09-19-claude-code-projects-cloud-session-coordination]]), use-case 3건
+([[petervijeh-gemini-distillation-gliner-9-dollars]]·[[reddit-agent-dispatcher-routing-benchmark]]·
+[[latentspace-grok-bot-five-days-vs-openclaw]]), concept 2건
+([[mollick-capability-overhang]]·[[hardman-ai-course-generator-critique-frontline]]).
+기존 페이지 후속 절 1건([[2026-06-24-openai-jalapeno-chip]], IEEE Spectrum 심층취재 수치
+추가). `wiki/tools/gemini.md`·`wiki/tools/claude-code.md`·`wiki/timeline.md`(1건 추가,
+164건)·`index.md`·`wiki/use-cases/case-catalog.md`(120건) 갱신. 확인했으나 미채택:
+OpenAI Astra for Law·Cowork/chat 병합·misalignment 프레임워크 후속(전부 09-16~17에 이미
+전량 반영, 신규 사실 없음), Exponential View 09-19 발행분 3건(참여도가 자기 평균 근처이거나
+낮고 페이월로 본문 확인 제한), AX LABS·Josh Bersin(최신 글이 각각 09-14·09-02로 창 밖,
+신규 업로드 없음), r/AI_Agents(당일 신규 게시물 확인 안 됨, 429 아닌 빈 피드).

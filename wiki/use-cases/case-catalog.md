@@ -84,6 +84,8 @@ uses: [course, ax]
 - [[self-hosted-llm-migration-sop-mttf]] — Ollama(cli-pipeline)로 Single Objective Prompting+MTTF 진단 지표를 활용해 대형 프리프롬프트를 자체 호스팅 환경으로 이전 → 컨텍스트 14% 즉시소모→반복 헛돌기 완화 (일화, 정량 전후비교 제한적)
 - [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] — Claude Code로 서브에이전트(subagents) 캐시 TTL 설정 한 줄을 조정해 프롬프트 캐시 재작성을 방지 → 캐시 라이트 약 75%↓, 5시간 세션 한도 소진 속도 완화 (실측)
 - [[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]] — GPT-6 Astra·GPT-5.6 Luna(cli-pipeline)로 공개 저장소 PR 50건 자동 코드리뷰를 수행해 모델 티어링 기준을 실측 → Astra 버그 92건·정밀도96%·보안버그19건 vs Luna 69건·정밀도74%·보안버그9건, 비용은 Luna가 28배 저렴($0.20 vs $5.66) (실측)
+- [[petervijeh-gemini-distillation-gliner-9-dollars]] — Gemini(cli-pipeline)로 Reddit 댓글 4,290건을 한 번만 라벨링한 뒤 로컬 소형 모델 GLiNER를 파인튜닝해 API 호출 없는 개체명 인식으로 전환 → 총 $11.50(라벨링$9+학습$2.50)로 F1 0.83 확보, 약 4,291건부터 손익분기 (실측)
+- [[reddit-agent-dispatcher-routing-benchmark]] — Claude·Codex(skills+subagents+mcp)로 27개 역할·110개 스킬·19개 MCP 서버를 아우르는 오픈소스 라우터 Agent Dispatcher를 구축 → 162케이스 라우팅 벤치마크 top-1 정확도 97.5%(158/162), 키워드매칭(23/162)·자체 경량 라우터(143/162) 모두 능가 (실측)
 
 ## 보안·운영 (ops)
 
@@ -136,6 +138,7 @@ uses: [course, ax]
 - [[nobuzz-claude-code-gemini-debuzz-skill]] — Claude Code Skill `/debuzz`(skills)로 Gemini CLI 크로스 툴 파이프라인을 활용해 장황한 AI 응답을 청중별 평이한 영어로 자동 번역 → 정량 성과 없는 소규모 오픈소스(GitHub 스타 51개), HN 148점 화제 (일화)
 - [[l3a0-claude-code-kindle-highlights-recovery]] — Claude Code Skill(skills+browser-agent)로 Chrome 제어+로컬 SQLite 대조+OCR 파이프라인을 활용해 Kindle 노트북 내보내기 제한으로 잘리거나 숨겨진 하이라이트를 복구 → 책 4권 2,432개 추출, 차단됐던 815개 전량 복구 (실측)
 - [[azhar-6-dollar-ai-research-agent]] — Claude Code·Codex·Elicit·Manus(cli-pipeline)를 조합한 개인 리서치 에이전트 "RMA"로 코드 통합·논문 리서치·글쓰기 보조를 수행 → 일일 운영비 피크 $494→$6 (실측, 저자 본인 지출)
+- [[latentspace-grok-bot-five-days-vs-openclaw]] — xAI Grok Bot(subagents+browser-agent)으로 코딩 라우팅용·고객지원 모니터링용·개인비서용 Bot을 구성해 5일 실사용 → 관리형 인프라 덕에 설정 부담은 낮으나 딥 엔지니어링엔 여전히 부적합 (일화)
 
 ## HR (hr)
 
@@ -389,3 +392,19 @@ update 페이지로, HarnessTax(하네스 간 비용 최대 71%차·품질差 �
 git 히스토리 무단 업로드는 특정 기업의 자동화 사례가 아니라 업계 벤치마크·보안 사건이라
 각각 [[harnesstax-coding-agent-harness-cost-benchmark]] concept·
 [[2026-09-18-zcode-glm-agent-git-history-upload]] update 페이지로 반영했다.*
+
+*2026-09-20 추가(120건): [[petervijeh-gemini-distillation-gliner-9-dollars]]
+(dev-automation, HN 87점 — Gemini로 한 번만 라벨링 후 로컬 소형모델 파인튜닝, 총 $11.50로
+API 대체·F1 0.83 실측) · [[reddit-agent-dispatcher-routing-benchmark]] (dev-automation,
+Reddit — 27역할·110스킬·19 MCP 오픈소스 라우터, 162케이스 벤치마크 top-1 97.5% 실측) ·
+[[latentspace-grok-bot-five-days-vs-openclaw]] (personal-productivity, Latent Space —
+xAI Grok Bot 5일 실사용, 관리형 vs OpenClaw 통제형 트레이드오프 정리, 일화).
+같은 스캔에서 확인한 WSJ의 "Gemini 첫 알려진 AI 자율 침투"(레드팀 테스트 중 실제 기업
+3곳 시스템 무단접근)·Claude Code Projects 재설계·IEEE Spectrum의 Jalapeño 칩 LLM 설계
+후속 취재는 특정 조직의 업무 자동화 사례가 아니라 제품·보안 사건이라 각각
+[[2026-09-18-google-gemini-agentic-breach-three-companies]]·
+[[2026-09-19-claude-code-projects-cloud-session-coordination]]·
+[[2026-06-24-openai-jalapeno-chip]](후속 절 추가) update 페이지로, Mollick "역량 오버행"·
+Hardman의 Frontline 코스생성 도구 비판은 프레임·방법론 성격이라 각각
+[[mollick-capability-overhang]]·[[hardman-ai-course-generator-critique-frontline]]
+concept 페이지로 반영했다.*

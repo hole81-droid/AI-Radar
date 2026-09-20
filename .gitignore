@@ -16,3 +16,7 @@ _outbox/
 .scratch/
 tmp_scan/
 raw/*/tmp/
+# 2026-09-20: 스캔이 남긴 .tmp_reddit.xml이 git add -A에 딸려 들어가 무인 커밋이 막혔다.
+# 디렉토리 패턴만으로는 못 잡으니 파일 접두사도 무시한다.
+.tmp_*
+**/.tmp_*
