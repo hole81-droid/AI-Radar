@@ -90,6 +90,28 @@ Anthropic·Accenture 양사는 앞으로 5년간 각각 최소 10억 달러를 �
 규모(양사 합산 20억 달러+)를 갖춘 첫 실행으로 확인된 것이어서, 이번 감속
 계획이 성명에서 그치지 않고 있다는 근거로 볼 수 있다.
 
+## 09-19 후속 — 반독점 집단소송: "감속 합의 자체가 담합"
+
+09-12 발표를 근거로 Anthropic·OpenAI·SpaceXAI·Google을 상대로 한 반독점 집단소송이
+캘리포니아 북부지방법원에 제기됐다. 원고 측(ChatGPT·Claude·Grok·Gemini 유료 구독자
+4명, 전국 단위 집단소송 대표)의 핵심 논리는 "각 회사가 안전을 이유로 **개별적으로**
+속도를 늦추는 것은 자유이지만, 그 감속을 **서로 합의**해 진행하는 것은 반독점법이
+금지하는 '개별 책임을 집단적 자제로 바꿔치기'"라는 것이다. 즉 09-12 Amodei 발표
+당일 Altman·Musk·Hassabis가 나란히 동의를 표한 장면 자체와, 07-28 "Pacing the
+Frontier" 서한에서 직원들이 "일방적으로 감속하기 어려운 경쟁 압박"을 인정한 대목을
+"조율의 증거"로 인용했다. 주장하는 피해는 가격 인상이 아니라 **같은 구독료로 받는
+제품 개선 속도가 줄어드는 것** — 소비자가 손해를 보는 방식이 가격이 아니라
+품질·속도라는 점이 이 소송의 특이점이다.
+
+같은 시기(09-19) NY Post는 익명 관계자를 인용해 OpenAI·Anthropic이 RubyGems·독일어
+위키·Gemini 3사 침해 등 "AI 폭주" 사고들을 **의도적으로 과장**해 연방정부가 자사에
+유리한 규제를 채택하도록 압박했다는 의혹을 보도했다 — 09-14 David Sacks의
+"규제 포획" 비판, 그리고 [[2026-09-12-openai-agents-rubygems-attack]]에 기록된
+"Irregular 운영 실수" 설명과 같은 방향의 회의론이 한 겹 더 쌓인 것이다. 세 사건
+(감속 계획 발표 → 반독점 소송 → "사고 과장" 의혹 보도)을 함께 보면, "AI 안전을
+내세운 업계 공동행동"에 대한 법적·여론적 반발이 09-12 이후 계속 누적되고 있다는
+흐름이 뚜렷해진다.
+
 ## 관련 페이지
 
 - [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] — 이 발표가 요구한 투명성의 첫 실행
@@ -106,3 +128,4 @@ Anthropic·Accenture 양사는 앞으로 5년간 각각 최소 10억 달러를 �
 - [BBC](https://www.bbc.com/news/articles/c14dpgm0rg4o)
 - 09-14 후속: [NPR — Trump warns against slowing AI but he is not against guardrails](https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown) · [Yahoo News — Trump rejects call by CEOs of Anthropic, OpenAI and xAI to slow AI down](https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html) · [Neowin — David Sacks blasts OpenAI and Anthropic over slowdown](https://www.neowin.net/news/david-sacks-blasts-openai-and-anthropic-over-slowdown/)
 - 09-18 후속: [Anthropic — Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation) · [CNBC](https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html) · [TechCrunch](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/) · [Accenture Newsroom](https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic)
+- 09-19 후속: [CNN — Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown](https://www.cnn.com/2026/09/19/business/ai-slowdown-lawsuit-antitrust) · [Fortune](https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/) · [CBS News](https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/) · NY Post(2차 확인: ground.news, jingletree) — "OpenAI and Anthropic oversold AI security breaches to pressure feds into protecting turf: insiders"

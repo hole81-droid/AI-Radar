@@ -338,6 +338,16 @@ AGENTS.md 지원**: Anthropic이 Claude가 자사 R&D의 26%를 "주도"(end-to-
 읽는 기능을 추가해 Codex 등과 프로젝트 설정 파일을 공유할 수 있게 됐다
 ([[2026-09-18-claude-code-agents-md-support]]).
 
+**9/17~21 — 생명과학 접근권 신설, 반독점 소송 피소, "사고 과장" 의혹**: Anthropic이
+검증된 생명과학 연구자에게 생물학 안전장치를 완화한 등급형 접근권
+"Life Sciences Verification Program"을 신설했다
+([[2026-09-17-anthropic-life-sciences-verification-program]]). 한편 09-12 감속 계획
+발표를 근거로 Anthropic·OpenAI·SpaceXAI·Google이 반독점법 위반(감속 담합) 혐의로
+캘리포니아 북부지방법원에 집단소송을 당했고, 같은 시기 NY Post는 두 회사가 자사
+AI 폭주 사고들을 과장해 유리한 규제를 압박했다는 의혹을 보도했다 — 09-14 David
+Sacks의 "규제 포획" 비판과 같은 방향의 후속 논란이다
+([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 09-19 후속 절).
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.

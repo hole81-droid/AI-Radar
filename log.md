@@ -2559,3 +2559,32 @@ Overhang")도 09-20 스캔에서 이미 반영 · AX LABS·Josh Bersin 신규 �
 (karpathy 최신 08-02, Ng 최신 07-29) · Reddit r/AI_Agents·r/OpenAI 훑었으나 재현 가능한
 구체적 업무 자동화 사례 없음(밈·메타 질문 위주) · Terence Tao의 "AI 감속" 발언(Reddit
 r/OpenAI에서 화제)은 본인 1차 채널 대조 없이는 인용 규칙상 채택 보류.
+
+## [2026-09-22] scan | 항목 10건, 반영 10건
+
+공식 소스(Anthropic/OpenAI/Google 뉴스룸)·구루 1차 채널(Simon Willison·Lilian
+Weng·Addy Osmani)·국내 AX 블로그(AX LABS, 09-14에서 정체)·L&D 소스(Bersin·HBI·
+McKinsey)·경영/교육 RSS(HBR·Sloan·Wharton·EdSurge·Hardman·Substack 3종)·HN
+Algolia(키워드 6종+인물 쿼리)·YouTube 9채널을 스캔. 신규 wiki 페이지 3건
+(use-case [[liamottley-kylon-accounting-firm-automation]] · update
+[[2026-09-17-anthropic-life-sciences-verification-program]] · update
+[[2026-09-21-amazon-blocks-meta-muse-agent-commerce]]), 기존 페이지 후속 절 2건
+([[2026-09-08-openai-navier-stokes-solved]] 09-21 AGMAI 신설 절,
+[[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 09-19 반독점소송+NY Post
+"사고 과장" 의혹 절). `wiki/players/anthropic.md`·`wiki/players/openai.md`에
+각 1개 문단 추가, `wiki/timeline.md`(4건 추가, 169건)·`index.md`·
+`wiki/use-cases/case-catalog.md`(122건) 갱신.
+
+확인했으나 미채택: HN "Fable 5 median thinking declined"(308점)·"A single firm is
+behind OpenAI/Anthropic/Meta hacking scandals"(693점)·Yoshua Bengio "Why are AI
+agents lying, cheating and coordinating?"(658점 재부상)는 전부 09-12~09-14에 이미
+[[2026-09-12-openai-agents-rubygems-attack]]에 상세 반영된 사실의 재부상(HN 순위만
+갱신)이라 중복 미반영, Fable 5 건은 어제(09-21) Reddit 43,000콜 분석의 재확산이라
+뉴스레터 커뮤니티 섹션에 "재부상" 한 줄로만 언급 · Claude Code AGENTS.md·Astra for
+Law·ZCode Git 히스토리 업로드·Gemini 3사 침해 건은 전부 09-16~09-18 스캔에서 이미
+페이지화됨(HN 중복 확인) · Gemini 3.8 Flash(09-02 출시)는 창을 크게 벗어나 백필
+가치 낮다고 판단해 보류 · AX LABS·Josh Bersin·MIT Sloan(AI 주제)·Wharton 신규
+글은 확인했으나 전부 이미 반영된 주제(Agency Decay·Capability Mirage 등)의 반복
+또는 AI 무관 주제 · Reddit r/AI_Agents 훑었으나 재현 가능한 구체 업무 자동화
+사례 없음(밈·메타 질문 위주, r/ClaudeAI 등 추가 서브는 429 레이트리밋으로
+미확보) · HN Algolia karpathy/Andrew Ng 인물 쿼리 신규 고득점 결과 없음.

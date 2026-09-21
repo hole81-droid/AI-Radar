@@ -78,6 +78,27 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
 - 학계 최고 권위자 집단의 공개서한이라는 점에서, 이번 사건은 단순한 우선권 분쟁을
   넘어 "AI 기업의 연구 성과 발표 방식 자체"에 대한 제도적 반발로 확대됐다.
 
+## 09-21 후속: 필즈메달 25인 공개서한에 대한 응답 — 독립 수학자문기구 AGMAI 신설
+
+09-12 필즈메달 수상자 25명의 공개서한(발표 관행 비판) 이후, 9명의 저명 수학자
+(François Charles·Camillo De Lellis·Timothy Gowers·Martin Hairer·Nikhil
+Srivastava·Ulrike Tillmann·Ravi Vakil·Edward Witten·Melanie Matchett Wood)가
+프린스턴 고등연구소(IAS) 소속 독립기구 "Advisory Group on Mathematics and
+Artificial Intelligence"(AGMAI)를 신설했다고 09-21 Terence Tao의 블로그를 통해
+발표했다(작성은 자문위원회 공동명의, Tao 개인 보증은 아님).
+
+- OpenAI가 애초에 이들에게 "OpenAI 전용 외부 자문위원회"를 제안했으나, 수학자들은
+  대신 OpenAI에 종속되지 않는 더 넓은 범위의 독립기구를 만들었다 — 목적은
+  "수학과 수학계 공동체의 최선의 이익"에 봉사하는 것이라고 명시.
+- 신설 직후 첫 과제로 명시한 것은 OpenAI가 자사 미공개 모델로 만들었다고 주장하는
+  "다수의 중요 수학 결과"를 앞으로 어떻게 공개·검증·조율할지에 대한 조언이다 —
+  이번 나비어-스톡스 사건과 직접 연결되는 실무 대응이다.
+- Tao 블로그 댓글란에는 OpenAI와의 협력 자체에 회의적인 반응이 다수 확인됐다.
+  나비어-스톡스 우선권 분쟁은 자문위 본문보다는 댓글에서 주로 언급됐다.
+
+이로써 09-08 발표 이후 이어진 논란이 "학계의 공개서한 비판"(09-12)에서
+"AI 기업과 학계 사이의 상설 조율 채널 신설"(09-21)로 한 단계 더 진행됐다.
+
 ## 출처
 
 - [OpenAI — On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)
@@ -89,3 +110,4 @@ OpenAI가 2026-09-08 자체 미공개 차세대 모델(GPT-6 Astra보다 더 강
 - [Science (AAAS) — How an AI math breakthrough ignited a controversy](https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy)
 - [The Economist — Top mathematicians are outraged by OpenAI's methods](https://news.ycombinator.com/item?id=49662698) (원문 페이월, HN 94점 스레드로 교차확인)
 - [Understanding AI — OpenAI spent millions to solve this famous math problem — mathematicians are furious](https://www.understandingai.org/p/openai-spent-millions-to-solve-this)
+- 09-21 후속: [Terence Tao — Advisory Group on Mathematics and Artificial Intelligence](https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/) · [OpenAI — Advisory Group on Mathematics and AI](https://openai.com/index/advisory-group-on-mathematics-and-ai/)

@@ -121,6 +121,13 @@ Study Mode 확대. [[2026-07-15-claude-for-teachers|Claude for Teachers]]와 마
 패턴으로, "모델 접근권이 경쟁 무기가 되는" 코딩 에이전트 4파전 구도를 재확인시켰다. HN
 785점. → [[2026-08-29-openai-ends-cursor-partnership]]
 
+**9/21 — 나비어-스톡스 논란 이후 독립 수학자문기구 신설**: 09-12 필즈메달 25인 공개서한
+이후, OpenAI가 제안했던 "OpenAI 전용 자문위" 대신 수학자 9명이 프린스턴 IAS 소속
+독립기구 "Advisory Group on Mathematics and AI"(AGMAI)를 자체적으로 신설(Terence Tao
+블로그로 발표). 첫 과제는 OpenAI가 주장하는 다수의 수학 난제 해결 성과를 어떻게
+공개·검증할지 조언하는 것 — 학계 신뢰 회복을 위한 상설 채널이 만들어졌지만 댓글란은
+협력 자체에 회의적이다. → [[2026-09-08-openai-navier-stokes-solved]] (09-21 후속 절)
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]

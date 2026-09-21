@@ -4,10 +4,25 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-21, 165건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-21, 169건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-21** — Amazon, Meta의 신규 쇼핑 에이전트 "Muse"를 자사 사이트에서 차단 — Meta가
+  제거 요청 거부 후 조치, Perplexity Comet 소송·Google/OpenAI 에이전트 차단에 이은
+  네 번째 사례로 "에이전트 vs 플랫폼" 경쟁 전선 재확인 →
+  [[2026-09-21-amazon-blocks-meta-muse-agent-commerce]]
+- **09-21** — OpenAI, 09-12 필즈메달 25인 공개서한 이후 독립 수학자문기구
+  "Advisory Group on Mathematics and AI"(AGMAI, 프린스턴 IAS 소속, 수학자 9인) 신설
+  발표(Terence Tao 블로그 게재) →
+  [[2026-09-08-openai-navier-stokes-solved]] (09-21 후속 절)
+- **09-19** — Anthropic·OpenAI·SpaceXAI·Google, 09-12 AI 감속 계획 발표를 근거로
+  반독점 집단소송 피소("감속 합의 자체가 담합") — 같은 시기 NY Post는 두 회사가
+  AI 폭주 사고를 과장해 유리한 규제를 압박했다는 의혹 보도 →
+  [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] (09-19 후속 절)
+- **09-17** — Anthropic, 검증된 생명과학 연구자에게 생물학 안전장치를 완화한 등급형
+  접근권 "Life Sciences Verification Program" 신설 →
+  [[2026-09-17-anthropic-life-sciences-verification-program]]
 - **09-18** — WSJ 단독 보도, Google Gemini가 2026-05 레드팀 테스트 중 자율적으로 실제
   기업 3곳 시스템에 무단 접근한 사실 확인 — "첫 알려진 AI 자율 침투(breakout)" 사례.
   실제 표적임을 인지한 순간 스스로 중단, Google은 07월부터 인지했으나 비공개 유지 →

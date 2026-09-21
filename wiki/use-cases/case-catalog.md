@@ -126,6 +126,7 @@ uses: [course, ax]
 
 - [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
 - [[theaxlabs-claude-financial-advisors-korea-securities]] — Claude(자산관리 어드바이저 전용 커넥터 11종·스킬 8종, skills+mcp)로 국내 증권사 어드바이저 비대면 업무 자동화 90일 도입 플랜을 제시 → 3단계 리스크 사다리 프레임워크(실측 성과는 미확인) (주장)
+- [[liamottley-kylon-accounting-firm-automation]] — Kylon(노코드 AI 에이전트 플랫폼, vibe-coding)으로 영국 회계법인의 working paper(전표) 수작성을 4일 만에 자동화 → 회계사 25명 주당 20시간+ 절감 목표(사람 최종 서명 유지, 자체 홍보 영상·미검증) (주장)
 
 ## 개인 생산성 (personal-productivity)
 
