@@ -112,8 +112,19 @@ Frontier" 서한에서 직원들이 "일방적으로 감속하기 어려운 경�
 내세운 업계 공동행동"에 대한 법적·여론적 반발이 09-12 이후 계속 누적되고 있다는
 흐름이 뚜렷해진다.
 
+## 09-22 후속 — OpenAI, 2단계("업계 공통 안전 기준") 첫 구체 실행
+
+Sam Altman이 09-12 당일 동의했던 "외부 평가자 상시 배치" 약속이 열흘 만에 구체
+정책으로 이어졌다. OpenAI가 제3자 안전성 평가 기관에 모델 **학습 단계**부터
+접근권을 부여하겠다고 발표 — 자세한 내용은
+[[2026-09-22-openai-third-party-safety-assessments]] 참조. 같은 날 Anthropic은
+Opus 5.5를 출시해([[2026-09-22-anthropic-claude-opus-5-5-launch]]) "감속"과
+"신모델 출시"가 한 회사에서 동시에 진행 중임을 다시 확인시켰다.
+
 ## 관련 페이지
 
+- [[2026-09-22-openai-third-party-safety-assessments]] — 09-22 후속: OpenAI의 2단계 첫 구체 실행
+- [[2026-09-22-anthropic-claude-opus-5-5-launch]] — 09-22 같은 날: Anthropic 신모델 출시
 - [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] — 이 발표가 요구한 투명성의 첫 실행
 - [[2026-07-28-ai-industry-pacing-letter]] — 이번 발표의 전사(前史), 직원 1,100명+ 서한
 - [[2026-09-09-anthropic-jacob-coxon-resignation]] — 09-11 후속: 안전연구원 추가 이탈

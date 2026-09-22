@@ -2588,3 +2588,37 @@ Law·ZCode Git 히스토리 업로드·Gemini 3사 침해 건은 전부 09-16~09
 또는 AI 무관 주제 · Reddit r/AI_Agents 훑었으나 재현 가능한 구체 업무 자동화
 사례 없음(밈·메타 질문 위주, r/ClaudeAI 등 추가 서브는 429 레이트리밋으로
 미확보) · HN Algolia karpathy/Andrew Ng 인물 쿼리 신규 고득점 결과 없음.
+
+## [2026-09-23] scan | 항목 9건, 반영 8건
+
+공식 소스(Anthropic/OpenAI/Google)·구루 1차 채널(Simon Willison·Latent Space)·국내
+AX 블로그(AX LABS, 09-14 이후 정체 지속 3회째)·L&D 소스(Bersin·HBI·McKinsey)·경영/교육
+RSS(HBR·Sloan·Wharton·EdSurge·Hardman·Substack 3종)·HN Algolia(키워드 6종+인물 쿼리)·
+Reddit(r/ClaudeAI·r/AI_Agents)를 스캔. 신규 wiki 페이지 3건 — update
+[[2026-09-22-anthropic-claude-opus-5-5-launch]](Claude Opus 5.5 출시, Fable 5.1급
+성능을 Opus 5 대비 비용 40%↓·속도 30%+↑) · update
+[[2026-09-22-openai-third-party-safety-assessments]](제3자 안전평가 학습단계 확대,
+09-12 Amodei 감속계획 2단계 첫 실행) · update
+[[2026-09-21-openai-academy-role-based-learning-paths]](OpenAI Academy 역할별
+학습경로 4종+평가·배지). 기존 페이지 후속 절 1건
+([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 09-22 후속 절 추가).
+`wiki/players/anthropic.md`·`wiki/players/openai.md`에 각 1개 문단,
+`wiki/tools/claude-code.md`·`wiki/analysis/ai-upskilling-pedagogy-trends.md`에
+각 1줄 갱신, `wiki/timeline.md`(2건 추가, 171건)·`index.md` 갱신.
+
+확인했으나 미채택: r/AI_Agents는 09-22와 동일 패턴으로 메타질문·밈 위주(카탈로그성
+질문 다수)라 업무 적용 Case 후보 없음, 대신 "cron 자율 에이전트 무경계 실패담"을
+커뮤니티 화제로 채택 · r/ClaudeAI "what do you actually use claude for day to day"
+스레드는 429 레이트리밋으로 본문 미확보(재시도 3회 실패) · Google Gemini 3사 침해
+사건 재보도 다수 확인했으나 09-18 기존 페이지와 동일 사실이라 신규 반영 없음 ·
+Gemini 4가 3.5 Pro를 건너뛰고 10월 출시된다는 보도는 공식 확인 전 루머 단계로
+페이지화 보류 · McKinsey/HBR/Sloan/Wharton/Bersin/HBI/Hardman 전부 확인했으나 창
+안에 People&Org/Talent 계열 신규 제목 없음(Wharton "AI and Financial Regulation"
+09-21은 화제성 신호 미확인으로 정독 보류) · AI Frontier Korea 채널 최근 3일 내
+신규 업로드 없음(최신 EP114, 09-12) · 조코딩 등 나머지 YouTube 채널은 최근 3일
+내 신규 업로드를 특정하지 못해 YouTube 픽 공란 · OpenAI third-party assessments
+원문(openai.com)은 WebFetch 403이라 Bloomberg·thenextweb 2차 보도로 대조.
+
+비고: 작업 중 생성한 임시 스크래치 파일(`.scratch_*.xml`, RSS/Reddit 원문 캐시용)이
+샌드박스 rm 제한으로 삭제되지 못하고 저장소 루트에 남아 있음 — 다음 세션에서 수동
+정리 필요(git에는 추적되지 않는 미추적 파일).

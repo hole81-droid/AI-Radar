@@ -348,6 +348,12 @@ AI 폭주 사고들을 과장해 유리한 규제를 압박했다는 의혹을 �
 Sacks의 "규제 포획" 비판과 같은 방향의 후속 논란이다
 ([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] 09-19 후속 절).
 
+**9/22 — Claude Opus 5.5 출시**: 09-12 감속 선언 이후 첫 신모델. Fable 5.1급 성능을
+Opus 5 대비 비용 40%↓·속도 30%+↑로 제공하고, 자사 행동감사 기준 역대 최고 안전
+점수를 기록했다고 밝혔다. 같은 날 OpenAI가 09-12 감속 계획 2단계("업계 공통 안전
+기준")의 첫 구체 실행으로 제3자 평가 학습단계 확대를 발표해, 두 회사의 행보가
+같은 날 다시 겹쳤다. → [[2026-09-22-anthropic-claude-opus-5-5-launch]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -367,7 +373,8 @@ Sacks의 "규제 포획" 비판과 같은 방향의 후속 논란이다
   [[2026-08-26-anthropic-salesforce-claudeforce]] ·
   [[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]] ·
   [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]] ·
-  [[reddit-claude-code-subagent-prompt-cache-ttl-fix]]
+  [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] ·
+  [[2026-09-22-anthropic-claude-opus-5-5-launch]]
 
 ## 출처
 

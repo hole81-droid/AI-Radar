@@ -77,7 +77,9 @@ source: https://joshbersin.com/2026/03/the-world-of-corporate-training-lurches-t
 - **OpenAI Academy 3단계** — AI Foundations → Applied AI Foundations → Agents and Workflows.
   두 번째 단계의 실습이 "워크플로우 플랜 작성"(입력·모델·도구·검토 지점·사람 감독을 명시)
   이다. 단발 프롬프트에서 설계도 작성으로 옮겨간 것을 실습 단위에서 확인할 수 있다
-  ([OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work/)).
+  ([OpenAI](https://openai.com/index/academy-courses-applying-ai-at-work/)). 09-21 확장:
+  이 3단계 구조에 **역할별 트랙 4종**(직원/개발자/리더/교육자)과 평가·배지가 추가됐다
+  → [[2026-09-21-openai-academy-role-based-learning-paths]].
 - **McKinsey** — AI 업스킬링을 리터러시(공통 유창성) → 도입(워크플로우 내재화) → 도메인
   전환의 3단계로 두고, 병목은 직원 준비도가 아니라 리더의 방향 설정 속도라고 진단했다
   ([McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/redefine-ai-upskilling-as-a-change-imperative)).

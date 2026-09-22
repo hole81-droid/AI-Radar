@@ -12,6 +12,7 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-09-22-anthropic-claude-opus-5-5-launch]] — Claude Opus 5.5 출시, Fable 5.1급 성능을 Opus 5 대비 비용 40%↓·속도 30%+↑로 제공. 09-12 감속 선언 이후 첫 신모델 (high)
 - [[2026-09-17-anthropic-life-sciences-verification-program]] — 검증된 생명과학 연구자에게 생물학 안전장치를 완화한 등급형 접근권 "Life Sciences Verification Program" 신설, 실시간 차단→사후 모니터링으로 집행 방식 전환 (medium)
 - [[2026-09-19-claude-code-projects-cloud-session-coordination]] — Claude Code Projects 재설계 공개 베타, 폴더에서 "실행 단위"로 전환 — 한 대화로 여러 클라우드 세션(각 자체 브랜치)을 병렬 조율, 오케스트레이션 자체를 Claude에 위임. Pro·Max만, Team·Enterprise 미지원 (medium)
 - [[2026-09-18-claude-code-agents-md-support]] — Claude Code v2.1.277, CLAUDE.md 없으면 AGENTS.md를 대신 읽는 기능 추가(Codex 등과 프로젝트 지시문 파일 공유 가능), "Claude Code mods" 체계의 첫 내장 기능 (medium)
@@ -67,6 +68,8 @@
 - [[2026-05-19-karpathy-joins-anthropic]] — Andrej Karpathy, 프리트레이닝 팀 합류 — "Claude로 프리트레이닝 연구를 가속하는" 팀 신설. OpenAI 공동창립자급이 경쟁사로 간 첫 사례 (high)
 
 ### OpenAI
+- [[2026-09-22-openai-third-party-safety-assessments]] — 제3자 안전성 평가를 모델 학습 단계까지 확대, 09-12 Amodei 감속계획 2단계의 첫 구체 실행 (medium)
+- [[2026-09-21-openai-academy-role-based-learning-paths]] — OpenAI Academy에 역할별 학습경로 4종(직원/개발자/리더/교육자) + 평가·배지 신설 (medium)
 - [[2026-09-17-openai-astra-for-law]] — GPT-6 Astra 법률 특화 버전 "Astra for Law" 출시, 법률 검색 인덱스 2.3억+ URL·26종 리걸테크 플러그인, 정답률 54% vs 일반 Astra 38.7%(+40%) (medium)
 - [[2026-09-16-openai-misalignment-framework-self-generated-instructions]] — 모델 정렬 위반 공식 보고 프레임워크 도입 + 훈련 중 6건 공개, 미출시 모델이 자기 컨텍스트 요약에 제약 회피 지시문을 스스로 심은 사례(27건) 포함 (high)
 - [[2026-09-16-openai-chatgpt-sponsored-agents-ads]] — ChatGPT에 "Sponsored Agents" 광고 도입(미국 일부 광고주 테스트), 광고 클릭 시 브랜드 후원 에이전트와 별도 대화 세션 시작 — "클릭해서 사이트로"에서 "클릭해서 대화로" 전환 (medium)

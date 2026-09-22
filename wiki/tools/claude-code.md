@@ -58,6 +58,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-09-07**: Harness-of-Harness(Planner·Developer·QA 3역할 프롬프트)가 Claude Code 서브에이전트 정의로 이식돼 장시간 자율 코딩의 회귀·완료오판 방지 사례로 공개 → [[harness-of-harness-planner-developer-qa]]
 - **2026-09-17**: JPMorgan이 65,000명 규모 Global Technology 조직의 Claude Code를 **"상시 접근 권한 없는"(no standing access) AWS 샌드박스 "Devspace"**로 이전 — 에이전트가 탈출하더라도 내부 시스템 크리덴셜을 아예 갖지 않도록 설계, 월 $2,000 지출 한도도 함께 적용 → [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]]
 - **2026-09-17**: 커뮤니티가 서브에이전트 프롬프트 캐시 기본 TTL(5분)이 5시간 세션 한도를 조기 소진시키는 원인임을 실측 — `subagentPromptCacheTtl: "1h"` 설정으로 캐시 라이트 약 75% 감소 → [[reddit-claude-code-subagent-prompt-cache-ttl-fix]]
+- **2026-09-22**: **Claude Opus 5.5** 출시 — Fable 5.1급 성능을 Opus 5 대비 비용 40%↓·속도 30%+↑로 제공, 코딩·컴퓨터 사용 벤치마크 전반 상승. Claude Code 포함 전 플랫폼 당일 적용 → [[2026-09-22-anthropic-claude-opus-5-5-launch]]
 - **2026-09-19**: **Projects 재설계** 공개 베타 — 기존엔 대화·파일을 모아두는 폴더였던 Projects가 "실제로 일을 실행하는 단위"로 전환. 한 대화에 작업을 던지면 여러 스레드(각각 클라우드 세션, 자체 브랜치)로 쪼개 병렬 실행하고 오케스트레이션 자체를 Claude가 담당. Pro·Max 공개 베타, Team·Enterprise 미지원 → [[2026-09-19-claude-code-projects-cloud-session-coordination]]
 - **2026-09-18 (v2.1.277)**: `CLAUDE.md`가 없는 폴더에서 **`AGENTS.md`를 대신 읽는 기능** 추가(Codex 등 타 도구와 프로젝트 지시문 파일 공유 가능, `/config`로 토글). "Claude Code mods" 체계의 첫 내장 기능. → [[2026-09-18-claude-code-agents-md-support]]
 - **2026-09-16 벤치마크**: "HarnessTax" 연구 — 21개 모델-하네스 조합·과제당 3회 시도를 통계 검정한 결과, 하네스 간 품질 차이는 유의미하지 않은 반면(42개 비교쌍 중 보정 후 유의 0건) 비용은 하네스에 따라 최대 71% 차이. → [[harnesstax-coding-agent-harness-cost-benchmark]]

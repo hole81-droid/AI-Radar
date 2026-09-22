@@ -128,11 +128,18 @@ Study Mode 확대. [[2026-07-15-claude-for-teachers|Claude for Teachers]]와 마
 공개·검증할지 조언하는 것 — 학계 신뢰 회복을 위한 상설 채널이 만들어졌지만 댓글란은
 협력 자체에 회의적이다. → [[2026-09-08-openai-navier-stokes-solved]] (09-21 후속 절)
 
+**9/22 — 제3자 안전성 평가를 학습 단계까지 확대**: 09-12 Amodei 감속 계획 발표 당일
+동의를 표했던 "외부 평가자 상시 배치" 약속을 구체 정책으로 실행 — 외부 평가 기관에
+모델 학습·평가 단계부터 접근권을 부여하고, METR·Redwood Research와 협의 중이라고
+밝혔다. 같은 날 Anthropic은 Opus 5.5를 출시해 "감속"과 "신모델 출시"가 동시에 진행
+중임을 재확인시켰다. → [[2026-09-22-openai-third-party-safety-assessments]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
 - 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]] · [[2026-08-18-openai-chatgpt-for-teens]] · [[2026-08-29-openai-ends-cursor-partnership]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]] · [[2026-08-29-openai-ends-cursor-partnership]]
+- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]]
 
 ## 출처
 
