@@ -2622,3 +2622,43 @@ Gemini 4가 3.5 Pro를 건너뛰고 10월 출시된다는 보도는 공식 확�
 비고: 작업 중 생성한 임시 스크래치 파일(`.scratch_*.xml`, RSS/Reddit 원문 캐시용)이
 샌드박스 rm 제한으로 삭제되지 못하고 저장소 루트에 남아 있음 — 다음 세션에서 수동
 정리 필요(git에는 추적되지 않는 미추적 파일).
+
+## [2026-09-24] scan | 항목 8건, 반영 8건
+
+공백 없음(09-23 뉴스레터 최신). 구루 1차 채널 5종(Simon Willison·Latent Space·Lilian
+Weng·Addy Osmani·The Batch)·국내 AX 블로그(AX LABS, 09-14 정체 지속 재확인)·L&D
+3종(Bersin·HBI·McKinsey RSS)·경영/교육 RSS(HBR·Sloan·Wharton·EdSurge·Class
+Central·Hardman·One Useful Thing·Exponential View·AI as Normal Technology,
+Substack archive API 포함)·HN Algolia(인물쿼리 2종+키워드)·Karpathy GitHub·
+Reddit(r/ClaudeAI·r/AI_Agents)·YouTube(9채널 중 조코딩·장피엠·Ben AI·AI Frontier
+Korea 개별 재확인)를 스캔.
+
+신규 wiki 페이지 2건 — update [[2026-09-22-openai-gpt-6-sol-luna-launch]](Anthropic
+Opus 5.5 발표 약 1시간 뒤 OpenAI GPT-6 Sol·Luna 출시, 같은 날 동시 가격 인하로
+"가격전쟁" 개시 — Luna $0.10/$0.50로 GPT-5.6 대비 절반 이하) · use-case
+[[2026-09-23-jev-claude-browser-automation]](Claude+오픈소스 초고속 브라우저
+에이전트 Jev 결합, personal-productivity, 저장소 자체 실측 항공권예약 7.1초·
+프로토콜호출 91%↓, 개별 use case 세부는 미확인). 기존 페이지 후속 절 2건 —
+[[2026-09-22-anthropic-claude-opus-5-5-launch]](Artificial Analysis 독립벤치마크
+Intelligence Index 역대 최고 58점 확인 + GPT-6 Sol/Luna 교차링크) ·
+[[2026-09-18-claude-code-agents-md-support]](텔레메트리 끄면 AGENTS.md 기능이
+조용히 비활성화되는 버그, HN 427점). `wiki/tools/codex.md`·`wiki/tools/chatgpt.md`·
+`wiki/tools/claude-code.md`에 각 1줄 갱신, `wiki/timeline.md`(1건 추가, 172건)·
+`wiki/use-cases/case-catalog.md`(122건)·`index.md` 갱신.
+
+확인했으나 미채택: HBR "Closing the Gap Between AI Investment and Financial
+Return"(09-23 당일, Columbia David Rogers 등)은 페이월 — 저자의 과거 Substack
+글을 찾았으나 같은 글이 아니어서(2024년경 작성) 우회 실패로 처리 · Wharton
+"2026 AI Adoption Report"(09-23 당일)는 특집 페이지 자체가 비밀번호 보호라
+본문 확인 실패 · r/AI_Agents "299 real user intents tested Jev against
+production baseline"은 Jev 프로덕션 검증 정황으로 유망했으나 Reddit 429
+레이트리밋으로 본문 미확보(다음 스캔 재시도) · r/ClaudeAI에 재유통된 "Anthropic
+수석과학자 Jared Kaplan의 지능폭발 경고"는 원문 추적 결과 2025-12 The Guardian
+인터뷰(신규 발언 아님)로 확인돼 인용 규칙상 페이지화하지 않음 ·
+McKinsey/HBR/Sloan/Wharton/Bersin/HBI/Hardman 전부 확인했으나 창 안에
+People&Org/Talent 계열 신규 제목 없음 · AI Frontier Korea 최근 3일 내 신규
+업로드 없음(최신 EP114, 09-12 유지) · The Batch 최신 레터도 09-18로 창 밖.
+
+비고: 이번 세션에서도 생성한 스크래치 파일 다수(`.scratch_scan0924.xml` 등)가
+동일한 샌드박스 rm 제한으로 삭제 실패 — 기존 비고와 같은 패턴, 누적분 포함해
+다음 세션에서 일괄 정리 필요.

@@ -49,8 +49,19 @@ Anthropic이 2026-09-22 새 Claude 5.5 패밀리의 첫 모델 **Claude Opus 5.5
   성능 체감이 실제로 확인되기까지 시차가 있다는 점을 강의 자료로 쓸 때 함께
   언급할 만하다.
 
+## 09-22 후속 — 같은 날 OpenAI도 GPT-6 Sol·Luna로 가격 인하 (09-24 확인)
+
+Opus 5.5 출시 약 한 시간 뒤 OpenAI가 GPT-6 Sol·Luna를 출시하며 가격을 더 크게 낮췄다
+(GPT-6 Luna $0.10/$0.50, GPT-5.6 대비 절반 이하) — 상세는
+[[2026-09-22-openai-gpt-6-sol-luna-launch]]. 독립 벤치마크 사이트 Artificial Analysis는
+Opus 5.5(Max Effort)가 자체 Intelligence Index에서 **58점으로 역대 최고 측정치**를
+기록했다고 확인했다(중앙값 25점, xhigh 56·high 54·medium 51·low 42). Opus 5.5의 max·xhigh·
+high·medium 4개 effort 단계 모두 "지능 대비 작업당 비용" 파레토 프론티어 위에 있다는
+평가다 — 벤더 자체 발표(비용 40%↓) 외 제3자 확인이 붙은 셈이다.
+
 ## 출처
 
 - [Anthropic — Introducing Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)
 - [TechCrunch](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)
 - [MacRumors](https://www.macrumors.com/2026/09/22/anthropic-claude-opus-5-5/)
+- [Artificial Analysis — Claude Opus 5.5 Intelligence, Performance & Price Analysis](https://artificialanalysis.ai/models/claude-opus-5-5)

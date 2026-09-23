@@ -12,10 +12,10 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
-- [[2026-09-22-anthropic-claude-opus-5-5-launch]] — Claude Opus 5.5 출시, Fable 5.1급 성능을 Opus 5 대비 비용 40%↓·속도 30%+↑로 제공. 09-12 감속 선언 이후 첫 신모델 (high)
+- [[2026-09-22-anthropic-claude-opus-5-5-launch]] — Claude Opus 5.5 출시, Fable 5.1급 성능을 Opus 5 대비 비용 40%↓·속도 30%+↑로 제공. 09-12 감속 선언 이후 첫 신모델. 09-22 후속: 같은 날 OpenAI GPT-6 Sol·Luna 동시 출시로 가격전쟁 개시, Artificial Analysis 독립벤치마크 Intelligence Index 역대 최고(58점) 확인 (high)
 - [[2026-09-17-anthropic-life-sciences-verification-program]] — 검증된 생명과학 연구자에게 생물학 안전장치를 완화한 등급형 접근권 "Life Sciences Verification Program" 신설, 실시간 차단→사후 모니터링으로 집행 방식 전환 (medium)
 - [[2026-09-19-claude-code-projects-cloud-session-coordination]] — Claude Code Projects 재설계 공개 베타, 폴더에서 "실행 단위"로 전환 — 한 대화로 여러 클라우드 세션(각 자체 브랜치)을 병렬 조율, 오케스트레이션 자체를 Claude에 위임. Pro·Max만, Team·Enterprise 미지원 (medium)
-- [[2026-09-18-claude-code-agents-md-support]] — Claude Code v2.1.277, CLAUDE.md 없으면 AGENTS.md를 대신 읽는 기능 추가(Codex 등과 프로젝트 지시문 파일 공유 가능), "Claude Code mods" 체계의 첫 내장 기능 (medium)
+- [[2026-09-18-claude-code-agents-md-support]] — Claude Code v2.1.277, CLAUDE.md 없으면 AGENTS.md를 대신 읽는 기능 추가(Codex 등과 프로젝트 지시문 파일 공유 가능), "Claude Code mods" 체계의 첫 내장 기능. 09-23 후속: 텔레메트리를 끄면 이 기능이 조용히 비활성화되는 버그 확인(HN 427점) (medium)
 - [[2026-09-18-zcode-glm-agent-git-history-upload]] — (경쟁 하네스 참고) Z.ai GLM 기반 ZCode, 설정 꺼도 .git 전체 히스토리를 몰래 클라우드 업로드하는 사실이 리버스엔지니어링으로 드러남 (medium)
 - [[2026-09-17-anthropic-claude-self-directed-rd-26-percent]] — Anthropic, Claude가 자사 R&D의 26%를 주도(6개월 전 1% 미만)한다고 첫 수치 공개, 에이전트 약 30,000개 동시 가동. 09-12 감속 계획이 요구한 투명성의 첫 실행 (high)
 - [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]] — JPMorgan, 65,000명 규모 Claude Code를 "상시 접근 권한 없는" AWS 샌드박스 "Devspace"로 이전, 월 $2,000 지출 한도 병행 (high)
@@ -68,6 +68,7 @@
 - [[2026-05-19-karpathy-joins-anthropic]] — Andrej Karpathy, 프리트레이닝 팀 합류 — "Claude로 프리트레이닝 연구를 가속하는" 팀 신설. OpenAI 공동창립자급이 경쟁사로 간 첫 사례 (high)
 
 ### OpenAI
+- [[2026-09-22-openai-gpt-6-sol-luna-launch]] — GPT-6 Sol·Luna 출시, Opus 5.5와 같은 날 발표로 "가격전쟁" 개시(Luna $0.10/$0.50, GPT-5.6 대비 절반 이하·Haiku 4.5의 약 1/10). GPT-5.5는 10-14 퇴역 예고 (high)
 - [[2026-09-22-openai-third-party-safety-assessments]] — 제3자 안전성 평가를 모델 학습 단계까지 확대, 09-12 Amodei 감속계획 2단계의 첫 구체 실행 (medium)
 - [[2026-09-21-openai-academy-role-based-learning-paths]] — OpenAI Academy에 역할별 학습경로 4종(직원/개발자/리더/교육자) + 평가·배지 신설 (medium)
 - [[2026-09-17-openai-astra-for-law]] — GPT-6 Astra 법률 특화 버전 "Astra for Law" 출시, 법률 검색 인덱스 2.3억+ URL·26종 리걸테크 플러그인, 정답률 54% vs 일반 Astra 38.7%(+40%) (medium)
@@ -281,7 +282,7 @@
 - 보안·운영: [[uber-adr-claude-code-cursor-codex-security-monitoring]] (★프로덕션 배포·MLSys 2026) · [[mozilla-claude-mythos-firefox-vulnerability-detection]] (★실측 14배) · [[record-replay-mcp-skill-recorder]] · [[codex-record-replay-automations]] · [[claude-cowork-usage-data-2026]] (★실측 잡무33%·개발8.7%) · [[charlie-clark-claude-code-second-brain-agency]] · [[tmux-telegram-agent-model-downshift]] · [[reddit-one-person-ai-company-framework]] · [[ai-agent-profiler-claude-code-cost-benchmark]] (★실측 243세션·비용68%툴결과) · [[gstack-meeting-personas-claude-code-brain]] · [[gpt-5-6-sol-autonomous-business-failure]] (★실측 $350→$250.50) · [[theaxlabs-ai-native-operating-system-6-steps]] · [[theaxlabs-slack-cpo-ai-teammate-principles]] · [[theaxlabs-company-brain-prompt-guide]] · [[mckinsey-reckitt-rgmx-pricing-automation]] (McKinsey RGMx, 매출개선 $100M+) · [[otodock-claude-code-codex-self-hosted-company-os]] (부서형 자체 호스팅 에이전트 플랫폼, 권한설계 공개) · [[caterpillar-helios-ceo-led-data-platform]] (CEO 주도 데이터 플랫폼, 서비스 매출 $14B→$24B) · [[claude-code-usage-limit-measured-ccstats]] (★실측 사용한도 인하 19%·Max20x 주간한도 2.2배)
 - 마케팅: [[ploy-opus-to-gpt-5-6-migration]] (★실측 2.2배 속도·비용27%↓) · [[benai-claude-skills-marketing-automation]] · [[claude-code-seo-manager-mcp-dashboard]] · [[reddit-jewellery-ai-video-ads-pipeline]] (Pixverse+Invideo+Adtest, 제작량 7.5배·매출10%↑ 주장)
 - 금융: [[openai-thrive-tax-ai-self-improving]] (★실측 97%·50%↑) · [[theaxlabs-claude-financial-advisors-korea-securities]] (국내 증권사 자산관리 어드바이저 도입 90일 플랜) · [[liamottley-kylon-accounting-firm-automation]] (Kylon 노코드 플랫폼, UK 회계법인 working paper 자동화 4일 구축, 주장)
-- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일) · [[latentspace-grok-bot-five-days-vs-openclaw]] (xAI Grok Bot 5일 실사용, 관리형 vs OpenClaw 통제형 대비)
+- 개인 생산성: [[cowork-7-business-use-cases]] · [[gemini-spark-claude-cowork-routing]] · [[tom-riddle-diary-remarkable]] · [[codex-personal-assistant-multi-messenger]] · [[openai-chatgpt-work-launch]] · [[searchsteward-claude-job-search-automation]] · [[i-have-adhd-claude-codex-skill]] · [[nobuzz-claude-code-gemini-debuzz-skill]] · [[l3a0-claude-code-kindle-highlights-recovery]] · [[azhar-6-dollar-ai-research-agent]] (★실측 $494/일→$6/일) · [[latentspace-grok-bot-five-days-vs-openclaw]] (xAI Grok Bot 5일 실사용, 관리형 vs OpenClaw 통제형 대비) · [[2026-09-23-jev-claude-browser-automation]] (Claude+오픈소스 브라우저 에이전트 Jev, ★실측 항공권 예약 7.1초·프로토콜 호출 91%↓)
 - HR: [[jocoding-ax-series-pwc-samil]]
 - 영업(sales): [[anthropic-bd-team-claude-cowork-sales-automation]] · [[federal-contract-leadgen-claude-browser-automation]] · [[anthropic-ai-native-revenue-org-cox-communications]] (★실측 Cox Communications 7배 ROI·리드검증비용86%↓)
 - HR(hr): [[bersin-multiagent-talent-acquisition]] — 멀티 에이전트 대량채용, 2주→3일·H&M 리텐션 30%↑ (애널리스트 전달치) · [[bank-of-america-academy-ai-upskilling-200k]] (20만 명 3단계 AI 역량육성, 자사 발표) · [[cornerstone-workforce-ai-platform]] (L&D 플랫폼 전환, 벤더 보고치) · [[bersin-galileo-jupiter-hr-ai]] (HR 지식 코퍼스를 Copilot·Workday 등에 주입, 1,000+ 기업 사용 주장)
@@ -307,6 +308,6 @@
 
 ## 기타
 
-- [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 09-21, 169건)
+- [[timeline]] — 업계 주요 이벤트 연대기 (05-19 ~ 09-22, 172건)
 - [[sources]] — 모니터링 소스 레지스트리
 - newsletter/ — 데일리 뉴스레터 (최신: [[2026-09-22]] · [[2026-09-21]] · [[2026-09-20]] · [[2026-09-19]] · [[2026-09-18]] · [[2026-09-17]] · [[2026-09-16]] · [[2026-09-15]] · [[2026-09-14]] · [[2026-09-13]] · [[2026-09-12]] · [[2026-09-11]] · [[2026-09-10]] · [[2026-09-09]] · 09-09 공백 소급 스캔 완료(2026-09-10 실행) · [[2026-09-08]](09-02 이후 6일 공백 소급, 2026-09-08 실행) · [[2026-09-02]] · [[2026-09-01]] · [[2026-08-31]] · [[2026-08-30]] · [[2026-08-29]] · [[2026-08-28]] · [[2026-08-27]] · [[2026-08-26]] · [[2026-08-25]] · [[2026-08-24]] · [[2026-08-23]] · [[2026-08-22]] · [[2026-08-21]] · [[2026-08-20]] · [[2026-08-19]] · [[2026-08-18]] · [[2026-08-17]] · [[2026-08-16]] · [[2026-08-15]] · 08-09~08-11 공백 소급 스캔 완료(2026-08-11 실행, 하나로 통합) · 08-05~08-07 공백 소급 스캔 완료(cron 세션 2026-08-08 실행 + iMac 세션 2026-08-07 실행, 병합 후 하나로 통합 — 상세는 [[log]] 참고) · 08-01~08-03 공백 소급 스캔 완료(2026-08-04 실행, [[2026-08-03]] 하나로 통합) · 07-28 공백 소급 스캔 완료(2026-07-29 실행, 날짜별 파일) · 07-23~07-26 공백 소급 스캔 완료(2026-07-27 실행, [[2026-07-26]] 하나로 통합) · 07-09·07-10·07-17·07-19 공백 소급 스캔 완료(2026-07-20 실행) · 07-11~07-15 위키 반영 완료(승인게이트 폐지 후 소급) · 05-01~07-05 백필 완료, 07-06자는 구 편집 기준으로 작성됨)

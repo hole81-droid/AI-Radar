@@ -141,6 +141,7 @@ uses: [course, ax]
 - [[l3a0-claude-code-kindle-highlights-recovery]] — Claude Code Skill(skills+browser-agent)로 Chrome 제어+로컬 SQLite 대조+OCR 파이프라인을 활용해 Kindle 노트북 내보내기 제한으로 잘리거나 숨겨진 하이라이트를 복구 → 책 4권 2,432개 추출, 차단됐던 815개 전량 복구 (실측)
 - [[azhar-6-dollar-ai-research-agent]] — Claude Code·Codex·Elicit·Manus(cli-pipeline)를 조합한 개인 리서치 에이전트 "RMA"로 코드 통합·논문 리서치·글쓰기 보조를 수행 → 일일 운영비 피크 $494→$6 (실측, 저자 본인 지출)
 - [[latentspace-grok-bot-five-days-vs-openclaw]] — xAI Grok Bot(subagents+browser-agent)으로 코딩 라우팅용·고객지원 모니터링용·개인비서용 Bot을 구성해 5일 실사용 → 관리형 인프라 덕에 설정 부담은 낮으나 딥 엔지니어링엔 여전히 부적합 (일화)
+- [[2026-09-23-jev-claude-browser-automation]] — Claude(Code)로 오픈소스 초고속 브라우저 에이전트 Jev(browser-agent)를 결합해 웹 브라우저 작업 자동화 6종을 시연 → 구글 항공권 예약 7.1초 완료, 브라우저 프로토콜 호출 91%↓ (실측, prototype)
 
 ## HR (hr)
 
@@ -423,3 +424,19 @@ Fable 5 콜 39%가 thinking 토큰 0)는 사용자 1인의 미검증 자체 분�
 2026-09-19 스캔에서 이미 [[harnesstax-coding-agent-harness-cost-benchmark]]로 페이지화된
 것과 같은 연구라 중복 생성 없이 스킵했다(2026-09-21 중 실수로 별도 파일을 만들었다가
 발견해 리다이렉트 스텁으로 정정).*
+
+*2026-09-24 추가(122건): [[2026-09-23-jev-claude-browser-automation]] (personal-productivity,
+Ben AI YouTube 영상 — 오픈소스 초고속 브라우저 에이전트 Jev(browser-use/jev-ultrafast)를
+Claude(Code)와 결합한 실전 자동화 6종 시연, 저장소 자체 벤치마크로 구글 항공권 예약 7.1초·
+브라우저 프로토콜 호출 91%↓ 확인, 개별 use case 세부는 미확인). 같은 스캔에서 확인한
+OpenAI GPT-6 Sol·Luna 출시(Opus 5.5와 같은 날 동시 가격 인하, "가격전쟁" 개시)·Claude Code
+AGENTS.md 텔레메트리 의존 버그(HN 427점)는 특정 조직의 업무 자동화 사례가 아니라 제품·가격
+발표·버그 리포트라 각각 [[2026-09-22-openai-gpt-6-sol-luna-launch]] update 신규 페이지,
+[[2026-09-18-claude-code-agents-md-support]]·[[2026-09-22-anthropic-claude-opus-5-5-launch]]
+기존 페이지 후속 절로 반영했다. r/AI_Agents "299 real user intents tested Jev against
+production baseline"은 프로덕션 실사용 검증 정황으로 유망했으나 Reddit 429 레이트리밋으로
+본문 미확보(다음 스캔 재시도 필요). r/ClaudeAI에서 재유통된 "Anthropic 수석과학자 Jared
+Kaplan의 지능폭발 경고"는 원문이 2025-12 The Guardian 인터뷰(신규 발언 아님)로 확인돼
+페이지화하지 않았다. HBR "Closing the Gap Between AI Investment and Financial Return"
+(09-23)·Wharton "2026 AI Adoption Report"(09-23)는 각각 페이월·비밀번호 보호로 본문 확인
+실패해 보류했다.*

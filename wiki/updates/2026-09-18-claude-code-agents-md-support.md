@@ -41,8 +41,28 @@ Claude Code v2.1.277부터 프로젝트 폴더에 `CLAUDE.md`가 없으면 **`AG
 - **AX**: 멀티 벤더(Claude Code+Codex 등) 사내 표준을 설계하는 팀은 앞으로
   `CLAUDE.md` 대신 `AGENTS.md`를 1차 표준으로 채택하는 편이 도구 전환 비용을 낮춘다.
 
+## 09-23 후속 — "텔레메트리를 꺼두면 AGENTS.md를 못 읽는다" 버그 (HN 427점, 09-24 확인)
+
+블로거 szypowi.cz가 09-23 발견해 공개한 내용에 따르면, 이 AGENTS.md 지원 기능은 원격
+feature flag(`tengu_agents_md_mod`)로 켜고 끄는 구조인데, 이 플래그 조회 자체가
+텔레메트리 채널을 타고 있었다 — `DISABLE_TELEMETRY`나
+`CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` 환경변수로 텔레메트리를 끈 사용자는
+**로컬 파일을 읽는 데 네트워크가 필요 없음에도** 서버 응답을 기다리다 조용히
+기능이 비활성화됐다(경고 없음). Bedrock·Vertex 경유 사용자나 사내 정책상 비필수
+트래픽을 차단하는 기업 환경에서도 같은 문제가 발생한다. 저자는 발견 시점(09-23)
+기준 공식 수정 확인 전이라고 밝혔고, 임시 우회책으로 `CLAUDE.md`에
+`@AGENTS.md` import 구문을 넣는 방법을 권장했다(HN 게시물 제목엔 사후에 [fixed]가
+붙었으나 원문 자체에는 수정 시점이 명시돼 있지 않다 — 상태 확인은 다음 스캔에서
+재검증).
+
+**시사점**: "설정 끄기"(텔레메트리 차단)가 기능 자체를 조용히 무력화하는 사례는
+프라이버시 설정과 기능 가용성이 암묵적으로 결합된 설계의 위험을 보여준다 — 기업이
+텔레메트리를 끄는 이유(데이터 거버넌스)와 기능이 꺼지는 결과가 무관해 보일수록
+발견이 늦어진다는 점을 강의·AX 체크리스트에 함께 언급할 만하다.
+
 ## 출처
 
 - [Simon Willison — Quoting Thariq Shihipar](https://simonwillison.net/2026/Sep/18/thariq-shihipar/)
 - [GitHub — anthropics/claude-code mods/agents-md](https://github.com/anthropics/claude-code/tree/main/mods/agents-md)
 - [Hacker News(181점) — Claude Code now reads AGENTS.md if there is no Claude.md](https://news.ycombinator.com/item?id=49760187)
+- [블로그 — Claude Code reads AGENTS.md only when telemetry is on](https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/) · [Hacker News(427점)](https://news.ycombinator.com/item?id=49814947)
