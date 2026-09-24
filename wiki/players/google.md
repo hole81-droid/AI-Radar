@@ -79,8 +79,17 @@ Gemini로 완전 교체하는 전환 시작일이 9/4로 공식 확정됐다(전
 양대 배포 채널에서 Gemini를 기본값으로 만드는 전략이 완성 단계에 들어섰다. →
 [[2026-08-06-google-gemini-replaces-assistant-android]]
 
+## 최근 동향 추가 (09-24)
+
+**Gemini 4, 포스트트레이닝 진입 공표**: 신임 SVP Koray Kavukcuoglu가 취임 후 첫
+공개 석상(The Information AI Agenda Live Summit)에서 차세대 모델 Gemini 4가 이미
+포스트트레이닝 초기 단계에 들어갔으며 연내 조기 버전 출시를 목표로 한다고 밝혔다.
+Gemini 3.5 Pro가 세 차례 연기됐던 전례에 비춰 이례적으로 구체적인 단계 공개다. →
+[[2026-09-24-google-deepmind-gemini-4-post-training]]
+
 ## 관련 업데이트
 
+- [[2026-09-24-google-deepmind-gemini-4-post-training]] — Gemini 4 포스트트레이닝 진입, Kavukcuoglu 취임 후 첫 로드맵 공개 (medium)
 - [[2026-08-06-google-gemini-replaces-assistant-android]] — 2026-09-04부터 Android·Wear OS 기본 음성비서 Gemini로 전면 교체 확정 (high)
 - [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도 (high)
 - [[2026-08-05-google-deepmind-hassabis-steps-down]] — Demis Hassabis CEO→회장 이동, Jeff Dean 등 퇴사·Discovery Loop 창업, Koray Kavukcuoglu 승계 (high)

@@ -354,6 +354,16 @@ Opus 5 대비 비용 40%↓·속도 30%+↑로 제공하고, 자사 행동감사
 기준")의 첫 구체 실행으로 제3자 평가 학습단계 확대를 발표해, 두 회사의 행보가
 같은 날 다시 겹쳤다. → [[2026-09-22-anthropic-claude-opus-5-5-launch]]
 
+**9/23 — Claude가 CRISPR 유사 신규 효소 시스템 발견, 과학자들은 신중론**: 신설
+생명과학 연구 그룹이 950개 에이전트·21시간·2억1천만 토큰을 투입해 박테리오파지의
+미확인 효소 시스템(ART)을 발견했다고 발표. Anthropic 스스로도 "기능 검증까지는
+더 많은 연구 필요"라고 단서를 달았고, Bloomberg는 09-24 일부 생물학자의 과장 지적을
+보도했다. → [[2026-09-23-anthropic-claude-novel-enzyme-discovery]]
+
+**9/23 — Claude Code Cloud sessions 정식 출시(GA)**: 09-19 발표한 Projects
+재설계의 기반 인프라가 나흘 만에 리서치 프리뷰에서 정식 단계로 전환, Pro·Max
+구독자에게 각 $100·$250 크레딧 지급. → [[2026-09-19-claude-code-projects-cloud-session-coordination]] (09-23 후속 절)
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -374,7 +384,9 @@ Opus 5 대비 비용 40%↓·속도 30%+↑로 제공하고, 자사 행동감사
   [[2026-09-16-anthropic-claude-cowork-chat-merge-docs-slides]] ·
   [[2026-09-17-jpmorgan-claude-code-devspace-sandbox]] ·
   [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] ·
-  [[2026-09-22-anthropic-claude-opus-5-5-launch]]
+  [[2026-09-22-anthropic-claude-opus-5-5-launch]] ·
+  [[2026-09-23-anthropic-claude-novel-enzyme-discovery]] ·
+  [[claude-ai-3x-faster-measurement-driven-optimization]]
 
 ## 출처
 

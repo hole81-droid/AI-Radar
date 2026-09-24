@@ -117,6 +117,15 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-09-16 커뮤니티**: 09-14 시행된 주간 사용한도 변경 이후 체감 반발이 09-16까지 이어짐 — "구독·팀 플랜이 실무에 못 쓸 수준"이라는 게시물 등 관련 글 7건+ 동시 상위권. → [[2026-08-31-claude-code-weekly-limit-change]] (09-16 후속 절)
 - **2026-09-16 실측 사례**: 세션 로그+`/usage` API 폴링으로 사용한도 변화를 직접 계측한 커뮤니티 사례 — Max 20x가 세션한도(4.4배)와 달리 주간한도는 5x 대비 2.2배에 불과함을 확인. → [[claude-code-usage-limit-measured-ccstats]]
 - **2026-09-16 비용 최적화**: 멀티에이전트 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 — 비용 13%·토큰 12%·API 호출 24% 감소 실측. → [[claude-code-lsp-plugin-cost-cutting]]
+- **자체 사용 사례(2026-09-23)**: Anthropic 엔지니어링팀이 내부 연구 모델 "Claude
+  Tag"로 claude.ai·데스크톱 앱 성능을 2주 스프린트로 측정 기반 자율 최적화 — 13개
+  지표 기하평균 3.1배 개선, 3,000+ PR 병합에도 인시던트·롤백 0건. → [[claude-ai-3x-faster-measurement-driven-optimization]]
+- **2026-09-23**: **Cloud sessions** 정식 출시(GA) — 09-19 Projects 재설계가
+  의존하던 클라우드 실행 인프라가 리서치 프리뷰를 벗어나, Pro·Max 구독자에게
+  각 $100·$250 크레딧 지급. → [[2026-09-19-claude-code-projects-cloud-session-coordination]] (09-23 후속 절)
+- **커뮤니티 벤치마크(2026-09-22)**: 개인 개발자가 Claude Opus 4.5 등 다중 모델
+  서브에이전트로 Rust 라이브러리를 반복 최적화 — umap-learn 등 대비 4~15배,
+  모델 세대 누적 최대 32배(공개 프롬프트 템플릿 포함, 벤치마크 사기 실패 사례도 기록). → [[minimaxir-agentic-rust-performance-optimization]]
 
 ## 출처
 

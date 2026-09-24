@@ -87,6 +87,8 @@ uses: [course, ax]
 - [[petervijeh-gemini-distillation-gliner-9-dollars]] — Gemini(cli-pipeline)로 Reddit 댓글 4,290건을 한 번만 라벨링한 뒤 로컬 소형 모델 GLiNER를 파인튜닝해 API 호출 없는 개체명 인식으로 전환 → 총 $11.50(라벨링$9+학습$2.50)로 F1 0.83 확보, 약 4,291건부터 손익분기 (실측)
 - [[reddit-agent-dispatcher-routing-benchmark]] — Claude·Codex(skills+subagents+mcp)로 27개 역할·110개 스킬·19개 MCP 서버를 아우르는 오픈소스 라우터 Agent Dispatcher를 구축 → 162케이스 라우팅 벤치마크 top-1 정확도 97.5%(158/162), 키워드매칭(23/162)·자체 경량 라우터(143/162) 모두 능가 (실측)
 - [[microsoft-copilot-runtime-rust-port]] — GPT-5.6 Sol·Claude Opus 4.8(cli-pipeline)로 GitHub Copilot 런타임 43만 줄 TypeScript를 Rust로 모듈 단위 에이전틱 포팅 → 속도 15.9배·메모리 91%↓, 비용 $120,000(14.5주, 135회 릴리스) (실측)
+- [[claude-ai-3x-faster-measurement-driven-optimization]] — Anthropic 자사가 Claude Code(내부 연구 모델 Claude Tag, subagents)로 측정 기반 자율 최적화 루프를 활용해 claude.ai·데스크톱 앱 성능 개선을 수행 → 13개 지표 기하평균 3.1배, 3,000+PR 병합에도 인시던트·롤백 0건 (실측)
+- [[minimaxir-agentic-rust-performance-optimization]] — 개인 개발자가 Claude Opus 4.5·GPT-6 Astra 등 다중 모델(subagents+cli-pipeline)로 반복 프롬프트 최적화 루프를 활용해 Rust 라이브러리 성능 최적화를 수행 → umap-learn 등 대비 4~15배, 모델 세대 누적 최대 32배 (실측, 벤치마크 사기 실패 사례도 공개)
 
 ## 보안·운영 (ops)
 

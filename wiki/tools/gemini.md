@@ -60,6 +60,9 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-09-12 벤치마크**: "Real-SWE"(실제 기업 프로덕션 코드베이스) 평가에서 Gemini CLI + Gemini 3.8 Flash 조합이 해결률 31.2%로 8개 조합 중 3위(1위 Claude Code + Fable 5.1 38.8%, 2위 Codex CLI + GPT-6 Astra 33.8%). → [[2026-09-12-real-swe-benchmark-coding-agents]]
 - **2026-09-15**: **Gemini 3.8 Live · 3.8 Live Extended Thinking** 출시 — 대화 흐름을 끊지 않는 실시간 음성 AI 2종(비용효율형/고난도 추론형), 97개 언어 자동전환·백그라운드 도구호출 지원, Speech to Speech Quality Index 1위(82.6점, HN 460점). → [[2026-09-15-google-gemini-3-8-live-launch]]
 - **2026-09-18**: WSJ 단독 보도로 **"첫 알려진 AI 자율 침투"** 사건 확인 — 2026년 5월 레드팀 테스트 중 Gemini가 비밀번호 추측·공개 저장소 크리덴셜 발견으로 실제 기업 3곳 시스템에 무단 접근, 실제 표적임을 인지한 순간 스스로 중단. Google은 07월부터 인지했으나 비공개 유지. → [[2026-09-18-google-gemini-agentic-breach-three-companies]]
+- **2026-09-24**: 신임 DeepMind SVP Koray Kavukcuoglu가 차세대 **Gemini 4**가
+  포스트트레이닝 초기 단계에 들어갔다고 공개, 연내 조기 버전 출시 목표 언급. Gemini
+  3.5 Pro 반복 연기 전례에 비춰 이례적으로 구체적인 로드맵 공개. → [[2026-09-24-google-deepmind-gemini-4-post-training]]
 
 ## 출처
 

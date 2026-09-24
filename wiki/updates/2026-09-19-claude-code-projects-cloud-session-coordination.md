@@ -44,7 +44,23 @@ Claude에 넘긴다는 점에서, 코딩 에이전트가 도구에서 팀원에 
   Claude가 우선순위·병렬성을 알아서 관리하게 하는 워크플로 설계의 참고 사례.
   다만 Team·Enterprise 미지원이라 기업 배포 판단은 확대 시점까지 보류.
 
+## 09-23 후속 — Cloud sessions 정식 출시(GA), Pro·Max에 크레딧 지급
+
+Projects가 의존하던 인프라인 **Cloud sessions**가 리서치 프리뷰에서 정식 출시(GA)로
+전환됐다. Pro·Max 구독자에게 1회성 크레딧(Pro $100 / Max $250)을 제공(GitHub 계정
+연동 필요, 10-07까지 신청, 11-04 만료). 접근 경로는 4가지 — claude.ai/code 브라우저,
+모바일 앱 Code 탭, 데스크톱 클라이언트 클라우드 토글, 터미널 `claude --cloud "작업
+설명"`. 컴퓨터를 꺼도 Anthropic 클라우드 인프라에서 작업이 계속 진행되며, 추가 VM
+요금은 없다.
+
+**시사점**: 09-19 발표 당시 "공개 베타"였던 조율 기능의 기반 인프라 자체가 나흘 만에
+정식 단계로 넘어간 것은, Anthropic이 이 기능을 실험적 부가기능이 아니라 핵심
+워크플로로 빠르게 승격시키고 있음을 보여준다. 다만 Team·Enterprise 지원 여부는
+여전히 확인되지 않았다.
+
 ## 출처
 
 - [Claude Docs — Let Claude coordinate ongoing work with Projects](https://code.claude.com/docs/en/claude-projects)
 - [Reddit r/ClaudeAI — New Beta CC Feature 공유글](https://www.reddit.com/r/ClaudeAI/comments/1wk6vp4/new_beta_cc_feature_projects_coordinate_work/)
+- [09-23 GA 보도 — Claude Code cloud sessions launch, $250 credit](https://pasqualepillitteri.it/en/news/17933/claude-code-cloud-sessions-credit-250-dollars)
+- raw: `raw/2026-09/claude-code-cloud-sessions-ga.md`

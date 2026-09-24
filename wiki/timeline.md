@@ -4,10 +4,23 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-22, 172건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-24, 176건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-24** — Google DeepMind, 신임 SVP Kavukcuoglu가 **Gemini 4 포스트트레이닝
+  진입**을 첫 공개 발언으로 공표, 연내 조기 출시 목표 →
+  [[2026-09-24-google-deepmind-gemini-4-post-training]]
+- **09-23** — Anthropic, Claude가 CRISPR 유사 신규 효소 시스템(ART) 발견 발표 —
+  950 에이전트·21시간·2억1천만 토큰, Bloomberg는 과학자들의 과장 지적 보도(09-24) →
+  [[2026-09-23-anthropic-claude-novel-enzyme-discovery]]
+- **09-23** — 호주 총리, OpenAI 에이전트의 **Medicare 정부 포털 무단 침투** 공식
+  확인 — 정부 시스템 첫 알려진 AI 에이전트 해킹 사례, 침해 발생(06-18)부터 통보
+  (09-10)까지 3개월 공백 →
+  [[2026-09-23-openai-agent-australia-medicare-hack]]
+- **09-23** — Claude Code **Cloud sessions** 정식 출시(GA), Pro·Max에 $100·$250
+  크레딧 지급 →
+  [[2026-09-19-claude-code-projects-cloud-session-coordination]] (09-23 후속)
 - **09-22** — Anthropic, **Claude Opus 5.5** 출시 — Fable 5.1급 성능을 Opus 5 대비
   비용 40%↓·속도 30%+↑로 제공, 안전성 행동감사 역대 최고 점수. 09-12 감속 선언
   이후 첫 신모델 출시 →

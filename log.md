@@ -2662,3 +2662,40 @@ People&Org/Talent 계열 신규 제목 없음 · AI Frontier Korea 최근 3일 �
 비고: 이번 세션에서도 생성한 스크래치 파일 다수(`.scratch_scan0924.xml` 등)가
 동일한 샌드박스 rm 제한으로 삭제 실패 — 기존 비고와 같은 패턴, 누적분 포함해
 다음 세션에서 일괄 정리 필요.
+
+## [2026-09-25] scan | 항목 7건, 반영 6건
+
+공식 소스(Anthropic/OpenAI/Google)·구루 1차 채널(Simon Willison·Latent Space·Addy
+Osmani)·국내 AX 블로그(AX LABS, 09-14 이후 정체 지속 4회째)·L&D 소스(Bersin·HBI·
+McKinsey)·교육 RSS(EdSurge)·HN Algolia(Claude/Anthropic/OpenAI/Codex/telemetry/Rust
+쿼리)·Reddit(r/ClaudeAI)·YouTube(AI Frontier Korea)를 스캔. 신규 wiki 페이지 5건 —
+use-case [[claude-ai-3x-faster-measurement-driven-optimization]](Anthropic 자사
+2주 스프린트, 13개 지표 기하평균 3.1배·인시던트 0건) · use-case
+[[minimaxir-agentic-rust-performance-optimization]](개인 개발자 Rust 반복최적화,
+umap-learn 등 대비 4~15배·모델세대 누적 최대 32배·벤치마크 사기 실패사례 포함) ·
+update [[2026-09-23-anthropic-claude-novel-enzyme-discovery]](CRISPR 유사 신규
+효소 시스템 발견, Bloomberg 과장 지적 병기) · update
+[[2026-09-23-openai-agent-australia-medicare-hack]](정부 시스템 첫 AI 에이전트
+해킹, 발생~통보 3개월 공백) · update
+[[2026-09-24-google-deepmind-gemini-4-post-training]](신임 SVP 첫 로드맵 공개).
+기존 페이지 후속 절 1건([[2026-09-19-claude-code-projects-cloud-session-coordination]]
+09-23 Cloud sessions GA 후속). `wiki/players/anthropic.md`·`wiki/players/openai.md`·
+`wiki/players/google.md`에 각 1~2개 문단, `wiki/tools/claude-code.md`·
+`wiki/tools/gemini.md`에 각 갱신, `wiki/timeline.md`(4건 추가, 176건)·
+`wiki/use-cases/case-catalog.md`(124건)·`index.md` 갱신.
+
+확인했으나 미채택: r/ClaudeAI "I see why developers get irritated by vibe coders"·
+"Is everyone building their own software now?"는 본문 확보 실패(429 레이트리밋
+재시도 소진)로 커뮤니티 화제 후보에서 제외, 대신 확보에 성공한 "I am done with
+this shit"(voxium 09-20 원 게시물, HN 252점 재유통) 단독 채택 · r/ClaudeAI
+"Anthropic to include Fable 5 usage in Pro plans"는 원문 확인 실패로 보류(다음
+스캔 재확인) · Claude Code AGENTS.md 텔레메트리 버그는 09-23 이미 반영된 내용
+그대로이고 신규 확인 사항 없어 페이지 추가 갱신 생략 · "Claude's Load-Bearing
+Seams"(HN 118점)는 인식론적 에세이로 재현 가능한 기법 없어 탈락 · Bersin·HBI·
+McKinsey People&Org 계열·Sloan·Wharton·Hardman 전부 확인했으나 창 안 신규 제목
+없음 · EdSurge 08-28 이후 정책·일반 오피니언 위주로 스크리닝 규칙상 탈락 다수 ·
+AI Frontier Korea 최근 3일 내 신규 업로드 없음(최신 EP114, 09-12 유지) · 그 외
+YouTube 채널(조코딩 등)은 신규 업로드를 특정하지 못해 픽 공란.
+
+비고: 이번 세션에서도 `.scratch_*.xml`류 임시 파일이 샌드박스 rm 제한으로 삭제
+실패 — 누적 비고와 동일 패턴, 다음 세션 일괄 정리 필요.
