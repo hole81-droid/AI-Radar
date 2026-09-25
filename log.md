@@ -2699,3 +2699,41 @@ YouTube 채널(조코딩 등)은 신규 업로드를 특정하지 못해 픽 공
 
 비고: 이번 세션에서도 `.scratch_*.xml`류 임시 파일이 샌드박스 rm 제한으로 삭제
 실패 — 누적 비고와 동일 패턴, 다음 세션 일괄 정리 필요.
+
+## [2026-09-26] scan | 항목 11건, 반영 8건
+
+업무 적용 Case 4건 전부 use-case 페이지화: [[liamottley-claude-code-higgsfield-ai-makeover-website]]
+(Claude Code+Higgsfield MCP 웹사이트 제작) · [[hardman-ld-teams-build-vs-buy-ai-tools]]
+(L&D 팀 자체제작 AI 도구, Dr. Philippa Hardman) · [[jevmem-claude-code-project-memory]]
+(Claude Code 세션 메모리 오픈소스, 66 stars) · [[foremerge-parallel-coding-agent-conflict-detection]]
+(병렬 에이전트 의도충돌 감지 MCP, 507 stars). 빅 뉴스 3건: update
+[[2026-09-25-anthropic-akamai-cloud-deal]](신규, 7년 $11.6B CPU 워크로드 계약·컴퓨트
+지출 1년 내 $500B 돌파) · [[2026-08-27-anthropic-pentagon-blacklist-ruling]] 09-25
+후속 절(⚠️ 상충 — 항소법원이 2-1 판결로 08-27 "위법" 판결을 뒤집고 블랙리스트 지정을
+재확인) · 창업자 7인 IPO 의결권 50.1% 확보 추진은 별도 페이지 없이
+`wiki/players/anthropic.md` 09-25 문단에 통합 반영. 커뮤니티 화제 2건: Simon
+Willison "코딩 에이전트가 SWE를 더 어렵게 만든다" 소회는 `wiki/tools/claude-code.md`에
+구루 관찰 항목으로 반영 · [[2026-09-21-amazon-blocks-meta-muse-agent-commerce]] 09-25
+후속 절(Meta Muse가 Azure 경유 OpenAI 모델을 서브에이전트로 쓰는 정황, muse-special).
+YouTube 픽 2건(AI Frontier Korea EP115 올인서밋 정리 — 고정 픽 규칙 적용, Ben AI
+Opus5.5 vs Fable5.1 비교 — 비교 근거는 영상 설명에 없어 확인 못했음을 명시)은 별도
+페이지 없이 뉴스레터·허브 문단으로만 반영. `wiki/timeline.md`(2건 추가, 178건)·
+`wiki/use-cases/case-catalog.md`(4건 추가, 129건)·`wiki/tools/claude-code.md`(5개
+문단)·`index.md` 갱신.
+
+확인했으나 미채택: r/AI_Agents "Memory layer for AI agents is totally FUCKED"·
+"I analyzed 246 repos and 57 papers on agent harnesses"는 두 차례 재시도에도
+reddit이 0바이트 무응답(레이트리밋 추정)으로 permalink 확보 실패해 커뮤니티 화제
+단독 항목화는 보류(jevmem 케이스 본문에 배경으로만 인용) · HN "Tell HN: Claude Code
+just accepted and signed a contract"(50점)는 실제 게시일이 09-22로 확인돼 신선도
+창(1~3일) 밖으로 판단해 제외 · McKinsey "Democratized superintelligence is coming"는
+본문 확인 실패(WebFetch 상시 타임아웃 패턴 재확인)로 페이지화 보류 · HN 인물쿼리
+(karpathy·"Andrew Ng", points>50)는 이번에도 신규 히트 없음 · AX LABS 블로그·Josh
+Bersin·Harvard Business Impact·MIT Sloan·EdSurge·Class Central은 전부 확인했으나
+창(09-24~09-26) 안 신규 제목 없음(모두 09-14~09-23 기준 정체) · Jangpm·GPTers·
+kooky0ai 등 5개 YouTube 채널은 신규 업로드가 주제 무관이거나 정체.
+
+비고: HN Algolia 날짜필터 epoch를 처음에 2025년 기준으로 잘못 계산해 스캔 초반
+결과가 전부 5~11일 지난 옛 뉴스였음(Gemini 3.8 Live·항소법원 이전 사건 등, 이미
+위키에 반영된 건들) — `date -u -d` 로 epoch를 재계산해 정정, 이후 결과부터 실제
+48시간 창으로 정상 필터링됨. 다음 세션은 이 재계산 스텝을 먼저 거칠 것.

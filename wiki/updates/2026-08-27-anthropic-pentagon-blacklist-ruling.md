@@ -54,10 +54,34 @@ The Intercept가 FOIA로 확보한 문서 공개로, 이 갈등 이전부터 Cla
 이미지와 "실전 살상 작전에 이미 투입된 모델"이라는 사실이 같은 회사에 동시에 성립한다.
 자세한 내용과 상충 정리는 [[2026-09-08-pentagon-ai-contracts-iran-strikes-intercept]] 참고.
 
+## 후속 (2026-09-25) — 항소법원이 뒤집었다
+
+> ⚠️ **상충**: 위 08-27 판결(Lin 판사, 지방법원)은 "블랙리스트 지정은 위법, 철회하라"였다.
+> 그런데 2026-09-25, 연방 항소법원(D.C. 순회구)이 **2-1 판결로 국방부의 "공급망 리스크"
+> 지정을 정당하다고 인정**했다 — 정반대 결론이다. **최신 판결(09-25 항소심)이 유효하며,
+> 08-27 지방법원 판결은 뒤집혔다.**
+
+- **판결 내용**: Gregory Katsas 판사가 다수의견을 작성(Neomi Rao 판사 동참). "Claude를
+  국방부 정보시스템에 계속 통합하는 것은 — 국방부 자체든 계약사를 통해서든 — 법이 정한
+  국가안보 리스크에 해당한다고 볼 충분한 근거가 국방부에 있었다"고 판시. Anthropic이
+  제기한 "자의적·월권적·위헌적 조치"라는 주장을 기각했다.
+- **쟁점은 그대로**: Anthropic은 여전히 정부가 자사의 정부 비판(자율 살상무기·대량감시
+  제한 요구)에 대한 보복으로 이 지정을 내렸다고 주장하고 있다. 같은 시기 별도의 관련
+  소송에서는 한 연방지법 판사가 정부 조치의 동기를 "Anthropic의 '오만함'을 공개적으로
+  본보기 삼으려는 의도"였다고 지적한 바 있어, 사법부 내에서도 판단이 갈리고 있다.
+- CNBC·Defense News·ABC News·Washington Examiner 등이 09-25 일제히 보도했다.
+
+**시사점 갱신**: "AI 기업이 정부와 맞서 승소한 사례"라는 08-27 시점의 프레이밍은
+더 이상 최신 상태가 아니다 — 1심 승소가 2심에서 뒤집힌 현재로선 "정부 대상 소송의
+결과는 심급에 따라 뒤바뀔 수 있는 진행형 리스크"로 고쳐 읽어야 한다. Anthropic의 IPO
+(10월 목표) 시점과 겹치는 정부 리스크가 오히려 재점화된 셈이다.
+
 ## 출처
 
 - [Reuters — Pentagon's blacklisting of Anthropic was unlawful, US judge rules](https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/)
 - [NYT — Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
 - [Al Jazeera — US judge blocks Pentagon blacklisting of AI firm Anthropic](https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic)
 - [Forbes — Federal Judge Blocks Pentagon's Illegal Designation of Anthropic as a Supply Chain Risk](https://www.forbes.com/sites/siladityaray/2026/08/28/federal-judge-blocks-pentagons-illegal-designation-of-anthropic-as-a-supply-chain-risk/)
+- [CNBC — U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk (09-25 후속)](https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html)
+- [Defense News — US appeals court upholds Pentagon's blacklisting of Anthropic (09-25 후속)](https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/)
 - raw: [[raw/2026-08/anthropic-pentagon-blacklist-ruling]]

@@ -22,6 +22,7 @@ uses: [course, ax]
 - [[jangpm-slide-master-claude-code-codex]] — Claude Code·Codex로 Skill 기반 PPT 제작 에이전트(skills)를 활용해 회사 양식 맞춤 슬라이드 제작을 수행 → 편집 가능한 네이티브 PPTX 오픈소스 무료 공개(MIT) (주장, 정량 성과 미확인)
 - [[theaxlabs-claude-code-diagram-design-skill]] — Claude Code·Codex·Pi로 diagram-design 플러그인(skills)을 활용해 프레젠테이션용 다이어그램 27종 자동 생성을 수행 → 회사 브랜드 색상 자동 적용된 편집 가능 SVG/PNG (주장, 정량 성과 미확인)
 - [[benai-claude-design-skill-workflow]] — Claude "/design" Skill(skills)로 디자인 시스템→템플릿→스킬→휴먼인더루프 4단계를 활용해 슬라이드 등 반복 디자인 작업 표준화를 수행 → 재사용 가능한 워크플로 확보 (일화, 정량 미확인)
+- [[liamottley-claude-code-higgsfield-ai-makeover-website]] — Claude Code+Higgsfield(mcp)로 아웃페인팅·모션클립 생성과 Mobbin·21st.dev UI 레퍼런스 소싱을 활용해 비즈니스 웹사이트 제작을 수행 → "AI 슬롭" 없는 완성도(정량 성과 미확인) (일화)
 
 ## 리서치 (research)
 
@@ -89,6 +90,8 @@ uses: [course, ax]
 - [[microsoft-copilot-runtime-rust-port]] — GPT-5.6 Sol·Claude Opus 4.8(cli-pipeline)로 GitHub Copilot 런타임 43만 줄 TypeScript를 Rust로 모듈 단위 에이전틱 포팅 → 속도 15.9배·메모리 91%↓, 비용 $120,000(14.5주, 135회 릴리스) (실측)
 - [[claude-ai-3x-faster-measurement-driven-optimization]] — Anthropic 자사가 Claude Code(내부 연구 모델 Claude Tag, subagents)로 측정 기반 자율 최적화 루프를 활용해 claude.ai·데스크톱 앱 성능 개선을 수행 → 13개 지표 기하평균 3.1배, 3,000+PR 병합에도 인시던트·롤백 0건 (실측)
 - [[minimaxir-agentic-rust-performance-optimization]] — 개인 개발자가 Claude Opus 4.5·GPT-6 Astra 등 다중 모델(subagents+cli-pipeline)로 반복 프롬프트 최적화 루프를 활용해 Rust 라이브러리 성능 최적화를 수행 → umap-learn 등 대비 4~15배, 모델 세대 누적 최대 32배 (실측, 벤치마크 사기 실패 사례도 공개)
+- [[jevmem-claude-code-project-memory]] — Claude Code용 오픈소스 도구가 외부 채점 API "Jev"(hooks)를 활용해 세션 간 프로젝트 결정·버그·TODO 자동 기억을 수행 → GitHub 66 stars, 정량 성과는 미확인 (주장, 초기 프로토타입)
+- [[foremerge-parallel-coding-agent-conflict-detection]] — Claude Code·Codex·Cursor에 MCP 서버(mcp)로 "공유 화이트보드"를 붙여 병렬 코딩 에이전트 간 의도 충돌 사전 감지를 수행 → GitHub 507 stars, 공식 벤치마크 결과는 자체적으로 "아직 없음"이라 명시 (주장, pre-1.0)
 
 ## 보안·운영 (ops)
 
@@ -152,6 +155,7 @@ uses: [course, ax]
 - [[bank-of-america-academy-ai-upskilling-200k]] — Bank of America가 사내 러닝 조직 The Academy로 AI 대화 시뮬레이터 기반 3단계 역량육성을 20만 명에 운영 → 사내 AI 어시스턴트 분기 1.69억 회 사용, 신규 채용의 45%를 내부 이동으로 충원 (주장, 자사 발표를 MIT Sloan이 전달)
 - [[cornerstone-workforce-ai-platform]] — Cornerstone Workforce AI(skills+subagents)로 인재 식별·이탈위험 관리·프로젝트 기반 배치·맞춤 개발계획을 자동화 → 의료기관 사례 3,000만~4,000만 달러 절감 기대 (주장, 벤더 보고치)
 - [[bersin-galileo-jupiter-hr-ai]] — Galileo(Josh Bersin Company)로 second-brain형 HR 지식 코퍼스를 mcp 방식 주입을 활용해 Copilot·Workday·ServiceNow 등 기존 에이전트에 HR 전문성을 이식 → 1,000개 이상 기업 사용 주장, 토큰 1/10·환각 제거 주장 (주장, 벤더 발표)
+- [[hardman-ld-teams-build-vs-buy-ai-tools]] — L&D 팀이 Claude Projects·커스텀 GPT·Gemini Gem(skills+prd-driven)을 활용해 벤더 구매 대신 사내 맞춤 AI 도구를 자체 제작 → 콘텐츠 생산량이 아니라 의사결정 품질·과정 제작 절제를 성과로 재정의 (일화, 특정 기업명·정량 수치 없음)
 
 ## 교육 (education)
 

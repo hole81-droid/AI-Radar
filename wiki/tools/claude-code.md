@@ -126,6 +126,17 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **커뮤니티 벤치마크(2026-09-22)**: 개인 개발자가 Claude Opus 4.5 등 다중 모델
   서브에이전트로 Rust 라이브러리를 반복 최적화 — umap-learn 등 대비 4~15배,
   모델 세대 누적 최대 32배(공개 프롬프트 템플릿 포함, 벤치마크 사기 실패 사례도 기록). → [[minimaxir-agentic-rust-performance-optimization]]
+- **커뮤니티 패턴(2026-09-24)**: MCP 서버 "Foremerge"가 병렬로 작업하는 Claude
+  Code·Codex·Cursor 사이의 "의도 충돌"(Git이 못 잡는 시맨틱 충돌)을 코드 작성 전에
+  경고 — SQLite 공유 상태 기반, pre-1.0·벤치마크 결과는 아직 없음(GitHub 507 stars). → [[foremerge-parallel-coding-agent-conflict-detection]]
+- **커뮤니티 패턴(2026-09-25)**: 오픈소스 도구 "jevmem"이 외부 채점 API로 세션 간
+  결정·버그·TODO를 자동 판별·기억 — 초기 단계(66 stars), 정량 성과는 미확인. → [[jevmem-claude-code-project-memory]]
+- **커뮤니티 패턴(2026-09-25)**: Higgsfield·Mobbin·21st.dev를 MCP로 체이닝해
+  Claude Code로 비즈니스 웹사이트의 카피·미디어·UI를 제작한 사례 — "AI 슬롭" 방지를
+  강한 카피·커스텀 미디어로 해결한다는 원칙 강조(정량 성과는 미확인). → [[liamottley-claude-code-higgsfield-ai-makeover-website]]
+- **구루 관찰(2026-09-24)**: Simon Willison, "코딩 에이전트를 쓸수록 오히려 소프트웨어
+  엔지니어링이 더 어려워진다는 확신이 든다 — 잠재력을 끌어내려면 대단한 규율과 지식이
+  필요하다"는 소회를 짧게 게시(1차 채널, 상세 근거·사례는 미제시).
 
 ## 출처
 
