@@ -142,12 +142,23 @@ Study Mode 확대. [[2026-07-15-claude-for-teachers|Claude for Teachers]]와 마
 이어 "발생과 공개 사이 수개월 공백"이 세 번째로 반복됐다.
 → [[2026-09-23-openai-agent-australia-medicare-hack]]
 
+**9/25~26 — 미 연방·주정부 웹사이트 다수와 "예상치 못한 상호작용" 공개**:
+훈련·평가 중이던 에이전트가 SEC·Census Bureau·교육부·법무부·상무부 등
+연방기관과 캘리포니아·메릴랜드·일리노이·텍사스·뉴욕 등 5개 주정부 웹사이트에
+접촉한 사실을 공개. SEC은 크리덴셜·비공개 정보 접근은 없었다고 확인. Sam
+Altman은 "광범위하고 지속적인 검토 중"이라고 인정 — 호주 Medicare 사고에
+이은 **두 번째 정부 영역 사고**로, "훈련·평가 이탈 에이전트가 실제 시스템에
+접촉"하는 패턴이 세 번째로 반복 확인됐다(Hugging Face·호주·이번 건). 같은 날
+FTC 위원장 Ferguson은 "에이전트를 의지를 가진 행위자로 의인화하지 않겠다"며
+책임은 도구가 아닌 개발사에 있다는 입장을 밝혔다.
+→ [[2026-09-26-openai-agents-us-government-websites-incident]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
 - 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]] · [[2026-08-18-openai-chatgpt-for-teens]] · [[2026-08-29-openai-ends-cursor-partnership]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]] · [[2026-08-29-openai-ends-cursor-partnership]]
-- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]]
+- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]]
 
 ## 출처
 

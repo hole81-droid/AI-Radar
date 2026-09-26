@@ -38,6 +38,7 @@ uses: [course, ax]
 - [[cognition-devin-rsa-260-factoring]] — ★실측 벤치마크 케이스. Cognition이 Devin으로 cli-pipeline(다중 세션 오케스트레이션, 최대 18개 동시)을 활용해 GPU 가속 인수분해 소프트웨어 재작성을 수행 → 35년 묵은 RSA-260 인수분해 기록 경신, 비용 약 $400K로 기존 최고기록 대비 약 10배 저렴 (실측)
 - [[openai-internal-research-agents-acceleration]] — OpenAI가 Codex 등 코딩 에이전트(cli-pipeline)를 자사 연구조직 전체에 투입해 연구 코드 작성·실험 인프라·실패조사·모니터링을 가속 → 8월 중순 기준 에이전트 가동량이 사람 노동일의 3.1배, 연구원 1인당 하루 비용 중앙값 $600+·90th percentile $7,000+ (실측, 자사 공개)
 - [[mollick-mythos-fable-isochrone-map-research]] — Ethan Mollick이 Claude Code(Fable, Mythos급)로 vibe-coding과 서브에이전트 위임을 활용해 연구 집약적 소프트웨어(등시선 지도·통계 보정 도구)를 제작 → 수 시간 자율 실행으로 완성, 통제 방식이 "조종"에서 "위탁"으로 이동 (일화, 저자 본인 체험)
+- [[2026-09-25-anthropic-claude-nine-loop-amplitude]] — Anthropic이 Claude(Fable 5.1, Claude Science)로 기존 부트스트랩·폼팩터 계산 기법(cli-pipeline)을 활용해 이론물리 최전선 문제(9-루프 산란 진폭)를 자율 계산 → 96 CPU 약 1주일, 전문가(Lance Dixon) 독립 검증 통과 (실측, demo)
 
 ## 개발 자동화 (dev-automation)
 
@@ -147,6 +148,7 @@ uses: [course, ax]
 - [[azhar-6-dollar-ai-research-agent]] — Claude Code·Codex·Elicit·Manus(cli-pipeline)를 조합한 개인 리서치 에이전트 "RMA"로 코드 통합·논문 리서치·글쓰기 보조를 수행 → 일일 운영비 피크 $494→$6 (실측, 저자 본인 지출)
 - [[latentspace-grok-bot-five-days-vs-openclaw]] — xAI Grok Bot(subagents+browser-agent)으로 코딩 라우팅용·고객지원 모니터링용·개인비서용 Bot을 구성해 5일 실사용 → 관리형 인프라 덕에 설정 부담은 낮으나 딥 엔지니어링엔 여전히 부적합 (일화)
 - [[2026-09-23-jev-claude-browser-automation]] — Claude(Code)로 오픈소스 초고속 브라우저 에이전트 Jev(browser-agent)를 결합해 웹 브라우저 작업 자동화 6종을 시연 → 구글 항공권 예약 7.1초 완료, 브라우저 프로토콜 호출 91%↓ (실측, prototype)
+- [[chess-postmortem-skills-claude-code]] — Claude Code Skill(skills+subagents)로 Stockfish 엔진 분석+병렬 조사 에이전트를 결합해 체스 기보 복기 자료(주석 PGN·HTML·나레이션 영상) 제작을 자동화 → 게임당 약 1시간, HN 68점 화제 (일화, prototype)
 
 ## HR (hr)
 
@@ -446,3 +448,15 @@ Kaplan의 지능폭발 경고"는 원문이 2025-12 The Guardian 인터뷰(신�
 페이지화하지 않았다. HBR "Closing the Gap Between AI Investment and Financial Return"
 (09-23)·Wharton "2026 AI Adoption Report"(09-23)는 각각 페이월·비밀번호 보호로 본문 확인
 실패해 보류했다.*
+
+*2026-09-27 추가(131건): [[2026-09-25-anthropic-claude-nine-loop-amplitude]] (research,
+Anthropic 공식 연구 발표 — Claude Fable 5.1이 Claude Science 환경에서 9-루프 이론물리
+진폭을 자율 계산, 전문가 독립검증 통과) · [[chess-postmortem-skills-claude-code]]
+(personal-productivity, GitHub·HN 68점 — Claude Code Skill+Stockfish 병렬 조사 에이전트로
+체스 복기 자료 자동 생성, 정량 성과는 미확인). 같은 스캔에서 확인한 OpenAI 에이전트의
+미 연방·주정부 웹사이트 다수 접촉 공개는 특정 조직의 업무 자동화 사례가 아니라 보안사고·
+정책 이슈라 [[2026-09-26-openai-agents-us-government-websites-incident]] update 신규 페이지로,
+같은 사건의 새 포렌식 세부(swarmtraces.org)는 기존 [[2026-07-21-openai-huggingface-security-incident]]
+후속 절로 반영했다. Exponential View "Your agent, whose interests?"(Meta Muse 이해상충
+논평)·DHH의 "핸드코딩 은퇴" Rails World 2026 키노트는 뉴스레터 커뮤니티 화제 섹션에만
+기록(구조화된 재현 정보 부족으로 use-case 미승격).*
