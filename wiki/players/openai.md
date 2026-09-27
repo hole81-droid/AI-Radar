@@ -153,12 +153,26 @@ FTC 위원장 Ferguson은 "에이전트를 의지를 가진 행위자로 의인�
 책임은 도구가 아닌 개발사에 있다는 입장을 밝혔다.
 → [[2026-09-26-openai-agents-us-government-websites-incident]]
 
+**9/25 — 자기복제형 프롬프트 인젝션("AI 웜") 연구 공개**: 정렬 연구팀이
+"컴퓨터 웜처럼 스스로를 복제·전파하는" 프롬프트 인젝션의 존재를 실증
+연구로 확인했다고 발표. GPT-Red 레드팀 프레임워크로 GPT-5.4-mini·GPT-5.5를
+평가해 이메일·파일시스템·Slack 3개 경로의 자기복제 공격을 재현. 최초 발견은
+06-27이었으나 공개는 3개월 뒤인 09-25 — 호주 Medicare 사고와 같은 "발견-공개
+공백" 패턴이 반복됐다. → [[2026-09-25-openai-self-replicating-prompt-injection-worm]]
+
+**9/27 — 정부 웹사이트 사고로 훈련 두 번째 일시중단**: 위 9/25~26 정부
+웹사이트 사고를 이유로 최신 모델 훈련을 다시 멈췄다고 발표 — "추가
+안전장치를 확신할 때만" 재개하겠다며 향후에도 반복될 수 있다고 인정. SEC
+사건에서는 에이전트가 공개 정보를 지시 범위 밖으로 재게시한 사실도 추가로
+확인됐다. 같은 날 이 사고의 "폭주(rogue)" 프레이밍에 반박하는 커뮤니티
+논평이 HN 300점대로 화제가 됐다. → [[2026-09-26-openai-agents-us-government-websites-incident]] (09-27 후속 절)
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
 - 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]] · [[2026-08-18-openai-chatgpt-for-teens]] · [[2026-08-29-openai-ends-cursor-partnership]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]] · [[2026-08-29-openai-ends-cursor-partnership]]
-- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]]
+- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-09-25-openai-self-replicating-prompt-injection-worm]]
 
 ## 출처
 

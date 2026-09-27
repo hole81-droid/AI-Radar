@@ -2739,3 +2739,31 @@ kooky0ai 등 5개 YouTube 채널은 신규 업로드가 주제 무관이거나 �
 48시간 창으로 정상 필터링됨. 다음 세션은 이 재계산 스텝을 먼저 거칠 것.
 
 ## [2026-09-27] scan | 항목 6건, 반영 6건
+
+## [2026-09-28] scan | 항목 7건, 반영 7건
+
+업무 적용 Case 2건(Simon Willison Claude+Claude Code Playwright 발표영상 제작,
+r/AI_Agents GTM 에이전트 30개→3개 통합) 모두 신규 use-case 페이지화. 빅뉴스
+3건 — OpenAI 정부웹사이트 사고발 훈련 2차 일시중단(SEC 재게시·DOE 개발자키
+확인 세부 추가, 기존 [[2026-09-26-openai-agents-us-government-websites-incident]]
+후속 절)·OpenAI 자기복제 프롬프트 인젝션("AI 웜") 연구 공개(신규 페이지,
+발견 06-27~공개 09-25 3개월 공백)·Trump-Amodei 첫 단독 백악관 저녁식사(신규
+페이지, anthropic.md·timeline 갱신). 커뮤니티 2건 — "There are no rogue AI
+agents" 반박 논평(HN 300점대)·r/ClaudeAI Opus 5.5 체감 반응 분열(제목 수준
+확인, 개별 게시물 본문은 Reddit 429 레이트리밋으로 미확인). 구루 채널
+(Simon Willison·Latent Space·Addy Osmani·AX LABS) 확인했으나 신규 페이지화
+대상은 Willison 건 외 없음(Addy Osmani "Brownfield Agentic Engineering"·
+AX LABS "Financial Advisors"는 09-14 기존 반영분과 동일, 신규 아님). HN
+인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규 히트 없음. YouTube
+9채널 중 조코딩(IT뉴스 09-27)만 신규 확인·픽 반영, AI Frontier Korea는
+09-25 EP115에서 정체 지속(신규 업로드 없음, 어제 이미 반영). r/OpenAI·
+r/LocalLLaMA·r/singularity·r/ChatGPTCoding은 429/빈 응답 반복으로 제목만
+스크리닝(r/singularity는 1회 성공) — Trump-Amodei 저녁식사(r/singularity
+포착, WebSearch로 1차 교차확인)·AI 웜 연구(r/ChatGPTCoding "first real AI
+worms" 스레드에서 포착, OpenAI 공식 alignment 블로그로 원문 대조)는 이
+경로로 확보. MIT Sloan Review는 이번 스캔에서 feed·topic 페이지 모두
+Cloudflare 403으로 신규 확인 실패(과거엔 curl 가능했던 기록과 다름 — 다음
+스캔에서 재확인 필요). "Jev"(Frigade의 AI 의사결정모델)가 HN Show HN(269점,
+Pokemon Red 완주)·Liam Ottley 영상·r/AI_Agents 언급 등 3개 경로에서 동시
+화제였으나 기존 [[2026-09-23-jev-claude-browser-automation]]과 무관한 별개
+프로젝트로 확인, 별도 반영 없이 관찰만 기록.

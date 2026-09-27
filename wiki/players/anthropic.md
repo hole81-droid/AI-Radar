@@ -377,6 +377,12 @@ Opus 5 대비 비용 40%↓·속도 30%+↑로 제공하고, 자사 행동감사
 유지하겠다는 구조다. 정부 리스크 재점화·대규모 인프라 조달·상장 지배구조 설계가
 같은 주에 동시에 드러난 셈이다.
 
+**9/28 — Trump-Amodei 첫 단독 회동, 백악관 비공개 저녁식사**: 09-25 국빈 만찬(Altman·
+Musk·Huang·Zuckerberg 참석, Amodei는 일정 충돌로 불참)에 이어, Trump가 Amodei를
+별도로 백악관 비공개 저녁식사에 초대 — 두 사람의 첫 단독 회동. Pentagon 블랙리스트
+분쟁(9/25 항소심 뒤집힘)·Amodei의 감속 발언을 둘러싼 정부와의 공개적 이견이 누적된
+가운데 나온 개인 채널 관계 관리 신호로 해석된다. → [[2026-09-28-trump-amodei-white-house-dinner]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -399,7 +405,8 @@ Opus 5 대비 비용 40%↓·속도 30%+↑로 제공하고, 자사 행동감사
   [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] ·
   [[2026-09-22-anthropic-claude-opus-5-5-launch]] ·
   [[2026-09-23-anthropic-claude-novel-enzyme-discovery]] ·
-  [[claude-ai-3x-faster-measurement-driven-optimization]]
+  [[claude-ai-3x-faster-measurement-driven-optimization]] ·
+  [[2026-09-28-trump-amodei-white-house-dinner]]
 
 ## 출처
 

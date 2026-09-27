@@ -23,6 +23,7 @@ uses: [course, ax]
 - [[theaxlabs-claude-code-diagram-design-skill]] — Claude Code·Codex·Pi로 diagram-design 플러그인(skills)을 활용해 프레젠테이션용 다이어그램 27종 자동 생성을 수행 → 회사 브랜드 색상 자동 적용된 편집 가능 SVG/PNG (주장, 정량 성과 미확인)
 - [[benai-claude-design-skill-workflow]] — Claude "/design" Skill(skills)로 디자인 시스템→템플릿→스킬→휴먼인더루프 4단계를 활용해 슬라이드 등 반복 디자인 작업 표준화를 수행 → 재사용 가능한 워크플로 확보 (일화, 정량 미확인)
 - [[liamottley-claude-code-higgsfield-ai-makeover-website]] — Claude Code+Higgsfield(mcp)로 아웃페인팅·모션클립 생성과 Mobbin·21st.dev UI 레퍼런스 소싱을 활용해 비즈니스 웹사이트 제작을 수행 → "AI 슬롭" 없는 완성도(정량 성과 미확인) (일화)
+- [[simonwillison-claude-code-playwright-kakapo-video]] — Claude(이미지 생성)+Claude Code(vibe-coding+cli-pipeline, Playwright 자동화)로 컨퍼런스 발표 클로징 슬라이드용 픽셀아트 애니메이션 영상 제작을 수행 → 프롬프트 몇 번으로 완성해 발표 당일 즉시 사용 (일화, 정량 성과 미확인)
 
 ## 리서치 (research)
 
@@ -127,6 +128,7 @@ uses: [course, ax]
 - [[anthropic-bd-team-claude-cowork-sales-automation]] — Anthropic BD팀이 Claude Cowork(skills+cron-routines+mcp)로 세일즈 인바운드 응대·아웃바운드 프로스펙팅·디스커버리콜 평가를 수행 → 인바운드 응답 하루 5시간 수작업→검토만 필요한 초안, 담당자 1인당 계정 100개+ 관리 (주장, 자기 보고)
 - [[federal-contract-leadgen-claude-browser-automation]] — Claude(+Claude in Chrome)로 연방 조달 공개 데이터 API 조회+NAICS 교차필터링+브라우저 담당자 탐색+자체 메일함 아웃리치(browser-agent+cli-pipeline+mcp)를 활용해 건설 하도급 리드 발굴·컨택을 수행 → 필터 통과 12건 중 10건 컨택·8건 회신·3건 계약 성사 (주장, 이메일 벤더 계정이 대신 공유한 고객 사례)
 - [[anthropic-ai-native-revenue-org-cox-communications]] — Claude(prd-driven 3단계 롤아웃)로 영업 조직 전체의 미팅 준비·아웃리치·CRM 데이터 통합을 자동화 → Cox Communications 투자 첫해 7배 수익률·리드검증비용 86%↓(정확도 18%→97%), Cyera 1,500명 중 88% 주간 사용 (실측, 벤더 채널이 전한 고객사 수치)
+- [[reddit-gtm-agent-consolidation-claude-code-swan-openclaw]] — Claude Code·Swan·OpenClaw(subagents 역할분담)로 GTM 자동화 아키텍처를 재설계 → 에이전트 30개→3개로 통합, "워크플로 대신 컨텍스트" 운영 전환(정량 성과 미확인) (일화, 자기 보고)
 
 ## 금융 (finance)
 
