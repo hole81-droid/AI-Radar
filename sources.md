@@ -356,6 +356,47 @@ AI 교육의 최신 트렌드, 혁신적인 AI 교육 방식·교육 주제 등 
   발행(월 1회 미만 페이스 확인) — "Agency and Agents"(08-31)는 Hugging Face 보안 인시던트
   회고 위주라 교육 관련 내용 없어 스크리닝 탈락.
 
+## 온라인 학습 플랫폼 — Udemy (2026-09-28 사용자 지정 추가)
+
+AI 강의 시장에서 **무엇이 실제로 팔리고 무엇이 새로 나오는지**를 보는 소스다. 사내 과정 설계 시 외부 강의로
+대체·보완할 구간을 찾는 데 쓴다. 카탈로그는 [[udemy-ai-catalog]]에 카테고리별로 유지한다.
+
+### 접근 제약 (2026-09-28 전수 실측)
+
+| 경로 | 결과 |
+|---|---|
+| `curl` (브라우저 UA 포함) — api-2.0·검색·토픽·사이트맵 전부 | **403 Cloudflare** ("Just a moment...") |
+| `WebFetch` — 토픽 페이지 | **403** |
+| Class Central 우회(`/provider/udemy`) | **403 Cloudflare** |
+| **Browser pane**(`mcp__Claude_Browser__*`) | **정상** — 검색·토픽 모두 렌더링 |
+
+→ **Udemy는 실제 브라우저로만 수집된다.** curl·WebFetch로 재시도하지 말 것. 공개 api-2.0은 제휴(affiliate)
+승인 키가 있어야 하며 현재 계정 없음. **무인 스케줄 스캔에서 Browser pane을 못 쓰는 경우, 그날 Udemy 섹션은
+"확인 실패(브라우저 도구 없음)"로 적고 넘어간다** — 조용히 빠뜨리지 않는다.
+
+### 수집 레시피
+
+```
+navigate  https://www.udemy.com/courses/search/?q=<검색어>&sort=newest&lang=ko
+javascript_tool  scripts/udemy-extract.js 의 IIFE 실행
+```
+
+- **데일리 스캔**: 쿼리 2개면 충분하다 — `q=AI&sort=newest&lang=ko`(한국어)와 `q=AI&sort=newest&lang=en`(영어).
+  여력이 있으면 `q=ai agents`·`q=generative ai`를 최신순으로 더 본다.
+- **카탈로그 갱신(분기 1회)**: 같은 URL에서 `sort=popularity`로 카테고리별 상위를 다시 받는다. 카테고리 목록은
+  [[udemy-ai-catalog]]의 소제목 13개를 그대로 쓴다.
+- 강의 URL은 `https://www.udemy.com/course/<slug>/`.
+
+### 스크리닝 규칙
+
+- **신규 배지(N)만 후보다.** 후기 수가 한 자릿수라도 버리지 않는다 — 이 섹션의 목적은 품질 추천이 아니라
+  "무엇이 새로 나왔나"를 읽는 것이다.
+- **제외**: 자격증 모의고사·문제은행(`practice exam`, `practice tests`, `모의고사`, `N questions`), AI와 무관한
+  강의(영어권 최신순에는 Oracle·Azure 자격증 덤프가 대량으로 섞여 나온다 — 2026-09-28 실측), 이미 카탈로그에 있는 강의.
+- **한국어 강의를 우선한다.** 구성원이 바로 수강할 수 있고, 영어권보다 수강 규모가 작아 평점으로는 걸러지지 않는다.
+- 하루 0~5건이 정상이다. 억지로 채우지 않는다.
+- 평점·후기가 없는 갓 등록 강의는 그렇게 적는다("신규, 후기 없음"). 추정하지 않는다.
+
 ## 커뮤니티
 
 > ⚠️ **2026-09-07 정정 — 도메인이 뒤바뀌었다.** 2026-07-07에는 "www는 차단, old가 정상"이었으나

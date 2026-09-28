@@ -308,6 +308,10 @@
 - [[claude-enterprise-adoption-path]] — Claude 엔터프라이즈 도입 경로 — 데이터 정책·사내망 제약 옵션 (course, ax)
 - [[vendor-official-case-numbers]] — 벤더 공식 고객 사례 수치 모음(Rakuten·Mozilla 등, 1차 출처) (course, ax)
 
+## 학습 콘텐츠 카탈로그 (wiki/courses/) — 외부 플랫폼 강의
+
+- [[udemy-ai-catalog]] — Udemy AI 강의 카탈로그. 13개 카테고리(생성형 AI 기초·ChatGPT·프롬프트·에이전트·LLM 앱·AI 코딩 도구·n8n 자동화·Copilot·비즈니스 전략·ML/데이터·콘텐츠 제작·거버넌스·한국어 신규) 상위 강의와 신규 강의. 데일리 스캔이 신규분을 덧붙인다 (high)
+
 ## 프로그램 (wiki/programs/) — mySUNI AI 역량육성 내부 문서 반입, 사례→프로그램 매핑 기준
 
 - [[2026-program-catalog]] — 2026 AI역량육성 프로그램 카탈로그 (기준일 07-16, 20개 프로그램·대상·도구·권장 모듈)

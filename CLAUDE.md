@@ -32,6 +32,7 @@ wiki/players/      회사·인물 페이지
 wiki/use-cases/    AI 적용 사례
 wiki/analysis/     질의 결과 축적 (비교·분석)
 wiki/programs/     mySUNI AI 역량육성 프로그램 카탈로그·모듈 맵 (사례→프로그램 매핑 기준, 내부 문서 반입)
+wiki/courses/      외부 학습 플랫폼 강의 카탈로그 (Udemy 등) — 사내 과정 설계 참고용
 wiki/timeline.md   업계 주요 이벤트 연대기
 newsletter/        데일리 뉴스레터: YYYY-MM-DD.md
 outputs/course/    학습과정 기획 산출물
@@ -48,7 +49,7 @@ docs/              설계 문서
 
 ```yaml
 ---
-type: update | tool | concept | player | use-case | analysis | program
+type: update | tool | concept | player | use-case | analysis | program | catalog
 date: YYYY-MM-DD          # 생성일 아닌 사건·발표일
 tools: [claude-code]       # 관련 도구 (해당 시)
 importance: high | medium | low
@@ -72,6 +73,18 @@ source: <원문 URL>
 고쳐 쓰지 않는다(정본은 사용자 측 원본). 원본이 참조하는 외부 파일(`course-modules.json` 등
 모듈 ID 정의)은 미반입이므로, 위키에서 모듈 ID를 인용할 때는 ID와 모듈 맵의 활동·산출물 설명을
 병기한다. 갱신은 사용자가 새 버전을 제공할 때만 한다.
+
+### courses/ 페이지 (외부 강의 카탈로그 — 2026-09-28 신설)
+
+`type: catalog`. Udemy 같은 외부 학습 플랫폼의 AI 강의를 **카테고리별 목록**으로 유지한다. 현재 문서는
+`wiki/courses/udemy-ai-catalog.md` 하나다. 목적은 두 가지다 — 사내 과정 설계 시 외부 강의로 대체·보완할
+구간을 찾는 것, 그리고 시장에서 무엇이 실제로 팔리는지(수강 규모·평점) 읽는 것.
+
+- **전수 수록이 목표가 아니다.** Udemy만 해도 AI 검색 결과가 1만 건을 넘는다. 카테고리별 인기·평점 상위와
+  신규 강의만 담고, 그 사실을 문서 머리에 밝힌다.
+- **강의 내용을 검증하지 않았음을 명시한다.** 제목·커리큘럼 수준의 정보다. 추천 목록으로 읽히지 않게 쓴다.
+- 신규 강의는 데일리 스캔이 덧붙이고, 카테고리별 상위 목록 전면 재수집은 분기 1회면 충분하다.
+- 수집 방법과 접근 제약(Udemy는 브라우저 전용)은 `sources.md`의 "온라인 학습 플랫폼 — Udemy" 절에 있다.
 
 ### Insight 리포트 (outputs/insight-report/YYYY-MM)
 
@@ -172,6 +185,12 @@ source: <원문 URL>
    - 소급분도 오늘치와 동일하게 3단계 Ingest까지 완료한다. 소급 뉴스레터를 만든 뒤에
      오늘치 스캔을 진행한다.
 1. `sources.md`의 소스들을 WebSearch/WebFetch로 훑는다 (최근 1~3일).
+1-B. **Udemy 신규 AI 강의 확인 (2026-09-28 사용자 지정)**: Browser pane으로
+   `https://www.udemy.com/courses/search/?q=AI&sort=newest&lang=ko` 와 `&lang=en` 두 쿼리를 열고
+   `scripts/udemy-extract.js`로 카드를 뽑는다. 신규 배지가 붙은 것 중 자격증 모의고사·AI 무관 강의를 빼고,
+   [[udemy-ai-catalog]]에 없는 것만 추린다. 상세 규칙은 sources.md의 Udemy 절.
+   **curl·WebFetch는 전부 403이니 시도하지 말 것.** 브라우저 도구를 못 쓰는 실행이면 뉴스레터에
+   "확인 실패(브라우저 도구 없음)"로 적는다.
 2. `newsletter/YYYY-MM-DD.md`를 뉴스레터 템플릿(아래)으로 생성한다.
 3. 같은 세션에서 바로 Ingest를 실행한다:
    - 원문을 가져와 `raw/YYYY-MM/`에 저장 (마크다운 변환).
@@ -186,6 +205,8 @@ source: <원문 URL>
    - 이미 있는 페이지와 같은 사실을 다루면 새 페이지를 만들지 않고 기존 페이지를
      갱신·교차링크한다 (중복 생성 금지, 모순 시 `> ⚠️ 상충:` 처리).
    - 관련 허브·개념·타임라인·`index.md`·`wiki/use-cases/case-catalog.md` 갱신.
+   - **Udemy 신규 강의는 페이지화하지 않는다.** `wiki/courses/udemy-ai-catalog.md`의 해당
+     카테고리 표에 한 줄 추가하는 것으로 반영을 끝낸다(카테고리가 없으면 13절 신규 목록에).
 4. 뉴스레터의 반영된 항목 체크박스를 `- [x]`로 갱신한다 (승인 대기 표시가 아니라
    "이미 위키에 반영됨" 표시).
 5. `log.md`에 `## [YYYY-MM-DD] scan | 항목 N건, 반영 M건` 기록 (ingest 별도 기록 불필요 —
@@ -312,6 +333,9 @@ date: YYYY-MM-DD
 ## YouTube 픽
 - [ ] **[채널명] 영상 제목** — 내용 요약 + 볼 이유. [링크](url)
 
+## Udemy 신규 AI 강의
+- [ ] **강의명** — 누구에게 무엇을 가르치는 강의인지 한 줄. 평점 N.N(후기 N) · N시간 · 수준. [강의](url)
+
 ## AX 시사점
 (한 단락 — 기업 도입 관점에서 오늘 뉴스가 갖는 의미)
 
@@ -323,6 +347,8 @@ date: YYYY-MM-DD
 - 스캔 결과가 빈약한 날도 파일은 생성한다 ("특이사항 없음").
 - 하루 분량 가이드: 업무 적용 Case 3~6건(가장 비중 높게, 다른 섹션과 겹치면 이쪽에 배치),
   빅 뉴스 3~5건, 커뮤니티 화제·도구 실사용 평가 2~4건, YouTube 픽 2~5건.
+- **Udemy 신규 AI 강의 0~5건 (2026-09-28 사용자 지정)**: 한국어 강의를 우선한다. 신규 배지가 붙은 것만
+  싣고, 자격증 모의고사·문제은행은 뺀다. 없는 날은 "신규 없음"이라고 적는다. 평점·후기가 없으면 없다고 쓴다.
 - **도구 실사용 평가는 매 스캔 최소 1건을 목표로 한다 (2026-09-10 사용자 지정).** 찾지 못한 날은
   섹션에 "도구 실사용 평가: 해당 없음"이라고 적어, 안 찾은 것인지 없던 것인지 구분되게 한다.
 - YouTube 픽도 에이전트 구축·자동화 강의 영상을 우선 선정한다.
@@ -389,6 +415,9 @@ date: YYYY-MM-DD
     Academy·OpenAI Academy·Wharton GAIL·Enterprise DNA·Coursera Enterprise가 있다. Hardman만 매 스캔
     RSS 확인, 나머지는 표에 적힌 주기(월 1~2회·분기 1회)로 제목만 본다. 국내 기업 AI 교육 사례는
     RSS가 없어 표 아래 WebSearch 레시피를 월 1회 돌린다. 근거 페이지: [[ai-upskilling-pedagogy-trends]].
+- **Udemy(브라우저 전용, 2026-09-28 신설)**: Browser pane으로 최신순 쿼리 2개(`lang=ko`·`lang=en`)만 연다.
+  카드 추출은 `scripts/udemy-extract.js`로 하고 페이지 전문을 읽지 않는다 — 검색 결과 텍스트를 통째로 읽으면
+  한 페이지에 3천 자가 넘는다. 카테고리별 상위 재수집은 분기 1회.
 - **Query는 선택적으로 읽기**: index.md → 관련 페이지만. 위키 전체 훑기 금지.
 - **병렬 에이전트는 대규모 작업에만**: 백필·린트처럼 명시적 요청이 있을 때만 다중 에이전트 사용.
   데일리 운영은 에이전트 1개로 충분하다.
