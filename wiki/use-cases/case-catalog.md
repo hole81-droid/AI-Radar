@@ -94,6 +94,7 @@ uses: [course, ax]
 - [[minimaxir-agentic-rust-performance-optimization]] — 개인 개발자가 Claude Opus 4.5·GPT-6 Astra 등 다중 모델(subagents+cli-pipeline)로 반복 프롬프트 최적화 루프를 활용해 Rust 라이브러리 성능 최적화를 수행 → umap-learn 등 대비 4~15배, 모델 세대 누적 최대 32배 (실측, 벤치마크 사기 실패 사례도 공개)
 - [[jevmem-claude-code-project-memory]] — Claude Code용 오픈소스 도구가 외부 채점 API "Jev"(hooks)를 활용해 세션 간 프로젝트 결정·버그·TODO 자동 기억을 수행 → GitHub 66 stars, 정량 성과는 미확인 (주장, 초기 프로토타입)
 - [[foremerge-parallel-coding-agent-conflict-detection]] — Claude Code·Codex·Cursor에 MCP 서버(mcp)로 "공유 화이트보드"를 붙여 병렬 코딩 에이전트 간 의도 충돌 사전 감지를 수행 → GitHub 507 stars, 공식 벤치마크 결과는 자체적으로 "아직 없음"이라 명시 (주장, pre-1.0)
+- [[claude-frontend-aesthetics-ai-slop]] — Claude(Claude Code)로 skills+mcp(컴포넌트 라이브러리 연동+`/frontend-design` 스킬)를 활용해 획일적인 "AI 슬롭" UI에서 벗어난 프론트엔드 생성을 수행 → 타이포그래피·색상 지시 변경만으로 정성적 개선(정량 미확인) (일화, Anthropic 공식 쿡북 기반)
 
 ## 보안·운영 (ops)
 
@@ -462,3 +463,12 @@ Anthropic 공식 연구 발표 — Claude Fable 5.1이 Claude Science 환경에�
 후속 절로 반영했다. Exponential View "Your agent, whose interests?"(Meta Muse 이해상충
 논평)·DHH의 "핸드코딩 은퇴" Rails World 2026 키노트는 뉴스레터 커뮤니티 화제 섹션에만
 기록(구조화된 재현 정보 부족으로 use-case 미승격).*
+
+*2026-09-29 추가(134건): [[claude-frontend-aesthetics-ai-slop]] (dev-automation, r/ClaudeAI에서
+재부상한 "다들 어떻게 Claude로 AI 슬롭 아닌 UI를 뽑나" 논의를 Anthropic 공식 Frontend
+Aesthetics 쿡북(2025-10)·`/frontend-design` 커뮤니티 스킬 기준으로 정리 — 정량 성과 없음,
+쿡북 자체가 오래돼 최신 모델에서의 재검증 필요). 같은 스캔에서 확인한 AX LABS의 Meta Muse
+9계층 프롬프트 인젝션 방어 아키텍처 분석은 특정 조직의 업무 자동화 사례가 아니라 보안
+아키텍처 해설이라 use-case 대신 [[agent-prompt-injection-defense-architecture]] 개념
+페이지로 반영했다. Claude Sonnet 5.5 출시·Nvidia Open Agent Safety Platform·Meta Enterprise
+Platform(CJ Desai 영입)은 각각 신규 update 페이지로 반영(제품·조직 발표라 use-case 대상 아님).*

@@ -4,10 +4,21 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-28, 182건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 09-28, 185건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-09
 
+- **09-28** — Anthropic, **Claude Sonnet 5.5** 출시 — Sonnet 5와 가격 동결한 채
+  속도 30%+·작업당 비용 최대 30%↓. Opus 5.5(복잡한 판단)와 Sonnet 5.5(일상 작업)로
+  역할 공식 구분 →
+  [[2026-09-28-anthropic-claude-sonnet-5-5-launch]]
+- **09-28** — Nvidia, 하드웨어 워치독 **Sentry**를 포함한 **Open Agent Safety
+  Platform** 발표 — Anthropic·Microsoft·JPMorgan·SpaceXAI 등 100여 개사 참여.
+  09-25 자기복제 인젝션 연구 직후 나온 하드웨어 레벨 대응 →
+  [[2026-09-28-nvidia-open-agent-safety-platform]]
+- **09-28** — Meta, MongoDB CEO CJ Desai를 영입해 **Meta Enterprise Platform**
+  신설 — Muse·Muse Code를 기업 상품으로 통합, MongoDB 주가 15% 하락 →
+  [[2026-09-28-meta-enterprise-platform-desai]]
 - **09-28** — Trump 대통령, Anthropic CEO Dario Amodei를 백악관 **비공개 저녁식사**에
   초대 — 두 사람의 첫 단독 회동. 앞선 09-25 시진핑 국빈만찬에는 Amodei만 불참했던
   터라 Pentagon 블랙리스트 분쟁·감속 발언 이견 속 개인 채널 관계 관리 신호로

@@ -2811,3 +2811,31 @@ n8n 자동화 / Microsoft Copilot / AI 비즈니스 전략 / ML·데이터 사�
 **커리큘럼 반영 5건**: Mini Camp 예시 과제를 업무 단위로 / 에이전트 위임·권한 설계를 리더 과정에도 /
 개발자 과정군 모듈 어휘를 MCP·스킬·서브에이전트로 갱신 / 외부 AI 자격증과 SKADA 관계 정리 /
 도구 입문은 외부 강의로 대체하고 사내는 적용·판단에 집중. 판단 요청 2건(외부 강의 사전학습 지정, 자격증 인정 방식).
+
+## [2026-09-29] scan | 항목 9건, 반영 9건
+
+공백 없음(전일 09-28 뉴스레터 확인). 단일 에이전트로 sources.md 전 섹션 저비용 스캔(RSS curl
+다수) + WebSearch 6회·WebFetch 4회로 핵심 항목만 정독. Udemy 신규 강의는 Browser pane 부재로
+"확인 실패" 명시 처리(카탈로그 갱신 없음).
+
+**반영 9건**: 신규 update 3건([[2026-09-28-anthropic-claude-sonnet-5-5-launch]]·
+[[2026-09-28-nvidia-open-agent-safety-platform]]·[[2026-09-28-meta-enterprise-platform-desai]]),
+신규 concept 1건([[agent-prompt-injection-defense-architecture]], Meta Muse 9계층 프롬프트
+인젝션 방어), 신규 use-case 1건([[claude-frontend-aesthetics-ai-slop]], Claude "AI 슬롭"
+탈피 프론트엔드 기법), 기존 페이지 후속 절 2건([[2026-09-25-openai-self-replicating-prompt-injection-worm]]·
+[[2026-09-22-anthropic-claude-opus-5-5-launch]]), 허브·타임라인·인덱스·케이스카탈로그 갱신.
+
+**주요 발견**: HN `query=Claude`·`query=Anthropic` 날짜순 검색으로 Sonnet 5.5 출시(HN 460점)를
+가장 먼저 포착, WebSearch로 공식 발표 대조 후 확정. 같은 날 Nvidia Open Agent Safety
+Platform(하드웨어 워치독 Sentry, Anthropic 등 100여 개사 참여)과 Meta의 MongoDB CEO 영입
+("Meta Enterprise Platform" 신설)이 겹쳐, "에이전트를 파는 속도 vs 통제하는 속도"라는
+하나의 축으로 헤드라인·AX 시사점을 구성했다.
+
+**귀속 검증 실패 1건**: AX LABS의 Meta Muse 프롬프트 인젝션 방어 글이 스스로 "Andrew Ng
+The Batch 371호 정리"라 밝혔으나, The Batch 공식 아카이브 목록(09-11~09-25)에서 해당 글을
+확인하지 못해 이 귀속은 위키에 반영하지 않고 AX LABS 자체 분석으로만 인용(2026-08-17 인용
+왜곡 사건 재발 방지 규칙 적용).
+
+**보류**: r/AI_Agents "Our agent saved 80,000 characters of lessons" 포스트는 Reddit
+레이트리밋(429, 반복 0바이트 응답)으로 본문 미확보해 WebSearch로도 원문 특정 실패 —
+페이지화·뉴스레터 모두 보류(다음 스캔 재시도 후보).

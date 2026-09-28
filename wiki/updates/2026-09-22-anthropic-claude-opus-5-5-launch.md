@@ -59,6 +59,13 @@ Opus 5.5(Max Effort)가 자체 Intelligence Index에서 **58점으로 역대 최
 high·medium 4개 effort 단계 모두 "지능 대비 작업당 비용" 파레토 프론티어 위에 있다는
 평가다 — 벤더 자체 발표(비용 40%↓) 외 제3자 확인이 붙은 셈이다.
 
+## 09-28 후속 — 짝 모델 Sonnet 5.5 출시
+
+2026-09-28 두 번째 5.5 패밀리 모델 [[2026-09-28-anthropic-claude-sonnet-5-5-launch]]가
+출시됐다. Sonnet 5와 가격은 동일하게 유지하면서 속도·비용을 개선한 "일상 작업용" 모델로,
+Anthropic은 "복잡한 판단=Opus 5.5, 명확한 일상 작업=Sonnet 5.5"로 두 모델의 역할을
+공식 구분했다.
+
 ## 출처
 
 - [Anthropic — Introducing Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)

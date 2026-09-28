@@ -67,6 +67,16 @@ OpenAI의 정렬(alignment) 연구팀이 자사 정렬 리포트 채널을 통�
   필터링 계층을 둬야 한다는 근거 자료. 특히 "원문 그대로 인용해 답장"류의
   흔한 자동화 규칙이 공격 벡터가 될 수 있다는 점은 즉시 점검 대상이다.
 
+## 09-28 후속 — 업계가 방어 계층으로 응답
+
+같은 주 안에 업계의 응답 두 가지가 나왔다. Nvidia가 하드웨어 워치독을 포함한
+[[2026-09-28-nvidia-open-agent-safety-platform]](Anthropic 등 100여 개사 참여)을
+발표했고, AX LABS는 Meta Muse가 채택한 [[2026-09-28-meta-enterprise-platform-desai|Meta]]의
+[[agent-prompt-injection-defense-architecture|9계층 프롬프트 인젝션 방어 아키텍처]]를
+정리해 공개했다. 셋을 함께 보면 "전파 가능한 위협이 실증됨(09-25) → 하드웨어 격리로
+대응(09-28, Nvidia) → 제품 단에서의 다층 방어 구조 공개(09-28, Meta Muse)"로 한 주
+안에 문제 제기와 대응 사례가 함께 쌓인 셈이다.
+
 ## 출처
 
 - [OpenAI Alignment — Self-Replicating Prompt Injections Exist](https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/)
