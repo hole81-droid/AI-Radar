@@ -158,6 +158,8 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [Perplexity·Elicit·DeepL로 끝내는 대학생 논문·과제 AI 활용법](https://www.udemy.com/course/ai-tools-for-university-study-research/) | 신규 | 9.5h | N. 리서치 도구 조합 |
 | [회사가 원하는 효율적인 AI 활용 - 회의 준비부터 기록까지](https://www.udemy.com/course/maso-ai-gpt-onc108/) | 4.7 (87) | 8h | KR. 회의 업무 자동화 |
 
+> **월간 동향 분석**: 최근 한 달 무엇이 새로 올라오고 그중 무엇이 반응을 얻었는지는 [[udemy-ai-course-trends-2026-09]]에 따로 정리했다.
+
 ## 이 카탈로그를 읽을 때 주의할 것
 
 - **후기 수는 수강 규모의 대리 지표일 뿐이다.** Udemy 평점은 4.4~4.6에 몰려 있어 변별력이 낮다. 후기 수가

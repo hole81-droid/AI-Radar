@@ -298,6 +298,7 @@
 
 ## 분석 (wiki/analysis/)
 
+- [[udemy-ai-course-trends-2026-09]] — Udemy 최근 한 달 신규 AI 강의 동향. 도구 이름을 단 강의와 자격증 문제은행 두 갈래, 한국어권은 사무직 업무 프레임. 신규 흥행은 도구 브랜드가 가름(Claude Cowork 수강생 88,720 vs 같은 프레임 Gemini 강의 2명). mySUNI 반영 포인트 5건·판단 요청 2건 (course)
 - [[llm-wiki-learning-resources]] — Karpathy LLM Wiki 패턴 학습용 영상·자료 추천 (course)
 - [[coding-agent-terminal-harness-comparison]] — Claude Code·goose·OpenCode·Pi 실전 비교 (course, ax)
 - [[alphaevolve-gemini-coding-agent-impact-roundup]] — Gemini 기반 알고리즘 발견 에이전트 산업 임팩트 (course, ax)
