@@ -58,6 +58,9 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **사용 한도**: Plus는 5시간당 GPT-5.5 메시지 약 15~80건, Pro 20x는 300~1,600건 수준. 한도 도달 시 크레딧 구매 또는 소형 모델 전환. ([pricing](https://developers.openai.com/codex/pricing))
 - **API Key 플랜**: 표준 API 요금 기반 사용량 과금. CI 등 공유 환경 자동화에 적합(클라우드 기능은 미포함). ([pricing](https://developers.openai.com/codex/pricing))
 - **엔터프라이즈**: Codex access token으로 비대화형 로컬 워크플로 지원(2026-05-05), Amazon Bedrock 경유 계정 통제·과금 옵션. ([changelog](https://developers.openai.com/codex/changelog))
+- **2026-09-29 (DevDay 2026)**: **GPT-6.1 Sol** 적용 — Astra급 성능을 1/5 가격에 제공한다는
+  주장(자사 벤치마크). **Codex Ultrafast** 속도 티어 신설(초당 300토큰, 표준 대비 최대
+  8배, $500/월 "Pro 500" 플랜 포함). → [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]]
 
 ## 활용 포인트
 

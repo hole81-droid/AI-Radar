@@ -67,6 +67,30 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
   Claude가 자사 R&D의 26%를 주도한다는 수치]]도 공개했다 — "속도를 늦추자"는 09-12
   감속 메시지, "역대급 몸값 상장", "자기개선 가속 수치 공개"가 같은 주에 겹쳐 나온 셈이다.
 
+## 후속 갱신 (2026-09-28) — IPO 신고서(prospectus) 공개, 최초 구체 재무 수치 확인
+
+- Anthropic이 IPO 신고서를 공개하며 처음으로 **구체적인 손익 수치**가 드러났다(그간은
+  "연환산 매출 $65B" 같은 보도 인용치뿐이었다).
+  - **2025년 매출**: 약 **$4.6B**(전년 대비 12배 증가).
+  - **연환산 매출**: 2025년 말 $9B → 2026년 7월 **$65B**로 급증(09-13·09-17 후속 절의
+    보도치와 일치).
+  - **2025년 총영업비용**: 약 **$13B**, 이 중 컴퓨트·인프라 지출이 **$7.33B**(2024년 대비
+    3배)로 절반 이상을 차지.
+  - **영업손실**: 2025년 **$8B+**.
+  - **순손실**: 약 **$42B**로 보도되나, 이 중 약 **$34B**는 주식 전환 가능 금융상품의
+    평가액 상승에 따른 **회계상 비용**(실제 현금 유출이 아님)이라는 설명이 함께 나왔다 —
+    "순손실 $42B"라는 숫자만 떼어 인용하면 실제 현금흐름을 과장하게 되므로 주의.
+  - **향후 지출 계획**: 클라우드·컴퓨팅 인프라에 총 **$518B** 투입 예정.
+  - **목표 밸류에이션**: **$2조+**(2026-05 $965B 대비 두 배 이상 — 09-17~18 후속 절의
+    "$2조" 전망이 신고서 수치로 재확인됨).
+- 커뮤니티(r/ClaudeAI)에서는 순손실 규모에 "상장하면 지금까지의 저가·무료 혜택이 끝날 것"
+  이라는 반응이 나왔다 — 수익화 압박이 기업 고객 요금제에도 영향을 줄 수 있다는 우려로
+  이어진다.
+
+> ⚠️ 상충 아님(명확화): "$42B 순손실"과 "$8B 영업손실"은 다른 지표다. 언론 헤드라인이
+> 대개 더 큰 숫자인 순손실($42B)을 쓰지만, 실제 현금 기준 사업 손실에 가까운 지표는
+> 영업손실($8B+)이다. AX·강의 자료에서 인용할 때는 반드시 어느 지표인지 명시할 것.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
@@ -77,3 +101,6 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - [StartupHub.ai — Anthropic Nears IPO as Bankers Schedule Investor Meetings](https://www.startuphub.ai/ai-news/ipo-watch/2026/anthropic-ipo-roadshow-investor-meetings-2026-07-21)
 - [The Motley Fool — Anthropic Is Targeting a Valuation of Over $2 Trillion in Its IPO (09-17)](https://www.fool.com/investing/2026/09/17/anthropic-target-valuation-2-trillion-smart-buy/)
 - [CTech — Anthropic's $2 trillion IPO is taking shape as Nvidia considers a $10 billion investment (09-17)](https://www.calcalistech.com/ctechnews/article/a7jlnbf3u)
+- [CNBC(Reuters) — Anthropic's IPO prospectus shows sweeping AI vision, surging costs (09-28)](https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html)
+- [the-decoder — Anthropic's IPO filing shows soaring revenue, mounting costs, and existential risks (09-28)](https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/)
+- raw: `raw/2026-09/anthropic-ipo-prospectus-financials.md`

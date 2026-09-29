@@ -2839,3 +2839,31 @@ The Batch 371호 정리"라 밝혔으나, The Batch 공식 아카이브 목록(0
 **보류**: r/AI_Agents "Our agent saved 80,000 characters of lessons" 포스트는 Reddit
 레이트리밋(429, 반복 0바이트 응답)으로 본문 미확보해 WebSearch로도 원문 특정 실패 —
 페이지화·뉴스레터 모두 보류(다음 스캔 재시도 후보).
+
+## [2026-09-30] scan | 항목 8건, 반영 6건
+
+신규 update 2건([[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] — OpenAI DevDay 2026
+Dots(상시 가동 에이전트)+GPT-6.1 Sol 동시 공개, HN front_page 스크리닝으로 포착·decrypt.co
+정독+WebSearch 교차확인 / [[agensh-claude-code-decentralized-multi-agent-harness]] — AX LABS의
+Microsoft Research "Agensh" 논문 리뷰를 Claude Code 멀티 에이전트 팀 3단계 이식 가이드로
+use-case화, 원논문 실측(pandoc 33.89%→55.06%)과 Claude Code 이식 효과(미실측)를 명확히
+구분해 기록), 기존 페이지 후속 절 2건([[2026-07-15-anthropic-ipo-investor-meetings]] —
+IPO 신고서 최초 구체 재무수치(매출 $4.6B·순손실 $42B·목표밸류 $2조+) / [[2026-09-22-anthropic-claude-opus-5-5-launch]]
+— Anthropic 공식 Opus 5.5 프롬프팅 가이드, effort 기본값 high→medium 변경), 허브 2건(chatgpt·
+codex)·players/anthropic·타임라인·인덱스·케이스카탈로그 갱신.
+
+**주요 발견**: HN front_page(48h, points>40) 스크리닝에서 GPT-6.1 Sol(659점)·Dots(398점)가
+최상위로 잡혔으나 09-29 뉴스레터에는 반영되지 않았던 것을 확인 — openai.com 발표가 09-29
+당일 늦게 나와 전날 스캔 시점 이후였을 것으로 추정, 오늘 첫 반영. 같은 검색에서 Anthropic
+IPO 신고서(130점)도 함께 포착, 기존 IPO 추적 페이지에 "처음으로 구체 손익수치가 드러난
+시점"으로 후속 절 추가(순손실 $42B 중 $34B가 회계상 비용이라는 세부까지 구분 기록).
+AX LABS RSS에서 Agensh 논문 리뷰(에이전트 구축 활용법, 최우선 수집 대상)를 발견해
+CLAUDE.md 최우선 수집 기준에 따라 정식 use-case 스키마로 반영 — 원 논문 실험치와 Claude
+Code 이식 후 미실측 효과를 혼동하지 않도록 평가 필드(evidence: claimed, maturity:
+prototype)를 신중하게 매겼다.
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 시도하지 않고 "확인 실패"로 기록.
+r/AI_Agents RSS는 두 번째 호출부터 429(레이트리밋)로 막혀 첫 호출에서 얻은 제목 목록
+("agent memory poisoning 216/216", "400 LLM agent MMO 서버" 등) 외 링크를 확보하지 못해
+뉴스레터에는 미반영(링크 없는 인용 회피). McKinsey·Sloan·EdSurge·HBI·Bersin은 제목
+스크리닝만 수행, 이번 스캔 예산은 DevDay·IPO·Agensh 정독에 우선 배분.

@@ -66,9 +66,25 @@ high·medium 4개 effort 단계 모두 "지능 대비 작업당 비용" 파레�
 Anthropic은 "복잡한 판단=Opus 5.5, 명확한 일상 작업=Sonnet 5.5"로 두 모델의 역할을
 공식 구분했다.
 
+## 09-29 후속 — Anthropic 공식 프롬프팅 가이드 공개, HN 화제(200점대)
+
+Anthropic이 공식 문서로 "Prompting Claude Opus 5.5" 가이드를 발행했다 — HN 전면
+게재(200점대)로 커뮤니티 화제가 됐다. 핵심 변경점: **기본 effort가 high→medium으로
+낮아졌고, "생각(thinking)"이 상시 켜져 있어 끌 수 없다.** 기존 Opus 5 시절 설정을
+그대로 재사용하지 말고 여러 effort 단계를 다시 테스트할 것을 권고하며, "덜 생각하게"
+하려면 프롬프트 지시보다 **effort 단계를 낮추는 쪽**이 비용·지연 감소에 더 안정적으로
+작동한다고 명시했다. 장시간 에이전틱 코딩 작업에는 `max_tokens` 128,000 설정이 적합하다는
+가이드도 포함.
+
+- **강의 활용**: "새 모델 버전이 나오면 프롬프트 설정도 다시 튜닝해야 한다"는 것을
+  보여주는 최신 1차 자료 — Opus 5(구) 프롬프팅 가이드와 나란히 비교하면 effort/thinking
+  옵션 변화가 실무에 미치는 영향을 구체적으로 가르칠 수 있다.
+
 ## 출처
 
 - [Anthropic — Introducing Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)
+- [Anthropic Docs — Prompting Claude Opus 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5)
+- [Hacker News — Prompting Claude Opus 5.5](https://news.ycombinator.com/item?id=49874728)
 - [TechCrunch](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/)
 - [MacRumors](https://www.macrumors.com/2026/09/22/anthropic-claude-opus-5-5/)
 - [Artificial Analysis — Claude Opus 5.5 Intelligence, Performance & Price Analysis](https://artificialanalysis.ai/models/claude-opus-5-5)

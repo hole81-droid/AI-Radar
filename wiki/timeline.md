@@ -8,6 +8,13 @@ date: 2026-07-07
 
 ## 2026-09
 
+- **09-29** — OpenAI DevDay 2026: 상시 가동 에이전트 **Dots**(Pro·Business Premium 전용,
+  4,000+ 앱 연동) + **GPT-6.1 Sol**(Astra급 성능 1/5 가격) 동시 공개, Codex Ultrafast·
+  ChatGPT Space도 발표 →
+  [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]]
+- **09-28** — Anthropic, IPO 신고서 공개 — 2025년 매출 $4.6B·연환산 $65B·영업손실 $8B+·
+  순손실 $42B(회계상 $34B 포함)·목표 밸류에이션 $2조+ 최초 확정 →
+  [[2026-07-15-anthropic-ipo-investor-meetings]] (09-28 후속 절)
 - **09-28** — Anthropic, **Claude Sonnet 5.5** 출시 — Sonnet 5와 가격 동결한 채
   속도 30%+·작업당 비용 최대 30%↓. Opus 5.5(복잡한 판단)와 Sonnet 5.5(일상 작업)로
   역할 공식 구분 →
