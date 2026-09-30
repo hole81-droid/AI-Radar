@@ -140,6 +140,13 @@ Exponential View(2026-08-05, "Seven lessons for managing AI agents")가 자체 �
 **참여도**: 이 글은 107 shares·7 comments·6 saved 기록(참고용, 채택 근거는 참여도가
 아니라 위 구체 수치).
 
+## 실증 사례 추가 — 물리학 9-루프 계산 (2026-09-25)
+
+"멈추라고 할 때까지 계속 작업하라"는 최소 지시 + 4~6시간 간격 진행상황 확인만으로
+Claude가 이론물리학 미해결 계산(9-루프 산란 진폭)을 완주하고 전문가 독립검증을
+통과한 사례 — "결승선을 목표보다 먼저 써라" 원칙의 과학 연구 버전. 상세 아키텍처·
+벤치마크는 [[2026-09-25-anthropic-claude-nine-loop-amplitude]] 참조.
+
 ## 출처
 
 - [Andrej Karpathy — autoresearch (GitHub, 2026-03)](https://github.com/karpathy/autoresearch) — 원류 저장소, README가 1차 출처

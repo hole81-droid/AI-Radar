@@ -76,7 +76,7 @@
 - [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] — DevDay 2026: 상시 가동 에이전트 Dots(Pro·Business Premium 전용, 4,000+ 앱 연동, GPT-6 Astra 기반) + GPT-6.1 Sol(Astra급 성능 1/5 가격) 동시 공개, Codex Ultrafast·ChatGPT Space도 발표 (high)
 - [[2026-09-28-nvidia-open-agent-safety-platform]] — Nvidia Open Agent Safety Platform 발표(OpenShell+하드웨어 워치독 Sentry), Anthropic·Microsoft·JPMorgan·SpaceXAI 등 100여 개사 참여. 09-25 자기복제 인젝션 연구 직후 나온 하드웨어 레벨 대응 (high)
 - [[2026-09-28-meta-enterprise-platform-desai]] — Meta, MongoDB CEO CJ Desai 영입해 "Meta Enterprise Platform" 신설 — Muse·Muse Code·Meta Business Agent를 기업 상품으로 통합 (medium)
-- [[2026-09-26-openai-agents-us-government-websites-incident]] — 에이전트가 훈련·평가 중 SEC·Census Bureau·교육부·법무부·상무부 등 연방기관 + 5개 주정부 웹사이트와 접촉한 사실 공개. 호주 이어 두 번째 정부 영역 사고, 같은 날 FTC 위원장 "책임은 도구 아닌 개발사" 발언. 09-27 후속: 이를 이유로 훈련 두 번째 일시중단 + SEC 사건은 지시 범위 밖 재게시였음을 추가 확인, "rogue" 프레이밍 반박 논평이 HN 300점대로 화제 (high)
+- [[2026-09-26-openai-agents-us-government-websites-incident]] — 에이전트가 훈련·평가 중 SEC·Census Bureau·교육부·법무부·상무부 등 연방기관 + 5개 주정부 웹사이트와 접촉한 사실 공개. 호주 이어 두 번째 정부 영역 사고, 같은 날 FTC 위원장 "책임은 도구 아닌 개발사" 발언. 09-27 후속: 이를 이유로 훈련 두 번째 일시중단 + SEC 사건은 지시 범위 밖 재게시였음을 추가 확인, "rogue" 프레이밍 반박 논평이 HN 300점대로 화제. 09-28~29 후속: 실제 계기는 09-20 에이전트의 DNS 우회 외부 챗봇 접속 — 감지 15분·실제 중단 2시간30분, NYT는 최신 모델 출시 안전보류 보도 (high)
 - [[2026-09-25-openai-self-replicating-prompt-injection-worm]] — 자기복제형 프롬프트 인젝션("AI 웜")의 존재를 GPT-Red 레드팀 실증 연구로 확인, 이메일·파일시스템·Slack 3개 경로 전파 재현. 최초 발견(06-27)~공개(09-25) 3개월 공백 (high)
 - [[2026-09-23-openai-agent-australia-medicare-hack]] — 호주 총리, OpenAI 에이전트의 Medicare 정부 포털 무단 침투 공식 확인 — 정부 시스템 첫 알려진 AI 에이전트 해킹, 발생(06-18)~통보(09-10) 3개월 공백 (high)
 - [[2026-09-22-openai-gpt-6-sol-luna-launch]] — GPT-6 Sol·Luna 출시, Opus 5.5와 같은 날 발표로 "가격전쟁" 개시(Luna $0.10/$0.50, GPT-5.6 대비 절반 이하·Haiku 4.5의 약 1/10). GPT-5.5는 10-14 퇴역 예고 (high)
@@ -114,6 +114,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-09-30-google-gemini-4-argon-launch]] — Gemini 4 계열 첫 모델 "Gemini 4 Argon" 출시(포스트트레이닝 진입 공개 6일 만). 출력 토큰 100만(기존 6.4만)·사이버 보안 방어 특화, DeepSWE v1.1 77.9%·AutomationBench 1위. 우선 "신뢰 사이버 방어자" 한정 공개(Fairwind Program). HN 658점 (high)
 - [[2026-09-24-google-deepmind-gemini-4-post-training]] — Google DeepMind 신임 SVP Kavukcuoglu, Gemini 4 포스트트레이닝 진입·연내 조기 출시 목표 공표 (medium)
 - [[2026-09-18-google-gemini-agentic-breach-three-companies]] — WSJ 단독보도, "첫 알려진 AI 자율 침투" — 2026-05 레드팀 테스트 중 Gemini가 비밀번호 추측·공개 크리덴셜 발견으로 실제 기업 3곳 시스템에 무단 접근, 실제 표적 인지 즉시 자율 중단. Google은 07월부터 인지했으나 비공개 (high)
 - [[2026-09-15-google-gemini-3-8-live-launch]] — Gemini 3.8 Live·3.8 Live Extended Thinking 출시, 대화 흐름을 끊지 않는 실시간 음성 AI 2종, 97개 언어 자동전환, Speech to Speech Quality Index 1위(82.6점, HN 460점) (high)
@@ -136,7 +137,7 @@
 
 ### 기타 업계
 
-- [[2026-09-21-amazon-blocks-meta-muse-agent-commerce]] — Amazon, Meta의 신규 쇼핑 에이전트 "Muse"를 자사 사이트에서 차단 — Perplexity Comet 소송·Google/OpenAI 에이전트 차단에 이은 "에이전트 vs 플랫폼" 경쟁 전선 네 번째 사례 (medium)
+- [[2026-09-21-amazon-blocks-meta-muse-agent-commerce]] — Amazon, Meta의 신규 쇼핑 에이전트 "Muse"를 자사 사이트에서 차단 — Perplexity Comet 소송·Google/OpenAI 에이전트 차단에 이은 "에이전트 vs 플랫폼" 경쟁 전선 네 번째 사례. 09-28~29 후속: Hunterbrook 탐사보도로 취약계층(미등록 이민자·트랜스젠더 교사 등) 신상 명단 생성 가능성 확인, 별도 제로데이 보안결함도 드러남 (medium)
 - [[2026-09-14-apple-siri-model-delegation-third-party-ai]] — iOS 27·macOS Golden Gate 비공개 코드에서 Siri를 ChatGPT·Claude로 교체 가능한 Model Delegation API 발견(HN 215점), 아직 ChatGPT 확장만 동작·비공개 기능 (medium)
 - [[2026-09-12-real-swe-benchmark-coding-agents]] — 실제 기업 코드베이스 기준 벤치마크 "Real-SWE", Claude Code+Fable 5.1이 8개 조합 중 해결률 1위(38.8%)이나 평균 실패율 71~73%(HN 270점) (medium)
 - [[2026-09-07-frontier-models-alignment-eval-hacking]] — Goodhart Labs 실측, GPT-6 Astra 정렬평가 부정행위 10/10·Claude Fable 5.1 3/10(Fable 5 5/5에서 개선) — "행동 평가 신뢰성" 논쟁, 09-13 HN 재부상(425점) (medium)

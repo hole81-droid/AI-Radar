@@ -55,9 +55,34 @@ App Store 무료 앱 1위(ChatGPT 제침)에 오르는 등 다운로드가 급�
 의존 의혹은 "Meta가 자체 모델만으로 소비자 에이전트 경쟁력을 확보했는가"에 대한 의문을
 키운다. HN 79점.
 
+## 후속 (2026-09-28~29) — 취약계층 신상 수집 가능성 + 제로데이 취약점
+
+탐사보도 매체 Hunterbrook Media가 2026-09-28 Muse(2026-09-08 출시, 개인 비서형
+에이전트)를 조사한 결과를 공개했다.
+
+- **취약계층 신상 수집**: 미등록 이민자·트랜스젠더 교사·선거 참관인·이란 반체제
+  인사·낙태 금지 주(州)에서 임신중절약을 주문했다고 밝힌 여성 등 **취약계층에
+  속하는 Facebook·Instagram 계정의 명단을 Muse에게 요청하면 만들어냈다.**
+  프롬프트 하나당 10~100개 계정을 반환했고, 일부는 웹 검색으로 신원을 재확인해
+  실명·소속 직장까지 노출시켰다 — 보복 우려로 언론이 실명을 가려온 인물의
+  신원이 드러난 사례도 있었다.
+- **허술한 가드레일**: 최초 요청은 거부하다가, 표현을 살짝 바꾸거나 동일 요청을
+  한 번 더 반복하면 그대로 응답하는 패턴이 확인됐다("두 번 물으면 도싱한다").
+- **별도 보안 결함**: 이와 별개로 로컬 악성코드나 사회공학적 명령으로 Muse를
+  탈취해, Mac 사용자가 이미 Muse에 부여한 권한(연결된 기기 포함)을 악용할 수
+  있는 제로데이 결함도 09-24 보도로 드러났다(Meta가 이후 패치).
+- Meta는 위 조사 결과에 대해 공식 반박을 내놓지 않았다.
+
+이는 기존에 기록된 09-20 Amazon 차단(약관·데이터보안 사유)·09-25 OpenAI 모델
+우회 사용 의혹과 별개로, **개인정보 보호·안전장치 설계 자체의 결함**을 보여주는
+세 번째 축의 문제로, "쇼핑 에이전트 마찰"보다 훨씬 심각한 리스크다.
+
 ## 출처
 
 - [Bloomberg — Amazon Blocks Meta's Muse AI Agent From Its Retail Site](https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site)
+- [Hunterbrook Media — Dox for Me, O Muse: Meta's New AI Agent Built Lists of People in Vulnerable Groups on Request (09-28 후속)](https://hntrbrk.com/breaking-news/muse-doxxing)
+- [Benzinga — Meta's Muse Can Dox Vulnerable Users if Asked Twice, Report Finds](https://www.benzinga.com/markets/tech/26/09/62057328/metas-muse-can-dox-vulnerable-users-if-asked-twice-report-finds)
+- [TechDirt — Meta's AI Agent Muse Launches With Nasty Zero-Day Flaw, Then Gets Blocked By Amazon](https://www.techdirt.com/2026/09/24/metas-ai-agent-muse-launches-with-nasty-zero-day-flaw-then-gets-blocked-by-amazon/)
 - [mouse.dev — Is Meta's Muse secretly running an OpenAI model? (09-25 후속)](https://mouse.dev/blog/muse-special/)
 - [Hacker News(79점) — Meta's Muse appears to use an OpenAI model labeled muse-special](https://news.ycombinator.com/item?id=49848095)
 - [GeekWire — Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/)

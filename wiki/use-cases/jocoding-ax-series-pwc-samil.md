@@ -115,4 +115,5 @@ OpenAI와 함께 여는 국내 최초 'AX 인재전쟁' 채용 해커톤(6/25 �
 - [KMJ — OpenAI 손잡은 'AX 인재전쟁'](https://www.kmjournal.net/news/articleView.html?idxno=12435)
 - [YouTube — 카카오페이증권은 Codex를 어떻게 활용할까? (2026-08-18)](https://www.youtube.com/watch?v=hFrTbX7FRu8)
 - [YouTube — 무신사는 Codex를 어떻게 활용할까? (2026-08-18)](https://www.youtube.com/watch?v=6-bmczPW5n0)
+- [YouTube — AX 인재전쟁 본선 풀영상 (2026-09-30 공개, 행사는 2026-07-18 진행)](https://www.youtube.com/watch?v=1eyDhaKx--w)
 - [YouTube — 채널톡은 Codex를 어떻게 활용할까? (2026-08-19)](https://www.youtube.com/watch?v=Rp7h16-C7mI)

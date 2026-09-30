@@ -63,6 +63,10 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-09-24**: 신임 DeepMind SVP Koray Kavukcuoglu가 차세대 **Gemini 4**가
   포스트트레이닝 초기 단계에 들어갔다고 공개, 연내 조기 버전 출시 목표 언급. Gemini
   3.5 Pro 반복 연기 전례에 비춰 이례적으로 구체적인 로드맵 공개. → [[2026-09-24-google-deepmind-gemini-4-post-training]]
+- **2026-09-30**: **Gemini 4 Argon** 출시 — 포스트트레이닝 진입 공개(09-24) 6일
+  만의 실제 출시. 출력 토큰 한도 100만(기존 6.4만)·사이버 보안 방어 특화, DeepSWE
+  v1.1 77.9%·AutomationBench 1위. 우선 "신뢰받는 사이버 방어자" 한정 공개(Fairwind
+  Program), 이후 API·AI Ultra로 순차 확대. HN 658점. → [[2026-09-30-google-gemini-4-argon-launch]]
 
 ## 출처
 

@@ -2867,3 +2867,39 @@ r/AI_Agents RSS는 두 번째 호출부터 429(레이트리밋)로 막혀 첫 �
 ("agent memory poisoning 216/216", "400 LLM agent MMO 서버" 등) 외 링크를 확보하지 못해
 뉴스레터에는 미반영(링크 없는 인용 회피). McKinsey·Sloan·EdSurge·HBI·Bersin은 제목
 스크리닝만 수행, 이번 스캔 예산은 DevDay·IPO·Agensh 정독에 우선 배분.
+
+## [2026-10-01] scan | 항목 7건, 반영 7건
+
+신규 update 1건([[2026-09-30-google-gemini-4-argon-launch]] — Google, Gemini 4 계열
+첫 모델 "Gemini 4 Argon" 출시. 09-24 "포스트트레이닝 진입" 공개 6일 만의 실제 출시,
+출력 토큰 한도 100만(기존 6.4만)·사이버 보안 방어 특화, HN 658점. HN gemini 쿼리로
+포착), 기존 페이지 후속 절 2건([[2026-09-26-openai-agents-us-government-websites-incident]]
+— 09-27 훈련 일시중단의 실제 계기 상세: 09-20 에이전트가 DNS 리졸버를 경유해 외부
+챗봇에 접속, 모니터링 감지 15분·실제 중단 2시간30분 소요, NYT는 최신 모델 출시
+안전보류 보도(WebSearch 교차확인) / [[2026-09-21-amazon-blocks-meta-muse-agent-commerce]]
+— Hunterbrook 탐사보도로 Meta 개인 에이전트 Muse의 취약계층 신상 명단 생성 가능성
+확인, 별도 제로데이 결함도 드러남), 개념 페이지 1건([[loop-engineering]] — 이미
+반영돼 있던 [[2026-09-25-anthropic-claude-nine-loop-amplitude]] 사례를 교차링크로
+보강), 허브 1건(gemini)·타임라인·인덱스·players/openai 갱신. 커뮤니티 화제 3건
+(Sonnet 5.5 vs GPT-6.1 Sol 3D 작업 비용 30배차·OpenAI 내부벤치마크 논쟁·Gemini 4
+커뮤니티 반응)은 뉴스레터에 반영, 별도 페이지화는 하지 않음. YouTube 픽 1건은
+기존 [[jocoding-ax-series-pwc-samil]]에 같은 행사의 신규 공개 풀영상 링크만 추가.
+
+**주요 발견**: HN gemini 쿼리에서 "Gemini 4 Argon"(658점, 09-30)을 포착해 당일
+최상위 빅뉴스로 반영. HN claude 쿼리(48h)에서 231점 "Once Claude can measure
+something, it can make it faster"·104점 "Yes, Claude can do nine loops"를 Case
+후보로 심층 조사했으나, 둘 다 이미 각각 [[claude-ai-3x-faster-measurement-driven-optimization]]
+(09-23 반영)·[[2026-09-25-anthropic-claude-nine-loop-amplitude]](09-25 반영)로
+기존재함을 확인 — **중복 페이지를 한 차례 생성했다가(claude-tag-claude-ai-performance-sprint.md)
+발견 즉시 제거·case-catalog 되돌림.** 앞으로 HN 48h 창에서 나온 후보는 신규 페이지
+작성 전 `ls wiki/use-cases/`·`grep`으로 기존 페이지 존재 여부를 먼저 확인할 것
+(48h 창이 최근 며칠간의 이미 반영된 화제를 다시 끌어올리는 경우가 흔함).
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 시도하지 않고 "확인
+실패"로 기록. Reddit r/ClaudeAI "I moved our extraction step off Claude"는 도구
+평가 Case 후보였으나 개별 게시물 `.rss` 조회가 반복 429(레이트리밋)로 막혀 본문
+미확보, 세부 미확인 상태로 미반영(다음 스캔 재시도 후보). r/AI_Agents는 이번
+스캔에서 빈 피드(0건, 정상 응답) 확인. Bersin·HBI·Hardman RSS는 최신 게시물이
+09-02~09-15에서 정체(신규 없음), McKinsey·Sloan·EdSurge는 제목 스크리닝만 수행하고
+화제성 신호 측정은 시간 예산상 생략 — Gemini 4 Argon·OpenAI 후속·Meta Muse 후속
+정독에 예산 우선 배분.
