@@ -2903,3 +2903,41 @@ something, it can make it faster"·104점 "Yes, Claude can do nine loops"를 Cas
 09-02~09-15에서 정체(신규 없음), McKinsey·Sloan·EdSurge는 제목 스크리닝만 수행하고
 화제성 신호 측정은 시간 예산상 생략 — Gemini 4 Argon·OpenAI 후속·Meta Muse 후속
 정독에 예산 우선 배분.
+
+## [2026-10-02] scan | 항목 9건, 반영 9건
+
+신규 update 1건([[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] — FTC,
+OpenAI·Anthropic 등 AI 기업 제품 리스크 조사 착수. 모델 안전성 문서·증언 요구
+민사조사요구서 준비 중, HN 193점), 신규 use-case 1건
+([[weave-router-claude-code-codex-model-routing]] — Claude Code·Codex용 오픈소스
+모델 라우터, Astra 대비 Terminal Bench 동등 pass rate에 비용 52%·속도 2.2배(자체
+보고)), 기존 페이지 후속 절 4건([[2026-07-15-anthropic-ipo-investor-meetings]] —
+IPO 신고서 261쪽 중 약 80쪽이 AI 리스크 경고(자가보존 행동·고객 집중도), 상장
+11월 중순으로 구체화 / [[2026-08-14-zhipu-glm-5-3-launch]] — Anthropic Frontier
+Red Team이 GLM-5.3 사이버 공격 능력 "임계점 돌파" 평가(Binary Exploitation 4%,
+완전 오픈웨이트라 접근성 리스크) / [[2026-09-08-openai-navier-stokes-solved]] —
+Ethan Mollick(One Useful Thing)이 1,000-에이전트 스웜 사건을 "세심한 설계 불필요"
+조직론 관점으로 재해석 / [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] — Codex
+harness 오픈소스 공개 확인), players 갱신 2건(anthropic·openai — FTC·GLM-5.3·IPO
+후속·DevDay 교차링크 추가), 타임라인·인덱스·case-catalog 갱신. 커뮤니티 화제 3건
+(r/AI_Agents 보이스 에이전트 법적고지 끼어들기 버그·Simon Willison 인용 Matthew
+Green의 "에이전트 웜" 샌드박스 무력화 경고·Mollick 스웜 재해석)은 뉴스레터에
+반영, 별도 페이지화는 하지 않음(Mollick 건은 나비어-스톡스 기존 페이지 후속
+절로는 반영). YouTube 픽 1건(Liam Ottley DevDay 리액션)은 기존 DevDay 페이지
+교차링크로 연결.
+
+**주요 발견**: AX LABS의 "Agensh 멀티 에이전트 하네스" 리뷰가 두 번째 Case
+후보로 유력해 보였으나, `grep`으로 case-catalog.md를 먼저 확인한 결과 이미
+[[agensh-claude-code-decentralized-multi-agent-harness]]로 지난 스캔(09-29~30
+반영분)에 존재함을 확인 — 10-01 log.md의 "향후 HN 48h 창 후보는 기존 페이지
+존재 여부를 먼저 확인할 것" 교훈을 AX LABS발 후보에도 적용해 중복 생성을 사전에
+막았다. HN "claude code" 쿼리(48h)에서 Weave Router 2.0(64점)을 포착해 Case로
+반영.
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 시도하지 않고 "확인
+실패"로 기록. AX LABS·Josh Bersin·Harvard Business Impact RSS는 최신 글이 각각
+09-29·09-15·09-15에서 정체(신규 없음, 재확인만). McKinsey·MIT Sloan·Knowledge at
+Wharton·EdSurge·Class Central은 제목 스크리닝만 수행, 화제성 신호(Substack 참여도·
+2차 확산) 측정은 시간 예산상 생략 — FTC·IPO 리스크공개·GLM-5.3 Red Team 정독에
+예산 우선 배분. YouTube 9채널 중 AI Frontier Korea는 최신 EP116이 09-27(5일 전)로
+3일 기준 밖이라 "신규 없음" 처리.

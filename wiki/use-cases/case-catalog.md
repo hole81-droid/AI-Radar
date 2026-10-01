@@ -49,6 +49,7 @@ uses: [course, ax]
 - [[spotify-shunt-model-routing-token-reduction]] — Claude Code(+Portal by Spotify "Shunt")로 hooks+skills+cli-pipeline 3계층 모델 라우팅을 활용해 대용량 파일 읽기·테스트/설정 코드 생성을 Gemini 2.5 Flash로 위임 → Java 모노레포 기준 토큰 평균 약 90% 절감 (실측, 자사 사례)
 - [[harness-of-harness-planner-developer-qa]] — Claude Code 서브에이전트·Codex 역할별 지시(subagents+cli-pipeline)로 Planner→Developer→QA 3역할 반복 루프를 구성해 장시간 자율 코딩의 회귀 재발·완료 오판을 방지 → 벤치마크 3종 평균 상대개선 52.25%(최대 82.86%) (원 논문 measured, 실무 이식 효과는 미실측)
 - [[agensh-claude-code-decentralized-multi-agent-harness]] — Claude Code로 subagents+hooks(공유 컨텍스트 보드+TeammateIdle/TaskCompleted 훅)를 활용해 오케스트레이터 없는 멀티 에이전트 팀 협업(3~32+ 규모별 3단계)을 구성 → 원 논문 실측 pandoc 통과율 33.89%→55.06%(1,024 에이전트), 실무 이식 효과는 미실측 (claimed)
+- [[weave-router-claude-code-codex-model-routing]] — Claude Code·Codex 등 코딩 에이전트에 cli-pipeline 모델 라우터를 앞단에 붙여 요청별 최적 모델 자동 선택을 수행 → Astra 대비 Terminal Bench 동등 pass rate에 비용 52%·속도 2.2배, SWE Atlas 비용 54%·속도 2.5배 (자체 보고, claimed)
 - [[danluu-agentic-testing-technique-benchmark]] — Codex(GPT-5.6 Sol)로 cli-pipeline+skills 26개 테스트기법·유명 스킬 4종을 조건별 80회씩 실행해 Zstd/IMAP 구현 정답률·비용을 실측 비교 → 무지시 기본값이 평균 이상, TDD·유명 스킬 대부분 저조, 이름만 던지는 지시로는 품질 개선 안 됨 (실측, 부정 결과)
 - [[claude-code-goal-routines-nightly-quality]] — Claude Code로 /goal+cron을 활용해 야간 코드 품질 점검·보고서 작성을 수행 → 완전 무인 정기 실행 (수치 미확인)
 - [[codex-automations-scheduled-maintenance]] — Codex Automations로 예약 실행+워크트리 격리를 활용해 정기 유지보수 업무를 수행 → 무인 반복 실행 (수치 미확인)

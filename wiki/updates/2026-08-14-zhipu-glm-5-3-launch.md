@@ -69,11 +69,37 @@ Hugging Face 페이지에는 아직 아무것도 올라오지 않은 상태다(0
 - 정보원 다수가 SEO형 AI 요약 블로그라 세부 수치는 교차검증이 더 필요하지만, "가중치가
   실제로 풀렸다"는 핵심 사실은 TechNode 보도와 HN 고득점 게시물 양쪽에서 일치.
 
+## 후속 (2026-09-29) — Anthropic Frontier Red Team, GLM-5.3의 사이버 공격 능력이 "임계점"을 넘었다고 평가
+
+Anthropic Frontier Red Team이 자체 연구("GLM-5.3 and the spread of advanced cyber
+capabilities")에서 GLM-5.3의 공격적 사이버 보안 능력을 직접 평가·경고했다 —
+08-14 발표 당시 이미 "포스트트레이닝만으로 의도치 않은 익스플로잇 체인이 생겼다"는
+TechTimes 보도가 있었는데, 그 우려를 Anthropic이 독립적으로 재확인한 셈이다.
+
+- **Binary Exploitation 벤치마크**(내부, 100개 과제 무작위 선정) 완전한 제어 흐름
+  탈취(control-flow hijack) 성공률: **Claude Mythos Preview 6%**, **GLM-5.3 4%**,
+  Claude Opus 4.6·GLM-5.2는 **0%**(이전 세대는 전혀 성공 못함).
+- **임계점의 의미**: Mythos Preview와 GLM-5.3 두 모델만 이전 세대가 못 했던 완전한
+  제어 흐름 탈취를 해냈다 — "의미 있는 임계값을 넘었다"는 것이 Anthropic의 평가.
+- **결정적 차이는 접근성**: Mythos Preview는 검증된 사용자에게만 제한 배포되지만,
+  **GLM-5.3은 완전한 오픈웨이트로 누구나 다운로드 가능**하며 "다른 유사 수준
+  모델과 달리 의미 있는 오용 방지 장치 없이 출시됐다"고 Anthropic이 직접 지적.
+- **정책 제언**: 오픈웨이트 모델의 안전장치는 Abliteration 같은 간단한 기법으로
+  우회 가능하므로 정부 차원의 독립 안전성 검증이 필요하고, 방어자(디펜더)도
+  최고 수준 모델에 대한 접근권이 있어야 한다는 결론.
+
+> 강의·AX 포인트: 경쟁사가 경쟁사의 오픈웨이트 모델을 안전성 관점에서 공개
+> 평가한 드문 사례다. "오픈웨이트 모델 확산이 위험한가"라는 논쟁에 수치 근거를
+> 댄 것이 핵심 — 다만 평가 주체가 경쟁 관계에 있는 Anthropic이라는 점은 해석 시
+> 감안해야 한다.
+
 ## 출처
 
 - [the-decoder — Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model](https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/)
 - [TechTimes — GLM-5.3: Post-Training Produced Exploit Chains Z.ai Never Planned](https://www.techtimes.com/articles/324426/20260814/glm-53-post-training-produced-exploit-chains-zai-never-planned-finds-1097-critical-bugs.htm)
 - [alphaXiv — GLM-5.3 기술 리포트](https://www.alphaxiv.org/abs/2608.glm-5)
 - [MLQ News — Zhipu releases GLM-5.3 through its coding service, with weights still two weeks away](https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/)
+- [Anthropic — GLM-5.3 and the spread of advanced cyber capabilities (09-29)](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
 - raw: [[raw/2026-08/zhipu-glm-5-3-launch]]
 - raw: [[raw/2026-08/glm-5-3-weights-released-flash-variant]]
+- raw: `raw/2026-10/anthropic-frontier-red-team-glm-5-3-cyber.md`

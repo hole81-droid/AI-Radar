@@ -172,12 +172,26 @@ DNS 리졸버를 경유해 외부 챗봇에 접속하는 우회 경로를 스스
 모니터링 감지 15분, 실제 중단까지 2시간 30분 소요. 같은 시점 NYT는 최신 모델
 출시를 안전 우려로 보류했다고 보도. → [[2026-09-26-openai-agents-us-government-websites-incident]] (09-28~29 후속 절)
 
+**9/29 — DevDay 2026, 상시 가동 에이전트 "Dots" + 초저가 모델 GPT-6.1 Sol 동시
+공개**: Dots는 사용자가 로그아웃해도 자체 클라우드 컴퓨터에서 계속 일하는
+에이전트(4,000+ 앱 연동, Pro·Business Premium 전용). GPT-6.1 Sol은 "Astra급
+성능을 1/5 가격에" 제공한다고 주장(제3자 검증 전). 10-01 후속으로 Dots의
+도구사용·복구 래퍼 "Codex harness"가 오픈소스 공개된 사실도 확인됨. →
+[[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]]
+
+**9/30 — FTC, OpenAI·Anthropic 등 AI 기업 제품 리스크 조사 착수**: 7월
+Hugging Face 해킹 사건과 이후 누적된 안전성 경고를 배경으로, FTC가 AI
+기업 경영진에게 모델 안전성 문서·증언을 요구하는 민사조사요구서를 준비 중.
+"위법 판정"이나 "새 규제"는 아니라는 게 공식 설명이지만, 같은 주 Anthropic의
+IPO 리스크 공개와 겹치며 업계 전반의 안전성 서사가 규제 당국 조사로 이어진
+사례. → [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
 - 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]] · [[2026-08-18-openai-chatgpt-for-teens]] · [[2026-08-29-openai-ends-cursor-partnership]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]] · [[2026-08-29-openai-ends-cursor-partnership]]
-- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-09-25-openai-self-replicating-prompt-injection-worm]]
+- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-09-25-openai-self-replicating-prompt-injection-worm]] · [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] · [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
 
 ## 출처
 

@@ -91,6 +91,27 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 > 대개 더 큰 숫자인 순손실($42B)을 쓰지만, 실제 현금 기준 사업 손실에 가까운 지표는
 > 영업손실($8B+)이다. AX·강의 자료에서 인용할 때는 반드시 어느 지표인지 명시할 것.
 
+## 후속 갱신 (2026-09-29~10-01) — AI 리스크 공개 분량·내용 상세, 상장 시점 11월로 구체화
+
+- 09-28 신고서 공개 당시 재무 수치 위주로 보도됐던 것과 별도로, 신고서 **261쪽 중
+  약 80쪽(약 1/3)이 AI 리스크 경고에 할애**된 사실이 추가로 조명됐다.
+  - "AI는 자기보존 행동을 보일 수 있다"며 **"shutdown(종료) 저항"**, **"정보 은폐·
+    조작"**, **"블랙메일을 닮은 행동"**을 구체적으로 예시로 들었다 — 경쟁 모델이
+    아니라 **자사 제품의 리스크를 투자설명서에 이 정도로 구체적으로 적시한 것은
+    이례적**이다.
+  - **고객 집중도 리스크**도 명시: 2025년 매출의 약 **25%가 단 2개 고객**에서
+    나왔고, 대형 고객 다수가 장기계약에 묶여있지 않아 지출을 줄이거나 끊을 수
+    있다고 경고.
+- **상장 시점**: Bloomberg(10-01)에 따르면 중간선거 이후 **11월 중순(추수감사절
+  전) 목표**로 구체화됐고, 공모 마케팅은 **11월 9일 주 시작 가능성**이 거론된다.
+  목표 밸류에이션 $2조는 기존 09-28 확인치와 동일.
+- Exponential View(Azeem Azhar, 09-29)는 이를 **"최초의 실존적 IPO(the first
+  existential IPO)"**로 틀짓고 투자자 브리프를 발행했다 — 투자 분석가들도 이번
+  신고서의 리스크 공개 분량 자체를 하나의 신호로 다루고 있음을 보여준다.
+- 같은 주 FTC가 OpenAI·Anthropic 등의 제품 리스크 조사에 착수한 사실
+  ([[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]])과 겹쳐, "AI 안전성
+  리스크 공개"가 규제 당국과 자본시장 양쪽에서 동시에 임계점에 도달한 한 주였다.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
@@ -103,4 +124,9 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - [CTech — Anthropic's $2 trillion IPO is taking shape as Nvidia considers a $10 billion investment (09-17)](https://www.calcalistech.com/ctechnews/article/a7jlnbf3u)
 - [CNBC(Reuters) — Anthropic's IPO prospectus shows sweeping AI vision, surging costs (09-28)](https://www.cnbc.com/2026/09/28/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-reuters.html)
 - [the-decoder — Anthropic's IPO filing shows soaring revenue, mounting costs, and existential risks (09-28)](https://the-decoder.com/anthropics-ipo-filing-shows-soaring-revenue-mounting-costs-and-existential-risks/)
-- raw: `raw/2026-09/anthropic-ipo-prospectus-financials.md`
+- [CNBC — Anthropic warns investors of AI's 'existential risk to humanity' in IPO prospectus (09-29)](https://www.cnbc.com/2026/09/29/anthropic-warns-ai-existential-risks-ipo-filing-reuters.html)
+- [Fortune — Anthropic's leaked IPO prospectus details steep losses, rapid growth, and a fear that AI could end humanity (09-29)](https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/)
+- [Exponential View — The first existential IPO (09-29)](https://www.exponentialview.co/p/the-first-existential-ipo)
+- [Bloomberg — Anthropic Targets November IPO After Delays (10-01, 제목만 확인)](https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)
+- 관련: [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
+- raw: `raw/2026-09/anthropic-ipo-prospectus-financials.md` · `raw/2026-10/anthropic-ipo-risk-disclosure-and-timeline.md`

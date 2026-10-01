@@ -99,6 +99,28 @@ Artificial Intelligence"(AGMAI)를 신설했다고 09-21 Terence Tao의 블로�
 이로써 09-08 발표 이후 이어진 논란이 "학계의 공개서한 비판"(09-12)에서
 "AI 기업과 학계 사이의 상설 조율 채널 신설"(09-21)로 한 단계 더 진행됐다.
 
+## 후속 (2026-10-01) — Ethan Mollick, 이 사건을 "멀티 에이전트 조직 설계" 관점으로 재해석
+
+One Useful Thing(Ethan Mollick)이 "The Dot and the Swarm"에서 이번 사건을 우선권
+분쟁이 아니라 **멀티 에이전트 조율 방식 자체**의 사례로 다시 읽었다. 저작권·우선권
+논란과는 별개로, 강의·AX 자료에서 "에이전트 조직 설계"를 설명할 때 참고할 만한
+새로운 해석이다.
+
+- Mollick은 본인의 기존 예측("에이전트를 조직처럼 다루려면 인간이 세심하게
+  관리자 역할을 설계해야 한다")을 스스로 뒤집으며, 실제로는 "더 나은 머신러닝
+  시스템의 무차별적 힘"(Bitter Lesson)이 대부분의 조율 문제를 해결했다고 평가했다.
+- 이 사건에서 **약 1,000개 에이전트가 약 270만 개의 메시지를 교환**하며 88시간
+  안에 문제를 풀었고, 사람의 상세한 지시 없이도 스스로 조직화되고 아이디어를
+  전달했다는 점을 핵심 근거로 들었다.
+- Mollick의 결론: 에이전트는 인간 조직의 고질적 문제(개인 이익 추구, 정보 은폐,
+  의사소통 한계)를 갖지 않기 때문에, 자기조직화가 인간 조직보다 훨씬 효율적으로
+  작동한다.
+
+> 강의·AX 포인트: [[agensh-claude-code-decentralized-multi-agent-harness]]가 제시한
+> "공유 인프라로 조율하는 분산형 멀티 에이전트" 설계와 같은 결을 공유한다 —
+> 세밀한 중앙 오케스트레이션보다 공유 컨텍스트만 주고 자율성을 넓게 허용하는
+> 쪽이 규모가 커질수록 유리하다는 관측이 여러 사례에서 겹치고 있다.
+
 ## 출처
 
 - [OpenAI — On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)
@@ -111,3 +133,5 @@ Artificial Intelligence"(AGMAI)를 신설했다고 09-21 Terence Tao의 블로�
 - [The Economist — Top mathematicians are outraged by OpenAI's methods](https://news.ycombinator.com/item?id=49662698) (원문 페이월, HN 94점 스레드로 교차확인)
 - [Understanding AI — OpenAI spent millions to solve this famous math problem — mathematicians are furious](https://www.understandingai.org/p/openai-spent-millions-to-solve-this)
 - 09-21 후속: [Terence Tao — Advisory Group on Mathematics and Artificial Intelligence](https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/) · [OpenAI — Advisory Group on Mathematics and AI](https://openai.com/index/advisory-group-on-mathematics-and-ai/)
+- 10-01 후속: [One Useful Thing — The Dot and the Swarm](https://www.oneusefulthing.org/p/the-dot-and-the-swarm)
+- raw: `raw/2026-10/oneusefulthing-dot-and-swarm-navier-stokes.md`

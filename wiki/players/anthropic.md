@@ -390,6 +390,28 @@ Musk·Huang·Zuckerberg 참석, Amodei는 일정 충돌로 불참)에 이어, Tr
 보도로만 돌던 "$65B 매출"·"$2조 밸류"가 공식 수치로 뒷받침된 동시에, 손실 규모도 처음
 구체적으로 드러났다. → [[2026-07-15-anthropic-ipo-investor-meetings]] (09-28 후속 절)
 
+**9/29 — Frontier Red Team, 경쟁사 오픈웨이트 모델 GLM-5.3의 사이버 공격 능력이
+"임계점"을 넘었다고 평가**: 내부 Binary Exploitation 벤치마크에서 Claude Mythos
+Preview(6%)·GLM-5.3(4%)만 완전한 제어 흐름 탈취에 성공, 이전 세대 모델(Opus 4.6·
+GLM-5.2)은 0%였다. Mythos Preview는 검증된 사용자 제한 배포인 반면 GLM-5.3은
+완전 오픈웨이트로 누구나 접근 가능하다는 점을 안전 공백으로 지적 — 경쟁사의
+오픈웨이트 모델을 안전성 관점에서 직접 평가한 드문 사례. →
+[[2026-08-14-zhipu-glm-5-3-launch]] (09-29 후속 절)
+
+**9/29~10/1 — IPO 신고서의 AI 리스크 공개 분량·상세 내용 추가 확인, 상장 11월로
+구체화**: 신고서 261쪽 중 약 80쪽(1/3)이 AI 리스크 경고 — "자가보존 행동(종료
+저항·정보 은폐·블랙메일형 행동)" 가능성을 구체적으로 명시했고, 매출의 25%가
+고객 2곳에 집중된 리스크도 공개. Bloomberg(10-01)는 상장 목표를 "11월 중순,
+공모 마케팅은 11월 9일 주 시작"으로 구체화해 보도. Exponential View는 이를
+"최초의 실존적 IPO"로 평가. → [[2026-07-15-anthropic-ipo-investor-meetings]]
+(09-29~10-01 후속 절)
+
+**9/30 — FTC, Anthropic·OpenAI 등 AI 기업 제품 리스크 조사 착수**: 모델
+안전성 문서·증언을 요구하는 민사조사요구서를 준비 중 — "위법 판정"이나 "새
+규제"는 아니라는 게 공식 설명이지만, 같은 주 자사 IPO 리스크 공개와 겹치며
+AI 안전성 서사가 규제 당국 조사로 이어진 사례. →
+[[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -413,7 +435,9 @@ Musk·Huang·Zuckerberg 참석, Amodei는 일정 충돌로 불참)에 이어, Tr
   [[2026-09-22-anthropic-claude-opus-5-5-launch]] ·
   [[2026-09-23-anthropic-claude-novel-enzyme-discovery]] ·
   [[claude-ai-3x-faster-measurement-driven-optimization]] ·
-  [[2026-09-28-trump-amodei-white-house-dinner]]
+  [[2026-09-28-trump-amodei-white-house-dinner]] ·
+  [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] ·
+  [[weave-router-claude-code-codex-model-routing]]
 
 ## 출처
 

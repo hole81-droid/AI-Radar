@@ -56,6 +56,14 @@ OpenAI가 2026-09-29 연례 DevDay 키노트에서 20여 건의 발표를 쏟아
   판매"하는 새로운 과금 축이 열렸다는 신호 — 기업 도입 시 요금제 설계 벤치마크로 참고할
   만하다.
 
+## 후속 (2026-10-01) — Codex 하네스 오픈소스 공개 확인
+
+DevDay 발표 항목 중 당시 반영하지 못했던 세부 하나를 WebSearch로 추가 확인했다 —
+Dots의 기반이 되는 **도구 사용·복구(tool-use and recovery) 래퍼인 "Codex harness"가
+오픈소스로 공개**됐다. 코딩 에이전트의 재시도·오류복구 로직을 직접 들여다보고
+재사용할 수 있게 된 것으로, 자체 에이전트 하네스를 설계하는 조직이라면 참고할 만한
+레퍼런스 구현이 하나 더 늘었다.
+
 ## 출처
 
 - [Decrypt — OpenAI Gave AI Agents Their Own Computers at DevDay 2026](https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced)
