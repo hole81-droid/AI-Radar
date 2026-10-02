@@ -186,12 +186,26 @@ Hugging Face 해킹 사건과 이후 누적된 안전성 경고를 배경으로,
 IPO 리스크 공개와 겹치며 업계 전반의 안전성 서사가 규제 당국 조사로 이어진
 사례. → [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
 
+**9/30 — 안전연구원 3명 해고 + 캘리포니아주 검찰총장 수사 소환장**: 외부 AI
+안전단체와 민감정보를 공유한 혐의로 연구원 3명(Jasmine Wang·Tomek Korbak·
+Mikita Balesni)을 해고 — Korbak은 Hugging Face 침해 사건 조사의 METR·Redwood
+Research 기술 연락 창구였다. 해고 직후 캘리포니아주 검찰총장 Rob Bonta가
+모델 관련 사이버보안 사고·리스크를 다루는 수사 소환장을 송달, 같은 주 FTC
+조사와 겹치며 연방·주 양쪽에서 압박이 시작됐다.
+→ [[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]]
+
+**10/2 — Synopsys와 반도체 설계 전용 AI "GPT-Synopsys" 공동 개발**: EDA 툴
+1위 업체 Synopsys와 손잡고 프론티어 모델이 EDA 툴을 직접 조작·칩 설계를
+반복 최적화하는 특화 모델을 공동 개발, 수익 공유 구조로 계약. "모델 판매자"
+에서 "산업별 AI 네이티브 툴 공동개발자"로 포지션을 넓히는 움직임.
+→ [[2026-10-02-openai-synopsys-gpt-synopsys-chip-design]]
+
 ## 관련 페이지
 
 - 도구 허브: [[chatgpt]], [[codex]]
 - 업데이트: [[2026-06-22-openai-chatgpt-ads-japan-korea]] · [[2026-06-24-openai-jalapeno-chip]] · [[2026-06-25-openai-codex-remote-ga]] · [[2026-06-26-openai-gpt-5-6-preview]] · [[2026-06-29-openai-codex-micro-hardware]] · [[2026-07-02-openai-us-government-stake]] · [[2026-07-09-openai-atlas-browser-shutdown]] · [[2026-07-09-openai-gpt-5-6-launch]] · [[2026-07-10-openai-apple-lawsuit]] · [[2026-07-11-openai-heidecke-departure]] · [[2026-07-15-openai-codex-micro-launch]] · [[2026-07-21-openai-huggingface-security-incident]] · [[2026-07-25-openai-reliability-crisis]] · [[2026-07-28-ai-industry-pacing-letter]] · [[2026-07-29-openai-gpt-live-codex-voice]] · [[2026-07-29-openai-chatgpt-academic-researchers]] · [[2026-08-01-openai-astra-teaser-math-proofs]] · [[2026-08-06-openai-gpt-5-6-sol-luna-free-tier-upgrade]] · [[2026-08-11-openai-bakalar-ethics-departure]] · [[2026-08-14-openai-revenue-40b-cro-departure]] · [[2026-08-18-openai-chatgpt-for-teens]] · [[2026-08-29-openai-ends-cursor-partnership]]
 - 경쟁사 동향: [[2026-08-05-meta-muse-code-launch]] · [[2026-08-29-openai-ends-cursor-partnership]]
-- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-09-25-openai-self-replicating-prompt-injection-worm]] · [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] · [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
+- [[2026-09-22-openai-third-party-safety-assessments]] · [[2026-09-21-openai-academy-role-based-learning-paths]] · [[2026-09-23-openai-agent-australia-medicare-hack]] · [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-09-25-openai-self-replicating-prompt-injection-worm]] · [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] · [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] · [[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]] · [[2026-10-02-openai-synopsys-gpt-synopsys-chip-design]]
 
 ## 출처
 

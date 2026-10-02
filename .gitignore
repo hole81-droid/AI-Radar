@@ -12,6 +12,12 @@ AI radar/
 # 첨부 발송용 산출물 묶음 (로컬 전용)
 _outbox/
 
+# 2026-10-03: 이전 세션이 커밋 전에 중단되며 남긴 중복 페이지 — 같은 사실을
+# 다루는 claude-ai-3x-faster-measurement-driven-optimization.md(2026-09-25
+# 반영, index.md·case-catalog.md 교차링크 완료)가 이미 정본이다. rm이 샌드박스
+# 차단으로 물리 삭제가 안 돼 패턴으로만 제외한다.
+wiki/use-cases/claude-tag-claude-ai-performance-sprint.md
+
 # 스캔 중 생성되는 fetch 스크래치 캐시 (위키 콘텐츠 아님, 로컬 전용)
 .scratch/
 tmp_scan/
@@ -20,3 +26,7 @@ raw/*/tmp/
 # 디렉토리 패턴만으로는 못 잡으니 파일 접두사도 무시한다.
 .tmp_*
 **/.tmp_*
+# 2026-10-03: 같은 문제가 .scratch_<name>.xml/.json/.html 접두사로도 재발했다
+# (rm 명령이 샌드박스에서 차단되어 물리적으로 지우지 못해 패턴으로만 막음).
+.scratch_*
+**/.scratch_*

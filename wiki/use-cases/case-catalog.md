@@ -87,6 +87,7 @@ uses: [course, ax]
 - [[reddit-disk-based-agent-task-state]] — 범용 코딩 에이전트로 prd-driven 마크다운 태스크 계약+cli-pipeline 역할 라우팅(planner/worker/validator)을 활용해 멀티파일 리팩토링 상태 관리를 수행 → 컨텍스트 손실 없는 세션 재개, 결정론적 태스크 의존성 확보 (일화, 정량 수치 없음)
 - [[claude-code-lsp-plugin-cost-cutting]] — Claude Code로 서브에이전트(subagents) 하네스에 네이티브 LSP를 붙여 grep 기반 탐색을 대체 → 비용 13%↓·토큰 12%↓·API 호출 24%↓, grep 340→189회 (실측)
 - [[self-hosted-llm-migration-sop-mttf]] — Ollama(cli-pipeline)로 Single Objective Prompting+MTTF 진단 지표를 활용해 대형 프리프롬프트를 자체 호스팅 환경으로 이전 → 컨텍스트 14% 즉시소모→반복 헛돌기 완화 (일화, 정량 전후비교 제한적)
+- [[airbnb-ai-integrator-internal-agents]] — Airbnb가 사내 에이전트(AirChat)+조직 컨텍스트 그래프(Everest, mcp+subagents)를 활용해 신규 서비스 개발·온콜 대응·고객 지원을 수행 → 코드 60% AI 저작, 기능 출시량 약 80%↑, PR 처리량 1.6배, 지원 티켓 약 45~50% AI 단독 해결 (claimed, AI 책임자 본인 인터뷰)
 - [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] — Claude Code로 서브에이전트(subagents) 캐시 TTL 설정 한 줄을 조정해 프롬프트 캐시 재작성을 방지 → 캐시 라이트 약 75%↓, 5시간 세션 한도 소진 속도 완화 (실측)
 - [[entelligence-gpt56-luna-vs-gpt6-astra-code-review-benchmark]] — GPT-6 Astra·GPT-5.6 Luna(cli-pipeline)로 공개 저장소 PR 50건 자동 코드리뷰를 수행해 모델 티어링 기준을 실측 → Astra 버그 92건·정밀도96%·보안버그19건 vs Luna 69건·정밀도74%·보안버그9건, 비용은 Luna가 28배 저렴($0.20 vs $5.66) (실측)
 - [[petervijeh-gemini-distillation-gliner-9-dollars]] — Gemini(cli-pipeline)로 Reddit 댓글 4,290건을 한 번만 라벨링한 뒤 로컬 소형 모델 GLiNER를 파인튜닝해 API 호출 없는 개체명 인식으로 전환 → 총 $11.50(라벨링$9+학습$2.50)로 F1 0.83 확보, 약 4,291건부터 손익분기 (실측)

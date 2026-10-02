@@ -2941,3 +2941,47 @@ Wharton·EdSurge·Class Central은 제목 스크리닝만 수행, 화제성 신�
 2차 확산) 측정은 시간 예산상 생략 — FTC·IPO 리스크공개·GLM-5.3 Red Team 정독에
 예산 우선 배분. YouTube 9채널 중 AI Frontier Korea는 최신 EP116이 09-27(5일 전)로
 3일 기준 밖이라 "신규 없음" 처리.
+
+## [2026-10-03] scan | 항목 8건, 반영 8건
+
+신규 use-case 1건([[airbnb-ai-integrator-internal-agents]] — 전 Meta Llama 총괄
+Ahmad Al-Dahle가 이끄는 Airbnb AI 조직을 다룬 Latent Space 인터뷰, 사내 에이전트
+AirChat+조직 컨텍스트 그래프 Everest로 코드 60% AI 저작·기능 출시 80%↑·PR 처리량
+1.6배·지원티켓 45~50% AI 단독 해결, 전부 claimed), 신규 update 2건
+([[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]] — 안전연구원 3명
+해고(외부 안전단체와 정보공유 혐의)+캘리포니아주 검찰총장 Bonta 수사 소환장, 같은 주
+FTC 조사와 겹침 / [[2026-10-02-openai-synopsys-gpt-synopsys-chip-design]] — EDA
+1위 업체 Synopsys와 반도체 설계 전용 AI "GPT-Synopsys" 공동개발·수익공유 계약),
+openai.md 타임라인·관련페이지 갱신, timeline.md에 "## 2026-10" 절 신설(10-02
+Synopsys 건) + 09-30 Bonta 건 추가, index.md OpenAI 절·case-catalog 건수(136→137)
+갱신. 커뮤니티 화제·도구 실사용 평가 3건을 뉴스레터에 반영(페이지화는 안 함) —
+① Claude Opus 5.5 "너프" 논쟁의 팩트체크(zoogom.com, 09-23부터 제기된 성능저하
+불만이 "광범위한 모델 저하 증거는 없음", 안전 라우팅·기본 추론강도·장기세션
+컨텍스트 누적 등 5가지 대안 설명 제시 — 2026-09-10 도구 실사용 평가 상시수집
+규칙 충족) ② "The Four Horsemen of Agentic Coding"(HN 100점, Slop·Alienation·
+Deskilling·Team Fallout 4대 부작용, Claude·Codex·Astra 실명 언급) ③ "One month
+coding with GLM 5.3 Flash"(HN 76점, 목표 모델 사용률 50%에 그침·비용 $68·
+DeepSeek V4.1 Flash가 벤치마크 최우수). 빅뉴스 1건(MIT Sloan "How to Outcompete
+Your Client's AI" — 전문서비스업이 AI 쓰는 고객에 대응하는 전략 3가지, Alturas
+Capital Partners 사내 AI 법률검토 비용절감 사례)은 뉴스레터에만 반영. YouTube
+픽 1건(Ben AI, Claude Opus 5.5 디자인 활용 5사례, 10-02 업로드 — 설명란이 본인
+강의 홍보 위주라 세부 기법 미확인, 제목 기준 픽만 반영).
+
+**주요 발견**: HN Algolia 쿼리에서 48시간 epoch를 잘못 계산(연도 미검증 상태로
+약 1년 전 타임스탬프를 사용)해 결과적으로 필터가 사실상 "최근 1년 내 고득점"으로
+느슨하게 걸렸음 — `date -u +%s`로 호스트 시각을 먼저 확인하지 않고 암산한 게
+원인. 결과가 search_by_date 정렬이라 상위 항목은 여전히 최신순이라 치명적 누락은
+없었던 것으로 보이나, 다음 스캔부터는 epoch 계산 전 반드시 `date -u +%s`를 먼저
+실행해 확인할 것. Reddit는 www.reddit.com RSS로 r/ClaudeAI 1회 확보 후 연속
+요청(r/AI_Agents)이 429로 막혀 재시도하지 못함 — Opus 5.5 "너프" 논쟁은 WebSearch로
+대체 확보.
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 시도하지 않고 "확인
+실패"로 기록. AX LABS·Josh Bersin·Harvard Business Impact·Addy Osmani RSS는
+최신 글이 각각 09-29·09-02·09-15·09-14에서 정체(신규 없음). r/AI_Agents·
+r/OpenAI는 429 레이트리밋으로 확보하지 못함(다음 스캔 재시도 후보). Wharton
+"The Productivity Bet Behind the AI Boom"은 원문 URL이 404로 확인 실패해
+미반영. Karpathy·Andrew Ng HN 인물쿼리는 이번에도 신규 히트 없음(기존 08-02·
+07-29 히트만 유지). "Gemini hacked three companies" HN 재부상은 09-18/09-23
+기존 사건(이미 [[2026-09-18-google-gemini-agentic-breach-three-companies]]로
+반영됨)의 재확산이라 중복 미반영.
