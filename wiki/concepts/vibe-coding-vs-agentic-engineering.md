@@ -51,7 +51,25 @@ Andrew Ng이 The Batch(1차 채널)에 발행한 "AI Engineering Skills Map: 소
 떨어진다는 논지 — Wes McKinney의 "바이브 코딩 vs 에이전틱 엔지니어링" 구분과 정확히
 같은 지점을 가리킨다. ([The Batch 원문](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/), raw: [[raw/2026-08/andrew-ng-ai-engineering-skills-map-fundamentals]])
 
+## 관련 사례 — COSMIC/Pop!_OS, AI 생성 기여 전면 금지 (2026-10-04 추가)
+
+System76의 리눅스 데스크톱 환경 **COSMIC**(Pop!_OS 기반)이 PR 템플릿을 바꿔 코드·
+커밋 설명·댓글을 포함한 **LLM 생성 기여 전면 금지**를 선언했다(HN 91점, 2026-10-03
+재조명). 기여자는 이제 "AI를 쓰지 않았다/변경사항을 완전히 이해한다/리뷰 코멘트에
+답할 수 있다/직접 테스트했다"를 명시적으로 확인해야 PR을 제출할 수 있다.
+
+- 메인테이너 Jeremy Soller(System76)의 설명: AI 덕분에 처음 기여하는 사람이 늘었지만,
+  그 기여 대부분이 "계획 없이 만들어져 받아들여지지 않는" 품질이었고 — 결국 **AI가
+  만든 리뷰 부담을 사람이 떠안는** 구조가 됐다는 것.
+- 버그 탐지처럼 **비생성형 AI 도구 사용은 계속 허용** — "AI 배제"가 아니라 "검토 못할
+  산출물 배제"라는 점에서, Linux·Ubuntu처럼 "품질만 좋으면 AI 생성물도 허용"하는
+  정책과는 다른 선택이다.
+- 이는 바이브 코딩(검토 없이 산출물을 그대로 제출)이 **오픈소스 메인테이너의 유한한
+  리뷰 역량**이라는 현실적 제약과 충돌할 때 조직이 택할 수 있는 한 극단 — "에이전틱
+  엔지니어링 수준의 보증 없는 기여는 받지 않는다"는 정책적 해법으로 읽을 수 있다.
+
 ## 출처
 
 - [Motherduck 블로그 — Wes McKinney](https://motherduck.com/blog/vibe-coding-dangerous-agentic-engineering-wes-mckinney/)
 - [The Batch (Andrew Ng) — The AI Engineering Skills Map In Detail: Software Engineering Fundamentals](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/)
+- [XDA Developers — COSMIC bans all AI-generated submissions because its maintainers were getting swamped](https://www.xda-developers.com/cosmic-bans-all-ai-generated-submissions/)

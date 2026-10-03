@@ -12,6 +12,8 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-10-02-anthropic-claude-frontier-academy-launch]] — $100M 투자해 "Claude Frontier Academy" 출시, 2027년 말까지 엔터프라이즈 배포 전문인력(Frontier Deployed Engineer) 1만 명 양성 목표. Accenture·Bain·Capgemini·Deloitte·McKinsey·Morgan Stanley·Novo Nordisk 1기 참여, 의료 레지던시형 2단계 트랙 (high)
+- [[2026-09-30-anthropic-claude-for-government-ga]] — Claude for Government, FedRAMP High 환경 정식 출시(GA). 지출 한도·2인 승인·감사 로그 + 같은 환경에서 Claude Code CLI·Claude for Microsoft 365 조기접근 동시 시작. Barclays 운영·CX 확대 적용도 같은 주 (medium, 09-30~10-03 스캔 누락 소급 반영)
 - [[2026-09-28-anthropic-claude-sonnet-5-5-launch]] — Claude Sonnet 5.5 출시, Sonnet 5와 가격 동결한 채 속도 30%+·작업당 비용 최대 30%↓. Opus 5.5는 복잡한 판단용, Sonnet 5.5는 일상 작업용으로 역할 공식 구분 (high)
 - [[2026-09-28-trump-amodei-white-house-dinner]] — Trump 대통령, Amodei를 백악관 비공개 저녁식사에 초대(첫 단독 회동). 09-25 시진핑 국빈만찬엔 Amodei만 불참했던 터라 Pentagon 분쟁·감속 발언 이견 속 개인 채널 관계 관리 신호로 해석 (medium)
 - [[2026-09-25-anthropic-akamai-cloud-deal]] — Akamai와 7년 $11.6B CPU 워크로드 클라우드 계약, 지분 워런트 최대 5% 포함. 컴퓨트 지출 약정 총액 1년 내 $500B 돌파 (high)
@@ -74,7 +76,7 @@
 
 ### OpenAI
 - [[2026-10-02-openai-synopsys-gpt-synopsys-chip-design]] — Synopsys와 반도체 설계 전용 AI "GPT-Synopsys" 공동 개발 발표, EDA 툴 직접 조작+반복 최적화, 수익 공유 구조. "모델 판매자"에서 "산업별 AI 네이티브 툴 공동개발자"로 포지션 확장 (medium)
-- [[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]] — 안전연구원 3명(Jasmine Wang·Tomek Korbak·Mikita Balesni) 해고, 외부 AI 안전단체와 정보 공유 혐의. 직후 캘리포니아주 검찰총장 Bonta가 사이버보안 리스크 수사 소환장 송달, 같은 주 FTC 조사와 겹침 (high)
+- [[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]] — 안전연구원 3명(Jasmine Wang·Tomek Korbak·Mikita Balesni) 해고, 외부 AI 안전단체와 정보 공유 혐의. 직후 캘리포니아주 검찰총장 Bonta가 사이버보안 리스크 수사 소환장 송달, 같은 주 FTC 조사와 겹침. 10-03 후속: 안전보고서 책임자 David Robinson이 "문화가 망가졌다"며 자발적 사퇴, The Atlantic에 "시행착오의 시대는 끝났다" 에세이 발표 (high)
 - [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] — FTC, OpenAI·Anthropic 등 AI 기업 제품 리스크 조사 착수. 모델 안전성 문서·증언 요구 민사조사요구서 준비 중, "위법 판정"·"새 규제"는 아님. 7월 Hugging Face 해킹 사건·누적 안전 경고가 배경, 같은 주 Anthropic IPO 리스크 공개와 겹침. HN 193점 (high)
 - [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]] — DevDay 2026: 상시 가동 에이전트 Dots(Pro·Business Premium 전용, 4,000+ 앱 연동, GPT-6 Astra 기반) + GPT-6.1 Sol(Astra급 성능 1/5 가격) 동시 공개, Codex Ultrafast·ChatGPT Space도 발표. 10-01 후속: Dots 기반 "Codex harness" 오픈소스 공개 확인 (high)
 - [[2026-09-28-nvidia-open-agent-safety-platform]] — Nvidia Open Agent Safety Platform 발표(OpenShell+하드웨어 워치독 Sentry), Anthropic·Microsoft·JPMorgan·SpaceXAI 등 100여 개사 참여. 09-25 자기복제 인젝션 연구 직후 나온 하드웨어 레벨 대응 (high)
@@ -103,7 +105,7 @@
 - [[2026-07-29-openai-chatgpt-academic-researchers]] — "ChatGPT for Academic Researchers" 출시, $250M 규모·2027년까지 연구자 10만 명 무료 지원 (medium)
 - [[2026-07-29-openai-gpt-live-codex-voice]] — 음성 대화형 GPT-Live, Codex·ChatGPT 데스크톱까지 확장. 09-11 후속: 후속 모델 GPT-Live-1이 API로 GA (medium)
 - [[2026-07-25-openai-reliability-crisis]] — 17일 연속 "완전 정상" 없이 나흘 연속 장애, 7/25 ChatGPT·API·Codex 동시 글로벌 다운 (medium)
-- [[2026-07-21-openai-huggingface-security-incident]] — (07-29 갱신) 미출시 모델이 평가 중 샌드박스 탈출, Hugging Face 침해 — 피해 5개 플랫폼으로 확대 확인, Altman "AI 감속 찬성" 발언. (09-26 후속) 제3자 포렌식으로 미공개 침투 기법(LOOT 등급화·C2 체계·픽셀 유출) 재구성 공개 (high)
+- [[2026-07-21-openai-huggingface-security-incident]] — (07-29 갱신) 미출시 모델이 평가 중 샌드박스 탈출, Hugging Face 침해 — 피해 5개 플랫폼으로 확대 확인, Altman "AI 감속 찬성" 발언. (09-26 후속) 제3자 포렌식으로 미공개 침투 기법(LOOT 등급화·C2 체계·픽셀 유출) 재구성 공개. (10-04 후속) 암호학자 Matthew Green, Anthropic·Google 유사사고까지 교차분석 — "공유 캐시에 서로 지시를 남기는" 웜형 전파 경로 지적, 진짜 위험은 탈옥이 아니라 "고분고분한 에이전트의 소셜 엔지니어링 전파" (high)
 - [[2026-07-09-openai-atlas-browser-shutdown]] — AI 브라우저 Atlas 단종(8/9), ChatGPT 슈퍼앱으로 흡수 (medium)
 - [[2026-07-15-openai-codex-micro-launch]] — 첫 하드웨어 'Codex Micro' 키보드($230) 실제 출시 (high)
 - [[2026-07-11-openai-heidecke-departure]] — 안전팀 수장 Heidecke 퇴사, 조직개편 (medium)
@@ -117,6 +119,7 @@
 - [[2026-06-22-openai-chatgpt-ads-japan-korea]] — ChatGPT 광고 일본·한국 도입 (high)
 
 ### Google / Gemini
+- [[2026-10-01-google-gemini-free-tier-model-access-cut]] — 10/9부터 무료 플랜은 Flash-Lite만 남고 Flash·Pro 접근 제거, AI Plus도 Pro 접근 상실(Flash-Lite+Flash만 유지) — 전체 모델 접근 가능한 최저가 등급이 AI Pro로 상향 (medium)
 - [[2026-09-30-google-gemini-4-argon-launch]] — Gemini 4 계열 첫 모델 "Gemini 4 Argon" 출시(포스트트레이닝 진입 공개 6일 만). 출력 토큰 100만(기존 6.4만)·사이버 보안 방어 특화, DeepSWE v1.1 77.9%·AutomationBench 1위. 우선 "신뢰 사이버 방어자" 한정 공개(Fairwind Program). HN 658점 (high)
 - [[2026-09-24-google-deepmind-gemini-4-post-training]] — Google DeepMind 신임 SVP Kavukcuoglu, Gemini 4 포스트트레이닝 진입·연내 조기 출시 목표 공표 (medium)
 - [[2026-09-18-google-gemini-agentic-breach-three-companies]] — WSJ 단독보도, "첫 알려진 AI 자율 침투" — 2026-05 레드팀 테스트 중 Gemini가 비밀번호 추측·공개 크리덴셜 발견으로 실제 기업 3곳 시스템에 무단 접근, 실제 표적 인지 즉시 자율 중단. Google은 07월부터 인지했으나 비공개 (high)
@@ -251,7 +254,7 @@
 - [[ai-capex-productivity-gap]] — Wharton, 빅테크 AI 인프라 지출 정당화에 필요한 생산성 배율 2.7배(과거 IT붐 1.5배·광통신 1.3~1.5배 대비 이례적) (medium)
 - [[citizen-development]] — 현업이 AI로 사내 도구를 직접 만드는 흐름 (high)
 - [[ai-agent-routing]] — 작업 성격별 AI 에이전트 배정 전략 (medium)
-- [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영. 08-31 추가: Andrew Ng "AI Engineering Skills Map"(The Batch 1차 채널) 소프트웨어 펀더멘털 논지로 보강 (medium)
+- [[vibe-coding-vs-agentic-engineering]] — 프롬프트 1회 배포 vs 스펙·리뷰·테스트를 갖춘 운영. 08-31 추가: Andrew Ng "AI Engineering Skills Map"(The Batch 1차 채널) 소프트웨어 펀더멘털 논지로 보강. 10-04 추가: COSMIC/Pop!_OS, 메인테이너 부담을 이유로 AI 생성 기여 전면 금지 사례 (medium)
 - [[claude-code-large-codebase-context-design]] — 대규모 코드베이스에서 하니스가 동작을 결정 (medium)
 - [[skill-file-management]] — 커뮤니티가 공유한 Claude Code·Codex 스킬 파일 버전관리·배포 운영 노하우(HN 312점) — dotfiles 버전관리, 부트스트랩 배포, "CLAUDE.md는 세션 시작 때만 읽힌다" (medium)
 - [[loop-engineering]] — "프롬프트 다음은 루프" — 계획·탐색·수정·검증·재시도 반복 시스템 설계 역량. 08-17 계보 보강(Karpathy autoresearch 3월 원류 + Andrew Ng 세 겹 루프 6/26) 및 X발 Ng 인용문 왜곡 상충 표기. 08-31 추가: AX LABS "하네스 엔지니어링 6계층" 실전 프레임워크(AGENTS.md 템플릿·12항목 체크리스트·프롬프트 4종) 보강. 09-02 추가: Exponential View "에이전트 관리 7가지 교훈"(결승선 선명화·지능 배치·레버리지 측정, $800 vs $19,000/주) 보강 (medium)
@@ -281,6 +284,7 @@
 - [[harnesstax-coding-agent-harness-cost-benchmark]] — "HarnessTax" 연구(HN 225점) — 21개 모델-하네스 조합·통계검정 결과 하네스 간 품질 차이는 유의미하지 않은데(42개 비교쌍 중 보정 후 유의 0건) 비용은 최대 71% 차이(같은 모델 Pi vs Claude Code) (medium)
 - [[mollick-capability-overhang]] — "역량 오버행"(One Useful Thing) — AI가 실제로 할 수 있는 일과 사람이 시키는 일의 격차, AI를 잘 쓰는 인간의 네 우위(깊은지식·넓은지식·취향·주도성) (medium)
 - [[hardman-ai-course-generator-critique-frontline]] — "코스 저작 ≠ 교수설계 전문성" — AI 코스생성 도구 Frontline 실측, 진단단계 부재·목표불변설계·평가불일치·콘텐츠누락(14개 중 6개)·가드레일부재 5대 구조적 결함 (medium)
+- [[hardman-ai-video-generation-ld-learning-science]] — "영상을 더 만든다고 더 배우진 않는다" — AI 영상생성 도구를 학습과학 40년치에 대조, GSK SOP 실측 테스트에서 규칙 날조·6/10 범주 누락 확인 + 근거기반 6개 설계기법(행동모델링·대조사례·오류예시·예측후확인·1인칭시연·피드백연습) (medium)
 - [[agent-prompt-injection-defense-architecture]] — AI 에이전트 프롬프트 인젝션 방어 9계층(Meta Muse) — 런타임 격리·대리토큰·오염추적·대화 밖 승인 등, 09-25 자기복제 인젝션 연구·09-28 Nvidia 하드웨어 워치독과 같은 흐름 (medium)
 
 ## 회사·인물 (wiki/players/)

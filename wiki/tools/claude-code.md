@@ -147,6 +147,26 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
   Claude Code(엔지니어링)·Swan(GTM)·OpenClaw(핸드오프) 3개로 통합 — "워크플로를
   만드는 것"에서 "컨텍스트를 쓰는 것"으로 운영 방식 전환(정량 성과 미확인,
   에이전트 스프롤에 대한 반성 사례). → [[reddit-gtm-agent-consolidation-claude-code-swan-openclaw]]
+- **구루 인터뷰(2026-09-29)**: Latent Space 팟캐스트에서 Anthropic의 Thariq Shihipar가
+  Claude Code 로드맵을 공개 — **"CLAUDE.md는 언젠가 사라질 수도 있다"**, 세션 산출물을
+  영구 인터페이스로 쓰는 Artifacts, Claude Tag 기반 멀티플레이어(여러 사람이 한 에이전트를
+  공유) 작업, 하네스 자체를 커스터마이징하는 **Claude Mods** 체계, "가장 똑똑한 모델이
+  결국 가장 저렴한 모델도 될 수 있다"는 전망을 다뤘다. "에이전틱 코딩이 이제 모두가
+  코딩하는 기본 방식이 됐다"는 것이 2026-09 기준 Anthropic의 공식 진단. (1차 채널,
+  정량 수치 없는 로드맵 인터뷰)
+- **공식 가이드(2026-09-29/30)**: Addy Osmani가 작성한 공식 "Opus 5.5 활용법" 가이드
+  (claude.dev 블로그, HN 87점) — 핵심 권고는 ① 작업을 완료 조건까지 통째로 맡기고
+  언제 멈춰 물어볼지만 지정 ② "단계별로 생각해" 같은 명시적 사고 유도 문구를 프롬프트·
+  저장된 지침에서 제거(Opus 5.5는 항상 스스로 사고량을 결정) ③ 실행 중에도 추가 지시를
+  타이핑해 끼워 넣을 수 있음.
+- **인재육성(2026-10-02)**: Anthropic이 $100M을 투자해 엔터프라이즈 Claude 배포
+  전문인력 "Frontier Deployed Engineer" 1만 명을 2027년 말까지 양성하는
+  **Claude Frontier Academy**를 출시 — Accenture·Bain·Deloitte·Morgan Stanley 등이
+  1기 참여. → [[2026-10-02-anthropic-claude-frontier-academy-launch]]
+- **정부·규제산업(2026-09-30)**: Claude for Government가 FedRAMP High 환경에서
+  정식 출시(GA), 같은 환경에서 **Claude Code CLI·Claude for Microsoft 365 조기접근**도
+  동시 시작 — 지출 한도·2인 승인·감사 로그 등 정부 조달 수준 거버넌스 패키지가 코딩
+  에이전트에도 적용된 사례. → [[2026-09-30-anthropic-claude-for-government-ga]]
 
 ## 출처
 

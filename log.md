@@ -2985,3 +2985,32 @@ r/OpenAI는 429 레이트리밋으로 확보하지 못함(다음 스캔 재시�
 07-29 히트만 유지). "Gemini hacked three companies" HN 재부상은 09-18/09-23
 기존 사건(이미 [[2026-09-18-google-gemini-agentic-breach-three-companies]]로
 반영됨)의 재확산이라 중복 미반영.
+
+## [2026-10-04] scan | 항목 7건, 반영 7건
+
+업무 적용 Case 섹션은 이번 스캔에서 0건 — 최우선 수집 대상임에도 "도구+자동화한
+업무+방법" 구조에 맞는 신규 사례를 못 찾았다(9개 YouTube 채널·AX LABS·Reddit
+r/AI_Agents·r/ClaudeAI를 모두 확인했으나 에이전트 구축 튜토리얼 부재). 대신 빅
+뉴스 4건(Claude Frontier Academy $100M·Claude for Government GA 소급·Gemini
+무료티어 축소·OpenAI David Robinson 사퇴)과 커뮤니티 3건(Matthew Green 에이전트
+웜 경고·Hardman AI 영상생성 학습과학 검증·COSMIC AI 기여 금지)으로 반영.
+
+**소급 반영 1건**: Claude for Government GA(09-30 발표)가 09-30~10-03 스캔에서
+전부 누락돼 오늘 뒤늦게 반영 — RSS·1차 채널에 즉시 걸리지 않는 공식 발표는
+WebSearch로 한 번 더 교차확인해야 한다는 기존 교훈(08-30 Cowork 브라우저,
+09-01 Claudeforce)이 다시 확인됐다.
+
+**기존 페이지 후속 갱신 3건**: [[2026-07-21-openai-huggingface-security-incident]]에
+Matthew Green의 교차랩(Anthropic·Google) 웜 전파 분석 추가,
+[[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]]에 David Robinson
+사퇴 추가, [[vibe-coding-vs-agentic-engineering]]에 COSMIC/Pop!_OS 사례 추가 —
+신규 페이지 생성 대신 기존 페이지 교차링크로 처리(중복 생성 금지 원칙).
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 "확인 실패"로 기록.
+r/OpenAI는 두 번째 요청이 429(레이트리밋)로 막혀 확보 못함(r/ClaudeAI·
+r/AI_Agents는 정상 확보). AX LABS 블로그는 09-29에서 정체(신규 없음, 5일째).
+Josh Bersin·Harvard Business Impact RSS는 각각 09-15에서 정체, Addy Osmani는
+09-14("Brownfield Agentic Engineering")에서 정체. Karpathy·Andrew Ng HN
+인물쿼리는 이번에도 신규 히트 없음(기존 08-02·07-29 히트만 유지). "AI 에이전트가
+연구자에게 의식을 논하는 이메일을 보냈다" HN 재부상 건은 원 사건이 08-31자로
+이미 한 달 지난 뉴스라 페이지화·뉴스레터 모두 미반영(재부상 자체에 새 정보 없음).

@@ -67,6 +67,9 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
   만의 실제 출시. 출력 토큰 한도 100만(기존 6.4만)·사이버 보안 방어 특화, DeepSWE
   v1.1 77.9%·AutomationBench 1위. 우선 "신뢰받는 사이버 방어자" 한정 공개(Fairwind
   Program), 이후 API·AI Ultra로 순차 확대. HN 658점. → [[2026-09-30-google-gemini-4-argon-launch]]
+- **2026-10-09 예고**: 무료 플랜은 **Flash-Lite만** 남고 Flash·Pro 접근이 사라지며,
+  AI Plus도 Pro 접근을 잃는다(Flash-Lite+Flash만 유지) — 전체 모델 접근이 가능한
+  가장 저렴한 등급이 AI Pro로 올라간다. → [[2026-10-01-google-gemini-free-tier-model-access-cut]]
 
 ## 출처
 

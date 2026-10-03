@@ -8,6 +8,10 @@ date: 2026-07-07
 
 ## 2026-10
 
+- **10-02** — Anthropic, **$100M 투자해 "Claude Frontier Academy" 출시** — 2027년
+  말까지 엔터프라이즈 배포 전문인력(Frontier Deployed Engineer) 1만 명 양성 목표,
+  Accenture·Bain·Deloitte·Morgan Stanley 등 1기 참여 →
+  [[2026-10-02-anthropic-claude-frontier-academy-launch]]
 - **10-02** — OpenAI × Synopsys, **반도체 설계 전용 AI "GPT-Synopsys" 공동 개발** 발표
   — EDA 1위 업체와 손잡고 프론티어 모델이 EDA 툴을 직접 조작·칩 설계를 반복
   최적화하는 특화 모델 개발, 수익 공유 구조 →
