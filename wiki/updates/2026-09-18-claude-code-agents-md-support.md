@@ -60,9 +60,43 @@ feature flag(`tengu_agents_md_mod`)로 켜고 끄는 구조인데, 이 플래그
 텔레메트리를 끄는 이유(데이터 거버넌스)와 기능이 꺼지는 결과가 무관해 보일수록
 발견이 늦어진다는 점을 강의·AX 체크리스트에 함께 언급할 만하다.
 
+## 10-01 후속 — "Claude Code mods" 체계 정식 출시 (v2.1.287)
+
+09-18 당시 "AGENTS.md 지원은 새로 도입 중인 mods 체계의 내장 mod로 구현됐다"고
+예고했던 그 플랫폼 기능이 2026-10-01 **Claude Code v2.1.287**로 정식 출시됐다.
+
+- **mod란**: 플러그인 안에 담긴 JavaScript/TypeScript 이벤트 핸들러. 툴 호출,
+  프롬프트 제출, 턴 완료, 슬래시 명령, 화면 렌더링 등 Claude Code 내부 이벤트가
+  발생할 때마다 호출돼 그 이벤트를 **관찰·수정·가로채기** 할 수 있다. 기존 설정파일
+  기반 "hooks"(셸 명령 실행)와 달리, mod는 Claude Code 프로세스 **안에서** 직접
+  실행되므로 화면에 패널·버튼을 그리거나 툴 호출 자체를 바꿔치는 것처럼 설정 훅이
+  못하는 일을 할 수 있다.
+- **내장 전환 사례**: Anthropic은 자사 기능 중 `/diff` 패널, AGENTS.md 로더(이 페이지가
+  다루는 기능), 텔레메트리 전송 로직을 전부 mod로 재구현해 "Built-in mods"로 공개했다
+  — mod 체계가 실험적 애드온이 아니라 Claude Code 자체의 내부 구현 방식이 됐다는 뜻이다.
+- **샘플 공개**: `claude-code-playground` 저장소에 위험한 셸 명령(`rm -rf` 등) 실행 전
+  영향범위를 시각화하는 `blast-radius`, 컨텍스트 윈도우 소진을 예보하는
+  `token-weather`, 직전 턴의 파일 수정을 단계별로 재생하는 `replay-theater` 등
+  샘플 mod 3종을 공개했다. 커뮤니티 카탈로그(`awesome-claude-code-mods`)도 함께
+  등장해 GitHub에 공개된 mod들을 스캔하고 각 mod가 읽기/쓰기/실행/네트워크 중
+  무엇에 접근하는지 자동 분석해 보여준다.
+- **보안 경고**: mod는 **샌드박싱되지 않으며 사용자 권한 그대로** 실행된다 — 파일
+  읽기/쓰기, 프로세스 실행, 네트워크 요청, 세션 내용 열람·조작, 심지어 권한 프롬프트를
+  사용자 대신 승인하는 것까지 가능하다. 공식 문서는 "신뢰하는 제작자·마켓플레이스의
+  mod만 설치하라"고 명시한다.
+- **버전 요구**: v2.1.287 이상, 기본값 켜짐. `--safe-mode`로 세션 단위, 설정파일
+  `disableAllHooks`로 영구 비활성화 가능.
+
+09-18 당시엔 "mods 체계의 첫 내장 기능"이라는 예고 수준이었던 것이, 2주 만에
+**사용자가 직접 TypeScript로 하네스 자체의 UI·동작을 바꿀 수 있는 공식 플러그인
+계층**으로 완성된 것이어서, "Claude Code를 커스터마이징하는 표준 방법"이 하나
+더 생긴 셈이다. 다만 비샌드박스·전권한 실행 구조라 기업 환경에서는 "mods를 누가
+검수·승인할 것인가" 거버넌스가 AGENTS.md 사례보다 더 중요해진다.
+
 ## 출처
 
 - [Simon Willison — Quoting Thariq Shihipar](https://simonwillison.net/2026/Sep/18/thariq-shihipar/)
 - [GitHub — anthropics/claude-code mods/agents-md](https://github.com/anthropics/claude-code/tree/main/mods/agents-md)
 - [Hacker News(181점) — Claude Code now reads AGENTS.md if there is no Claude.md](https://news.ycombinator.com/item?id=49760187)
 - [블로그 — Claude Code reads AGENTS.md only when telemetry is on](https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/) · [Hacker News(427점)](https://news.ycombinator.com/item?id=49814947)
+- 10-01 후속: [Claude Code Docs — Mods overview](https://code.claude.com/docs/en/plugins/mods/overview) · [GitHub — anthropics/claude-code/mods](https://github.com/anthropics/claude-code/tree/main/mods) · [GitHub — anthropics/claude-code-playground/claude-code/mods](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods) · [GitHub — karanb192/awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods)

@@ -114,6 +114,14 @@ $30조 피치를 함께 놓고 보면, **매출 성장에 맞춰 인프라 베�
 공격적으로 확대**하고 있다는 일관된 그림이 완성된다. Anthropic은 2026년
 6월 미 SEC에 비공개 IPO 서류를 제출한 상태다.
 
+## 10-05 메모 — IPO 최신 일정은 별도 페이지로 통합
+
+IPO 타임라인(투자자 데이 일정·밸류에이션·지배구조 등)은 이 페이지가 아니라
+**[[2026-07-15-anthropic-ipo-investor-meetings]]**가 정본으로 계속 갱신 중이다
+(10-05 기준 최신 절: "10/14 투자자 데이·Founder LLC 지배구조" 후속). 매출·수익성
+추세는 이 페이지에, IPO 절차 자체는 그 페이지에 나눠 기록한다 — 중복 생성 방지를
+위해 10-05 스캔에서 이 분리를 재확인했다.
+
 ## 출처
 
 - [Simon Willison — Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/) (2026-08-23)

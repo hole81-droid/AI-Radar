@@ -112,6 +112,23 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
   ([[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]])과 겹쳐, "AI 안전성
   리스크 공개"가 규제 당국과 자본시장 양쪽에서 동시에 임계점에 도달한 한 주였다.
 
+## 후속 갱신 (2026-10-05) — 투자자 데이 날짜 확정(10/14), "Founder LLC" 지배구조 공개
+
+- **투자자 데이 날짜 특정**: 09-29~10-01 후속 절의 "11월 중순·11/9주 마케팅" 전망이
+  더 구체화됐다 — Anthropic이 **10월 14일 샌프란시스코 본사에서 기관투자자 대상
+  프리-IPO 투자자 데이**를 연다. 공식 마케팅(로드쇼)은 기존 전망대로 **11월 9일
+  주간 시작**, **추수감사절(11/26) 전 상장**이 목표로 유지된다.
+- **밸류에이션 범위 구체화**: 투자자들이 제시하는 공정가치가 **$1.8조~$2조**
+  범위로 보도됐다 — 기존 "$2조" 단일 수치에서 범위로 좁혀졌다. 하단 $1.8조도
+  SpaceX의 기존 최대 기록 $1.77조를 넘어서는 수준이라, 어느 쪽이든 **사상 최대
+  IPO**가 유력하다.
+- **신규 확인 — "Founder LLC" 지배구조**: 이전 갱신에 없던 내용으로, 공동창업자
+  7인이 통제하는 **Founder LLC**를 신설해 단일 **Class F 주식**으로 핵심 안건에
+  대한 **50.1% 의결권**을 상장 후에도 유지하는 구조를 준비 중이라는 보도가
+  나왔다. 상장으로 외부 자본이 대거 유입돼도 창업자 그룹이 경영권을 내주지
+  않겠다는 설계로 해석된다.
+- 주관사는 기존과 동일하게 Morgan Stanley·Goldman Sachs·JPMorgan Chase.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
@@ -130,3 +147,4 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - [Bloomberg — Anthropic Targets November IPO After Delays (10-01, 제목만 확인)](https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday)
 - 관련: [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
 - raw: `raw/2026-09/anthropic-ipo-prospectus-financials.md` · `raw/2026-10/anthropic-ipo-risk-disclosure-and-timeline.md`
+- 10-05 갱신: [Bloomberg — Anthropic Is Said to Plan Pre-IPO Investor Day as Listing Nears](https://www.bloomberg.com/news/articles/2026-10-01/anthropic-is-said-to-plan-pre-ipo-investor-day-as-listing-nears) · [PYMNTS — Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation](https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-targets-pre-thanksgiving-ipo-at-2-trillion-valuation/) · [Yahoo Finance — Anthropic targets pre-Thanksgiving IPO at $2 trillion valuation](https://finance.yahoo.com/markets/stocks/articles/anthropic-targets-pre-thanksgiving-ipo-111436118.html) · [Briefs — Anthropic Holds Investor Day Oct 14 Ahead of IPO](https://www.briefs.co/news/anthropic-sets-investor-meetings-on-oct-14-ahead-of-possible/) · [KuCoin News — Anthropic Plans Pre-IPO Investor Day on October 14](https://www.kucoin.com/news/flash/anthropic-plans-pre-ipo-investor-day-on-october-14-eyes-thanksgiving-window-ipo-with-1-8-2-trillion-valuation)

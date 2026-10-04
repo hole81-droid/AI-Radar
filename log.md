@@ -3014,3 +3014,31 @@ Josh Bersin·Harvard Business Impact RSS는 각각 09-15에서 정체, Addy Osma
 인물쿼리는 이번에도 신규 히트 없음(기존 08-02·07-29 히트만 유지). "AI 에이전트가
 연구자에게 의식을 논하는 이메일을 보냈다" HN 재부상 건은 원 사건이 08-31자로
 이미 한 달 지난 뉴스라 페이지화·뉴스레터 모두 미반영(재부상 자체에 새 정보 없음).
+
+## [2026-10-05] scan | 항목 9건, 반영 8건
+
+빅 뉴스 3건(Anthropic IPO 투자자데이 10/14 확정+Founder LLC 지배구조, Claude Code
+mods 정식 출시 v2.1.287, Yann LeCun의 Amodei 공개 비판), 업무 적용 Case 1건
+(liao.gg "에이전트는 메모리 대신 문서화가 필요하다" — Operator Memory 오픈소스,
+HN 330점), 커뮤니티 화제 2건(r/ClaudeAI 모델 성능 체감↑ vs 주간한도 불만 공존,
+r/AI_Agents "에이전트를 덜 중요하게"), YouTube 픽 3건(조코딩 IT뉴스·Ben AI Opus
+5.5 디자인·Liam Ottley OpenAI 에코시스템)을 반영. 전부 신규 페이지 생성 대신
+**기존 페이지 갱신으로 처리**— [[2026-07-15-anthropic-ipo-investor-meetings]],
+[[2026-09-18-claude-code-agents-md-support]], [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]
+에 각각 후속 절 추가, 신규 생성은 use-case 1건([[liao-agents-documentation-not-memory]])뿐.
+
+**중복 생성 방지 2건 적발**: ① IPO 투자자데이 소식을 처음엔 엉뚱한 페이지
+([[2026-08-23-anthropic-revenue-fable-adoption-struggle]])에 쓰려다, 이 주제의
+정본이 [[2026-07-15-anthropic-ipo-investor-meetings]]임을 뒤늦게 확인하고 옮김
+(08-23 페이지에는 분리 안내만 남김). ② One Useful Thing "The Dot and the Swarm"
+(Mollick)을 커뮤니티 화제로 쓰려다, 이미 10-02 스캔에서
+[[2026-09-08-openai-navier-stokes-solved]]에 후속 절로 반영 완료된 건임을 확인해
+제외 — 두 사례 모두 "페이지화 전 기존 위키 검색" 절차가 실제로 작동함을 확인.
+
+**보류/실패**: Udemy 신규 강의 확인 — Browser pane 없어 "확인 실패"로 기록.
+r/AI_Agents "멀티 에이전트 시스템 개선" 게시물은 본문 상세 확인 실패(파일 저장
+도구 제약)로 제목 수준 정보만 뉴스레터에 반영. AI Frontier Korea(노정석)는
+최신 EP116(09-27)이 3일 창을 벗어나 YouTube 픽 제외. McKinsey "CEO's singular
+impact on AI" 기사는 WebFetch 60초 타임아웃(기존 08-17 기록과 동일 패턴 재확인)
+으로 본문 확인 실패해 미반영. Karpathy·Andrew Ng HN 인물쿼리, AX LABS·Josh
+Bersin·Harvard Business Impact·Hardman RSS는 전부 기존 확인분에서 정체(신규 없음).

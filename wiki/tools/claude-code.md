@@ -167,6 +167,12 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
   정식 출시(GA), 같은 환경에서 **Claude Code CLI·Claude for Microsoft 365 조기접근**도
   동시 시작 — 지출 한도·2인 승인·감사 로그 등 정부 조달 수준 거버넌스 패키지가 코딩
   에이전트에도 적용된 사례. → [[2026-09-30-anthropic-claude-for-government-ga]]
+- **Mods 정식 출시(2026-10-01, v2.1.287)**: 09-29 로드맵 인터뷰에서 예고됐던
+  **Claude Code mods**가 실제 출시됐다 — TypeScript/JavaScript 이벤트 핸들러로
+  하네스 내부의 UI·툴 호출·명령을 직접 바꿀 수 있는 플러그인 계층. Anthropic은
+  `/diff` 패널·AGENTS.md 로더·텔레메트리 전송 로직을 전부 mod로 재구현해 공개했다.
+  비샌드박스·사용자 전권한 실행 구조라 보안 검토가 중요하다. →
+  [[2026-09-18-claude-code-agents-md-support]] (10-01 후속 절)
 
 ## 출처
 

@@ -121,6 +121,31 @@ Sam Altman이 09-12 당일 동의했던 "외부 평가자 상시 배치" 약속�
 Opus 5.5를 출시해([[2026-09-22-anthropic-claude-opus-5-5-launch]]) "감속"과
 "신모델 출시"가 한 회사에서 동시에 진행 중임을 다시 확인시켰다.
 
+## 10-01 후속 — Yann LeCun, Amodei를 공개 비판("완전히 망상에 빠졌다")
+
+Meta의 전 수석 AI 과학자 Yann LeCun이 2026-10-01 Fortune과의 인터뷰(뉴욕 소호 카페에서
+진행)에서 Amodei를 정면 비판했다. "완전히 망상(deluded)에 빠졌다"고 칭하고, 뒤이어
+"미쳤다(crazy)"는 표현까지 썼다.
+
+- **안전 경고 자체를 비판**: Amodei·Sam Altman의 "AI가 인류를 전멸시킬 수 있다"는
+  메시지를 "지금까지 본 것 중 최악의 마케팅 캠페인"이라며 "대단히 파괴적"이라고
+  평가했다.
+- **규제 포획(regulatory capture) 의혹 제기**: 09-14 David Sacks의 비판과 같은
+  맥락으로, Amodei가 "AI가 너무 위험하다"며 오픈소스 모델 규제를 요구하는 것이
+  **Anthropic의 IPO를 앞두고 자사에 유리한 규제 환경을 만들려는 전략적 포지셔닝**이라고
+  주장했다. "법제화되면 끔찍한 결과를 낳을 것"이라고 덧붙였다.
+- **Effective Altruism 비판**: 이런 안전 담론의 뿌리를 실효적 이타주의(Effective
+  Altruism)로 지목하고 "매우 유독하다"며, 이 사조가 AI 연구자들 사이에 "편집증"을
+  낳아 잘못된 의사결정으로 이어진다고 비판했다.
+
+이 발언은 09-12 Amodei의 감속 선언 이후 이어진 백악관(09-14 David Sacks)·반독점
+소송(09-19)·NY Post 의혹보도(09-19)와 같은 결의 비판이지만, **AI 업계 최고 유명
+인사 중 한 명이 실명으로 공개 비판**했다는 점에서 담론의 무게가 다르다. 다만 LeCun도
+2025년 말 Meta를 떠나 "월드모델"(LLM 대신 물리 세계를 내재적으로 이해하는 AI) 연구를
+표방하는 자신의 신생 스타트업 AMI Labs(밸류에이션 $3.5B)를 운영 중인 이해당사자라는
+맥락은 함께 읽어야 한다 — LLM 패러다임을 미는 Anthropic·OpenAI와는 애초에 기술노선이
+갈리는 경쟁자에 가깝다.
+
 ## 관련 페이지
 
 - [[2026-09-22-openai-third-party-safety-assessments]] — 09-22 후속: OpenAI의 2단계 첫 구체 실행
@@ -140,3 +165,4 @@ Opus 5.5를 출시해([[2026-09-22-anthropic-claude-opus-5-5-launch]]) "감속"�
 - 09-14 후속: [NPR — Trump warns against slowing AI but he is not against guardrails](https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown) · [Yahoo News — Trump rejects call by CEOs of Anthropic, OpenAI and xAI to slow AI down](https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html) · [Neowin — David Sacks blasts OpenAI and Anthropic over slowdown](https://www.neowin.net/news/david-sacks-blasts-openai-and-anthropic-over-slowdown/)
 - 09-18 후속: [Anthropic — Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation) · [CNBC](https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html) · [TechCrunch](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/) · [Accenture Newsroom](https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic)
 - 09-19 후속: [CNN — Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown](https://www.cnn.com/2026/09/19/business/ai-slowdown-lawsuit-antitrust) · [Fortune](https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/) · [CBS News](https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/) · NY Post(2차 확인: ground.news, jingletree) — "OpenAI and Anthropic oversold AI security breaches to pressure feds into protecting turf: insiders"
+- 10-01 후속: [Fortune — AI godfather Yann LeCun says Anthropic CEO Dario Amodei is deluded](https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/) (HN 372점) · [Fortune — AI godfather Yann LeCun: Anthropic CEO deluded, doesn't understand cybersecurity](https://fortune.com/2026/10/01/yann-lecun-anthropic-ceo-dario-amodei-deluded-crazy-cybersecurity/) (HN 24점)
