@@ -3042,3 +3042,36 @@ r/AI_Agents "멀티 에이전트 시스템 개선" 게시물은 본문 상세 �
 impact on AI" 기사는 WebFetch 60초 타임아웃(기존 08-17 기록과 동일 패턴 재확인)
 으로 본문 확인 실패해 미반영. Karpathy·Andrew Ng HN 인물쿼리, AX LABS·Josh
 Bersin·Harvard Business Impact·Hardman RSS는 전부 기존 확인분에서 정체(신규 없음).
+
+## [2026-10-06] scan | 항목 9건, 반영 9건
+
+빅 뉴스 3건(Anthropic Claude 대화 경찰신고 패턴 3번째 확인·Google Gemini "Skills"
+출시로 Gems 단계적 대체·OpenAI EU 텍스트 워터마크 도입으로 Anthropic 8/11 대응과
+업계 흐름 확인), 업무 적용 Case 1건(Vals AI, Claude Opus 5.5 다중 에이전트로 상온
+자성 반도체 후보 2종 계산 발견 — 제3자 독립 수행·GitHub 재현 공개·실험 미검증),
+커뮤니티 화제·도구 실사용 평가 2건(r/ClaudeAI Opus 5.5·GPT-6 Astra·DeepSeek·Gemini
+4 모델 비교 스레드+Artificial Analysis 벤치마크 교차확인, Simon Willison "기본값은
+하드 지출한도여야 한다" — AWS 9월 지출한도 기능 계기), YouTube 픽 2건(AI Frontier
+Korea EP117 코스맥스 ERP 대담, Liam Ottley ChatGPT Business Platform 실사용 리뷰).
+Udemy는 Browser pane 미제공으로 확인 실패.
+
+신규 생성: use-case 1건([[vals-ai-opus-magnetic-semiconductor-discovery]]),
+update 2건([[2026-10-05-anthropic-claude-law-enforcement-reporting]],
+[[2026-10-05-gemini-skills-replace-gems]]). 나머지는 기존 페이지 갱신으로 처리 —
+OpenAI EU 워터마크는 [[2026-08-11-anthropic-ai-content-watermarking]]에 10/5 후속
+절로(새 페이지 대신 같은 사건의 업계 확산으로 판단), McKinsey "AI is changing
+work..." 조직재설계 프레임글은 수치·기업명 없는 관점글이라
+[[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]]에 후속 절로, HBR "AI Is
+Making Verification the Bottleneck"도 같은 이유로 [[botsitting-hidden-ai-labor]]에
+한 줄 교차참조로만 추가. McKinsey 두 건 모두 WebFetch 60초 타임아웃 재현(기존
+08-17·09-01 패턴과 동일)으로 본문 전체 확인은 실패, WebSearch 교차확인으로 대체.
+
+index.md 뉴스레터 목록이 10-01~10-04 누락 상태였음을 발견해 소급 보강(해당
+날짜 뉴스레터 파일은 이미 존재, 링크만 빠져 있었음 — 반영 자체는 문제 없었음).
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록. YouTube
+9채널 중 조코딩·장피엠·GPTers·kooky0ai·BenAI·Dan Martell·Varun Mayya는 10-05
+이전 업로드(이미 반영분 또는 주제 무관)에서 정체, Jeff Su는 09-30에서 정체.
+Reddit은 r/ClaudeAI만 확보, r/AI_Agents는 연속요청 레이트리밋으로 빈 응답 —
+재시도 생략. HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규
+히트 없음.

@@ -40,6 +40,7 @@ uses: [course, ax]
 - [[openai-internal-research-agents-acceleration]] — OpenAI가 Codex 등 코딩 에이전트(cli-pipeline)를 자사 연구조직 전체에 투입해 연구 코드 작성·실험 인프라·실패조사·모니터링을 가속 → 8월 중순 기준 에이전트 가동량이 사람 노동일의 3.1배, 연구원 1인당 하루 비용 중앙값 $600+·90th percentile $7,000+ (실측, 자사 공개)
 - [[mollick-mythos-fable-isochrone-map-research]] — Ethan Mollick이 Claude Code(Fable, Mythos급)로 vibe-coding과 서브에이전트 위임을 활용해 연구 집약적 소프트웨어(등시선 지도·통계 보정 도구)를 제작 → 수 시간 자율 실행으로 완성, 통제 방식이 "조종"에서 "위탁"으로 이동 (일화, 저자 본인 체험)
 - [[2026-09-25-anthropic-claude-nine-loop-amplitude]] — Anthropic이 Claude(Fable 5.1, Claude Science)로 기존 부트스트랩·폼팩터 계산 기법(cli-pipeline)을 활용해 이론물리 최전선 문제(9-루프 산란 진폭)를 자율 계산 → 96 CPU 약 1주일, 전문가(Lance Dixon) 독립 검증 통과 (실측, demo)
+- [[vals-ai-opus-magnetic-semiconductor-discovery]] — Vals AI가 Claude Opus 5.5 다중 에이전트(subagents+cli-pipeline)로 문헌리뷰+신소재 설계+DFT 양자계산 스크리닝을 활용해 상온 자성(스핀분리) 반도체 후보 탐색을 수행 → 3일 만에 계산적 후보 2종 도출, GitHub 재현 공개(실험 미검증) (실측, 제3자 독립 수행)
 
 ## 개발 자동화 (dev-automation)
 

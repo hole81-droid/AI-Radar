@@ -70,6 +70,9 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-10-09 예고**: 무료 플랜은 **Flash-Lite만** 남고 Flash·Pro 접근이 사라지며,
   AI Plus도 Pro 접근을 잃는다(Flash-Lite+Flash만 유지) — 전체 모델 접근이 가능한
   가장 저렴한 등급이 AI Pro로 올라간다. → [[2026-10-01-google-gemini-free-tier-model-access-cut]]
+- **2026-10-05**: "Skills"(재사용 커스텀 지시) 출시, Gems를 단계적으로 대체 — Workspace
+  10/5·Gemini 앱 10/13 순차 도입, Gems는 11/17부터 설정 패널로 격하 →
+  [[2026-10-05-gemini-skills-replace-gems]]
 
 ## 출처
 

@@ -437,7 +437,8 @@ AI 안전성 서사가 규제 당국 조사로 이어진 사례. →
   [[claude-ai-3x-faster-measurement-driven-optimization]] ·
   [[2026-09-28-trump-amodei-white-house-dinner]] ·
   [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] ·
-  [[weave-router-claude-code-codex-model-routing]]
+  [[weave-router-claude-code-codex-model-routing]] ·
+  [[2026-10-05-anthropic-claude-law-enforcement-reporting]]
 
 ## 출처
 

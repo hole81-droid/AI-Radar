@@ -4,10 +4,23 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-05, 195건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-05, 199건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-05** — Anthropic, **Claude 대화 내용을 경찰에 신고 — 올해 최소 3번째 사례** —
+  플로리다 여성이 Claude를 "일기장"으로 쓰며 보안관서 총격 위협을 작성, Anthropic 안전팀이
+  자동 플래그 후 법집행기관에 신고해 중범죄 기소. 8월 SFPD 신고(Amodei 위협) 건에 이어
+  패턴화 → [[2026-10-05-anthropic-claude-law-enforcement-reporting]]
+- **10-05** — Google, **Gemini "Skills" 출시 — Gems를 단계적으로 대체** — 재사용 커스텀
+  지시 기능, Workspace 10/5·앱 10/13 순차 출시, Gems는 11/17부터 설정 패널로 격하
+  → [[2026-10-05-gemini-skills-replace-gems]]
+- **10-05** — OpenAI, **EU 텍스트 출처(provenance) 규칙 대응 — ChatGPT·Codex 비가시
+  워터마크 도입** — Anthropic의 8/11 대응과 같은 틀(비가시 워터마크+한계 자기고지)로
+  약 2개월 뒤 따라붙은 사례 → [[2026-08-11-anthropic-ai-content-watermarking]] (10-05 후속 절)
+- **10-05** — Vals AI, **Claude Opus 5.5 에이전트로 상온 자성 반도체 후보 2종 계산 발견** —
+  3일간 문헌리뷰~DFT 계산 스크리닝, 제3자가 독립 수행·GitHub 공개 재현 가능 (실험 미검증)
+  → [[vals-ai-opus-magnetic-semiconductor-discovery]]
 - **10-02** — Anthropic, **$100M 투자해 "Claude Frontier Academy" 출시** — 2027년
   말까지 엔터프라이즈 배포 전문인력(Frontier Deployed Engineer) 1만 명 양성 목표,
   Accenture·Bain·Deloitte·Morgan Stanley 등 1기 참여 →

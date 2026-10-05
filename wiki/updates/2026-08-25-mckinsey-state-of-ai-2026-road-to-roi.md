@@ -47,7 +47,24 @@ McKinsey가 매년 발행하는 연례 AI 도입 서베이 "The State of AI"의 
   기반 수치라는 한계(응답자 자기보고, 실측 감사 아님)를 함께 짚어 "주장(claimed)과
   실측(measured)을 구분하는 법"을 가르치는 소재로도 쓸 수 있다.
 
+## 10/5 후속 — "이제 조직을 바꿔야 한다" 프레임 아티클
+
+2026-10-05 McKinsey가 "AI is changing work. Now it has to change the organization"을
+발행했다. McKinsey 특유의 WebFetch 60초 타임아웃으로 본문 전체 확인에는 실패했으나(기존
+08-17·09-01 기록과 동일 패턴), 확인된 범위의 핵심 주장은 "업무 방식은 AI로 이미 바뀌었는데
+조직 구조가 그 속도를 못 따라간다"는 것 — 중간관리자의 역할이 "정보 전달"에서 "AI 산출물의
+검증·신뢰 판단"으로 재정의돼야 한다는 프레임이다. **이 아티클 자체에는 구체적 수치·기업명이
+없어** evidence 기준상 anecdotal(관점글)로 분류한다.
+
+WebSearch로 교차확인한 관련 수치(McKinsey의 다른 2026년 리포트에서 나온 것으로 추정,
+이 아티클이 직접 인용했는지는 원문 대조 실패로 미확인): 리더의 72%가 "조직이 변화에 충분히
+준비되지 않았다"고 응답, 조직의 88%가 AI 실험 중이나 81%는 "손익에 의미 있는 영향 없음"으로
+응답(위 "고성과 기업 6%"와 같은 간극을 다른 질문으로 재확인), 6곳 중 1곳은 AI 도입 책임
+C-레벨 오너가 불명확. 수치의 1차 출처가 이 10/5 아티클인지 다른 리포트인지 혼동하지 않도록
+주의.
+
 ## 출처
 
 - [McKinsey — The state of AI in 2026: On the road to ROI](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 - [The Register — McKinsey says enterprise AI is finally 'on the road to ROI'](https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/)
+- [McKinsey — AI is changing work. Now it has to change the organization (10-05)](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization)

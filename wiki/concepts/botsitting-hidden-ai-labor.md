@@ -81,9 +81,18 @@ UC Berkeley, UNC Charlotte, University College London 연구진.
 - Work AI Index는 **Glean(Rebecca Hinds 소속 기업)이 발간한 벤더 리포트**다.
   학술 공동 저자가 참여했으나 이해상충 가능성을 감안해 `claimed` 수준으로 인용할 것.
 
+## 10/2 후속 — "검증이 병목이다" 같은 결의 HBR 관점글
+
+2026-10-02 HBR "AI Is Making Verification the Bottleneck for Companies"가 발행됐다.
+위 botsitting 개념과 같은 문제의식(AI 산출물을 누가·어떻게 검증하는가)이지만, 이 글은
+**수치·기업명·연구 인용이 전혀 없는 순수 프레임 글**이다(본문 확인 결과) — 위계질서의
+역할이 "정보 전달"에서 "AI 산출물 검증·신뢰 판단"으로 재정의돼야 한다는 주장만 제시한다.
+새 수치가 없어 별도 페이지화하지 않고 이 개념 페이지에 한 줄로 교차참조한다.
+
 ## 출처
 
 - HBR 원문(페이월): https://hbr.org/2026/08/how-much-time-do-your-employees-spend-botsitting
 - 원 리포트: https://glean.com/work-ai-institute/reports/work-ai-index-report
 - 2차 보도: https://peoplemanagingpeople.com/career/rebecca-hinds/
 - 수집 원문 요약: `raw/2026-09/hbr-botsitting-glean-work-ai-index-2026.md`
+- [HBR — AI Is Making Verification the Bottleneck for Companies (10-02, 관점글)](https://hbr.org/2026/10/ai-is-making-verification-the-bottleneck-for-companies)
