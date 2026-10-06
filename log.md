@@ -3075,3 +3075,5 @@ index.md 뉴스레터 목록이 10-01~10-04 누락 상태였음을 발견해 소
 Reddit은 r/ClaudeAI만 확보, r/AI_Agents는 연속요청 레이트리밋으로 빈 응답 —
 재시도 생략. HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 이번에도 신규
 히트 없음.
+
+## [2026-10-07] scan | 항목 8건, 반영 8건

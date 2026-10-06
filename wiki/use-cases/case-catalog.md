@@ -100,6 +100,8 @@ uses: [course, ax]
 - [[jevmem-claude-code-project-memory]] — Claude Code용 오픈소스 도구가 외부 채점 API "Jev"(hooks)를 활용해 세션 간 프로젝트 결정·버그·TODO 자동 기억을 수행 → GitHub 66 stars, 정량 성과는 미확인 (주장, 초기 프로토타입)
 - [[foremerge-parallel-coding-agent-conflict-detection]] — Claude Code·Codex·Cursor에 MCP 서버(mcp)로 "공유 화이트보드"를 붙여 병렬 코딩 에이전트 간 의도 충돌 사전 감지를 수행 → GitHub 507 stars, 공식 벤치마크 결과는 자체적으로 "아직 없음"이라 명시 (주장, pre-1.0)
 - [[claude-frontend-aesthetics-ai-slop]] — Claude(Claude Code)로 skills+mcp(컴포넌트 라이브러리 연동+`/frontend-design` 스킬)를 활용해 획일적인 "AI 슬롭" UI에서 벗어난 프론트엔드 생성을 수행 → 타이포그래피·색상 지시 변경만으로 정성적 개선(정량 미확인) (일화, Anthropic 공식 쿡북 기반)
+- [[anthropic-skill-authoring-best-practices]] — Claude로 공식 Skill 저작 베스트프랙티스(skills, "Claude A/B" 평가주도 반복개발 패턴)를 활용해 SKILL.md 작성 품질 표준화를 수행 → 체크리스트형 품질 기준 확립 (강의 콘텐츠, 정량 성과 미확인)
+- [[reddit-claude-code-teams-ticket-autoresponder]] — Claude Code로 Teams 상주 자동응답+자율 티켓 처리 루프(cli-pipeline)를 활용해 사내 개발 티켓 수신·작업·완료통보·QA할당을 수행 → 무인 처리, 동료 대비 생산성 격차로 조직 재배치 논의까지 발생 (일화, 정량 미확인)
 
 ## 보안·운영 (ops)
 
