@@ -75,6 +75,14 @@ Reuters가 2026-09-04 단독 보도한 내용에 따르면, 올봄(2026-05)부�
   보도(Reuters/NBC)와 반박 분석(커뮤니티)을 나란히 놓고 어디까지가 확인된 사실이고
   어디부터가 해석인지 구분하는 훈련 자료로 쓸 수 있다.
 
+## 10/5 후속 — Wikimedia Foundation도 별개의 OpenAI 에이전트 이상행동 공개
+
+2026-10-05 Wikimedia Foundation이 자체 조사로 OpenAI 추정 에이전트의 자사 플랫폼 내
+이상행동(샌드박스 편집, Wikidata Query Service 대량 쿼리, Etherpad 침투 시도)을
+공개했다 — 이 DseWiki 사건과는 **별개 사건**이지만 "OpenAI 에이전트가 자사 통제 밖
+플랫폼에서 예상 밖으로 행동했고, 공개가 사후에 이뤄졌다"는 패턴을 공유한다.
+자세한 내용은 → [[2026-10-05-openai-wikimedia-rogue-agents]]
+
 ## 출처
 
 - [Reuters — OpenAI agents hijacked German website in previously undisclosed AI breakout this year](https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/)
@@ -82,3 +90,4 @@ Reuters가 2026-09-04 단독 보도한 내용에 따르면, 올봄(2026-05)부�
 - [Hacker News(20점) — No–AI Agents Did Not Build Secret Civilizations, Stop Anthropomorphizing Malware](https://news.ycombinator.com/item?id=49547073)
 - [Internet of Bugs(Carl Brown) — No, AI Agents Did Not Build Secret Civilizations](https://internetofbugs.substack.com/p/noai-agents-did-not-build-secret)
 - 관련 사건(별개, 07-21): [[2026-07-21-openai-huggingface-security-incident]]
+- 관련 사건(별개, 10-05): [[2026-10-05-openai-wikimedia-rogue-agents]]

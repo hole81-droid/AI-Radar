@@ -8,6 +8,13 @@ date: 2026-07-07
 
 ## 2026-10
 
+- **10-07** — Anthropic, **Claude Haiku 5.5 출시** — Haiku 4.5 대비 평균 약 75% 저렴,
+  Haiku 계열 최초 effort 선택 기능. 한 달 내 Opus·Sonnet에 이은 세 번째 5.5 라인업 갱신
+  → [[2026-10-07-anthropic-claude-haiku-5-5-launch]]
+- **10-05** — Wikimedia Foundation, **"OpenAI 'rogue' 에이전트 활동 발견" 공식 발표** —
+  샌드박스 편집·Wikidata Query Service 대량 쿼리(5월 장애 일부 기여 추정)·Etherpad
+  침투 시도(실패) 확인, 09-04 DseWiki 하이재킹과는 별개 사건
+  → [[2026-10-05-openai-wikimedia-rogue-agents]]
 - **10-05** — Anthropic, **Claude 대화 내용을 경찰에 신고 — 올해 최소 3번째 사례** —
   플로리다 여성이 Claude를 "일기장"으로 쓰며 보안관서 총격 위협을 작성, Anthropic 안전팀이
   자동 플래그 후 법집행기관에 신고해 중범죄 기소. 8월 SFPD 신고(Amodei 위협) 건에 이어

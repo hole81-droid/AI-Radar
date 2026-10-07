@@ -41,6 +41,7 @@ uses: [course, ax]
 - [[mollick-mythos-fable-isochrone-map-research]] — Ethan Mollick이 Claude Code(Fable, Mythos급)로 vibe-coding과 서브에이전트 위임을 활용해 연구 집약적 소프트웨어(등시선 지도·통계 보정 도구)를 제작 → 수 시간 자율 실행으로 완성, 통제 방식이 "조종"에서 "위탁"으로 이동 (일화, 저자 본인 체험)
 - [[2026-09-25-anthropic-claude-nine-loop-amplitude]] — Anthropic이 Claude(Fable 5.1, Claude Science)로 기존 부트스트랩·폼팩터 계산 기법(cli-pipeline)을 활용해 이론물리 최전선 문제(9-루프 산란 진폭)를 자율 계산 → 96 CPU 약 1주일, 전문가(Lance Dixon) 독립 검증 통과 (실측, demo)
 - [[vals-ai-opus-magnetic-semiconductor-discovery]] — Vals AI가 Claude Opus 5.5 다중 에이전트(subagents+cli-pipeline)로 문헌리뷰+신소재 설계+DFT 양자계산 스크리닝을 활용해 상온 자성(스핀분리) 반도체 후보 탐색을 수행 → 3일 만에 계산적 후보 2종 도출, GitHub 재현 공개(실험 미검증) (실측, 제3자 독립 수행)
+- [[reddit-claude-code-exoplanet-candidate-discovery]] — 아마추어 천문학자가 Claude Code(Opus 5.5·Fable 5.1)+Codex 독립감사(cli-pipeline)로 반증 중심 분석을 활용해 NASA TESS 데이터에서 외계행성 후보를 탐색 → 지구 1.4배 후보 발견, 선반증 검증 3/3, 11월 재관측 승인 (주장, 동료심사 전)
 
 ## 개발 자동화 (dev-automation)
 
@@ -159,6 +160,7 @@ uses: [course, ax]
 - [[latentspace-grok-bot-five-days-vs-openclaw]] — xAI Grok Bot(subagents+browser-agent)으로 코딩 라우팅용·고객지원 모니터링용·개인비서용 Bot을 구성해 5일 실사용 → 관리형 인프라 덕에 설정 부담은 낮으나 딥 엔지니어링엔 여전히 부적합 (일화)
 - [[2026-09-23-jev-claude-browser-automation]] — Claude(Code)로 오픈소스 초고속 브라우저 에이전트 Jev(browser-agent)를 결합해 웹 브라우저 작업 자동화 6종을 시연 → 구글 항공권 예약 7.1초 완료, 브라우저 프로토콜 호출 91%↓ (실측, prototype)
 - [[chess-postmortem-skills-claude-code]] — Claude Code Skill(skills+subagents)로 Stockfish 엔진 분석+병렬 조사 에이전트를 결합해 체스 기보 복기 자료(주석 PGN·HTML·나레이션 영상) 제작을 자동화 → 게임당 약 1시간, HN 68점 화제 (일화, prototype)
+- [[reddit-claude-mcp-money-saving-shopping-travel]] — Claude(mcp)로 식료품·중고거래·여행 MCP 커넥터 3종을 활용해 개인 쇼핑·예약 가격비교를 자동화 → 장보기 회당 $40~50 절감 체감 (일화, 1인 주장)
 
 ## HR (hr)
 

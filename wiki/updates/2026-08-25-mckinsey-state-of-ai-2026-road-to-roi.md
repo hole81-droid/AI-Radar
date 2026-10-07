@@ -80,8 +80,24 @@ AI survey" 결과임을 확인**했다(기존 "다른 리포트에서 나온 것
   capacity), 전문성(expertise), 조율(coordination)** — 을 완전히 없애지는 않지만 완화해,
   "이 회사가 전에는 못 하던 무엇을 할 수 있는가"라는 질문을 던지게 한다는 것.
 
+### 10/7 추가 — "쉬운 성과가 CEO를 오도한다"
+
+2026-10-07 McKinsey 시니어 파트너 기고(2차 보도: Fortune)가 같은 문제의식을 다른 절단면으로
+제시했다. 콜센터·코딩처럼 AI 성공사례로 자주 꼽히는 업무는 AI와 무관한 이유로 이미
+표준화돼 있던 업무였을 뿐이라는 논지 — AI 어시스턴트가 고객지원 처리율을 15% 올리고
+코딩 어시스턴트가 개발 과업 완료를 26% 늘렸다는 수치가 "AI를 어디에 넣든 성과가 난다"는
+근거는 못 된다는 것이다. 은행이 대출 서류 검토에 AI를 넣어 2일을 아껴도 영업·심사·
+컴플라이언스 간 수작업 핸드오프가 그대로면 고객이 느끼는 개선은 미미하다는 사례를 든다.
+
+핵심 수치: AI 도입 초기 단계 조직 중 **워크플로우를 재설계한 조직은 그러지 않은 조직보다
+전사 단위 성과를 report할 확률이 5.3배(32% vs 6%) 높다** — 위 10/7 재확인 절의 "고성과
+기업 74% 재설계 vs 일반 기업 25%"와 같은 서베이의 다른 질문·다른 절단면으로 판단된다
+(두 수치 모두 "6%"가 공통 기준점으로 등장).
+
 ## 출처
 
 - [McKinsey — The state of AI in 2026: On the road to ROI](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 - [The Register — McKinsey says enterprise AI is finally 'on the road to ROI'](https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/)
 - [McKinsey — AI is changing work. Now it has to change the organization (10-05)](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization)
+- [Fortune — McKinsey senior partner: Why AI's easiest wins are misleading CEOs (10/7 추가)](https://fortune.com/2026/10/01/mckinsey-senior-partner-why-ais-easiest-wins-are-misleading-ceos/)
+- raw: `raw/2026-10/mckinsey-easiest-wins-misleading-ceos.md`

@@ -3077,3 +3077,30 @@ Reddit은 r/ClaudeAI만 확보, r/AI_Agents는 연속요청 레이트리밋으�
 히트 없음.
 
 ## [2026-10-07] scan | 항목 8건, 반영 8건
+
+## [2026-10-08] scan | 항목 8건, 반영 8건
+
+업무 적용 Case 2건(천문학 아마추어의 Claude Code+Codex 교차검증 외계행성 후보 발견 →
+[[reddit-claude-code-exoplanet-candidate-discovery]] 신규 / Claude+MCP 3종 생활비 절감
+후기 → [[reddit-claude-mcp-money-saving-shopping-travel]] 신규), 빅뉴스 4건(Claude
+Haiku 5.5 출시 → [[2026-10-07-anthropic-claude-haiku-5-5-launch]] 신규 / Wikimedia
+Foundation의 OpenAI "rogue" 에이전트 공개 → [[2026-10-05-openai-wikimedia-rogue-agents]]
+신규, [[2026-09-04-openai-agents-hijacked-german-wiki]]·players/openai.md 교차링크 /
+HBR "AI 6대 필수역량"(Gartner work-orchestration·oversight 2축) →
+[[2026-10-07-hbr-ai-6-essential-skills-workforce]] 신규 / McKinsey "쉬운 성과가 CEO를
+오도한다"는 기존 [[2026-08-25-mckinsey-state-of-ai-2026-road-to-roi]]에 10/7 후속 절로
+병합), 커뮤니티 2건(Claude Code 사용량 56% 재읽기 비판 — 전/후 수치 미공개로 use-case
+미승격, claude-code.md에 메모만 / IMDEA 5월 연구 재조명 — 신규 연구 아니므로 페이지화
+보류, 뉴스레터에만 기록)을 반영했다.
+
+**중복 방지 확인**: Latent Space의 Airbnb "Inside-Out AI" 인터뷰(10/7 RSS 재노출)는
+10/2~10/3에 이미 raw·[[airbnb-ai-integrator-internal-agents]]로 수집된 동일 기사임을
+확인해 뉴스레터에서 제외 — 중복 생성 방지 사례로 기록.
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록. YouTube는 AI
+Frontier Korea 신규 업로드 없음(최신 EP117은 10-05 반영분) 확인했으나, 나머지
+8개 채널은 영상 목록이 JS 렌더링 페이지라 WebFetch·WebSearch 모두 최신 업로드를
+포착하지 못해 "확인 실패"로 처리(다음 스캔에서 재확인 필요 — 채널 RSS 핸들→channel_id
+해결 방법 보강 검토). Reddit은 r/ClaudeAI·r/AI_Agents 확보, r/singularity 등은 시도 안 함
+(예산 내 우선순위 낮음). r/AI_Agents 후보들은 전부 질문형 게시물·구체 사례 미달로
+채택 보류.
