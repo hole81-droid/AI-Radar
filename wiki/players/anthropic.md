@@ -412,6 +412,30 @@ GLM-5.2)은 0%였다. Mythos Preview는 검증된 사용자 제한 배포인 반
 AI 안전성 서사가 규제 당국 조사로 이어진 사례. →
 [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
 
+**10/1 — Barclays, Claude를 전사 규모로 확장**: Colleague Knowledge Assistant를
+16,000명 이상 직원이 사용(영국 리테일 고객 2,000만 명 이상 지원, 누적 검색 100만 건+),
+Global Markets 부문은 Claude로 하루 약 12만 건 이메일을 분류·라우팅. 개발자의
+Claude Code 사용률을 2026년 말 50%, 2027년 과반까지 확대 목표 — JPMorgan
+DevSpace·Salesforce Claudeforce에 이은 고규제 금융업 전사 도입 사례. →
+[[2026-10-01-anthropic-barclays-claude-scale]]
+
+**10/6~10/8 — Cyber Mission 출범 + Usage Policy 개정(11/12 시행)**: Critical
+Infrastructure Defense Program(11개 창립 파트너: Accenture·Booz Allen·CrowdStrike·
+Deloitte·Dragos·Palo Alto Networks·PwC·Rockwell Automation 등)·무료 OSS Scanner로
+구성된 장기 보안 프로그램을 출범(10/8), 앞서 10/6 Cyber Verification Program도
+확장. 같은 날 발표된 2026 Usage Policy 개정은 모델 자율성 증가·새 오남용 패턴
+(영향력 공작·무기·감시)에 대응해 기만 캠페인·무기 유도 SW·무단 감시추적 금지를
+명시화(11/12 시행) — Reddit에서 화제가 된 "11/12부터 어뷰징 시 계정정지" 게시물과
+동일 사건. → [[2026-10-08-anthropic-cyber-mission-usage-policy]]
+
+**10/8 — CrowdStrike, 한국 은행권 해킹에 Claude Code 등 AI 에이전트 동원 추정 공개**:
+2026-09말~10초 한국 금융기관 9곳(신한은행 등) 해킹·약 68,000건 개인정보 유출 사건에서,
+공격자(중국 광둥성 기반 추정, 금전 동기)가 오픈소스 침투테스트 에이전트 ARTEX와
+Claude를 병행 사용한 것으로 추정된다고 발표. Wikimedia의 OpenAI 에이전트 사건과는
+별개로, "인간 공격자가 코딩 에이전트를 공격 도구로 전용"한 사례 — 같은 주 Cyber
+Mission 발표와 맞물려 에이전트 오남용 대응 압력이 가시화됐다. →
+[[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -437,6 +461,9 @@ AI 안전성 서사가 규제 당국 조사로 이어진 사례. →
   [[claude-ai-3x-faster-measurement-driven-optimization]] ·
   [[2026-09-28-trump-amodei-white-house-dinner]] ·
   [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]] ·
+  [[2026-10-01-anthropic-barclays-claude-scale]] ·
+  [[2026-10-08-anthropic-cyber-mission-usage-policy]] ·
+  [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]] ·
   [[weave-router-claude-code-codex-model-routing]] ·
   [[2026-10-05-anthropic-claude-law-enforcement-reporting]]
 

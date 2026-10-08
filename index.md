@@ -12,6 +12,9 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]] — CrowdStrike, 한국 은행 9곳 해킹(약 68,000건 유출)에 Claude Code 등 AI 에이전트 동원 추정 공개. 중국 광둥성 기반 추정 공격자가 오픈소스 침투테스트 에이전트 ARTEX와 Claude를 병행 사용, 공격자 개인정보가 AI 로그에서 발견됨 (high)
+- [[2026-10-08-anthropic-cyber-mission-usage-policy]] — Cyber Mission 출범(Critical Infrastructure Defense Program 파트너 11곳+무료 OSS Scanner) + 2026 Usage Policy 개정(11/12 시행, 모델 자율성 증가·새 오남용 패턴 대응) (medium)
+- [[2026-10-01-anthropic-barclays-claude-scale]] — Barclays, Claude를 전사 확장. Colleague Knowledge Assistant 직원 16,000명+ 사용, Global Markets 하루 이메일 12만 건 분류·라우팅, 개발자 Claude Code 도입률 2026말 50%·2027 과반 목표 (medium)
 - [[2026-10-07-anthropic-claude-haiku-5-5-launch]] — Claude Haiku 5.5 출시, Haiku 4.5 대비 평균 약 75% 저렴·Haiku 계열 최초 effort 선택. 한 달 내 세 번째 5.5 라인업 갱신 (medium)
 - [[2026-10-02-anthropic-claude-frontier-academy-launch]] — $100M 투자해 "Claude Frontier Academy" 출시, 2027년 말까지 엔터프라이즈 배포 전문인력(Frontier Deployed Engineer) 1만 명 양성 목표. Accenture·Bain·Capgemini·Deloitte·McKinsey·Morgan Stanley·Novo Nordisk 1기 참여, 의료 레지던시형 2단계 트랙 (high)
 - [[2026-09-30-anthropic-claude-for-government-ga]] — Claude for Government, FedRAMP High 환경 정식 출시(GA). 지출 한도·2인 승인·감사 로그 + 같은 환경에서 Claude Code CLI·Claude for Microsoft 365 조기접근 동시 시작. Barclays 운영·CX 확대 적용도 같은 주 (medium, 09-30~10-03 스캔 누락 소급 반영)
@@ -288,6 +291,7 @@
 - [[mollick-capability-overhang]] — "역량 오버행"(One Useful Thing) — AI가 실제로 할 수 있는 일과 사람이 시키는 일의 격차, AI를 잘 쓰는 인간의 네 우위(깊은지식·넓은지식·취향·주도성) (medium)
 - [[hardman-ai-course-generator-critique-frontline]] — "코스 저작 ≠ 교수설계 전문성" — AI 코스생성 도구 Frontline 실측, 진단단계 부재·목표불변설계·평가불일치·콘텐츠누락(14개 중 6개)·가드레일부재 5대 구조적 결함 (medium)
 - [[hardman-ai-video-generation-ld-learning-science]] — "영상을 더 만든다고 더 배우진 않는다" — AI 영상생성 도구를 학습과학 40년치에 대조, GSK SOP 실측 테스트에서 규칙 날조·6/10 범주 누락 확인 + 근거기반 6개 설계기법(행동모델링·대조사례·오류예시·예측후확인·1인칭시연·피드백연습) (medium)
+- [[multi-agent-ai-architecture-hr]] — Josh Bersin "Leader's Guide To Multi-Agent AI Architecture"(10-08) — HR 2030 Multiagent Tech Stack(8 superagent+150+ 에이전트), 거버넌스 6대 결정(오케스트레이션·모니터링·데이터규칙·인간통제·공유라이브러리·빌드/구매). ISS North America·DBS Bank·Mastercard 등 사례(수치 미확인), LLMOps 과정 연계 (course, medium)
 - [[agent-prompt-injection-defense-architecture]] — AI 에이전트 프롬프트 인젝션 방어 9계층(Meta Muse) — 런타임 격리·대리토큰·오염추적·대화 밖 승인 등, 09-25 자기복제 인젝션 연구·09-28 Nvidia 하드웨어 워치독과 같은 흐름 (medium)
 
 ## 회사·인물 (wiki/players/)

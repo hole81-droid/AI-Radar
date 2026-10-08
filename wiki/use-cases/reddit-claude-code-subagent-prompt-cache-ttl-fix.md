@@ -63,6 +63,30 @@ Reddit r/ClaudeAI 사용자가 자신의 "오케스트레이터(계획·분배·
   구조)에 한정된 실측이며, 서브에이전트가 짧게 끝나는 워크플로에서는 효과가 작을
   수 있다고 작성자 스스로 명시.
 
+## 후속 (2026-10-07 — 하트비트+자동 핸드오프로 기법 고도화)
+
+같은 근본 원인(서브에이전트 캐시 TTL)에 대한 더 적극적인 후속 기법이 Reddit
+r/ClaudeAI에 공개됐다(u/ChainfireXDA, GitHub 공개). 테라바이트급 데이터를 자율 처리하는
+상시 가동 프로젝트에서, 위 "1시간 TTL 고정" 설정만으로는 **1시간을 넘는 도구 호출**에는
+여전히 캐시 재작성이 발생하는 한계를 추가로 보완했다:
+
+- **1시간 캐시 TTL**(실험적 기능, 위 기존 기법과 동일) + **약 45분 주기 하트비트
+  핑 스크립트**로 도구 호출이 1시간을 넘어가도 캐시를 계속 "warm" 상태로 유지.
+- **약 175K 토큰에서 자동 핸드오프**: 안전 지점에서 서브에이전트가 핸드오프 문서를
+  작성하고 종료 → 호출 에이전트가 그 문서로 새 서브에이전트를 시작, 컨텍스트 재적재
+  자체를 줄임. 175K는 본인 트랜스크립트 기반 역산치(호출 에이전트가 조정 가능).
+- **성과**: 주간 사용한도(weekly limit) 소진율이 수 주간 테스트 기준 **약 60% 감소**
+  (measured, 자가계측). 작성자는 토큰 수 자체는 줄지 않고(오히려 소폭 증가) **과금
+  방식만 바뀐다**고 명시 — 캐시 읽기 단가(0.1x)로 청구되는 비중이 늘어나는 구조.
+- 댓글 반론: 하트비트가 "진행 없이 에러 루프에 빠진" 서브에이전트에도 계속 과금시킬
+  수 있어 종료 조건 설계가 필요하다는 지적.
+- 오픈소스 공개: https://github.com/Chainfire/claude-long-task-agent
+
+> 기존 기법(5분→1시간 TTL 고정)이 "캐시 만료 주기를 늘리는" 1차 대응이었다면, 이
+> 후속 기법은 "그 이상으로 길어지는 호출에도 캐시를 인위적으로 살려두고, 아예 안
+> 살 수밖에 없는 시점엔 핸드오프로 재적재 비용을 끊는" 2차 대응이다 — 같은 문제의
+> 심화된 해결로 묶어 반영.
+
 ## 재현 가이드
 
 - **난이도**: 하 (설정 파일 한 줄 추가)
@@ -91,3 +115,5 @@ Reddit r/ClaudeAI 사용자가 자신의 "오케스트레이터(계획·분배·
 ## 출처
 
 - [Reddit r/ClaudeAI — Sub-agents burning your Claude Code 5-hour window? Check their 5-minute prompt cache](https://www.reddit.com/r/ClaudeAI/comments/1wj4gs0/subagents_burning_your_claude_code_5hour_window/)
+- [Reddit r/ClaudeAI — Sub-agent for long running tasks saved me 60% weekly burn rate (2026-10-07)](https://www.reddit.com/r/ClaudeAI/comments/1x0as2l/subagent_for_long_running_tasks_saved_me_60/)
+- [GitHub — Chainfire/claude-long-task-agent](https://github.com/Chainfire/claude-long-task-agent)

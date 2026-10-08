@@ -4,10 +4,18 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-05, 199건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-08, 204건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-08** — CrowdStrike, **한국 은행 9곳 해킹에 Claude Code 등 AI 에이전트 동원 추정 공개** —
+  9월 말~10월 초 신한은행 등에서 약 68,000건 개인정보 유출, 중국 광둥성 기반 추정
+  공격자가 오픈소스 침투테스트 에이전트 ARTEX와 Claude를 병행 사용한 것으로 분석
+  → [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
+- **10-08** — Anthropic, **Cyber Mission 출범 + 2026 Usage Policy 개정(11/12 시행)** —
+  Critical Infrastructure Defense Program(파트너 11곳)·무료 OSS Scanner 출범, 사용정책은
+  모델 자율성 증가·새 오남용 패턴(영향력 공작·무기·감시) 대응 조항 신설
+  → [[2026-10-08-anthropic-cyber-mission-usage-policy]]
 - **10-07** — Anthropic, **Claude Haiku 5.5 출시** — Haiku 4.5 대비 평균 약 75% 저렴,
   Haiku 계열 최초 effort 선택 기능. 한 달 내 Opus·Sonnet에 이은 세 번째 5.5 라인업 갱신
   → [[2026-10-07-anthropic-claude-haiku-5-5-launch]]
@@ -39,6 +47,10 @@ date: 2026-07-07
 - **10-01** — Meta 떠나 월드모델 스타트업 AMI Labs를 세운 **Yann LeCun, Dario Amodei를
   공개 비판** — "완전히 망상"·"미쳤다", AI 안전 경고를 IPO 앞둔 **규제 포획** 시도로
   규정(HN 372점) → [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] (10-01 후속 절)
+- **10-01** — Barclays, **Claude를 전사 규모로 확장** — Colleague Knowledge Assistant를
+  직원 16,000명+ 사용(고객 2,000만+ 지원), Global Markets는 하루 약 12만 건 이메일을
+  Claude로 분류·라우팅, 개발자 Claude Code 도입률 2026말 50%·2027 과반 목표 →
+  [[2026-10-01-anthropic-barclays-claude-scale]]
 - **10-01** — Anthropic, **IPO 투자자 데이 10/14 확정** 보도 — 11/9주 공식 마케팅,
   추수감사절 전 상장 목표, 밸류에이션 $1.8~2조(사상 최대 IPO권), 창업자 7인
   50.1% 의결권 유지하는 "Founder LLC" 지배구조 신규 확인 →

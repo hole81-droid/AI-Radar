@@ -3104,3 +3104,31 @@ Frontier Korea 신규 업로드 없음(최신 EP117은 10-05 반영분) 확인�
 해결 방법 보강 검토). Reddit은 r/ClaudeAI·r/AI_Agents 확보, r/singularity 등은 시도 안 함
 (예산 내 우선순위 낮음). r/AI_Agents 후보들은 전부 질문형 게시물·구체 사례 미달로
 채택 보류.
+
+## [2026-10-09] scan | 항목 8건, 반영 8건
+
+업무 적용 Case 1건(Claude Code 서브에이전트 하트비트+175K 핸드오프로 주간 사용한도
+소진 60%↓ — 기존 [[reddit-claude-code-subagent-prompt-cache-ttl-fix]]에 후속 절로
+반영, 신규 페이지 대신 보강 처리), 빅뉴스 4건(CrowdStrike "한국 은행 9곳 해킹에
+Claude Code 등 AI 에이전트 동원 추정" → [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
+신규 / Anthropic Cyber Mission 출범+2026 Usage Policy 개정(11/12 시행) →
+[[2026-10-08-anthropic-cyber-mission-usage-policy]] 신규 / Barclays 전사 Claude
+확장(직원 16,000명+·일일 이메일 12만 건) → [[2026-10-01-anthropic-barclays-claude-scale]]
+신규, 기존 [[2026-09-30-anthropic-claude-for-government-ga]]의 짧은 Barclays 언급에
+교차링크 보강 / Josh Bersin "Multi-Agent AI Architecture" HR 가이드 → 개념 페이지
+[[multi-agent-ai-architecture-hr]] 신규), 커뮤니티 3건(Reddit Haiku 5.5 vs Luna vs
+DeepSeek Flash vs Gemini 3.8 Flash 86문항 자체 벤치마크 / HN "Claude Code 제안
+메시지 기능, 진짜 고객은 모델이다"(266점) / Latent Space "Mecatl" 클라우드 네이티브
+에이전트 하네스, Kubernetes 창시자 Stacklok)를 반영했다. 관련 허브([[claude-code]]·
+[[anthropic]])·[[timeline]]·`index.md`·`wiki/use-cases/case-catalog.md` 교차링크 완료.
+
+**중복 방지 확인**: Vals AI 상온 자성 반도체 발견(HN 490점, 10-05)은 기존
+[[vals-ai-opus-magnetic-semiconductor-discovery]]와 동일 사건으로 확인해 제외.
+Latent Space "Claude Code's Next Era" 인터뷰(10-03)는 날짜상 이미 지난 스캔
+반영분으로 판단해 제외.
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록. 조코딩
+10-08 신규 영상("광고 문의 자동확인+초안작성")은 shortDescription이 홍보성
+보일러플레이트뿐이라 세부 미확인으로 업무 적용 Case 승격 보류, YouTube 픽에만
+기록. AI Frontier Korea는 EP117(10-05)에서 정체(신규 업로드 없음). 나머지
+7개 YouTube 채널은 최근 업로드가 기존 반영분과 중복이거나 주제 무관으로 확인.
