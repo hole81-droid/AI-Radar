@@ -18,6 +18,25 @@ source: https://www.bloomberg.com/news/articles/2026-08-13/openai-s-revenue-run-
 - 이 수치는 IPO 추진 명분을 강화하는 것으로 보도됐다. 다만 Polymarket 예측시장에서는
   2026년 내 IPO 완료 가능성을 17~19%로 낮게 보고 있어, 상장 시점이 2026년을 넘길 가능성이
   거론된다.
+
+## 후속 (2026-10-08 추가) — 실제 연환산 매출은 $20B 낮은 $50B, 회계방식 차이로 확인
+
+Financial Times 보도를 계기로, OpenAI의 연환산 매출(ARR)이 투자자들에게 신호됐던
+약 **$70B보다 $20B 낮은 약 $50B**라는 사실이 확인됐다. 수요 자체가 줄어든 게 아니라
+**회계 방식 차이**가 원인이다 — Anthropic은 클라우드 파트너(AWS·Google Cloud 등)를
+통한 판매분까지 자사 매출로 집계하는 반면, OpenAI는 이를 포함하지 않는다. $70B라는
+수치는 투자자들의 "애플스-투-애플스 비교" 요구에 맞춰 Anthropic 방식으로 "환산"한
+값이었던 것으로 드러났다.
+
+> ⚠️ **상충**: 08-14 당시 보도된 "$40B+ 돌파, 2025년 말 대비 2배"라는 수치와 이후
+> 알려진 "$70B 신호" 사이에도 이미 집계 방식 차이가 있었던 것으로 보인다 — 매출
+> 수치를 인용할 때는 반드시 집계 기준(자사 직접판매 vs 클라우드 파트너 포함)을
+> 함께 확인해야 한다.
+
+- **AX 시사점**: AI 기업의 "연환산 매출" 수치는 벤더마다 집계 기준이 달라 액면가
+  비교가 위험하다 — 투자·파트너십 검토 시 반드시 집계 방법론을 먼저 확인할 것.
+
+**출처(후속)**: [TechCrunch — OpenAI's revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/) · [Axios — OpenAI annualized revenue $20 billion less than previously reported](https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting)
 - 공교롭게 같은 주(08-13~14) **Chief Revenue Officer Denise Dresser가 입사 약 8개월 만에
   퇴사**를 발표했고, 같은 날 후임 CRO로 **Dali Rajic**을 지명했다. 신원이 밝혀지지 않은
   또 다른 고위 임원의 이탈도 함께 언급됐다(세부 미확인).

@@ -177,6 +177,11 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
   `/diff` 패널·AGENTS.md 로더·텔레메트리 전송 로직을 전부 mod로 재구현해 공개했다.
   비샌드박스·사용자 전권한 실행 구조라 보안 검토가 중요하다. →
   [[2026-09-18-claude-code-agents-md-support]] (10-01 후속 절)
+- **Dynamic Workflows 퍼블릭 베타(2026-10-09)**: Claude Managed Agents에 리드
+  에이전트가 직접 워크플로(여러 에이전트·여러 단계·결과 결합)를 작성하는
+  오케스트레이션 방식이 추가됐다 — 런당 최대 **1,000개 에이전트**를 서버가
+  백그라운드에서 관리. 수백 건 문서 리뷰 같은 "조각이 아주 많은 업무"를 염두에 둔
+  설계. → [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]]
 
 ## 출처
 

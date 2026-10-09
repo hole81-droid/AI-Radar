@@ -103,6 +103,7 @@ uses: [course, ax]
 - [[claude-frontend-aesthetics-ai-slop]] — Claude(Claude Code)로 skills+mcp(컴포넌트 라이브러리 연동+`/frontend-design` 스킬)를 활용해 획일적인 "AI 슬롭" UI에서 벗어난 프론트엔드 생성을 수행 → 타이포그래피·색상 지시 변경만으로 정성적 개선(정량 미확인) (일화, Anthropic 공식 쿡북 기반)
 - [[anthropic-skill-authoring-best-practices]] — Claude로 공식 Skill 저작 베스트프랙티스(skills, "Claude A/B" 평가주도 반복개발 패턴)를 활용해 SKILL.md 작성 품질 표준화를 수행 → 체크리스트형 품질 기준 확립 (강의 콘텐츠, 정량 성과 미확인)
 - [[reddit-claude-code-teams-ticket-autoresponder]] — Claude Code로 Teams 상주 자동응답+자율 티켓 처리 루프(cli-pipeline)를 활용해 사내 개발 티켓 수신·작업·완료통보·QA할당을 수행 → 무인 처리, 동료 대비 생산성 격차로 조직 재배치 논의까지 발생 (일화, 정량 미확인)
+- [[simonwillison-codex-voice-coding-blog-feature]] — ChatGPT Codex(음성 대화 모드, vibe-coding)로 요리 중 음성 대화를 활용해 블로그 뉴스레터 아카이브 기능 개발을 수행 → 약 30분 음성으로 PR 생성, 정밀 리뷰는 키보드로 전환(시간만 실측) (일화)
 
 ## 보안·운영 (ops)
 
@@ -138,6 +139,8 @@ uses: [course, ax]
 - [[federal-contract-leadgen-claude-browser-automation]] — Claude(+Claude in Chrome)로 연방 조달 공개 데이터 API 조회+NAICS 교차필터링+브라우저 담당자 탐색+자체 메일함 아웃리치(browser-agent+cli-pipeline+mcp)를 활용해 건설 하도급 리드 발굴·컨택을 수행 → 필터 통과 12건 중 10건 컨택·8건 회신·3건 계약 성사 (주장, 이메일 벤더 계정이 대신 공유한 고객 사례)
 - [[anthropic-ai-native-revenue-org-cox-communications]] — Claude(prd-driven 3단계 롤아웃)로 영업 조직 전체의 미팅 준비·아웃리치·CRM 데이터 통합을 자동화 → Cox Communications 투자 첫해 7배 수익률·리드검증비용 86%↓(정확도 18%→97%), Cyera 1,500명 중 88% 주간 사용 (실측, 벤더 채널이 전한 고객사 수치)
 - [[reddit-gtm-agent-consolidation-claude-code-swan-openclaw]] — Claude Code·Swan·OpenClaw(subagents 역할분담)로 GTM 자동화 아키텍처를 재설계 → 에이전트 30개→3개로 통합, "워크플로 대신 컨텍스트" 운영 전환(정량 성과 미확인) (일화, 자기 보고)
+- [[benai-claude-skill-lead-generation]] — Claude Skill Creator(skills)로 콜드 아웃리치 스킬 3종 구축을 활용해 리드 생성 자동화를 수행 → 재사용 가능한 아웃리치 스킬 체계 확보(정량 성과 미확인) (주장)
+- [[liamottley-imprint-genius-slack-ai-agent]] — Kylon AIOS 워크스페이스(vibe-coding)로 Slack 기반 AI 에이전트를 구축해 소싱 에이전시의 공장DB 조회+제안서 덱 생성을 수행 → 설계·시연 단계 완료, 정량 성과는 후속 확인 필요 (일화)
 
 ## 금융 (finance)
 
@@ -491,3 +494,12 @@ update 페이지로, Josh Bersin Multi-Agent HR Architecture 가이드는 기업
 미확인이라 use-case 대신 [[multi-agent-ai-architecture-hr]] 개념 페이지로 반영했다.
 CrowdStrike의 한국 은행권 해킹(Claude Code+AI 에이전트 동원 추정)·Anthropic Cyber Mission
 출범은 보안사고·조직 발표라 use-case 대상이 아니라 각각 update 페이지로 반영.*
+
+*2026-10-10 추가(145건): [[simonwillison-codex-voice-coding-blog-feature]](ChatGPT Codex
+음성모드로 요리 중 블로그 기능 개발)·[[benai-claude-skill-lead-generation]](Claude Skill
+Creator로 아웃리치 스킬 3종)·[[liamottley-imprint-genius-slack-ai-agent]](Kylon Slack
+에이전트로 소싱 에이전시 제안서 자동화) 3건 신규. OpenAI 수학증명 722건 공개+3건 철회
+(기호 오류)·백악관 Genesis Mission $2.4B 컴퓨트 공약·Claude Managed Agents Dynamic
+Workflows 베타는 모두 제품/정책 발표·연구성과 철회라 use-case 대상이 아니라 각각 update
+페이지로 반영. 안전연구원 해고 공개서한 반박·OpenAI 매출 재조정($20B 하향)은 기존
+update 페이지에 후속 절로 보강.*

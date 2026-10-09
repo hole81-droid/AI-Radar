@@ -4,10 +4,24 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-08, 204건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-09, 208건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-09** — Anthropic, **Claude Managed Agents "Dynamic Workflows" 퍼블릭 베타** —
+  리드 에이전트가 직접 워크플로를 작성해 런당 최대 1,000개 에이전트를 서버가
+  오케스트레이션하는 새 멀티에이전트 방식
+  → [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]]
+- **10-08** — 백악관, **"Genesis Mission" 확장 — $2.4B 컴퓨트 공약** — Nvidia $1B·
+  AMD $500M·OpenAI $200M·Anthropic $150M·Google $150M 등, 14개 연방기관 과학연구에 투입
+  → [[2026-10-08-trump-genesis-mission-compute-pledges]]
+- **10-08** — OpenAI, **안전연구원 해고 분쟁 격화 + 매출 재조정 확인** — 09-30
+  해고된 3인이 "부당해고" 공개서한 반박, 08-14 매출 $40B+도 실제론 집계방식 차이로
+  $20B 낮은 약 $50B였음이 확인 → [[2026-09-30-openai-safety-researchers-fired-bonta-subpoena]]
+  · [[2026-08-14-openai-revenue-40b-cro-departure]] (각 후속 절)
+- **10-07** — OpenAI, **수학증명 722건 공개 하루 뒤 3건 철회** — 기호 오류로
+  의존 논문까지 연쇄 무효화, 카탈로그의 42%만 Lean 형식검증 완료
+  → [[2026-10-07-openai-math-manuscripts-release-retraction]]
 - **10-08** — CrowdStrike, **한국 은행 9곳 해킹에 Claude Code 등 AI 에이전트 동원 추정 공개** —
   9월 말~10월 초 신한은행 등에서 약 68,000건 개인정보 유출, 중국 광둥성 기반 추정
   공격자가 오픈소스 침투테스트 에이전트 ARTEX와 Claude를 병행 사용한 것으로 분석

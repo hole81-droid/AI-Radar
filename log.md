@@ -3132,3 +3132,43 @@ Latent Space "Claude Code's Next Era" 인터뷰(10-03)는 날짜상 이미 지�
 보일러플레이트뿐이라 세부 미확인으로 업무 적용 Case 승격 보류, YouTube 픽에만
 기록. AI Frontier Korea는 EP117(10-05)에서 정체(신규 업로드 없음). 나머지
 7개 YouTube 채널은 최근 업로드가 기존 반영분과 중복이거나 주제 무관으로 확인.
+
+## [2026-10-10] scan | 항목 11건, 반영 11건
+
+업무 적용 Case 3건(신규 use-case 페이지) — Simon Willison, ChatGPT Codex 음성
+대화 모드로 요리 중 약 30분 만에 블로그 기능 구현
+→ [[simonwillison-codex-voice-coding-blog-feature]] / Ben AI, Claude Skill
+Creator로 콜드 아웃리치 스킬 3종 구축 → [[benai-claude-skill-lead-generation]] /
+Liam Ottley, Kylon 기반 Slack 에이전트로 소싱 에이전시 제안서 자동생성 설계
+→ [[liamottley-imprint-genius-slack-ai-agent]]. 빅뉴스 4건 — OpenAI 안전연구원
+해고 3인의 "부당해고" 공개서한 반박(09-30 해고 사건 후속, 기존 페이지에 후속
+절 반영) / OpenAI 수학증명 722건 공개 하루 뒤 3건 철회(기호 오류, 신규
+[[2026-10-07-openai-math-manuscripts-release-retraction]]) + 매출 실제론 $20B
+낮음(08-14 매출 페이지에 후속 절 반영) / 백악관 Genesis Mission $2.4B 컴퓨트
+공약(Nvidia·AMD·OpenAI·Anthropic·Google 등, 신규
+[[2026-10-08-trump-genesis-mission-compute-pledges]]) / Anthropic Claude
+Managed Agents "Dynamic Workflows" 퍼블릭 베타·최대 1,000 에이전트 오케스트레이션
+(신규 [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]]). 커뮤니티
+4건(Reddit 야간 배치 $2,500 지출 경험담 / Reddit Haiku 5.5 자동 모델선택 Claude
+Code 모드 / Reddit Claude Startup Program 혜택 중단 반발 / HN Show HN 에이전트
+화면 주석 도구 354점)을 반영했다. 관련 허브([[claude-code]])·플레이어
+([[openai]]·[[anthropic]]·[[google]])·[[timeline]]·`index.md`·
+`wiki/use-cases/case-catalog.md` 교차링크 완료.
+
+**중복 방지 확인**: HN에서 재부상한 "I think I found a planet... used Claude Code"
+(261점)는 기존 [[reddit-claude-code-exoplanet-candidate-discovery]](10-07 생성)와
+동일 사건으로 확인해 제외. "Anthropic bans abusive or cruel behavior towards
+Claude"(HN 84점)는 10-08 이미 반영된 [[2026-10-08-anthropic-cyber-mission-usage-policy]]의
+"모델에 대한 극단적·지속적 학대 금지 조항"과 동일 사실로 확인해 제외. Google
+Gemini 무료/Plus 요금제 모델 접근 제한 시행(10-09)은 10-01 이미 생성된
+[[2026-10-01-google-gemini-free-tier-model-access-cut]]의 예고된 시행일이 도달한
+것뿐이라 신규 반영 없이 제외.
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록. Reddit
+"400년치 역사 아카이브에서 메테오라이트·코뿔소·화산분화 발견"(ClaudeAI 인기글)은
+연속 429로 본문 확인 실패해 업무 적용 Case 승격 보류, 커뮤니티 섹션에도 세부
+미확인으로 제외. AI Frontier Korea는 EP117(10-05)에서 정체 지속(신규 업로드
+없음). 조코딩 10-09 신규 영상 2건은 shortDescription이 보일러플레이트뿐이라
+YouTube 픽에만 기록. 나머지 6개 YouTube 채널(장피엠·지피터스·kooky0ai·Dan
+Martell·Varun Mayya·Jeff Su)은 최근 업로드가 기존 반영분과 중복이거나 주제
+무관으로 확인.

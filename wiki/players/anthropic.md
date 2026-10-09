@@ -465,7 +465,9 @@ Mission 발표와 맞물려 에이전트 오남용 대응 압력이 가시화됐
   [[2026-10-08-anthropic-cyber-mission-usage-policy]] ·
   [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]] ·
   [[weave-router-claude-code-codex-model-routing]] ·
-  [[2026-10-05-anthropic-claude-law-enforcement-reporting]]
+  [[2026-10-05-anthropic-claude-law-enforcement-reporting]] ·
+  [[2026-10-08-trump-genesis-mission-compute-pledges]] ·
+  [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]]
 
 ## 출처
 

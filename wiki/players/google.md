@@ -89,6 +89,7 @@ Gemini 3.5 Pro가 세 차례 연기됐던 전례에 비춰 이례적으로 구�
 
 ## 관련 업데이트
 
+- [[2026-10-08-trump-genesis-mission-compute-pledges]] — Genesis Mission 확장에 Google $150M 공약(Nvidia·AMD·OpenAI·Anthropic 등과 공동) (medium)
 - [[2026-09-24-google-deepmind-gemini-4-post-training]] — Gemini 4 포스트트레이닝 진입, Kavukcuoglu 취임 후 첫 로드맵 공개 (medium)
 - [[2026-08-06-google-gemini-replaces-assistant-android]] — 2026-09-04부터 Android·Wear OS 기본 음성비서 Gemini로 전면 교체 확정 (high)
 - [[2026-08-11-google-gemini-1-billion-users]] — Gemini 앱 월간 활성 사용자 10억 명 돌파, 소비자 AI 앱 빅2 구도 (high)
