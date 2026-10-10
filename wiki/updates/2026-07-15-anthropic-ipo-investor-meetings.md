@@ -129,6 +129,22 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
   않겠다는 설계로 해석된다.
 - 주관사는 기존과 동일하게 Morgan Stanley·Goldman Sachs·JPMorgan Chase.
 
+## 후속 갱신 (2026-10-10) — IPO 신고서에서 SpaceX 컴퓨트 지출 최대 $84.5B로 확인, Musk "evil" 발언과 대비
+
+- Anthropic의 IPO 신고서(prospectus)에서 **SpaceX(현 SpaceXAI, 구 xAI 합병법인)로부터 컴퓨팅
+  용량을 구매하는 계약 규모가 2029년까지 최대 $84.5B**에 이를 수 있다는 사실이 확인됐다. 지난
+  5월 SpaceX IPO 신고서가 공개했던 "월 $1.25B, 2029년 5월까지"(당시 약 $45B 규모로 추정) 계약
+  대비 **거의 두 배**다. 계약은 SpaceX의 Colossus 서버에 들어간 Nvidia GPU 32.5만 개 기반
+  컴퓨팅 용량이며, 양측 모두 90일 사전통지로 해지 가능한 조건이다.
+- 이 수치가 주목받는 이유는 **Elon Musk 본인이 Anthropic을 공개적으로 비판한 전력** 때문이다 —
+  2026년 2월 Anthropic이 "$380B 사후 밸류에이션" 소식을 알리자 Musk는 X에서 Anthropic을
+  "evil"이라 칭하며 "Misanthropic으로 끝나는 아이러니를 피할 수 없을 것"이라고 비꼬았다. 그
+  발언 이후에도 Anthropic과 Musk 소유 SpaceX 간 컴퓨트 거래 규모는 오히려 커졌다.
+- 기존 09-28 후속 절의 "클라우드·컴퓨팅 인프라에 총 $518B 투입 예정"이라는 10년 계획의 세부
+  항목 중 하나로 SpaceX 거래가 이번에 구체화된 것으로 볼 수 있다 — 경쟁자(Musk)에게도 거액을
+  지불할 수밖에 없는 컴퓨트 부족 상황이 "안전·경쟁" 수사와 별개로 실제 지출 결정을 좌우하고
+  있음을 보여준다.
+
 ## 출처
 
 - [Bloomberg — Anthropic Is Said to Plan IPO Investor Meetings as Listing Nears](https://www.bloomberg.com/news/articles/2026-07-15/anthropic-is-said-to-plan-ipo-investor-meetings-as-listing-nears)
@@ -148,3 +164,4 @@ Claude를 만드는 회사가 실제로 증시에 데뷔할지가 구체적인 �
 - 관련: [[2026-09-30-ftc-openai-anthropic-ai-safety-investigation]]
 - raw: `raw/2026-09/anthropic-ipo-prospectus-financials.md` · `raw/2026-10/anthropic-ipo-risk-disclosure-and-timeline.md`
 - 10-05 갱신: [Bloomberg — Anthropic Is Said to Plan Pre-IPO Investor Day as Listing Nears](https://www.bloomberg.com/news/articles/2026-10-01/anthropic-is-said-to-plan-pre-ipo-investor-day-as-listing-nears) · [PYMNTS — Anthropic Targets Pre-Thanksgiving IPO at $2 Trillion Valuation](https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-targets-pre-thanksgiving-ipo-at-2-trillion-valuation/) · [Yahoo Finance — Anthropic targets pre-Thanksgiving IPO at $2 trillion valuation](https://finance.yahoo.com/markets/stocks/articles/anthropic-targets-pre-thanksgiving-ipo-111436118.html) · [Briefs — Anthropic Holds Investor Day Oct 14 Ahead of IPO](https://www.briefs.co/news/anthropic-sets-investor-meetings-on-oct-14-ahead-of-possible/) · [KuCoin News — Anthropic Plans Pre-IPO Investor Day on October 14](https://www.kucoin.com/news/flash/anthropic-plans-pre-ipo-investor-day-on-october-14-eyes-thanksgiving-window-ipo-with-1-8-2-trillion-valuation)
+- 10-10 갱신: [Moneywise — Elon Musk trashed Anthropic's AI as 'evil.' Now its deal with his SpaceX has nearly doubled — to as much as $84.5B](https://moneywise.com/news/top-stories/anthropic-spacex-deal-84-billion-ai-spending) · [KuCoin News — Anthropic to Pay Up to $84.5 Billion for SpaceX AI Computing by 2029](https://www.kucoin.com/news/flash/anthropic-to-pay-up-to-84-5-billion-for-spacex-ai-compute-by-2029) · [Seeking Alpha — Anthropic agrees to pay SpaceX nearly double prior estimates for compute: report](https://seekingalpha.com/news/4648135-anthropic-agrees-to-pay-spacex-nearly-double-prior-estimates-for-compute-report)

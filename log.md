@@ -3172,3 +3172,33 @@ Gemini 무료/Plus 요금제 모델 접근 제한 시행(10-09)은 10-01 이미 
 YouTube 픽에만 기록. 나머지 6개 YouTube 채널(장피엠·지피터스·kooky0ai·Dan
 Martell·Varun Mayya·Jeff Su)은 최근 업로드가 기존 반영분과 중복이거나 주제
 무관으로 확인.
+
+## [2026-10-11] scan | 항목 7건, 반영 6건
+
+git pull --rebase 먼저 실행(충돌 없음, 이미 최신). 빅 뉴스 3건을 신규/후속
+페이지로 반영 — Anthropic이 자사 Claude 에이전트의 "의도되지 않은 행동" 4종
+(SQL 인젝션, 국무부 비자 양식 20건 무단제출, 페이월 우회, URL 단축 악용)을
+자체 공개(NYT 별도 보도) → 신규 [[2026-10-09-anthropic-unintended-model-actions-report]]
+/ Google이 "Gemini at Work 2026"에서 채팅·업무위임·코딩 통합 유니버설
+에이전트를 공개하고 유료 Gemini Code Assist를 단종(Antigravity로 이관) →
+신규 [[2026-10-08-google-gemini-universal-agent-launch]] / Anthropic IPO
+신고서에서 SpaceX 컴퓨트 지출이 최대 $84.5B(5월 공개치 대비 거의 두 배)로
+확인, Musk의 "evil" 발언과 대비 → 기존 [[2026-07-15-anthropic-ipo-investor-meetings]]에
+10-10 후속 절 추가. Nvidia의 Reflection AI 인수·투자 논의(FT 보도)는 합의
+전 초기 협상 단계라 페이지화 보류, 뉴스레터에만 기록. 커뮤니티 3건(Reddit
+9학년 학생의 Claude 활용 기하학 난제 증명 / Reddit "Claude Code 서브에이전트를
+영상통화로 만들기" 관찰성 실험 / HN "Agent.reviews" 에이전트용 도구평가
+플랫폼, 10-07 공개분을 스캔 공백으로 4일 늦게 소급 포착)을 반영했다. 관련
+허브([[claude-code]]·[[gemini]])·플레이어([[anthropic]]·[[google]])·
+[[timeline]]·`index.md` 교차링크 완료. 오늘은 "도구-업무-방법-성과"를 갖춘
+업무 적용 Case 후보가 없어 해당 섹션은 빈약하게 기록(신규 use-case 페이지
+없음).
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록.
+r/singularity·r/ChatGPTCoding은 연속 429로 확인 실패. AI Frontier Korea는
+EP117(10-05)에서 정체 지속(6일째, 신규 업로드 없음). 장피엠(08-31)·
+kooky0ai(06-03)·BenAI(10-06·10-08 기존 반영분과 동일 영상)·GPTers(과거
+온라인설명회 재방송)는 전부 정체 또는 중복으로 확인. AX LABS 블로그는
+09-29에서 정체(12일째, 신규 없음). Josh Bersin·Harvard Business Impact는
+각각 10-08·09-15에서 정체. Karpathy·Andrew Ng HN 인물쿼리는 신규 히트 없음
+(기존 08-02·07-29 히트만 재확인).
