@@ -3202,3 +3202,46 @@ kooky0ai(06-03)·BenAI(10-06·10-08 기존 반영분과 동일 영상)·GPTers(�
 09-29에서 정체(12일째, 신규 없음). Josh Bersin·Harvard Business Impact는
 각각 10-08·09-15에서 정체. Karpathy·Andrew Ng HN 인물쿼리는 신규 히트 없음
 (기존 08-02·07-29 히트만 재확인).
+
+## [2026-10-12] scan | 항목 8건, 반영 7건
+
+git pull --rebase 먼저 실행(충돌 없음, 이미 최신). **공식 발표 2건의 소급 반영이
+핵심**이다 — Claude Dashboards·Motion 베타(10-08 발표)와 Claude for Google
+Workspace 퍼블릭 베타(10-06 발표)가 공식 RSS·1차 채널에 즉시 걸리지 않아
+10-06~10-11 사이 5차례 스캔에서 전부 놓쳤다가, 오늘 JoCoding IT뉴스 영상
+설명에서 "Claude Motion" 언급을 계기로 WebSearch 교차확인해 뒤늦게 포착했다
+(기존 교훈 — 08-30 Cowork 브라우저, 09-01 Claudeforce — 와 같은 패턴 재확인).
+각각 신규 페이지화: [[2026-10-08-anthropic-claude-dashboards-motion-launch]],
+[[2026-10-06-anthropic-claude-google-workspace-beta]]. 업무 적용 Case 1건
+(Josh Bersin "멀티 에이전트 HR 아키텍처 리더 가이드" — 6개 리더십 결정 프레임,
+ISS North America·DBS Bank·Mastercard 등 사례이나 정량 수치 비공개 →
+[[bersin-multiagent-hr-architecture-governance]], 기존
+[[bersin-multiagent-talent-acquisition]]과 같은 애널리스트 출처 패턴).
+커뮤니티 화제·도구 실사용 평가 2건 — Karpathy "LLM 능력 인식 격차가 벌어지고
+있다"(HN 59점, 본인 X 원문 직접 대조로 인용 규칙 준수) / HN "I'm sorry, but you
+still have to think"(283~351점) — DHH의 AI 전체 재작성 코드 품질을 "프롬프트가
+구체적이지 않으면 동전 던지기"로 비판한 분석. YouTube 픽 2건 — AI Frontier
+Korea EP118(10-11, 6일 정체 해소, 고정픽) / 조코딩 IT뉴스(10-11, Claude Motion·
+Haiku 5.5 등 커버). HBR RSS에서 미반영 AI 관련 글 다수(09-30~10-09, "Who Owns
+the Customer in the Age of AI Agents?" 등)를 확인했으나 ① 기존 Meta Muse/Amazon
+사건([[2026-09-21-amazon-blocks-meta-muse-agent-commerce]])의 재프레이밍이거나
+② 페이월로 본문 확인 불가해 미반영. Latent Space "Building AI for Reliable
+Execution"(Standard Bots 산업로봇 AI 스택)은 Claude/GPT/Gemini 등 우리 4대
+도구 범위 밖(자체 로봇 지각모델)이라 페이지화 보류.
+
+신규 생성: update 2건, use-case 1건(위 목록). 관련 허브([[anthropic]])·
+[[timeline]]·`index.md`·`wiki/use-cases/case-catalog.md` 교차링크 완료.
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록(ToolSearch로
+확인, 이번 실행 환경에 브라우저 도구 자체가 없음). Reddit은 r/ClaudeAI·
+r/AI_Agents 모두 반복 429(여러 차례 재시도, 25초 이상 간격 포함)로 본문 상세
+확보 실패 — 첫 성공 응답에서 얻은 제목 목록만 참고하고 개별 항목 반영은 보류.
+AX LABS 블로그는 09-29에서 정체(15일째). Hardman Substack은 10-01, EdSurge는
+10-07, Class Central은 10-02, Harvard Business Impact는 09-15에서 각각 정체
+지속(신규 없음). Josh Bersin RSS 자체는 10-08 글(=오늘 반영한 멀티에이전트
+가이드) 이후 신규 없음. Karpathy GitHub 저장소는 신규 저장소 없음(커밋 갱신만).
+Andrew Ng HN 인물쿼리는 신규 히트 없음(기존 07-29 히트만 재확인). McKinsey
+Insights RSS는 제목 스크리닝상 People&Talent 계열 신규 없음(전부 전략·산업
+섹션). Knowledge at Wharton은 10-07 "AI Safety Has Reached a Critical Point"·
+10-05 "AI's Impact on Financial Services"를 확인했으나 둘 다 일반론 수준이라
+스크리닝 보류.

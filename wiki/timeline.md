@@ -4,10 +4,24 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-10, 210건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-12, 214건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-11** — Andrej Karpathy, **"LLM 능력에 대한 인식 격차가 벌어지고 있다" 진단** —
+  75%는 LLM과 거의 접촉 없음, 20%는 가끔 쓰는 챗봇 취급, 0.2%만 에이전트로 수주짜리
+  프로젝트를 완성하는 것을 직접 목격 — 3단 "급격한 깔때기" 구조로 정리 (HN 59점, 본인 X 원문 대조)
+- **10-08** — Anthropic, **Claude Dashboards·Claude Motion 베타 출시** — 평문 질문으로
+  데이터플랫폼 연결 대시보드 자동생성(Dashboards), 텍스트·차트를 코드 기반 애니메이션으로
+  만드는 Motion(/motion) — RSS 누락으로 10-12에 소급 반영
+  → [[2026-10-08-anthropic-claude-dashboards-motion-launch]]
+- **10-08** — Josh Bersin, **"멀티 에이전트 HR 아키텍처 리더 가이드" 발행** — 오케스트레이션·
+  모니터링·데이터·사람통제점·공유역량·소싱전략 6개 결정 프레임, ISS North America·DBS Bank·
+  Mastercard 등 사례 소개(정량 수치는 비공개)
+  → [[bersin-multiagent-hr-architecture-governance]]
+- **10-06** — Anthropic, **Claude for Google Workspace 퍼블릭 베타** — Google Docs·Sheets·
+  Slides 안에 Claude 사이드바 상주, Google Admin 콘솔로 도메인 단위 배포 가능 — RSS 누락으로
+  10-12에 소급 반영 → [[2026-10-06-anthropic-claude-google-workspace-beta]]
 - **10-10** — Anthropic, **IPO 신고서에서 SpaceX 컴퓨트 지출 최대 $84.5B 확인** —
   5월 공개치 대비 거의 두 배, Musk의 "evil" 발언과 대비되는 거래 규모 확대
   → [[2026-07-15-anthropic-ipo-investor-meetings]] (10-10 후속 절)

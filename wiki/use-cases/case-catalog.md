@@ -169,6 +169,7 @@ uses: [course, ax]
 
 - [[jocoding-ax-series-pwc-samil]] — 자체 AI 심사 에이전트로 채용 서류 전형을 전면 대체해 AI 실무 인재 선발을 수행 → 지원 5,000명 전형 자동화, 본선 60명 (주장)
 - [[bersin-multiagent-talent-acquisition]] — 채용 벤더의 멀티 에이전트(문의응대+AI면접+ATS 연동)로 대량채용 앞단을 자동화 → 채용 2주→3일, H&M 리텐션 30%↑ (애널리스트가 전한 고객사 보고치, 독립 검증 없음)
+- [[bersin-multiagent-hr-architecture-governance]] — 멀티 에이전트 HR 시스템(8개 수퍼에이전트·150+ 세부 에이전트)의 오케스트레이션·거버넌스 6개 결정 프레임 → ISS North America·Great Wolf Resorts·Costa Coffee·DBS Bank·ASICS·Mastercard가 거버넌스 선설계로 도입 성공 (애널리스트 전달, 정량 수치 비공개)
 - [[bank-of-america-academy-ai-upskilling-200k]] — Bank of America가 사내 러닝 조직 The Academy로 AI 대화 시뮬레이터 기반 3단계 역량육성을 20만 명에 운영 → 사내 AI 어시스턴트 분기 1.69억 회 사용, 신규 채용의 45%를 내부 이동으로 충원 (주장, 자사 발표를 MIT Sloan이 전달)
 - [[cornerstone-workforce-ai-platform]] — Cornerstone Workforce AI(skills+subagents)로 인재 식별·이탈위험 관리·프로젝트 기반 배치·맞춤 개발계획을 자동화 → 의료기관 사례 3,000만~4,000만 달러 절감 기대 (주장, 벤더 보고치)
 - [[bersin-galileo-jupiter-hr-ai]] — Galileo(Josh Bersin Company)로 second-brain형 HR 지식 코퍼스를 mcp 방식 주입을 활용해 Copilot·Workday·ServiceNow 등 기존 에이전트에 HR 전문성을 이식 → 1,000개 이상 기업 사용 주장, 토큰 1/10·환각 제거 주장 (주장, 벤더 발표)

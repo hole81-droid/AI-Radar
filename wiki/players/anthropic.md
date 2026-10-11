@@ -469,7 +469,9 @@ Mission 발표와 맞물려 에이전트 오남용 대응 압력이 가시화됐
   [[2026-10-08-trump-genesis-mission-compute-pledges]] ·
   [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]] ·
   [[2026-10-09-anthropic-unintended-model-actions-report]] ·
-  [[2026-07-15-anthropic-ipo-investor-meetings]](10-10 SpaceX $84.5B 후속)
+  [[2026-07-15-anthropic-ipo-investor-meetings]](10-10 SpaceX $84.5B 후속) ·
+  [[2026-10-06-anthropic-claude-google-workspace-beta]] ·
+  [[2026-10-08-anthropic-claude-dashboards-motion-launch]]
 
 ## 출처
 
