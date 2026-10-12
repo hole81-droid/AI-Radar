@@ -39,9 +39,31 @@ Google이 "채팅 AI"와 "업무를 대신 처리하는 에이전트"의 경계�
   ([[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]])와 같은 "에이전트 오케스트레이션을
   벤더가 떠안는" 흐름의 Google판으로 볼 수 있다.
 
+## 후속 (2026-10-13 확인) — 이 "유니버설 에이전트"가 경쟁사 Claude 모델도 직접 호출한다
+
+Google의 공식 발표문이 명시한 내용을 2026-10-13 교차확인했다 — Gemini Agent는 Google
+자체 모델(Argon·Flash·Omni·Gemma)뿐 아니라 **Anthropic의 Claude Opus 5.5·Claude Sonnet
+5.5를 오늘 시점부터 선택지로 직접 호출한다.** Google 발표문의 표현: "Gemini is the agent,
+and the model underneath it is a separate choice" — 즉 "어떤 에이전트를 쓰는가"와 "그
+안에서 어떤 모델이 도는가"를 분리하겠다는 것이다.
+
+- 이는 X 등에 돌던 2차 유출(@testingcatalog, 모델명 일부 오류 포함)이 아니라 **Google
+  Cloud(Kurian) 공식 키노트 발표문에 명시된 내용**이다 — 유출이 아니라 공식 확인.
+- 다만 세부는 의도적으로 모호하다: 버전·모델ID·가용 시점을 밝히지 않았고, Google
+  Antigravity 문서 기준으로는 Claude Opus 5.5/Sonnet 5.5가 **유료 구독 티어에서만** 호출
+  가능하다(무료 체험 제외).
+- 비용 통제 장치로 "멀티모델 오케스트레이션 + 스마트 라우팅(작업별 최적 모델) + 실시간
+  지출 캡"을 함께 공개했다.
+
+**AX 시사점**: 자사 "에이전트 플랫폼"을 팔면서 경쟁사 모델을 정식 옵션으로 포함시키는
+것은 "에이전트(제품)"와 "모델(엔진)"의 벤더 록인을 분리하겠다는 전략 신호다 — 기업이
+에이전트 플랫폼을 고를 때 "이 플랫폼이 어떤 모델까지 품을 수 있는가"가 구매 기준에
+추가될 수 있다.
+
 ## 출처
 
 - [TechCrunch — Google brings agentic AI to Gemini, starting with businesses (10-08)](https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/)
+- [orcarouter.ai — Claude in Gemini Agent: The Leak vs Google's Words (후속 확인)](https://www.orcarouter.ai/blog/claude-models-in-gemini-agent-leak)
 - [Bloomberg — Google Launches 'Universal' Gemini AI Agent for Workplace (10-08)](https://bloomberg.com/news/articles/2026-10-08/google-launches-universal-gemini-ai-agent-for-workplace)
 - [aiweekly.co — Google Ends Gemini Code Assist Sales, Points Buyers to Antigravity](https://aiweekly.co/alerts/google-ends-gemini-code-assist-sales-points-buyers-to-antigravity)
 - [Futurum — Google Collapses Enterprise AI Into a Single Gemini Agent at Gemini at Work 2026](https://futurumgroup.com/insights/google-collapses-enterprise-ai-into-a-single-gemini-agent-at-gemini-at-work-2026/)

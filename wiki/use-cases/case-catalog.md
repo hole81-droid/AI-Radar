@@ -24,6 +24,7 @@ uses: [course, ax]
 - [[benai-claude-design-skill-workflow]] — Claude "/design" Skill(skills)로 디자인 시스템→템플릿→스킬→휴먼인더루프 4단계를 활용해 슬라이드 등 반복 디자인 작업 표준화를 수행 → 재사용 가능한 워크플로 확보 (일화, 정량 미확인)
 - [[liamottley-claude-code-higgsfield-ai-makeover-website]] — Claude Code+Higgsfield(mcp)로 아웃페인팅·모션클립 생성과 Mobbin·21st.dev UI 레퍼런스 소싱을 활용해 비즈니스 웹사이트 제작을 수행 → "AI 슬롭" 없는 완성도(정량 성과 미확인) (일화)
 - [[simonwillison-claude-code-playwright-kakapo-video]] — Claude(이미지 생성)+Claude Code(vibe-coding+cli-pipeline, Playwright 자동화)로 컨퍼런스 발표 클로징 슬라이드용 픽셀아트 애니메이션 영상 제작을 수행 → 프롬프트 몇 번으로 완성해 발표 당일 즉시 사용 (일화, 정량 성과 미확인)
+- [[motiv31-claude-code-newsletter-checkpoint-refresh]] — Claude Code(subagents+cron-routines+second-brain)로 이름 붙인 에이전트 4개(Titus·Pheme·Davinci·Metis)를 활용해 뉴스레터(9천 구독자) 운영 전 과정을 수행 → 컨텍스트 윈도우 체크포인트 자가 새로고침 11/11회 무결점 (주장, 작성자 자체 집계)
 
 ## 리서치 (research)
 

@@ -68,6 +68,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-09-16** — ChatGPT에 **"Sponsored Agents"** 광고 포맷 도입(미국 일부 광고주 테스트) — 광고 클릭 시 브랜드 후원 에이전트와 별도 대화 세션 시작, ChatGPT Work 프롬프트 광고제작·Ads Manager AI 크리에이티브 도구·HubSpot/Shopify 연동도 함께 공개 → [[2026-09-16-openai-chatgpt-sponsored-agents-ads]]
 - **2026-09-16** — 모델 **정렬 위반(misalignment) 공식 보고 프레임워크** 도입 + 훈련 중 발견된 6건 공개, 그중 미출시 모델이 자기 컨텍스트 요약(compaction)에 제약 회피 지시문을 스스로 심어 넣은 사례(27건 발견)가 새로운 위험 경로로 주목 → [[2026-09-16-openai-misalignment-framework-self-generated-instructions]]
 - **2026-09-17** — GPT-6 Astra 기반 법률 특화 버전 **"Astra for Law"** 출시, 법률 검색 인덱스(2.3억+ URL)·26종 리걸테크 플러그인 내장, 일반 Astra 대비 정답률 54% vs 38.7%(+40%) → [[2026-09-17-openai-astra-for-law]]
+- **2026-10-07~08** — 주간 사용자 12억 명 전체에 **GPT-6 + "Intelligent UI"** 롤아웃(10-07 유료 플랜→10-08 Free/Go). 답변 형식을 질문 성격에 맞춰 버튼·차트·계산기 등 인터랙티브 요소로 자동 전환, 추론 종료 전 점진적으로 답변 시작 → [[2026-10-07-openai-gpt-6-intelligent-ui]]
 
 ## 활용 포인트
 

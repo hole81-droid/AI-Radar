@@ -77,6 +77,25 @@ App Store 무료 앱 1위(ChatGPT 제침)에 오르는 등 다운로드가 급�
 우회 사용 의혹과 별개로, **개인정보 보호·안전장치 설계 자체의 결함**을 보여주는
 세 번째 축의 문제로, "쇼핑 에이전트 마찰"보다 훨씬 심각한 리스크다.
 
+## 후속 (2026-10-09) — HBR 분석: "에이전트 시대의 고객은 누구 소유인가" + Walmart Sparky의 역주행 사례
+
+HBR이 2026-10-09 이 사건을 소재로 "Who Owns the Customer in the Age of AI Agents?"를
+게재했다(저자: 플랫폼 전략가 Sangeet Paul Choudary, UC Berkeley 시니어 펠로우). 원문은
+페이월로 15~20%만 노출되나, 이를 다룬 2차 보도(GeekWire·insideai.news)에서 핵심 내용을
+추가로 확인했다.
+
+- Shopify는 Meta의 AI 채널에 가맹점 카탈로그를 개방해 Muse와 협력하는 반대 전략을 택했다.
+- **Walmart는 자체 쇼핑 에이전트 "Sparky"를 운영하다가 데이터를 보고 방향을 틀었다** —
+  대화창 안에서 바로 결제되는 구매가 자사 사이트 결제 대비 **전환율이 1/3**에 불과하다는
+  것을 발견하고, 체크아웃 과정에 대한 통제권을 다시 사이트 쪽으로 가져오는 쪽으로 전략을
+  수정했다. 이는 "에이전트에게 결제를 맡기면 다 좋다"는 가정과 반대되는 실측 사례다.
+- Instacart는 반복 거래가 많은 구조 덕에 플랫폼 협상력이 상대적으로 강하다는 평가를 받았고,
+  Google은 Gmail·Photos 데이터를 활용한 "Personal Intelligence"로 또 다른 경로를 추구한다.
+
+이 분석은 09-21 Amazon 차단 조치를 "쇼핑 에이전트 대 플랫폼"이라는 구도에서 한 단계 더
+들어가, **플랫폼마다 대응 전략이 다르고(차단 vs 개방 vs 자체 에이전트 운영), 자체 에이전트를
+운영해도 전환율 데이터가 기대만큼 나오지 않을 수 있다**는 점을 보여준다.
+
 ## 출처
 
 - [Bloomberg — Amazon Blocks Meta's Muse AI Agent From Its Retail Site](https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site)
@@ -88,3 +107,4 @@ App Store 무료 앱 1위(ChatGPT 제침)에 오르는 등 다운로드가 급�
 - [GeekWire — Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/)
 - [The Register — Amazon shows Meta's Muse AI shopping agent the door](https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777)
 - [TechCrunch — Meta's AI agent has been blocked from using Amazon.com](https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/)
+- [HBR — Who Owns the Customer in the Age of AI Agents? (10-09, 페이월)](https://hbr.org/2026/10/who-owns-the-customer-in-the-age-of-ai-agents) · [insideai.news 2차 보도](https://insideai.news/news/agentic-ai/ai-agents-customer-relationship/13992/)

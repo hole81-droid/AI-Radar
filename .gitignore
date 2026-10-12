@@ -18,6 +18,13 @@ _outbox/
 # 차단으로 물리 삭제가 안 돼 패턴으로만 제외한다.
 wiki/use-cases/claude-tag-claude-ai-performance-sprint.md
 
+# 2026-10-13: 같은 문제 재발 — Ben AI "1개의 Claude Skill로 무제한 리드 생성" 영상을
+# 신규 Case로 오인해 만든 중복 페이지/raw. 정본은 2026-10-08에 반영된
+# benai-claude-skill-lead-generation.md(영업(sales) 카탈로그에 이미 등록됨). rm이
+# 샌드박스 차단으로 물리 삭제가 안 돼 패턴으로만 제외한다.
+wiki/use-cases/benai-claude-skill-creator-outreach-leadgen.md
+raw/2026-10/benai-claude-skill-creator-outreach.md
+
 # 스캔 중 생성되는 fetch 스크래치 캐시 (위키 콘텐츠 아님, 로컬 전용)
 .scratch/
 tmp_scan/

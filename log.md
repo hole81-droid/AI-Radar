@@ -3245,3 +3245,35 @@ Insights RSS는 제목 스크리닝상 People&Talent 계열 신규 없음(전부
 섹션). Knowledge at Wharton은 10-07 "AI Safety Has Reached a Critical Point"·
 10-05 "AI's Impact on Financial Services"를 확인했으나 둘 다 일반론 수준이라
 스크리닝 보류.
+
+## [2026-10-13] scan | 항목 10건, 반영 9건
+
+신규 생성: update 2건(Meta Muse Wonder 출시 — 보도자료·자체 평가표·독립검증 수치가
+서로 어긋남 / OpenAI GPT-6 Intelligent UI 전체 롤아웃), use-case 1건(Motiv31, Claude
+Code 4-에이전트 뉴스레터 상시운영 — 컨텍스트 윈도우 체크포인트 자가새로고침). 기존
+페이지 후속 갱신 2건: [[2026-10-08-google-gemini-universal-agent-launch]]에 Google
+공식 확인(Gemini Agent가 경쟁사 Claude Opus 5.5/Sonnet 5.5도 유료 티어에서 호출) 추가,
+[[2026-09-21-amazon-blocks-meta-muse-agent-commerce]]에 HBR 후속분석(Walmart 자체
+에이전트 Sparky의 대화창 내 전환율이 사이트 결제 1/3) 추가. 커뮤니티 화제 2건은
+뉴스레터에만 기록(음성 에이전트 확신도-정확도 혼동 실패담, r/ClaudeAI의 Muse Wonder
+벤치마크 반응) — 페이지화 가치보다 사례 자체가 짧아 뉴스레터 수준으로 충분하다고 판단.
+
+관련 허브·인덱스 갱신: [[chatgpt]](Intelligent UI 추가)·[[timeline]](Muse Wonder
+추가)·`index.md`·`wiki/use-cases/case-catalog.md` 전부 교차링크 완료.
+
+**사고 교정**: Ben AI "1개의 Claude Skill로 무제한 리드 생성" 영상을 신규 Case로 오인해
+use-case 페이지·raw 파일을 만들었으나, 이미 2026-10-08에
+[[benai-claude-skill-lead-generation]]로 반영돼 있던 중복임을 뒤늦게 발견(영업(sales)
+카탈로그 줄에 이미 있었음). 이번 세션은 `rm` 권한이 없어 파일을 삭제하지 못하고
+`wiki/use-cases/benai-claude-skill-creator-outreach-leadgen.md`·
+`raw/2026-10/benai-claude-skill-creator-outreach.md` 두 파일을 "중복 — 삭제 대상"
+안내문으로 교체해뒀다 — 다음 lint 세션에서 실제 삭제 필요.
+
+**보류/실패**: Udemy 신규 강의 — Browser pane 없어 "확인 실패"로 기록. AX LABS 블로그는
+09-29에서 정체 지속(15일+). Josh Bersin·Simon Willison·Latent Space·Addy Osmani·
+EdSurge·Sloan(이번엔 Cloudflare 403)·Karpathy 개인블로그·HN 인물쿼리(karpathy·Andrew
+Ng)는 모두 기존 확인분 재확인뿐 신규 없음. HBR RSS는 10-09 "Who Owns the Customer"
+외 10-12 2건은 AI 무관으로 스크리닝 탈락. Karpathy GitHub 저장소는 커밋 메타데이터만
+갱신(신규 저장소 없음). r/AI_Agents의 "Concourse Bench v1" 교차모델 벤치마크 글은
+작성자가 해당 벤치마크 운영사 소속임을 스스로 밝힌 자기홍보성 글이라 모델명조차
+본문에 없어 채택 보류.
