@@ -3277,3 +3277,31 @@ Ng)는 모두 기존 확인분 재확인뿐 신규 없음. HBR RSS는 10-09 "Who
 갱신(신규 저장소 없음). r/AI_Agents의 "Concourse Bench v1" 교차모델 벤치마크 글은
 작성자가 해당 벤치마크 운영사 소속임을 스스로 밝힌 자기홍보성 글이라 모델명조차
 본문에 없어 채택 보류.
+
+## [2026-10-14] scan | 항목 11건, 반영 10건
+
+빅 뉴스 4건(Anthropic Scion 소스컨트롤 재설계·Gemini 4 Argon 전면 롤아웃 후속·McKinsey
+AI OS 리포트·OpenAI 엔지니어 체포), 업무 적용 Case 2건(Anthropic Scion, Geoffrey
+Huntley pre-commit hooks 거버넌스), 커뮤니티 화제 2건(r/ChatGPTCoding 에이전트 코딩
+한계 반성, r/AI_Agents TencentDB Agent Memory 반응), YouTube 픽 1건(전부 신규 없음/정체
+확인). 신규 use-case 페이지 2건 생성([[anthropic-scion-source-control-redesign]]·
+[[ghuntley-precommit-hooks-agent-architecture-enforcement]]), 기존 페이지 1건 후속
+갱신([[2026-09-30-google-gemini-4-argon-launch]]). hub([[claude-code]])·[[timeline]]·
+`index.md`·`wiki/use-cases/case-catalog.md` 교차링크 완료.
+
+**중복 확인(오탐 정정)**: HN에서 715점으로 포착된 "The gap in shared understanding of
+LLM capability is widening"(2026-10-11, story 50047422는 아니고 같은 트윗을 가리키는
+별도 스레드)을 신규 후보로 보고 X 직접 접근을 시도했으나 역시 402로 차단. WebSearch로
+대조한 결과 **같은 Karpathy 트윗(x.com/karpathy/status/2109361546505966046)을 가리키는
+것으로, 10-12 스캔에서 이미 WebSearch 1차 대조를 거쳐 `raw/2026-10/karpathy-llm-capability-gap-widening.md`·[[timeline]] 10-11 항목으로 반영 완료된 사실**임을 확인 — 신규
+히트가 아니라 같은 트윗이 더 높은 점수의 별도 HN 스레드로 재부상한 것뿐이라 추가
+반영 없이 중복 처리.
+
+**보류/실패**: Josh Bersin "HR Leader's Guide to Multi-Agent AI Architecture"(10-08
+게시물)는 내용 대조 결과 기존 [[bersin-multiagent-hr-architecture-governance]](10-08
+반영 완료)와 동일 리포트의 런칭 공지라 중복 처리, 추가 반영 없음. Anthropic·OpenAI
+공식 뉴스룸은 WebFetch로 10-13/10-14 신규 항목 없음 확인(OpenAI는 403이라 WebSearch로
+교차확인). Reddit r/singularity는 빈 응답(레이트리밋 추정), r/OpenAI는 미확인(시간 제약).
+YouTube 9채널 중 장피엠·지피터스·Varun Mayya·Jeff Su는 RSS 일시 404, Liam Ottley는
+일시 500 — 과거에도 반복된 패턴으로 재시도 없이 다음 스캔으로 넘김. 저품질 Shorts
+다수(조코딩 10-13 5건)는 설명란 공백으로 Case 승격 보류(2026-07-20 룰).

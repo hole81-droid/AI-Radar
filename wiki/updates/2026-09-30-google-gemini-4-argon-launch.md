@@ -61,9 +61,33 @@ Koray Kavukcuoglu가 "Gemini 4가 포스트트레이닝에 들어갔다"고 밝�
   모니터링할 가치가 있다. 일반 API·소비자 접근은 이후 순차 공개를
   기다려야 한다.
 
+## 후속 (2026-10-13) — Fairwind 제한 공개 → Gemini 앱 Pro·Ultra 전면 롤아웃
+
+- Google이 **Gemini 4 Argon을 Gemini 앱에서 AI Pro·AI Ultra 구독자 전체로
+  확대**했다 — 09-30 발표 당시 "신뢰받는 사이버 방어자" 한정의 Fairwind
+  Program·Ultra 전용에서, 일반 유료 구독자까지 넓어진 것. (Google
+  Antigravity·AI Studio·Android Studio Canary는 여전히 AI Ultra 전용.)
+- 응답이 "헤징 없이 더 직접적"이고 스타일 지시를 더 안정적으로 따른다고
+  자평.
+- 공개 성능 예시: **Chrome 팀**이 수백 개 파일에 걸친 아키텍처 리팩터를
+  몇 달 걸릴 일을 몇 주로 단축, **Gemma 최적화**에서 A100 GPU 기준 추론
+  처리량이 초당 약 37,900 → 108,000+ 토큰으로 **2.85배** 향상, **YouTube**
+  댓글 로드 지연을 서버 30ms·클라이언트 20ms 단축.
+- API 가격은 기존과 동일(도입 특가 입력 $2·출력 $10/100만 토큰, 11-30까지
+  유효 후 정가 $4·$20).
+- 같은 날 HN에서 "Gemini 4 Argon"(823점)·"Gemini 4 Argon for Robotics"
+  (157점, 로보틱스 특화 버전 별도 공개)가 모두 프론트페이지 최상위에 올라
+  09-30 발표 때보다 더 큰 반향을 모았다.
+
+> ⚠️ **상충(표기 아님, 범위 확인)**: 09-30 당시 "제한 공개 후 단계적 확대"
+> 예고가 2주 만에 실제 대중 롤아웃으로 이어진 것으로, 초기 기록과 모순되지
+> 않고 예고된 경로를 그대로 따른 것이다.
+
 ## 출처
 
 - [Google — Gemini 4 Argon 공식 발표](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)
 - [Artificial Analysis — Gemini 4 Argon (High): Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/gemini-4-argon)
 - [Hacker News(658점) — Gemini 4 Argon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/)
-- raw: `raw/2026-09/google-gemini-4-argon-launch.md`
+- [9to5Google — Gemini app rolling out Gemini 4 Argon to AI Pro and AI Ultra (2026-10-13)](https://9to5google.com/2026/10/13/gemini-app-4-argon)
+- [DeepMind — Gemini 4 Argon for Robotics](https://developers.googleblog.com/gemini-4-argon-for-robotics/)
+- raw: `raw/2026-09/google-gemini-4-argon-launch.md`, `raw/2026-10/google-gemini-4-argon-public-rollout.md`

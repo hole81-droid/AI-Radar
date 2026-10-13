@@ -68,6 +68,8 @@ uses: [course, ax]
 - [[accord-agents-cross-review-workspace]] — Claude Code+Codex로 Accord Agents(subagents 반투명 교차검토 워크스페이스)를 활용해 여러 코딩 에이전트의 계획·PR 상호검증을 수행 → 사람이 에이전트 간 "메신저" 역할에서 이탈 (일화, 수치 미확인)
 - [[crew-worktree-free-multiagent-orchestration]] — Claude Code로 Crew(subagents, worktree 대신 실시간 컨텍스트 공유)를 활용해 동일 저장소 멀티 에이전트 동시 작업 충돌 방지를 수행 → 검증된 성과 수치 없음, 프로토타입 단계 (일화)
 - [[claude-code-hooks-wordswap]] — Claude Code Hooks로 출력 후처리 정규식 치환을 활용해 AI 응답의 특정 말버릇 실시간 교정을 수행 → HN 407~467점 화제성 (일화, 성능지표 없음)
+- [[anthropic-scion-source-control-redesign]] — Anthropic이 Claude(cli-pipeline)의 자율 코드 생성 폭증(일일 머지 2,500→30,000+건)에 대응해 git을 대체하는 사내 VCS "Scion"을 구축 → 인프라 200배 축소·체크아웃 분→초 단위·CI CPU 25% 확보, 7인 팀·5개월 (실측, 공식)
+- [[ghuntley-precommit-hooks-agent-architecture-enforcement]] — 코딩 에이전트에 pre-commit hooks(hooks)를 걸어 관찰성 라이브러리 우회 등 아키텍처 위반을 커밋 단계에서 차단+교정 프롬프트 주입을 수행 → "확률적 튜닝→결정론적 제약" 전환 주장, 정량 비교 수치는 없음 (일화)
 - [[ben-ai-claude-skills-building-methodology]] — Claude로 Skills 설계 방법론+메타스킬(Skill Builder Skill)을 활용해 재사용 가능한 Claude Skill 제작 표준화를 수행 → 7가지 베스트프랙티스 체크리스트 (강의 콘텐츠, 정량 미확인)
 - [[ben-ai-claude-record-a-skill-best-practices]] — Claude Cowork로 Record a Skill(record-replay, 화면 녹화→스킬 자동변환)을 활용해 프롬프트 없이 시연만으로 스킬 제작을 수행 → 4가지 베스트프랙티스+라이브 데모 (강의 콘텐츠, 정량 미확인)
 - [[cursor-agent-swarms-model-economics]] — Cursor로 플래너-워커 계층형 에이전트 스웜(subagents+cli-pipeline)을 활용해 SQLite Rust 재구현 대형 벤치마크를 수행 → 비용 $10,565→$1,339(8배↓), 머지충돌 70,000+→1,000미만 (실측)

@@ -69,6 +69,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-09-18 보안 참고**: 경쟁 하네스 ZCode(Z.ai GLM 기반)가 설정을 꺼도 `.git` 전체 히스토리를 클라우드로 몰래 업로드하는 사실이 리버스엔지니어링으로 드러남 — 하네스 선택 시 성능·비용 외에 데이터 흐름 투명성도 검증해야 한다는 반례. → [[2026-09-18-zcode-glm-agent-git-history-upload]]
 - **2026-10-07 후속**: 서브에이전트 캐시 TTL 기법이 "1시간 하트비트 핑 + 175K 토큰 자동 핸드오프"로 고도화 — 주간 사용한도 소진율 약 60%↓(GitHub 공개) → [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] (10-07 후속 절)
 - **2026-10-08 보안 사고**: CrowdStrike가 한국 은행 9곳 해킹(약 68,000건 유출)에 Claude Code 등 AI 에이전트가 동원됐을 가능성을 공개 — 공격자가 오픈소스 침투테스트 에이전트 ARTEX와 Claude를 병행 사용한 것으로 추정. 코딩 에이전트가 공격 도구로 전용된 사례 → [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
+- **2026-10-13**: Anthropic이 Claude 에이전트의 자율 코드 생성 폭증(일일 머지 2,500→30,000+건)에 대응해 git을 대체하는 사내 버전관리시스템 **"Scion"**을 구축 — 인프라 200배 축소, 체크아웃 분→초 단위, CI CPU 용량 25% 확보. 9/14 CI test-impact 재설계와 짝을 이루는 인프라 후속 사례 → [[anthropic-scion-source-control-redesign]]
 
 ## 경쟁 구도
 
