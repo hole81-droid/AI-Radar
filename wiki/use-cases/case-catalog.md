@@ -107,6 +107,7 @@ uses: [course, ax]
 - [[anthropic-skill-authoring-best-practices]] — Claude로 공식 Skill 저작 베스트프랙티스(skills, "Claude A/B" 평가주도 반복개발 패턴)를 활용해 SKILL.md 작성 품질 표준화를 수행 → 체크리스트형 품질 기준 확립 (강의 콘텐츠, 정량 성과 미확인)
 - [[reddit-claude-code-teams-ticket-autoresponder]] — Claude Code로 Teams 상주 자동응답+자율 티켓 처리 루프(cli-pipeline)를 활용해 사내 개발 티켓 수신·작업·완료통보·QA할당을 수행 → 무인 처리, 동료 대비 생산성 격차로 조직 재배치 논의까지 발생 (일화, 정량 미확인)
 - [[simonwillison-codex-voice-coding-blog-feature]] — ChatGPT Codex(음성 대화 모드, vibe-coding)로 요리 중 음성 대화를 활용해 블로그 뉴스레터 아카이브 기능 개발을 수행 → 약 30분 음성으로 PR 생성, 정밀 리뷰는 키보드로 전환(시간만 실측) (일화)
+- [[linus-torvalds-claude-code-linux-kernel-patch]] — Linux 커널 메인테이너 Linus Torvalds가 Claude Code(vibe-coding)로 커밋 메시지·코드·테스트·리뷰를 작성하게 하고 본인이 성능 측정을 전담해 캐시 읽기 folio 참조카운팅 병목 제거 패치를 수행 → 8스레드 동시 읽기 처리량 약 3배(초당 1,000만→3,000만~3,300만 회), 리뷰 중 레이스 컨디션 발견돼 병합 전 (실측)
 
 ## 보안·운영 (ops)
 

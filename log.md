@@ -3305,3 +3305,36 @@ LLM capability is widening"(2026-10-11, story 50047422는 아니고 같은 트�
 YouTube 9채널 중 장피엠·지피터스·Varun Mayya·Jeff Su는 RSS 일시 404, Liam Ottley는
 일시 500 — 과거에도 반복된 패턴으로 재시도 없이 다음 스캔으로 넘김. 저품질 Shorts
 다수(조코딩 10-13 5건)는 설명란 공백으로 Case 승격 보류(2026-07-20 룰).
+
+## [2026-10-15] scan | 항목 10건, 반영 9건
+
+업무 적용 Case 1건(Linux 커널 메인테이너 Linus Torvalds가 Claude Code로 캐시 읽기
+성능 최적화 패치 작성, 커밋 메시지에 처음 공개 credit — 처리량 3배↑ 실측, 레이스
+컨디션 발견돼 병합 전), 빅 뉴스 4건(Anthropic 싱가포르 오피스+정부 AI안전 MOU,
+CSO Online의 업계 AI 에이전트 보안사고 종합분석 HN 778점, Wharton 2026 AI Adoption
+Report 조직설계-ROI 상관 수치, Josh Bersin-Workday "HR 2030" 파트너십), 커뮤니티
+화제 4건(r/ClaudeAI 직업정체성 불안 고백, HN Scion-Mononoke 계보 분석 151점, Show HN
+Neckbeard DevOps 플러그인 55점, HN 게임개발 AI하네스 아키텍처 164점), YouTube 픽
+1건(조코딩 AI리터러시 강의 2강 — AX인재전쟁 유료강의 티저).
+
+신규 페이지 2건 생성([[linus-torvalds-claude-code-linux-kernel-patch]] use-case,
+[[2026-10-14-anthropic-singapore-office-mou]] update), 기존 페이지 1건 후속 갱신
+([[2026-10-09-anthropic-unintended-model-actions-report]]에 CSO 종합분석+보안권고
+절 추가). hub([[claude-code]])·[[anthropic]] 플레이어 페이지·[[timeline]]·`index.md`·
+`wiki/use-cases/case-catalog.md` 교차링크 완료.
+
+**소스 점검**: 구루 1차 채널(Simon Willison·Latent Space·Addy Osmani) 전부 재확인 —
+Addy Osmani는 09-14에서 정체 지속, AX LABS 블로그는 09-29에서 정체 지속(둘 다 이미
+위키에 반영된 주제만 최신). HN 인물쿼리(karpathy·"Andrew Ng", points>50)는 신규
+히트 없음(기존 히트 재확인). AI 경영·L&D 섹션(McKinsey·HBR·Sloan·Wharton·Bersin·
+HBI·EdSurge·Hardman) 전수 스크리닝 — Wharton·Bersin만 신규 채택, MIT Sloan "AI
+Search 브랜드 가시성"(GEO) 기사는 구체 수치 부족으로 보류, EdSurge는 이번 창 전부
+K-12 정책류(참고 ③)로 제외. Reddit r/AI_Agents·r/LocalLLaMA는 연속 429로 확보
+실패(25초 간격 1회 재시도 후 포기), r/ClaudeAI만 확보.
+
+**보류/중복**: HN에서 재부상한 "The gap in shared understanding of LLM capability"
+류 트윗 재탕은 이번엔 히트 없음. Claude Code changelog(2.1.295~2.1.300, mods API
+추가 등)는 순수 SDK 시그니처 변경이라 반영 제외. OpenAI 엔지니어 체포 사건은
+10-14 뉴스레터에서 이미 반영 완료된 동일 사건의 WebSearch 재확인뿐, 추가 반영
+없음. Google 공식 블로그는 10-14/15 신규 항목 없음(9/30 Argon 발표 이후 정체).
+Udemy는 Browser pane 미보유로 확인 실패 처리(뉴스레터에 명시).

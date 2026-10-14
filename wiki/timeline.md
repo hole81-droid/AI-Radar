@@ -8,6 +8,13 @@ date: 2026-07-07
 
 ## 2026-10
 
+- **10-14** — Linux 커널 메인테이너 Linus Torvalds, **Claude Code를 커밋 메시지에 처음 공개
+  credit** — 캐시 읽기 병목 제거 패치를 Claude Code가 코드·테스트·리뷰까지 작성, 본인이
+  성능 측정(8스레드 읽기 처리량 약 3배↑). 레이스 컨디션 발견돼 병합 전(HN 109점)
+  → [[linus-torvalds-claude-code-linux-kernel-patch]]
+- **10-14** — Anthropic, **싱가포르 오피스 개설 + 정부 AI 안전 MOU** — APAC 5번째 오피스,
+  GovTech Singapore·Grab·DBS 등 현지 서비스에 이미 Claude 사용 중 공개
+  → [[2026-10-14-anthropic-singapore-office-mou]]
 - **10-13** — Anthropic, **자체 소스 컨트롤 시스템 "Scion"으로 git 대체** — Claude 에이전트의
   자율 코드 생성으로 일일 머지 건수가 2,500→30,000+건으로 폭증, 7인 팀이 5개월 만에 전체
   마이그레이션(인프라 200배 축소·체크아웃 분→초 단위·CI CPU 25% 확보) → [[anthropic-scion-source-control-redesign]]

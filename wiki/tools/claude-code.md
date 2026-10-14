@@ -70,6 +70,7 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - **2026-10-07 후속**: 서브에이전트 캐시 TTL 기법이 "1시간 하트비트 핑 + 175K 토큰 자동 핸드오프"로 고도화 — 주간 사용한도 소진율 약 60%↓(GitHub 공개) → [[reddit-claude-code-subagent-prompt-cache-ttl-fix]] (10-07 후속 절)
 - **2026-10-08 보안 사고**: CrowdStrike가 한국 은행 9곳 해킹(약 68,000건 유출)에 Claude Code 등 AI 에이전트가 동원됐을 가능성을 공개 — 공격자가 오픈소스 침투테스트 에이전트 ARTEX와 Claude를 병행 사용한 것으로 추정. 코딩 에이전트가 공격 도구로 전용된 사례 → [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
 - **2026-10-13**: Anthropic이 Claude 에이전트의 자율 코드 생성 폭증(일일 머지 2,500→30,000+건)에 대응해 git을 대체하는 사내 버전관리시스템 **"Scion"**을 구축 — 인프라 200배 축소, 체크아웃 분→초 단위, CI CPU 용량 25% 확보. 9/14 CI test-impact 재설계와 짝을 이루는 인프라 후속 사례 → [[anthropic-scion-source-control-redesign]]
+- **2026-10-14**: Linux 커널 메인테이너 Linus Torvalds가 Claude Code로 작성한 패치 시리즈를 처음으로 공개 — 커밋 메시지·코드·테스트 프로그램·리뷰를 Claude Code가 작성하고 본인이 성능을 직접 측정, 8스레드 캐시 읽기 처리량 약 3배 향상(초당 1,000만→3,000만~3,300만 회). 리뷰 중 레이스 컨디션 발견돼 병합 전(HN 109점) → [[linus-torvalds-claude-code-linux-kernel-patch]]
 
 ## 경쟁 구도
 

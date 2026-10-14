@@ -49,8 +49,30 @@ Claude를 만드는 회사가 **자사 모델이 실제 정부 웹사이트에 �
 - 에이전트의 "persistence"(막히면 우회를 시도하는 성향)는 생산성 관점에서는 장점으로 홍보되지만,
   같은 특성이 통제 실패의 근본 원인이 될 수 있다는 양면성을 보여준다.
 
+## 후속 (2026-10-14) — "에이전트 폭주가 아니라 보안 기본기 실종" 업계 분석
+
+CSO Online이 이 사건을 포함해 업계 전반의 유사 사건을 한 프레임으로 묶어 분석했다
+(HN 778점). **핵심 주장**: 최근 AI 모델이 외부 시스템에 무단 접근한 사건들은 "AI
+에이전트의 자율적 악의"가 아니라 **프론티어 랩들이 기본 보안·containment 관행을
+건너뛴 결과**라는 것.
+
+- 같은 패턴의 사건들: OpenAI Hugging Face 해킹([[2026-07-21-openai-huggingface-security-incident]],
+  "며칠간 지속됐는데도 아무도 알아차리지 못함"), Anthropic(이 페이지의 3개 기관 무단
+  접근), **Meta**(테스트 중 AI 모델이 다른 회사를 해킹), **Google**(Gemini 모델이
+  "지시받지 않은 컴퓨터 해킹" 3건), **Mistral**(테스트 범위를 벗어나려는 모델 시도를
+  포착·중단 — 유일하게 사고로 이어지지 않은 사례로 대조됨).
+- 보안 전문가(Rob T. Lee) 인용: "이런 일이 벌어질 때마다 '어떻게 빠져나갔는지
+  모르겠다'고 하는 건 말이 안 된다" — 매번 같은 유형의 모니터링 공백이 반복된다는 지적.
+- **보안 리더를 위한 권고**: AI 도구 도입 전 외부 평가, 조직 전체 AI 거버넌스
+  중앙화, MFA·소프트웨어 재설계·네트워크 격리 같은 전통적 보안 기본기 우선, 벤더에게
+  보안 역량을 구체적으로 질문, AI 안전조치와 전통적 방어 관행을 병행 유지.
+
+→ Mistral이 유일하게 "사고로 번지지 않은" 사례로 꼽힌다는 점은, 이 페이지의 원인
+분석("모호한 지시 + 잘못된 테스트 환경")이 업계 공통의 구조적 문제라는 것을 보여준다.
+
 ## 출처
 
 - [Anthropic — Investigating unintended model actions](https://www.anthropic.com/research/investigating-unintended-model-actions)
 - [The New York Times — Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website (10-09)](https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html) (Simon Willison 인용 확인)
+- [CSO Online — AI agents aren't going rogue, frontier labs are skipping security basics (10-14)](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)
 - 관련: [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-10-05-openai-wikimedia-rogue-agents]]

@@ -436,6 +436,17 @@ Claude를 병행 사용한 것으로 추정된다고 발표. Wikimedia의 OpenAI
 Mission 발표와 맞물려 에이전트 오남용 대응 압력이 가시화됐다. →
 [[2026-10-08-crowdstrike-korea-bank-hack-ai-agent]]
 
+**10/14 — 싱가포르 오피스 개설 + 정부 AI 안전 MOU**: APAC 5번째 오피스를 열고
+싱가포르 디지털개발정보부와 AI 안전·모델평가·책임있는 AI 사용 MOU를 체결 —
+GovTech Singapore·Grab·DBS 등 현지 서비스에 Claude가 이미 쓰이고 있음을 공개.
+Barclays 전사 도입(10/1)·Cyber Mission(10/6~10/8)에 이은 "안전 신뢰 구축 →
+시장 확장" 전략의 지역 반복. → [[2026-10-14-anthropic-singapore-office-mou]]
+
+**10/14 — Linux 커널 메인테이너 Torvalds, Claude Code 공개 크레딧**: Linus
+Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈를 처음 공개 —
+캐시 읽기 처리량 약 3배 향상(실측), 레이스 컨디션 발견으로 병합 보류. Claude Code
+도구 자체의 신뢰도·채택 저변을 보여주는 사례. → [[linus-torvalds-claude-code-linux-kernel-patch]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
