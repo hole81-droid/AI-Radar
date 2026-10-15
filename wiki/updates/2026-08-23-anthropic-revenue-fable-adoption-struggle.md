@@ -122,6 +122,23 @@ IPO 타임라인(투자자 데이 일정·밸류에이션·지배구조 등)은 
 추세는 이 페이지에, IPO 절차 자체는 그 페이지에 나눠 기록한다 — 중복 생성 방지를
 위해 10-05 스캔에서 이 분리를 재확인했다.
 
+## 10-16 갱신 — 3분기 매출 $16.8B 확정, 조정영업이익률 11%+·현금흐름 흑자 공개
+
+[[2026-07-15-anthropic-ipo-investor-meetings]]에서 다룬 **10/14 투자자 데이**에서
+나온 것으로 보이는 수치가 CNBC·Bloomberg·Axios 등 다수 매체로 10-14~10-15 보도됐다.
+
+- **3분기(7~9월) 매출 $16.8B** — 2분기 $11.6B(08-27 갱신) 대비 **45% 증가**.
+- 조정(adjusted) 기준 **분기 흑자** 달성, 조정 매출총이익률 **85%**, 조정
+  영업이익률 **11%+**, 포지티브 free cash flow(현금흐름) 확보.
+- 컴퓨트 지출 대비 매출 비율 **$1.70 : $1**(컴퓨팅 1달러당 매출 1.70달러) — 09-14
+  갱신에서 다룬 $517B 컴퓨트 계약 베팅이 매출 성장으로 받쳐지고 있음을 보여주는 지표.
+- 투자자들은 연말 연환산 매출 **$110B** 도달을 전망(08-23 원 항목의 "7월 기준
+  연환산 $65B"에서 더 올라간 수치).
+- 이번 갱신으로 05-19 이후 누적된 "매출 $47B→$65B→2Q $11.5B+→3Q $16.8B" 흐름이
+  **분기 단위 조정수익성 2연속 확보**로 이어졌음이 재확인된다 — 09-13 갱신의
+  "2분기 연속 조정영업이익 흑자"가 3분기에도 유지된 셈. IPO는 여전히 11월
+  목표([[2026-07-15-anthropic-ipo-investor-meetings]]).
+
 ## 출처
 
 - [Simon Willison — Anthropic's best AI model struggles to attract users as cheaper tools thrive](https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/) (2026-08-23)
@@ -135,3 +152,7 @@ IPO 타임라인(투자자 데이 일정·밸류에이션·지배구조 등)은 
 - [DataCenterDynamics — Anthropic signed $517bn in compute agreements in past 11 months](https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/) (원 출처 The Information, 2026-09-06)
 - [Exponential View — Anthropic's $517 billion shopping list](https://www.exponentialview.co/p/monday-data-14-09-2026) (2026-09-14 재확산)
 - raw: [[raw/2026-09/anthropic-517-billion-compute-deals]]
+- [CNBC — Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO (10-15)](https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html)
+- [Bloomberg — Anthropic Revenue Hits $16.8 Billion in Quarter Before IPO (10-14)](https://www.bloomberg.com/news/articles/2026-10-14/anthropic-revenue-jumps-to-16-8-billion-in-quarter-before-ipo)
+- [Axios — Anthropic makes an AI bull case with $16.8B sales, positive cash flow](https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow)
+- raw: [[raw/2026-10/anthropic-q3-2026-revenue-16-8b-pre-ipo]]

@@ -25,6 +25,7 @@ uses: [course, ax]
 - [[liamottley-claude-code-higgsfield-ai-makeover-website]] — Claude Code+Higgsfield(mcp)로 아웃페인팅·모션클립 생성과 Mobbin·21st.dev UI 레퍼런스 소싱을 활용해 비즈니스 웹사이트 제작을 수행 → "AI 슬롭" 없는 완성도(정량 성과 미확인) (일화)
 - [[simonwillison-claude-code-playwright-kakapo-video]] — Claude(이미지 생성)+Claude Code(vibe-coding+cli-pipeline, Playwright 자동화)로 컨퍼런스 발표 클로징 슬라이드용 픽셀아트 애니메이션 영상 제작을 수행 → 프롬프트 몇 번으로 완성해 발표 당일 즉시 사용 (일화, 정량 성과 미확인)
 - [[motiv31-claude-code-newsletter-checkpoint-refresh]] — Claude Code(subagents+cron-routines+second-brain)로 이름 붙인 에이전트 4개(Titus·Pheme·Davinci·Metis)를 활용해 뉴스레터(9천 구독자) 운영 전 과정을 수행 → 컨텍스트 윈도우 체크포인트 자가 새로고침 11/11회 무결점 (주장, 작성자 자체 집계)
+- [[benai-claude-motion-8-business-use-cases]] — Claude(Claude Motion, vibe-coding)로 텍스트·시트·덱을 코드 기반 애니메이션으로 전환해 제품 데모·온보딩·주간보고 영상 제작을 수행 → 주간보고 영상 Slack 자동 포스팅 등 8가지 용례 공개 (일화, 비즈니스 임팩트 수치 미확인)
 
 ## 리서치 (research)
 
@@ -107,6 +108,7 @@ uses: [course, ax]
 - [[anthropic-skill-authoring-best-practices]] — Claude로 공식 Skill 저작 베스트프랙티스(skills, "Claude A/B" 평가주도 반복개발 패턴)를 활용해 SKILL.md 작성 품질 표준화를 수행 → 체크리스트형 품질 기준 확립 (강의 콘텐츠, 정량 성과 미확인)
 - [[reddit-claude-code-teams-ticket-autoresponder]] — Claude Code로 Teams 상주 자동응답+자율 티켓 처리 루프(cli-pipeline)를 활용해 사내 개발 티켓 수신·작업·완료통보·QA할당을 수행 → 무인 처리, 동료 대비 생산성 격차로 조직 재배치 논의까지 발생 (일화, 정량 미확인)
 - [[simonwillison-codex-voice-coding-blog-feature]] — ChatGPT Codex(음성 대화 모드, vibe-coding)로 요리 중 음성 대화를 활용해 블로그 뉴스레터 아카이브 기능 개발을 수행 → 약 30분 음성으로 PR 생성, 정밀 리뷰는 키보드로 전환(시간만 실측) (일화)
+- [[epic-games-vibe-coded-launcher-rewrite]] — Epic Games가 vibe-coding으로 게임 스토어 런처 전체를 처음부터 재작성 → 콜드스타트 5.47초·Steam 대비 46% 빠르다고 발표했으나 Valve 대응 업데이트로 공개 직후 우위 역전 (claimed, 반박됨)
 - [[linus-torvalds-claude-code-linux-kernel-patch]] — Linux 커널 메인테이너 Linus Torvalds가 Claude Code(vibe-coding)로 커밋 메시지·코드·테스트·리뷰를 작성하게 하고 본인이 성능 측정을 전담해 캐시 읽기 folio 참조카운팅 병목 제거 패치를 수행 → 8스레드 동시 읽기 처리량 약 3배(초당 1,000만→3,000만~3,300만 회), 리뷰 중 레이스 컨디션 발견돼 병합 전 (실측)
 
 ## 보안·운영 (ops)

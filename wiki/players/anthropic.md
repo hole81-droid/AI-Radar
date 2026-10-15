@@ -447,6 +447,13 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
 캐시 읽기 처리량 약 3배 향상(실측), 레이스 컨디션 발견으로 병합 보류. Claude Code
 도구 자체의 신뢰도·채택 저변을 보여주는 사례. → [[linus-torvalds-claude-code-linux-kernel-patch]]
 
+**10/14(투자자 데이, 보도) — 3분기 매출 $16.8B, 조정영업이익률 11%+ 흑자 확대**:
+10/14 투자자 데이에서 공개된 것으로 보이는 수치가 CNBC·Bloomberg·Axios 등으로
+보도됐다. 2분기 $11.6B 대비 **45% 증가**, 조정 매출총이익률 85%·조정영업이익률
+11%+·컴퓨트 지출 대비 매출 $1.70:$1·포지티브 현금흐름 확보. 투자자들은 연말
+연환산 $110B 전망. IPO는 11월 목표 유지. → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
+(10-16 갱신)
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -482,7 +489,8 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
   [[2026-10-09-anthropic-unintended-model-actions-report]] ·
   [[2026-07-15-anthropic-ipo-investor-meetings]](10-10 SpaceX $84.5B 후속) ·
   [[2026-10-06-anthropic-claude-google-workspace-beta]] ·
-  [[2026-10-08-anthropic-claude-dashboards-motion-launch]]
+  [[2026-10-08-anthropic-claude-dashboards-motion-launch]] ·
+  [[benai-claude-motion-8-business-use-cases]]
 
 ## 출처
 

@@ -3338,3 +3338,25 @@ K-12 정책류(참고 ③)로 제외. Reddit r/AI_Agents·r/LocalLLaMA는 연속
 10-14 뉴스레터에서 이미 반영 완료된 동일 사건의 WebSearch 재확인뿐, 추가 반영
 없음. Google 공식 블로그는 10-14/15 신규 항목 없음(9/30 Argon 발표 이후 정체).
 Udemy는 Browser pane 미보유로 확인 실패 처리(뉴스레터에 명시).
+
+## [2026-10-16] scan | 항목 9건, 반영 8건 (신규 3·갱신 5)
+
+Anthropic 3분기 매출 $16.8B(QoQ 45%↑, 조정영업이익률 11%+) 투자자 데이 발표를
+CNBC·Bloomberg·Axios 교차확인 후 기존 [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]에
+10-16 갱신 절로 추가(신규 페이지 생성 안 함, 동일 스토리라인 누적 원칙 적용) +
+wiki/players/anthropic.md·wiki/timeline.md·index.md 교차링크. HBR "relationslipping"
+연구(동료 대신 AI에게 먼저 묻는 습관→팀 신뢰 약화, 직장인 83% 설문)는 신규 update
+페이지로 반영([[2026-10-15-hbr-ai-colleague-relationslipping-research]]). 업무 적용
+Case 2건을 use-case 스키마로 신규 생성: Ben AI의 Claude Motion 8용례 영상
+([[benai-claude-motion-8-business-use-cases]], 기존
+[[2026-10-08-anthropic-claude-dashboards-motion-launch]] 교차링크) · Epic Games의
+vibe-coded 게임런처 재작성([[epic-games-vibe-coded-launcher-rewrite]], Steam 대비
+46% 빠르다는 주장이 당일 Valve 대응으로 반박된 사례). case-catalog.md에 2건 모두
+추가, index.md 케이스 수 147→149건 갱신. McKinsey "judgment bottleneck"·HN Dynamic
+Workflows 재조명·r/ClaudeAI Haiku 5.5 호평은 기존 페이지
+([[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]]) 교차링크 또는
+뉴스레터 한 줄로만 기록(위키 중복·수치 미확인 사유). Reddit 커뮤니티 스캔은
+www.reddit.com RSS로 r/ClaudeAI 확보, r/AI_Agents는 429 추정 빈 응답(재시도 없이
+제목 확인된 r/ClaudeAI로 대체). YouTube 9채널 중 조코딩(3강 신규)·Dan Martell
+(harness 영상)만 신규 반영, Varun Mayya 10-15 업로드는 기존 반영분(OpenAI 녹음장치
+사건)과 동일 주제라 제외. Udemy는 Browser pane 미보유로 확인 실패 처리(뉴스레터에 명시).
