@@ -146,6 +146,25 @@ Meta의 전 수석 AI 과학자 Yann LeCun이 2026-10-01 Fortune과의 인터뷰
 맥락은 함께 읽어야 한다 — LLM 패러다임을 미는 Anthropic·OpenAI와는 애초에 기술노선이
 갈리는 경쟁자에 가깝다.
 
+## 10-15 후속 — METR에 "직원 수준" 접근권 실제 부여, 거부권도 포기
+
+1단계("즉시 시행")가 Accenture(09-18)에 이어 두 번째 임베디드 평가자로 이어졌다.
+Anthropic이 2026-10-15 METR(비영리 프론티어 AI 평가기관) 연구원 6명에게 노트북·사무실
+공간·내부 도구를 포함한 **직원 수준 접근권**을 부여한다고 발표 — 자사 리스크평가팀과
+동급 접근이다. 더 중요한 것은 **METR 발행물에 대한 거부권(veto)을 Anthropic이
+포기**했다는 점(고객데이터·특권정보·모델 아키텍처 세부사항에 대한 제한적 편집 권한만
+유지).
+
+배경은 "지난 8월 말 이후 매주 또는 2주마다" 공개된 AI 에이전트 사고들(09-26 OpenAI
+정부 웹사이트 접촉, 10-05 Wikimedia rogue agents, 10-09 이 위키의
+[[2026-10-09-anthropic-unintended-model-actions-report]] 등)이다. Anthropic은 "우리는
+우리가 내리는 결정에 공개적으로 책임을 지고 싶다"며 "평가자가 아는 것과 기업 자신이
+아는 것 사이의 간극을 좁히겠다"고 밝혔다.
+
+09-18 Accenture 파트너십이 "비독점"이라며 예고했던 추가 평가자(METR과 파일럿 논의
+중이라던 대목)가 한 달 만에 실제 발표로 이어진 것이어서, 1단계가 성명 이상의 실행
+단계에 계속 있다는 근거가 하나 더 쌓였다.
+
 ## 관련 페이지
 
 - [[2026-09-22-openai-third-party-safety-assessments]] — 09-22 후속: OpenAI의 2단계 첫 구체 실행
@@ -166,3 +185,4 @@ Meta의 전 수석 AI 과학자 Yann LeCun이 2026-10-01 Fortune과의 인터뷰
 - 09-18 후속: [Anthropic — Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation) · [CNBC](https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html) · [TechCrunch](https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/) · [Accenture Newsroom](https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic)
 - 09-19 후속: [CNN — Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown](https://www.cnn.com/2026/09/19/business/ai-slowdown-lawsuit-antitrust) · [Fortune](https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/) · [CBS News](https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/) · NY Post(2차 확인: ground.news, jingletree) — "OpenAI and Anthropic oversold AI security breaches to pressure feds into protecting turf: insiders"
 - 10-01 후속: [Fortune — AI godfather Yann LeCun says Anthropic CEO Dario Amodei is deluded](https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/) (HN 372점) · [Fortune — AI godfather Yann LeCun: Anthropic CEO deluded, doesn't understand cybersecurity](https://fortune.com/2026/10/01/yann-lecun-anthropic-ceo-dario-amodei-deluded-crazy-cybersecurity/) (HN 24점)
+- 10-15 후속: [TechCrunch — Anthropic is letting METR researchers look under the hood with employee-level access](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)

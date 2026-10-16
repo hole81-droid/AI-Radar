@@ -55,6 +55,8 @@ uses: [course, ax]
 - [[agensh-claude-code-decentralized-multi-agent-harness]] — Claude Code로 subagents+hooks(공유 컨텍스트 보드+TeammateIdle/TaskCompleted 훅)를 활용해 오케스트레이터 없는 멀티 에이전트 팀 협업(3~32+ 규모별 3단계)을 구성 → 원 논문 실측 pandoc 통과율 33.89%→55.06%(1,024 에이전트), 실무 이식 효과는 미실측 (claimed)
 - [[weave-router-claude-code-codex-model-routing]] — Claude Code·Codex 등 코딩 에이전트에 cli-pipeline 모델 라우터를 앞단에 붙여 요청별 최적 모델 자동 선택을 수행 → Astra 대비 Terminal Bench 동등 pass rate에 비용 52%·속도 2.2배, SWE Atlas 비용 54%·속도 2.5배 (자체 보고, claimed)
 - [[danluu-agentic-testing-technique-benchmark]] — Codex(GPT-5.6 Sol)로 cli-pipeline+skills 26개 테스트기법·유명 스킬 4종을 조건별 80회씩 실행해 Zstd/IMAP 구현 정답률·비용을 실측 비교 → 무지시 기본값이 평균 이상, TDD·유명 스킬 대부분 저조, 이름만 던지는 지시로는 품질 개선 안 됨 (실측, 부정 결과)
+- [[anthropic-claude-code-team-pr-review-automation]] — Claude Code로 subagents+skills를 활용해 PR 코드리뷰·위험기반 인간 승인을 수행 → 되돌리기율 40%+↓, 1회 통과율 65%→78%, 평균 리뷰 라운드 2.08→1.32 (실측, Anthropic 자사)
+- [[momo5502-ai-agents-game-decompilation]] — Claude Code+Codex CLI로 mcp+cli-pipeline(바이트매칭 검증 루프)을 활용해 레거시 게임 바이너리 디컴파일을 수행 → 함수 99% 복원·83% 바이트 완전일치, 약 6,000억~7,000억 토큰 (실측, 개인 프로젝트)
 - [[liao-agents-documentation-not-memory]] — Claude Code·Codex 등 코딩 에이전트에 second-brain 방식 구조화 마크다운 문서 워크플로(Operator Memory, 오픈소스)를 붙여 세션 간 지식 유지를 수행 → RAG 기반 메모리 플러그인의 5가지 구조적 결함을 문서화 체계로 대체 (정량 비교 미실측, anecdotal)
 - [[claude-code-goal-routines-nightly-quality]] — Claude Code로 /goal+cron을 활용해 야간 코드 품질 점검·보고서 작성을 수행 → 완전 무인 정기 실행 (수치 미확인)
 - [[codex-automations-scheduled-maintenance]] — Codex Automations로 예약 실행+워크트리 격리를 활용해 정기 유지보수 업무를 수행 → 무인 반복 실행 (수치 미확인)
@@ -180,6 +182,7 @@ uses: [course, ax]
 - [[cornerstone-workforce-ai-platform]] — Cornerstone Workforce AI(skills+subagents)로 인재 식별·이탈위험 관리·프로젝트 기반 배치·맞춤 개발계획을 자동화 → 의료기관 사례 3,000만~4,000만 달러 절감 기대 (주장, 벤더 보고치)
 - [[bersin-galileo-jupiter-hr-ai]] — Galileo(Josh Bersin Company)로 second-brain형 HR 지식 코퍼스를 mcp 방식 주입을 활용해 Copilot·Workday·ServiceNow 등 기존 에이전트에 HR 전문성을 이식 → 1,000개 이상 기업 사용 주장, 토큰 1/10·환각 제거 주장 (주장, 벤더 발표)
 - [[hardman-ld-teams-build-vs-buy-ai-tools]] — L&D 팀이 Claude Projects·커스텀 GPT·Gemini Gem(skills+prd-driven)을 활용해 벤더 구매 대신 사내 맞춤 AI 도구를 자체 제작 → 콘텐츠 생산량이 아니라 의사결정 품질·과정 제작 절제를 성과로 재정의 (일화, 특정 기업명·정량 수치 없음)
+- [[fountain-claude-hiring-onboarding-multiagent]] — Fountain이 Claude(Sonnet·Opus, subagents)로 오케스트레이터+전문 서브에이전트를 활용해 프런트라인 채용·온보딩·심사를 자동화 → 심사 50%↓, 전환율 2배, 물류센터 충원 1주+→72시간 (claimed, 벤더 공식 고객사례)
 
 ## 교육 (education)
 

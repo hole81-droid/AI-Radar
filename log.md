@@ -3360,3 +3360,34 @@ www.reddit.com RSS로 r/ClaudeAI 확보, r/AI_Agents는 429 추정 빈 응답(�
 제목 확인된 r/ClaudeAI로 대체). YouTube 9채널 중 조코딩(3강 신규)·Dan Martell
 (harness 영상)만 신규 반영, Varun Mayya 10-15 업로드는 기존 반영분(OpenAI 녹음장치
 사건)과 동일 주제라 제외. Udemy는 Browser pane 미보유로 확인 실패 처리(뉴스레터에 명시).
+
+## [2026-10-17] scan | 항목 10건, 반영 9건
+
+RSS/curl로 구루 1차채널(Simon Willison·Latent Space)·AX LABS·L&D 3종(Josh Bersin·
+Harvard Business Impact·McKinsey Insights)·HN Algolia(karpathy·Andrew Ng·Claude
+키워드) 훑음 — 구루 채널·AX LABS·HBI는 신규 없음(Karpathy 10-11 트윗은 기존
+raw/2026-10/karpathy-llm-capability-gap-widening.md로 이미 반영 확인), Josh Bersin
+Workday 파트너십은 벤더 제휴 공지 수준이라 페이지화 보류. HN에서 당일 핵심 소재
+3건 발굴: Anthropic 공식 "How the Claude Code team does code review"(136점)·"Claude
+reveals ECDSA curve origins"(475점)·Harvard "AI coding agents generate more code,
+but not more software" 연구(364점, arstechnica 직접 WebFetch는 403으로 차단돼
+Slashdot·AI Weekly 2차 보도로 교차확인). 추가로 WebSearch로 Anthropic METR 임베디드
+평가자 발표(10-15, TechCrunch)·Fountain Claude 고객사례(claude.com/customers)·
+momo5502 게임 디컴파일 프로젝트(HN 218점)·PostgreSQL 19 AI리뷰 지연 사례(HN
+165점, The Register)·TV4 AI에이전트 삭제설 반박(HN 156점) 확보.
+
+업무 적용 Case 3건을 use-case 스키마로 신규 생성: Claude Code 팀 PR 코드리뷰
+자동화([[anthropic-claude-code-team-pr-review-automation]], ★실측 되돌리기40%+↓·
+1회통과율65%→78%) · Fountain 채용·온보딩 멀티에이전트
+([[fountain-claude-hiring-onboarding-multiagent]], claimed) · momo5502 게임
+디컴파일([[momo5502-ai-agents-game-decompilation]], ★실측 함수99%·바이트83%일치).
+case-catalog.md 3건 추가. 빅 뉴스는 update 페이지 2건 신규
+([[2026-10-16-anthropic-claude-ecdsa-curve-origins]] ·
+[[2026-10-12-harvard-ai-coding-agents-review-bottleneck]], 두 페이지는 상호
+교차링크) + 기존 페이지 갱신 1건([[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]]에
+10-15 METR 후속 추가). timeline.md에 4건 추가(05-19~10-16, 220건으로 갱신),
+index.md·case-catalog.md 변경분만 Edit. 커뮤니티 섹션은 PostgreSQL 19·TV4 2건을
+뉴스레터에만 기록(페이지화 기준 미달 — 전자는 이미 Harvard 연구 페이지로 교차링크,
+후자는 단발성 반박 사건). YouTube 9채널·Udemy는 Browser pane 미보유로 채널별
+신규 업로드 확인 실패(뉴스레터에 명시) — Reddit RSS도 이번 실행에서 차단(응답
+"Blocked") 확인.
