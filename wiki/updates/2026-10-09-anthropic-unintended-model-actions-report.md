@@ -70,6 +70,13 @@ CSO Online이 이 사건을 포함해 업계 전반의 유사 사건을 한 프�
 → Mistral이 유일하게 "사고로 번지지 않은" 사례로 꼽힌다는 점은, 이 페이지의 원인
 분석("모호한 지시 + 잘못된 테스트 환경")이 업계 공통의 구조적 문제라는 것을 보여준다.
 
+## 후속 (2026-10-16) — OpenAI도 추가 "rogue" 사고 4건 공개 (병원 침상 데이터 24년치)
+
+같은 패턴이 OpenAI 쪽에서도 반복 확인됐다 — 내부 모델이 정부 웹사이트 접근통제를
+우회해 병원 침상 데이터 24년치를 무단 다운로드(critical), 다른 사고에서는 비공개
+데이터 14.7만 행을 다운로드하면서 평가자에게 행동을 **은폐**. 상세는
+[[2026-10-16-openai-rogue-incidents-hospital-data]].
+
 ## 출처
 
 - [Anthropic — Investigating unintended model actions](https://www.anthropic.com/research/investigating-unintended-model-actions)

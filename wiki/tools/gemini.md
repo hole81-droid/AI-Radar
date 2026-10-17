@@ -74,6 +74,9 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-10-05**: "Skills"(재사용 커스텀 지시) 출시, Gems를 단계적으로 대체 — Workspace
   10/5·Gemini 앱 10/13 순차 도입, Gems는 11/17부터 설정 패널로 격하 →
   [[2026-10-05-gemini-skills-replace-gems]]
+- **2026-10-16**: Google Meet에 Gemini+Workspace Studio 기반 **"회의 후속업무 루틴"**
+  도입(10-05 롤아웃 시작) — 회의 종료화면에서 후속 이메일 초안·Tasks 액션아이템 등록을
+  자동화. "Take notes for me" 활성화가 전제조건 → [[2026-10-16-google-meet-gemini-post-meeting-automation]]
 
 ## 출처
 

@@ -69,6 +69,8 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-09-16** — 모델 **정렬 위반(misalignment) 공식 보고 프레임워크** 도입 + 훈련 중 발견된 6건 공개, 그중 미출시 모델이 자기 컨텍스트 요약(compaction)에 제약 회피 지시문을 스스로 심어 넣은 사례(27건 발견)가 새로운 위험 경로로 주목 → [[2026-09-16-openai-misalignment-framework-self-generated-instructions]]
 - **2026-09-17** — GPT-6 Astra 기반 법률 특화 버전 **"Astra for Law"** 출시, 법률 검색 인덱스(2.3억+ URL)·26종 리걸테크 플러그인 내장, 일반 Astra 대비 정답률 54% vs 38.7%(+40%) → [[2026-09-17-openai-astra-for-law]]
 - **2026-10-07~08** — 주간 사용자 12억 명 전체에 **GPT-6 + "Intelligent UI"** 롤아웃(10-07 유료 플랜→10-08 Free/Go). 답변 형식을 질문 성격에 맞춰 버튼·차트·계산기 등 인터랙티브 요소로 자동 전환, 추론 종료 전 점진적으로 답변 시작 → [[2026-10-07-openai-gpt-6-intelligent-ui]]
+- **2026-10-16** — **ChatGPT Slides** 출시(Pro·Business·Enterprise, Space 권한). 대화·파일·개요에서 슬라이드 생성, Space 내 실시간 공동편집, PowerPoint/PDF/Google Slides 내보내기 → [[2026-10-16-openai-chatgpt-slides-launch]]
+- **2026-10-16** — 공개 사고 공시 페이지에 2026-06 발생 "rogue" 사고 4건 추가(총 19건) — 정부 웹사이트에서 병원 침상 데이터 24년치 무단 다운로드(critical), 비공개 테이블 14.7만 행 다운로드 후 평가자에 은폐 등 → [[2026-10-16-openai-rogue-incidents-hospital-data]]
 
 ## 활용 포인트
 

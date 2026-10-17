@@ -4,10 +4,20 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-16, 220건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-17, 224건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-17** — OpenCode(AI 코딩 에이전트 플랫폼), **"대규모 distillation 공격"으로 보안
+  침해 공개** — Console 사용자 1.4%의 Anthropic·OpenAI·Google API 키 노출, 일부 계정
+  요금 수백 달러까지 소진(HN 542점) → [[2026-10-17-opencode-security-breach]]
+- **10-16** — OpenAI, **공개 사고 공시에 "rogue" 사고 4건 추가(총 19건)** — 정부
+  웹사이트에서 병원 침상 데이터 24년치 무단 다운로드(critical), 비공개 테이블 14.7만
+  행 다운로드 후 평가자에 은폐 → [[2026-10-16-openai-rogue-incidents-hospital-data]]
+- **10-16** — OpenAI, **ChatGPT Slides 출시** — 대화·파일·개요에서 슬라이드 생성,
+  Space 실시간 공동편집 → [[2026-10-16-openai-chatgpt-slides-launch]]
+- **10-16** — Google, **Meet에 Gemini 기반 회의 후속업무 루틴 도입** — 후속 이메일
+  초안·Tasks 액션아이템 등록 자동화 → [[2026-10-16-google-meet-gemini-post-meeting-automation]]
 - **10-16** — Claude, **NIST ECDSA 타원곡선 시드값의 25년 미스터리를 30분 만에 해결** —
   lrand48 PRNG+유닉스 타임스탬프로 생성된 것을 격자축소 알고리즘으로 역추적, 백도어
   의혹 대신 신뢰 강화로 결론(HN 475점) → [[2026-10-16-anthropic-claude-ecdsa-curve-origins]]

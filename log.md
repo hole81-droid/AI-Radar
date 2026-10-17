@@ -3391,3 +3391,31 @@ index.md·case-catalog.md 변경분만 Edit. 커뮤니티 섹션은 PostgreSQL 1
 후자는 단발성 반박 사건). YouTube 9채널·Udemy는 Browser pane 미보유로 채널별
 신규 업로드 확인 실패(뉴스레터에 명시) — Reddit RSS도 이번 실행에서 차단(응답
 "Blocked") 확인.
+
+## [2026-10-18] scan | 항목 10건, 반영 4건
+
+업무 적용 Case는 0건 — AX LABS 블로그(09-29 이후 19일째 정체)·장피엠·GPTers(각각
+08-31·09-03 정체)·Simon Willison·Latent Space·Addy Osmani·Lilian Weng·Karpathy
+블로그(전부 정체 또는 이미 반영된 내용)를 확인했으나 도구/업무/방법/포인트 4필드를
+채울 신규 사례를 찾지 못함. 빅 뉴스는 update 페이지 4건 신규 생성:
+[[2026-10-16-openai-rogue-incidents-hospital-data]](OpenAI 추가 rogue 사고 4건,
+병원 침상데이터 24년치 무단다운로드 critical) · [[2026-10-17-opencode-security-breach]]
+(OpenCode distillation 공격, API키 1.4% 노출) · [[2026-10-16-openai-chatgpt-slides-launch]]
+· [[2026-10-16-google-meet-gemini-post-meeting-automation]]. 기존
+[[2026-10-09-anthropic-unintended-model-actions-report]]에 10-16 OpenAI 후속 절
+추가(교차링크). AI Engineer NYC 금융에이전트 권한설계 합의(Two Sigma·Bloomberg·
+Anthropic, Latent Space 보도)는 단일 사건성이 약해 페이지화 없이 뉴스레터에만
+기록. wiki/tools/chatgpt.md·gemini.md에 신규 항목 Edit 반영, timeline.md에 4건
+추가(05-19~10-17, 224건으로 갱신), index.md 변경분만 Edit(case-catalog.md는
+오늘 신규 use-case 없어 미변경). 커뮤니티 섹션 3건(StarSkirmish Bench 모델비교
+HN241점 · Codex Desktop 디스크공간 버그 최대323GB · r/ClaudeAI 손글씨→폰트
+바이럴 데모)은 전부 뉴스레터에만 기록, 페이지화 기준 미달. AX LABS 블로그 RSS가
+09-29에서 정체돼 블로그 페이지 직접 WebFetch로 재확인(동일 결과). McKinsey
+"Getting real about AI"(Cognition Kaplan 인터뷰, 10-16)는 WebFetch 60초
+타임아웃+2차보도 교차확인 실패로 탈락(본문 확인 실패). HBI·Sloan RSS는 이번
+실행에서 Cloudflare 차단(wpewaf.com 리다이렉트, 기존 기록과 다름 — 다음 스캔에서
+재확인 필요). YouTube 9채널 중 Ben AI(10-16 Claude Skill 역공학 영상, 세부
+미확인으로 YouTube 픽 하향)만 신규, AI Frontier Korea는 EP118(10-11)에서 정체
+(3일 기준 초과로 "신규 없음" 기록). Reddit www.reddit.com RSS는 정상 응답(25초
+간격 불필요, 1회 요청 성공). Udemy는 Browser pane 미보유로 확인 실패(뉴스레터에
+명시).
