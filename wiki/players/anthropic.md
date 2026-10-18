@@ -454,6 +454,23 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
 연환산 $110B 전망. IPO는 11월 목표 유지. → [[2026-08-23-anthropic-revenue-fable-adoption-struggle]]
 (10-16 갱신)
 
+**10/18 — 자체 고용 데이터 공개: "AI가 일을 없애는 게 아니라 재구성한다"를 숫자로**:
+2025년 초~2026-08 데이터로 주니어 기술직 비중 21%→14%(신규 채용 비중은 27%→9%로 더
+급격히 감소), 에이전트:인간 작업시간 비율 6:1, 엔지니어 1인당 커밋 5배 증가를 공개.
+구현 업무는 자동화됐지만 역할은 "에이전트 모니터링" 같은 메타워크로 이동했다고 설명,
+대응책으로 주식 보유·조기 경보 시스템·내부 재배치를 들었지만 "주니어 채용 둔화는
+못 푼다"고 인정. → [[2026-10-18-anthropic-employment-report]]
+
+**10/18 — IPO 앞두고 지분 5%(~$48B)를 "Public Benefit Fund"에 기부, 최대 20%까지 확대**:
+밸류에이션이 기준선 대비 50% 오를 때마다 2%p씩 추가 배정되는 구조. 노동시장 충격 대응이
+우선 용처로 명시돼, 바로 위 고용 데이터 공개와 짝을 이룬다. →
+[[2026-10-18-anthropic-public-benefit-fund-ipo-pledge]]
+
+**10/17(보도) — 자체 AI 안전법안을 의회에 비공개 제시**: "$10억 피해 또는 50명
+사망·중상해"에만 정부 개입(상무부 요청 + 연방판사 승인만 가능)을 허용하는 좁은
+임계값과, 일부 주 AI법을 연방법으로 대체하는 선점 조항을 담았다. "투명성은 늘리고
+집행력은 낮춘다"는 비판이 제기됐다. → [[2026-10-18-anthropic-ai-safety-bill-proposal]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -487,6 +504,9 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
   [[2026-10-08-trump-genesis-mission-compute-pledges]] ·
   [[2026-10-09-anthropic-claude-managed-agents-dynamic-workflows]] ·
   [[2026-10-09-anthropic-unintended-model-actions-report]] ·
+  [[2026-10-18-anthropic-employment-report]] ·
+  [[2026-10-18-anthropic-public-benefit-fund-ipo-pledge]] ·
+  [[2026-10-18-anthropic-ai-safety-bill-proposal]] ·
   [[2026-07-15-anthropic-ipo-investor-meetings]](10-10 SpaceX $84.5B 후속) ·
   [[2026-10-06-anthropic-claude-google-workspace-beta]] ·
   [[2026-10-08-anthropic-claude-dashboards-motion-launch]] ·

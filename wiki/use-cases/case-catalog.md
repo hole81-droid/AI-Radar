@@ -58,6 +58,7 @@ uses: [course, ax]
 - [[anthropic-claude-code-team-pr-review-automation]] — Claude Code로 subagents+skills를 활용해 PR 코드리뷰·위험기반 인간 승인을 수행 → 되돌리기율 40%+↓, 1회 통과율 65%→78%, 평균 리뷰 라운드 2.08→1.32 (실측, Anthropic 자사)
 - [[momo5502-ai-agents-game-decompilation]] — Claude Code+Codex CLI로 mcp+cli-pipeline(바이트매칭 검증 루프)을 활용해 레거시 게임 바이너리 디컴파일을 수행 → 함수 99% 복원·83% 바이트 완전일치, 약 6,000억~7,000억 토큰 (실측, 개인 프로젝트)
 - [[liao-agents-documentation-not-memory]] — Claude Code·Codex 등 코딩 에이전트에 second-brain 방식 구조화 마크다운 문서 워크플로(Operator Memory, 오픈소스)를 붙여 세션 간 지식 유지를 수행 → RAG 기반 메모리 플러그인의 5가지 구조적 결함을 문서화 체계로 대체 (정량 비교 미실측, anecdotal)
+- [[sphinx-ai-code-understanding-hook]] — Claude Code·Codex 등 코딩 에이전트에 pre-push git hook(hooks+cli-pipeline)을 붙여 AI가 쓴 코드에 대한 머지 전 이해도 검증(diff 기반 질문)을 수행 → 1분 설치, 정량 성과 미확인(demo 단계) (anecdotal)
 - [[claude-code-goal-routines-nightly-quality]] — Claude Code로 /goal+cron을 활용해 야간 코드 품질 점검·보고서 작성을 수행 → 완전 무인 정기 실행 (수치 미확인)
 - [[codex-automations-scheduled-maintenance]] — Codex Automations로 예약 실행+워크트리 격리를 활용해 정기 유지보수 업무를 수행 → 무인 반복 실행 (수치 미확인)
 - [[ktcloud-fe-team-claude-code-adoption]] — Claude Code로 Agent–Skill–Context–Loop 아키텍처를 활용해 FE팀 개발 프로세스 표준화를 수행 → 팀 단위 재현 가능 프로세스 (수치 미공개)
@@ -112,6 +113,10 @@ uses: [course, ax]
 - [[simonwillison-codex-voice-coding-blog-feature]] — ChatGPT Codex(음성 대화 모드, vibe-coding)로 요리 중 음성 대화를 활용해 블로그 뉴스레터 아카이브 기능 개발을 수행 → 약 30분 음성으로 PR 생성, 정밀 리뷰는 키보드로 전환(시간만 실측) (일화)
 - [[epic-games-vibe-coded-launcher-rewrite]] — Epic Games가 vibe-coding으로 게임 스토어 런처 전체를 처음부터 재작성 → 콜드스타트 5.47초·Steam 대비 46% 빠르다고 발표했으나 Valve 대응 업데이트로 공개 직후 우위 역전 (claimed, 반박됨)
 - [[linus-torvalds-claude-code-linux-kernel-patch]] — Linux 커널 메인테이너 Linus Torvalds가 Claude Code(vibe-coding)로 커밋 메시지·코드·테스트·리뷰를 작성하게 하고 본인이 성능 측정을 전담해 캐시 읽기 folio 참조카운팅 병목 제거 패치를 수행 → 8스레드 동시 읽기 처리량 약 3배(초당 1,000만→3,000만~3,300만 회), 리뷰 중 레이스 컨디션 발견돼 병합 전 (실측)
+
+## 고객 지원 (customer-support)
+
+- [[hotkv-semantic-cache-claude-cost-reduction]] — Claude Code(mcp+cli-pipeline)로 구축한 시맨틱 캐시(HotKV)를 활용해 반복되는 고객 지원 질문의 Claude 호출을 캐싱 → 호출·토큰·비용 약 70% 감소(3,000건 벤치마크, Claude 4개 모델 공통), 응답속도 1.4~2.9초→약 127ms (실측, 품질 트레이드오프도 함께 계측)
 
 ## 보안·운영 (ops)
 
@@ -513,3 +518,12 @@ Creator로 아웃리치 스킬 3종)·[[liamottley-imprint-genius-slack-ai-agent
 Workflows 베타는 모두 제품/정책 발표·연구성과 철회라 use-case 대상이 아니라 각각 update
 페이지로 반영. 안전연구원 해고 공개서한 반박·OpenAI 매출 재조정($20B 하향)은 기존
 update 페이지에 후속 절로 보강.*
+
+*2026-10-19 추가(162건): [[sphinx-ai-code-understanding-hook]](AI가 쓴 코드 머지 전
+이해도 검증 git hook, dev-automation 신설 아래 추가)·[[hotkv-semantic-cache-claude-cost-reduction]](Claude
+호출 시맨틱 캐싱으로 비용 70%↓ 실측, "고객 지원 (customer-support)" 섹션 신설) 2건 신규.
+Anthropic 자체 고용 데이터 공개·Public Benefit Fund 기부·AI 안전법안 제안은 모두
+회사 전략·정책 발표라 use-case 대상이 아니라 각각 update 페이지로 반영. "AI가 레거시
+소프트웨어를 역공학해 재현" 커뮤니티 트렌드(Reddit RTS 재구현·Simon Willison·조코딩
+3소스 동시 포착)는 기존 [[momo5502-ai-agents-game-decompilation]]과 같은 주제라 신규
+페이지 대신 뉴스레터 커뮤니티 화제로만 반영.*

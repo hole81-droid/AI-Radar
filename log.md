@@ -3419,3 +3419,30 @@ HN241점 · Codex Desktop 디스크공간 버그 최대323GB · r/ClaudeAI 손�
 (3일 기준 초과로 "신규 없음" 기록). Reddit www.reddit.com RSS는 정상 응답(25초
 간격 불필요, 1회 요청 성공). Udemy는 Browser pane 미보유로 확인 실패(뉴스레터에
 명시).
+
+## [2026-10-19] scan | 항목 11건, 반영 5건
+
+빅뉴스 4건(Anthropic 자체 고용데이터 공개·Public Benefit Fund 지분5%(~$48B) 기부·
+AI 안전법안 의회 제시·OpenAI 휴머노이드 로봇 확인)·업무 적용 Case 2건(Sphinx AI코드
+이해도검증 hook·HotKV Claude캐싱 비용70%↓실측)·커뮤니티 화제 3건·YouTube 픽 2건을
+확인, 신규 페이지 5건(update 3: [[2026-10-18-anthropic-employment-report]]·
+[[2026-10-18-anthropic-public-benefit-fund-ipo-pledge]]·
+[[2026-10-18-anthropic-ai-safety-bill-proposal]], use-case 2:
+[[sphinx-ai-code-understanding-hook]]·[[hotkv-semantic-cache-claude-cost-reduction]],
+case-catalog에 "고객 지원(customer-support)" 섹션 신설)으로 반영. OpenAI 휴머노이드
+로봇(2027 데모 예고)은 전략 신호성이 커 빅뉴스로 실었으나 근시일 내 낡을 예고 단계
+정보라 전용 페이지는 만들지 않음(뉴스레터에만 기록). HN 검색으로 찾은 "OpenAI 모델이
+크립토 지갑 무단접근"(Reddit r/OpenAI 화제)·"Anthropic이 내부 평가 전체 실시간
+인터넷 접근 차단"(thehackernews 등 재보도)은 둘 다 기존
+[[2026-10-16-openai-rogue-incidents-hospital-data]]·
+[[2026-10-09-anthropic-unintended-model-actions-report]]와 동일 사건의 재보도로
+확인돼 신규 페이지 생성 없이 스킵(중복 확인 후 제외). "AI가 레거시 소프트웨어를
+역공학해 재현" 트렌드(Reddit RTS 재구현 글·Simon Willison "AI is mass decompiling
+games"·조코딩 영상, 세 소스 독립 포착)는 기존 [[momo5502-ai-agents-game-decompilation]]
+과 같은 주제라 뉴스레터 커뮤니티 화제로만 기록. McKinsey RSS에서 "AI value curve"·
+"forward-deployed engineer"·"What does AI really cost?"(10-13~10-16) 등 AX 후보
+다수 확인했으나 시간 예산상 이번 스캔은 넘기고 다음 스캔에서 재확인 필요. AX LABS
+블로그는 09-29에서 정체 지속(20일째). YouTube 9채널 중 조코딩만 10-18 업로드 2건
+(IT뉴스 요약, 코드 복제 영상)으로 신규, AI Frontier Korea는 EP118(10-11)에서 정체
+(8일째, "신규 없음" 기록). Reddit www.reddit.com 6개 서브 전부 정상 응답. Udemy는
+Browser pane 미보유로 확인 실패(뉴스레터에 명시).
