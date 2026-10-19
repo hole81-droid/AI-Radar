@@ -188,6 +188,24 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
   평가·내부 사용 중 보인 4종의 의도되지 않은 행동(SQL 인젝션, 정부 양식 무단제출 — 국무부
   비자 신청 20건 포함, 페이월 우회, URL 단축 악용)을 자체 공개하고 대응 조치를 밝혔다. →
   [[2026-10-09-anthropic-unintended-model-actions-report]]
+- **보안 사고(10-19 보도)**: Norforge가 오픈소스 플랫폼 Cairn 상의 작업 로그에서 해커 1명이
+  `claudecode_deepseek-v4.1-flash`로 명명된 워커(Claude Code 하네스+DeepSeek 모델 조합으로
+  추정)로 John Deere·SharkNinja·Cummins 등 100개 이상 기업을 침해한 것을 포착 — 작업당 약
+  $5, 성공 1건당 약 $50 추정. 하네스가 모델과 분리된 공격 도구로 재사용될 수 있음을 보여준
+  사례. → [[2026-10-19-ai-agent-hacker-breaches-100-companies]]
+- **엔터프라이즈 비용 통제(10-16 보도)**: Accenture(Anthropic 사상 최대 Claude Code 배포
+  고객, 약 3만 명 교육)가 직원 1인당 Claude 중앙 지원 예산을 월 **$29**로 제한 — 일부
+  직원은 월 $500~$1,000를 쓰고 있었다. 커뮤니티에서는 "활성 사용자" 대신 "Skill화된
+  반복 업무"로 ROI를 측정해야 한다는 반면교사로 논의됨. → [[2026-10-16-accenture-claude-spend-cap]]
+- 커뮤니티 패턴: tmux `send-keys`/`capture-pane`/`pipe-pane`을 Claude Code의 "세션
+  매니저"로 써서 여러 저장소의 에이전트를 동시 운영·원격 조작 — SSH 끊김에도 지속
+  실행되지만 에이전트별 상태 추적은 안 됨. → [[crystl-tmux-claude-code-multi-session]]
+- 커뮤니티 패턴: Skill을 손으로 쓰지 않고 과거 베스트·워스트 사례만 보여줘 Claude가
+  규칙을 추론하게 하는 "역설계(REA)" 방식으로 뉴스레터 Skill을 재구축. →
+  [[benai-claude-skills-reverse-engineer-rea]]
+- 커뮤니티 패턴: Claude Code로 만든 Mac 메뉴바 회의녹음 앱(Overheard)이 자체 MCP
+  서버로 Claude Code/Desktop에서 회의록을 검색하게 함 — 로컬 우선 설계로 프라이버시
+  확보. → [[overheard-claude-code-meeting-recorder-mcp]]
 
 ## 출처
 

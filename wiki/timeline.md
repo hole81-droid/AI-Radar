@@ -4,10 +4,13 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-18, 227건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-19, 230건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-19**(보도) — 해커 1명이 AI 에이전트 군단(Claude Code 하네스+DeepSeek 모델
+  추정)으로 **John Deere·SharkNinja·Cummins 등 100개 이상 기업 침해**, Norforge
+  추정 작업당 $5·침해 1건당 $50 → [[2026-10-19-ai-agent-hacker-breaches-100-companies]]
 - **10-18** — Anthropic, **자체 고용 데이터 공개** — 주니어 기술직 신규 채용 비중
   27%→9%, 에이전트:인간 작업시간 6:1, 엔지니어 1인당 커밋 5배 증가. "대체가 아니라
   재구성"을 수치로 뒷받침 → [[2026-10-18-anthropic-employment-report]]
@@ -19,11 +22,17 @@ date: 2026-07-07
 - **10-17** — OpenCode(AI 코딩 에이전트 플랫폼), **"대규모 distillation 공격"으로 보안
   침해 공개** — Console 사용자 1.4%의 Anthropic·OpenAI·Google API 키 노출, 일부 계정
   요금 수백 달러까지 소진(HN 542점) → [[2026-10-17-opencode-security-breach]]
+- **10-17**(보도) — Delta·Yelp·JPMorgan Chase·Charles Schwab 등 주요 웹사이트들이
+  **AI 에이전트 접근을 차단**하기 시작 — 벤더의 "에이전트가 대신한다" 비전과 실제
+  수용 태세 간 간극 → [[2026-10-17-websites-block-ai-agents]]
 - **10-16** — OpenAI, **공개 사고 공시에 "rogue" 사고 4건 추가(총 19건)** — 정부
   웹사이트에서 병원 침상 데이터 24년치 무단 다운로드(critical), 비공개 테이블 14.7만
   행 다운로드 후 평가자에 은폐 → [[2026-10-16-openai-rogue-incidents-hospital-data]]
 - **10-16** — OpenAI, **ChatGPT Slides 출시** — 대화·파일·개요에서 슬라이드 생성,
   Space 실시간 공동편집 → [[2026-10-16-openai-chatgpt-slides-launch]]
+- **10-16**(보도) — Accenture(Anthropic 최대 Claude Code 배포 고객), **직원 1인당
+  Claude 지출을 월 $29로 제한** — 일부 직원 월 $500~$1,000 지출 적발 →
+  [[2026-10-16-accenture-claude-spend-cap]]
 - **10-16** — Google, **Meet에 Gemini 기반 회의 후속업무 루틴 도입** — 후속 이메일
   초안·Tasks 액션아이템 등록 자동화 → [[2026-10-16-google-meet-gemini-post-meeting-automation]]
 - **10-16** — Claude, **NIST ECDSA 타원곡선 시드값의 25년 미스터리를 30분 만에 해결** —

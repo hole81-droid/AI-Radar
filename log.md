@@ -3446,3 +3446,32 @@ games"·조코딩 영상, 세 소스 독립 포착)는 기존 [[momo5502-ai-agen
 (IT뉴스 요약, 코드 복제 영상)으로 신규, AI Frontier Korea는 EP118(10-11)에서 정체
 (8일째, "신규 없음" 기록). Reddit www.reddit.com 6개 서브 전부 정상 응답. Udemy는
 Browser pane 미보유로 확인 실패(뉴스레터에 명시).
+
+## [2026-10-20] scan | 항목 14건, 반영 6건
+
+업무 적용 Case 3건(tmux+Claude Code 멀티세션·Ben AI REA기법 Claude Skill 역설계·
+Claude Code로 만든 Mac 회의녹음 앱 Overheard)·빅뉴스 4건(AI 에이전트 해커 100+ 기업
+침해·웹사이트들의 AI 에이전트 차단 확산·Accenture Claude 지출 $29/인 상한·MIT Sloan
+데이터과학 실패율)·커뮤니티 화제·도구실사용평가 3건(r/AI_Agents 100+ 롤아웃 실무자
+체크리스트·Ask HN AI코드 신뢰 토론·벤더 사례 3,362건 AI비중 13% 분석)·YouTube 픽 3건
+(AI Frontier Korea 신규없음·조코딩 AI뉴스+리터러시특강·Liam Ottley)을 확인, 신규
+페이지 6건(use-case 3: [[crystl-tmux-claude-code-multi-session]]·
+[[benai-claude-skills-reverse-engineer-rea]]·
+[[overheard-claude-code-meeting-recorder-mcp]], update 3:
+[[2026-10-19-ai-agent-hacker-breaches-100-companies]]·
+[[2026-10-17-websites-block-ai-agents]]·[[2026-10-16-accenture-claude-spend-cap]])으로
+반영, case-catalog·index.md·claude-code.md 허브·timeline.md 교차링크 갱신. Accenture
+건에는 r/AI_Agents 실무자(Panic_Lion, 100+ 롤아웃 경험 주장)의 5단계 체크리스트를
+본문에 통합 반영. Reddit "벤더 사례 3,362건 중 AI 13%" 집계는 1인 비공개 데이터셋이라
+방법론 검증 불가 — 페이지화 대신 뉴스레터 커뮤니티 화제로만 기록. MIT Sloan "데이터
+모델링으로는 부족하다"(60~85% 실패율)는 구체 기업명이 없어 빅뉴스 한 줄로만 기록.
+Reddit 회의녹음 앱(Overheard) 원문은 429 레이트리밋으로 재조회 실패해 WebSearch로
+매칭되는 오픈소스 프로젝트를 특정(완전 동일 여부는 100% 확정 못함, raw 파일에 불확실성
+명시). Gemini Workspace Skills 롤아웃 지연 공지는 기존 [[2026-10-05-gemini-skills-replace-gems]]
+범위 내 사소한 일정 변경이라 갱신하지 않고 스킵. McKinsey RSS의 "에이전트 비용 최대
+30배 변동"·"Lenovo 15% 개선"·"1/3 기업 빌드 선택" 등은 Accenture 업데이트 페이지 본문에
+배경 설명으로 흡수(별도 페이지 생성 안 함). AX LABS 블로그는 09-29에서 정체 지속(21일째).
+Karpathy 블로그·GitHub는 신규 없음(04-30 정체 지속). YouTube 9채널 중 조코딩·Ben AI·
+Liam Ottley 3채널만 관련 신규, 나머지는 주제 무관 또는 정체. Reddit은 r/ClaudeAI·
+r/AI_Agents 확보, 이후 요청은 429(레이트리밋)로 추가 서브 확인은 보류. Udemy는 Browser
+pane 미보유로 확인 실패(뉴스레터에 명시).

@@ -26,6 +26,7 @@ uses: [course, ax]
 - [[simonwillison-claude-code-playwright-kakapo-video]] — Claude(이미지 생성)+Claude Code(vibe-coding+cli-pipeline, Playwright 자동화)로 컨퍼런스 발표 클로징 슬라이드용 픽셀아트 애니메이션 영상 제작을 수행 → 프롬프트 몇 번으로 완성해 발표 당일 즉시 사용 (일화, 정량 성과 미확인)
 - [[motiv31-claude-code-newsletter-checkpoint-refresh]] — Claude Code(subagents+cron-routines+second-brain)로 이름 붙인 에이전트 4개(Titus·Pheme·Davinci·Metis)를 활용해 뉴스레터(9천 구독자) 운영 전 과정을 수행 → 컨텍스트 윈도우 체크포인트 자가 새로고침 11/11회 무결점 (주장, 작성자 자체 집계)
 - [[benai-claude-motion-8-business-use-cases]] — Claude(Claude Motion, vibe-coding)로 텍스트·시트·덱을 코드 기반 애니메이션으로 전환해 제품 데모·온보딩·주간보고 영상 제작을 수행 → 주간보고 영상 Slack 자동 포스팅 등 8가지 용례 공개 (일화, 비즈니스 임팩트 수치 미확인)
+- [[benai-claude-skills-reverse-engineer-rea]] — Claude Skills(skills, REA 기법)로 베스트·워스트 사례 12건만 제공해 뉴스레터 스킬을 예시 기반으로 역설계·재구축 → 수작업 지시문 없이 3단계로 재구축 성공, 정량 수치 미확인 (일화)
 
 ## 리서치 (research)
 
@@ -113,6 +114,7 @@ uses: [course, ax]
 - [[simonwillison-codex-voice-coding-blog-feature]] — ChatGPT Codex(음성 대화 모드, vibe-coding)로 요리 중 음성 대화를 활용해 블로그 뉴스레터 아카이브 기능 개발을 수행 → 약 30분 음성으로 PR 생성, 정밀 리뷰는 키보드로 전환(시간만 실측) (일화)
 - [[epic-games-vibe-coded-launcher-rewrite]] — Epic Games가 vibe-coding으로 게임 스토어 런처 전체를 처음부터 재작성 → 콜드스타트 5.47초·Steam 대비 46% 빠르다고 발표했으나 Valve 대응 업데이트로 공개 직후 우위 역전 (claimed, 반박됨)
 - [[linus-torvalds-claude-code-linux-kernel-patch]] — Linux 커널 메인테이너 Linus Torvalds가 Claude Code(vibe-coding)로 커밋 메시지·코드·테스트·리뷰를 작성하게 하고 본인이 성능 측정을 전담해 캐시 읽기 folio 참조카운팅 병목 제거 패치를 수행 → 8스레드 동시 읽기 처리량 약 3배(초당 1,000만→3,000만~3,300만 회), 리뷰 중 레이스 컨디션 발견돼 병합 전 (실측)
+- [[crystl-tmux-claude-code-multi-session]] — Claude Code로 tmux 세션 관리(cli-pipeline, send-keys+capture-pane+pipe-pane)를 활용해 여러 저장소의 에이전트 세션을 동시 운영·원격 제어 → SSH 연결 끊김에도 지속 실행, 상태추적·재부팅 복구는 한계로 명시 (일화, 정량 미확인)
 
 ## 고객 지원 (customer-support)
 
@@ -177,6 +179,7 @@ uses: [course, ax]
 - [[2026-09-23-jev-claude-browser-automation]] — Claude(Code)로 오픈소스 초고속 브라우저 에이전트 Jev(browser-agent)를 결합해 웹 브라우저 작업 자동화 6종을 시연 → 구글 항공권 예약 7.1초 완료, 브라우저 프로토콜 호출 91%↓ (실측, prototype)
 - [[chess-postmortem-skills-claude-code]] — Claude Code Skill(skills+subagents)로 Stockfish 엔진 분석+병렬 조사 에이전트를 결합해 체스 기보 복기 자료(주석 PGN·HTML·나레이션 영상) 제작을 자동화 → 게임당 약 1시간, HN 68점 화제 (일화, prototype)
 - [[reddit-claude-mcp-money-saving-shopping-travel]] — Claude(mcp)로 식료품·중고거래·여행 MCP 커넥터 3종을 활용해 개인 쇼핑·예약 가격비교를 자동화 → 장보기 회당 $40~50 절감 체감 (일화, 1인 주장)
+- [[overheard-claude-code-meeting-recorder-mcp]] — Claude Code로 만든 Mac 메뉴바 앱 Overheard(mcp)가 로컬 전사·요약 후 MCP 서버로 Claude Code/Desktop에서 회의록 검색을 지원 → 오픈소스 공개, 로컬 저장 프라이버시 설계 (일화, 정량 미확인)
 
 ## HR (hr)
 
@@ -527,3 +530,15 @@ Anthropic 자체 고용 데이터 공개·Public Benefit Fund 기부·AI 안전�
 소프트웨어를 역공학해 재현" 커뮤니티 트렌드(Reddit RTS 재구현·Simon Willison·조코딩
 3소스 동시 포착)는 기존 [[momo5502-ai-agents-game-decompilation]]과 같은 주제라 신규
 페이지 대신 뉴스레터 커뮤니티 화제로만 반영.*
+
+*2026-10-20 추가(165건): [[crystl-tmux-claude-code-multi-session]](tmux send-keys/
+capture-pane/pipe-pane으로 Claude Code 멀티 세션 원격 운영, HN 145점)·
+[[benai-claude-skills-reverse-engineer-rea]](REA 기법으로 베스트·워스트 사례 12건만
+주고 Claude Skill 역설계, Ben AI)·[[overheard-claude-code-meeting-recorder-mcp]](Claude
+Code로 만든 Mac 회의녹음 앱, MCP로 Claude 연동, 로컬 우선 설계) 3건 신규.
+Norforge/Cairn AI 에이전트 100+ 기업 침해(Claude Code 하네스 추정)·Delta/Yelp/JPMorgan
+등의 AI 에이전트 차단 확산·Accenture Claude 지출 $29/인 상한은 모두 보안사고·산업
+트렌드·고객사 정책 변화라 use-case 대상이 아니라 각각 update 페이지로 반영. Accenture
+건에는 r/AI_Agents 실무자(100+ 롤아웃 경험 주장)의 5가지 체크리스트를 "도구 실사용
+평가"로 교차 반영. Reddit "database of 3,362 vendor case studies"(AI 비중 13%, agent
+18건) 발견은 출처 검증 불가(1인 비공개 집계)라 뉴스레터 커뮤니티 화제로만 기록.*
