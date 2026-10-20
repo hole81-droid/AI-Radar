@@ -76,7 +76,26 @@ AI를 만드는 회사가 "우리 회사 안에서 AI가 일자리를 어떻게 
   "에이전트 산출물 검증·모니터링·판단" 역량을 신입 교육과정에 넣어야 한다는 근거로
   인용 가능.
 
+## 10-19 후속 — "80%는 대기, 메타워크 비중 10%→22%"
+
+같은 보고서의 세부 수치가 10-19 Fortune 등 보도로 추가 확인됐다.
+
+- **Claude 세션 체류 시간의 80%가 "에이전트가 사람 입력을 기다리는" 시간** — 에이전트 작업
+  속도가 사람 의사결정 속도를 앞서면서, 병목이 컴퓨팅이 아니라 **사람의 주의력**으로
+  이동했다는 뜻.
+- 대화형 Claude 세션 중 에이전트 관리용 "메타워크" 비중이 **10%→22%**로 상승.
+- 에이전트 작업시간이 2026년 3월 처음으로 인간 작업시간을 넘어섰고, 8월 기준 6:1까지 확대
+  (본문 수치와 일치).
+- 직원 인용: "한 명 한 명이 내 관심을 요구하는 Claude 군단"("an army of Claudes, with every
+  one asking for my attention") — 비관리자 직원도 여러 에이전트를 관리하는 매니저 역할로
+  이동하고 있음을 체감 서술로 뒷받침.
+
+이 수치는 "대체가 아니라 재구성"이라는 본문 결론에 구체적인 비용(사람의 주의력이 새로운
+병목)을 덧붙인다 — 에이전트를 늘릴수록 생산성이 자동으로 느는 게 아니라, 사람이 감당할 수
+있는 "동시 관리 에이전트 수"가 새로운 제약이 된다는 뜻이다.
+
 ## 출처
 
 - [Anthropic — How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
+- [Fortune — 'An army of Claudes, with every one asking for my attention'](https://fortune.com/2026/10/19/work-botsitting-meetings-army-of-claudes-anthropic/)
 - 관련: [[2026-10-18-anthropic-public-benefit-fund-ipo-pledge]]

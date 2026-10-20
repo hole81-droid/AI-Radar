@@ -52,6 +52,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-08-27** — **Gemini Omni 1.1 Flash** 개발자용 정식 출시 — 06-30 프리뷰(`gemini-omni-flash-preview`)의 프로덕션 버전. Scene Extension(최대 40초 연장)·Keyframe Control·Draft Mode(1/3 비용)·4K 업스케일링 추가, Adobe Firefly·Figma Weave·Runway 통합 → [[2026-08-27-google-gemini-omni-1-1-flash-launch]]
 - **2026-09-11** — **Gemini 앱, Windows에서 정식 제공 시작** — 기존 macOS·모바일·웹에 이어 데스크톱 플랫폼 커버리지 확대(HN 56점). 별도 위키 페이지 없이 여기 기록.
 - **2026-10-08** — **"Gemini at Work 2026"에서 유니버설 에이전트 Gemini 공개** — 채팅·업무 위임·코드 생성을 하나의 입력창·API로 처리, Gmail/Drive/Docs/Calendar 내부에서 자체 워크스페이스 계정(이메일 포함)으로 동작. 동시에 **Gemini Code Assist 유료 구독 신규판매 종료**, 대안으로 Antigravity 안내 → [[2026-10-08-google-gemini-universal-agent-launch]]
+- **2026-10-20** — **"Gemini for government services" 프리뷰 출시** — 미국 연방·주·지방정부 전용 에이전트, 문서심사(W-2·급여명세서·임대계약 대조)·FOIA 레닥션 제안·조달 준수 검토. 미주리주·HHS 일부 이미 사용 중, Accenture Federal Services 등 파트너 12개+. Anthropic Claude for Government GA(09-30)에 대한 대응 → [[2026-10-20-google-gemini-government-services-launch]]
 
 ## 활용 포인트
 

@@ -4,10 +4,20 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-19, 230건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-20, 233건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-20**(공개) — DHS, **연방 민간기관 전체에 DeepSeek 제품 조달·사용 전면 금지**(Directive
+  2026-01, 7/24 서명·10/20 연방관보 공개) — 중국 정부의 데이터 접근·악성코드 우려 근거, 60일
+  내 예외신청 절차. Alibaba의 Claude Code 금지(07-10)와 반대 방향의 AI 도구 국가 분단
+  → [[2026-10-20-dhs-deepseek-federal-ban]]
+- **10-20** — Google, **미국 정부기관 전용 "Gemini for government services" 프리뷰 출시** —
+  문서심사·FOIA 대응·조달준수 자동화, 미주리주·HHS 일부 이미 사용 중. Anthropic Claude for
+  Government GA(09-30)에 대한 대응 → [[2026-10-20-google-gemini-government-services-launch]]
+- **10-19**(보도) — Anthropic 고용보고서 후속: **Claude 세션 체류시간의 80%가 사람 입력
+  대기시간**, 메타워크 비중 10%→22% — 병목이 컴퓨팅에서 사람의 주의력으로 이동
+  → [[2026-10-18-anthropic-employment-report]]
 - **10-19**(보도) — 해커 1명이 AI 에이전트 군단(Claude Code 하네스+DeepSeek 모델
   추정)으로 **John Deere·SharkNinja·Cummins 등 100개 이상 기업 침해**, Norforge
   추정 작업당 $5·침해 1건당 $50 → [[2026-10-19-ai-agent-hacker-breaches-100-companies]]
@@ -43,6 +53,10 @@ date: 2026-07-07
   → [[anthropic-claude-code-team-pr-review-automation]]
 - **10-15** — Anthropic, **METR에 직원 수준 접근권 + 발행 거부권 포기** — 09-12 감속계획
   1단계의 두 번째 임베디드 평가자 → [[2026-09-12-anthropic-dario-amodei-ai-slowdown-plan]] (10-15 후속)
+- **10-15** — Hardman, **AI 4개 모델(Claude·GPT·Gemini·Qwen) vs 전문 교수설계자 24개 역량
+  실측 벤치마크** — 상위 2개 모델 10과업 중 9개 전문가급, 그러나 반박에 굴복하는 "caveat
+  compliance"로 24개 추천안 중 끝까지 입장을 지킨 건 Claude뿐인 2건
+  → [[2026-10-15-hardman-ai-instructional-design-benchmark]]
 - **10-12** — Harvard 연구, **"AI 코딩 에이전트는 코드를 늘리지만 소프트웨어는 안 늘린다"** —
   700개+ 기업 실측, 코드량 +30%인데 완료 기능(Jira 해결률)은 그대로, 원인은 인간
   코드리뷰 병목(HN 364점) → [[2026-10-12-harvard-ai-coding-agents-review-bottleneck]]

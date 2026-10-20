@@ -115,6 +115,8 @@ uses: [course, ax]
 - [[epic-games-vibe-coded-launcher-rewrite]] — Epic Games가 vibe-coding으로 게임 스토어 런처 전체를 처음부터 재작성 → 콜드스타트 5.47초·Steam 대비 46% 빠르다고 발표했으나 Valve 대응 업데이트로 공개 직후 우위 역전 (claimed, 반박됨)
 - [[linus-torvalds-claude-code-linux-kernel-patch]] — Linux 커널 메인테이너 Linus Torvalds가 Claude Code(vibe-coding)로 커밋 메시지·코드·테스트·리뷰를 작성하게 하고 본인이 성능 측정을 전담해 캐시 읽기 folio 참조카운팅 병목 제거 패치를 수행 → 8스레드 동시 읽기 처리량 약 3배(초당 1,000만→3,000만~3,300만 회), 리뷰 중 레이스 컨디션 발견돼 병합 전 (실측)
 - [[crystl-tmux-claude-code-multi-session]] — Claude Code로 tmux 세션 관리(cli-pipeline, send-keys+capture-pane+pipe-pane)를 활용해 여러 저장소의 에이전트 세션을 동시 운영·원격 제어 → SSH 연결 끊김에도 지속 실행, 상태추적·재부팅 복구는 한계로 명시 (일화, 정량 미확인)
+- [[reddit-ai-agents-two-year-claude-codex-setup]] — Claude Code+Codex로 cli-pipeline(역할분담+CI/CD연동)을 활용해 개발 전체 파이프라인(기획·코딩·리뷰·테스트·배포)을 수행 → 2년 시행착오로 MCP 서버 11→2개·AGENTS.md 900→100줄로 정착 (일화)
+- [[pixeltoucher-perch-claude-code-multisession-notch-app]] — Claude Code로 vibe-coding+서브에이전트를 활용해 멀티세션 관리 앱 "Perch"를 제작 → 배포 전 약 240개 시나리오 전수검증 패턴, MIT 오픈소스 공개 (일화)
 
 ## 고객 지원 (customer-support)
 
@@ -180,6 +182,7 @@ uses: [course, ax]
 - [[chess-postmortem-skills-claude-code]] — Claude Code Skill(skills+subagents)로 Stockfish 엔진 분석+병렬 조사 에이전트를 결합해 체스 기보 복기 자료(주석 PGN·HTML·나레이션 영상) 제작을 자동화 → 게임당 약 1시간, HN 68점 화제 (일화, prototype)
 - [[reddit-claude-mcp-money-saving-shopping-travel]] — Claude(mcp)로 식료품·중고거래·여행 MCP 커넥터 3종을 활용해 개인 쇼핑·예약 가격비교를 자동화 → 장보기 회당 $40~50 절감 체감 (일화, 1인 주장)
 - [[overheard-claude-code-meeting-recorder-mcp]] — Claude Code로 만든 Mac 메뉴바 앱 Overheard(mcp)가 로컬 전사·요약 후 MCP 서버로 Claude Code/Desktop에서 회의록 검색을 지원 → 오픈소스 공개, 로컬 저장 프라이버시 설계 (일화, 정량 미확인)
+- [[simonwillison-battledrones-claude-code-subagents]] — Claude Opus 5.5+Claude Code for Web로 vibe-coding과 서브에이전트 오케스트레이션(Ultracode 모드)을 활용해 RTS 게임 전체(디자인·오디오 P2P 멀티플레이어)를 제작 → 321커밋·12버전, "더 재미있게" 한마디로 1,000+회 자동 플레이테스트 밸런싱 (실측)
 
 ## HR (hr)
 

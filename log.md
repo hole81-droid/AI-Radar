@@ -3475,3 +3475,26 @@ Karpathy 블로그·GitHub는 신규 없음(04-30 정체 지속). YouTube 9채�
 Liam Ottley 3채널만 관련 신규, 나머지는 주제 무관 또는 정체. Reddit은 r/ClaudeAI·
 r/AI_Agents 확보, 이후 요청은 429(레이트리밋)로 추가 서브 확인은 보류. Udemy는 Browser
 pane 미보유로 확인 실패(뉴스레터에 명시).
+
+## [2026-10-21] scan | 항목 12건, 반영 7건
+
+공백 없음 확인 후 바로 1번부터 진행(0/0-A 생략). 업무 적용 Case 3건 신규 페이지화 —
+r/AI_Agents 2년차 개발자 Claude Code+Codex 역할분담 셋업([[reddit-ai-agents-two-year-claude-codex-setup]]),
+Simon Willison의 서브에이전트 오케스트레이션 RTS 게임 제작([[simonwillison-battledrones-claude-code-subagents]]),
+Claude Code로 만든 멀티세션 매니저 Perch([[pixeltoucher-perch-claude-code-multisession-notch-app]]).
+빅 뉴스 4건 중 3건 신규 페이지화 — DHS 연방기관 DeepSeek 전면 금지([[2026-10-20-dhs-deepseek-federal-ban]]),
+Google "Gemini for government services" 프리뷰 출시([[2026-10-20-google-gemini-government-services-launch]],
+Claude for Government GA와 교차링크), Hardman AI vs 전문 교수설계자 24역량 벤치마크
+([[2026-10-15-hardman-ai-instructional-design-benchmark]], 10-15 발행분을 오늘 포착 — 과거 스캔에서
+누락됐을 가능성 있음, 사용자 확인 필요). 4번째 빅뉴스(Anthropic 고용보고서 80%대기·메타워크22% 후속)는
+기존 [[2026-10-18-anthropic-employment-report]] 페이지에 후속 섹션으로 갱신(신규 페이지 생성 안 함).
+커뮤니티 화제 2건(Opus 5.5 서브에이전트 12개 자동생성 5시간한도 소진 실패담, Claude 해커톤 참가후기)·
+YouTube 픽 2건(노정석 채널 신규없음 10일째, Matt Pocock Claude Code 습관 영상)은 페이지화하지 않고
+뉴스레터에만 기록. Udemy는 이번 세션도 Browser pane 미보유로 확인 실패. 허브·인덱스·타임라인·
+case-catalog 갱신 — wiki/tools/gemini.md(Gemini for gov 항목 추가), index.md(기타업계·Google·
+Anthropic 라인 갱신, case-catalog 165→168건, timeline 230→233건), wiki/timeline.md(DHS·Google·
+Hardman·Anthropic후속 4건 추가), wiki/use-cases/case-catalog.md(dev-automation 2건·personal-
+productivity 1건 추가). Reddit은 r/ClaudeAI·r/AI_Agents 확보(25초 간격 필요, 1회 429 재시도 성공),
+r/singularity 등 추가 서브는 예산상 보류. 국내 AX 블로그(theaxlabs)는 09-29에서 정체 지속(22일째).
+구루 채널 중 Simon Willison·Hardman·One Useful Thing·Exponential View·AI as Normal Technology
+전부 확인, Karpathy 블로그·GitHub는 신규 없음.
