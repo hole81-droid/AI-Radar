@@ -510,7 +510,10 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
   [[2026-07-15-anthropic-ipo-investor-meetings]](10-10 SpaceX $84.5B 후속) ·
   [[2026-10-06-anthropic-claude-google-workspace-beta]] ·
   [[2026-10-08-anthropic-claude-dashboards-motion-launch]] ·
-  [[benai-claude-motion-8-business-use-cases]]
+  [[benai-claude-motion-8-business-use-cases]] ·
+  [[2026-10-21-anthropic-claude-duet-launch]] ·
+  [[2026-10-21-anthropic-draft-ipo-financials]] ·
+  [[claude-code-vibe-coding-smart-tv-debloat]]
 
 ## 출처
 

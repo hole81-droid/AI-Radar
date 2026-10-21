@@ -3498,3 +3498,31 @@ productivity 1건 추가). Reddit은 r/ClaudeAI·r/AI_Agents 확보(25초 간격
 r/singularity 등 추가 서브는 예산상 보류. 국내 AX 블로그(theaxlabs)는 09-29에서 정체 지속(22일째).
 구루 채널 중 Simon Willison·Hardman·One Useful Thing·Exponential View·AI as Normal Technology
 전부 확인, Karpathy 블로그·GitHub는 신규 없음.
+
+## [2026-10-22] scan | 항목 14건, 반영 5건
+
+업무 적용 Case 1건(비개발자 "매 변경 전 승인" 프롬프트로 Claude Code 스마트 TV
+광고·블로트웨어 제거, [[claude-code-vibe-coding-smart-tv-debloat]] 신규 — Reddit
+r/ClaudeAI 2건+X 원조 게시물 교차확인), 빅 뉴스 5건(Claude Duet 리서치 프리뷰 출시·
+WSJ 보도 Anthropic 드래프트 IPO 재무수치·HBR AI 배포실패 서베이는 각각 update 페이지
+신규 생성, OpenAI Google Cloud 파트너십+ChatGPT Ads 26개국 확장·Google Chrome
+Gemini 사기탐지 강화는 단발성 기능/정책 발표라 뉴스레터에만 기록), 커뮤니티 화제·
+도구 실사용 평가 4건(Opus 5.5 Effort 레벨 체감차 실사용 리포트·사용량 크레딧 PSA·
+"에이전트 팔기가 가장 어렵다" r/AI_Agents 토론·Mollick "30개월간의 AI 발전" METR
+8배·GPQA 750배 수치)은 전부 뉴스레터 기록만, YouTube 픽 3건(AI Frontier Korea 신규
+없음·조코딩 국내 AI에이전트 쇼핑차단 설명 영상·Ben AI Claude Mods 100+ 테스트
+큐레이션)은 조코딩 영상을 계기로 기존 [[2026-10-17-websites-block-ai-agents]]에
+국내 사례(네이버·카카오·쿠팡의 Meta Muse 차단, 09-29 보도) 후속 절만 추가, Udemy는
+브라우저 도구 없어 확인 실패로 기록.
+
+갱신: index.md(Anthropic/Claude 2건·AI경영 1건·개인생산성 1건·뉴스레터 링크),
+wiki/timeline.md(10-21 3건 추가, 헤더 233→236건), wiki/players/anthropic.md(관련
+페이지 3건 추가), wiki/use-cases/case-catalog.md(개인생산성 1건+변경로그 추가).
+raw/2026-10/ 4건 신규(anthropic-claude-duet-launch·wsj-anthropic-draft-s1-financials·
+hbr-ai-deployment-failure·reddit-claude-code-smart-tv-debloat-vibe-coding). HBR RSS는
+`<ns6:entry>` 네임스페이스로 정상 파싱, 도입부 수준에서 McKinsey·설문 수치까지 노출돼
+페이월 우회 없이 핵심 수치 확보. Knowledge at Wharton "Accenture Agentic Cost
+Framework"(10-21)는 완전 페이월(요약조차 비공개)이라 탈락. AX LABS 블로그는 09-29에서
+정체 지속(23일째), Karpathy 블로그·GitHub·Addy Osmani·Lilian Weng 전부 기존 확인분
+유지(신규 없음). Reddit은 r/ClaudeAI(25초 간격, 1회 성공)·r/AI_Agents(재시도 후 성공)
+확보, r/singularity 등은 예산상 보류.

@@ -183,6 +183,7 @@ uses: [course, ax]
 - [[reddit-claude-mcp-money-saving-shopping-travel]] — Claude(mcp)로 식료품·중고거래·여행 MCP 커넥터 3종을 활용해 개인 쇼핑·예약 가격비교를 자동화 → 장보기 회당 $40~50 절감 체감 (일화, 1인 주장)
 - [[overheard-claude-code-meeting-recorder-mcp]] — Claude Code로 만든 Mac 메뉴바 앱 Overheard(mcp)가 로컬 전사·요약 후 MCP 서버로 Claude Code/Desktop에서 회의록 검색을 지원 → 오픈소스 공개, 로컬 저장 프라이버시 설계 (일화, 정량 미확인)
 - [[simonwillison-battledrones-claude-code-subagents]] — Claude Opus 5.5+Claude Code for Web로 vibe-coding과 서브에이전트 오케스트레이션(Ultracode 모드)을 활용해 RTS 게임 전체(디자인·오디오 P2P 멀티플레이어)를 제작 → 321커밋·12버전, "더 재미있게" 한마디로 1,000+회 자동 플레이테스트 밸런싱 (실측)
+- [[claude-code-vibe-coding-smart-tv-debloat]] — Claude Code(vibe-coding)로 "매 변경 전 승인" 안전장치 프롬프트를 활용해 비개발자가 스마트 TV 광고·블로트웨어 제거 및 홈스크린 재구성을 수행 → 오픈소스 카탈로그 37개 브랜드·107개 모델 공개, 바이럴 확산 (일화)
 
 ## HR (hr)
 
@@ -545,3 +546,12 @@ Norforge/Cairn AI 에이전트 100+ 기업 침해(Claude Code 하네스 추정)�
 건에는 r/AI_Agents 실무자(100+ 롤아웃 경험 주장)의 5가지 체크리스트를 "도구 실사용
 평가"로 교차 반영. Reddit "database of 3,362 vendor case studies"(AI 비중 13%, agent
 18건) 발견은 출처 검증 불가(1인 비공개 집계)라 뉴스레터 커뮤니티 화제로만 기록.*
+
+*2026-10-22 추가(169건): [[claude-code-vibe-coding-smart-tv-debloat]](Claude Code로
+"매 변경 전 승인" 안전장치 프롬프트를 활용한 비개발자 스마트 TV 광고·블로트웨어 제거,
+오픈소스 카탈로그 37개 브랜드·107개 모델, personal-productivity·anecdotal) 1건 신규.
+Anthropic "Claude Duet" 리서치 프리뷰 출시·WSJ 보도 드래프트 IPO 재무수치(매출
+$16.3B·손실 $80.7B·컴퓨트 최대 $750B)·HBR AI 배포실패 서베이(적극도입 69% 중 90%
+효과 미측정)는 모두 제품 출시·재무공시·연구결과라 use-case 대상이 아니라 각각 update
+페이지로 반영. Ben AI "Claude Mods 100+개 테스트" 영상·JoCoding 국내 AI 에이전트
+쇼핑차단 영상은 큐레이션·설명 콘텐츠라 뉴스레터 YouTube 픽으로만 반영.*
