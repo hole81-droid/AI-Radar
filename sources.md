@@ -374,6 +374,21 @@ AI 강의 시장에서 **무엇이 실제로 팔리고 무엇이 새로 나오�
 승인 키가 있어야 하며 현재 계정 없음. **무인 스케줄 스캔에서 Browser pane을 못 쓰는 경우, 그날 Udemy 섹션은
 "확인 실패(브라우저 도구 없음)"로 적고 넘어간다** — 조용히 빠뜨리지 않는다.
 
+### 무인 실행에서는 수집되지 않는다 (2026-10-22 실측)
+
+**예약 스캔 세션에는 Browser pane이 없다.** 2026-09-29부터 10-22까지 **23일 연속** 뉴스레터에
+"확인 실패(브라우저 도구 없음)"만 기록됐고 카탈로그는 한 번도 갱신되지 않았다. 폴백 문구 덕분에
+조용한 누락은 아니었지만, 자동 수집은 0건이었다.
+
+대안 경로도 전부 막혔다. curl·WebFetch는 Cloudflare 403, Class Central 우회도 403,
+제3자 쿠폰 피드(`discudemy.com/feed`, `udemyfreebies.com`, `real.discount`)는 200이지만 항목이
+비어 있거나 무료 쿠폰 강의 위주라 신규 AI 강의 추적에 쓸 수 없다(2026-10-22 실측).
+
+→ **Udemy는 데일리 스캔 대상에서 뺐다. 주 1회 대화형 세션에서 수집한다.**
+한국어 신규 AI 강의가 주 1~2건이고 영어권 최신순은 절반이 자격증 문제은행이라 매일 볼 가치도 낮다.
+월요일 스캔 알림에 `Udemy 주간 점검 필요` 한 줄이 붙는다. 수집 후에는 카탈로그 머리의 "마지막 수집"
+날짜를 갱신한다.
+
 ### 수집 레시피
 
 ```
@@ -381,7 +396,7 @@ navigate  https://www.udemy.com/courses/search/?q=<검색어>&sort=newest&lang=k
 javascript_tool  scripts/udemy-extract.js 의 IIFE 실행
 ```
 
-- **데일리 스캔**: 쿼리 2개면 충분하다 — `q=AI&sort=newest&lang=ko`(한국어)와 `q=AI&sort=newest&lang=en`(영어).
+- **주간 점검**: 쿼리 2개면 충분하다 — `q=AI&sort=newest&lang=ko`(한국어)와 `q=AI&sort=newest&lang=en`(영어).
   여력이 있으면 `q=ai agents`·`q=generative ai`를 최신순으로 더 본다.
 - **카탈로그 갱신(분기 1회)**: 같은 URL에서 `sort=popularity`로 카테고리별 상위를 다시 받는다. 카테고리 목록은
   [[udemy-ai-catalog]]의 소제목 13개를 그대로 쓴다.

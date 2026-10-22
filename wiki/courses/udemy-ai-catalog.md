@@ -12,7 +12,10 @@ source: https://www.udemy.com/courses/search/?q=AI
 Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 과정 설계 시 **외부 강의로 대체·보완할 수 있는 구간**을
 찾고, 시장에서 무엇이 실제로 팔리는지(수강 규모·평점) 읽는 데 쓴다.
 
-> **범위 (2026-09-28 기준)**: Udemy에서 "AI" 한 단어만 검색해도 결과가 1만 건을 넘는다. 전수 수록은 불가능하고
+> **마지막 수집 2026-10-22** (주 1회 점검). 수집은 대화형 세션에서만 가능하다 — 무인 예약 실행에는
+> 브라우저 도구가 없다(`sources.md` Udemy 절의 실측 기록 참조).
+>
+> **범위 (2026-09-28 기준): Udemy에서 "AI" 한 단어만 검색해도 결과가 1만 건을 넘는다. 전수 수록은 불가능하고
 > 쓸모도 없다. 이 카탈로그는 **13개 카테고리별로 인기·평점 상위 강의**를 담고, 신규 강의는 데일리 스캔이 계속
 > 덧붙인다. 개인 강사의 소규모 강의까지 모두 담지 않는다.
 > **강사명은 수집하지 않았다** — 검색 목록에서 안정적으로 떨어지지 않아 비워 뒀다. 필요하면 링크를 열어 확인한다.
@@ -63,6 +66,8 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [Copilot Studio 로 만드는 실무 AI Agent](https://www.udemy.com/course/copilot-studio-ai-agent/) | 5.0 (23) | 6.5h | 전 수준 | KR, N |
 | [AI 에이전트와 함께하는 업무 자동화 실전](https://www.udemy.com/course/ai-agentic-coding-basic/) | 4.6 (31) | 10h | 초급 | KR |
 | [AI Agents: From Basics to Production](https://www.udemy.com/course/ai-agents-from-basics-to-production/) | 5.0 (2) | 4.5h | 전 수준 | N. 09-28 스캔 수집 |
+| [Agentic Engineering: From MCP Servers to Agent Factories](https://www.udemy.com/course/agentic-engineering-from-mcp-servers-to-agent-factories/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집 |
+| [LangGraph로 만드는 실전 LLM AI 에이전트 [한국어 리메이크]](https://www.udemy.com/course/langgraph-korean-remake/) | 미확인 | 미확인 | 중급 | KR, N. 10-22 수집 |
 
 ## 5. LLM 앱 개발·RAG·LangChain
 
@@ -85,6 +90,9 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [Extending AI with Agent Skills 2026](https://www.udemy.com/course/ai-agent-skills/) | 4.6 (1,245) | 1.5h | 초급 | 스킬 파일 운영 |
 | [AI Coding & Agentic Development: Copilot, Cursor, Claude](https://www.udemy.com/course/boost-your-productivity-write-better-code-with-ai-tools/) | 4.1 (10) | 4h | 전 수준 | 도구 비교 |
 | [AI 코딩 에이전트 Codex 실전 - 프롬프트, 권한 설계, 자동화](https://www.udemy.com/course/openai-codex-ai-coding-agent-korean/) | 4.6 (2) | 14h | 전 수준 | KR, N |
+| [Claude Code: Upgrade Spring Boot 2 to 4 and Java](https://www.udemy.com/course/claude-code-upgrade-spring-boot-2-to-4/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집. 레거시 업그레이드 적용형 |
+| [MCP for Developers: Build AI Tools & Servers with C#](https://www.udemy.com/course/mcp-for-developers-build-ai-tools-and-servers-with-csharp/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집 |
+| [Google Antigravity로 시작하는 바이브 코딩](https://www.udemy.com/course/google-antigravity-vibe-coding-korean/) | 미확인 | 미확인 | 전 수준 | KR, N. 10-22 수집 |
 
 ## 7. 업무 자동화 (n8n·노코드)
 
@@ -142,6 +150,7 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [AI Ethics 101: AI Ethics & Responsible AI](https://www.udemy.com/course/ai-ethics-for-professionals-ai-ethics-ethical-ai/) | 4.5 (164) | 2h | 전 수준 | 2시간 |
 | [AI Governance and Ethics](https://www.udemy.com/course/ai-governance-and-ethics/) | 4.7 (14) | 3.5h | 전 수준 | N |
 | [AI Security, Governance & Compliance](https://www.udemy.com/course/ai-security-governance-compliance/) | 4.2 (77) | 4h | 전 수준 | |
+| [AI Red Teaming: Test, Evaluate & Improve AI Systems](https://www.udemy.com/course/ai-red-teaming-practical/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집 |
 
 ## 13. 한국어 신규 강의 (2026-09 기준)
 
@@ -157,6 +166,11 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [AI와 함께 짜는 C# - GitHub Copilot 실전 활용 (중급)](https://www.udemy.com/course/ai-c-github-copilot/) | 신규 | 5.5h | N |
 | [Perplexity·Elicit·DeepL로 끝내는 대학생 논문·과제 AI 활용법](https://www.udemy.com/course/ai-tools-for-university-study-research/) | 신규 | 9.5h | N. 리서치 도구 조합 |
 | [회사가 원하는 효율적인 AI 활용 - 회의 준비부터 기록까지](https://www.udemy.com/course/maso-ai-gpt-onc108/) | 4.7 (87) | 8h | KR. 회의 업무 자동화 |
+| [코딩 없이 쓰는 업무용 AI 에이전트, 코덱스](https://www.udemy.com/course/maso-ai-codex-onc155/) | 4.3 (240) | 미확인 | 09 갱신. 한국어 신규 중 반응 최다 |
+| [직장인을 위한 Microsoft Copilot - 메일·기획·자동화](https://www.udemy.com/course/microsoft-copilot-business-productivity-korean/) | 4.2 (미확인) | 미확인 | 09 갱신 |
+| [AI와 함께 만드는 모던 PHP 아키텍처](https://www.udemy.com/course/ai-modern-php-korean/) | 미확인 | 미확인 | N. 10-22 수집 |
+| [Firefly x Illustrator - 생성형 AI로 빨라지는 벡터 디자인 실무](https://www.udemy.com/course/firefly-illustrator-korean/) | 미확인 | 미확인 | N. 10-22 수집 |
+| [풀스택 파이썬 & React 바이브 코딩](https://www.udemy.com/course/korean-full-stack-python-react/) | 미확인 | 미확인 | N. 10-22 수집 |
 
 > **월간 동향 분석**: 최근 한 달 무엇이 새로 올라오고 그중 무엇이 반응을 얻었는지는 [[udemy-ai-course-trends-2026-09]]에 따로 정리했다.
 
