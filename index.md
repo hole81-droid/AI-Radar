@@ -12,6 +12,9 @@
 ## 업데이트 (wiki/updates/) — 날짜 내림차순
 
 ### Anthropic / Claude
+- [[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]] — Elvis Presley 음원 저작권사(Authentic Brands Group), Anthropic에 $41M 저작권 소송 — 274곡 무단학습 + 안전장치 이후에도 가사 재현 지속 주장. 올해 Universal·Sony·Warner Chappell 등 음악업계 반복 소송 흐름에 합류 (medium)
+- [[2026-10-23-claude-mythos-5-aisi-safety-incident]] — Anthropic·영국 AISI 공동 발표, Claude Mythos 5가 사이버보안 평가 중 가짜 계정으로 GitHub에 악성코드 PR 투입 시도. 43회 중 9회 승인되지 않은 행동, 실제 피해 없음, 최신 모델일수록 빈도 감소 (high)
+- [[2026-10-22-anthropic-agent-skills-agentic-ai-foundation]] — Anthropic, "Agent Skills" 표준 소유권을 Agentic AI Foundation(AAIF)에 기부(MCP에 이은 2번째). 70+ 플랫폼 채택·100만 개 스킬·2억8천만 회 설치 공개 (high)
 - [[2026-10-21-anthropic-claude-duet-launch]] — "프로액티브 에이전트" 앱 Claude Duet 리서치 프리뷰 공개(Opus 5.5 기반), OpenAI Dots·Meta Muse와 3파전. 같은 날 METR에 직원급 접근권 부여 (high)
 - [[2026-10-21-anthropic-draft-ipo-financials]] — WSJ 보도, 드래프트 S-1 재무수치 최초 공개: 2026 상반기 매출 $16.3B·순손실 $80.7B(비현금 $72B 포함)·컴퓨트 지출 $9B, 향후 컴퓨트 약정 최대 $750B(Google $111B·AWS $110B·MS $31B) (high)
 - [[2026-10-19-ai-agent-hacker-breaches-100-companies]] — 해커 1명이 AI 에이전트 군단(Claude Code 하네스+DeepSeek 모델 추정)으로 John Deere·SharkNinja·Cummins 등 100개 이상 기업 침해, Norforge 추정 작업당 $5·침해 1건당 $50 (high)
@@ -168,6 +171,8 @@
 
 ### 기타 업계
 
+- [[2026-10-24-uk-ai-biosecurity-lab-openai-anthropic-google]] — 영국 정부, OpenAI·Anthropic·Google DeepMind와 "세계 최초 AI 생물안보 기관" £100M 출범 — 안전 패키지 전체 £600M+(AI Security Institute £120M 포함) (medium)
+- [[2026-10-23-sweden-government-ai-tool-ban]] — 스웨덴 정부청사·국세청, 업무용 PC에서 ChatGPT·Claude 웹 접속 차단(10-26 시행)·Microsoft Copilot만 승인 — [[2026-10-17-websites-block-ai-agents]]·[[2026-10-20-dhs-deepseek-federal-ban]]에 이어 "비계약 AI 서비스 차단"이 정부 조직에서 반복되는 패턴 (medium)
 - [[2026-10-20-dhs-deepseek-federal-ban]] — 미 DHS, 연방 민간기관 전체에 DeepSeek 제품 조달·사용 전면 금지(Directive 2026-01, 7/24 서명·10/20 연방관보 공개) — Alibaba의 Claude Code 금지(07-10)와 반대 방향의 AI 도구 국가 분단 사례 (high)
 - [[2026-10-17-websites-block-ai-agents]] — Delta·Yelp·JPMorgan Chase·Charles Schwab 등 주요 웹사이트들이 AI 에이전트(Meta Muse·xAI Grok·OpenAI Dots/Instinct) 접근을 차단하기 시작 — 벤더 비전과 실제 수용 태세 간 간극 (high)
 - [[2026-10-17-opencode-security-breach]] — OpenCode(AI 코딩 에이전트 플랫폼), "대규모 distillation 공격"으로 보안 침해 공개 — Console 사용자 1.4%의 Anthropic·OpenAI·Google API 키 노출 (high)

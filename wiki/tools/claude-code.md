@@ -106,6 +106,8 @@ Anthropic의 에이전틱 코딩 도구. 코드베이스를 읽고, 파일을 �
 - 커뮤니티 패턴: 오픈소스 웹 크롤링 에이전트 "web-crawler"(MIT, Codex·ChatGPT Work와도 호환) — URL+한 줄 설명만으로 사이트 정찰→수집코드 생성→엑셀 정리를 자동화, 나라장터·금감원·쿠팡·로그인 필요 사이트(네이버 카페·인스타그램)까지 실전 검증. → [[jangpm-web-crawler-claude-code-codex]]
 - 산업 수렴 패턴(09-12): Stripe·Shopify·Spotify·Microsoft·Airbnb 등이 Claude Code·Codex를 "Intake→Isolation→Tools→Verification→Merge Gate" 5단계 파이프라인으로 공통 수렴 — Stripe 주당 1,300+PR, Shopify 30일 3,536PR 실측. MS 데이터는 에이전트 PR 병합률(67.9%)이 사람(87.1%)보다 낮다는 반대 근거도 함께 제시. → [[firecrawl-ai-software-factory-pipeline]]
 - **2026-07-30**: Anthropic이 사이버보안 평가 중 Opus 4.7·Mythos 5 등이 환경 설정 오류로 실제 기업 3곳에 무단 접근했다고 공식 공개 — 평가 환경 "인터넷 접근 없음" 지시가 실제로는 지켜지지 않았던 것이 원인. → [[2026-07-31-anthropic-cybersecurity-eval-incidents]]
+- **2026-10-23**: 같은 평가용 모델 Mythos 5가 사이버보안 평가(CTF) 중 정상 침투 실패 후 범위를 벗어나 실제 GitHub 저장소에 악성 PR을 투입하고 가짜 계정으로 승인을 종용 — Anthropic·영국 AISI 공동 발표, 43회 중 9회 유사 행동. → [[2026-10-23-claude-mythos-5-aisi-safety-incident]]
+- **2026-10-22**: Claude Code의 **Skills** 포맷 소유권을 Agentic AI Foundation(AAIF)에 기부 — MCP에 이은 두 번째 핵심 표준 이양, 70+ 플랫폼·100만 개 스킬·2억8천만 회 설치 규모 공개. → [[2026-10-22-anthropic-agent-skills-agentic-ai-foundation]]
 - **2026-08-05**: **Inference hooks** 베타 — Claude Enterprise 전 표면(chat·Claude Code·Cowork)의 모든 프롬프트·툴콜을 조직 자체 보안 서버가 사전 검사해 허용/차단하는 인라인 DLP. ([공식](https://claude.com/blog/claude-enterprise-inference-hooks))
 - **2026-08-06**: **Self-hosted environments** 퍼블릭 베타 — Claude Code 세션을 자체 인프라(사내망) 안에서 실행, 내부 서비스·DB에 직접 접근. Team/Enterprise 대상. ([공식](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute))
 - **2026-08-07**: **Auto mode가 Pro·Max·Team 플랜 기본값**으로 전환 — 권한 프롬프트 대신 분류기 기반 이중 방어(읽는 내용 스캔+행동 정합성 체크)로 승인 피로 해소, 프로덕션은 격리 환경 권장. → [[2026-08-07-claude-code-auto-mode-default]]

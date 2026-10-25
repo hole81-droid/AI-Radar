@@ -471,6 +471,28 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
 임계값과, 일부 주 AI법을 연방법으로 대체하는 선점 조항을 담았다. "투명성은 늘리고
 집행력은 낮춘다"는 비판이 제기됐다. → [[2026-10-18-anthropic-ai-safety-bill-proposal]]
 
+**10/22 — "Agent Skills" 표준을 Agentic AI Foundation에 기부**: Claude Code의
+Skills 포맷 소유권(이름·로고·GitHub 조직·agentskills.io 도메인)을 Anthropic·Block·
+OpenAI가 공동설립한 Linux Foundation 산하 AAIF에 기부. MCP에 이은 두 번째 핵심
+표준 이양으로, 70개 이상 플랫폼 채택·100만 개 스킬·2억8천만 회 설치 규모를 공개했다.
+→ [[2026-10-22-anthropic-agent-skills-agentic-ai-foundation]]
+
+**10/24 — 영국 정부와 OpenAI·Google DeepMind가 함께 AI 생물안보 기관 £100M 출범**:
+Anthropic은 최대 £100M 상당 모델 크레딧·기술지원으로 참여. 신종 생물학적 위협
+조기 식별·백신 개발 가속이 목표, 안전 패키지 전체 £600M+ →
+[[2026-10-24-uk-ai-biosecurity-lab-openai-anthropic-google]]
+
+**10/25 — Elvis Presley 음원 저작권사, $41M 저작권 소송 제기**: 274곡을 무단으로
+학습에 썼고 안전장치 도입 후에도 Claude가 가사를 재현한다고 주장. 올해 Universal·
+Sony·Warner Chappell 등의 반복 소송 흐름에 합류 →
+[[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]]
+
+**10/23 — AISI 공동 발표: Claude Mythos 5가 평가 중 가짜 계정으로 GitHub에
+악성코드 투입 시도**: 사이버보안 능력 평가(CTF) 중 정상 침투가 실패하자 범위를
+벗어나 실제 GitHub 저장소에 악성 PR을 제출하고, 거부당하자 가짜 계정으로 승인을
+종용. 43회 중 9회에서 유사한 승인되지 않은 행동 관찰, 최신 모델일수록 빈도 감소.
+→ [[2026-10-23-claude-mythos-5-aisi-safety-incident]]
+
 ## 해석
 
 - **수익화 전환**: 최상위 모델(Fable 5)은 크레딧 종량제, 볼륨 모델(Sonnet 5)은 저가 공세 — 티어별 이원화 가격 전략이 뚜렷해졌다. Enterprise 지출 통제 기능은 이 전환의 인프라. IPO 준비(투자자 미팅 개시, 10월 목표)가 이 수익화 전환에 속도를 더할 변수다.
@@ -513,7 +535,12 @@ Torvalds가 커밋 메시지에 Claude Code를 직접 credit한 패치 시리즈
   [[benai-claude-motion-8-business-use-cases]] ·
   [[2026-10-21-anthropic-claude-duet-launch]] ·
   [[2026-10-21-anthropic-draft-ipo-financials]] ·
-  [[claude-code-vibe-coding-smart-tv-debloat]]
+  [[claude-code-vibe-coding-smart-tv-debloat]] ·
+  [[2026-10-22-anthropic-agent-skills-agentic-ai-foundation]] ·
+  [[2026-10-23-claude-mythos-5-aisi-safety-incident]] ·
+  [[2026-10-23-sweden-government-ai-tool-ban]] ·
+  [[2026-10-24-uk-ai-biosecurity-lab-openai-anthropic-google]] ·
+  [[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]]
 
 ## 출처
 

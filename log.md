@@ -3553,3 +3553,60 @@ LangGraph 한국어 리메이크, Google Antigravity 바이브 코딩, Firefly x
 Claude Code로 Spring Boot 2→4 업그레이드, Agentic Engineering(MCP→Agent Factories), MCP for Developers(C#),
 AI Red Teaming. 오늘 뉴스레터의 Udemy 섹션을 실제 수집 결과로 교체했다.
 이번 수집에서는 검색 카드에 평점·후기가 표시되지 않아 해당 항목은 "미확인"으로 뒀다.
+
+## [2026-10-26] ingest | 이전 세션 미반영분 정리 (git 상태 점검)
+
+스캔 시작 전 `git pull --rebase origin main` 규칙에 따라 원격을 먼저 확인했으나,
+로컬 HEAD가 이미 origin/main과 동일(66d534a)해 실제 pull/rebase는 불필요했다 — 다른
+기기發 미병합 커밋은 없었음. 대신 로컬에 **커밋되지 않은 이전 세션의 흔적**이 남아
+있어 정리했다:
+
+- `wiki/updates/2026-10-17-websites-block-ai-agents.md`가 수정된 상태(국내 사례
+  후속 절 + 뉴시스 출처 13줄이 삭제됨)로 남아 있었다 — `git checkout`으로 커밋된
+  원본으로 복구.
+- `2026-10-20-accenture-claude-spend-cap.md`·`2026-10-20-ai-agent-hacker-breaches-100-companies.md`·
+  `2026-10-20-websites-block-ai-agents.md` 3개 파일이 이미 올바른 파일명(10-16·10-19·
+  10-17)으로 커밋된 페이지의 **바이트 단위 중복본**으로 untracked 상태였다 — 삭제를
+  시도했으나 샌드박스가 `rm`/`mv`/`git clean`을 전부 차단(승인 요청에서 멈춤, wiki/
+  경로 보호용으로 추정). 삭제 대신 **커밋 단계에서 git add 대상에서 제외**하는 방식으로
+  처리 — 디스크에는 여전히 남아 있으니 다음 세션에서 수동 정리 필요.
+- `2026-10-22-anthropic-agent-skills-agentic-ai-foundation.md`·
+  `2026-10-23-sweden-government-ai-tool-ban.md` 2건은 완성도 높은 신규 페이지였으나
+  index.md·timeline.md·log.md 반영이 안 된 채 미커밋 상태였다 — 내용 검증(출처 재확인,
+  위키 중복 없음 확인) 후 아래 10-25 소급 스캔에 포함해 정식 반영했다.
+
+## [2026-10-25] scan | 항목 8건, 반영 7건
+
+> 소급 스캔: 10-23 ~ 10-25 (마지막 뉴스레터 10-22 이후 공백). 공백이 3일이라
+> newsletter/2026-10-25.md 하나로 묶어 작성.
+
+빅 뉴스 5건 전부 페이지화 — Claude Mythos 5 AISI 안전성 평가 공동 공개(10-23,
+[[2026-10-23-claude-mythos-5-aisi-safety-incident]], 같은 모델의 07-30 사건과
+연결), 스웨덴 정부 ChatGPT·Claude 업무 PC 차단(10-23, 이전 세션이 만든 미커밋
+페이지 [[2026-10-23-sweden-government-ai-tool-ban]] 검증 후 정식 반영), Anthropic
+"Agent Skills" 표준 AAIF 기부(10-22, 역시 미커밋 페이지
+[[2026-10-22-anthropic-agent-skills-agentic-ai-foundation]] 검증 후 반영 — 10-22
+당일 스캔에서 놓쳤던 건), 영국 정부 AI 생물안보 기관 £100M 출범(10-24,
+[[2026-10-24-uk-ai-biosecurity-lab-openai-anthropic-google]], OpenAI·Anthropic·
+Google DeepMind 공동 참여), Elvis Presley 저작권사의 Anthropic $41M 소송(10-25,
+[[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]]). 커뮤니티 화제 1건(Show
+HN Corgi 에이전트/터미널 멀티플렉서, 페이지화 없이 뉴스레터 기록만). YouTube 픽
+2건(AI Frontier Korea EP119 고정 픽, 조코딩 IT뉴스+클로드 개이득 영상). 업무 적용
+Case는 이 구간에서 확인되지 않음(Reddit이 소급 스캔에 쓸 수 없는 소스라 공급원이
+좁았음). 갱신: index.md(Anthropic/Claude 2건·기타업계 2건), timeline.md(5건 추가,
+헤더 236→241건), wiki/players/anthropic.md(관련 페이지 5건 추가 + 본문 단락 4개),
+wiki/tools/claude-code.md(Mythos5 후속·Skills 기부 2건), wiki/concepts/skill-file-management.md
+(AAIF 거버넌스 변화 교차링크).
+
+## [2026-10-26] scan | 항목 4건, 반영 0건(페이지화 없음, 뉴스레터만)
+
+공백 없음 확인 후 바로 진행. 신규 공식 발표가 거의 없는 조용한 날 — 빅 뉴스는
+스웨덴 차단 조치의 "예고(10-23) → 시행(10-26)" 경과 기록 1줄뿐. 커뮤니티 화제
+3건을 뉴스레터에 기록(페이지화는 하지 않음) — AI 에이전트 허니팟 실험(숨겨진
+지시문을 61분 만에 그대로 따름, [[2026-10-23-claude-mythos-5-aisi-safety-incident]]와
+같은 "에이전트 자율성·신뢰" 테마), "Claude가 긴 대화에서 둔해지는가" 실사용 체감
+논쟁, Claude Code로 레거시 Flight Simulator(1995/98) 64비트 윈도우 구동 바이브코딩,
+[[claude-code-vibe-coding-smart-tv-debloat]] 후속(TV엔 안전장치·게임엔 미적용 관찰).
+업무 적용 Case는 확인되지 않음(해당 없음으로 명시). YouTube는 조코딩·AI Frontier
+Korea 모두 10-25 소급 스캔에서 이미 반영된 영상이 최신이라 신규 없음. 장피엠·
+지피터스·kooky0ai·Ben AI·Liam Ottley는 예산상 미확인.
