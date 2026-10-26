@@ -3610,3 +3610,21 @@ wiki/tools/claude-code.md(Mythos5 후속·Skills 기부 2건), wiki/concepts/ski
 업무 적용 Case는 확인되지 않음(해당 없음으로 명시). YouTube는 조코딩·AI Frontier
 Korea 모두 10-25 소급 스캔에서 이미 반영된 영상이 최신이라 신규 없음. 장피엠·
 지피터스·kooky0ai·Ben AI·Liam Ottley는 예산상 미확인.
+
+## [2026-10-27] scan | 항목 13건, 반영 9건
+공백 없음(전일 2026-10-26 뉴스레터 확인 후 바로 진행). 신규 페이지 6건 생성:
+use-case 3건([[anthropic-claude-attack-surface-reduction]] — Anthropic Claude Skill로
+오픈소스 25개·500만+줄 공격표면 분석, 493건 발견·OpenSSH 사전인증코드 16%제거, 10-20
+발표분 백필; [[opus-qwen-fusion-cost-time-tradeoff]] — Opus 플래닝+로컬 Qwen 코딩 분업
+비용실험, 클라우드비용75%↓·시간2.6배↑; [[claude-code-sky-camera-meteor-detection]] —
+Claude Code+MCP서버 천체카메라 유성탐지 자동화, 오탐율50%→7%↓ 주장), update 1건
+([[2026-10-26-openai-gpt-6-1-terra-launch]] — GPT-6.1 Terra 출시, Astra대비 1/10가격·
+속도3배+), analysis 1건([[openai-anthropic-price-war-2026]] — OpenAI·Anthropic 4개월
+가격 최대80%↓ 분석, minimaxir HN407점). 기존 페이지 갱신: [[2026-10-21-anthropic-draft-ipo-financials]]에
+10-26 공식 S-1 제출 후속 추가(Nasdaq "ANT", SpaceX향 컴퓨트 $84.5B→$120.5B 상향,
+⚠️ 상충 처리) — wiki/tools/codex.md·chatgpt.md·timeline.md·index.md·case-catalog.md
+동반 갱신. 커뮤니티 화제 3건은 뉴스레터에만 기록(페이지화 안 함) — ex-Google 15년차
+개발자의 Opus 레이턴시 디버깅 실사용 평가, SlopCodeBench 반박 실험(196체크포인트
+실측), "시니어 개발자는 카스파로프 시대" 체스비유 토론. YouTube는 AI Frontier
+Korea·조코딩 모두 검색 기준 신규 업로드 미확인. Udemy는 데일리 스캔 대상 아님(화요일,
+월요일 점검 규칙 해당 없음).

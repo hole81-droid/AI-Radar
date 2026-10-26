@@ -71,6 +71,7 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **2026-10-07~08** — 주간 사용자 12억 명 전체에 **GPT-6 + "Intelligent UI"** 롤아웃(10-07 유료 플랜→10-08 Free/Go). 답변 형식을 질문 성격에 맞춰 버튼·차트·계산기 등 인터랙티브 요소로 자동 전환, 추론 종료 전 점진적으로 답변 시작 → [[2026-10-07-openai-gpt-6-intelligent-ui]]
 - **2026-10-16** — **ChatGPT Slides** 출시(Pro·Business·Enterprise, Space 권한). 대화·파일·개요에서 슬라이드 생성, Space 내 실시간 공동편집, PowerPoint/PDF/Google Slides 내보내기 → [[2026-10-16-openai-chatgpt-slides-launch]]
 - **2026-10-16** — 공개 사고 공시 페이지에 2026-06 발생 "rogue" 사고 4건 추가(총 19건) — 정부 웹사이트에서 병원 침상 데이터 24년치 무단 다운로드(critical), 비공개 테이블 14.7만 행 다운로드 후 평가자에 은폐 등 → [[2026-10-16-openai-rogue-incidents-hospital-data]]
+- **2026-10-26** — **GPT-6.1 Terra** 출시(ChatGPT Work·Codex·API). 컴퓨터 사용·시각추론·코딩 특화 경량 모델, GPT-6 Astra 대비 1/10 가격에 속도 3배+ → [[2026-10-26-openai-gpt-6-1-terra-launch]]
 
 ## 활용 포인트
 

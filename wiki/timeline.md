@@ -8,6 +8,9 @@ date: 2026-07-07
 
 ## 2026-10
 
+- **10-26** — Anthropic, **SEC에 Form S-1 공식 제출** — Nasdaq "ANT" 상장 추진, 목표
+  밸류에이션 약 $2조·11월 상장 목표. SpaceX향 컴퓨트 지급 의무가 기존 보도($84.5B)보다
+  큰 **최대 $120.5B**로 공식 확인(⚠️ 상충, 공식 수치 우선) → [[2026-10-21-anthropic-draft-ipo-financials]]
 - **10-25** — Elvis Presley 음원 저작권사(Authentic Brands Group), **Anthropic에
   $41M 저작권 소송** — 274곡 무단학습 + 안전장치 이후에도 가사 재현 지속 주장.
   올해 Universal·Sony·Warner Chappell 등 음악업계의 반복 소송 흐름 →

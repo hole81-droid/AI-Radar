@@ -117,6 +117,8 @@ uses: [course, ax]
 - [[crystl-tmux-claude-code-multi-session]] — Claude Code로 tmux 세션 관리(cli-pipeline, send-keys+capture-pane+pipe-pane)를 활용해 여러 저장소의 에이전트 세션을 동시 운영·원격 제어 → SSH 연결 끊김에도 지속 실행, 상태추적·재부팅 복구는 한계로 명시 (일화, 정량 미확인)
 - [[reddit-ai-agents-two-year-claude-codex-setup]] — Claude Code+Codex로 cli-pipeline(역할분담+CI/CD연동)을 활용해 개발 전체 파이프라인(기획·코딩·리뷰·테스트·배포)을 수행 → 2년 시행착오로 MCP 서버 11→2개·AGENTS.md 900→100줄로 정착 (일화)
 - [[pixeltoucher-perch-claude-code-multisession-notch-app]] — Claude Code로 vibe-coding+서브에이전트를 활용해 멀티세션 관리 앱 "Perch"를 제작 → 배포 전 약 240개 시나리오 전수검증 패턴, MIT 오픈소스 공개 (일화)
+- [[anthropic-claude-attack-surface-reduction]] — Claude(Frontier Red Team)로 재사용형 Skill(3-패스, 매 패스 빈 컨텍스트)을 활용해 오픈소스 코드베이스 공격표면 자동 분석·축소를 수행 → 25개 프로젝트·500만+줄 분석, 493건 이슈 발견(OpenSSH 사전인증 코드 16% 제거) (실측, Anthropic 공식)
+- [[opus-qwen-fusion-cost-time-tradeoff]] — Atomic Agent Fusion 모드로 Claude Opus 5.5(플래닝·리뷰)+로컬 Qwen 3.8 27B(코드작성, subagents+cli-pipeline) 분업을 활용해 동일 게임을 두 번 빌드해 비용·시간 비교 → 클라우드비용 75%↓($2.52→$0.62), 빌드시간 2.6배↑(16분→42분) (실측, 1회 실행)
 
 ## 고객 지원 (customer-support)
 
@@ -142,6 +144,7 @@ uses: [course, ax]
 - [[theaxlabs-company-brain-prompt-guide]] — AI 채팅 도구(도구 비종속, second-brain)로 프롬프트 6종+지도 파일을 활용해 개인별 AI 교정을 조직 지식베이스로 통합하는 절차를 수행 → 정량 성과 없음, 방법론·재현 가이드 공개 (주장)
 - [[mckinsey-reckitt-rgmx-pricing-automation]] — McKinsey의 RGMx(예측분석 플랫폼, cron-routines 근사치)로 데이터 기반 시나리오 분석을 활용해 소비재 기업 Reckitt의 가격·프로모션·제품구성·거래투자 의사결정을 수행 → 2021년 이후 누적 매출 개선 $100M+, 35개 시장 전개 (주장, McKinsey 자체 케이스 스터디)
 - [[caterpillar-helios-ceo-led-data-platform]] — Caterpillar가 CEO 직속으로 엔터프라이즈 데이터 플랫폼 Helios를 구축해 예측정비 등 데이터 기반 서비스의 토대를 마련 → 서비스 매출 $14B(2016)→$24B(2024) (주장, MIT Sloan 사례 연구가 전달)
+- [[claude-code-sky-camera-meteor-detection]] — Claude Code로 MCP 서버+전용 Skills(서버측 가드레일 강제)를 활용해 4K 천체 카메라의 야간 유성 탐지→분류→재학습 운영 전 과정을 수행 → 오탐율(별→비행체 오인) 약 50%→7%↓, 유성 포착율 90% 유지, 완전 무인 운영(2024년부터) (주장, 개인 프로젝트 자체 집계)
 
 ## 마케팅 (marketing)
 
