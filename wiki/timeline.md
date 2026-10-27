@@ -4,10 +4,21 @@ date: 2026-07-07
 ---
 # AI 업계 타임라인
 
-주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-25, 241건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
+주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-27, 244건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
 ## 2026-10
 
+- **10-27** — Google DeepMind, **월드 모델 "Genie 4" 리서치 프리뷰 공개** — 네이티브
+  오디오·장면 지속시간 2배(2분)·실시간 자연어 스티어링, Gemini Omni+추론모델 조합
+  구동. 로봇공학·게임·영화 사전시각화 타깃, 트러스티드 테스터 한정, HN 585점 →
+  [[2026-10-27-google-deepmind-genie-4-launch]]
+- **10-27** — Anthropic, **Claude 기반 신약개발 초기성과 공개 + Mithril Medicine
+  인수 확인** — 6개 제약·바이오 파트너사 전임상 결과, Enveda 제조문서검수 89%↓·
+  Generate Biomedicines CAR-T설계 70%↓길이·수용체10배 → [[anthropic-claude-drug-development]]
+- **10-27**(보도) — Stanford Daily, **"Cruz v. Anthropic" 소송 재조명** — 기존
+  $1.5B 저작권 합의([[2026-07-21-anthropic-copyright-settlement-approved]])에서
+  Stanford 교수 2인(Wolff·Chang-Rae Lee)이 탈퇴해 작품당 최대 $150,000 배상·영구
+  학습금지를 별도 청구 중임이 뒤늦게 알려짐. Elvis 소송(10-25)과 같은 흐름, HN 370점
 - **10-26** — Anthropic, **SEC에 Form S-1 공식 제출** — Nasdaq "ANT" 상장 추진, 목표
   밸류에이션 약 $2조·11월 상장 목표. SpaceX향 컴퓨트 지급 의무가 기존 보도($84.5B)보다
   큰 **최대 $120.5B**로 공식 확인(⚠️ 상충, 공식 수치 우선) → [[2026-10-21-anthropic-draft-ipo-financials]]

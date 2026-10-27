@@ -3628,3 +3628,29 @@ Claude Code+MCP서버 천체카메라 유성탐지 자동화, 오탐율50%→7%�
 실측), "시니어 개발자는 카스파로프 시대" 체스비유 토론. YouTube는 AI Frontier
 Korea·조코딩 모두 검색 기준 신규 업로드 미확인. Udemy는 데일리 스캔 대상 아님(화요일,
 월요일 점검 규칙 해당 없음).
+
+## [2026-10-28] scan | 항목 9건, 반영 9건
+공백 없음(전일 2026-10-27 뉴스레터 확인 후 바로 진행). 신규 페이지 2건 생성: use-case
+1건([[anthropic-claude-drug-development]] — Anthropic 공식, Claude Code·Claude로
+6개 제약·바이오 파트너사(Generate Biomedicines·Divergence Labs·BigHat·Enveda·BMS·
+Column Group) 신약개발 전주기 자동화, Enveda 제조문서검수 89%↓·Generate Biomedicines
+CAR-T설계 70%↓길이·수용체10배, Mithril Medicine 인수 확인, 전임상 단계), update 1건
+([[2026-10-27-google-deepmind-genie-4-launch]] — 월드모델 Genie 4 리서치 프리뷰,
+네이티브 오디오·장면지속2분·실시간 스티어링, HN 585점) — wiki/tools/gemini.md·
+timeline.md·index.md·case-catalog.md 동반 갱신. 기존 페이지 갱신: wiki/players/anthropic.md에
+Stanford Daily 재조명 보도 추가(Cruz v. Anthropic — Stanford 교수 2인이 기존 $1.5B
+합의에서 탈퇴해 작품당 최대$150,000 배상 별도 청구 중임이 뒤늦게 확인, 소송 자체는
+2026-05 제기, HN 370점) — 기존 저작권 합의·Elvis 소송 페이지와 모순 없이 연장 기록.
+빅 뉴스 1건은 페이지화 보류 — Amazon Nova 조직축소 보도(Futurism 단독, 공식 확인
+없어 뉴스레터에만 기록). HR Tech 분석(Josh Bersin, Workday17·SAP40+·Oracle1000+
+에이전트)도 벤더 기능 카운트 위주라 뉴스레터 한 줄로만 반영. 커뮤니티 화제 4건은
+뉴스레터에만 기록(페이지화 안 함) — r/ClaudeAI 토큰분석 기반 "성능3.8배저하" 체감
+평가(도구 실사용 평가), Claude Code 사용량 8배폭증+서비스오류 유료한도 차감 불만,
+Claude Code로 Xbox 360 커널 리버스엔지니어링해 네이티브 드라이버 작성(바이브코딩),
+HN "Here be monsters"(131점, 에이전트 시대 엔지니어 역량모델 에세이). YouTube 3건
+반영 — AI Frontier Korea EP120(10-25, 고정픽), 조코딩 AI뉴스 주간요약(10-26), Ben AI
+"Claude 2.0" 업데이트 묶음 설명 영상(10-25). HN Algolia 인물쿼리(karpathy·"Andrew Ng",
+points>50)는 신규 히트 없음. AX LABS·장피엠·GPTers 등은 전부 정체(각각 09-29·08-31·
+09-03 이후 신규 없음) 재확인. 국내 AX 블로그·구루 1차 채널·L&D·경영실증 RSS 전수
+확인(HBR·Sloan·Wharton·McKinsey·Bersin·HBI 포함) — McKinsey 뱅킹 agentic AI 3건은
+구체 수치 없는 프레임형이라 미채택.

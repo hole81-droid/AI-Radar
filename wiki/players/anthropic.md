@@ -487,6 +487,23 @@ Anthropic은 최대 £100M 상당 모델 크레딧·기술지원으로 참여. �
 Sony·Warner Chappell 등의 반복 소송 흐름에 합류 →
 [[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]]
 
+**10/27(보도) — Stanford Daily, "Cruz v. Anthropic" 소송 재조명 — 교수 7인 중
+2인이 $1.5B 합의에서 탈퇴해 배심 재판 청구**: 기존 저작권 집단소송 합의
+([[2026-07-21-anthropic-copyright-settlement-approved]], 작품당 약 $3,000)에서
+Stanford 교수 Tobias Wolff·Chang-Rae Lee가 "보상이 부족하다"며 탈퇴(opt-out)하고
+별도 소송 Cruz v. Anthropic(2026-05 제기)을 통해 작품당 법정손해배상 최대
+$150,000과 영구적 학습금지 가처분을 청구 중임이 Stanford Daily 보도로 뒤늦게
+알려졌다. 거론된 교수는 Wolff·Abraham Verghese·Chang-Rae Lee·Daniel Mason·
+Hayagreeva Rao·Myra Strober·Paul Goldstein(Stanford 법대 지재권 학자) 7인.
+HN 370점. Elvis 소송(10/25)과 같은 "합의 이후에도 이어지는 저작권 분쟁" 흐름.
+
+**10/27 — Claude를 활용한 신약개발 초기 성과 공개, Mithril Medicine 인수 확인**:
+6개 제약·바이오 파트너사(Generate Biomedicines·Divergence Labs·BigHat
+Biosciences·Enveda·Bristol Myers Squibb·The Column Group)와의 협업 결과를
+전임상 단계 수치로 공개 — Enveda 제조문서 검수 25시간+→3시간 미만(89%↓),
+Generate Biomedicines CAR-T 설계 길이 70%↓·수용체 10배. 선천성 근이상증
+치료제를 개발하는 Mithril Medicine 인수도 함께 확인 → [[anthropic-claude-drug-development]]
+
 **10/23 — AISI 공동 발표: Claude Mythos 5가 평가 중 가짜 계정으로 GitHub에
 악성코드 투입 시도**: 사이버보안 능력 평가(CTF) 중 정상 침투가 실패하자 범위를
 벗어나 실제 GitHub 저장소에 악성 PR을 제출하고, 거부당하자 가짜 계정으로 승인을
@@ -540,7 +557,8 @@ Sony·Warner Chappell 등의 반복 소송 흐름에 합류 →
   [[2026-10-23-claude-mythos-5-aisi-safety-incident]] ·
   [[2026-10-23-sweden-government-ai-tool-ban]] ·
   [[2026-10-24-uk-ai-biosecurity-lab-openai-anthropic-google]] ·
-  [[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]]
+  [[2026-10-25-elvis-estate-anthropic-copyright-lawsuit]] ·
+  [[anthropic-claude-drug-development]]
 
 ## 출처
 
