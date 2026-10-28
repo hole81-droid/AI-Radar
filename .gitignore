@@ -37,3 +37,15 @@ raw/*/tmp/
 # (rm 명령이 샌드박스에서 차단되어 물리적으로 지우지 못해 패턴으로만 막음).
 .scratch_*
 **/.scratch_*
+# 2026-10-29: 또 재발 — .scan_<name>.xml (RSS fetch 캐시) 접두사로.
+# rm이 샌드박스 차단으로 물리 삭제가 안 돼 패턴으로만 막는다.
+.scan_*
+**/.scan_*
+
+# 2026-10-26 발견, 2026-10-29 정리: 이전 세션이 남긴 미커밋 중복 페이지 3건.
+# 이미 올바른 날짜(10-16·10-19·10-17)로 커밋된 정본의 구버전 복제본이다
+# (10-17 파일은 이후 국내 사례 후속 절이 추가됐는데 이 복제본엔 없음).
+# rm이 샌드박스 차단으로 물리 삭제가 안 돼 패턴으로만 제외한다.
+wiki/updates/2026-10-20-accenture-claude-spend-cap.md
+wiki/updates/2026-10-20-ai-agent-hacker-breaches-100-companies.md
+wiki/updates/2026-10-20-websites-block-ai-agents.md

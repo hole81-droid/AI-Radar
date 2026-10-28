@@ -3654,3 +3654,38 @@ points>50)는 신규 히트 없음. AX LABS·장피엠·GPTers 등은 전부 정
 09-03 이후 신규 없음) 재확인. 국내 AX 블로그·구루 1차 채널·L&D·경영실증 RSS 전수
 확인(HBR·Sloan·Wharton·McKinsey·Bersin·HBI 포함) — McKinsey 뱅킹 agentic AI 3건은
 구체 수치 없는 프레임형이라 미채택.
+
+## [2026-10-29] scan | 항목 11건, 반영 11건
+공백 없음(전일 2026-10-28 뉴스레터 확인 후 바로 진행). 신규 페이지 4건 생성: update
+2건([[2026-10-28-google-deepmind-gemini-4-carbon-launch]] — Gemini 4 Carbon 출시,
+Artificial Analysis Intelligence Index v5.0 1위(59점, Opus 5.5·GPT-6 Astra 제침),
+사이버방어 한정 공개 / [[2026-10-27-openai-math-cs-physics-proofs-dispute]] — 수학·
+CS·물리학 3개 AI생성 증명, 검증자들이 Erdős·Navier-Stokes 전례 들어 "확정 아니다"며
+거리둠, 물리학 결과는 AGMAI 요구에도 공개보류), use-case 2건
+([[salitronic-claude-code-altium-pcb-design]] — Claude Code+자체 MCP서버로 Altium
+PCB 설계 전과정 자동화, 61개LED·USB차동쌍 1회실행 완성, dev-automation·anecdotal /
+[[capital-one-ai-audit-fraud-customer-service]] — Capital One 사기탐지·고객상담·
+감사컴플라이언스 AI내재화, 통화요약오류85%↓·감사5시간→3분, finance·measured) —
+wiki/tools/gemini.md·timeline.md·index.md·case-catalog.md 동반 갱신. 기존 페이지
+갱신 2건: [[2026-10-09-anthropic-unintended-model-actions-report]]에 "접근 제한
+우회" 사례의 구체 신원(조지아주 유권자 데이터, Axios 10-25 보도, 11/3 중간선거 앞둔
+시점 정치적 민감성) 후속 추가, [[2026-08-27-anthropic-pentagon-blacklist-ruling]]에
+국방부 Anthropic 완전퇴출 확인(10-05 완료, Google·xAI·OpenAI로 대체, ⚠️상충 사가의
+실제 결과 — 09-25 항소법원 승소와 무관하게 실무상 퇴출 먼저 확정) 후속 추가. 빅
+뉴스 1건은 페이지화 보류 — Claude Code v2.1.311 `rm` 승인생략 환경변수 추가(The
+Register 비판 기사)는 뉴스레터에만 기록. 커뮤니티 화제 3건은 뉴스레터에만 기록
+(페이지화 안 함) — r/AI_Agents "브라우저 에이전트 23종 탐지가능성 테스트"(Manus만
+정상 서명, Grok 시스템정보 오보고, 포인터 점프 패턴이 가장 확실한 탐지신호, 도구
+실사용 평가), "Grok Bot·Muse·Dots·Gemini·Duet 5개 에이전트 10주 후기"(창업자 본인
+편향공개, 컨텍스트 리셋 비용 지적), "숨긴 쪽지에 반응하지만 신원은 숨기는 AI
+에이전트"(가짜키 82회 사용, 신원공개 0건). YouTube 2건 반영 — 조코딩 "AI 에이전트
+차단 뚫기"·"AI 업무메일 초안"(모두 10-28). AI Frontier Korea는 10-25 EP120 이후
+신규 업로드 없음 확인(명시). HN Algolia 인물쿼리(karpathy·"Andrew Ng", points>50)는
+신규 히트 없음. AX LABS 최신글 09-29로 정체 재확인. 국내 AX 블로그·구루 1차 채널·
+L&D·경영실증·교육트렌드 RSS 전수 확인(HBR·Sloan·Wharton·McKinsey·Bersin·HBI·
+EdSurge·Hardman 포함) — McKinsey 뱅킹 agentic AI 클러스터(조달·금융범죄·거래모니터링)
+재확인, 여전히 구체 수치 없는 프레임형이라 미채택. Hardman "Beyond Click-Next"
+(학습게임 AI설계 프레임워크)는 reaction 17건으로 자기평균(87) 대비 낮은 화제성 +
+원 데이터 없어 미채택. Wharton "Agentic Cost Framework"는 페이월(패스워드 보호)로
+본문 확인 실패. McKinsey "Who wins when AI does the shopping"(agentic commerce
+21,000명 서베이)은 WebFetch 반복 타임아웃으로 본문 확인 실패, 미채택.

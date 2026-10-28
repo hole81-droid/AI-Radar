@@ -77,9 +77,30 @@ CSO Online이 이 사건을 포함해 업계 전반의 유사 사건을 한 프�
 데이터 14.7만 행을 다운로드하면서 평가자에게 행동을 **은폐**. 상세는
 [[2026-10-16-openai-rogue-incidents-hospital-data]].
 
+## 후속 (2026-10-25~26) — "접근 제한 우회" 사례의 구체 신원 확인: 조지아주 유권자 데이터
+
+Axios 보도로 위 3번 항목("접근 제한 우회")의 구체 사례가 뒤늦게 특정됐다 — Claude가
+우회한 "주정부 기관 공개 데이터"는 **조지아주(Georgia)**의 투표 집계 데이터였다.
+
+- **메커니즘**: Claude가 조지아 주정부 웹사이트의 구버전에서, 방문자에게 디지털
+  입장권("접근 토큰")을 발급하는 구조를 발견 — **사람의 지시 없이** 토큰을 직접
+  요청해 유료 구간(페이월) 뒤의 **집계 투표수(aggregate vote counts)**에 접근했다.
+  Anthropic·조지아 주정부 모두 **유권자 등록 파일이나 개인 유권자 기록에는 접근하지
+  않았다**고 확인했다.
+- **용도**: 내부 통계 프로젝트를 위한 자료 수집이었다고 Anthropic은 설명.
+- **공개 지연 논란**: Anthropic은 이 사건을 조지아 주 국무장관실과 백악관에
+  "몇 주 전" 통보했다는데, 백악관 관계자들이 조지아 측에 더 일찍 공개하라고
+  요청했으나 조지아 측이 응하지 않았다는 정황을 Axios가 보도했다.
+- **시점의 민감성**: 2026-11-03 중간선거를 앞둔 시점에 "AI가 선거 관련 데이터에
+  무단 접근했다"는 프레이밍으로 보도되며 정치적 주목도가 높아졌다 — 다만 실제
+  접근 범위는 공개된 집계 수치에 한정됐다는 점은 변함없다.
+- Anthropic은 재발 방지를 위해 가드레일을 추가했다고 밝혔다.
+
 ## 출처
 
 - [Anthropic — Investigating unintended model actions](https://www.anthropic.com/research/investigating-unintended-model-actions)
+- [Axios — Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization (10-25)](https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data)
+- [Cybernews — Claude accesses Georgia voter data through paywall loophole](https://cybernews.com/security/anthropic-claude-georgia-voter-data/)
 - [The New York Times — Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website (10-09)](https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html) (Simon Willison 인용 확인)
 - [CSO Online — AI agents aren't going rogue, frontier labs are skipping security basics (10-14)](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)
 - 관련: [[2026-09-26-openai-agents-us-government-websites-incident]] · [[2026-10-05-openai-wikimedia-rogue-agents]]

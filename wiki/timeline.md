@@ -8,6 +8,14 @@ date: 2026-07-07
 
 ## 2026-10
 
+- **10-28** — Google DeepMind, **"Gemini 4 Carbon" 출시** — Argon(09-30) 이후 4주 만의
+  Gemini 4 두 번째 모델. 독립평가 Artificial Analysis Intelligence Index v5.0 **1위
+  (59점)** — Claude Opus 5.5(58점)·GPT-6 Astra(57점)보다 앞섬. 사이버보안·장시간
+  에이전트 특화, 1차 공개는 "신뢰 사이버 방어자" 한정 → [[2026-10-28-google-deepmind-gemini-4-carbon-launch]]
+- **10-27**(공개) — OpenAI, **수학·전산학·물리학 3개 분야 AI생성 증명 공개** —
+  Local Smoothing Conjecture(모든 차원 최초)·Exponential Time Hypothesis 반증·
+  QCD 증명. 검증 맡은 연구자들은 Erdős·Navier-Stokes 전례를 들어 "확정 아니다"며
+  거리 둠, 물리학 결과는 AGMAI의 전면공개 요구에도 보류 → [[2026-10-27-openai-math-cs-physics-proofs-dispute]]
 - **10-27** — Google DeepMind, **월드 모델 "Genie 4" 리서치 프리뷰 공개** — 네이티브
   오디오·장면 지속시간 2배(2분)·실시간 자연어 스티어링, Gemini Omni+추론모델 조합
   구동. 로봇공학·게임·영화 사전시각화 타깃, 트러스티드 테스터 한정, HN 585점 →
@@ -187,6 +195,10 @@ date: 2026-07-07
 - **10-05** — Vals AI, **Claude Opus 5.5 에이전트로 상온 자성 반도체 후보 2종 계산 발견** —
   3일간 문헌리뷰~DFT 계산 스크리닝, 제3자가 독립 수행·GitHub 공개 재현 가능 (실험 미검증)
   → [[vals-ai-opus-magnetic-semiconductor-discovery]]
+- **10-05**(확인 10-28) — 미 국방부, **Anthropic/Claude 사용 전면 중단 완료** — 2월
+  Hegseth 장관의 "6개월 단계적 전환" 시한 완료, 분류 워크로드 약 90% 09월까지 이전,
+  공백은 Google·xAI·OpenAI 계약으로 대체. 09-25 항소법원 승소를 발판 삼았으나
+  Anthropic은 10-13 재심을 신청해 법적 분쟁은 진행 중 → [[2026-08-27-anthropic-pentagon-blacklist-ruling]]
 - **10-02** — Anthropic, **$100M 투자해 "Claude Frontier Academy" 출시** — 2027년
   말까지 엔터프라이즈 배포 전문인력(Frontier Deployed Engineer) 1만 명 양성 목표,
   Accenture·Bain·Deloitte·Morgan Stanley 등 1기 참여 →

@@ -120,6 +120,7 @@ uses: [course, ax]
 - [[pixeltoucher-perch-claude-code-multisession-notch-app]] — Claude Code로 vibe-coding+서브에이전트를 활용해 멀티세션 관리 앱 "Perch"를 제작 → 배포 전 약 240개 시나리오 전수검증 패턴, MIT 오픈소스 공개 (일화)
 - [[anthropic-claude-attack-surface-reduction]] — Claude(Frontier Red Team)로 재사용형 Skill(3-패스, 매 패스 빈 컨텍스트)을 활용해 오픈소스 코드베이스 공격표면 자동 분석·축소를 수행 → 25개 프로젝트·500만+줄 분석, 493건 이슈 발견(OpenSSH 사전인증 코드 16% 제거) (실측, Anthropic 공식)
 - [[opus-qwen-fusion-cost-time-tradeoff]] — Atomic Agent Fusion 모드로 Claude Opus 5.5(플래닝·리뷰)+로컬 Qwen 3.8 27B(코드작성, subagents+cli-pipeline) 분업을 활용해 동일 게임을 두 번 빌드해 비용·시간 비교 → 클라우드비용 75%↓($2.52→$0.62), 빌드시간 2.6배↑(16분→42분) (실측, 1회 실행)
+- [[salitronic-claude-code-altium-pcb-design]] — Claude Code로 자체 MCP 서버(eda-agent, mcp)를 활용해 Altium Designer에서 4층 PCB 전체 설계(스키매틱·배치·배선·DRC·제조파일)를 수행 → 사양 문서 1개로 61개 LED·USB 차동쌍 보드를 1회 실행 완성 (일화, 저자 1인 시연)
 
 ## 고객 지원 (customer-support)
 
@@ -168,6 +169,7 @@ uses: [course, ax]
 - [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
 - [[theaxlabs-claude-financial-advisors-korea-securities]] — Claude(자산관리 어드바이저 전용 커넥터 11종·스킬 8종, skills+mcp)로 국내 증권사 어드바이저 비대면 업무 자동화 90일 도입 플랜을 제시 → 3단계 리스크 사다리 프레임워크(실측 성과는 미확인) (주장)
 - [[liamottley-kylon-accounting-firm-automation]] — Kylon(노코드 AI 에이전트 플랫폼, vibe-coding)으로 영국 회계법인의 working paper(전표) 수작성을 4일 만에 자동화 → 회계사 25명 주당 20시간+ 절감 목표(사람 최종 서명 유지, 자체 홍보 영상·미검증) (주장)
+- [[capital-one-ai-audit-fraud-customer-service]] — Capital One이 자체 데이터 인프라(Databolt 토큰화+지식그래프, mcp)를 활용해 사기 탐지·고객상담 요약·감사 리스크 컴플라이언스를 수행 → 통화요약 오류 85%↓, 감사 업무 5시간→3분(30명·수개월간 5,000시간 절감) (실측)
 
 ## 개인 생산성 (personal-productivity)
 
@@ -559,3 +561,18 @@ $16.3B·손실 $80.7B·컴퓨트 최대 $750B)·HBR AI 배포실패 서베이(�
 효과 미측정)는 모두 제품 출시·재무공시·연구결과라 use-case 대상이 아니라 각각 update
 페이지로 반영. Ben AI "Claude Mods 100+개 테스트" 영상·JoCoding 국내 AI 에이전트
 쇼핑차단 영상은 큐레이션·설명 콘텐츠라 뉴스레터 YouTube 픽으로만 반영.*
+
+*2026-10-29 추가(171건): [[salitronic-claude-code-altium-pcb-design]](Claude Code+자체
+MCP 서버로 Altium Designer PCB 설계 전과정 자동화, dev-automation·anecdotal)·
+[[capital-one-ai-audit-fraud-customer-service]](Capital One 사기탐지·고객상담요약·
+감사컴플라이언스 AI 내재화, 통화요약오류85%↓·감사5시간→3분, finance·measured) 2건
+신규. Google DeepMind "Gemini 4 Carbon" 출시(독립벤치마크 1위)·OpenAI 수학·CS·물리학
+3개 증명 공개(검증자 거리두기 논란)는 모두 모델 출시·연구 발표라 update 페이지로 반영.
+기존 페이지 갱신: [[2026-10-09-anthropic-unintended-model-actions-report]]에 "접근
+제한 우회" 사례의 구체 신원(조지아주 유권자 데이터, Axios 10-25 보도) 추가,
+[[2026-08-27-anthropic-pentagon-blacklist-ruling]]에 국방부 Anthropic 완전 퇴출
+확인(10-05, Google·xAI·OpenAI로 대체) 후속 추가 — 둘 다 신규 use-case가 아니라
+기존 update 페이지의 후속 사실이라 case-catalog에는 올리지 않음. r/AI_Agents
+"Grok Bot·Muse·Dots·Gemini·Duet 5개 에이전트 10주 사용 후기"(창업자 본인, 편향
+공개)는 도구 실사용 평가로 뉴스레터에만 반영 — 벤더 비교이지 재현 가능한 업무
+자동화 사례가 아님.*

@@ -76,6 +76,30 @@ The Intercept가 FOIA로 확보한 문서 공개로, 이 갈등 이전부터 Cla
 결과는 심급에 따라 뒤바뀔 수 있는 진행형 리스크"로 고쳐 읽어야 한다. Anthropic의 IPO
 (10월 목표) 시점과 겹치는 정부 리스크가 오히려 재점화된 셈이다.
 
+## 후속 (2026-10-05) — 국방부, Anthropic 사용 완전 중단 — Google·xAI·OpenAI로 대체
+
+항소법원 승소(09-25)를 발판으로 국방부가 2026-10-05 **Claude·Anthropic 제품
+사용을 전면 중단**했다고 공식 확인했다 — 2026년 2월 Hegseth 장관이 설정한 "6개월
+단계적 전환" 시한이 실제로 완료된 것이다.
+
+- **대체 벤더**: 국방부는 공백을 **Google(Gemini)·xAI(Grok)·OpenAI(ChatGPT)**
+  계약으로 채웠다. 국방부 관계자 Emil Michael은 "전투병들이 ChatGPT를 훨씬 더
+  선호했고, Grok은 둘보다 훨씬 빠르다고 느꼈다"고 발언 — 성능 선호도까지 교체
+  명분으로 제시됐다.
+- **전환 규모**: 2026-09 기준 분류된(classified) AI 워크로드의 약 90%가 이미
+  전환 완료 상태였다(Maven Smart Systems·Palantir 연계 작업은 수개월 전 완료).
+- **쟁점은 여전히 진행 중**: Anthropic은 10-13 항소법원 판결에 대한 재심
+  (rehearing)을 신청했고, "공급망 리스크" 지정의 적법성을 다투는 소송은 아직
+  끝나지 않았다. 다만 소송 결과와 무관하게 **국방부는 이미 실제 교체를
+  완료**했다는 점에서, 법적 승패와 별개로 "실무상 퇴출"이 먼저 확정된 상태다.
+- Anthropic의 10-26 IPO S-1 신고서도 이 갈등을 투자자 리스크 요인으로 명시했다.
+
+**시사점 갱신**: 09-25 시점 "진행형 리스크"라는 평가는 이제 "실제 매출·접점
+상실"로 구체화됐다 — 자율살상무기·대량감시 제한이라는 안전 원칙을 지키려다
+최대 단일 고객군(미 국방부) 하나를 통째로 잃은 사례로, "안전 정책의 상업적
+비용"을 보여주는 실측 사례로 인용할 수 있다. 동시에 경쟁사(Google·xAI·OpenAI)에는
+그만큼의 정부 계약 기회가 열렸다는 점도 함께 읽어야 한다.
+
 ## 출처
 
 - [Reuters — Pentagon's blacklisting of Anthropic was unlawful, US judge rules](https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/)
