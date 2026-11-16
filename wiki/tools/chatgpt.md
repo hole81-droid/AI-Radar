@@ -46,6 +46,8 @@ OpenAI의 대화형 AI 서비스. 웹·모바일·데스크톱에서 GPT-5.5 계
 - **브라우징**: AI 브라우저 ChatGPT Atlas는 2026-08-09 단종 예정. 에이전틱 브라우징 기능은 ChatGPT 데스크톱 앱(멀티탭·로그인·자동입력)과 신규 Chrome 확장으로 흡수 — "슈퍼앱" 전략 ([[2026-07-09-openai-atlas-browser-shutdown]])
 
 ## 최근 주요 업데이트 (날짜순)
+- **2026-11-13** — **ChatGPT Wallet** 출시 — 에이전트가 사용자의 실제 카드정보 없이 거래별 범위제한 토큰으로 결제, Amex·Chase·Mastercard·Visa 협력, 11-16부터 미국 Pro 구독자 롤아웃 → [[2026-11-13-openai-chatgpt-wallet-agent-payments]]
+- **2026-11-02~16** — Chat·Work 탭 통합 진행 + ChatGPT·Codex 사용량 풀(pool) 통합(동일 할당량 공유) — 평소 사용자엔 영향 적으나 Codex를 많이 쓰면 리셋 대기가 늘 수 있음
 
 - **2026-04-23** — GPT-5.5 (Thinking·Pro) 출시. 코딩, 리서치, 문서·스프레드시트 작성, 소프트웨어 조작 등 "컴퓨터로 일하는 방식"을 겨냥한 플래그십 ([OpenAI](https://openai.com/index/introducing-gpt-5-5/))
 - **2026-05-05** — GPT-5.5 Instant가 무료 포함 전체 사용자 기본 모델로 배포 ([TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/))

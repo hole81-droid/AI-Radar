@@ -28,6 +28,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **Workspace 통합**: Docs의 "Help me create"(Drive·Gmail·Chat·웹 데이터 기반 초안 생성), "Match writing style" 등 Workspace Intelligence 기반 기능. ([Workspace Updates](https://workspaceupdates.googleblog.com/2026/04/new-gemini-capabilities-in-google-docs-help-you-go-from-blank-page-to-brilliance.html))
 
 ## 최근 주요 업데이트 (2026-04 ~ 2026-07)
+- **2026-11-05** — **Gemini Omni 1.2 Flash** 출시 — 영상 생성 길이 연장, 대화형 편집, 피사체 일관성 개선, 가격↓·레이트리밋↑ → [[2026-11-05-google-gemini-omni-1-2-flash-launch]]
 
 - **2026-04-21**: Deep Research 에이전트 API 버전(`deep-research-preview-04-2026`, `deep-research-max-preview-04-2026`) 공개 — [changelog](https://ai.google.dev/gemini-api/docs/changelog)
 - **2026-04-22**: `gemini-embedding-2` GA — [changelog](https://ai.google.dev/gemini-api/docs/changelog)

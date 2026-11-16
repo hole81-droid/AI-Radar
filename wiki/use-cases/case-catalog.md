@@ -158,6 +158,7 @@ uses: [course, ax]
 - [[benai-claude-skills-marketing-automation]] — Claude Code로 Skills+플러그인 마켓플레이스 배포 구조(단일 소스+부서별 자동 동기화)를 활용해 마케팅 업무 11종(SEO 감사·이메일 시퀀스·LinkedIn·뉴스레터 등)을 수행 → 상시 재사용 체계 구축 (주장, 정량 성과 미확인)
 - [[claude-code-seo-manager-mcp-dashboard]] — Claude Code로 MCP 서버+GitHub Actions 크론+헤드리스 컨테이너(mcp+cron-routines+cli-pipeline)를 활용해 SEO 키워드 리서치·콘텐츠 자동 발행·순위 모니터링을 수행 → 오픈소스(AGPL-3.0) 대시보드로 상시 자동 운영 (주장, 정량 성과 미확인)
 - [[reddit-jewellery-ai-video-ads-pipeline]] — 3종 AI 영상 도구(Pixverse·Invideo·Adtest, cli-pipeline 유사 구조)로 주얼리 제품 사진→광고 영상 제작 전 과정을 수행 → 월 제작량 4편→30편(7.5배), 같은 기간 매출 약 10%↑ (주장, 귀속 불확실 본인 명시)
+- [[duotach-claude-code-seo-system]] — Claude Code로 16개 에이전트+12개 스킬(subagents+skills+mcp)을 활용해 다수 클라이언트의 SEO/GEO/AEO 운영 전 과정을 수행 → 콘텐츠 브리프 제작 87%↓·신규 고객 셋업 87%↓ (주장, 벤더 자체 발행)
 
 ## 영업 (sales)
 

@@ -3730,3 +3730,14 @@ Beginners 2종(6절)과 Salesforce Claudeforce MCP(4절)를 추가했다. **전�
 그렇게 과하게 보류됐던 [[2026-11-12-nvidia-jensen-huang-resigns]]의 단서 문장을 걷어냈다(사실 관계는
 그대로, 미확인 항목은 여전히 "미확인"). 인물 발언 인용 규칙이 막는 것은 출처 불명의 2차 전파이지
 등록된 1차 채널의 보도가 아니라는 점을 규칙에 함께 적었다.
+
+## [2026-11-17] scan | 항목 11건, 반영 7건
+ChatGPT Wallet(에이전트 결제) 신규 페이지, Duotach Claude Code SEO 16-에이전트 케이스 신규 페이지,
+Gemini Omni 1.2 Flash 신규 페이지, Claude Meetings 베타 세부는 기존
+[[2026-11-10-anthropic-claude-whiteboards-sheets-data]]에 후속 절로 반영, ChatGPT Chat/Work 탭
+통합+Codex 사용량 풀 공유는 chatgpt.md 허브에 반영. 커뮤니티(No AI Slop 매니페스토·Codex→Claude
+전환 실사용평가·Coral Show HN)·Josh Bersin L&D 동향은 뉴스레터 한 줄로만 기록(위키 미반영).
+AI Frontier Korea는 신규 업로드 없음(EP123은 11-16 뉴스레터에 이미 반영) — "신규 업로드 없음" 명시.
+index.md·case-catalog.md·timeline.md·wiki/tools/{chatgpt,gemini}.md 갱신분만 수정. Reddit은
+www.reddit.com도 WebFetch에서 거부되고 curl은 샌드박스 승인이 필요해 이번 스캔에서 접근 불가
+(HN Algolia로 대체). Udemy는 주간 점검 대상이라 이번 스캔에서 제외.

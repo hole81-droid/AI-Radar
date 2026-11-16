@@ -8,6 +8,7 @@ date: 2026-07-07
 
 ## 2026-11
 
+- **11-13** — OpenAI, ChatGPT Wallet 출시 — 에이전트가 실제 카드정보 없이 거래별 범위제한 토큰으로 결제, 11-16부터 미국 Pro 구독자 롤아웃 → [[2026-11-13-openai-chatgpt-wallet-agent-payments]]
 - **11-12** — NVIDIA 젠슨 황 CEO 사임 발표(33년), CFO 콜렛 크레스 임시 CEO, 이사회 조사·후임 탐색 개시(사유 비공식, 2차 요약 기반) → [[2026-11-12-nvidia-jensen-huang-resigns]]
 - **11-11** — Google, Gemini Decisions API·Decision-1 공개(선택지 채점 전용 모델) → [[2026-11-11-google-gemini-decisions-api]]
 - **11-11** — United Airlines, 제3자 AI 에이전트의 항공권 예약 금지 발표 → [[2026-11-11-united-airlines-bans-ai-agents-booking]]
