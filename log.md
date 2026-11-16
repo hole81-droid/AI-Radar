@@ -3691,7 +3691,7 @@ EdSurge·Hardman 포함) — McKinsey 뱅킹 agentic AI 클러스터(조달·금
 21,000명 서베이)은 WebFetch 반복 타임아웃으로 본문 확인 실패, 미채택.
 
 ## [2026-11-16] scan | 항목 약 35건, 반영 10건 (공백 소급 11-10~11-16)
-**공백 미소급: 10-30 ~ 11-09** — 10-29 디스크 가득 참으로 07:00 cron이 로그조차 못 쓰고 정지(18일간 미인지). 7일 초과분은 토큰 한도 보호 규칙에 따라 미소급, 최근 7일(11-10~11-16)만 `newsletter/2026-11-16.md` 하나로 묶어 소급.
+**공백 미소급: 10-30 ~ 11-09** — 10-29 디스크 가득 참으로 07:00 cron이 로그조차 못 쓰고 정지(18일간 미인지). 7일 초과분은 토큰 한도 보호 규칙에 따라 미소급, 최근 7일(11-10~11-16)만 `newsletter/2026-11-16.md` 하나로 묶어 소급. → 2026-11-16 사용자 지시로 소급 완료(아래 ingest 항목 참조).
 스크리닝 약 35건(RSS·HN Algolia·구루 1차·HBR/McKinsey/Wharton/Bersin·YouTube 6채널), 반영 10건 — updates 6건
 ([[2026-11-09-anthropic-claude-fable-5-2-mythos-5-2-launch]] AA 65점 1위·가격 20%↓·과제당 비용 +31% 독립측정 /
 [[2026-11-10-anthropic-ipo-roadshow]] Nasdaq ANT, 11-19 거래 개시, Q3 매출 $17.0B, 10-21 WSJ 수치와 기간 상이 명시 /
@@ -3705,3 +3705,6 @@ OpenAI 로보틱스팀 해체, 커뮤니티 5건(Mollick Fable 5.2 평가·AI �
 YouTube 5건. 미채택: McKinsey 에이전틱 비즈니스 플래닝 등 프레임형(본문 미확인), Bersin Galileo for Workday(벤더 발표·수치 없음),
 HBR 나머지(유료벽), r/ClaudeCode 100% AI 의무화(Reddit 접근 차단), GPT-6.2 Astra(공식 발표 없음·루머). Udemy는 규칙에 따라 미점검(월요일: 주간 점검 필요).
 
+
+## [2026-11-16] ingest | 공백 소급 10-30~11-09 (사용자 지시로 7일 상한 해제)
+`newsletter/2026-11-09.md` 하나로 10-30~11-09를 묶어 소급(Latent Space는 신뢰 소스로 그대로 인용, Udemy는 규칙에 따라 미점검). 후보 약 45건 스크리닝(Simon Willison·Latent Space·Exponential View·One Useful Thing RSS, HN Algolia 기간 필터, YouTube 노정석, Anthropic 뉴스) → 반영 15건: update 신규 10건([[2026-10-30-claude-code-vscode-extension-backdoor]]·[[2026-11-02-goldman-sachs-restricts-claude-code]]·[[2026-11-03-openai-autonomous-pipeline-948-linux-lpe]]·[[2026-11-03-weight-space-programming-paper]]·[[2026-11-03-codex-training-toggle-reenabled-reports]]·[[2026-11-04-openai-gpt-6-astra-covert-underperformance]]·[[2026-11-04-ai-talent-swaps-cat-wu-openai]]·[[2026-11-05-claude-code-useragent-email-leak]]·[[2026-11-05-thinking-machines-inkling-2-small]]·[[2026-11-09-handshake-ai-training-1b-arr]]), use-case 신규 3건([[cisco-unlimited-tokens-legacy-code-rewrite]]·[[legora-legal-agents-evals-without-customer-data]]·[[stanford-cs146s-monaco-ai-native-engineering]]), 기존 [[2026-11-10-anthropic-ipo-roadshow]]에 로드쇼 직전 국면 보강, case-catalog 178→181. 중복 회피: Fable 5.2·Mythos 5.2(11-09)·Anthropic IPO·Gemini 4 Carbon·Skills AAIF 기부·Claude Frontier Academy 등 기존 페이지 존재 건은 재생성하지 않음. 뉴스레터에만 기록: Pierre 인수·Images 2.6·Gemini Omni 1.2 Flash·Ripple-65B·Ask HN 에이전트 세팅(도구 실사용 평가)·Apiiro 비밀번호 노출. 한계: OpenAI 블로그·Apiiro·Business Insider·Fortune 원문 접근 차단(2차 요약 표기), GPT-6 Astra 보고서 1차 미확인, HBR·McKinsey·Bersin·AX LABS(마지막 글 9-29)·구루 RSS 일부 및 조코딩·장피엠·Ben AI 채널은 시간 한도로 미점검, DeepSeek Harness 11-01 후속은 세부 미확인.

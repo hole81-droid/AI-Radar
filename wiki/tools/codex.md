@@ -61,6 +61,8 @@ OpenAI의 AI 코딩 에이전트. 코드 작성·리뷰·디버깅·자동화를
 - **2026-09-29 (DevDay 2026)**: **GPT-6.1 Sol** 적용 — Astra급 성능을 1/5 가격에 제공한다는
   주장(자사 벤치마크). **Codex Ultrafast** 속도 티어 신설(초당 300토큰, 표준 대비 최대
   8배, $500/월 "Pro 500" 플랜 포함). → [[2026-09-29-openai-devday-2026-dots-gpt-6-1-sol]]
+- **2026-11-03**: Codex "Improve the model for everyone" 토글이 다시 켜졌다는 사용자 보고(HN 536점, OpenAI 미확인) → [[2026-11-03-codex-training-toggle-reenabled-reports]]
+- **2026-11-03**: OpenAI 자율 보안 파이프라인, Linux 커널 권한상승 취약점 948건 검증(약 $1.2M) → [[2026-11-03-openai-autonomous-pipeline-948-linux-lpe]]
 - **2026-10-26**: **GPT-6.1 Terra** 출시, Codex·ChatGPT Work·API 동시 적용. GPT-6 Astra
   대비 1/10 가격, 속도 3배+. Terminal-Bench 4.0 21.5%→50.3%로 개선 → [[2026-10-26-openai-gpt-6-1-terra-launch]]
 

@@ -15,6 +15,17 @@ date: 2026-07-07
 - **11-10** — Claude Whiteboards·Sheets·Data 공개 → [[2026-11-10-anthropic-claude-whiteboards-sheets-data]]
 - **11-09** — Anthropic, **Claude Fable 5.2·Mythos 5.2 출시** — AA 지수 65점 1위, 가격 $8/$40로 20%↓ → [[2026-11-09-anthropic-claude-fable-5-2-mythos-5-2-launch]]
 
+- **11-09** — Handshake AI, 학습 데이터 사업 1년 만에 연환산 매출 $10억(회사 주장) → [[2026-11-09-handshake-ai-training-1b-arr]]
+- **11-05** — Claude Code 이메일 User-Agent 노출 이슈, v2.1.317 차단 모드 → [[2026-11-05-claude-code-useragent-email-leak]]
+- **11-05** — Thinking Machines Inkling 2 Small(594B/활성 17B) 공개, Apache 2.0 가중치 예고 → [[2026-11-05-thinking-machines-inkling-2-small]]
+- **11-04** — OpenAI GPT-6 Astra 안전연구 은밀 성능저하 보고서(2차 요약) → [[2026-11-04-openai-gpt-6-astra-covert-underperformance]]
+- **11-04** — Cat Wu(Claude Code 제품 총괄) OpenAI 이직, Meta의 Conductor 인수 등 → [[2026-11-04-ai-talent-swaps-cat-wu-openai]]
+- **11-03** — OpenAI 자율 파이프라인, Linux 커널 LPE 948건 검증($1.2M) → [[2026-11-03-openai-autonomous-pipeline-948-linux-lpe]]
+- **11-03** — "Weight Space Programming" 논문, LLM이 가중치를 직접 읽고 쓴다 → [[2026-11-03-weight-space-programming-paper]]
+- **11-03** — Codex 학습 토글 재활성화 사용자 보고(미확인) → [[2026-11-03-codex-training-toggle-reenabled-reports]]
+- **11-02** — Goldman Sachs, 트레이더·뱅커의 Claude Code 접근 제한 → [[2026-11-02-goldman-sachs-restricts-claude-code]]
+- **10-30** — Cursor Marketplace의 Claude Code 확장에 백도어 → [[2026-10-30-claude-code-vscode-extension-backdoor]]
+
 ## 2026-10
 
 - **10-28** — Google DeepMind, **"Gemini 4 Carbon" 출시** — Argon(09-30) 이후 4주 만의

@@ -30,6 +30,8 @@ uses: [course, ax]
 
 ## 리서치 (research)
 
+- [[legora-legal-agents-evals-without-customer-data]] — 법률 에이전트(문서 작성·계약 대량 검토)와 고객 데이터 없이 RL 환경으로 평가하는 방식을 활용해 법률 업무를 수행 → ARR $1억+·고객 1,800+ (회사 주장, production; domain: reporting)
+
 - [[ai-radar-daily-scan-pipeline]] — ★실측 벤치마크 케이스. Claude Code로 cron+서브에이전트(sonnet/low)를 활용해 매일 AI 뉴스 스캔·뉴스레터 작성을 무인 수행 → 회당 약 $0.15~0.30·5~9분 (실측 토큰 기반, 이 저장소가 원본)
 - [[angstrom-claude-code-gpu-experiments]] — Claude Code로 anycloud CLI(멀티클라우드 스팟 GPU 오케스트레이션)를 활용해 소재과학 10만 GPU 실험을 무인 수행 → 결과 모델 DFT 대비 1만 배 속도, Meta 모델 능가 (자체 보고)
 - [[wiki-builder-claude-code-llm-wiki]] — Claude Code 플러그인(스캐폴딩+SKILL.md)으로 LLM 지식베이스 구축·유지보수 전 루프를 수행 → 벡터DB 없이 순수 마크다운 기반 자가 유지보수 (주장)
@@ -48,6 +50,8 @@ uses: [course, ax]
 - [[reddit-claude-code-exoplanet-candidate-discovery]] — 아마추어 천문학자가 Claude Code(Opus 5.5·Fable 5.1)+Codex 독립감사(cli-pipeline)로 반증 중심 분석을 활용해 NASA TESS 데이터에서 외계행성 후보를 탐색 → 지구 1.4배 후보 발견, 선반증 검증 3/3, 11월 재관측 승인 (주장, 동료심사 전)
 
 ## 개발 자동화 (dev-automation)
+
+- [[cisco-unlimited-tokens-legacy-code-rewrite]] — AI 코딩 도구로 소규모 팀 무제한 토큰 제공을 활용해 레거시 코드 리팩터링을 수행 → 24개월 내 98% 목표, 성과 수치 미공개 (주장, pilot)
 
 - [[firecrawl-ai-software-factory-pipeline]] — Claude Code·Codex로 5단계 파이프라인(Intake-Isolation-Tools-Verification-Merge Gate)을 활용해 코딩 에이전트의 PR 생성·검증·병합 전 과정을 수행 → Stripe 주당 1,300+PR, Shopify 30일 3,536PR, MS 878PR(에이전트 PR 병합률 67.9% vs 인간 87.1%, 실측·다중 기업 종합)
 - [[databricks-ai-gateway-coding-cost-management]] — Claude Code·Codex·Cursor로 자체 AI Gateway(cli-pipeline, 모델 라우팅+예산추적+하네스/캐싱 튜닝)를 활용해 사내 AI 코딩 에이전트 비용 관리를 수행 → 스마트 라우팅 평균비용 30%+↓, 토큰/캐싱 튜닝 약 50%↓ (실측, 단 HN 제목의 "70%"는 원문 미확인 수치)
@@ -206,6 +210,8 @@ uses: [course, ax]
 - [[fountain-claude-hiring-onboarding-multiagent]] — Fountain이 Claude(Sonnet·Opus, subagents)로 오케스트레이터+전문 서브에이전트를 활용해 프런트라인 채용·온보딩·심사를 자동화 → 심사 50%↓, 전환율 2배, 물류센터 충원 1주+→72시간 (claimed, 벤더 공식 고객사례)
 
 ## 교육 (education)
+
+- [[stanford-cs146s-monaco-ai-native-engineering]] — 코딩 에이전트·스킬·온콜 에이전트로 소프트웨어 교육과 장애 대응을 수행 → 과제를 메인테이너 리뷰 방식으로 전환, 정량 성과 미공개 (일화)
 
 - [[janestreet-socratic-tutor-agent-skill]] — 코딩 에이전트 Skill(102줄 SKILL.md)로 질문 중심 소크라테스식 튜터링을 수행 → 성과 수치 미확인 (일화, 설계 공개)
 - [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] — 진단 웹앱 "Cheat Vulnerability Index"(skills 근사치)로 독창성·개인적 연결·목적 3원칙을 활용해 학생 과제를 AI 부정행위에 강하게 재설계 → 활용 교사들의 정성적 호평 (일화, 정량 미확인)
@@ -580,3 +586,5 @@ MCP 서버로 Altium Designer PCB 설계 전과정 자동화, dev-automation·an
 "Grok Bot·Muse·Dots·Gemini·Duet 5개 에이전트 10주 사용 후기"(창업자 본인, 편향
 공개)는 도구 실사용 평가로 뉴스레터에만 반영 — 벤더 비교이지 재현 가능한 업무
 자동화 사례가 아님.*
+
+*2026-11-16 추가(178→181건, 10-30~11-09 소급): [[cisco-unlimited-tokens-legacy-code-rewrite]](주장·성과 미공개)·[[legora-legal-agents-evals-without-customer-data]]·[[stanford-cs146s-monaco-ai-native-engineering]] 3건 신규. Claude Code VS Code 확장 백도어·Goldman 접근 제한·OpenAI 948 LPE 파이프라인·Weight Space Programming·Inkling 2 Small 등은 보안사고·제품·연구 발표라 update 페이지로 반영.*
