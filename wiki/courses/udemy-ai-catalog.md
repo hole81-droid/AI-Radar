@@ -12,7 +12,7 @@ source: https://www.udemy.com/courses/search/?q=AI
 Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 과정 설계 시 **외부 강의로 대체·보완할 수 있는 구간**을
 찾고, 시장에서 무엇이 실제로 팔리는지(수강 규모·평점) 읽는 데 쓴다.
 
-> **마지막 수집 2026-10-22** (주 1회 점검). 수집은 대화형 세션에서만 가능하다 — 무인 예약 실행에는
+> **마지막 수집 2026-11-16** (주 1회 점검). 수집은 대화형 세션에서만 가능하다 — 무인 예약 실행에는
 > 브라우저 도구가 없다(`sources.md` Udemy 절의 실측 기록 참조).
 >
 > **범위 (2026-09-28 기준): Udemy에서 "AI" 한 단어만 검색해도 결과가 1만 건을 넘는다. 전수 수록은 불가능하고
@@ -68,6 +68,9 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [AI Agents: From Basics to Production](https://www.udemy.com/course/ai-agents-from-basics-to-production/) | 5.0 (2) | 4.5h | 전 수준 | N. 09-28 스캔 수집 |
 | [Agentic Engineering: From MCP Servers to Agent Factories](https://www.udemy.com/course/agentic-engineering-from-mcp-servers-to-agent-factories/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집 |
 | [LangGraph로 만드는 실전 LLM AI 에이전트 [한국어 리메이크]](https://www.udemy.com/course/langgraph-korean-remake/) | 미확인 | 미확인 | 중급 | KR, N. 10-22 수집 |
+| [AI Agent의 정석 : LLM 원리부터 AI 에이전트 설계와 실무](https://www.udemy.com/course/ai-agent-definitive-guide/) | 신규, 후기 없음 | 미확인 | 전 수준 | KR, N. 11-16 수집. 노코드 |
+| [밑바닥부터 만드는 AI 에이전트 — RAG · 멀티 에이전트 · MCP](https://www.udemy.com/course/ai-agent-from-scratch/) | 신규, 후기 없음 | 미확인 | 중급 | KR, N. 11-16 수집 |
+| [Salesforce Claudeforce & Headless 360: MCP & AI Agents](https://www.udemy.com/course/salesforce-mcp-ai-agents/) | 신규, 후기 없음 | 미확인 | 미확인 | N. 11-16 수집. Agentforce·Apex·Data 360 연동 |
 
 ## 5. LLM 앱 개발·RAG·LangChain
 
@@ -93,6 +96,8 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [Claude Code: Upgrade Spring Boot 2 to 4 and Java](https://www.udemy.com/course/claude-code-upgrade-spring-boot-2-to-4/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집. 레거시 업그레이드 적용형 |
 | [MCP for Developers: Build AI Tools & Servers with C#](https://www.udemy.com/course/mcp-for-developers-build-ai-tools-and-servers-with-csharp/) | 미확인 | 미확인 | 전 수준 | N. 10-22 수집 |
 | [Google Antigravity로 시작하는 바이브 코딩](https://www.udemy.com/course/google-antigravity-vibe-coding-korean/) | 미확인 | 미확인 | 전 수준 | KR, N. 10-22 수집 |
+| [Claude AI for Beginners: Prompting, Claude Code & MCP](https://www.udemy.com/course/claude-ai-for-beginners-prompting-claude-code-mcp/) | 신규, 후기 없음 | 미확인 | 초급 | N. 11-16 수집 |
+| [Claude AI for Beginners: Complete 2026 Masterclass](https://www.udemy.com/course/claude-ai-for-beginners/) | 신규, 후기 없음 | 미확인 | 초급 | N. 11-16 수집. Projects·Skills·Artifacts |
 
 ## 7. 업무 자동화 (n8n·노코드)
 
@@ -171,6 +176,11 @@ Udemy의 AI 관련 강의를 카테고리별로 정리한 목록이다. 사내 �
 | [AI와 함께 만드는 모던 PHP 아키텍처](https://www.udemy.com/course/ai-modern-php-korean/) | 미확인 | 미확인 | N. 10-22 수집 |
 | [Firefly x Illustrator - 생성형 AI로 빨라지는 벡터 디자인 실무](https://www.udemy.com/course/firefly-illustrator-korean/) | 미확인 | 미확인 | N. 10-22 수집 |
 | [풀스택 파이썬 & React 바이브 코딩](https://www.udemy.com/course/korean-full-stack-python-react/) | 미확인 | 미확인 | N. 10-22 수집 |
+| [AI Agent의 정석 : LLM 원리부터 AI 에이전트 설계와 실무](https://www.udemy.com/course/ai-agent-definitive-guide/) | 신규, 후기 없음 | 미확인 | N. 11-16 수집. 코딩 없이, 벤더별 설계·MCP·보안·평가. 웅진씽크빅 비즈니스 |
+| [밑바닥부터 만드는 AI 에이전트 — RAG · 멀티 에이전트 · MCP](https://www.udemy.com/course/ai-agent-from-scratch/) | 신규, 후기 없음 | 미확인 | N. 11-16 수집. 직접 구현형, 사업보고서 RAG·MCP 서버 배포 |
+| [이야기로 배우는 직장인 AI 윤리 - AI 쓰다 사고 나기 전에](https://www.udemy.com/course/ai-ethics-basic-in-workplace/) | 신규, 후기 없음 | 미확인 | N. 11-16 수집. 개인정보·기밀·검증·저작권을 업무 사례로 |
+| [AI 유통 MD 실무 : 매출 분석 · 수요예측 · 발주 판단](https://www.udemy.com/course/ai-retail-analytics-forecasting-inventory-optimization/) | 신규, 후기 없음 | 미확인 | N. 11-16 수집. 도메인 특화 |
+| [AI 에이전트와 함께 전자책 제작, 글로벌 출간 배우기](https://www.udemy.com/course/ai-agent-ebook-global-publishing-ko/) | 신규, 후기 없음 | 미확인 | N. 11-16 수집. 실제 출간 사례 기반 |
 
 > **월간 동향 분석**: 최근 한 달 무엇이 새로 올라오고 그중 무엇이 반응을 얻었는지는 [[udemy-ai-course-trends-2026-09]]에 따로 정리했다.
 

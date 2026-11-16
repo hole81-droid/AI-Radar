@@ -13,7 +13,7 @@ source: https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leadin
 
 NVIDIA가 11-12 젠슨 황의 사임을 발표했다(SEC 공시상 이사회 수락일은 11-11). **Colette Kress**(2013년부터 CFO)가 CFO를 겸하며 임시 CEO를 맡고, **Harvey Jones**가 이사회 첫 의장이 된다. 11-10 독립이사들이 Joon H. Kim과 Wachtell, Lipton, Rosen & Katz에 조사를 맡겼고 CEO 탐색이 시작됐다.
 
-사임 사유는 공식 설명이 없다. 출처인 Latent Space는 NYT의 사생활·중국 스파이 연루 보도와의 시점 연관 가능성을 짚었으나 인과는 불명확하다고 선을 그었다. WSJ가 이사회의 해임 검토를 보도했었다(11-11 시점, 미확정). 주가 반응은 확인하지 못했다. **이 항목은 공시 원문이 아니라 2차 요약 기반**이다.
+사임 사유는 공식 설명이 없다. Latent Space는 NYT의 사생활·중국 스파이 연루 보도와의 시점 연관 가능성을 짚었으나 인과는 불명확하다고 선을 그었다. WSJ가 이사회의 해임 검토를 보도했었다(11-11 시점, 미확정). 주가 반응은 미확인.
 
 ## 왜 중요한가
 

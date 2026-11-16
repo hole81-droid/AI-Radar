@@ -3708,3 +3708,25 @@ HBR 나머지(유료벽), r/ClaudeCode 100% AI 의무화(Reddit 접근 차단), 
 
 ## [2026-11-16] ingest | 공백 소급 10-30~11-09 (사용자 지시로 7일 상한 해제)
 `newsletter/2026-11-09.md` 하나로 10-30~11-09를 묶어 소급(Latent Space는 신뢰 소스로 그대로 인용, Udemy는 규칙에 따라 미점검). 후보 약 45건 스크리닝(Simon Willison·Latent Space·Exponential View·One Useful Thing RSS, HN Algolia 기간 필터, YouTube 노정석, Anthropic 뉴스) → 반영 15건: update 신규 10건([[2026-10-30-claude-code-vscode-extension-backdoor]]·[[2026-11-02-goldman-sachs-restricts-claude-code]]·[[2026-11-03-openai-autonomous-pipeline-948-linux-lpe]]·[[2026-11-03-weight-space-programming-paper]]·[[2026-11-03-codex-training-toggle-reenabled-reports]]·[[2026-11-04-openai-gpt-6-astra-covert-underperformance]]·[[2026-11-04-ai-talent-swaps-cat-wu-openai]]·[[2026-11-05-claude-code-useragent-email-leak]]·[[2026-11-05-thinking-machines-inkling-2-small]]·[[2026-11-09-handshake-ai-training-1b-arr]]), use-case 신규 3건([[cisco-unlimited-tokens-legacy-code-rewrite]]·[[legora-legal-agents-evals-without-customer-data]]·[[stanford-cs146s-monaco-ai-native-engineering]]), 기존 [[2026-11-10-anthropic-ipo-roadshow]]에 로드쇼 직전 국면 보강, case-catalog 178→181. 중복 회피: Fable 5.2·Mythos 5.2(11-09)·Anthropic IPO·Gemini 4 Carbon·Skills AAIF 기부·Claude Frontier Academy 등 기존 페이지 존재 건은 재생성하지 않음. 뉴스레터에만 기록: Pierre 인수·Images 2.6·Gemini Omni 1.2 Flash·Ripple-65B·Ask HN 에이전트 세팅(도구 실사용 평가)·Apiiro 비밀번호 노출. 한계: OpenAI 블로그·Apiiro·Business Insider·Fortune 원문 접근 차단(2차 요약 표기), GPT-6 Astra 보고서 1차 미확인, HBR·McKinsey·Bersin·AX LABS(마지막 글 9-29)·구루 RSS 일부 및 조코딩·장피엠·Ben AI 채널은 시간 한도로 미점검, DeepSeek Harness 11-01 후속은 세부 미확인.
+
+## [2026-11-16] ingest | Udemy 주간 점검 + 추출기 고장 수리 + Latent Space 신뢰 규칙
+
+**Udemy 주간 점검** (10-22 이후 첫 수집, 대화형 세션). 레시피대로 Browser pane에서 최신순 2개 쿼리
+(`lang=ko`·`lang=en`)를 받았다. 한국어 24건 중 15건이 자격증 모의고사라 규칙대로 제외, 실제 강의 9건
+중 4건은 이미 카탈로그에 있어 **신규 5건** 반영: [[udemy-ai-catalog]] 13절에 AI Agent의 정석(노코드,
+웅진씽크빅)·밑바닥부터 만드는 AI 에이전트(RAG·멀티에이전트·MCP)·직장인 AI 윤리·AI 유통 MD 실무·
+AI 에이전트 전자책 출간. 앞의 둘은 4절(에이전트)에도 교차 등재. 영어권 24건에서는 Claude AI for
+Beginners 2종(6절)과 Salesforce Claudeforce MCP(4절)를 추가했다. **전부 평점·후기 없는 갓 등록
+강의라 "신규, 후기 없음"으로 적었다**(추정 금지 규칙). 카탈로그 머리의 마지막 수집일 10-22 → 11-16.
+
+**추출기 고장 수리**: `scripts/udemy-extract.js`가 한 페이지 24건 중 **3건만** 반환하고 있었다. 9-28
+작성 당시 선택자·길이 필터가 바뀐 마크업에서 카드를 거의 다 탈락시킨 탓으로, 조용한 실패라 09-28·
+10-22 수집분이 빈약했을 수 있다(분기 재수집 때 보정 필요). 조상 거슬러 올라가기 방식으로 바꾸고
+자격증 덤프를 부제까지 보고 거르도록 고쳤다 — 수리 후 실측 24건 중 15건 수집, 덤프 9건 제외.
+경위는 sources.md "추출기 고장 이력"에 기록.
+
+**Latent Space 신뢰 규칙 (사용자 지정)**: Latent Space 보도는 그 자체로 채택 근거다. 1차 공시를 직접
+못 봤다는 이유로 "2차 요약 기반" 단서를 달지 않는다. CLAUDE.md 편집 기준에 규칙으로 명문화하고,
+그렇게 과하게 보류됐던 [[2026-11-12-nvidia-jensen-huang-resigns]]의 단서 문장을 걷어냈다(사실 관계는
+그대로, 미확인 항목은 여전히 "미확인"). 인물 발언 인용 규칙이 막는 것은 출처 불명의 2차 전파이지
+등록된 1차 채널의 보도가 아니라는 점을 규칙에 함께 적었다.
