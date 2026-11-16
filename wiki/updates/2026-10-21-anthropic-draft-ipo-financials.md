@@ -77,3 +77,5 @@ Anthropic이 SEC에 **Form S-1을 공식 제출**했다(WSJ 드래프트 열람 
 - [Al Jazeera — Anthropic posts $80bn loss in first half of 2026: WSJ](https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj)
 - 관련: [[2026-07-15-anthropic-ipo-investor-meetings]] · [[2026-10-18-anthropic-public-benefit-fund-ipo-pledge]] · [[2026-10-21-anthropic-claude-duet-launch]]
 - raw: [[raw/2026-10/wsj-anthropic-draft-s1-financials]]
+
+> 후속(11-10): 로드쇼 개시와 Q3 공식 수치($17.0B 매출 등)는 [[2026-11-10-anthropic-ipo-roadshow]] 참조 — 기간이 다른 수치이므로 직접 비교 주의.

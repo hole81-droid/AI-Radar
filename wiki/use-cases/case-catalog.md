@@ -166,6 +166,8 @@ uses: [course, ax]
 
 ## 금융 (finance)
 
+- [[lexifina-us-tax-code-lean-formalization]] — AI 에이전트+Lean 증명기(cli-pipeline)로 미국 세법 조문 오류·허점 탐지를 수행 → 참조 결함 138건 확인·5,000가구 4,993건 일치 (주장)
+- [[hbr-current-accounting-firms-ai-tax-prep]] — Current 플랫폼의 AI 도구로 회계법인 세무 신고서 준비를 수행 → 시간 약 1/3↓·처리량 약 50%↑ (주장, 본문 유료벽으로 초록만 확인)
 - [[openai-thrive-tax-ai-self-improving]] — ★실측 벤치마크 케이스. OpenAI Codex 기반 자가개선 루프로 미국 세무 신고서(1040·1041) 준비를 수행 → 정확도 97%, 처리량 50%↑, 회계사 1인당 180시간→15시간 (실측)
 - [[theaxlabs-claude-financial-advisors-korea-securities]] — Claude(자산관리 어드바이저 전용 커넥터 11종·스킬 8종, skills+mcp)로 국내 증권사 어드바이저 비대면 업무 자동화 90일 도입 플랜을 제시 → 3단계 리스크 사다리 프레임워크(실측 성과는 미확인) (주장)
 - [[liamottley-kylon-accounting-firm-automation]] — Kylon(노코드 AI 에이전트 플랫폼, vibe-coding)으로 영국 회계법인의 working paper(전표) 수작성을 4일 만에 자동화 → 회계사 25명 주당 20시간+ 절감 목표(사람 최종 서명 유지, 자체 홍보 영상·미검증) (주장)
@@ -173,6 +175,7 @@ uses: [course, ax]
 
 ## 개인 생산성 (personal-productivity)
 
+- [[beep-locator-claude-code-acoustic-triangulation]] — Claude Code로 vibe-coding을 활용해 다기기 마이크 삼각측량 앱을 제작·정체불명 비프음 위치 특정 → 약 40cm 오차 (일화)
 - [[cowork-7-business-use-cases]] — Claude Cowork로 MCP 커넥터+브라우저 녹화 스킬화를 활용해 사무 업무 7종을 수행 → 경비 처리 월 2시간→10분 (주장)
 - [[gemini-spark-claude-cowork-routing]] — Gemini Spark+Claude Cowork로 작업 유형별 이원 라우팅을 활용해 상시 모니터링과 문서 산출물을 분담 수행 → 커버리지 확보 (수치 미확인)
 - [[tom-riddle-diary-remarkable]] — 커스텀 앱(비전 LLM)으로 손글씨 캡처→필기체 렌더링 파이프라인을 활용해 전자잉크 태블릿을 AI 대화 상대로 전환 → 첫 응답 0.9~1.1초 (실측)
@@ -204,6 +207,7 @@ uses: [course, ax]
 
 ## 교육 (education)
 
+- [[janestreet-socratic-tutor-agent-skill]] — 코딩 에이전트 Skill(102줄 SKILL.md)로 질문 중심 소크라테스식 튜터링을 수행 → 성과 수치 미확인 (일화, 설계 공개)
 - [[edsurge-cheat-vulnerability-index-ai-resistant-assignments]] — 진단 웹앱 "Cheat Vulnerability Index"(skills 근사치)로 독창성·개인적 연결·목적 3원칙을 활용해 학생 과제를 AI 부정행위에 강하게 재설계 → 활용 교사들의 정성적 호평 (일화, 정량 미확인)
 - [[edsurge-cognitive-citizenship-ai-instruction]] — 교사 주도 수업 절차 설계(prd-driven 근사치)로 손글씨 주석·무기술 토론·AI 대조·사전 논거 방어·의도적 고전 5단계를 활용해 AI 시대 읽기·사고 수업을 수행 → "인지 시민성" 프레임 정식화, 근거로 Brown대 테이크홈 96%→감독형 49% 인용 (일화, 적용 성과는 미실측)
 - [[edsurge-school-ai-policy-future-ready-team]] — 범부서 "Future Ready Team"(2년 임기)과 TeachAI·UNESCO 공개 프레임워크 각색(prd-driven 근사치)을 활용해 학교 단위 AI 정책·교직원 연수·가정 참여를 수행 → 교사 역할이 단속에서 안내로 전환, 교실별 "신호등" 3단계 사용 표시 (일화, 정량 미확인)

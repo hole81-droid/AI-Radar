@@ -82,6 +82,7 @@ Google의 플래그십 AI 모델 패밀리이자 이를 기반으로 한 소비�
 - **2026-10-16**: Google Meet에 Gemini+Workspace Studio 기반 **"회의 후속업무 루틴"**
   도입(10-05 롤아웃 시작) — 회의 종료화면에서 후속 이메일 초안·Tasks 액션아이템 등록을
   자동화. "Take notes for me" 활성화가 전제조건 → [[2026-10-16-google-meet-gemini-post-meeting-automation]]
+- **2026-11-11**: **Gemini Decisions API·Decision-1** 공개 — 닫힌 선택지(최대 255지선다·루브릭) 채점 전용 모델, 입력 $0.10/백만·150~250ms, 독립 평가는 경쟁 모델과 동률~소폭 열세 → [[2026-11-11-google-gemini-decisions-api]]
 - **2026-10-28**: **Gemini 4 Carbon** 출시(Argon 이후 4주 만) — 독립평가
   Artificial Analysis Intelligence Index v5.0 1위(59점, Opus 5.5·GPT-6 Astra
   제침). 사이버보안 특화 성능(SEC-bench Pro 88.2%)·장시간 "지속형 에이전트" 설계,

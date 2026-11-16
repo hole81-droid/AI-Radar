@@ -61,3 +61,5 @@ AI 쇼핑 에이전트의 상품 검색·데이터 접근을 차단한 것으로
 - [The Verge — Websites are closing their doors to AI agents](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)
 - [Hacker News 토론](https://news.ycombinator.com/item?id=50141657) (153점)
 - [뉴시스 — 메타 AI '뮤즈', 韓 와도 이용자 대신 네이버 쇼핑 못 한다](https://www.newsis.com/view/NISX20260929_0003807589)
+
+> 후속(11-11): United Airlines가 제3자 AI 에이전트 예약을 명문 금지 → [[2026-11-11-united-airlines-bans-ai-agents-booking]]

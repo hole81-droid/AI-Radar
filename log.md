@@ -3689,3 +3689,19 @@ EdSurge·Hardman 포함) — McKinsey 뱅킹 agentic AI 클러스터(조달·금
 원 데이터 없어 미채택. Wharton "Agentic Cost Framework"는 페이월(패스워드 보호)로
 본문 확인 실패. McKinsey "Who wins when AI does the shopping"(agentic commerce
 21,000명 서베이)은 WebFetch 반복 타임아웃으로 본문 확인 실패, 미채택.
+
+## [2026-11-16] scan | 항목 약 35건, 반영 10건 (공백 소급 11-10~11-16)
+**공백 미소급: 10-30 ~ 11-09** — 10-29 디스크 가득 참으로 07:00 cron이 로그조차 못 쓰고 정지(18일간 미인지). 7일 초과분은 토큰 한도 보호 규칙에 따라 미소급, 최근 7일(11-10~11-16)만 `newsletter/2026-11-16.md` 하나로 묶어 소급.
+스크리닝 약 35건(RSS·HN Algolia·구루 1차·HBR/McKinsey/Wharton/Bersin·YouTube 6채널), 반영 10건 — updates 6건
+([[2026-11-09-anthropic-claude-fable-5-2-mythos-5-2-launch]] AA 65점 1위·가격 20%↓·과제당 비용 +31% 독립측정 /
+[[2026-11-10-anthropic-ipo-roadshow]] Nasdaq ANT, 11-19 거래 개시, Q3 매출 $17.0B, 10-21 WSJ 수치와 기간 상이 명시 /
+[[2026-11-10-anthropic-claude-whiteboards-sheets-data]] / [[2026-11-11-google-gemini-decisions-api]] /
+[[2026-11-11-united-airlines-bans-ai-agents-booking]] / [[2026-11-12-nvidia-jensen-huang-resigns]] — 2차 요약 기반 명시),
+use-case 4건([[lexifina-us-tax-code-lean-formalization]] finance·claimed / [[janestreet-socratic-tutor-agent-skill]]
+education·anecdotal / [[hbr-current-accounting-firms-ai-tax-prep]] finance·claimed, 유료벽으로 초록만 확인 /
+[[beep-locator-claude-code-acoustic-triangulation]] personal-productivity·anecdotal). raw/2026-11/ 6건 보관. index·timeline·
+case-catalog(174→178)·claude-code·gemini·anthropic 허브 동반 갱신, 기존 2페이지에 후속 링크. 뉴스레터에만 기록:
+OpenAI 로보틱스팀 해체, 커뮤니티 5건(Mollick Fable 5.2 평가·AI 코드베이스 취약성·지프 ECU·마야 유적·Claude 11-13 장애),
+YouTube 5건. 미채택: McKinsey 에이전틱 비즈니스 플래닝 등 프레임형(본문 미확인), Bersin Galileo for Workday(벤더 발표·수치 없음),
+HBR 나머지(유료벽), r/ClaudeCode 100% AI 의무화(Reddit 접근 차단), GPT-6.2 Astra(공식 발표 없음·루머). Udemy는 규칙에 따라 미점검(월요일: 주간 점검 필요).
+

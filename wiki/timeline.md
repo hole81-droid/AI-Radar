@@ -6,6 +6,15 @@ date: 2026-07-07
 
 주요 이벤트 연대기. Ingest 시 중요도 high 항목을 여기에 추가한다. (05-19 ~ 10-27, 244건 — 09-08 소급 뉴스레터의 09-04·09-08 대형 이벤트는 09-10 후속 ingest로 등재 완료. 09-03·09-05·09-07은 high 등급 별도 사건 없음. 09-11·09-12는 각각 단일 날짜 소급 스캔으로 반영)
 
+## 2026-11
+
+- **11-12** — NVIDIA 젠슨 황 CEO 사임 발표(33년), CFO 콜렛 크레스 임시 CEO, 이사회 조사·후임 탐색 개시(사유 비공식, 2차 요약 기반) → [[2026-11-12-nvidia-jensen-huang-resigns]]
+- **11-11** — Google, Gemini Decisions API·Decision-1 공개(선택지 채점 전용 모델) → [[2026-11-11-google-gemini-decisions-api]]
+- **11-11** — United Airlines, 제3자 AI 에이전트의 항공권 예약 금지 발표 → [[2026-11-11-united-airlines-bans-ai-agents-booking]]
+- **11-10** — Anthropic IPO 로드쇼 개시(Nasdaq "ANT", 11-19 거래 개시 예정, Q3 매출 $17.0B) → [[2026-11-10-anthropic-ipo-roadshow]]
+- **11-10** — Claude Whiteboards·Sheets·Data 공개 → [[2026-11-10-anthropic-claude-whiteboards-sheets-data]]
+- **11-09** — Anthropic, **Claude Fable 5.2·Mythos 5.2 출시** — AA 지수 65점 1위, 가격 $8/$40로 20%↓ → [[2026-11-09-anthropic-claude-fable-5-2-mythos-5-2-launch]]
+
 ## 2026-10
 
 - **10-28** — Google DeepMind, **"Gemini 4 Carbon" 출시** — Argon(09-30) 이후 4주 만의
