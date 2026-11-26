@@ -1,0 +1,289 @@
+/* ============================================================
+   AI Radar — B1 "International" design system
+   paper white · ink black · red point · rule hierarchy
+   스펙: docs/superpowers/specs/2026-07-09-web-redesign-design.md §7
+   ============================================================ */
+
+:root {
+  --paper: #ffffff;
+  --ink: #111111;
+  --red: #e63329;
+  --body: #333333;
+  --soft: #555555;
+  --faint: #888888;
+  --hairline: #e5e5e5;
+  --wash: #f7f7f7;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Noto Sans KR", "Segoe UI", sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+a { color: inherit; text-decoration: none; }
+.ln { border-bottom: 1px solid var(--ink); padding-bottom: 1px; }
+.ln:hover { color: var(--red); border-color: var(--red); }
+
+h1, h2, h3 { color: var(--ink); letter-spacing: -0.02em; line-height: 1.3; }
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--ink);
+  font-weight: 500;
+}
+.label-red { color: var(--red); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* ---------- rules (괘선 위계) ---------- */
+.rule-3 { border-top: 3px solid var(--ink); }
+.rule-1 { border-top: 1px solid var(--ink); }
+.rule-h { border-top: 1px solid var(--hairline); }
+
+/* ---------- masthead ---------- */
+.masthead { max-width: 1020px; margin: 0 auto; padding: 18px 24px 0; }
+.masthead-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  flex-wrap: wrap; gap: 8px 16px; padding-bottom: 10px;
+}
+.wordmark { font-size: 20px; font-weight: 700; letter-spacing: 0.16em; color: var(--ink); }
+.mast-nav { display: flex; gap: 20px; align-items: baseline; flex-wrap: wrap; }
+.mast-nav a { font-size: 13px; letter-spacing: 0.08em; color: var(--ink); }
+.mast-nav a:hover { color: var(--red); }
+.ask-btn {
+  font-size: 13px; letter-spacing: 0.08em; color: var(--red);
+  background: none; border: 1px solid var(--red); padding: 4px 14px;
+  cursor: pointer; font-family: inherit;
+}
+.ask-btn:hover { background: var(--red); color: #fff; }
+
+main { max-width: 1020px; margin: 0 auto; padding: 0 24px 72px; }
+
+/* ---------- buttons ---------- */
+.btn {
+  font-family: inherit; font-size: 13px; cursor: pointer;
+  padding: 8px 18px; border: 1px solid var(--ink);
+  background: var(--paper); color: var(--ink);
+}
+.btn:hover { background: var(--ink); color: #fff; }
+.btn-red { background: var(--red); border-color: var(--red); color: #fff; }
+.btn-red:hover { background: #c22014; border-color: #c22014; }
+.btn:disabled { opacity: 0.4; cursor: default; }
+
+/* ---------- issue (매거진) ---------- */
+.issue-strip {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 8px 0 0; flex-wrap: wrap; gap: 4px 12px;
+}
+.issue-no { font-size: 13px; letter-spacing: 0.14em; color: var(--red); font-weight: 500; }
+.issue-date { font-size: 12px; letter-spacing: 0.1em; color: var(--soft); }
+
+.lead { padding: 20px 0 18px; }
+.lead h1 { font-size: 32px; font-weight: 600; margin: 0; }
+.lead p { font-size: 15px; color: var(--soft); margin: 12px 0 0; max-width: 720px; }
+@media (max-width: 640px) { .lead h1 { font-size: 24px; } }
+
+.section-head {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 14px 0 0; margin-top: 10px;
+}
+.section-no { font-size: 20px; font-weight: 700; color: var(--red); letter-spacing: 0.02em; }
+.section-head .label { font-size: 12px; }
+
+.item-card { border: 1px solid var(--hairline); padding: 16px 18px; margin-top: 12px; }
+.item-card + .item-card { margin-top: -1px; }
+.item-title { font-size: 16px; font-weight: 600; color: var(--ink); margin: 0; line-height: 1.45; }
+.item-summary { font-size: 13.5px; color: var(--soft); margin: 6px 0 0; }
+.item-fields { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+.item-fields td { padding: 3px 0; vertical-align: top; }
+.item-fields td:first-child {
+  color: var(--faint); width: 92px; letter-spacing: 0.06em; font-size: 12px;
+  padding-right: 10px; white-space: nowrap;
+}
+/* 접이식 상세 필드 (방법·포인트) — 카드 기본 밀도를 낮춘다 */
+.fields-more { margin-top: 6px; }
+.fields-more summary {
+  font-size: 12px; color: var(--red); cursor: pointer;
+  letter-spacing: 0.06em; list-style: none; user-select: none;
+}
+.fields-more summary::-webkit-details-marker { display: none; }
+.fields-more summary::before { content: "+ "; }
+.fields-more[open] summary::before { content: "− "; }
+
+/* YouTube 썸네일 — 매거진의 사진 지면 역할 */
+.yt-thumb {
+  width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;
+  border: 1px solid var(--hairline); margin: 2px 0 10px;
+}
+
+.item-actions { display: flex; gap: 16px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+.item-actions a, .item-actions span.src { font-size: 12.5px; }
+.ask-item {
+  margin-left: auto; font-size: 12px; background: var(--red); color: #fff;
+  border: none; padding: 5px 12px; cursor: pointer; font-family: inherit;
+}
+.ask-item:hover { background: #c22014; }
+
+.item-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 20px; margin-top: 12px; }
+@media (max-width: 800px) { .item-grid { grid-template-columns: 1fr; } }
+.grid-item { padding: 10px 0; border-top: 1px solid var(--hairline); font-size: 14px; }
+.grid-item .item-summary { font-size: 12.5px; }
+
+.ax-box { background: var(--wash); border-left: 3px solid var(--red); padding: 14px 18px; margin-top: 24px; }
+.ax-box p { margin: 6px 0 0; font-size: 13.5px; color: var(--body); }
+
+.issue-foot {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-top: 28px; padding-top: 10px; flex-wrap: wrap; gap: 8px;
+}
+.issue-foot a { font-size: 12px; letter-spacing: 0.08em; }
+
+/* ---------- archive ---------- */
+.archive-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 20px; }
+@media (max-width: 700px) { .archive-grid { grid-template-columns: 1fr; } }
+.archive-card { border: 1px solid var(--hairline); padding: 18px 20px; display: block; }
+.archive-card:hover { border-color: var(--ink); }
+.archive-card h2 { font-size: 17px; font-weight: 600; margin: 8px 0 0; }
+.archive-card .counts { font-size: 12px; color: var(--faint); margin-top: 10px; }
+
+/* ---------- page/article ---------- */
+.page-title { font-size: 26px; font-weight: 600; margin: 18px 0 4px; }
+.page-meta { font-size: 12.5px; color: var(--faint); margin-bottom: 20px; }
+.meta-strip {
+  display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap;
+  padding: 10px 0; margin: 14px 0 18px; font-size: 12px; color: var(--soft);
+  border-top: 3px solid var(--ink); border-bottom: 1px solid var(--hairline);
+}
+.article { max-width: 680px; }
+
+.tag {
+  display: inline-block; font-size: 11.5px; letter-spacing: 0.04em;
+  border: 1px solid var(--hairline); color: var(--soft);
+  padding: 2px 10px; margin-right: 6px;
+}
+.tag-red { border-color: var(--red); color: var(--red); }
+button.tag { background: var(--paper); cursor: pointer; font-family: inherit; }
+button.tag:hover { border-color: var(--ink); color: var(--ink); }
+button.tag.on { background: var(--ink); border-color: var(--ink); color: #fff; }
+
+/* ---------- markdown ---------- */
+.markdown { font-size: 15.5px; }
+.markdown h1 { font-size: 24px; margin-top: 0; }
+.markdown h2 { font-size: 18px; margin-top: 34px; padding-bottom: 6px; border-bottom: 1px solid var(--ink); }
+.markdown h3 { font-size: 15.5px; }
+.markdown a { color: var(--red); }
+.markdown a:hover { text-decoration: underline; }
+.markdown li { margin: 5px 0; }
+.markdown input[type="checkbox"] { display: none; }
+.markdown blockquote {
+  margin: 16px 0; padding: 10px 16px; border-left: 3px solid var(--red);
+  background: var(--wash); color: var(--body); font-size: 14px;
+}
+.markdown table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; font-size: 14px; }
+.markdown th { border-bottom: 2px solid var(--ink); padding: 7px 10px; text-align: left; }
+.markdown td { border-bottom: 1px solid var(--hairline); padding: 7px 10px; text-align: left; }
+.markdown code {
+  background: var(--wash); padding: 1px 6px;
+  font-size: 13.5px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+.markdown pre { background: var(--ink); color: #eee; padding: 14px 16px; overflow-x: auto; }
+.markdown pre code { background: none; padding: 0; color: inherit; }
+.markdown hr { border: none; border-top: 1px solid var(--hairline); margin: 24px 0; }
+
+/* ---------- chat ---------- */
+.chat-frame { display: flex; flex-direction: column; height: calc(100dvh - 150px); border: 1px solid var(--hairline); }
+.chat-head {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 16px; border-bottom: 1px solid var(--ink); gap: 12px;
+}
+.chat-scroll { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.bubble-user {
+  align-self: flex-end; max-width: 78%; background: var(--ink); color: #fff;
+  padding: 10px 14px; font-size: 14px; line-height: 1.6; white-space: pre-wrap;
+}
+.bubble-ai { align-self: flex-start; max-width: 90%; border: 1px solid var(--hairline); padding: 12px 14px; font-size: 14px; }
+.bubble-ai .markdown { font-size: 14px; }
+.bubble-ai .markdown > :first-child { margin-top: 0; }
+.bubble-ai .markdown > :last-child { margin-bottom: 0; }
+.src-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.src-chips a { font-size: 11px; border: 1px solid var(--red); color: var(--red); padding: 1px 8px; }
+.src-chips a:hover { background: var(--red); color: #fff; }
+.typing { font-size: 12px; color: var(--faint); }
+.chat-inputbar { border-top: 1px solid var(--hairline); background: var(--wash); padding: 10px 14px; }
+.chat-inputbar form { display: flex; gap: 8px; }
+.chat-inputbar input {
+  flex: 1; border: 1px solid #ccc; background: #fff; padding: 10px 14px;
+  font-size: 14px; font-family: inherit;
+}
+.chat-inputbar input:focus { outline: none; border-color: var(--ink); }
+.chat-hint { font-size: 11px; color: var(--faint); margin-top: 6px; }
+.suggestions { display: flex; gap: 8px; flex-wrap: wrap; padding: 4px 0; }
+
+/* ---------- slide panel ---------- */
+.panel-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.25); z-index: 40; }
+.panel {
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(440px, 100vw);
+  background: var(--paper); z-index: 41; border-left: 1px solid var(--ink);
+  display: flex; flex-direction: column;
+}
+.panel .chat-frame { border: none; height: auto; flex: 1; min-height: 0; }
+
+/* ---------- login ---------- */
+.login-wrap { display: flex; justify-content: center; padding-top: 12vh; }
+.login-card { width: 360px; border: 1px solid var(--ink); padding: 28px; text-align: center; }
+.login-card input {
+  width: 100%; border: 1px solid #ccc; padding: 10px 14px; margin: 16px 0 12px;
+  font-size: 15px; font-family: inherit;
+}
+.login-card input:focus { outline: none; border-color: var(--ink); }
+.error { color: var(--red); font-size: 13.5px; }
+.hint { color: var(--faint); font-size: 13px; }
+
+/* ---------- mobile (≤640px) ---------- */
+@media (max-width: 640px) {
+  .masthead { padding: 12px 16px 0; }
+  .masthead-row { padding-bottom: 8px; gap: 6px 12px; }
+  .wordmark { font-size: 17px; letter-spacing: 0.12em; }
+  .mast-nav { gap: 8px 14px; }
+  .mast-nav a { font-size: 12.5px; padding: 2px 0; }
+  .masthead .ask-btn { padding: 2px 10px; font-size: 12px; }
+
+  main { padding: 0 16px 56px; }
+  .issue-date { font-size: 11px; }
+  .lead { padding: 16px 0 14px; }
+
+  .item-card { padding: 14px; }
+  /* 필드 표: 라벨을 값 위로 쌓는다 — 좁은 화면에서 라벨 열이 본문 폭을 잡아먹지 않게 */
+  .item-fields td { display: block; }
+  .item-fields td:first-child { width: auto; padding: 8px 0 0; }
+  .item-fields tr:first-child td:first-child { padding-top: 2px; }
+  .item-actions { gap: 10px 14px; }
+  .ask-item { padding: 8px 14px; }
+  button.tag { padding: 5px 12px; }
+
+  .chat-frame { height: calc(100dvh - 150px); }
+  .bubble-user { max-width: 88%; }
+  .bubble-ai { max-width: 100%; }
+
+  .login-wrap { padding: 8vh 16px 0; }
+  .login-card { width: 100%; max-width: 360px; padding: 24px 20px; }
+  .footer-inner { padding: 14px 16px 24px; }
+}
+
+/* ---------- footer ---------- */
+.footer { border-top: 3px solid var(--ink); margin-top: 40px; }
+.footer-inner {
+  max-width: 1020px; margin: 0 auto; padding: 16px 24px 28px;
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  font-size: 12px; color: var(--faint); letter-spacing: 0.06em;
+}
+.footer a { color: var(--soft); }
+.footer a:hover { color: var(--red); }
