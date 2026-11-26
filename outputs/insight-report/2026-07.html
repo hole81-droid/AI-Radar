@@ -1,0 +1,586 @@
+<title>AI 역량육성 Insight 7월호</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#ffffff;--ink:#191919;--red:#e63329;--soft:#5f5f5f;--faint:#9a9a9a;
+  --hair:#e2e2e2;--wash:#f7f7f6;
+  --serif:"Noto Serif KR","Apple Myungjo",Georgia,serif;
+  --sans:"Pretendard","IBM Plex Sans KR","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gap:36px;              /* 문단 간격 = 본문 2배 */
+  --measure:580px;         /* 글 폭 */
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:18px;line-height:1.9;letter-spacing:-.2px;font-weight:400;
+  -webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere}
+a{color:var(--ink);text-decoration:underline;text-decoration-color:#cfcfcf;text-underline-offset:4px}
+a:hover{text-decoration-color:var(--red)}
+.page{max-width:var(--measure);margin:0 auto;padding:56px 20px 140px}
+@media(max-width:640px){.page{padding:28px 20px 90px}body{font-size:17px;line-height:1.85}}
+
+/* 본문 단락 — 모두 같은 크기·같은 색, 사이만 넓게 */
+p{margin:0 0 var(--gap)}
+p:last-child{margin-bottom:0}
+strong,.key{font-weight:700;color:var(--ink)}
+.key{display:block;margin:0 0 var(--gap)}
+.sub{color:var(--ink)}
+.dim{color:var(--soft);font-size:16px;line-height:1.85}
+.num{font-variant-numeric:tabular-nums;font-weight:700}
+.id{font-family:var(--mono);font-size:15px;letter-spacing:0;color:var(--soft)}
+
+/* 머리 */
+.mast{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;
+  border-top:3px solid var(--ink);padding-top:14px;margin-bottom:28px}
+.mast .brand{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);font-weight:700}
+.mast .meta{font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:0}
+.header-intro{margin:0 0 24px}
+.header-intro p{margin:0;font-size:15px;line-height:1.5;color:var(--soft)}
+.header-intro p+p{margin-top:2px}
+h1{font-family:var(--serif);font-size:40px;line-height:1.35;letter-spacing:-.01em;color:var(--ink);
+  margin:0 0 var(--gap);font-weight:700;text-wrap:balance}
+h1 .issue{color:var(--red)}
+.nav{display:flex;gap:6px 22px;flex-wrap:wrap;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);
+  padding:14px 0;font-size:14px;margin-bottom:calc(var(--gap)*1.6)}
+.nav a{text-decoration:none;color:var(--soft)}
+.nav a b{color:var(--red);font-family:var(--mono);font-size:11px;margin-right:6px;font-weight:500;letter-spacing:0}
+.nav a:hover{color:var(--ink)}
+
+/* 섹션 */
+section{margin-top:calc(var(--gap)*2.6)}
+.sec-head{border-top:3px solid var(--ink);padding-top:14px;margin-bottom:14px;
+  display:flex;align-items:baseline;gap:14px}
+.sec-head .no{font-family:var(--mono);font-size:12px;color:var(--red);letter-spacing:.14em;letter-spacing:.14em}
+.sec-head h2{margin:0;font-family:var(--serif);font-size:28px;line-height:1.4;color:var(--ink);font-weight:700}
+.sec-lede{color:var(--soft);font-size:16px;margin:0 0 calc(var(--gap)*1.4)}
+h3{font-size:24px;line-height:1.5;color:var(--ink);margin:calc(var(--gap)*1.8) 0 var(--gap);
+  font-weight:700;text-wrap:balance}
+h3 .k{display:block;font-family:var(--mono);font-size:12px;color:var(--red);letter-spacing:.14em;
+  margin-bottom:10px;font-weight:500}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--soft);font-weight:700;margin-bottom:20px}
+.n{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;color:var(--red);margin-bottom:12px}
+
+/* 1쪽 요약 — 본문 앞 프리뷰임을 알리는 박스 */
+.summary{margin-top:calc(var(--gap)*1.4);background:var(--wash);
+  padding:44px 32px 44px;border-top:3px solid var(--ink);border-bottom:1px solid #dcdcdc;
+  margin-left:-32px;margin-right:-32px}
+@media(max-width:640px){.summary{padding:32px 20px 32px;margin-left:-20px;margin-right:-20px}}
+.lead{font-family:var(--serif);font-size:27px;line-height:1.6;color:var(--ink);font-weight:600;
+  margin:0 0 calc(var(--gap)*1.6);text-wrap:balance}
+.lead em{font-style:normal;color:var(--red)}
+.hl{padding:calc(var(--gap)*0.9) 0;border-top:1px solid var(--hair)}
+.hl .fig{font-family:var(--serif);font-size:34px;line-height:1.2;font-weight:600;
+  font-variant-numeric:tabular-nums;margin-bottom:6px;letter-spacing:-.01em}
+.hl .fig .r{color:var(--red)}
+.hl .figcap{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--faint);
+  margin-bottom:22px;line-height:1.7}
+.fig-pair{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin-bottom:22px}
+.fig-pair .fig-item{min-width:0}
+.fig-pair .fig{margin-bottom:6px}
+.fig-pair .figcap{margin-bottom:0;word-break:keep-all}
+@media(max-width:480px){.fig-pair{grid-template-columns:1fr;gap:14px 0}}
+.oneline{margin:calc(var(--gap)*1.4) 0 0;padding:32px 0 0;border-top:3px solid var(--ink)}
+.ask-key{font-family:var(--serif);font-size:23px;line-height:1.65;font-weight:600;
+  margin:0 0 var(--gap);color:var(--ink)}
+details.gloss{margin:calc(var(--gap)*-0.4) 0 0}
+details.gloss>summary,details.fold>summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;
+  gap:10px;font-size:15px;color:var(--soft);padding:8px 0}
+details>summary::-webkit-details-marker{display:none}
+details.gloss>summary::before,details.fold>summary::before{content:"+";width:20px;height:20px;
+  border:1px solid var(--faint);text-align:center;line-height:18px;font-family:var(--mono);font-size:14px;color:var(--faint)}
+details[open].gloss>summary::before,details[open].fold>summary::before{content:"−"}
+details>summary:hover{color:var(--ink)}
+.gloss .fold-body{padding-top:14px}
+
+/* 판단 요청 */
+.ask{margin-top:calc(var(--gap)*1.4);border-left:3px solid var(--red);padding:4px 0 4px 26px}
+.ask ol{margin:0;padding:0;list-style:none;counter-reset:q}
+.ask li{counter-increment:q;position:relative;padding-left:42px;margin:0 0 var(--gap)}
+.ask li:last-child{margin-bottom:0}
+.ask li::before{content:counter(q);position:absolute;left:0;top:3px;width:28px;height:28px;
+  border:1.5px solid var(--ink);border-radius:50%;text-align:center;line-height:26px;
+  font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:0}
+.ask a.goto{font-size:14px;color:var(--soft);text-decoration:none;border-bottom:1px solid var(--hair);white-space:nowrap}
+
+/* 결론 */
+.bluf{margin:0 0 var(--gap);padding:0 0 0 26px;border-left:3px solid var(--red)}
+
+/* 접힘 본문 */
+details.fold{margin:0 0 var(--gap)}
+.fold-body{padding:14px 0 0 26px;border-left:1px solid var(--hair);margin-top:6px}
+ul.ev{list-style:none;margin:0;padding:0}
+ul.ev>li{padding:22px 0;border-top:1px solid var(--hair);font-size:16px;line-height:1.85}
+ul.ev>li:first-child{border-top:0;padding-top:2px}
+.src{font-size:13.5px;color:var(--faint);line-height:1.75;margin:10px 0 0;letter-spacing:0}
+.src .none{color:var(--red)}
+.src .bar{color:#d8d8d8;margin:0 7px}
+.src .dot{color:#d8d8d8;margin:0 5px}
+.src a{color:var(--soft);text-decoration-color:#e4e4e4}
+.src a.free{color:var(--red)}
+.tag{display:inline-block;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;padding:0 6px;
+  border:1px solid var(--faint);color:var(--faint);vertical-align:1px;white-space:nowrap;line-height:1.6;margin-right:5px}
+.tag.res{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tag.wp{border-color:var(--ink);color:var(--ink)}
+.tag.art{border-color:var(--soft);color:var(--soft)}
+.tag.disc{border-style:dashed}
+
+/* 2부 */
+.pt{padding:calc(var(--gap)*1.1) 0;border-top:1px solid var(--hair)}
+.pt:first-of-type{border-top:0;padding-top:0}
+
+/* 3부 */
+.apply{padding:calc(var(--gap)*1.4) 0 0;border-top:1px solid var(--hair)}
+.apply:first-of-type{border-top:0;padding-top:0}
+.apply h3{margin-top:0}
+.row{display:grid;grid-template-columns:74px 1fr;gap:4px 16px;margin:0 0 20px;font-size:16px;line-height:1.85}
+@media(max-width:600px){.row{grid-template-columns:1fr;gap:2px}}
+.row .lab{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--faint);padding-top:6px}
+.row.q .val{color:var(--soft);font-size:15px;line-height:1.8}
+.tier2{color:var(--soft);font-size:16px;margin:calc(var(--gap)*-0.5) 0 var(--gap)}
+
+/* 참고 */
+.aside-sec{margin-top:calc(var(--gap)*2.6);background:var(--wash);
+  padding:36px 32px 32px;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;
+  margin-left:-32px;margin-right:-32px}
+@media(max-width:640px){.aside-sec{padding:28px 20px;margin-left:-20px;margin-right:-20px}}
+.aside-sec .sec-head{border-top:0;padding-top:0;margin-bottom:12px}
+.aside-sec .sec-head .no{color:var(--faint)}
+.aside-sec .sec-head h2{color:var(--soft);font-size:22px}
+
+/* 부록 */
+.tbl{overflow-x:auto;border-top:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;letter-spacing:0}
+th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);
+  font-weight:700;padding:12px 12px 12px 0;border-bottom:1px solid var(--hair);white-space:nowrap}
+td{padding:14px 12px 14px 0;border-bottom:1px solid var(--hair);vertical-align:top;
+  font-variant-numeric:tabular-nums;line-height:1.7}
+td:first-child,th:first-child{padding-left:0}
+tr:last-child td{border-bottom:1px solid var(--ink)}
+.defs td:nth-child(1){white-space:nowrap}
+h4{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);
+  margin:calc(var(--gap)*1.5) 0 16px;font-weight:700}
+.howto{border:1px solid var(--hair);padding:24px 26px;font-size:15px;color:var(--soft);line-height:1.9}
+.howto b{color:var(--ink)}
+.howto .row2{display:flex;gap:8px 18px;flex-wrap:wrap;margin-top:12px}
+ul.plain{margin:0;padding-left:20px;font-size:16px;line-height:1.85;color:var(--ink)}
+ul.plain li{margin:0 0 14px}
+.foot{margin-top:calc(var(--gap)*2.6);border-top:3px solid var(--ink);padding-top:14px;
+  font-size:12.5px;color:var(--faint);font-family:var(--mono);letter-spacing:0;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+@media print{
+  body{font-size:11pt;line-height:1.75}
+  .page{max-width:none;padding:0}
+  .nav{display:none}
+  a{text-decoration:none;color:inherit}
+  details{display:block}details>summary{display:none}
+}
+</style>
+
+<div class="page">
+  <header>
+    <div class="mast">
+      <div class="brand">mySUNI · AI 역량육성 컬리지</div>
+      <div class="meta">2026-09-10 소급 제작 · 수집 05-01 ~ 06-30</div>
+    </div>
+    <h1>AI 역량육성 Insight <span class="issue">7월호</span></h1>
+    <div class="header-intro">
+      <p>수집 기간 5월 1일부터 6월 30일까지. 2026년 9월 10일 소급 제작. 발행 주체 AI 역량육성 컬리지.</p>
+      <p>위키 수집이 5월에 시작돼 두 달을 한 호로 묶었습니다. 5~6월 자료 가운데 9월 10일까지 결과가 달라진 것은 '이후 경과'로 따로 적었습니다.</p>
+      <p>우리가 기르는 <strong>"역량"</strong>은:<br>AI를 다루는 기술, AI를 업무에 붙이는 일, AI를 회사 차원에서 쓰는 일.</p>
+      <p>이 리포트는 AI 역량 육성의 State of the art, 핵심 Trend와, 그것이 우리 프로그램에 어떤 의미인지를 정리합니다.</p>
+    </div>
+    <nav class="nav">
+      <a href="#summary"><b>요약</b>Executive Summary</a>
+      <a href="#p1"><b>1부</b>거시 트렌드</a>
+      <a href="#p2"><b>2부</b>우리 조직 시사점</a>
+      <a href="#p3"><b>3부</b>프로그램 적용 포인트</a>
+      <a href="#aside"><b>참고</b>교육계 변화</a>
+      <a href="#watch"><b>추적</b>이후 경과</a>
+      <a href="#appx"><b>부록</b>근거·출처</a>
+    </nav>
+  </header>
+
+  <!-- ═══ 1쪽 요약 ═══ -->
+  <div class="summary" id="summary">
+    <div class="eyebrow">Executive Summary</div>
+    <p class="lead">AI가 일을 대신할수록 더 귀해진 것은 <em>사람의 판단</em>이었습니다.</p>
+
+    <div class="hl">
+      <div class="n">헤드라인 1</div>
+      <div class="fig-pair">
+        <div class="fig-item"><div class="fig">+180%</div><div class="figcap">코드 작업량<br>(AI 코딩 도구 누적)</div></div>
+        <div class="fig-item"><div class="fig"><span class="r">+30%</span></div><div class="figcap">실제 출시된<br>소프트웨어</div></div>
+      </div>
+      <p class="key">만드는 속도는 올랐고, 확인하는 사람은 그대로입니다.</p>
+      <p>개발자 10만 명의 실제 작업 기록을 추적한 연구가 있습니다. AI 코딩 도구를 쓰자 코드 작업은 180% 늘었습니다. 실제로 출시된 소프트웨어는 30% 늘었을 뿐이죠.</p>
+      <p>사람이 검토하고 합치는 단계가 그대로였기 때문입니다.</p>
+      <p>컨설팅사 인터뷰에서도 같은 장면이 나왔습니다. AI 결과물을 검증하는 일이 중간관리자에게 쌓였습니다.</p>
+    </div>
+
+    <div class="hl">
+      <div class="n">헤드라인 2</div>
+      <div class="fig-pair">
+        <div class="fig-item"><div class="fig">+48%</div><div class="figcap">연습 문제 성과<br>(AI를 쓰는 동안)</div></div>
+        <div class="fig-item"><div class="fig"><span class="r">−17%</span></div><div class="figcap">시험 성과<br>(AI를 치운 뒤)</div></div>
+      </div>
+      <p class="key">AI가 대신 풀어주면 성적은 오르고 실력은 줄었습니다.</p>
+      <p>튀르키예 고등학생 약 1,000명의 수학 실험입니다. 답을 바로 주는 AI를 쓴 학생은 연습 문제를 AI 없이 공부한 학생보다 48% 잘 풀었습니다. 그런데 AI를 치우고 본 시험에서는 17% 못했습니다.</p>
+      <p>회사에서도 같은 일이 벌어집니다. McKinsey는 AI가 맡는 리서치와 초안 작성이 원래 신입이 배우던 일이라고 짚었습니다.</p>
+      <p>신입이 배울 자리가 사라지면 미래의 관리자도 자라지 않습니다.</p>
+    </div>
+
+    <div class="hl">
+      <div class="n">헤드라인 3</div>
+      <div class="fig-pair">
+        <div class="fig-item"><div class="fig">4명 중 1명</div><div class="figcap">매주 에이전트 4개 이상<br>(OpenAI 직원)</div></div>
+        <div class="fig-item"><div class="fig"><span class="r">180→15시간</span></div><div class="figcap">한 회계사의<br>세무 시즌 업무</div></div>
+      </div>
+      <p class="key">에이전트를 잘 부리는 조건은 코딩보다 업무 전문성이었습니다.</p>
+      <p>AI 에이전트는 목표를 주면 여러 단계를 스스로 처리하는 AI입니다. OpenAI 직원 네 명 중 한 명은 매주 에이전트를 4개 이상 돌립니다.</p>
+      <p>법무와 인사 같은 비개발 직군도 개발자와 거의 같은 속도로 따라왔습니다. 성과를 가른 것은 직군보다 그 일을 얼마나 해봤는가였습니다.</p>
+      <p>30여 개 회계법인이 쓴 세무 AI의 재료는 회계사들이 고친 기록입니다. 한 회계사는 180시간 걸리던 세무 시즌 업무를 15시간에 끝냈습니다.</p>
+    </div>
+
+    <div class="oneline">
+      <div class="n">우리 조직에의 한 줄</div>
+      <p>예전에는 일터가 사람을 길렀습니다. 신입은 초안을 쓰고 선배의 빨간 펜을 받으며 판단력을 익혔죠.</p>
+      <p><strong>AI가 초안을 쓰는 지금, 그 과정은 저절로 일어나지 않습니다. 교육 조직이 설계해야 합니다.</strong> 그래서 우리 프로그램이 늘려야 할 사람은 이렇습니다.</p>
+      <p class="ask-key">AI가 낸 결과를 검토할 줄 알고, 그 과정에서 팀원의 판단력까지 길러내는 사람.</p>
+      <p>그 사람은 대개 팀장입니다.</p>
+      <details class="gloss"><summary>이런 사람이란</summary><div class="fold-body">
+        <p>AI 결과물 가운데 무엇을 모두 확인하고 무엇을 골라 확인할지 기준을 씁니다.</p>
+        <p>AI 안을 채택하거나 고칠 때 그 이유를 팀원이 볼 수 있게 남깁니다.</p>
+        <p class="dim">왜 이런 사람이 필요한지는 1부 트렌드 1과 2에 있습니다.</p>
+      </div></details>
+    </div>
+
+  </div>
+
+  <!-- ═══ 1부 ═══ -->
+  <section id="p1">
+    <div class="sec-head"><span class="no">1부</span><h2>거시 트렌드</h2></div>
+    <p class="sec-lede">각 트렌드는 결론을 먼저 적고, 근거는 접어두었습니다. 9월 10일까지 달라진 사실은 근거 아래 '이후 경과'로 붙였습니다.</p>
+
+    <h3><span class="k">트렌드 1</span>사람의 자리가 만드는 쪽에서 확인하는 쪽으로 옮겨갔습니다. 새 병목도 그곳에 생겼습니다</h3>
+    <div class="bluf">
+      <div class="n">결론</div>
+      <p class="key">AI는 실행을 빠르게 했습니다. 검토하고 결정하고 내보내는 일은 여전히 사람 몫이죠. 그래서 확인할 일이 쌓이는 자리가 새 병목이 됩니다.</p>
+      <p>5~6월 자료에서 그 자리는 코드 리뷰와 결재, 그리고 중간관리자였습니다. 대규모 실측 연구와 뉴스레터, 조직 인터뷰가 서로 다른 데이터로 같은 곳에 닿았습니다.</p>
+      <p>가르칠 내용도 따라 옮겨갑니다. AI로 빨리 만드는 법에 더해, 쏟아지는 결과물을 검토하고 결정하는 법이 필요합니다. 그 역할을 맡는 사람은 대개 팀장이고, 우리가 만나는 곳은 AI Leader Program(팀장)입니다.</p>
+      <p class="dim">9월호 트렌드 2는 개인이 AI 결과를 확인하는 데 쓰는 시간을 셌습니다. 이번 자료는 그 확인이 조직의 어느 층에 쌓이는지를 보여줍니다.</p>
+    </div>
+    <details class="fold"><summary>근거 4건 보기</summary><div class="fold-body">
+      <ul class="ev">
+        <li>NBER 워킹페이퍼 #35275, MIT와 Wharton 연구진. GitHub 개발자 10만 명 이상의 실제 사용 기록 추적. AI 코딩 도구가 자동완성, 사람과 나란히 일하는 에이전트, 스스로 실행하는 에이전트로 세대를 거듭하며 코딩 활동이 누적 40%, 140%, <span class="num">180%</span> 증가. 그러나 프로젝트 수는 50%, 실제 릴리스는 <span class="num">30%</span> 증가에 그침. 뒤 단계인 리뷰와 통합, 배포가 여전히 사람의 처리 용량에 묶여 있다는 해석.
+          <div class="src"><span class="tag res">연구</span>NBER 워킹페이퍼 · 개발자 <span class="num">10만 명</span> 이상 사용 기록 · <span class="none">GitHub 공개 활동 기반, 사내 비공개 개발에 옮길 때 주의</span><span class="bar">|</span><a class="free" href="https://www.nber.org/papers/w35275" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://mitsloan.mit.edu/ideas-made-to-matter/ai-boosts-worker-productivity-does-translate-to-final-outputs" target="_blank" rel="noreferrer">MIT Sloan 소개</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-coding-bottleneck-shifts-review-not-writing" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>Exponential View 5월, "AI가 왜 실적에 안 보이나". 엔지니어 약 1,000명이 모두 Claude Code를 쓰는 대형 테크 기업 임원의 말을 소개. "1+1+1+1이 1.5가 된다." 저자는 이를 '정체'라 부름. AI로 빨라진 개발자가 기존 리뷰 대기열에 걸리고, 빨라진 영업팀이 법무 검토에 걸리는 현상. AI가 투자수익 기대치를 채웠다는 임원은 <span class="num">27%</span>.
+          <div class="src"><span class="tag art">아티클</span>뉴스레터 · <span class="none">27% 설문의 표본과 방법 미확인, 해법을 다룬 유료 구간 미확인</span><span class="bar">|</span><a href="https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-roi-three-stage-ladder-congestion" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>AI as Normal Technology 6월, "AI는 왜 개발자를 대체하지 못했나". 지식노동을 결정, 실행, 전달 세 단으로 나눔. AI는 가운데 실행을 크게 압축하지만, 무엇을 만들지 정하는 결정과 리뷰·배포·유지보수에 해당하는 전달은 쉽게 자동화되지 않음. 직원 4,000명을 줄이며 AI를 이유로 든 Block 사례에는 팬데믹 과잉 채용의 조정이라는 반론을 소개.
+          <div class="src"><span class="tag art">아티클</span>Princeton 연구진의 뉴스레터 · <span class="none">논증과 사례 재검증, 정량 연구 아님</span><span class="bar">|</span><a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>HBR 6월, "AI 도입이 중간관리자를 짓누른다". 대형 컨설팅사 2곳 18명 인터뷰. 주니어는 고급 업무로 더 일찍 이동하고, 최고위 리더는 담당 범위가 넓어짐. 새로 생긴 일은 중간관리자에게 몰림. AI 산출물 검증, 겉만 전문가다운 빈 결과물인 '워크슬롭' 가려내기, 팀원 AI 코칭, 품질 기준 유지. 그만큼 후배를 코칭하고 기를 여력이 줄 수 있다는 우려.
+          <div class="src"><span class="tag res">연구</span>질적 인터뷰 <span class="num">18명</span> · <span class="none">표본이 매우 작음</span><span class="bar">|</span><a href="https://hbr.org/2026/06/ai-adoption-is-overloading-your-middle-managers" target="_blank" rel="noreferrer">HBR, 페이월</a><span class="dot">·</span><a class="free" href="https://www.brianheger.com/ai-adoption-is-overloading-your-middle-managers-harvard-business-review/" target="_blank" rel="noreferrer">무료, 재게시 요약</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/middle-manager-ai-overload-workslop" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+      </ul>
+    </div></details>
+
+    <h3><span class="k">트렌드 2</span>AI가 일을 대신할수록 실력이 자랄 자리가 사라집니다. 판단력은 이제 설계해서 길러야 합니다</h3>
+    <div class="bluf">
+      <div class="n">결론</div>
+      <p class="key">판단력은 시도하고, 지적받고, 조금 더 어려운 일을 맡는 반복 속에서 자랐습니다. AI가 초안을 쓰면 이 반복의 첫 단계가 빠지죠.</p>
+      <p>학습과학자와 컨설팅사, 경영대학원, 교실 실험이 같은 경고를 냈습니다. 결과물은 좋아지는데 사람은 덜 자란다는 경고입니다.</p>
+      <p>교육 조직에 가장 직접 닿는 변화이기도 합니다. 일터에서 저절로 일어나던 배움을 이제 프로그램이 설계해야 합니다.</p>
+      <p>가장 가까운 그릇은 AI Leader Program(팀장) 문제해결 과정입니다. 팀장과 팀원이 실제 과제를 4주간 함께 푸는 구조라서입니다.</p>
+    </div>
+    <details class="fold"><summary>근거 4건 보기</summary><div class="fold-body">
+      <ul class="ev">
+        <li>Dr. Philippa Hardman 6월. 세계 최대급 경영 컨설팅사 L&amp;D팀과 작업하며 반복해 받은 질문, "AI가 다 해주면 주니어 실력은 어떻게 느나". 업무 역량의 약 70%는 경험, 20%는 관찰에서 나온다는 70-20-10 모델에서 출발. 그 경험의 정체는 시범을 보고, 해보고, 지적받고, 더 어려운 일을 맡고, 도움이 줄어드는 순환이었다고 정리. AI는 시도와 지적을 없애고 전문가의 추론을 산출물 속에 묻어버림. 계산기는 손 계산만 없앴지만 AI는 판단하는 층을 대신한다는 진단. 처방은 넷. 전문가의 추론을 드러내기, 개념을 묻는 마찰 넣기, 잘하는 사람에게 더 높은 문턱 두기, AI 도움 전에 먼저 시도하게 하기.
+          <div class="src"><span class="tag art">아티클</span>학습과학 문헌 다수 인용 · <span class="none">인용된 26,811명 연구와 "오류 발견 9배" 수치는 원문 미대조, 네 원칙을 함께 적용한 효과는 저자 스스로 미검증</span><span class="bar">|</span><a href="https://drphilippahardman.substack.com/p/from-designing-courses-to-designing" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-apprenticeship-problem-ai-era" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>McKinsey 5월, 에이전트 시대의 초급 인재. AI가 자동화하는 리서치, 문서 작업, 초안 작성은 역사로 보면 초급 직급의 일. 관리자의 판단력과 조직 지식은 수년간의 실행과 지도받는 연습으로 형성되므로, 초급 경험이 줄면 미래 관리자 파이프라인이 빈다는 경고. 현재 직무의 <span class="num">75%</span>가 재설계와 새 기술 조합을 필요로 할 것이라는 추정.
+          <div class="src"><span class="tag wp">화이트페이퍼</span>McKinsey 실무 블로그 · <span class="none">저자 개인명 미상, 원문 접속 실패로 2차 인용과 검색 요약을 교차 확인</span><span class="bar">|</span><a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/rethinking-early-career-talent-in-the-agentic-organization" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mckinsey-entry-level-redesign-answer-key-model" target="_blank" rel="noreferrer">한글 요약</a></div>
+          <div class="src"><b>이후 경과</b>. 7월 14일 후속 글에서 처방으로 '정답지 모델'을 제시. 구성원이 먼저 풀고, AI가 채점하고, 관리자가 사람과 AI 답의 차이를 함께 논의. Bank of America는 인턴과 캠퍼스 채용을 약 4,000명으로 유지.<span class="bar">|</span><a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/building-expertise-in-the-age-of-ai-who-trains-the-next-generation" target="_blank" rel="noreferrer">7월 원문</a></div></li>
+        <li>Harvard Business School의 Rembrand Koning과 INSEAD의 Hyunjin Kim, 'AI 네이티브 기업' 워킹페이퍼. Y Combinator 배치 기업과 미국 벤처 지원 스타트업을 비교. AI를 처음부터 내재화한 기업은 비슷한 단계 대비 인원 25% 적고, 엔지니어 비중 13%p 높고, 신입 비중과 관리자 비중이 각각 약 <span class="num">15%p</span> 낮음. 기업가치는 비슷함.
+          <div class="src"><span class="tag res">연구</span>HBS 워킹페이퍼 26-090 · <span class="none">스타트업 표본이라 대기업 일반화는 주의</span> · 수치는 2차 매체로 교차 확인<span class="bar">|</span><a class="free" href="https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf" target="_blank" rel="noreferrer">원문 PDF</a><span class="dot">·</span><a href="https://aiinstitute.hbs.edu/less-headcount-more-valuation-how-ai-native-firms-change-the-game/" target="_blank" rel="noreferrer">HBS AI Institute 소개</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-native-firms-smaller-flatter-koning-kim" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>교실 실험이 그 메커니즘을 보여줌. Bastani 외 연구진이 튀르키예 고등학생 약 1,000명에게 수학 연습을 시킴. 가드레일 없는 GPT-4를 쓴 집단은 연습 성과가 AI 없는 집단보다 <span class="num">48%</span> 높았지만, AI를 치운 시험에서는 <span class="num">17%</span> 낮았음. 정답 대신 힌트만 주도록 교사가 설계한 AI를 쓴 집단은 이 부정 효과가 대부분 사라짐. Ethan Mollick과 Hardman이 5월에 각각 소개.
+          <div class="src"><span class="tag res">연구</span>PNAS 2025 게재 무작위 대조 실험 · 원 논문 대조 확인 · <span class="none">학생 대상이라 성인 학습자의 효과 크기는 별개</span><span class="bar">|</span><a class="free" href="https://www.pnas.org/doi/10.1073/pnas.2422633122" target="_blank" rel="noreferrer">원 논문, PNAS</a><span class="dot">·</span><a href="https://www.oneusefulthing.org/p/choosing-to-stay-human" target="_blank" rel="noreferrer">Mollick</a><span class="dot">·</span><a href="https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates" target="_blank" rel="noreferrer">Hardman</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-tutoring-guardrails-bastani-rct" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+      </ul>
+    </div></details>
+
+    <h3><span class="k">트렌드 3</span>에이전트는 개발자만의 도구가 아닙니다. 잘 부리는 조건은 업무 전문성입니다</h3>
+    <div class="bluf">
+      <div class="n">결론</div>
+      <p class="key">5~6월 자료에서 에이전트를 부린 사람은 회계사, 마케터, 법무와 인사 담당자였습니다. 성과를 가른 것은 코딩 실력보다 그 업무를 얼마나 깊이 아는가였습니다.</p>
+      <p>AI가 틀린 곳을 알아보고 고칠 수 있어야 결과를 믿고 쓸 수 있습니다. 사내 연구, 현장 사례, 사용 실태 조사가 같은 방향을 보였습니다.</p>
+      <p>우리 컬리지의 에이전트 설계 모듈은 이미 AI Camp와 AI Leader Program에도 들어 있습니다. 바꿀 것은 누구를 뽑고 무엇을 재료로 쓰느냐입니다.</p>
+    </div>
+    <details class="fold"><summary>근거 4건 보기</summary><div class="fold-body">
+      <ul class="ev">
+        <li>Ethan Mollick 6월, "챗봇의 황혼". OpenAI와 학계 경제학자의 공동 사내 연구를 인용해, OpenAI 직원 <span class="num">4분의 1</span>이 매주 에이전트 4개 이상을 동시에 운영한다고 전함. 법무와 인사 같은 비개발 직군도 개발 직군과 거의 같은 속도로 에이전트를 도입. Claude Code 사용자 연구에서는 성과를 가른 것이 직군보다 해당 업무의 경험치였음. 경험이 많을수록 요청 한 번에 더 쓸모 있는 결과를 얻음.
+          <div class="src"><span class="tag art">아티클</span>이 전한 <span class="tag res">연구</span><span class="none">두 연구의 표본과 측정 시점 미확인</span><span class="bar">|</span><a href="https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/twilight-of-chatbots-agent-management-shift" target="_blank" rel="noreferrer">한글 요약</a></div>
+          <div class="src"><b>이후 경과</b>. 8월 18일 Claude Cowork가 Pro를 포함한 모든 유료 플랜의 모바일과 웹으로 확대. 8월 20일 Anthropic이 초심자용부터 시작하는 무료 코스 약 20종의 Claude Academy를 공개. 비개발자가 에이전트를 쓰는 문턱이 더 낮아짐.<span class="bar">|</span><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-12-claude-cowork-chrome-integration" target="_blank" rel="noreferrer">Cowork 한글 요약</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-20-claude-academy-launch" target="_blank" rel="noreferrer">Academy 한글 요약</a></div></li>
+        <li>OpenAI와 Thrive Holdings, Codex 기반 세무 신고 AI. 30여 개 회계법인이 실제 세무 시즌에 7,000건 처리. 회계사들이 고친 수정 이력을 쌓고, AI가 자주 나는 오류 패턴을 찾아 스스로 코드를 고치는 구조. 수정 없이 쓸 수 있는 초안 <span class="num">97%</span>, 건당 준비 시간 3분의 1 절감, 처리량 <span class="num">50%</span> 증가. 한 회계사는 작년 180시간 걸린 일을 올해 <span class="num">15시간</span>에 마침.
+          <div class="src"><span class="tag disc">공시</span>OpenAI 공식 블로그 · 실제 처리 <span class="num">7,000건</span> 기반 · <span class="none">발표 주체가 도구 제공사, 비용 미확인</span> · 6개월 공동 개발<span class="bar">|</span><a href="https://openai.com/index/building-self-improving-tax-agents-with-codex/" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/openai-thrive-tax-ai-self-improving" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>SEO 에이전시 Minty Digital 창립자 Charlie Clark, 15년 경력 마케터. Claude Code로 메모리, 검색, 스킬, 매시간 점검 루틴의 4계층 '세컨드 브레인'을 만들어 클라이언트 응대와 보고서, 제안서를 처리. 월요일 아침 맥락 정리가 45분에서 1분, 클라이언트 회신 준비가 30분에서 30초. 메일과 슬랙, CRM 연결은 읽기 전용으로 시작하고 신뢰가 쌓인 뒤에만 쓰기 권한을 넓힘.
+          <div class="src"><span class="tag art">아티클</span>Search Engine Land 실무자 기고 · <span class="none">수치는 본인 주장, 측정 방법 미공개</span><span class="bar">|</span><a href="https://searchengineland.com/claude-code-powered-second-brain-agency-work-479879" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/charlie-clark-claude-code-second-brain-agency" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>HBR 6월, Marc Zao-Sanders의 'AI in the Wild' 3년차. 사람들이 실제로 AI를 무엇에 쓰는지 소셜 게시물과 포럼, 기업 서베이에서 12개월간 수집. '자율 에이전트 운영'이 처음으로 용도 상위 10위에 진입. 1위는 2년 연속 심리 상담과 동반자. 아이디어 생성과 학습 보조 같은 초기 생산성 용도는 순위 하락.
+          <div class="src"><span class="tag art">아티클</span>HBR 기고 · 저자 사이트와 재게시 요약으로 상대 순위만 확인 · <span class="none">구체 수치와 표본 규모 미확인</span><span class="bar">|</span><a href="https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026" target="_blank" rel="noreferrer">HBR, 페이월</a><span class="dot">·</span><a class="free" href="https://marczaosanders.com/wild/" target="_blank" rel="noreferrer">무료, 저자 리서치 사이트</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/zao-sanders-ai-in-the-wild-2026" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+      </ul>
+    </div></details>
+  </section>
+
+  <!-- ═══ 2부 ═══ -->
+  <section id="p2" class="flow-in">
+    <div class="sec-head"><span class="no">2부</span><h2>우리 조직에의 시사점</h2></div>
+    <p class="sec-lede">1부의 흐름을 우리 프로그램과 지표에 대입한 네 가지입니다.</p>
+
+    <div class="pt">
+      <div class="n">시사점 01</div>
+      <p class="key">팀장이 새 병목이자 새 교사입니다.</p>
+      <p>AI가 만든 결과물을 검증하는 일은 중간관리자에게 쌓입니다. 트렌드 1의 인터뷰가 보여준 장면이죠. 그만큼 팀원을 가르칠 시간은 줄어듭니다.</p>
+      <p>그런데 트렌드 2가 말하듯 판단력을 길러줄 사람도 팀장입니다. 두 역할이 한 사람에게 동시에 몰리는 셈입니다.</p>
+      <p>AI Leader Program(팀장)은 지금 정보수집과 보고서, 전략, 성과관리에 AI를 쓰는 법을 다룹니다. 여기에 두 가지가 더 필요합니다. 팀원이 AI로 만든 결과물을 검토하는 법. 그리고 검토하면서 팀원을 기르는 법.</p>
+      <p class="dim">적용 1과 적용 3이 구체안입니다.</p>
+    </div>
+
+    <div class="pt">
+      <div class="n">시사점 02</div>
+      <p class="key">우리 실습이 AI를 목발로 쓰게 하고 있지는 않은지 점검할 때입니다.</p>
+      <p>AI Mini Camp는 4시간 안팎의 원데이 과정입니다. 예시 과제를 AI로 풀고 결과물을 들고 나갑니다.</p>
+      <p>트렌드 2의 교실 실험은 이 구조의 약점을 보여줍니다. AI가 답을 먼저 주면 결과물은 좋아지고 실력은 덜 남습니다. 수료율과 만족도는 이 차이를 가려내지 못합니다.</p>
+      <p>반대 사례도 있습니다. 시에라리온 중학교 48개 교실 실험에서 AI 응답의 76.4%는 정답 대신 질문이었습니다. 학생 성적은 8주 만에 0.258 표준편차 올랐습니다. 차이는 도구보다 실습의 순서와 설정에 있었던 셈입니다.</p>
+      <p class="dim">이 항목은 우리가 프로그램을 운영하는 법에 속합니다. 구체안은 적용 2입니다.</p>
+      <div class="src"><span class="tag res">연구</span>Google DeepMind와 Fab AI의 사전등록 무작위 대조 실험 · <span class="num">1,763명</span>, 48개 교실 · <span class="none">발간 주체가 도구 제공사</span><span class="bar">|</span><a class="free" href="https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf" target="_blank" rel="noreferrer">원문 PDF</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/gemini-guided-learning-sierra-leone-rct" target="_blank" rel="noreferrer">한글 요약</a></div>
+    </div>
+
+    <div class="pt">
+      <div class="n">시사점 03</div>
+      <p class="key">에이전트 교육의 대상은 개발자보다 현업 전문가입니다.</p>
+      <p>트렌드 3의 회계사와 마케터는 코드를 거의 쓰지 않았습니다. 대신 자기 일의 판단 기준을 AI에게 넘겼습니다. 고친 기록, 고객 맥락, 업무 순서.</p>
+      <p>우리 컬리지에서 에이전트를 만드는 과정은 두 갈래입니다. 기술 인재를 위한 AI Agent Service 개발자 과정군, 그리고 실제 업무 문제를 가져오는 AI Camp.</p>
+      <p>AI Camp의 선발 기준과 실습 재료를 트렌드 3에 맞춰 다시 볼 때입니다. 코딩 경험보다 자기 업무의 수정 이력과 판단 기준을 가져올 수 있는 사람. 5~6월 자료에서 성과를 낸 쪽은 그런 사람이었습니다.</p>
+      <p class="dim">구체안은 적용 5입니다.</p>
+    </div>
+
+    <div class="pt">
+      <div class="n">시사점 04</div>
+      <p class="key">AI 배포는 늘었는데 준비도는 떨어졌습니다. 우리 일의 근거입니다.</p>
+      <p>IT 서비스 기업 Kyndryl의 8개국 시니어 리더 1,100명 조사입니다. AI를 핵심 업무에 넣었다는 답은 1년 새 35%에서 57%로 뛰었습니다. 인력이 AI에 완전히 준비됐다는 답은 29%에서 23%로 내려갔죠.</p>
+      <p>AI 협업 교육을 완전히 구현한 곳은 33%였습니다. 역할 재설계와 변화관리, 인력 준비를 함께 한 상위 9%는 AI로 매출을 늘릴 확률이 1.5배였습니다.</p>
+      <p>교육 예산을 설명할 때 쓸 수 있는 숫자입니다.</p>
+      <p class="dim">다만 발간 주체가 AI 전환 서비스를 파는 벤더이고, 1.5배는 상관관계입니다.</p>
+      <div class="src"><span class="tag wp">화이트페이퍼</span>Kyndryl People Readiness Report 2026 · 8개국 <span class="num">1,100명</span>, 2026년 3~4월 조사 · <span class="none">문항 설계 미공개</span><span class="bar">|</span><a href="https://www.kyndryl.com/gb/en/about-us/news/2026/06/ai-adoption-workforce-readiness" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a class="free" href="https://www.kyndryl.com/content/dam/kyndrylprogram/doc/en/2026/people-readiness-report.pdf" target="_blank" rel="noreferrer">리포트 PDF</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-06-25-kyndryl-people-readiness-report" target="_blank" rel="noreferrer">한글 요약</a></div>
+      <div class="src"><b>이후 경과</b>. 7월 22일 Harvard Business Impact의 리더 1,100명 연구가 같은 방향의 결론. "AI는 이미 일상 업무에 들어왔고, 준비도는 리더의 판단과 책임에 달렸다." 응답자 절반이 L&amp;D와 HR 담당자.<span class="bar">|</span><a href="https://www.harvardbusiness.org/insight/2026-global-leadership-study/" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-07-22-hbi-2026-global-leadership-study" target="_blank" rel="noreferrer">한글 요약</a></div>
+    </div>
+  </section>
+
+  <!-- ═══ 3부 ═══ -->
+  <section id="p3">
+    <div class="sec-head"><span class="no">3부</span><h2>프로그램 적용 포인트</h2></div>
+    <p class="sec-lede">항목마다 제안을 먼저 적고, 프로그램·근거·주의는 접어두었습니다. 프로그램명과 모듈 번호는 2026 카탈로그와 모듈 맵 v0.3 기준이며, 번호 읽는 법은 부록에 있습니다.</p>
+
+    <div class="apply" id="a1">
+      <h3><span class="k">적용 1</span>AI Leader Program(팀장)에 'AI 결과물 검토' 실습을 정식으로</h3>
+      <div class="n">제안</div>
+      <p class="key">AI Leader Program(팀장)의 활용 코스에 팀원이 AI로 만든 보고서 초안을 검토하는 실습 1회를 추가합니다. 산출물은 'AI 결과물 검토 기준표' 1장.</p>
+      <p>항목은 셋. 겉만 그럴듯한 결과물을 가려내는 질문, 모두 확인할 것과 골라서 확인할 것의 구분, 팀의 주간 검토 시간.</p>
+      <p>기업 사례로 Bank of America의 규칙을 소개. AI 추천이 5회 연속 승인되면 6번째 결정은 반드시 사람이 다시 검증.</p>
+      <details class="fold"><summary>프로그램 · 근거 · 주의</summary><div class="fold-body">
+        <div class="row"><div class="lab">프로그램</div><div class="val">AI Leader Program(팀장) 'AI 업무 활용' 실습 <span class="id">WRK-01~04</span>, 정보수집과 보고서, 전략, 성과관리. 같은 프로그램 문제해결 과정의 시제품 검증 단계 <span class="id">PBL-03</span>.</div></div>
+        <div class="row q"><div class="lab">근거</div><div class="val">중간관리자에게 몰린 검증 업무. <span class="tag res">연구</span>HBR, 컨설팅사 2곳 18명 인터뷰. <a class="free" href="https://www.brianheger.com/ai-adoption-is-overloading-your-middle-managers-harvard-business-review/" target="_blank" rel="noreferrer">무료, 재게시 요약</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/middle-manager-ai-overload-workslop" target="_blank" rel="noreferrer">한글 요약</a><br>Firefox 보안 수정 월 20~30건에서 4월 423건, 최종 패치는 사람이 리뷰한 뒤 배포. <span class="tag">보도</span>Simon Willison과 Lenny's Newsletter가 전한 Mozilla 설명. <a href="https://simonwillison.net/2026/May/7/firefox-claude-mythos/" target="_blank" rel="noreferrer">원문</a> · <a href="https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year" target="_blank" rel="noreferrer">Lenny's Newsletter</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/mozilla-claude-mythos-firefox-vulnerability-detection" target="_blank" rel="noreferrer">한글 요약</a><br>1Password 수백만 줄 코드 분해 20~30% 개선, 데이터 손실을 부를 수 있는 명세 밖 문제는 에이전트가 알리기만 하고 사람이 해결. <span class="tag disc">공시</span>기업 블로그. <a href="https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/onepassword-claude-agents-monolith-refactor" target="_blank" rel="noreferrer">한글 요약</a><br>Bank of America 규칙. <span class="tag art">아티클</span>MIT Sloan MR 팟캐스트의 당사자 인터뷰. <a href="https://sloanreview.mit.edu/audio/ai-upskilling-at-scale-bank-of-americas-bernard-hampton/" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/bank-of-america-academy-ai-upskilling-200k" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+        <div class="row q"><div class="lab">주의</div><div class="val">HBR 인터뷰는 표본이 작음. Firefox와 1Password는 개발 조직 사례라 비개발 팀에는 "마지막은 사람이 본다", "모르면 AI가 알린다" 두 원칙만 가져감.</div></div>
+        <div class="row q"><div class="lab">이후 경과</div><div class="val">Firefox 사례에 쓰인 보안 특화 모델 Claude Mythos는 9월 1일 5.1판이 나왔지만, 여전히 미국 내 신뢰 접근 프로그램 참여자에게만 제공. <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-09-01-claude-fable-5-1-mythos-5-1-launch" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+      </div></details>
+    </div>
+
+    <div class="apply" id="a2">
+      <h3><span class="k">적용 2</span>실습 순서를 '먼저 시도, 그다음 AI, 마지막에 차이 말하기'로</h3>
+      <p class="tier2">이 항목은 역량육성 방법론, 곧 우리가 프로그램을 운영하는 법에 해당합니다. 적용 6의 역량 평가도 같습니다. 나머지는 학습자가 배울 내용입니다.</p>
+      <div class="n">제안</div>
+      <p class="key">AI Mini Camp와 AI Camp 실습 과제의 기본 순서를 셋으로 고정합니다. 학습자가 자기 안을 먼저 적고, AI를 쓰고, AI 안과 내 안이 어디서 왜 달랐는지 한 줄 씁니다.</p>
+      <p>실습용 AI 설정은 정답을 바로 주기보다 힌트와 되묻기를 기본값으로.</p>
+      <p>수료 확인에 "AI 없이 설명할 수 있는가" 문항 1개 추가.</p>
+      <details class="fold"><summary>프로그램 · 근거 · 주의</summary><div class="fold-body">
+        <div class="row"><div class="lab">프로그램</div><div class="val">AI Mini Camp(3~6시간 원데이 예시 실습)의 'AI 업무 활용' 실습 <span class="id">WRK-01~03</span>. AI Camp(실제 업무 문제로 시제품을 만드는 2주 집중 과정)의 프로젝트와 코칭 단계 <span class="id">PBL-03~06</span>. AI야놀자(개인 신청형 체험 과정)의 첫 사용 실습에도 같은 순서 검토.</div></div>
+        <div class="row q"><div class="lab">근거</div><div class="val">가드레일 없는 AI는 연습 48% 향상, 시험 17% 하락. <span class="tag res">연구</span>PNAS 무작위 대조 실험, 고교생 약 1,000명. <a class="free" href="https://www.pnas.org/doi/10.1073/pnas.2422633122" target="_blank" rel="noreferrer">원 논문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-tutoring-guardrails-bastani-rct" target="_blank" rel="noreferrer">한글 요약</a><br>시에라리온 수학 수업, 0.258 표준편차 향상, AI 응답 76.4%가 질문이고 직접 정답은 2.1%, 교사 훈련은 하루 5~6시간. <span class="tag res">연구</span>사전등록 무작위 대조 실험 1,763명, <span class="none">발간 주체 Google DeepMind</span>. <a class="free" href="https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf" target="_blank" rel="noreferrer">원문 PDF</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/gemini-guided-learning-sierra-leone-rct" target="_blank" rel="noreferrer">한글 요약</a><br>도움 전에 시도하게 하기. <span class="tag art">아티클</span>Hardman. <a href="https://drphilippahardman.substack.com/p/from-designing-courses-to-designing" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-apprenticeship-problem-ai-era" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+        <div class="row q"><div class="lab">주의</div><div class="val">두 실험 모두 학생 대상. 성인 직장인에게 같은 효과 크기를 기대하지 않고 순서의 원리만 가져감. 시에라리온 실험은 원래 잘하던 학생에게 효과가 더 컸음. 격차가 벌어질 수 있다는 뜻.</div></div>
+      </div></details>
+    </div>
+
+    <div class="apply" id="a3">
+      <h3><span class="k">적용 3</span>팀장 문제해결 과정에 '판단 이유 기록'을 코칭 산출물로</h3>
+      <div class="n">제안</div>
+      <p class="key">팀장과 팀원이 4주간 실제 과제를 푸는 동안, 팀장은 AI 결과물을 채택하거나 고치거나 버릴 때마다 이유 한 줄을 팀원이 볼 수 있는 곳에 남깁니다.</p>
+      <p>팀원은 AI에 묻기 전에 자기 가설과 확신 정도를 먼저 적음. 잘하는 팀원일수록 이 문턱을 높게.</p>
+      <p>결과평가에 "팀원이 AI 없이 설명할 수 있게 된 판단" 항목 추가. 트렌드 2의 이후 경과에 적은 McKinsey 정답지 모델과 같은 구조.</p>
+      <details class="fold"><summary>프로그램 · 근거 · 주의</summary><div class="fold-body">
+        <div class="row"><div class="lab">프로그램</div><div class="val">AI Leader Program(팀장) 문제해결 과정(팀장과 팀원이 4주간 실제 과제를 푸는 과정) <span class="id">PBL-01~05</span>, 그중 결과평가 <span class="id">PBL-05</span>. AI Project 실전코칭(현업 과제를 멘토와 푸는 과정)의 주 1회 멘토링 코칭 로그.</div></div>
+        <div class="row q"><div class="lab">근거</div><div class="val">사라진 도제식 학습과 네 가지 설계 원칙. <span class="tag art">아티클</span>Hardman. <a href="https://drphilippahardman.substack.com/p/from-designing-courses-to-designing" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-apprenticeship-problem-ai-era" target="_blank" rel="noreferrer">한글 요약</a><br>초급 경험이 줄면 관리자 파이프라인이 빈다. <span class="tag wp">화이트페이퍼</span>McKinsey. <a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/rethinking-early-career-talent-in-the-agentic-organization" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mckinsey-entry-level-redesign-answer-key-model" target="_blank" rel="noreferrer">한글 요약</a><br>AI 네이티브 기업의 신입 비중 약 15%p 낮음. <span class="tag res">연구</span>HBS와 INSEAD. <a class="free" href="https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf" target="_blank" rel="noreferrer">원문 PDF</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-native-firms-smaller-flatter-koning-kim" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+        <div class="row q"><div class="lab">주의</div><div class="val">네 원칙을 함께 적용한 효과는 저자 스스로 미검증이라 밝힘. 기록이 형식이 되지 않도록 한 줄 분량 유지.</div></div>
+      </div></details>
+    </div>
+
+    <div class="apply" id="a4">
+      <h3><span class="k">적용 4</span>'맡길까, 함께할까, 직접 할까' 세 질문을 문제정의 단계의 공통 도구로</h3>
+      <div class="n">제안</div>
+      <p class="key">AI Camp와 AI Leader Program(팀장) 문제해결 과정의 문제정의 단계에서 참가자가 자기 업무를 잘게 나눠 세 질문으로 분류합니다.</p>
+      <p>틀리면 되돌릴 수 있는가. 규칙이 정해진 일인가, 판단이 필요한 일인가. 사람이 그 자리에 있어야 하는가. 결과는 AI에 맡길 일, AI와 함께할 일, 직접 할 일의 세 묶음.</p>
+      <p>AI Leader Program(임원)에는 MIT Sloan의 구분을 짝으로 씀. 목표와 데이터가 분명한 '좁은 결정', 목표부터 합의해야 하는 '넓은 결정'.</p>
+      <p>컬리지 자체 업무인 과정 기획과 운영, 평가에도 먼저 적용해 봄. 원 분석이 L&amp;D 업무를 대상으로 했기 때문.</p>
+      <details class="fold"><summary>프로그램 · 근거 · 주의</summary><div class="fold-body">
+        <div class="row"><div class="lab">프로그램</div><div class="val">AI Camp 문제 정의 <span class="id">PBL-01</span>. AI Leader Program(팀장) 문제해결 과정의 문제정의 <span class="id">PBL-01</span>. AI Leader Program(임원)의 전략·판단 모듈 <span class="id">STR-02~03</span>.</div></div>
+        <div class="row q"><div class="lab">근거</div><div class="val">L&amp;D 업무 약 300개를 세 질문으로 분류, 맡김 10%, 함께 80%, 직접 10%. <span class="tag art">아티클</span>Hardman, 미국과 영국 전문서비스사 두 곳의 자체 분석. <a href="https://drphilippahardman.substack.com/p/delegate-collaborate-or-own-where" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-delegate-collaborate-own-framework" target="_blank" rel="noreferrer">한글 요약</a><br>기업 88%가 AI를 쓰지만 손익 개선은 약 40%, 좁은 결정과 넓은 결정을 구분하지 못한 탓이라는 주장. <span class="tag art">아티클</span>MIT Sloan MR, <span class="none">저자 전원 컨설팅사 LTPlabs 소속이나 자문, 수치는 McKinsey 2025 인용</span>. <a href="https://sloanreview.mit.edu/article/calibrate-ai-use-to-the-decision-at-hand/" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/calibrate-ai-narrow-vs-wide-decisions" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+        <div class="row q"><div class="lab">주의</div><div class="val">10대 80대 10 비율은 한 팀의 결과라 옮기지 않음. 절차만 씀. 규제가 강한 업무는 세 질문보다 데이터와 감사 요건을 먼저 봐야 한다고 저자가 명시.</div></div>
+      </div></details>
+    </div>
+
+    <div class="apply" id="a5">
+      <h3><span class="k">적용 5</span>AI Camp 에이전트 실습의 재료를 '참가자 자신의 수정 이력'으로</h3>
+      <div class="n">제안</div>
+      <p class="key">AI Camp 모집 안내에 코딩 경험 대신 가져올 것을 명시합니다. 자기 업무에서 사람이 고친 기록, 검토 코멘트, 판단 기준 문서.</p>
+      <p>실습의 권한 단계를 표준으로 둠. 에이전트에게 처음엔 읽기 권한만 주고, 결과를 확인한 뒤에 쓰기 권한을 넓힘.</p>
+      <p>AI일지(구성원의 AI 활용 경험을 사례로 모아 공유)의 사례 발굴 대상을 비개발 직군 전문가로 넓힘.</p>
+      <details class="fold"><summary>프로그램 · 근거 · 주의</summary><div class="fold-body">
+        <div class="row"><div class="lab">프로그램</div><div class="val">AI Camp 'AI 에이전트 설계·구축' 모듈 <span class="id">AGT-01~05</span>, 사례 카드 <span class="id">COM-01</span>. AI일지 <span class="id">COM-01</span>. CDS / Guided Project / AI Learn X 상시경연(자기주도 온라인 프로젝트)의 <span class="id">AGT-01~05</span>.</div></div>
+        <div class="row q"><div class="lab">근거</div><div class="val">회계사 수정 이력으로 나아지는 세무 AI, 수정 없는 초안 97%, 처리량 50% 증가. <span class="tag disc">공시</span>OpenAI, 7,000건. <a href="https://openai.com/index/building-self-improving-tax-agents-with-codex/" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/openai-thrive-tax-ai-self-improving" target="_blank" rel="noreferrer">한글 요약</a><br>마케터의 세컨드 브레인, 읽기 전용 먼저. <span class="tag art">아티클</span><span class="none">본인 주장</span>. <a href="https://searchengineland.com/claude-code-powered-second-brain-agency-work-479879" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/charlie-clark-claude-code-second-brain-agency" target="_blank" rel="noreferrer">한글 요약</a><br>비개발 직군도 같은 속도, 성과는 업무 경험이 가름. <span class="tag art">아티클</span>이 전한 <span class="tag res">연구</span>Mollick. <a href="https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots" target="_blank" rel="noreferrer">원문</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/twilight-of-chatbots-agent-management-shift" target="_blank" rel="noreferrer">한글 요약</a></div></div>
+        <div class="row q"><div class="lab">주의</div><div class="val">Thrive는 OpenAI와 6개월 공동 개발한 사례라 교육 과정 안에서 재현할 수준이 아님. 가져올 것은 "전문가의 수정 기록이 AI의 재료"라는 설계 원리.</div></div>
+      </div></details>
+    </div>
+
+    <div class="apply" id="a6">
+      <h3><span class="k">적용 6</span>짧게. 거버넌스, 벤더 발표 읽기, 역량 평가</h3>
+      <div class="row"><div class="lab">거버넌스</div><div class="val">모든 AI에 같은 승인 절차를 거는 대신 위험 유형별로 통제를 달리하고, 통제를 업무 흐름 안에 넣는 방식. Microsoft, Barclays, Nasdaq 등 7개 조직 고위 리더를 2022~2025년 인터뷰하고 금융기관 40곳 이상으로 교차 검증. CEO/C-Level 과정과 AI Leader Program(임원)의 AX 리더십 모듈(<span class="id">AX-01~03</span>)에서 "우리 사내 AI 승인 절차는 일률인가"를 묻는 토의 자료로.<div class="src"><span class="tag res">연구</span>MIT Sloan MR, 인터뷰 기반 · <span class="none">정량 성과 없음</span><span class="bar">|</span><a href="https://sloanreview.mit.edu/article/scaling-ai-with-adaptive-governance/" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mit-sloan-adaptive-ai-governance-seven-companies" target="_blank" rel="noreferrer">한글 요약</a></div></div></div>
+      <div class="row"><div class="lab">벤더 발표</div><div class="val">Google이 "에이전트 팀이 프롬프트 한 번, 약 900달러로 운영체제를 만들었다"고 발표. 검증해 보니 그 프롬프트는 수천 줄이었고, 사람 개입 기준과 재시도 횟수, 코드 출처가 공개되지 않았음. 비용과 토큰 수를 공개한 점은 긍정 평가. CEO/C-Level 과정의 Red Team 검토 활동에서 벤더 주장 점검표로.<div class="src"><span class="tag art">아티클</span>AI as Normal Technology · <span class="none">Google 원 발표 직접 대조는 안 함</span><span class="bar">|</span><a href="https://www.normaltech.ai/p/did-googles-ai-agents-really-build" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/google-antigravity-agent-claim-scrutiny" target="_blank" rel="noreferrer">한글 요약</a></div></div></div>
+      <div class="row"><div class="lab">역량 평가</div><div class="val">역량육성 방법론 항목. AI 음성 에이전트가 제출물을 읽고 10~15분 구술로 캐묻는 평가를 1인당 약 0.40달러에 운영, 신뢰도 계수 0.75~0.80으로 에세이 채점의 통상 0.50보다 높았다는 보고. 과정 제출은 "AI 제안에 반박한 순간 하나를 설명하라"처럼 채점할 수 있게 물음. SKADA(AI·데이터 역량 인증 제도)의 역량 진단 모듈(<span class="id">CAP-01</span>) 파일럿 후보.<div class="src"><span class="tag art">아티클</span>Hardman이 인용한 연구 · <span class="none">원 연구 미대조</span><span class="bar">|</span><a href="https://drphilippahardman.substack.com/p/the-quiet-reinvention-of-assessment" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-assessment-reinvention-ai-era" target="_blank" rel="noreferrer">한글 요약</a></div></div></div>
+    </div>
+
+    <div class="ask">
+      <div class="n">판단을 요청드립니다</div>
+      <ol>
+        <li>
+          <p class="key">AI Leader Program(팀장)에 'AI 결과물 검토 기준표'와 '판단 이유 기록'을 정식 산출물로 넣을지 <a class="goto" href="#a1">적용 1 ↑</a> <a class="goto" href="#a3">적용 3 ↑</a></p>
+          <p>검토 기준표는 팀원이 AI로 만든 결과물을 검토하는 도구입니다. 판단 이유 기록은 문제해결 과정에서 팀장이 AI 안을 채택하거나 고친 이유를 남기는 도구입니다.</p>
+          <p class="dim">둘 다 팀장을 검토자이자 교사로 세우는 장치입니다.</p>
+        </li>
+        <li>
+          <p class="key">AI Mini Camp와 AI Camp 실습의 기본 순서를 "먼저 시도, 그다음 AI, 마지막에 차이 설명"으로 표준화할지 <a class="goto" href="#a2">적용 2 ↑</a></p>
+          <p>학습자가 자기 안을 먼저 적고, AI를 쓰고, 둘이 어디서 왜 달랐는지 한 줄 씁니다.</p>
+          <p class="dim">결과물만 남고 실력은 남지 않는 실습을 막는 장치입니다.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ═══ 참고 ═══ -->
+  <section class="aside-sec flow-in" id="aside">
+    <div class="sec-head"><span class="no">참고</span><h2>AI로 인한 전통적 교육의 변화</h2></div>
+    <p class="sec-lede">우리 조직의 주 관심사가 아닙니다. 5~6월 학교에서 벌어진 정책과 비용, 평가의 변화를 흐름 파악용으로만 실었습니다.</p>
+    <details class="fold"><summary>5건 보기</summary><div class="fold-body">
+      <ul class="ev">
+        <li>정책은 늘었는데 교사에게 닿지 않음. 미국 학교구의 AI 가이드라인 보유가 57%에서 79%로. 교사 82%는 공식 가이던스를 받은 적 없음.<div class="src"><span class="tag wp">화이트페이퍼</span>CoSN 학교구 기술책임자 약 600명 서베이와 Gallup 조사<span class="bar">|</span><a href="https://www.edsurge.com/news/2026-06-02-report-school-it-officials-worried-about-ai-adoption-cybersecurity" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/cosn-2026-state-of-edtech-ai-adoption-guidance-gap" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>정책 문서보다 대화가 먼저라는 제안. 교사용과 학생용 질문 세트 공개. 학생 약 3분의 1만 자기 학교에 전교 AI 정책이 있다고 인식.<div class="src"><span class="tag art">아티클</span>교육단체 대표 기고<span class="bar">|</span><a href="https://www.edsurge.com/news/2026-06-03-what-to-do-about-ai-begin-by-talking-about-it" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/school-ai-policy-conversation-first-framework" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>AI를 전교에 까는 비용. 쓸 때마다 추론 비용이 들어 전통 소프트웨어와 달리 규모가 커져도 싸지지 않음. 학생 데이터 통제권을 높일수록 비용도 오름.<div class="src"><span class="tag art">아티클</span>EdSurge 기자 리서치<span class="bar">|</span><a href="https://www.edsurge.com/news/can-schools-afford-an-ai-first-future" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/school-ai-total-cost-infrastructure" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>교사가 만든 AI 채점 도구에서 "검토 없이 학생에게 자동 발송" 기능을 사고 뒤 삭제하고 모든 성적을 교사가 확인. "AI는 판단을 제안할 수 있어도 소유할 수는 없다."<div class="src"><span class="tag art">아티클</span>교사 기고 · <span class="none">정량 성과 없음</span><span class="bar">|</span><a href="https://edsurge.com/news/i-built-an-ai-grading-tool-then-a-student-thanked-me-for-words-i-didnt-write" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/edsurge-teacher-ai-grading-review-dashboard" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+        <li>학습용 AI 모드가 계약 기관 쪽으로. ChatGPT의 Study Mode가 2026년 봄 표준 화면에서 빠지고 기관 계약에만 남았다는 보도. 에스토니아는 "손글씨 먼저, AI는 나중" 원칙.<div class="src"><span class="tag art">아티클</span>EdSurge 오피니언 · <span class="none">원 기사 미대조</span><span class="bar">|</span><a href="https://edsurge.com/news/ai-wont-replace-educators-but-it-is-changing-how-students-learn" target="_blank" rel="noreferrer">원문</a><span class="dot">·</span><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-tutoring-cognitive-surrender-vs-scaffolding" target="_blank" rel="noreferrer">한글 요약</a></div>
+          <div class="src"><b>이후 경과</b>. 8월 18일 OpenAI가 13~17세용 ChatGPT for Teens를 내며 Study Mode를 기본 학습 기능으로 다시 앞세움.<span class="bar">|</span><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-18-openai-chatgpt-for-teens" target="_blank" rel="noreferrer">한글 요약</a></div></li>
+      </ul>
+      <p style="margin-top:18px">우리에게 남는 한 줄. 교사의 채점 도구가 도달한 원칙은 적용 1의 검토 기준표와 같은 방향입니다. AI가 초안을 내고, 사람이 확인한 것만 밖으로 나갑니다.</p>
+    </div></details>
+  </section>
+
+  <!-- ═══ 추적 ═══ -->
+  <section id="watch">
+    <div class="sec-head"><span class="no">추적</span><h2>추적 항목과 이후 경과</h2></div>
+    <p class="sec-lede">5~6월 자료에서 결론이 나지 않았던 것들이 9월 10일 위키 기준으로 어떻게 됐는지 적습니다.</p>
+    <ul class="plain" style="margin-top:20px">
+      <li>McKinsey 초급 인재 진단의 후속 처방. → 7월 14일 정답지 모델 발표. 트렌드 2 참고.</li>
+      <li>Kyndryl의 "준비도 하락"이 다른 표본에서도 나오는지. → 7월 22일 Harvard Business Impact 리더 1,100명 연구가 같은 방향. 시사점 04 참고.</li>
+      <li>Exponential View가 말한 정체를 푸는 처방, 유료 구간. → 9월 10일 기준 미확인. 같은 매체가 7월 30일 'J커브' 글로 후속. 성공한 도입과 실패한 도입이 초기엔 똑같아 보인다는 논지. <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-adoption-j-curve" target="_blank" rel="noreferrer">한글 요약</a></li>
+      <li>MIT Sloan "AI 투자수익을 재는 세 가지 접근법"의 구체 내용. → 9월 10일 기준 여전히 본문 미확보. <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mit-sloan-three-approaches-ai-roi" target="_blank" rel="noreferrer">한글 요약</a></li>
+      <li>GPT-5.6 제한 프리뷰. 6월 26일 미국 정부 요청으로 약 20개 파트너 조직에만 공개. → 7월 9일 전면 정식 출시, 7월 말 경량 모델 가격 인하. <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-06-26-openai-gpt-5-6-preview" target="_blank" rel="noreferrer">프리뷰 한글 요약</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-07-09-openai-gpt-5-6-launch" target="_blank" rel="noreferrer">정식 출시 한글 요약</a></li>
+      <li>Ethan Mollick 신간 『Co-Existence』 10월 20일 출간 예고. → 9월 10일 기준 위키에 변경 기록 없음. <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mollick-co-existence-book-announcement" target="_blank" rel="noreferrer">한글 요약</a></li>
+    </ul>
+  </section>
+
+  <!-- ═══ 부록 ═══ -->
+  <section id="appx">
+    <div class="sec-head"><span class="no">부록</span><h2>근거 페이지·출처·링크</h2></div>
+    <p class="sec-lede">본체(1~3부)의 근거입니다. 참고 섹션의 근거 5건은 해당 섹션 안에 링크를 달았습니다.</p>
+    <details class="fold" style="max-width:none"><summary>근거 표 18행 보기</summary>
+    <div class="tbl" style="margin-top:12px">
+      <table>
+        <thead><tr><th>위키 페이지 (한글 요약)</th><th>출처 유형</th><th>실증 데이터</th><th>원문</th><th>무료 대체</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-coding-bottleneck-shifts-review-not-writing" target="_blank" rel="noreferrer">ai-coding-bottleneck-shifts-review-not-writing</a></td><td><span class="tag res">연구</span>NBER</td><td>개발자 10만 명+ 사용 기록, 커밋 +180% · 릴리스 +30%</td><td><a href="https://www.nber.org/papers/w35275" target="_blank" rel="noreferrer">NBER #35275</a></td><td>원문 무료 · <a href="https://mitsloan.mit.edu/ideas-made-to-matter/ai-boosts-worker-productivity-does-translate-to-final-outputs" target="_blank" rel="noreferrer">MIT Sloan 소개</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-roi-three-stage-ladder-congestion" target="_blank" rel="noreferrer">ai-roi-three-stage-ladder-congestion</a></td><td><span class="tag art">아티클</span>뉴스레터</td><td>임원 27% ROI 충족 (설문 방법 미상)</td><td><a href="https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line" target="_blank" rel="noreferrer">Exponential View 05-27</a></td><td>무료 구간</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noreferrer">why-ai-hasnt-replaced-software-engineers</a></td><td><span class="tag art">아티클</span>normaltech</td><td>없음 (프레임·사례 재검증)</td><td><a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers" target="_blank" rel="noreferrer">AI as Normal Technology 06-11</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/middle-manager-ai-overload-workslop" target="_blank" rel="noreferrer">middle-manager-ai-overload-workslop</a></td><td><span class="tag res">연구</span>질적</td><td>컨설팅사 2곳 18명 인터뷰</td><td><a href="https://hbr.org/2026/06/ai-adoption-is-overloading-your-middle-managers" target="_blank" rel="noreferrer">HBR 06-27 (페이월)</a></td><td><a class="free" href="https://www.brianheger.com/ai-adoption-is-overloading-your-middle-managers-harvard-business-review/" target="_blank" rel="noreferrer">재게시 요약</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-apprenticeship-problem-ai-era" target="_blank" rel="noreferrer">ld-apprenticeship-problem-ai-era</a></td><td><span class="tag art">아티클</span>Hardman</td><td>없음 (학습과학 문헌 인용, 원 연구 미대조)</td><td><a href="https://drphilippahardman.substack.com/p/from-designing-courses-to-designing" target="_blank" rel="noreferrer">Hardman 06-25</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mckinsey-entry-level-redesign-answer-key-model" target="_blank" rel="noreferrer">mckinsey-entry-level-redesign-answer-key-model</a></td><td><span class="tag wp">화이트페이퍼</span>McKinsey 블로그</td><td>직무 75% 재설계 추정 (원문 접속 실패, 2차 교차)</td><td><a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-organization-blog/rethinking-early-career-talent-in-the-agentic-organization" target="_blank" rel="noreferrer">McKinsey 05-18</a> · <a href="https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/building-expertise-in-the-age-of-ai-who-trains-the-next-generation" target="_blank" rel="noreferrer">07-14</a></td><td>—</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-native-firms-smaller-flatter-koning-kim" target="_blank" rel="noreferrer">ai-native-firms-smaller-flatter-koning-kim</a></td><td><span class="tag res">연구</span>HBS·INSEAD</td><td>YC·미국 벤처 스타트업 비교, 신입 비중 약 −15%p</td><td><a href="https://www.hbs.edu/ris/Publication%20Files/26-090_96f92aa0-37d9-4789-beaa-5c0cb87a4032.pdf" target="_blank" rel="noreferrer">HBS WP 26-090</a></td><td><a href="https://www.exponentialview.co/p/ev-579" target="_blank" rel="noreferrer">Exponential View #579</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-tutoring-guardrails-bastani-rct" target="_blank" rel="noreferrer">ai-tutoring-guardrails-bastani-rct</a></td><td><span class="tag res">연구</span>PNAS RCT</td><td>고교생 약 1,000명, 연습 +48% · 시험 −17%</td><td><a href="https://www.pnas.org/doi/10.1073/pnas.2422633122" target="_blank" rel="noreferrer">PNAS</a></td><td><a href="https://www.oneusefulthing.org/p/choosing-to-stay-human" target="_blank" rel="noreferrer">Mollick</a> · <a href="https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates" target="_blank" rel="noreferrer">Hardman</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/twilight-of-chatbots-agent-management-shift" target="_blank" rel="noreferrer">twilight-of-chatbots-agent-management-shift</a></td><td><span class="tag art">아티클</span>이 전한 <span class="tag res">연구</span></td><td>OpenAI 직원 1/4 주간 에이전트 4개+ (표본 미상)</td><td><a href="https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots" target="_blank" rel="noreferrer">One Useful Thing 06-30</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/openai-thrive-tax-ai-self-improving" target="_blank" rel="noreferrer">openai-thrive-tax-ai-self-improving</a></td><td><span class="tag disc">공시</span>OpenAI</td><td>30여 회계법인 7,000건, 초안 97% · 처리량 +50%</td><td><a href="https://openai.com/index/building-self-improving-tax-agents-with-codex/" target="_blank" rel="noreferrer">OpenAI</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/charlie-clark-claude-code-second-brain-agency" target="_blank" rel="noreferrer">charlie-clark-claude-code-second-brain-agency</a></td><td><span class="tag art">아티클</span>실무자 기고</td><td>본인 주장: 45분→1분, 30분→30초</td><td><a href="https://searchengineland.com/claude-code-powered-second-brain-agency-work-479879" target="_blank" rel="noreferrer">Search Engine Land</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/zao-sanders-ai-in-the-wild-2026" target="_blank" rel="noreferrer">zao-sanders-ai-in-the-wild-2026</a></td><td><span class="tag art">아티클</span>HBR 기고</td><td>상대 순위만 확인 (수치·표본 미상)</td><td><a href="https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026" target="_blank" rel="noreferrer">HBR 06-01 (페이월)</a></td><td><a class="free" href="https://marczaosanders.com/wild/" target="_blank" rel="noreferrer">저자 리서치 사이트</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-06-25-kyndryl-people-readiness-report" target="_blank" rel="noreferrer">2026-06-25-kyndryl-people-readiness-report</a></td><td><span class="tag wp">화이트페이퍼</span>Kyndryl · 이해관계</td><td>8개국 리더 1,100명, 배포 57% · 준비도 23%</td><td><a href="https://www.kyndryl.com/gb/en/about-us/news/2026/06/ai-adoption-workforce-readiness" target="_blank" rel="noreferrer">Kyndryl 06-25</a></td><td><a class="free" href="https://www.kyndryl.com/content/dam/kyndrylprogram/doc/en/2026/people-readiness-report.pdf" target="_blank" rel="noreferrer">리포트 PDF</a></td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/gemini-guided-learning-sierra-leone-rct" target="_blank" rel="noreferrer">gemini-guided-learning-sierra-leone-rct</a></td><td><span class="tag res">연구</span>RCT · 발간 Google DeepMind</td><td>1,763명 · 48개 교실, +0.258 SD</td><td><a href="https://storage.googleapis.com/deepmind-media/LearnLM/learnLM_sierraleone_may26.pdf" target="_blank" rel="noreferrer">DeepMind PDF</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/mozilla-claude-mythos-firefox-vulnerability-detection" target="_blank" rel="noreferrer">mozilla-claude-mythos-firefox-vulnerability-detection</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/onepassword-claude-agents-monolith-refactor" target="_blank" rel="noreferrer">onepassword-claude-agents-monolith-refactor</a></td><td><span class="tag">보도</span><span class="tag disc">공시</span></td><td>Firefox 월 20~30건→423건 / 1Password 20~30% 개선</td><td><a href="https://simonwillison.net/2026/May/7/firefox-claude-mythos/" target="_blank" rel="noreferrer">Simon Willison</a> · <a href="https://1password.com/blog/what-we-learned-using-ai-agents-to-refactor-a-monolith" target="_blank" rel="noreferrer">1Password</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/use-cases/bank-of-america-academy-ai-upskilling-200k" target="_blank" rel="noreferrer">bank-of-america-academy-ai-upskilling-200k</a></td><td><span class="tag art">아티클</span>당사자 인터뷰</td><td>20만 명 대상, 독립 검증 없음</td><td><a href="https://sloanreview.mit.edu/audio/ai-upskilling-at-scale-bank-of-americas-bernard-hampton/" target="_blank" rel="noreferrer">MIT Sloan MR 팟캐스트</a></td><td>전문 트랜스크립트</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-delegate-collaborate-own-framework" target="_blank" rel="noreferrer">ld-delegate-collaborate-own-framework</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/calibrate-ai-narrow-vs-wide-decisions" target="_blank" rel="noreferrer">calibrate-ai-narrow-vs-wide-decisions</a></td><td><span class="tag art">아티클</span></td><td>업무 300개 10:80:10 (두 기업) / 88% 사용 · 약 40% 성과 (McKinsey 2025 인용)</td><td><a href="https://drphilippahardman.substack.com/p/delegate-collaborate-or-own-where" target="_blank" rel="noreferrer">Hardman 05-28</a> · <a href="https://sloanreview.mit.edu/article/calibrate-ai-use-to-the-decision-at-hand/" target="_blank" rel="noreferrer">MIT Sloan MR 05-06</a></td><td>원문 무료</td></tr>
+          <tr><td><a href="https://ai-radar-web-five.vercel.app/wiki/concepts/mit-sloan-adaptive-ai-governance-seven-companies" target="_blank" rel="noreferrer">mit-sloan-adaptive-ai-governance-seven-companies</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/google-antigravity-agent-claim-scrutiny" target="_blank" rel="noreferrer">google-antigravity-agent-claim-scrutiny</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ld-assessment-reinvention-ai-era" target="_blank" rel="noreferrer">ld-assessment-reinvention-ai-era</a></td><td><span class="tag res">연구</span><span class="tag art">아티클</span></td><td>7개 조직 인터뷰 / 검증 6항목 / 원 연구 미대조</td><td><a href="https://sloanreview.mit.edu/article/scaling-ai-with-adaptive-governance/" target="_blank" rel="noreferrer">MIT Sloan MR 06-02</a> · <a href="https://www.normaltech.ai/p/did-googles-ai-agents-really-build" target="_blank" rel="noreferrer">normaltech 05-22</a> · <a href="https://drphilippahardman.substack.com/p/the-quiet-reinvention-of-assessment" target="_blank" rel="noreferrer">Hardman 06-18</a></td><td>원문 무료</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="dim" style="margin-top:14px">이후 경과에 쓴 페이지: <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-07-22-hbi-2026-global-leadership-study" target="_blank" rel="noreferrer">2026-07-22-hbi-2026-global-leadership-study</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-12-claude-cowork-chrome-integration" target="_blank" rel="noreferrer">2026-08-12-claude-cowork-chrome-integration</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-20-claude-academy-launch" target="_blank" rel="noreferrer">2026-08-20-claude-academy-launch</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-09-01-claude-fable-5-1-mythos-5-1-launch" target="_blank" rel="noreferrer">2026-09-01-claude-fable-5-1-mythos-5-1-launch</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-08-18-openai-chatgpt-for-teens" target="_blank" rel="noreferrer">2026-08-18-openai-chatgpt-for-teens</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/concepts/ai-adoption-j-curve" target="_blank" rel="noreferrer">ai-adoption-j-curve</a> · <a href="https://ai-radar-web-five.vercel.app/wiki/updates/2026-07-09-openai-gpt-5-6-launch" target="_blank" rel="noreferrer">2026-07-09-openai-gpt-5-6-launch</a></p>
+    </details>
+
+    <h4>프로그램·모듈 ID 읽는 법</h4>
+    <p class="dim">본문의 WRK-01 같은 표기는 우리 컬리지의 학습 모듈 번호입니다. 앞 글자가 계열, 뒤 숫자가 순번입니다. 계열의 뜻은 모듈 맵 v0.3의 활동 설명에서 정리한 것이며, 모듈 정의 파일은 아직 위키에 반입되지 않았습니다.</p>
+    <div class="tbl">
+      <table class="defs">
+        <thead><tr><th>계열</th><th>뜻</th><th>본문에 나온 예</th></tr></thead>
+        <tbody>
+          <tr><td>AX</td><td>AI 전환(AX) 리더십. 경영 Agenda를 AI 관점에서 다시 읽기</td><td>AX-01~03</td></tr>
+          <tr><td>STR</td><td>전략·판단. AI를 어디에 적용할지 판단, 정보수집·전략</td><td>STR-02~03</td></tr>
+          <tr><td>WRK</td><td>AI 업무 활용. 비즈니스 프롬프트, 워크플로우, 리서치·보고서, AI 비서</td><td>WRK-01~04</td></tr>
+          <tr><td>AGT</td><td>AI 에이전트 설계·구축. 역할 설계, 도구 연결, 통제(사람 개입) 설계, 여러 에이전트 운용</td><td>AGT-01~05</td></tr>
+          <tr><td>PBL</td><td>문제해결 프로젝트. 과제 정의, KPI·데이터·보안 점검, 시제품 검증, 적용계획, 결과평가</td><td>PBL-01, PBL-03, PBL-05</td></tr>
+          <tr><td>COM</td><td>사례 공유·커뮤니티. 검증된 활용 사례를 카드로 만들어 확산</td><td>COM-01</td></tr>
+          <tr><td>CAP</td><td>역량 진단·인증. 현재 수준 진단과 학습경로 설계</td><td>CAP-01 (SKADA)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>이 문서를 읽는 법</h4>
+    <div class="howto">
+      <b>출처 유형</b>. 등급을 매기는 대신 그 정보가 어디서 나왔는지를 표시합니다. 실증 데이터가 있으면 표본·기간·측정 방법을 그 자리에 적었고, 없으면 붉은 글씨로 없다고 썼습니다.
+      <div class="row2">
+        <span><span class="tag res">연구</span>대학·연구기관의 실험·조사</span>
+        <span><span class="tag wp">화이트페이퍼</span>컨설팅사·벤더 리포트</span>
+        <span><span class="tag art">아티클</span>전문가 기고·뉴스레터</span>
+        <span><span class="tag">보도</span>언론 기사</span>
+        <span><span class="tag disc">공시</span>기업 IR·공식 발표</span>
+      </div>
+      <div style="margin-top:12px"><b>링크</b>. <b>원문</b>은 영문 1차 출처, <b style="color:var(--red)">무료</b>는 페이월 없이 읽을 수 있는 원 리포트·재게시 요약·저자 사이트(붉은 링크), <b>한글 요약</b>은 AI Radar 위키의 한국어 정리입니다(<code>ai-radar-web-five.vercel.app</code>, 공유 암호 필요).</div>
+      <div style="margin-top:12px"><b>이후 경과</b>. 이 호는 2026년 9월 10일에 5~6월 자료로 소급 제작했습니다. 그 사이 결과가 달라진 사실은 해당 근거 바로 아래에 따로 적었습니다.</div>
+    </div>
+
+    <h4>이 호에서 확인하지 못한 것</h4>
+    <ul class="plain">
+      <li>Exponential View "임원 27% ROI 충족" 설문의 표본·방법, 정체를 푸는 처방(유료 구간).</li>
+      <li>Mollick이 전한 OpenAI 사내 연구와 Claude Code 사용자 연구의 표본·측정 시점.</li>
+      <li>Hardman이 인용한 개별 연구(26,811명 연구, "오류 발견 9배", 구술평가 신뢰도 0.75~0.80 등)의 원문.</li>
+      <li>McKinsey 5월 18일 글의 원문 직접 확인(접속 실패로 2차 인용 교차 확인), 저자 개인명.</li>
+      <li>HBR 페이월 본문 2건(중간관리자, AI in the Wild). 재게시 요약·저자 사이트로 확인한 범위만 인용.</li>
+      <li>HBS 워킹페이퍼의 위계 측정 방법, AI in the Wild 2026년판 수치·표본.</li>
+      <li>Thrive 세무 AI·Charlie Clark·Firefox 사례의 비용, Kyndryl 문항 설계.</li>
+      <li>카탈로그 모듈 ID의 정의 파일(<code>course-modules.json</code>). 미반입. 본 호의 모듈 인용은 모듈 맵 v0.3의 활동·산출물 설명 기준.</li>
+    </ul>
+  </section>
+
+  <footer class="foot">
+    <span>AI Radar · outputs/insight-report/2026-07.md · 2026-09-10 소급 제작</span>
+    <span>다음 호 2026-08</span>
+  </footer>
+</div>
